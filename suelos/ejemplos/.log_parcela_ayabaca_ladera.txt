@@ -1,0 +1,1 @@
+parcela_ayabaca_ladera: 59 filas -> /workspace/piura-agro/suelos/ejemplos/parcela_ayabaca_ladera.csv | estimado=46, desconocido=7, observado=6

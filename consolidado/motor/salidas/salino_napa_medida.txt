@@ -1,0 +1,153 @@
+MOTOR DE ROTACIÓN v1 · zona climática Bajo Piura (11.2 km) · escenario el_nino_fuerte_extraordinario (3 años: 1983, 1998, 2016)
+Parcela -5.505, -80.795 · área 1.50 ha · ECe 8.50 dS/m · ECw desconocido (dS/m) · pH desconocido (pH) · drenaje desconocido · anterior desconocido · siembra mes 1
+Zona CONTRATO: bajo_piura (inferida de la zona climática más cercana (Bajo Piura); Alto y Medio Piura no tienen celda propia: si la parcela está allí, indique parcela.zona o parcela.distrito) · pendiente usada 0.0–2.6 %
+
+3 de 14 cultivos anuales pasan los filtros duros. Primero en el orden: algodon. 1 de los aceptados son PROBABLEMENTE NO APTOS (no se descartan porque el umbral no se puede aplicar como exacto; van al final del orden): arveja. Sin datos suficientes para decidir (no se recomiendan): frijol de palo.
+AVISOS:
+ * Pendiente de la parcela desconocida: se usa la de la zona bajo_piura (predicción DEM 30 m) 0–2.6 % (mediana 0.3–0.8 %); mida la pendiente de su parcela
+ * Contexto ICEN (aviso, no regla): Evento en curso 2026-27: el ICEN oficial (met.igp.gob.pe/datos/ICEN.txt, leído el 24-oct-2026) da 3,98 en agosto de 2026, sobre el umbral extraordinario (3,5); ENFEN mantiene la Alerta de El Niño Costero (Comunicado Oficial 18-2026, 16-oct-2026; el PDF no se pudo leer desde la caja). Este escenario no es teórico para la campaña 2026-27. [fuente: notas del escenario el_nino_fuerte_extraordinario en lluvia_zona_pisco.csv de Piura Datos]
+ * Agua de pozo en bajo_piura: 1 lectura(s) de tesis con CE 0.13–1.12 dS/m (estación desconocida; Bajo Piura). Solo cuenta si riega con pozo
+ * Contexto regional medio_bajo_piura: CE del agua subterránea (solo si riega con pozo) 0.04–16.83 dS/m [regional, ANA 2015, Evaluación de recursos hídricos en la cuenca Piura]; no reemplaza el dato de su parcela
+ * Costo análogo externo (otra región o especie) en: frijol verde, caupi, papaya. Su rango se amplió a ×1/2–×2 (supuesto del motor) y el margen es más incierto; no es costo de Piura
+
+1. ALGODON (Malvaceae) · advertencias 4 · no evaluables 5
+   Duración: 170–250 días [analogo_externo]
+   Riego neto por etapa: inicial 0–100 mm | desarrollo 0–444 mm | media 99–400 mm | final 122–298 mm
+   Riego neto ciclo: 2 215–12 417 m3/ha · bruto: desconocido (m3/ha)
+   Absorción N/P2O5/K2O: 39–207 kg/ha / 26–140 kg/ha / 48–255 kg/ha
+   Exportación N/P2O5/K2O: 39–207 kg/ha / 13–71 kg/ha / 32–172 kg/ha
+   Rendimiento: 0.90–4.79 t/ha [prediccion] · precio 2.61–6.31 PEN/kg · costo 3 649–5 132 PEN/ha [bibliografico] · margen -2 779–26 573 PEN/ha [P10 950 · P50 7 642 · P90 16 852 PEN/ha · P(margen<0) 5 %]
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha desconocido (dS/m); balance P2O5 acumulado -71.4–-13.4 kg/ha; balance K2O acumulado -171.9–-32.4 kg/ha
+   [!] salinidad: ECe medida 8.5 dS/m supera el umbral sin pérdida (7.7 dS/m); rendimiento relativo 0.96 fracción
+   [?] drenaje: drenaje desconocido
+   [?] agua: agua disponible por mes desconocida
+   [?] sanidad: cultivo anterior y plagas presentes desconocidos
+   [!] calendario: exceso de agua con la lluvia PISCOp del escenario el_nino_fuerte_extraordinario (mes 1: lluvia mediana 260 mm > ET0 170 mm; mes 3: lluvia mediana 219 mm > ET0 166 mm) y drenaje desconocido: riesgo de anegamiento. Pérdida por anegamiento citada para algodon: pérdida media 59.95 % promedio de duraciones de hasta 15 días (Tian et al. 2021, analogo_externo, AN0458); ciclo 170–250 días puede exceder el horizonte de 6 meses; siembra en mes 1 a un mes de lo observado en bajo_piura (siembra observada mar-may / feb-jul; cosecha observada nov-dic / oct-dic (algodon (Pima), algodon (no Pima); 2016-2024 (9 campañas calendario); confianza 0.6)); ventana observada, no recomendación; mes 2: día más caluroso (POWER Tmax_max_C) 35.0–38.2 °C alcanza límite absoluto EcoCrop TMAX 38.0 °C; media de las máximas PISCOt 32.1–33.3 °C; mes 3: día más caluroso (POWER Tmax_max_C) 33.8–38.5 °C alcanza límite absoluto EcoCrop TMAX 38.0 °C; media de las máximas PISCOt 32.1–33.4 °C; mes 8: día más caluroso (POWER Tmax_max_C) 33.8–40.8 °C alcanza límite absoluto EcoCrop TMAX 38.0 °C; media de las máximas PISCOt 25.8–28.1 °C
+   [?] pH: pH de la parcela desconocido
+   [!] profundidad: profundidad efectiva 0.00–2.70 m puede quedar bajo la mínima apta 0.5 m (mínima apta 0.5 m, favorable ≥ 1.5 m) (profundidad física desconocida: efectiva entre 0 y napa − franja capilar (2.70 m))
+   [?] presupuesto: no evaluable: falta presupuesto
+   [!] normas: [R4R003] alerta de Niño costero, parcela inundable (bajo_piura) y cultivo en campo entre enero y abril: riesgo alto de pérdida (FEN 2017 en Piura: 8733 ha perdidas, 15342 ha afectadas; probabilidad para esta parcela desconocida); [R4A002] mes 1 dentro de la ventana legal de Pima en bajo_piura (Pima 1 ene - 28 feb; híbridos 15 mar - 30 abr); [R4S001] rastrojo de algodón se retira/destruye por norma: no aporta al suelo
+   Datos que pueden cambiar la recomendación: ECw del agua de riego; drenaje de la parcela; agua de riego disponible por mes (m3); cultivo anterior; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); duración del anegamiento en El Niño (R4A024: INDECI no publica cuántos días quedó el agua; sin ella la pérdida no se aplica al margen); pH de la parcela; profundidad física del suelo
+
+2. CAUPI (Fabaceae) · advertencias 4 · no evaluables 5
+   Duración: 80–100 días [regional]
+   Riego neto por etapa: inicial 0–51 mm | desarrollo 0–139 mm | media 0–200 mm | final 0–104 mm
+   Riego neto ciclo: 0–4 933 m3/ha · bruto: desconocido (m3/ha)
+   Absorción N/P2O5/K2O: 74–171 kg/ha / 14–32 kg/ha / 62–144 kg/ha
+   Exportación N/P2O5/K2O: 24–202 kg/ha / 6–40 kg/ha / 14–162 kg/ha
+   Rendimiento: 0.72–1.68 t/ha [prediccion] · precio 1.60–3.69 PEN/kg · costo 1 624–6 497 PEN/ha [analogo_externo] · margen -5 342–4 564 PEN/ha [P10 -3 266 · P50 -982 · P90 1 341 PEN/ha · P(margen<0) 70 %]
+   Deja en el suelo: residuo N 18.2–146.9 kg/ha; residuo P2O5 0.0–25.4 kg/ha; residuo K2O 29.6–129.7 kg/ha; leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha desconocido (dS/m); balance P2O5 acumulado -40.4–-6.4 kg/ha; balance K2O acumulado -161.9–-13.9 kg/ha
+   [!] salinidad: ECe medida 8.5 dS/m supera el umbral sin pérdida (4.9 dS/m); rendimiento relativo 0.57 fracción
+   [?] drenaje: drenaje desconocido
+   [?] agua: agua disponible por mes desconocida
+   [?] sanidad: cultivo anterior y plagas presentes desconocidos
+   [!] calendario: exceso de agua con la lluvia PISCOp del escenario el_nino_fuerte_extraordinario (mes 1: lluvia mediana 260 mm > ET0 170 mm; mes 3: lluvia mediana 219 mm > ET0 166 mm) y drenaje desconocido: riesgo de anegamiento; siembra en mes 1 FUERA de las ventanas observadas en bajo_piura (siembra observada mar; ago-set; cosecha observada jun; nov-dic (frijol caupi; 2016-2024 (9 campañas calendario); confianza 0.6)): poca experiencia local en ese mes; no es un descarte ni una recomendación
+   [?] pH: pH de la parcela desconocido
+   [!] profundidad: profundidad efectiva 0.00–2.70 m puede quedar bajo la mínima apta 0.2 m (mínima apta 0.2 m, favorable ≥ 0.5 m) (profundidad física desconocida: efectiva entre 0 y napa − franja capilar (2.70 m))
+   [?] presupuesto: no evaluable: falta presupuesto
+   [!] normas: [R4R003] alerta de Niño costero, parcela inundable (bajo_piura) y cultivo en campo entre enero y abril: riesgo alto de pérdida (FEN 2017 en Piura: 8733 ha perdidas, 15342 ha afectadas; probabilidad para esta parcela desconocida)
+   Datos que pueden cambiar la recomendación: ECw del agua de riego; drenaje de la parcela; agua de riego disponible por mes (m3); cultivo anterior; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); duración del anegamiento en El Niño (R4A024: INDECI no publica cuántos días quedó el agua; sin ella la pérdida no se aplica al margen); tolerancia al anegamiento de caupi (no está en los datos de Agronomía); pH de la parcela
+
+3. ARVEJA (Fabaceae) · advertencias 4 · no evaluables 5
+   Duración: 85–120 días [analogo_externo]
+   Riego neto por etapa: inicial 0–89 mm | desarrollo 0–149 mm | media 0–256 mm | final 0–90 mm
+   Riego neto ciclo: 0–5 836 m3/ha · bruto: desconocido (m3/ha)
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: 13–34 kg/ha / 3–7 kg/ha / 8–22 kg/ha
+   Rendimiento: 0.22–0.58 t/ha [prediccion] · precio 2.20–3.50 PEN/kg · costo 1 020 PEN/ha [regional] · margen -539–997 PEN/ha [P10 -259 · P50 32 · P90 399 PEN/ha · P(margen<0) 46 %]
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera, elasmopalpus; ECe tras cosecha desconocido (dS/m); balance P2O5 acumulado -7.2–-2.7 kg/ha; balance K2O acumulado -21.6–-8.2 kg/ha
+   [!] salinidad: ECe medida 8.5 dS/m supera el umbral sin pérdida (3.4 dS/m; por cultivar: SP-290 2.5, Durana 4.5 dS/m (SP-290, Durana ya pierde rendimiento)); rendimiento relativo 0.36–0.58 fracción
+   [?] drenaje: drenaje desconocido
+   [?] agua: agua disponible por mes desconocida
+   [?] sanidad: cultivo anterior y plagas presentes desconocidos
+   [!] calendario: probable no apto: media de las máximas diarias (PISCOt 1981-2020 de la zona, P10 entre años) sobre el TMAX absoluto EcoCrop 30.0 °C en 4 de 4 meses del ciclo [1, 2, 3, 4] (umbral: al menos el 75 % de los meses, supuesto del motor; EcoCrop es rango de especie, no de variedad local); probable no apto: floración-llenado (meses [2, 3, 4]): Tmáx media PISCOt mes 2 32.78 [32.06–33.33], mes 3 32.8 [32.1–33.43], mes 4 31.27 [30.47–31.98] °C contra el umbral de estrés reproductivo en floración 27–32 °C (Global; revisión de literatura (Osorio et al. 2023) vía Piura Agronomía ronda 7b, confianza 0.3; https://doi.org/10.1139/cjps-2022-0156); hasta el año fresco (P10) pasa 27 °C en 3 de 3 meses; exceso de agua con la lluvia PISCOp del escenario el_nino_fuerte_extraordinario (mes 1: lluvia mediana 260 mm > ET0 170 mm; mes 3: lluvia mediana 219 mm > ET0 166 mm) y drenaje desconocido: riesgo de anegamiento; sin ventana de siembra observada de arveja en bajo_piura: la DRAP (2016-2024 (9 campañas calendario)) registra 0 ha de arveja en la zona (ausencia observada, confianza 0.9; https://www.datosabiertos.gob.pe/dataset/campa%C3%B1a-agr%C3%ADcola-de-los-principales-cultivos-de-la-regi%C3%B3n-piura-gobierno-regional-piura-grp); no hay práctica local que respalde la siembra; mes 1: día más caluroso (POWER Tmax_max_C) 36.9–37.7 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 31.4–32.9 °C; mes 2: día más caluroso (POWER Tmax_max_C) 35.0–38.2 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 32.1–33.3 °C; mes 3: día más caluroso (POWER Tmax_max_C) 33.8–38.5 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 32.1–33.4 °C; mes 4: día más caluroso (POWER Tmax_max_C) 33.6–37.0 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 30.5–32.0 °C
+   [?] pH: pH de la parcela desconocido
+   [!] profundidad: profundidad efectiva 0.00–2.70 m puede quedar bajo la mínima apta 0.2 m (mínima apta 0.2 m, favorable ≥ 0.5 m) (profundidad física desconocida: efectiva entre 0 y napa − franja capilar (2.70 m))
+   [?] presupuesto: no evaluable: falta presupuesto
+   [!] normas: [R4R003] alerta de Niño costero, parcela inundable (bajo_piura) y cultivo en campo entre enero y abril: riesgo alto de pérdida (FEN 2017 en Piura: 8733 ha perdidas, 15342 ha afectadas; probabilidad para esta parcela desconocida)
+   Datos que pueden cambiar la recomendación: ECw del agua de riego; drenaje de la parcela; agua de riego disponible por mes (m3); cultivo anterior; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); duración del anegamiento en El Niño (R4A024: INDECI no publica cuántos días quedó el agua; sin ella la pérdida no se aplica al margen); tolerancia al anegamiento de arveja (no está en los datos de Agronomía); pH de la parcela
+
+SIN DATOS SUFICIENTES (no descartados, tampoco recomendados)
+ - frijol de palo: falta ECw del agua de riego; drenaje de la parcela; Kc o duración por etapa de frijol de palo; cultivo anterior
+
+DESCARTADOS
+ - arroz: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (7.2 dS/m); napa 3.0 m (≥ 2 m)
+ - maiz amarillo duro: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.9 dS/m); napa 3.0 m (≥ 2 m)
+ - maiz choclo: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.9 dS/m); napa 3.0 m (≥ 2 m)
+ - frijol grano: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (3.6 dS/m); napa 3.0 m (≥ 2 m)
+ - frijol verde: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (3.6 dS/m); napa 3.0 m (≥ 2 m)
+ - papa: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.9 dS/m); napa 3.0 m (≥ 2 m)
+ - piquillo: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.1 dS/m); napa 3.0 m (≥ 2 m)
+ - zapallo: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (6.3 dS/m); napa 3.0 m (≥ 2 m)
+ - cebolla: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (4.3 dS/m); napa 3.0 m (≥ 2 m)
+ - yuca: calendario: exceso de agua con la lluvia PISCOp del escenario el_nino_fuerte_extraordinario (mes 1: lluvia mediana 260 mm > ET0 170 mm; mes 3: lluvia mediana 219 mm > ET0 166 mm) y drenaje desconocido: riesgo de anegamiento; ciclo 210 días > horizonte 6 meses; sin ventana de siembra observada (DRAP 2016-2024) de yuca en bajo_piura: no se sabe si el mes 1 es práctica local; mes 1: Tmedia 27.5–29.1 °C sale del rango óptimo 25.0–29.0 °C; mes 2: Tmedia 27.6–29.7 °C sale del rango óptimo 25.0–29.0 °C; mes 3: Tmedia 27.5–29.7 °C sale del rango óptimo 25.0–29.0 °C; mes 5: Tmedia 25.8–29.2 °C sale del rango óptimo 25.0–29.0 °C
+
+PERENNES (módulo aparte, un año en producción)
+ - mango: aceptado · riego neto 8 988–21 363 m3/ha/año · costo anual 7 427–9 166 PEN/ha [bibliografico] · 1.ª producción 3.00–4.00 años [regional] · alertas 9
+ - banano: aceptado · riego neto 14 312–26 985 m3/ha/año · costo anual 16 571 PEN/ha [regional] · alertas 9
+ - papaya: aceptado · riego neto 12 154–23 612 m3/ha/año · costo anual 1 092–9 419 PEN/ha [analogo_externo] · 1.ª producción 0.75 años [bibliografico] · alertas 9
+ - limon: descartado · riego neto 5 138–14 617 m3/ha/año · costo anual 6 920 PEN/ha [regional] · 1.ª producción 3.00–6.00 años [analogo_externo] · alertas 8 · salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (4.8 dS/m); napa 3.0 m (≥ 2 m)
+ - uva: descartado · riego neto 8 556–19 115 m3/ha/año · costo anual 52 821 PEN/ha [regional] · alertas 8 · salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (6.7 dS/m); napa 3.0 m (≥ 2 m)
+ - cacao: sin_datos · riego neto 13 593–23 612 m3/ha/año · costo anual 3 634–7 097 PEN/ha [bibliografico] · alertas 9
+ - cafe: sin_datos · riego neto 12 154–24 737 m3/ha/año · costo anual 1 014–2 252 PEN/ha [bibliografico] · alertas 9
+
+DATOS QUE FALTAN (de más a menos cultivos afectados):
+ - cultivo anterior (afecta a 21 cultivos)
+ - drenaje de la parcela (afecta a 21 cultivos)
+ - duración del anegamiento en El Niño (R4A024: INDECI no publica cuántos días quedó el agua; sin ella la pérdida no se aplica al margen) (afecta a 21 cultivos)
+ - presupuesto (afecta a 21 cultivos)
+ - agua de riego disponible por mes (m3) (afecta a 20 cultivos)
+ - ECw del agua de riego (afecta a 19 cultivos)
+ - Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia) (afecta a 19 cultivos)
+ - pH de la parcela (afecta a 19 cultivos)
+ - profundidad física del suelo (afecta a 19 cultivos)
+ - tolerancia al anegamiento de <cultivo> (no está en los datos de Agronomía) (19 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - Tmáx media PISCO de la zona (°C): sin ella la regla térmica grave no evalúa calor (afecta a 7 cultivos)
+ - costo de instalación de <cultivo> (7 cultivos: mango, banano, papaya, limon…)
+
+ESCENARIOS CLIMÁTICOS (clasificación ICEN de la campaña ago-jul; lluvia PISCOp de la zona; ET0 y temperatura NASA POWER en las mismas campañas)
+  sin_el_nino (29 campañas: 1981, 1982, 1984, 1985, 1986, 1988, 1989, 1990, 1991, 1994, 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018; lluvia PISCOp)
+     1. algodon: P10 950 / P50 7 642 PEN/ha
+     2. caupi: P10 -3 266 / P50 -982 PEN/ha
+     3. arveja: P10 -259 / P50 32 PEN/ha (PROBABLEMENTE NO APTO)
+     aceptados 3, descartados 10 (arroz, maiz amarillo duro, maiz choclo, frijol grano, frijol verde, papa, piquillo, zapallo, cebolla, yuca), sin datos 1
+  el_nino_moderado (3 campañas: 1987, 1992, 2017; lluvia PISCOp)
+     1. algodon: P10 950 / P50 7 642 PEN/ha
+     2. caupi: P10 -3 266 / P50 -982 PEN/ha
+     3. arveja: P10 -259 / P50 32 PEN/ha (PROBABLEMENTE NO APTO)
+     aceptados 3, descartados 10 (arroz, maiz amarillo duro, maiz choclo, frijol grano, frijol verde, papa, piquillo, zapallo, cebolla, yuca), sin datos 1
+  el_nino_fuerte_extraordinario (3 campañas: 1983, 1998, 2016; lluvia PISCOp)
+     1. algodon: P10 950 / P50 7 642 PEN/ha
+     2. caupi: P10 -3 266 / P50 -982 PEN/ha
+     3. arveja: P10 -259 / P50 32 PEN/ha (PROBABLEMENTE NO APTO)
+     aceptados 3, descartados 10 (arroz, maiz amarillo duro, maiz choclo, frijol grano, frijol verde, papa, piquillo, zapallo, cebolla, yuca), sin datos 1
+     exceso de agua (lluvia PISCOp mediana > ET0) en el ciclo de: arroz, maiz amarillo duro, maiz choclo, frijol grano, frijol verde, caupi, frijol de palo, algodon, papa, piquillo, zapallo, cebolla, yuca
+  El primer lugar no cambia entre escenarios (sin_el_nino: algodon → el_nino_moderado: algodon → el_nino_fuerte_extraordinario: algodon).
+  Aviso (contexto, no regla): Evento en curso 2026-27: el ICEN oficial (met.igp.gob.pe/datos/ICEN.txt, leído el 24-oct-2026) da 3,98 en agosto de 2026, sobre el umbral extraordinario (3,5); ENFEN mantiene la Alerta de El Niño Costero (Comunicado Oficial 18-2026, 16-oct-2026; el PDF no se pudo leer desde la caja). Este escenario no es teórico para la campaña 2026-27.
+
+SECUENCIAS (6 comparadas; se muestran 5)
+   orden: viables y que caben → sin pasos 'probable no apto' → mayor P10 del margen (Monte Carlo, redondeado a 100 PEN) → menos agua → menor ECe final → mejor balance P+K → menos alertas
+ - caupi → arveja: NO viable · meses 2.6–3.3 meses (cabe: si) · margen -5 342–4 564 PEN/ha [P10/P(margen<0) no calculables (falta algún costo, precio o rendimiento)] · agua neta 0–4 933 m3/ha · ECe final desconocido (dS/m) · balance P2O5 -40–-6 kg/ha · K2O -162–-14 kg/ha · N desconocido (kg/ha) · arveja (siembra mes 5): datos insuficientes en filtros críticos: salinidad: ECe del suelo y ECw del agua desconocidas; drenaje: drenaje desconocido; agua: agua disponible por mes desconocida; pH: pH de la parcela desconocido; presupuesto: no evaluable: falta presupuesto
+ - caupi → algodon: NO viable · meses 2.6–3.3 meses (cabe: si) · margen -5 342–4 564 PEN/ha [P10/P(margen<0) no calculables (falta algún costo, precio o rendimiento)] · agua neta 0–4 933 m3/ha · ECe final desconocido (dS/m) · balance P2O5 -40–-6 kg/ha · K2O -162–-14 kg/ha · N desconocido (kg/ha) · algodon (siembra mes 5): datos insuficientes en filtros críticos: salinidad: ECe del suelo y ECw del agua desconocidas; drenaje: drenaje desconocido; agua: agua disponible por mes desconocida; pH: pH de la parcela desconocido; presupuesto: no evaluable: falta presupuesto
+ - algodon → caupi: NO viable · meses 5.6–8.2 meses (cabe: si) · margen -2 779–26 573 PEN/ha [P10/P(margen<0) no calculables (falta algún costo, precio o rendimiento)] · agua neta 2 215–12 417 m3/ha · ECe final desconocido (dS/m) · balance P2O5 -71–-13 kg/ha · K2O -172–-32 kg/ha · N -207–-39 kg/ha · caupi (siembra mes 10): datos insuficientes en filtros críticos: salinidad: ECe del suelo y ECw del agua desconocidas; drenaje: drenaje desconocido; agua: agua disponible por mes desconocida; pH: pH de la parcela desconocido; presupuesto: no evaluable: falta presupuesto
+ - arveja → caupi: NO viable · meses 2.8–3.9 meses (cabe: si) · margen -539–997 PEN/ha [P10/P(margen<0) no calculables (falta algún costo, precio o rendimiento)] · 1 paso(s) probable no apto · agua neta 0–5 836 m3/ha · ECe final desconocido (dS/m) · balance P2O5 -7–-3 kg/ha · K2O -22–-8 kg/ha · N desconocido (kg/ha) · caupi (siembra mes 5): datos insuficientes en filtros críticos: salinidad: ECe del suelo y ECw del agua desconocidas; drenaje: drenaje desconocido; agua: agua disponible por mes desconocida; pH: pH de la parcela desconocido; presupuesto: no evaluable: falta presupuesto
+ - arveja → algodon: NO viable · meses 2.8–3.9 meses (cabe: si) · margen -539–997 PEN/ha [P10/P(margen<0) no calculables (falta algún costo, precio o rendimiento)] · 1 paso(s) probable no apto · agua neta 0–5 836 m3/ha · ECe final desconocido (dS/m) · balance P2O5 -7–-3 kg/ha · K2O -22–-8 kg/ha · N desconocido (kg/ha) · algodon (siembra mes 5): datos insuficientes en filtros críticos: salinidad: ECe del suelo y ECw del agua desconocidas; drenaje: drenaje desconocido; agua: agua disponible por mes desconocida; pH: pH de la parcela desconocido; presupuesto: no evaluable: falta presupuesto
+   Ninguna secuencia es viable con la ECw desconocida: vea ESCENARIOS DE AGUA abajo. Dato que falta: CE del agua de riego.
+
+ESCENARIOS DE AGUA (la ECw de la parcela es DESCONOCIDA; estos valores son ESCENARIOS, no datos)
+   DATO QUE FALTA: CE del agua de riego (ECw, dS/m) de su canal o pozo. Con ese dato el motor usa uno solo.
+   Proyección de ECe tras cada cosecha: envolvente entre la ECe previa y 1,5·ECw (FAO-29, régimen permanente).
+   Sin escenario (ECw desconocida o solo valor de zona): 0 de 6 secuencias viables
+ [ESCENARIO ECw 0.5 dS/m] anuales aceptados 3 · orden: algodon, caupi, arveja · secuencias viables 6 de 6
+     - algodon → caupi: P10 502 PEN/ha · P(margen<0) 8 % · ECe final 0.75–8.50 dS/m
+     - caupi → algodon: P10 -314 PEN/ha · P(margen<0) 12 % · ECe final 0.75–8.50 dS/m
+     - caupi → arveja: P10 -3 279 PEN/ha · P(margen<0) 67 % · ECe final 0.75–8.50 dS/m
+ [ESCENARIO ECw 1.5 dS/m] anuales aceptados 3 · orden: algodon, caupi, arveja · secuencias viables 6 de 6
+     - algodon → caupi: P10 502 PEN/ha · P(margen<0) 8 % · ECe final 2.25–8.50 dS/m
+     - caupi → algodon: P10 -314 PEN/ha · P(margen<0) 12 % · ECe final 2.25–8.50 dS/m
+     - caupi → arveja: P10 -3 279 PEN/ha · P(margen<0) 67 % · ECe final 2.25–8.50 dS/m
+ [ESCENARIO ECw 3 dS/m] anuales aceptados 3 · orden: algodon, caupi, arveja · secuencias viables 6 de 6
+     - algodon → caupi: P10 502 PEN/ha · P(margen<0) 8 % · ECe final 4.50–8.50 dS/m
+     - caupi → algodon: P10 -314 PEN/ha · P(margen<0) 12 % · ECe final 4.50–8.50 dS/m
+     - caupi → arveja: P10 -3 279 PEN/ha · P(margen<0) 67 % · ECe final 4.50–8.50 dS/m
+   El orden de los 3 primeros NO cambia entre escenarios; la viabilidad de las secuencias: 0.5→6 / 1.5→6 / 3→6

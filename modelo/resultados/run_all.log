@@ -1,0 +1,453 @@
+chira_sullana /workspace/piura-agro/modelo/data/power/chira_sullana.csv
+bajo_piura /workspace/piura-agro/modelo/data/power/bajo_piura.csv
+medio_piura /workspace/piura-agro/modelo/data/power/medio_piura.csv
+alto_piura /workspace/piura-agro/modelo/data/power/alto_piura.csv
+san_lorenzo /workspace/piura-agro/modelo/data/power/san_lorenzo.csv
+                    n_distrito_anio  n_distritos      anios     prod_t    cos_ha  rend_p10  rend_p50  rend_p90  rend_ponderado_t_ha  precio_ponderado_pen_kg
+cultivo                                                                                                                                                     
+algodon                          89           18  2015-2023    34800.0   11926.0     0.859     3.355     5.301                2.918                    4.410
+arroz                           388           43  2015-2024  4403755.0  504675.0     4.979     8.000     9.685                8.726                    1.290
+banano                            2            1  2022-2023     7816.0     185.0    41.311    42.309    43.307               42.249                    0.964
+camote                          107           21  2015-2024   104889.6    7402.0     1.867     4.000    22.093               14.170                    1.066
+caupi                           190           33  2015-2024    74712.0   45666.0     1.230     1.899     2.941                1.636                    2.578
+frijol                          170           21  2015-2024    41381.0   53410.0     0.600     0.818     1.000                0.775                    3.467
+limon                           146           20  2015-2023  1318570.0  136029.0     1.911     7.440    14.067                9.693                    1.072
+maiz_amarillo_duro              481           55  2015-2024   543377.0  139907.0     1.200     4.433     5.850                3.884                    1.317
+mango                           142           18  2015-2023  2639925.0  195920.0     1.386     6.895    15.476               13.475                    0.977
+sorgo                             4            3  2023-2024      265.0      60.0     4.000     4.250     5.550                4.417                    1.085
+uva                              68            8  2015-2023  1847128.0   64777.0     9.202    21.737    45.859               28.515                    3.113
+               cultivo           zona  n_distrito_anio  cosecha_ha  rend_ponderado  rend_p10  rend_p50  rend_p90  rend_ref_t_ha                                           origen
+0                arroz  chira_sullana               80    198176.0           9.491     8.164     9.227    10.886          9.491                                   zona_ponderado
+1                arroz     bajo_piura              104    162153.0           8.455     6.870     8.622     9.547          8.455                                   zona_ponderado
+2                arroz    medio_piura                8      2083.0           8.600     7.519     8.397     9.388          8.600                                   zona_ponderado
+3                arroz     alto_piura               74     34438.0           7.222     5.912     7.000     8.000          7.222                                   zona_ponderado
+4                arroz    san_lorenzo               20     79294.0           8.513     7.677     8.729     9.740          8.513                                   zona_ponderado
+5   maiz_amarillo_duro  chira_sullana               90      6792.0           5.762     5.000     5.840     6.000          5.762                                   zona_ponderado
+6   maiz_amarillo_duro     bajo_piura              103     63854.0           4.769     4.126     4.830     5.258          4.769                                   zona_ponderado
+7   maiz_amarillo_duro    medio_piura               19      1813.0           4.870     4.281     4.925     5.653          4.870                                   zona_ponderado
+8   maiz_amarillo_duro     alto_piura               91     21757.0           3.722     0.900     4.615     5.507          3.722                                   zona_ponderado
+9   maiz_amarillo_duro    san_lorenzo               20      8429.0           3.361     2.846     3.074     5.116          3.361                                   zona_ponderado
+10             algodon  chira_sullana                5       201.0           2.368     0.785     1.000     3.444          2.368                                   zona_ponderado
+11             algodon     bajo_piura               68     11100.0           2.975     1.118     3.670     5.447          2.975                                   zona_ponderado
+12             algodon    medio_piura                5       138.0           2.348     0.660     3.219     3.788          2.918  regional_ponderado (zona sin datos suficientes)
+13             algodon     alto_piura                5       220.0           2.159     1.293     2.350     6.134          2.159                                   zona_ponderado
+14             algodon    san_lorenzo                6       267.0           1.865     0.986     2.283     2.893          1.865                                   zona_ponderado
+15              frijol  chira_sullana                0         0.0             NaN       NaN       NaN       NaN          0.775  regional_ponderado (zona sin datos suficientes)
+16              frijol     bajo_piura                0         0.0             NaN       NaN       NaN       NaN          0.775  regional_ponderado (zona sin datos suficientes)
+17              frijol    medio_piura                0         0.0             NaN       NaN       NaN       NaN          0.775  regional_ponderado (zona sin datos suficientes)
+18              frijol     alto_piura               36      2458.0           0.945     0.708     0.849     1.200          0.945                                   zona_ponderado
+19              frijol    san_lorenzo                1        18.0           0.722     0.722     0.722     0.722          0.775  regional_ponderado (zona sin datos suficientes)
+20               caupi  chira_sullana               33       801.0           2.438     2.000     2.258     3.000          2.438                                   zona_ponderado
+21               caupi     bajo_piura               85     10808.0           2.173     1.626     1.886     2.965          2.173                                   zona_ponderado
+22               caupi    medio_piura               10       300.0           2.280     1.591     2.016     3.000          2.280                                   zona_ponderado
+23               caupi     alto_piura               41     20308.0           1.583     1.333     1.800     2.067          1.583                                   zona_ponderado
+24               caupi    san_lorenzo               11     12932.0           1.216     0.798     0.900     1.750          1.216                                   zona_ponderado
+25              camote  chira_sullana               30      5512.0          17.263    12.393    18.750    24.182         17.263                                   zona_ponderado
+26              camote     bajo_piura                2        22.0          30.000    30.000    30.000    30.000         14.170  regional_ponderado (zona sin datos suficientes)
+27              camote    medio_piura                1        40.0          25.625    25.625    25.625    25.625         14.170  regional_ponderado (zona sin datos suficientes)
+28              camote     alto_piura               15       238.0           3.504     0.813     3.000     7.200          3.504                                   zona_ponderado
+29              camote    san_lorenzo                4        65.0           7.754     7.297     7.800     8.000         14.170  regional_ponderado (zona sin datos suficientes)
+                  et0  lluvia
+zona                         
+alto_piura     1755.6   292.7
+bajo_piura     2129.2   120.3
+chira_sullana  2168.1   150.6
+medio_piura    2202.5   150.6
+san_lorenzo    2168.1   150.6
+mes_siembra                           1       2       3       4       5       6       7       8       9       10      11      12
+zona          cultivo                                                                                                           
+alto_piura    algodon              715.0   720.0   756.0   794.0   832.0   855.0   852.0   839.0   788.0   758.0   741.0   722.0
+              arroz               1319.0  1314.0  1333.0  1360.0  1382.0  1423.0  1450.0  1458.0  1449.0  1399.0  1355.0  1332.0
+              camote               502.0   495.0   509.0   516.0   532.0   567.0   600.0   613.0   607.0   579.0   529.0   495.0
+              caupi                309.0   314.0   325.0   327.0   339.0   358.0   390.0   403.0   404.0   383.0   361.0   322.0
+              frijol               383.0   388.0   398.0   396.0   410.0   440.0   474.0   484.0   484.0   459.0   429.0   390.0
+              maiz_amarillo_duro   496.0   489.0   497.0   519.0   547.0   586.0   605.0   611.0   592.0   549.0   507.0   495.0
+bajo_piura    algodon              986.0   935.0   911.0   900.0   915.0   956.0   990.0  1016.0  1035.0  1044.0  1045.0  1030.0
+              arroz               1626.0  1585.0  1543.0  1504.0  1479.0  1496.0  1536.0  1585.0  1619.0  1633.0  1634.0  1639.0
+              camote               732.0   715.0   680.0   627.0   601.0   615.0   651.0   689.0   713.0   729.0   725.0   724.0
+              caupi                479.0   477.0   462.0   417.0   388.0   391.0   418.0   446.0   464.0   469.0   480.0   477.0
+              frijol               578.0   574.0   547.0   494.0   470.0   477.0   510.0   542.0   560.0   572.0   581.0   573.0
+              maiz_amarillo_duro   726.0   692.0   651.0   610.0   603.0   633.0   668.0   699.0   716.0   734.0   726.0   732.0
+chira_sullana algodon              965.0   949.0   959.0   974.0  1002.0  1029.0  1052.0  1054.0  1030.0  1008.0   988.0   976.0
+              arroz               1576.0  1547.0  1555.0  1551.0  1556.0  1581.0  1617.0  1651.0  1659.0  1627.0  1595.0  1587.0
+              camote               675.0   680.0   680.0   658.0   655.0   676.0   715.0   745.0   748.0   740.0   702.0   670.0
+              caupi                427.0   442.0   457.0   430.0   419.0   431.0   461.0   486.0   495.0   487.0   471.0   443.0
+              frijol               521.0   538.0   544.0   517.0   509.0   527.0   562.0   587.0   598.0   587.0   561.0   534.0
+              maiz_amarillo_duro   680.0   677.0   663.0   652.0   662.0   698.0   730.0   748.0   743.0   722.0   690.0   665.0
+medio_piura   algodon              996.0   962.0   951.0   962.0   983.0  1020.0  1058.0  1067.0  1059.0  1048.0  1040.0  1025.0
+              arroz               1624.0  1584.0  1567.0  1551.0  1539.0  1562.0  1603.0  1647.0  1678.0  1664.0  1633.0  1637.0
+              camote               714.0   712.0   690.0   654.0   642.0   661.0   699.0   738.0   755.0   759.0   733.0   713.0
+              caupi                460.0   467.0   466.0   433.0   412.0   420.0   450.0   477.0   493.0   496.0   491.0   471.0
+              frijol               558.0   566.0   554.0   517.0   499.0   513.0   550.0   580.0   595.0   598.0   587.0   567.0
+              maiz_amarillo_duro   719.0   701.0   668.0   644.0   646.0   680.0   716.0   746.0   755.0   748.0   725.0   709.0
+san_lorenzo   algodon              965.0   949.0   959.0   974.0  1002.0  1029.0  1052.0  1054.0  1030.0  1008.0   988.0   976.0
+              arroz               1576.0  1547.0  1555.0  1551.0  1556.0  1581.0  1617.0  1651.0  1659.0  1627.0  1595.0  1587.0
+              camote               675.0   680.0   680.0   658.0   655.0   676.0   715.0   745.0   748.0   740.0   703.0   670.0
+              caupi                427.0   442.0   457.0   430.0   419.0   431.0   461.0   486.0   495.0   487.0   471.0   443.0
+              frijol               521.0   538.0   544.0   517.0   509.0   527.0   562.0   587.0   598.0   587.0   561.0   534.0
+              maiz_amarillo_duro   680.0   677.0   663.0   652.0   661.0   698.0   730.0   748.0   743.0   722.0   690.0   665.0
+chira_sullana ninguno_viable_pct 18.5 {'ninguno': 924, 'arroz': 115, 'algodon': 1065, 'caupi': 1131, 'camote': 1765}
+bajo_piura ninguno_viable_pct 22.8 {'ninguno': 1140, 'arroz': 149, 'algodon': 1050, 'caupi': 1591, 'camote': 1070}
+medio_piura ninguno_viable_pct 23.9 {'ninguno': 1195, 'arroz': 155, 'algodon': 982, 'caupi': 1753, 'camote': 915}
+alto_piura ninguno_viable_pct 18.3 {'ninguno': 914, 'arroz': 165, 'algodon': 1536, 'caupi': 2385}
+san_lorenzo ninguno_viable_pct 27.9 {'ninguno': 1397, 'arroz': 209, 'algodon': 672, 'caupi': 1414, 'camote': 1308}
+             feature  importancia  cambio_top1_pct                          estado
+            ece_ds_m       89.194            42.98                       hipotesis
+        drenaje_malo       38.386            29.78                       hipotesis
+       agua_riego_mm       34.076            15.43 parcial_dato_zona_mas_hipotesis
+    eficiencia_riego       26.046            11.04 parcial_dato_zona_mas_hipotesis
+         mes_siembra       21.506             8.87                          medido
+                anio       18.690             7.46                          medido
+        factor_costo       34.792             6.81 parcial_dato_zona_mas_hipotesis
+         factor_rend       56.118             6.77                       hipotesis
+            taw_mm_m       11.694             5.94                          medido
+       factor_precio       40.440             5.19                       hipotesis
+       pendiente_pct        6.076             5.13                       hipotesis
+       p_suelo_kg_ha        5.818             1.50                       hipotesis
+       n_suelo_kg_ha        2.706             0.90                       hipotesis
+precio_fert_p_pen_kg        2.528             0.87                       hipotesis
+    agua_arroz_m3_ha        1.568             0.60 parcial_dato_zona_mas_hipotesis
+ agua_extra_arroz_mm        1.360             0.51 parcial_dato_zona_mas_hipotesis
+      cultivo_previo        1.320             0.45                          medido
+precio_fert_n_pen_kg        0.844             0.38                       hipotesis
+       k_suelo_kg_ha        0.960             0.30                       hipotesis
+credito_n_leguminosa        0.346             0.14                       hipotesis
+precio_fert_k_pen_kg        0.244             0.07                       hipotesis
+         pen_sanidad        0.220             0.07                       hipotesis
+         zona  mes                                    top3                 no_viables
+chira_sullana    1 camote(13805), arroz(5609), caupi(5004)                           
+chira_sullana    2 camote(13156), arroz(5609), caupi(5004)                           
+chira_sullana    3 camote(12531), arroz(5609), caupi(5004)                           
+chira_sullana    4 camote(13152), arroz(5609), caupi(5004)                           
+chira_sullana    5 camote(13240), arroz(5609), caupi(5004)                           
+chira_sullana    6 camote(12357), arroz(5609), caupi(5004)                           
+chira_sullana    7 camote(11312), arroz(5499), caupi(5004)                           
+chira_sullana    8 camote(10637), caupi(5004), arroz(4969)                           
+chira_sullana    9 camote(10296), caupi(5004), arroz(4908)                           
+chira_sullana   10 camote(10606), arroz(5326), caupi(5004)                           
+chira_sullana   11 camote(12105), arroz(5609), caupi(5004)                           
+chira_sullana   12 camote(12629), arroz(5609), caupi(5004)                           
+   bajo_piura    1  camote(6805), arroz(4269), caupi(4169)                           
+   bajo_piura    2  camote(7015), arroz(4407), caupi(4163)                           
+   bajo_piura    3  camote(7186), arroz(4407), caupi(4092)                           
+   bajo_piura    4  camote(8110), arroz(4407), caupi(4320)                           
+   bajo_piura    5  camote(8690), arroz(4407), caupi(4320)                           
+   bajo_piura    6  camote(8357), arroz(4407), caupi(4320)                           
+   bajo_piura    7  camote(7649), arroz(4407), caupi(4320)                           
+   bajo_piura    8  camote(6977), arroz(4407), caupi(4320)                           
+   bajo_piura    9  camote(6521), arroz(4126), caupi(4072)                           
+   bajo_piura   10  camote(6336), arroz(3952), caupi(3845)                           
+   bajo_piura   11  camote(6610), arroz(3984), caupi(3891)                           
+   bajo_piura   12  camote(6492), caupi(3978), arroz(3834)                           
+  medio_piura    1  camote(7730), caupi(4596), arroz(4575)                           
+  medio_piura    2  camote(7532), caupi(4596), arroz(4575)                           
+  medio_piura    3  camote(7142), arroz(4575), caupi(4369)                           
+  medio_piura    4  camote(7792), caupi(4596), arroz(4575)                           
+  medio_piura    5  camote(8106), caupi(4596), arroz(4575)                           
+  medio_piura    6  camote(7645), caupi(4596), arroz(4575)                           
+  medio_piura    7  camote(6878), arroz(4575), caupi(4539)                           
+  medio_piura    8  camote(6276), caupi(4169), arroz(4019)                           
+  medio_piura    9  camote(5922), caupi(3967), arroz(3779)                           
+  medio_piura   10  camote(5899), arroz(3965), caupi(3780)                           
+  medio_piura   11  camote(6775), arroz(4271), caupi(4013)                           
+  medio_piura   12  camote(7016), caupi(4525), arroz(4221)                           
+   alto_piura    1 algodon(3022), arroz(2975), caupi(2799)                           
+   alto_piura    2 arroz(2975), algodon(2807), caupi(2799)                           
+   alto_piura    3 arroz(2975), caupi(2799), algodon(2152)                           
+   alto_piura    4 arroz(2975), caupi(2799), algodon(1825)                           
+   alto_piura    5 arroz(2975), caupi(2799), algodon(1575)                           
+   alto_piura    6 arroz(2975), caupi(2799), algodon(1419)                           
+   alto_piura    7  arroz(2975), caupi(2799), frijol(1364)                           
+   alto_piura    8 arroz(2975), caupi(2799), algodon(1614)                           
+   alto_piura    9 arroz(2975), caupi(2799), algodon(2017)                           
+   alto_piura   10 arroz(2975), caupi(2799), algodon(2151)                           
+   alto_piura   11 arroz(2975), caupi(2799), algodon(2298)                           
+   alto_piura   12 arroz(2975), caupi(2799), algodon(2411)                           
+  san_lorenzo    1  camote(7210), arroz(4474), caupi(1853)                           
+  san_lorenzo    2  camote(6768), arroz(4474), caupi(1708)                           
+  san_lorenzo    3  camote(6191), arroz(4474), caupi(1433)                           
+  san_lorenzo    4  camote(6533), arroz(4474), caupi(1618)                           
+  san_lorenzo    5  camote(6585), arroz(4474), caupi(1734)                           
+  san_lorenzo    6  camote(6043), arroz(4474), caupi(1601)                           
+  san_lorenzo    7  camote(5401), arroz(4375), caupi(1323) maiz_amarillo_duro|algodon
+  san_lorenzo    8  camote(4987), arroz(3900), caupi(1184) maiz_amarillo_duro|algodon
+  san_lorenzo    9  camote(4778), arroz(3845), caupi(1114)         maiz_amarillo_duro
+  san_lorenzo   10  camote(4967), arroz(4220), caupi(1074)                           
+  san_lorenzo   11  camote(6065), arroz(4474), caupi(1277)                           
+  san_lorenzo   12  camote(6381), arroz(4474), caupi(1610)                           
+         zona  mes_siembra cultivo  p_viable  margen_p10  margen_p50  margen_p90  p_top1  p_ninguno
+   alto_piura            1   caupi     0.598         -30        1415        3485   0.444      0.179
+   alto_piura            1 algodon     0.796       -4012        -367        4080   0.351      0.179
+   alto_piura            1   arroz     0.113       -5576       -1982        2515   0.026      0.179
+   alto_piura            3   caupi     0.595         -73        1372        3412   0.464      0.177
+   alto_piura            3 algodon     0.796       -4333        -658        3700   0.332      0.177
+   alto_piura            3   arroz     0.114       -5682       -1851        2798   0.027      0.177
+   alto_piura            6   caupi     0.592         -75        1336        3395   0.539      0.190
+   alto_piura            6 algodon     0.763       -4862       -1566        2227   0.245      0.190
+   alto_piura            6   arroz     0.111       -5637       -1987        2445   0.026      0.190
+   alto_piura            9   caupi     0.598        -143        1295        3340   0.501      0.184
+   alto_piura            9 algodon     0.788       -4517        -998        3087   0.288      0.184
+   alto_piura            9   arroz     0.110       -5835       -2163        2623   0.027      0.184
+   alto_piura           12   caupi     0.598         -24        1419        3432   0.451      0.174
+   alto_piura           12 algodon     0.801       -4034        -433        3941   0.349      0.174
+   alto_piura           12   arroz     0.115       -5788       -1813        2727   0.026      0.174
+   bajo_piura            1   caupi     0.585         269        2167        4913   0.332      0.225
+   bajo_piura            1 algodon     0.643       -3517         251        5059   0.227      0.225
+   bajo_piura            1  camote     0.358        -286        3381        9320   0.189      0.225
+   bajo_piura            3   caupi     0.598         319        2258        5007   0.286      0.202
+   bajo_piura            3 algodon     0.706       -3343         553        5367   0.249      0.202
+   bajo_piura            3  camote     0.401        -161        3812        9944   0.238      0.202
+   bajo_piura            6   caupi     0.595         540        2464        5248   0.302      0.220
+   bajo_piura            6  camote     0.417           0        3953       10219   0.257      0.220
+   bajo_piura            6 algodon     0.634       -3657         -75        4295   0.195      0.220
+   bajo_piura            9   caupi     0.594         222        2081        4899   0.366      0.237
+   bajo_piura            9 algodon     0.576       -3776         -98        4176   0.188      0.237
+   bajo_piura            9  camote     0.352        -476        3148        8831   0.183      0.237
+   bajo_piura           12   caupi     0.588         233        2102        4905   0.340      0.230
+   bajo_piura           12 algodon     0.608       -3632         207        5004   0.208      0.230
+   bajo_piura           12  camote     0.359        -362        3428        9466   0.196      0.230
+chira_sullana            1  camote     0.439        1737        7014       15069   0.374      0.186
+chira_sullana            1 algodon     0.762       -4299        -721        3632   0.211      0.186
+chira_sullana            1   caupi     0.599         977        3211        6302   0.205      0.186
+chira_sullana            3  camote     0.437        1711        7109       14989   0.375      0.190
+chira_sullana            3 algodon     0.763       -4304        -713        3559   0.212      0.190
+chira_sullana            3   caupi     0.597         931        3178        6260   0.202      0.190
+chira_sullana            6  camote     0.438        1438        6700       14668   0.358      0.203
+chira_sullana            6   caupi     0.593         965        3229        6370   0.227      0.203
+chira_sullana            6 algodon     0.708       -4631       -1291        2582   0.189      0.203
+chira_sullana            9  camote     0.406        1006        5779       13301   0.309      0.197
+chira_sullana            9   caupi     0.594         772        2946        6149   0.270      0.197
+chira_sullana            9 algodon     0.730       -4528       -1144        2912   0.201      0.197
+chira_sullana           12  camote     0.438        1661        6938       15202   0.372      0.190
+chira_sullana           12 algodon     0.756       -4309        -743        3619   0.212      0.190
+chira_sullana           12   caupi     0.593         952        3188        6291   0.201      0.190
+  medio_piura            1   caupi     0.595         426        2429        5389   0.347      0.219
+  medio_piura            1 algodon     0.648       -3651         209        4889   0.210      0.219
+  medio_piura            1  camote     0.379        -248        3637        9691   0.199      0.219
+  medio_piura            3   caupi     0.593         425        2451        5353   0.322      0.216
+  medio_piura            3 algodon     0.674       -3561         239        4933   0.220      0.216
+  medio_piura            3  camote     0.392         -93        3756       10092   0.219      0.216
+  medio_piura            6   caupi     0.594         555        2571        5525   0.366      0.239
+  medio_piura            6  camote     0.393        -226        3545        9459   0.205      0.239
+  medio_piura            6 algodon     0.562       -3871        -406        3642   0.165      0.239
+  medio_piura            9   caupi     0.578         265        2118        4953   0.403      0.255
+  medio_piura            9 algodon     0.551       -3901        -354        3807   0.177      0.255
+  medio_piura            9  camote     0.318        -566        2770        7872   0.138      0.255
+  medio_piura           12   caupi     0.594         374        2347        5263   0.350      0.223
+  medio_piura           12 algodon     0.622       -3604         122        4762   0.206      0.223
+  medio_piura           12  camote     0.372        -204        3527        9539   0.195      0.223
+  san_lorenzo            1  camote     0.343        -400        3278        9399   0.301      0.253
+  san_lorenzo            1   caupi     0.585        -829         285        1802   0.266      0.253
+  san_lorenzo            1 algodon     0.552       -5866       -2843         655   0.148      0.253
+  san_lorenzo            3  camote     0.337        -383        3284        9186   0.298      0.255
+  san_lorenzo            3   caupi     0.579        -893         229        1694   0.264      0.255
+  san_lorenzo            3 algodon     0.550       -5925       -2863         477   0.150      0.255
+  san_lorenzo            6   caupi     0.585        -863         215        1689   0.307      0.296
+  san_lorenzo            6  camote     0.313        -549        2741        7949   0.267      0.296
+  san_lorenzo            6 algodon     0.379       -6083       -3336        -389   0.095      0.296
+  san_lorenzo            9   caupi     0.541        -998          22        1408   0.326      0.314
+  san_lorenzo            9  camote     0.235        -868        2394        6972   0.194      0.314
+  san_lorenzo            9 algodon     0.445       -6066       -3166        -126   0.123      0.314
+  san_lorenzo           12  camote     0.341        -411        3162        8917   0.300      0.256
+  san_lorenzo           12   caupi     0.586        -891         218        1699   0.269      0.256
+  san_lorenzo           12 algodon     0.545       -5897       -2882         505   0.146      0.256
+                                                       supuesto          zona top1_central                     top3_central p_top1_lider  p_top1_arroz  p_top1_camote  p_top1_caupi  p_top1_algodon  p_ninguno
+                                                        base_v2 chira_sullana       camote               camote|arroz|caupi       camote         0.025          0.371         0.201           0.215      0.189
+                                                        base_v2    bajo_piura       camote               camote|arroz|caupi        caupi         0.028          0.191         0.339           0.218      0.223
+                                                        base_v2   medio_piura       camote               camote|caupi|arroz        caupi         0.024          0.194         0.346           0.213      0.223
+                                                        base_v2    alto_piura      algodon              algodon|arroz|caupi        caupi         0.029          0.000         0.442           0.351      0.178
+                                                        base_v2   san_lorenzo       camote               camote|arroz|caupi       camote         0.033          0.305         0.259           0.153      0.250
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=150 mm chira_sullana       camote               camote|arroz|caupi       camote         0.025          0.371         0.201           0.215      0.188
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=150 mm    bajo_piura       camote               camote|caupi|arroz        caupi         0.028          0.192         0.341           0.218      0.221
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=150 mm   medio_piura       camote               camote|caupi|arroz        caupi         0.024          0.195         0.347           0.213      0.221
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=150 mm    alto_piura      algodon              algodon|arroz|caupi        caupi         0.030          0.000         0.441           0.351      0.178
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=150 mm   san_lorenzo       camote               camote|arroz|caupi       camote         0.034          0.305         0.259           0.153      0.249
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=780 mm chira_sullana       camote  camote|caupi|maiz_amarillo_duro       camote         0.002          0.371         0.202           0.215      0.211
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=780 mm    bajo_piura       camote             camote|caupi|algodon        caupi         0.002          0.192         0.343           0.218      0.245
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=780 mm   medio_piura       camote             camote|caupi|algodon        caupi         0.001          0.195         0.348           0.213      0.242
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=780 mm    alto_piura      algodon algodon|caupi|maiz_amarillo_duro        caupi         0.006          0.000         0.445           0.352      0.197
+               agua_arroz=10000 m3/ha (ESCO) extra_arroz=780 mm   san_lorenzo       camote              camote|caupi|frijol       camote         0.002          0.306         0.266           0.153      0.272
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=150 mm chira_sullana       camote               camote|arroz|caupi       camote         0.026          0.371         0.201           0.215      0.188
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=150 mm    bajo_piura       camote               camote|arroz|caupi        caupi         0.032          0.191         0.338           0.218      0.221
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=150 mm   medio_piura       camote               camote|caupi|arroz        caupi         0.027          0.194         0.345           0.213      0.221
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=150 mm    alto_piura      algodon              algodon|arroz|caupi        caupi         0.030          0.000         0.441           0.351      0.178
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=150 mm   san_lorenzo       camote               camote|arroz|caupi       camote         0.038          0.304         0.256           0.153      0.249
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=780 mm chira_sullana       camote               camote|arroz|caupi       camote         0.026          0.371         0.201           0.215      0.188
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=780 mm    bajo_piura       camote               camote|arroz|caupi        caupi         0.032          0.191         0.338           0.218      0.221
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=780 mm   medio_piura       camote               camote|caupi|arroz        caupi         0.027          0.194         0.345           0.213      0.221
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=780 mm    alto_piura      algodon              algodon|arroz|caupi        caupi         0.030          0.000         0.441           0.351      0.178
+               agua_arroz=18000 m3/ha (ESCO) extra_arroz=780 mm   san_lorenzo       camote               camote|arroz|caupi       camote         0.038          0.304         0.256           0.153      0.249
+           pendiente fija 0.3 % (valor por defecto del esquema) chira_sullana       camote               camote|arroz|caupi       camote         0.115          0.370         0.199           0.215      0.102
+           pendiente fija 0.3 % (valor por defecto del esquema)    bajo_piura       camote               camote|arroz|caupi        caupi         0.133          0.189         0.329           0.218      0.131
+           pendiente fija 0.3 % (valor por defecto del esquema)   medio_piura       camote               camote|caupi|arroz        caupi         0.124          0.191         0.337           0.213      0.135
+           pendiente fija 0.3 % (valor por defecto del esquema)    alto_piura      algodon              algodon|arroz|caupi        caupi         0.134          0.000         0.432           0.346      0.087
+           pendiente fija 0.3 % (valor por defecto del esquema)   san_lorenzo       camote               camote|arroz|caupi       camote         0.160          0.299         0.232           0.153      0.155
+pendiente 0.3 % y ECe 2 dS/m (parcela arrocera tipica supuesta) chira_sullana       camote               camote|arroz|caupi       camote         0.201          0.763         0.023           0.000      0.013
+pendiente 0.3 % y ECe 2 dS/m (parcela arrocera tipica supuesta)    bajo_piura       camote               camote|arroz|caupi       camote         0.243          0.563         0.180           0.000      0.014
+pendiente 0.3 % y ECe 2 dS/m (parcela arrocera tipica supuesta)   medio_piura       camote               camote|caupi|arroz       camote         0.235          0.576         0.174           0.000      0.015
+pendiente 0.3 % y ECe 2 dS/m (parcela arrocera tipica supuesta)    alto_piura      algodon              algodon|arroz|caupi        caupi         0.266          0.000         0.603           0.129      0.002
+pendiente 0.3 % y ECe 2 dS/m (parcela arrocera tipica supuesta)   san_lorenzo       camote               camote|arroz|caupi       camote         0.300          0.589         0.098           0.000      0.013
+             rendimiento de referencia = mediana (no ponderado) chira_sullana       camote               camote|arroz|caupi       camote         0.025          0.408         0.185           0.194      0.189
+             rendimiento de referencia = mediana (no ponderado)    bajo_piura        arroz              arroz|algodon|caupi      algodon         0.031          0.000         0.318           0.427      0.223
+             rendimiento de referencia = mediana (no ponderado)   medio_piura        arroz              arroz|algodon|caupi        caupi         0.026          0.000         0.403           0.347      0.223
+             rendimiento de referencia = mediana (no ponderado)    alto_piura      algodon algodon|caupi|maiz_amarillo_duro        caupi         0.026          0.000         0.427           0.366      0.178
+             rendimiento de referencia = mediana (no ponderado)   san_lorenzo        arroz              arroz|caupi|algodon        caupi         0.055          0.000         0.429           0.247      0.250
+                        umbral de perdida del filtro duro = 0.3 chira_sullana       camote               camote|arroz|caupi       camote         0.031          0.414         0.257           0.125      0.174
+                        umbral de perdida del filtro duro = 0.3    bajo_piura       camote               camote|arroz|caupi        caupi         0.033          0.212         0.392           0.192      0.170
+                        umbral de perdida del filtro duro = 0.3   medio_piura       camote               camote|caupi|arroz        caupi         0.030          0.208         0.408           0.181      0.173
+                        umbral de perdida del filtro duro = 0.3    alto_piura      algodon              algodon|arroz|caupi        caupi         0.035          0.000         0.507           0.286      0.172
+                        umbral de perdida del filtro duro = 0.3   san_lorenzo       camote               camote|arroz|caupi       camote         0.036          0.399         0.292           0.103      0.171
+                        umbral de perdida del filtro duro = 0.7 chira_sullana       camote               camote|arroz|caupi        caupi         0.020          0.228         0.230           0.146      0.376
+                        umbral de perdida del filtro duro = 0.7    bajo_piura        arroz               arroz|caupi|frijol        caupi         0.026          0.104         0.284           0.069      0.518
+                        umbral de perdida del filtro duro = 0.7   medio_piura       camote               camote|caupi|arroz        caupi         0.023          0.119         0.280           0.078      0.501
+                        umbral de perdida del filtro duro = 0.7    alto_piura      algodon              algodon|arroz|caupi        caupi         0.022          0.000         0.375           0.335      0.268
+                        umbral de perdida del filtro duro = 0.7   san_lorenzo        arroz               arroz|caupi|frijol        caupi         0.035          0.109         0.262           0.044      0.550
+                                drenaje malo en toda la parcela chira_sullana        arroz                            arroz        arroz         0.115          0.000         0.000           0.000      0.885
+                                drenaje malo en toda la parcela    bajo_piura        arroz                            arroz        arroz         0.107          0.000         0.000           0.000      0.893
+                                drenaje malo en toda la parcela   medio_piura        arroz                            arroz        arroz         0.109          0.000         0.000           0.000      0.891
+                                drenaje malo en toda la parcela    alto_piura        arroz                            arroz        arroz         0.115          0.000         0.000           0.000      0.885
+                                drenaje malo en toda la parcela   san_lorenzo        arroz                            arroz        arroz         0.107          0.000         0.000           0.000      0.893
+                                       factor_costo fijo = 1.67 chira_sullana       camote               camote|caupi|arroz       camote         0.025          0.364         0.216           0.207      0.189
+                                       factor_costo fijo = 1.67    bajo_piura       camote               camote|caupi|arroz        caupi         0.027          0.182         0.368           0.200      0.223
+                                       factor_costo fijo = 1.67   medio_piura       camote               camote|caupi|arroz        caupi         0.022          0.184         0.376           0.196      0.223
+                                       factor_costo fijo = 1.67    alto_piura        caupi             caupi|frijol|algodon        caupi         0.027          0.000         0.489           0.305      0.178
+                                       factor_costo fijo = 1.67   san_lorenzo       camote               camote|caupi|arroz       camote         0.031          0.299         0.271           0.149      0.250
+                                       factor_costo fijo = 2.11 chira_sullana       camote  camote|caupi|maiz_amarillo_duro       camote         0.024          0.326         0.263           0.198      0.189
+                                       factor_costo fijo = 2.11    bajo_piura       camote              camote|caupi|frijol        caupi         0.025          0.140         0.436           0.176      0.223
+                                       factor_costo fijo = 2.11   medio_piura       camote              camote|caupi|frijol        caupi         0.021          0.141         0.437           0.177      0.223
+                                       factor_costo fijo = 2.11    alto_piura        caupi  caupi|frijol|maiz_amarillo_duro        caupi         0.024          0.000         0.559           0.238      0.178
+                                       factor_costo fijo = 2.11   san_lorenzo       camote              camote|caupi|frijol        caupi         0.027          0.259         0.319           0.145      0.250
+                                                        Ky x0.8 chira_sullana       camote               camote|arroz|caupi       camote         0.025          0.405         0.158           0.232      0.179
+                                                        Ky x0.8    bajo_piura       camote               camote|arroz|caupi      algodon         0.026          0.266         0.223           0.310      0.176
+                                                        Ky x0.8   medio_piura       camote               camote|caupi|arroz      algodon         0.022          0.259         0.247           0.293      0.180
+                                                        Ky x0.8    alto_piura      algodon              algodon|arroz|caupi        caupi         0.028          0.000         0.418           0.376      0.178
+                                                        Ky x0.8   san_lorenzo       camote               camote|arroz|caupi       camote         0.027          0.394         0.177           0.224      0.178
+                                                        Ky x1.2 chira_sullana       camote               camote|arroz|caupi       camote         0.025          0.333         0.243           0.172      0.228
+                                                        Ky x1.2    bajo_piura       camote               camote|arroz|caupi        caupi         0.031          0.138         0.395           0.127      0.309
+                                                        Ky x1.2   medio_piura       camote               camote|caupi|arroz        caupi         0.026          0.147         0.395           0.131      0.301
+                                                        Ky x1.2    alto_piura        arroz              arroz|caupi|algodon        caupi         0.029          0.000         0.462           0.322      0.188
+                                                        Ky x1.2   san_lorenzo       camote               camote|arroz|caupi        caupi         0.039          0.226         0.308           0.083      0.344
+                                            ECe fija = 0.5 dS/m chira_sullana       camote               camote|arroz|caupi       camote         0.042          0.765         0.030           0.000      0.164
+                                            ECe fija = 0.5 dS/m    bajo_piura       camote               camote|arroz|caupi       camote         0.050          0.570         0.210           0.000      0.170
+                                            ECe fija = 0.5 dS/m   medio_piura       camote               camote|caupi|arroz       camote         0.047          0.584         0.200           0.000      0.169
+                                            ECe fija = 0.5 dS/m    alto_piura      algodon              algodon|arroz|caupi        caupi         0.054          0.000         0.639           0.146      0.161
+                                            ECe fija = 0.5 dS/m   san_lorenzo       camote               camote|arroz|caupi       camote         0.061          0.598         0.166           0.000      0.174
+                                            ECe fija = 4.0 dS/m chira_sullana       camote               camote|caupi|arroz       camote         0.041          0.690         0.104           0.000      0.164
+                                            ECe fija = 4.0 dS/m    bajo_piura       camote               camote|caupi|arroz        caupi         0.047          0.328         0.454           0.001      0.170
+                                            ECe fija = 4.0 dS/m   medio_piura       camote               camote|caupi|arroz        caupi         0.044          0.325         0.462           0.000      0.169
+                                            ECe fija = 4.0 dS/m    alto_piura      algodon              algodon|caupi|arroz        caupi         0.045          0.000         0.645           0.149      0.161
+                                            ECe fija = 4.0 dS/m   san_lorenzo       camote               camote|arroz|caupi       camote         0.058          0.560         0.208           0.000      0.174
+                                            ECe fija = 8.0 dS/m chira_sullana        caupi                    caupi|algodon        caupi         0.000          0.000         0.680           0.116      0.204
+                                            ECe fija = 8.0 dS/m    bajo_piura      algodon                    algodon|caupi        caupi         0.000          0.000         0.557           0.233      0.210
+                                            ECe fija = 8.0 dS/m   medio_piura      algodon                    algodon|caupi        caupi         0.000          0.000         0.591           0.202      0.207
+                                            ECe fija = 8.0 dS/m    alto_piura      algodon                    algodon|caupi        caupi         0.000          0.000         0.481           0.317      0.202
+                                            ECe fija = 8.0 dS/m   san_lorenzo        caupi                    caupi|algodon        caupi         0.000          0.000         0.724           0.060      0.216
+         zona        cultivo  etc_anual_mm_min  etc_anual_mm_max  riego_neto_mm_min  riego_neto_mm_max  ciclo_dias  neto_m3_ha_min  neto_m3_ha_max  bruto_goteo_m3_ha  bruto_gravedad_m3_ha  dotacion_ana_m3_ha  neto_sobre_dotacion      estado
+   alto_piura banano (año 2)            1950.0            1971.0             1871.0             1892.0       365.0         18709.0         18922.0            21025.0               52562.0             11807.0                 1.60   calculado
+   alto_piura          limon            1176.0            1180.0             1097.0             1101.0       365.0         10966.0         11014.0            12238.0               30596.0             11807.0                 0.93   calculado
+   alto_piura    uva de mesa             771.0             861.0              697.0              845.0       240.0          6967.0          8448.0             9387.0               23468.0             11807.0                 0.72   calculado
+   alto_piura          mango               NaN               NaN                NaN                NaN         NaN             NaN             NaN                NaN                   NaN                 NaN                  NaN desconocido
+   bajo_piura banano (año 2)            2366.0            2395.0             2341.0             2370.0       365.0         23410.0         23699.0            26332.0               69296.0             11472.0                 2.07   calculado
+   bajo_piura          limon            1425.0            1432.0             1400.0             1407.0       365.0         14002.0         14067.0            15630.0               41132.0             11472.0                 1.23   calculado
+   bajo_piura    uva de mesa             935.0            1055.0              917.0             1030.0       240.0          9173.0         10300.0            11445.0               30118.0             11472.0                 0.90   calculado
+   bajo_piura          mango               NaN               NaN                NaN                NaN         NaN             NaN             NaN                NaN                   NaN                 NaN                  NaN desconocido
+chira_sullana banano (año 2)            2410.0            2432.0             2376.0             2397.0       365.0         23761.0         23974.0            26637.0               76839.0             15399.0                 1.56   calculado
+chira_sullana          limon            1452.0            1457.0             1418.0             1423.0       365.0         14180.0         14228.0            15809.0               45604.0             15399.0                 0.92   calculado
+chira_sullana    uva de mesa             963.0            1051.0              929.0             1041.0       240.0          9289.0         10408.0            11565.0               33360.0             15399.0                 0.68   calculado
+chira_sullana          mango               NaN               NaN                NaN                NaN         NaN             NaN             NaN                NaN                   NaN                 NaN                  NaN desconocido
+  medio_piura banano (año 2)            2449.0            2473.0             2414.0             2438.0       365.0         24145.0         24383.0            27093.0               71296.0             11472.0                 2.13   calculado
+  medio_piura          limon            1475.0            1480.0             1441.0             1446.0       365.0         14406.0         14461.0            16068.0               42283.0             11472.0                 1.26   calculado
+  medio_piura    uva de mesa             977.0            1076.0              943.0             1053.0       240.0          9425.0         10528.0            11698.0               30783.0             11472.0                 0.92   calculado
+  medio_piura          mango               NaN               NaN                NaN                NaN         NaN             NaN             NaN                NaN                   NaN                 NaN                  NaN desconocido
+  san_lorenzo banano (año 2)            2410.0            2432.0             2376.0             2397.0       365.0         23761.0         23974.0            26637.0               67722.0              9528.0                 2.52   calculado
+  san_lorenzo          limon            1452.0            1457.0             1418.0             1423.0       365.0         14180.0         14228.0            15809.0               40193.0              9528.0                 1.49   calculado
+  san_lorenzo    uva de mesa             963.0            1051.0              929.0             1041.0       240.0          9289.0         10408.0            11565.0               29402.0              9528.0                 1.09   calculado
+  san_lorenzo          mango               NaN               NaN                NaN                NaN         NaN             NaN             NaN                NaN                   NaN                 NaN                  NaN desconocido
+           cultivo         variables             esquema   n  anios  distritos  mae_referencia  mae_con_clima  skill_pct
+           algodon          clima_v1                LOYO  89      9         18           1.473          1.407      4.480
+           algodon          clima_v1 GroupKFold_distrito  89      9         18           1.054          1.245    -18.180
+             arroz          clima_v1                LOYO 286     10         31           0.772          0.826     -6.908
+             arroz          clima_v1 GroupKFold_distrito 286     10         31           0.999          0.775     22.444
+            camote          clima_v1                LOYO  52     10         12           4.103          4.489     -9.411
+            camote          clima_v1 GroupKFold_distrito  52     10         12           9.133          5.732     37.239
+             caupi          clima_v1                LOYO 180     10         31           0.498          0.526     -5.561
+             caupi          clima_v1 GroupKFold_distrito 180     10         31           0.444          0.461     -4.002
+            frijol          clima_v1                LOYO  37     10          5           0.314          0.370    -17.776
+            frijol          clima_v1 GroupKFold_distrito  37     10          5           0.362          0.366     -1.179
+             limon          clima_v1                LOYO 121      9         16           3.246          3.298     -1.602
+             limon          clima_v1 GroupKFold_distrito 121      9         16           3.398          3.774    -11.066
+maiz_amarillo_duro          clima_v1                LOYO 323     10         37           0.498          0.530     -6.407
+maiz_amarillo_duro          clima_v1 GroupKFold_distrito 323     10         37           0.932          0.983     -5.414
+             mango          clima_v1                LOYO 104      9         13           4.292          4.367     -1.730
+             mango          clima_v1 GroupKFold_distrito 104      9         13           4.663          4.967     -6.517
+               uva          clima_v1                LOYO  68      9          8          11.746         11.861     -0.980
+               uva          clima_v1 GroupKFold_distrito  68      9          8          13.757         12.977      5.666
+           algodon clima_mas_eventos                LOYO  89      9         18           1.473          1.648    -11.881
+           algodon clima_mas_eventos GroupKFold_distrito  89      9         18           1.054          1.307    -24.033
+             arroz clima_mas_eventos                LOYO 286     10         31           0.772          0.868    -12.437
+             arroz clima_mas_eventos GroupKFold_distrito 286     10         31           0.999          0.792     20.707
+            camote clima_mas_eventos                LOYO  52     10         12           4.103          4.707    -14.719
+            camote clima_mas_eventos GroupKFold_distrito  52     10         12           9.133          5.818     36.293
+             caupi clima_mas_eventos                LOYO 180     10         31           0.498          0.595    -19.422
+             caupi clima_mas_eventos GroupKFold_distrito 180     10         31           0.444          0.458     -3.135
+            frijol clima_mas_eventos                LOYO  37     10          5           0.314          0.387    -23.239
+            frijol clima_mas_eventos GroupKFold_distrito  37     10          5           0.362          0.342      5.512
+             limon clima_mas_eventos                LOYO 121      9         16           3.246          3.280     -1.043
+             limon clima_mas_eventos GroupKFold_distrito 121      9         16           3.398          3.707     -9.106
+maiz_amarillo_duro clima_mas_eventos                LOYO 323     10         37           0.498          0.533     -6.996
+maiz_amarillo_duro clima_mas_eventos GroupKFold_distrito 323     10         37           0.932          0.927      0.502
+             mango clima_mas_eventos                LOYO 104      9         13           4.292          4.500     -4.844
+             mango clima_mas_eventos GroupKFold_distrito 104      9         13           4.663          4.890     -4.864
+               uva clima_mas_eventos                LOYO  68      9          8          11.746         11.812     -0.557
+               uva clima_mas_eventos GroupKFold_distrito  68      9          8          13.757         13.196      4.080
+           cultivo         variables  anio  n  rend_obs_mediana  mae_referencia  mae_con_clima  sesgo_con_clima
+           algodon          clima_v1  2017  6             2.983           1.255          1.562           -0.257
+           algodon          clima_v1  2023  2             0.964           1.371          1.483           -0.034
+             arroz          clima_v1  2017 30             7.465           1.222          1.211            0.974
+             arroz          clima_v1  2023 31             8.624           0.584          0.999           -0.792
+            camote          clima_v1  2017  7            21.250           2.825          4.719           -4.719
+            camote          clima_v1  2023  3            11.088           4.942          6.991            6.321
+             caupi          clima_v1  2017 18             1.713           0.492          0.515            0.513
+             caupi          clima_v1  2023 16             1.783           0.393          0.459           -0.336
+            frijol          clima_v1  2017  4             0.826           1.054          1.057           -0.951
+            frijol          clima_v1  2023  4             0.757           0.230          0.741            0.741
+             limon          clima_v1  2017 14             7.039           2.954          2.625            2.240
+             limon          clima_v1  2023 13             8.078           2.903          3.425           -1.851
+maiz_amarillo_duro          clima_v1  2017 31             4.432           0.481          0.562            0.391
+maiz_amarillo_duro          clima_v1  2023 36             5.097           0.324          0.490           -0.470
+             mango          clima_v1  2017 10             9.015           3.165          3.427           -1.484
+             mango          clima_v1  2023 12             9.786           3.860          3.950           -1.541
+               uva          clima_v1  2017  8            19.992          11.260         10.884            6.612
+               uva          clima_v1  2023  7            25.920           7.047          8.455            0.326
+           algodon clima_mas_eventos  2017  6             2.983           1.255          1.619           -0.757
+           algodon clima_mas_eventos  2023  2             0.964           1.371          1.409            0.050
+             arroz clima_mas_eventos  2017 30             7.465           1.222          1.324            1.098
+             arroz clima_mas_eventos  2023 31             8.624           0.584          1.099           -0.951
+            camote clima_mas_eventos  2017  7            21.250           2.825          5.772           -5.772
+            camote clima_mas_eventos  2023  3            11.088           4.942          6.890            6.783
+             caupi clima_mas_eventos  2017 18             1.713           0.492          0.527            0.527
+             caupi clima_mas_eventos  2023 16             1.783           0.393          0.453           -0.323
+            frijol clima_mas_eventos  2017  4             0.826           1.054          1.054           -0.805
+            frijol clima_mas_eventos  2023  4             0.757           0.230          0.617            0.617
+             limon clima_mas_eventos  2017 14             7.039           2.954          2.338            1.488
+             limon clima_mas_eventos  2023 13             8.078           2.903          3.172           -1.667
+maiz_amarillo_duro clima_mas_eventos  2017 31             4.432           0.481          0.701            0.650
+maiz_amarillo_duro clima_mas_eventos  2023 36             5.097           0.324          0.468           -0.448
+             mango clima_mas_eventos  2017 10             9.015           3.165          3.377           -1.568
+             mango clima_mas_eventos  2023 12             9.786           3.860          3.975            0.168
+               uva clima_mas_eventos  2017  8            19.992          11.260         10.578           -0.054
+               uva clima_mas_eventos  2023  7            25.920           7.047          9.239            3.727
+ANO                  2015   2016   2017   2018   2019   2020   2021   2022   2023  2024
+cultivo                                                                                
+algodon              0.85   3.35   2.98   3.53   4.14   3.68   3.68   4.53   0.96   NaN
+arroz                8.95   8.90   7.46   8.61   7.98   8.87   9.62   7.74   8.62  9.23
+banano                NaN    NaN    NaN    NaN    NaN    NaN    NaN  41.06  43.56   NaN
+camote              23.43  21.79  21.25  12.50  13.17  15.62  15.00  14.77  11.09  8.57
+caupi                1.82   1.75   1.71   1.75   2.50   2.52   2.44   1.78   1.78  1.95
+frijol               1.00   0.80   0.83   0.80   0.92   1.10   0.82   0.80   0.76  1.05
+limon                4.60  11.33   7.04   7.32   7.65   8.33   9.91  11.15   8.08   NaN
+maiz_amarillo_duro   5.00   4.78   4.43   4.88   5.32   4.59   5.00   5.28   5.10  4.55
+mango                6.00  14.36   9.02  11.66   6.00   6.39  11.00  13.88   9.79   NaN
+sorgo                 NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   6.00  4.00
+uva                 21.08  31.79  19.99  19.01  24.70  21.88  22.22  21.26  25.92   NaN
+EXIT 0

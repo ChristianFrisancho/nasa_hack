@@ -1,0 +1,94 @@
+zona,napa,ecw,ecw_valor,n_aceptados,top1,top3,sec_viables,sec_total,sec_top
+chira_sullana,napa_desconocida,falta,null,0,ninguno,,0,0,ninguna
+chira_sullana,napa_desconocida,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+chira_sullana,napa_desconocida,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+chira_sullana,napa_desconocida,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+chira_sullana,napa_desconocida,rio_zona,"[0.514, 4.98]",0,ninguno,,0,0,ninguna
+chira_sullana,napa_desconocida,rio_sin_disputa,"[0.373, 4.98]",0,ninguno,,0,0,ninguna
+chira_sullana,napa_desconocida,chira_coronel,"[0.373, 1.167]",0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,falta,null,0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,rio_zona,"[0.514, 4.98]",0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,rio_sin_disputa,"[0.373, 4.98]",0,ninguno,,0,0,ninguna
+chira_sullana,napa_1m,chira_coronel,"[0.373, 1.167]",0,ninguno,,0,0,ninguna
+chira_sullana,napa_3m,falta,null,0,ninguno,,0,0,ninguna
+chira_sullana,napa_3m,esc_0.5,0.5,12,caupi,caupi|cebolla|frijol grano,30,30,frijol grano+cebolla
+chira_sullana,napa_3m,esc_1.5,1.5,12,caupi,caupi|frijol grano|cebolla,30,30,frijol grano+cebolla
+chira_sullana,napa_3m,esc_3.0,3.0,12,caupi,caupi|maiz amarillo duro|arroz,23,30,zapallo+maiz choclo
+chira_sullana,napa_3m,rio_zona,"[0.514, 4.98]",12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,frijol grano+maiz amarillo duro
+chira_sullana,napa_3m,rio_sin_disputa,"[0.373, 4.98]",12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,frijol grano+maiz amarillo duro
+chira_sullana,napa_3m,chira_coronel,"[0.373, 1.167]",12,caupi,caupi|cebolla|frijol grano,30,30,frijol grano+cebolla
+bajo_piura,napa_desconocida,falta,null,12,caupi,caupi|arveja|frijol grano,0,30,ninguna
+bajo_piura,napa_desconocida,esc_0.5,0.5,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+bajo_piura,napa_desconocida,esc_1.5,1.5,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+bajo_piura,napa_desconocida,esc_3.0,3.0,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+bajo_piura,napa_desconocida,pozo_tesis,"[0.13, 1.12]",12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+bajo_piura,napa_1m,falta,null,12,caupi,caupi|arveja|frijol grano,0,30,ninguna
+bajo_piura,napa_1m,esc_0.5,0.5,12,caupi,caupi|arveja|frijol grano,25,30,arveja+frijol grano
+bajo_piura,napa_1m,esc_1.5,1.5,12,caupi,caupi|arveja|frijol grano,25,30,arveja+frijol grano
+bajo_piura,napa_1m,esc_3.0,3.0,12,caupi,caupi|arveja|frijol grano,25,30,arveja+frijol grano
+bajo_piura,napa_1m,pozo_tesis,"[0.13, 1.12]",12,caupi,caupi|arveja|frijol grano,25,30,arveja+frijol grano
+bajo_piura,napa_3m,falta,null,12,caupi,caupi|arveja|frijol grano,0,30,ninguna
+bajo_piura,napa_3m,esc_0.5,0.5,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+bajo_piura,napa_3m,esc_1.5,1.5,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+bajo_piura,napa_3m,esc_3.0,3.0,9,caupi,caupi|arveja|algodon,25,30,arveja+maiz choclo
+bajo_piura,napa_3m,pozo_tesis,"[0.13, 1.12]",12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano
+medio_piura,napa_desconocida,falta,null,0,ninguno,,0,0,ninguna
+medio_piura,napa_desconocida,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+medio_piura,napa_desconocida,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+medio_piura,napa_desconocida,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+medio_piura,napa_desconocida,rio_zona,"[0.74, 9.92]",0,ninguno,,0,0,ninguna
+medio_piura,napa_desconocida,rio_sin_disputa,"[0.74, 5.98]",0,ninguno,,0,0,ninguna
+medio_piura,napa_desconocida,pozo_tesis,"[0.16, 3.83]",0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,falta,null,0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,rio_zona,"[0.74, 9.92]",0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,rio_sin_disputa,"[0.74, 5.98]",0,ninguno,,0,0,ninguna
+medio_piura,napa_1m,pozo_tesis,"[0.16, 3.83]",0,ninguno,,0,0,ninguna
+medio_piura,napa_3m,falta,null,0,ninguno,,0,0,ninguna
+medio_piura,napa_3m,esc_0.5,0.5,12,caupi,caupi|cebolla|frijol grano,30,30,frijol grano+cebolla
+medio_piura,napa_3m,esc_1.5,1.5,12,caupi,caupi|frijol grano|cebolla,30,30,frijol grano+cebolla
+medio_piura,napa_3m,esc_3.0,3.0,12,caupi,caupi|maiz amarillo duro|arroz,23,30,zapallo+maiz choclo
+medio_piura,napa_3m,rio_zona,"[0.74, 9.92]",12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,maiz amarillo duro+frijol grano
+medio_piura,napa_3m,rio_sin_disputa,"[0.74, 5.98]",12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,maiz amarillo duro+frijol grano
+medio_piura,napa_3m,pozo_tesis,"[0.16, 3.83]",12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,maiz amarillo duro+frijol grano
+alto_piura,napa_desconocida,falta,null,0,ninguno,,0,0,ninguna
+alto_piura,napa_desconocida,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+alto_piura,napa_desconocida,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+alto_piura,napa_desconocida,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+alto_piura,napa_desconocida,rio_zona,"[0.345, 0.741]",0,ninguno,,0,0,ninguna
+alto_piura,napa_1m,falta,null,0,ninguno,,0,0,ninguna
+alto_piura,napa_1m,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+alto_piura,napa_1m,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+alto_piura,napa_1m,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+alto_piura,napa_1m,rio_zona,"[0.345, 0.741]",0,ninguno,,0,0,ninguna
+alto_piura,napa_3m,falta,null,0,ninguno,,0,0,ninguna
+alto_piura,napa_3m,esc_0.5,0.5,12,caupi,caupi|frijol grano|maiz amarillo duro,28,30,maiz choclo+frijol grano
+alto_piura,napa_3m,esc_1.5,1.5,12,caupi,caupi|frijol grano|maiz amarillo duro,28,30,maiz choclo+frijol grano
+alto_piura,napa_3m,esc_3.0,3.0,12,caupi,caupi|maiz amarillo duro|arroz,23,30,zapallo+maiz choclo
+alto_piura,napa_3m,rio_zona,"[0.345, 0.741]",12,caupi,caupi|frijol grano|maiz amarillo duro,28,30,maiz choclo+frijol grano
+san_lorenzo,napa_desconocida,falta,null,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_desconocida,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_desconocida,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_desconocida,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_desconocida,rio_zona,"[0.417, 7.86]",0,ninguno,,0,0,ninguna
+san_lorenzo,napa_desconocida,rio_sin_disputa,"[0.417, 2.32]",0,ninguno,,0,0,ninguna
+san_lorenzo,napa_desconocida,canal_toma,0.47,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,falta,null,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,esc_0.5,0.5,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,esc_1.5,1.5,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,esc_3.0,3.0,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,rio_zona,"[0.417, 7.86]",0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,rio_sin_disputa,"[0.417, 2.32]",0,ninguno,,0,0,ninguna
+san_lorenzo,napa_1m,canal_toma,0.47,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_3m,falta,null,0,ninguno,,0,0,ninguna
+san_lorenzo,napa_3m,esc_0.5,0.5,12,cebolla,cebolla|frijol grano|maiz amarillo duro,30,30,frijol grano+cebolla
+san_lorenzo,napa_3m,esc_1.5,1.5,12,frijol grano,frijol grano|cebolla|maiz amarillo duro,30,30,frijol grano+cebolla
+san_lorenzo,napa_3m,esc_3.0,3.0,12,maiz amarillo duro,maiz amarillo duro|arroz|caupi,23,30,zapallo+maiz choclo
+san_lorenzo,napa_3m,rio_zona,"[0.417, 7.86]",12,frijol grano,frijol grano|maiz amarillo duro|arroz,30,30,frijol grano+maiz amarillo duro
+san_lorenzo,napa_3m,rio_sin_disputa,"[0.417, 2.32]",12,frijol grano,frijol grano|maiz amarillo duro|arroz,30,30,frijol grano+maiz amarillo duro
+san_lorenzo,napa_3m,canal_toma,0.47,12,cebolla,cebolla|frijol grano|maiz amarillo duro,30,30,frijol grano+cebolla

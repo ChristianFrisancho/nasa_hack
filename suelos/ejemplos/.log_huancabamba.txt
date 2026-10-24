@@ -1,0 +1,1 @@
+huancabamba: 54 filas -> /workspace/piura-agro/suelos/ejemplos/huancabamba.csv | estimado=41, desconocido=8, observado=5

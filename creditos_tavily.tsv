@@ -1,0 +1,86 @@
+fecha	bot	herramienta	creditos_aprox	nota
+2026-10-24T05:27:01Z	Piura Datos	tavily_search basic x4	4	rendimiento distrito SIEA; modulo riego JU Medio y Bajo Piura; CE suelo Bajo Piura; CE agua rios Chira-Piura
+2026-10-24T05:27:17Z	Piura Agronomía	tavily_search	3	3 búsquedas basic: anegamiento, periodo vegetativo Piura, variedades arroz INIA
+2026-10-24T05:27:34Z	Piura Datos	tavily_search	1	prueba de acceso pedida por Grok Bot (basic, 1 resultado)
+2026-10-24T05:27:34Z	Piura Datos	nota	0	Grok Bot informa que Christian autorizó tavily_research; uso solo si basic no alcanza
+2026-10-24T05:27:35Z	Piura Agronomía	tavily_search	2	2 basic: fichas MIDAGRI; tolerancia anegamiento FAO drenaje
+2026-10-24T05:28:58Z	Piura Datos	tavily_extract basic x1 (falló timeout)	1	ANA caracterizacion calidad aguas ChP; se anota 1 aunque falló
+2026-10-24T05:28:58Z	Piura Datos	tavily_search basic x4	4	CE suelos tesis UNP; PCR Chira volumen; PGRH linea base dotacion; CE rios ANA
+2026-10-24T05:29:43Z	Piura Agronomía	tavily_extract	1	extract 5 PDFs INIA/MIDAGRI (arroz 510, ficha arroz, paprika, MAD 2013, INIA 619)
+2026-10-24T05:29:48Z	Piura Datos	tavily_search basic x1	1	ediciones Compendio Estadistico Piura INEI (CDR por año)
+2026-10-24T05:31:57Z	Piura Datos	tavily_search basic x1	1	URL oficial Compendio Piura 2025 (no hallada)
+2026-10-24T05:33:51Z	Piura Agronomía	tavily_search	3	3 búsquedas basic: leguminosa previa (fallida), paja SOC, SENASA algodón rastrojos
+2026-10-24T05:34:54Z	Piura Modelos	ninguna	0	ronda 1 sin Tavily (WebFetch, curl FAO, API POWER)
+2026-10-24T05:35:27Z	Piura Datos	tavily_search basic x2	2	verificar dotacion PGRH Chira-Piura (confirmada p.155) y CE agua riego Piura
+2026-10-24T05:35:30Z	Piura Agronomía	tavily_search	1	1 búsqueda basic: Poeplau&Don 2015 tasa SOC cultivos de cobertura (abstract confirmado en hero.epa.gov)
+2026-10-24T05:36:33Z	Piura Datos	tavily_search basic x5 (1 con error 429)	4	agua por campaña, ECe suelo, drenaje (429), agua arroz, costos MAD/algodón
+2026-10-24T05:37:49Z	Piura Modelos	tavily_search advanced x2 + basic x2	6	agua arroz por ha Piura (agraria.pe 2016, DIGESA), ECe Bajo Piura (sin cifra), ECe tesis (sin cifra), costos MAD Bajo Piura (Rodriguez Valdez 2025)
+2026-10-24T05:38:44Z	Piura Agronomía	tavily_search	1	1 búsqueda basic: fichas MIDAGRI requerimientos agroecológicos perennes
+2026-10-24T05:38:44Z	Piura Agronomía	tavily_extract	1	extract basic 2 PDFs MIDAGRI (mango, palta) para años a producción
+2026-10-24T05:39:49Z	Piura Agronomía	tavily_search	2	2 búsquedas basic: fichas MIDAGRI perennes (solo existen mango y palta en la serie)
+2026-10-24T05:41:55Z	Piura Agronomía	tavily_search	2	2 búsquedas basic: duraciones INIA arroz Piura y caupí costa norte
+2026-10-24T05:43:03Z	Piura Agronomía	tavily_extract	1	extract manual caupí MIDAGRI 1568 (Loreto); 2 PDFs INIA arroz fallaron por timeout (no cobrados, se registran 0)
+2026-10-24T05:43:32Z	Piura Datos	tavily_search basic x3 + advanced x1 + extract basic x2 (1 fallido)	6	drenaje Bajo Piura, ECe agricola (tesis UNP La Arena 2025, sin cifras accesibles), extract MIDAGRI/slideshare
+2026-10-24T05:43:32Z	Piura Datos	tavily_research mini x1	110	agua por campaña, drenaje, ECe. La herramienta NO devuelve el costo; anoto la cota superior publicada de mini (4-110) para no subestimar. Sintesis con errores; solo use 2 fuentes verificadas aparte (PADH ANA 2025-26, tesina San Lorenzo 2007)
+2026-10-24T05:44:20Z	Piura Datos	tavily_search basic x1	1	URL agraria.pe agua arroz Piura (2016: 12000 y 8000 m3/ha; 2018: 18000 y 10000)
+2026-10-24T05:44:26Z	Piura Agronomía	tavily_extract	0	extract INIA 432 y 502 falló por timeout (sin cobro)
+2026-10-24T05:44:26Z	Piura Agronomía	tavily_search	1	búsqueda basic INIA 432 caupí periodo vegetativo
+2026-10-24T05:45:00Z	Piura Agronomía	tavily_search	2	2 búsquedas basic: zarandaja Piura; rotación arroz-caupí costa norte (sin evidencia peruana útil)
+2026-10-24T05:48:08Z	Piura Datos	tavily_search basic x2 (ECe agrícola Bajo Piura; drenaje Bajo Piura)	2	Jequetepeque CE 1:1 (PUCP), Santayana 2012 (75 % Bajo Piura con sales)
+2026-10-24T05:51:22Z	Piura Agronomía	tavily_extract	0	extract INIA calendario costa, UNP 1285, doi Brasil FBN: los 3 fallaron (sin cobro)
+2026-10-24T05:51:22Z	Piura Agronomía	tavily_search	1	basic: calendario campaña chica Piura caupí/maíz (sin dato utilizable)
+2026-10-24T05:41:33Z	Piura Territorio	tavily_search basic x1	1	GSASmap descarga GeoTIFF EC 0-30 (sin URL de descarga); copiado de suelos/creditos_tavily.tsv
+2026-10-24T05:41:33Z	Piura Territorio	tavily_research mini x1	110	ECe y napa medidas valles Piura; costo no informado por la API, se anota tope mini 110; copiado
+2026-10-24T05:41:33Z	Piura Territorio	tavily_research mini x1	110	Impactos FEN 2017 y 2023 Piura; tope mini 110; copiado
+2026-10-24T05:53:15Z	Piura Territorio	tavily_extract basic x2 (fallaron)	0	repositorio ANA 1510 y 1535 (salinidad/drenaje Chira y Bajo Piura): Failed to fetch, sin cobro
+2026-10-24T05:53:15Z	Piura Territorio	tavily_search basic x1	1	estudios ANA drenaje y salinidad Bajo Piura (fichas ALICIA, slideshare)
+2026-10-24T05:53:15Z	Piura Territorio	tavily_extract basic x1	1	ICEN oficial met.igp.gob.pe/datos/ICEN.txt (curl falla desde la caja)
+2026-10-24	Piura Datos	tavily_search	2	R2: 2 basic (Rabanal Yocya, PECHP)
+2026-10-24	Piura Datos	tavily_extract basic x5	1	R2: handles INIA 3070, UCV 170594, UNP 384, ANA 4193/1535 (solo UCV respondio, sin cifras)
+2026-10-24	Piura Datos	tavily_search basic x2	2	R2: PECHP drenaje 7980 ha (solo Wikipedia) y memoria PECHP gob.pe (sin resultado util)
+2026-10-24T06:02:16Z	Piura Agronomía	tavily_search	1	R4: verificar ciclo páprika MIDAGRI (cosecha 120 d post-trasplante)
+2026-10-24T06:03:17Z	Piura Territorio	tavily_extract basic	0	CENEPRED GeoJSON riesgo inundacion Piura: fallo, se uso WebFetch
+2026-10-24T06:15:00Z	Piura Agronomía	tavily_search basic x2	2	R4/r3: metodología Herridge 2008 (factor raíz 1.4) y balance N caupí Namibia (solo resumen)
+2026-10-24T06:10:26Z	Piura Modelos	ninguna	0	ronda 3 sin Tavily (mango desde PDFs ya bajados; total del agente 6 de 100)
+2026-10-24	Piura Datos	tavily_search advanced x1 + basic x1	3	R2: ECe pasta saturada Bajo Piura (solo ecuaciones no comparables) y costos algodon/frijol/caupi/camote Piura
+2026-10-24T06:19:23Z	Piura Agronomía	search_basic	3	R5 P2 perennes: banano, cacao/café, cítricos/vid/piña (3 búsquedas basic)
+2026-10-24T06:21:02Z	Piura Agronomía	search_basic	5	R5 P2 perennes: café, uva Piura, piña, banano vida útil, naranja (5 búsquedas basic; extract MIDAGRI falló por timeout)
+2026-10-24T06:05:00Z	Piura Datos	extract_basic	1	R2: extract MIDAGRI algodón (falló; antes no anotado)
+2026-10-24T06:22:00Z	Piura Datos	extract_basic	1	R2: extract 5 URLs INIA 3070/2770, ANA 1535, UCV 76359, UNP 384 (4 timeout; UCV sin cifras)
+2026-10-24T06:21:49Z	Piura Agronomía	search_adv+basic	5	R5 P3: Kc frijol de palo (adv), Kc zarandaja (basic), umbral ECe yuca/banano/cacao (adv)
+2026-10-24T06:22:31Z	Piura Territorio	extract_basic	1	R2: PDF ANA ERH Piura ok (copia en suelos/fuentes); handle 1535 timeout
+2026-10-24T06:22:31Z	Piura Territorio	extract_advanced	0	R2: handle ANA 1535 fallo (Failed to fetch url)
+2026-10-24T06:22:31Z	Piura Agronomía	search_adv+basic	7	R5 P3/P4/P5: Kc frijol de palo (basic), recuperación suelos salinos Piura (adv), FBN costa norte (adv), rotación arroz-leguminosa/maíz (adv)
+2026-10-24T06:24:11Z	Piura Agronomía	search_adv+basic	3	R5 P5/P4: nematodos Meloidogyne costa norte (adv), palto años a primera cosecha (basic)
+2026-10-24T06:27:33Z	Piura Datos	search_basic+adv+extract	12	R2: 9 basic (UNP/UDEP suelos, El Chira, napa, costos algodón, MAD, costos frijol/caupí/camote, módulos Chira, análisis suelo tesis) + 1 adv (2) + extract 4 URLs PGRH/cuencpi/MIDAGRI/DRA (1)
+2026-10-24T06:29:31Z	Piura Agronomía	search_basic	1	R5 P3: recuperar URL de la cita yuca ECe 0.7 dS/m (Shannon & Grieve 1999, USDA ARS P1567)
+2026-10-24T06:36:38Z	Piura Datos	extract	1	R2: re-extract PGRH, cuencpi y Dialnet para copia local en fuentes/ (la restauración de las 06:30 borró /tmp)
+2026-10-24T06:54:28Z	Piura Agronomía	search_basic	9	R6 C: banano Swisscontact, Durán Zuazo EJA, Zhang 2005, frijol de palo ECe, Kc banano/mango locales, tesis UNP (7-9 búsquedas basic)
+2026-10-24T06:54:28Z	Piura Agronomía	search_basic	4	R6 C: Kc mango semiárido Brasil, zarandaja ciclo Piura, ECe papaya, Kc frijol de palo lisímetro
+2026-10-24T06:55:57Z	Piura Modelos	tavily_search basic x4 + tavily_extract x1 (fallido)	5	ronda 4: ECe/drenaje/pendiente Piura y clima; total del agente 11 de 100
+2026-10-24T06:58:34Z	Piura Agronomía	tavily_search basic x2	2	R6 C: Kc frijol de palo (lisímetro/FAO) y Kc Lablab purpureus; sin cifras útiles
+2026-10-24T06:58:37Z	Piura Datos	tavily_search advanced x9 + basic + tavily_extract x4 (1 fallido)	27	ronda 3: CE tesis Chira/San Lorenzo, CEw por zona, costos caupí/vainita/papaya/frijol de palo; total ronda 3 ~27 de 300 (acumulado ~187 de 1200)
+2026-10-24T07:05:00Z	Piura Datos	tavily_search advanced x4 + tavily_extract x1	9	ronda 3 (cierre): napa PECHP (adv), costo camote (adv), agua por campaña Chira y Medio/Bajo (2 adv), extract MIDAGRI camote; total ronda 3 ~36 de 300 (acumulado ~196 de 1200)
+2026-10-24	Piura Territorio	tavily_search	1	r6: búsqueda Durán Zuazo 2004 mango ECw vs ECe
+2026-10-24T07:12:00Z	Piura Datos	tavily_search advanced x1 + basic x1 + tavily_extract x1 (fallido)	4	ronda 4 (parcial 1): CEw/CHIRPS búsqueda básica, extract SENAMHI fallido, búsqueda adv lluvia Miraflores (halló SENAMHI 2016 SIAR)
+2026-10-24	Piura Territorio	tavily_search	2	r6: búsqueda avanzada FAO/UNALM 1990 Bajo Piura
+2026-10-24	Piura Territorio	tavily_search	1	r6: búsqueda Kc mango/banano fuente peruana (sin resultado útil)
+2026-10-24T07:33:00Z	Piura Datos	tavily_search advanced+basic + tavily_extract (caupí, POWER, ANA CEw)	31	ronda 4 (parcial 2, estimado por conteo de llamadas, no por factura): costos caupí Vigna, ANA IT 0074/0076-2024, PISCOp; total ronda 4 ~35 de 300 (acumulado Piura Datos ~231 de 1200)
+2026-10-24T07:40:00Z	Piura Agronomía	tavily_search basic x7	7	r7: arveja salinidad (Cerda 1982 SP-290/Durana; FAO-61 vs FAO-56 1.5/14; origen FAO-48/Rhoades), tolerancia térmica (Osorio, SENASA BPA), época siembra sur chico
+2026-10-24T07:43:43Z	Piura Modelos	ninguna	0	ronda 5 sin Tavily (PISCOp ya bajado, motor y CSV del equipo); total del agente 11 de 100
+2026-10-24T07:43:48Z	Piura Datos	tavily_search	1	r5 comunicado ENFEN 18-2026
+2026-10-24T07:43:48Z	Piura Datos	tavily_extract	2	r5 página comunicado 18-2026 (advanced)
+2026-10-24T07:47:00Z	Piura Datos	tavily_search	1	r5 basic: monitoreo participativo 2015 (ANA dominios)
+2026-10-24T07:47:00Z	Piura Datos	tavily_extract	0	r5 hdl 2890 x3 URLs: todas fallidas (timeout), sin cobro
+2026-10-24T07:47:00Z	Piura Datos	tavily_search	2	r5 advanced: Cuadro 05 QSFran1/RPiur 2015 -> sólo metadatos ALICIA
+2026-10-24T07:49:00Z	Piura Datos	tavily_search	1	r5 basic: rendimiento plátano Yamango (sin dato distrital)
+2026-10-24T08:06:30Z	Piura Territorio	tavily_search	1	r8: búsqueda básica CEw avenida/canales Piura (P1/P2), sin cifras nuevas
+2026-10-24T08:06:30Z	Piura Territorio	tavily_extract	0	r8: 2 extract fallidos (repositorio ANA/UNP), sin cobro
+2026-10-24T08:05:00Z	Piura Datos	tavily_search	1	r6 basic: SENAMHI boletín FEN mar-2017 Piura (sin cifras por estación)
+2026-10-24T08:05:30Z	Piura Datos	tavily_search	1	r6 basic: segundo monitoreo Quebrada Carneros (no hay)
+2026-10-24T08:07:00Z	Piura Datos	tavily_extract	1	r6 extract boletín SENAMHI 02216SENA-42.pdf (sin tabla por estación)
+2026-10-24T08:07:30Z	Piura Datos	tavily_search	1	r6 basic: lluvia mar-2017 Chusis/Bernal/Sechura (sin cifra)
+2026-10-24T08:08:00Z	Piura Datos	tavily_search	1	r6 basic: rainfall Piura mar-2017 -> Rollenbeck 2022 (Piura 481, Chulucanas 1130)
+2026-10-24T08:08:10Z	Piura Datos	tavily_extract	0	r6 extract MDPI fallido, sin cobro (leído con WebFetch)
+2026-10-24T08:17:00Z	Piura Datos	tavily_search	13	r7: 6 búsquedas avanzadas (~12) + 1 básica: CEw Bajo Piura/Sechura (ANA, monitoreo participativo, SIGRID) y Chusis/ENFEN 2017
+2026-10-24T08:17:10Z	Piura Datos	tavily_extract	2	r7: SIGRID 9277 (ERH ANA Medio y Bajo Piura) y ENFEN ITE 001-2017 (DHN); 3 extracts fallidos (crhc06a x2, tesis UNP) sin cobro

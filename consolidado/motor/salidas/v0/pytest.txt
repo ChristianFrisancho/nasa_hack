@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /workspace/piura-agro/consolidado/motor
+collecting ... collected 9 items
+
+tests/test_motor.py::test_salinidad_alta_descarta_cultivos_sensibles PASSED [ 11%]
+tests/test_motor.py::test_salinidad_baja_no_descarta_por_sal PASSED      [ 22%]
+tests/test_motor.py::test_sin_datos_de_suelo_devuelve_desconocido PASSED [ 33%]
+tests/test_motor.py::test_cifra_desconocida_contamina_el_calculo PASSED  [ 44%]
+tests/test_motor.py::test_reporta_cuando_no_hay_cultivo_viable PASSED    [ 55%]
+tests/test_motor.py::test_secuencia_actualiza_estado_del_suelo PASSED    [ 66%]
+tests/test_motor.py::test_cada_cifra_lleva_fuente_y_tipo_evidencia PASSED [ 77%]
+tests/test_motor.py::test_cli_texto_y_json PASSED                        [ 88%]
+tests/test_motor.py::test_integrar_csv_contrato_reemplaza_dato_desconocido PASSED [100%]
+
+============================== 9 passed in 0.39s ===============================

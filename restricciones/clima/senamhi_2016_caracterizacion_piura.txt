@@ -1,0 +1,2341 @@
+CARACTERIZACIÓN Y ESCENARIOS CLIMÁTICOS
+          DE LA REGIÓN PIURA
+Autor: SENAMHI-PERÚ
+
+Equipo:
+
+Analista Climática y Edición:
+Veronika Castro Asenjo
+
+Dirección de Meteorología Aplicada:
+Gabriela Rosas, Delia Acuña, Gustavo De la Cruz, Edita Talledo, Alan Llacza, Gerardo Jácome.
+
+Dirección de Climatología:
+Grinia Ávalos, Patricia Porras
+
+Especialista Analista SIG:
+Silvia Guerra
+
+Dirección General de Meteorología
+Servicio Nacional de Meteorología e Hidrología del Perú – SENAMHI
+
+Año: 2016
+
+La presente publicación forma parte del Proyecto “Hacia un Desarrollo Bajo en Carbono y Resiliente al Cambio
+climático en las Regiones de Piura y Tumbes”, coordinado por el Programa de las Naciones Unidas para el
+Desarrollo (PNUD) e implementado en el Perú para la Región de Piura.
+
+
+Programa de la Naciones Unidas para el Desarrollo (PNUD)
+Av. Pérez Aranibar 750, Magdalena del Mar, Lima.
+
+
+Servicio Nacional de Meteorología e Hidrología del Perú SENAMHI
+Jr. Cahuide 785 Jesús María
+Teléfonos: (51 – 1) 6141414 (central) y 6141408 (DMA)
+www.senamhi.gob.pe
+email: dcl@senamhi.gob.pe
+email: dma@senamhi.gob.pe
+
+
+
+
+El contenido de este documento puede ser reproducido mencionando la fuente o con autorización de los autores
+y del SENAMHI.
+
+
+
+
+                                                                                                               1
+       CARACTERIZACIÓN Y ESCENARIOS
+       CLIMÁTICOS DE LA REGIÓN PIURA
+PARA EL PROYECTO: “HACIA UN DESARROLLO BAJO EN CARBONO Y
+ RESILIENTE AL CAMBIO CLIMÁTICO EN LAS REGIONES DE PIURA Y
+                         TUMBES”
+
+
+
+                     Ministro del Ambiente - MINAM
+
+                         Manuel Pulgar Vidal Otálora
+
+         Viceministro de Desarrollo Estratégico de los Recursos Naturales
+                          Gabriel Quijandría Acosta
+
+    Director General de Cambio Climático, Desertificación y Recursos Hídricos
+                        Eduardo Durand López-Hurtado
+
+
+
+
+ Servicio Nacional de Meteorología e Hidrología del Perú – SENAMHI
+
+                       Presidente Ejecutiva del SENAMHI
+                               Amelia Díaz Pabló
+
+                               Director Científico
+                            Esequiel Villegas Paredes
+
+                        Director General de Meteorología
+                              Luis Alfaro Lozano
+
+                       Directora de Meteorología Aplicada
+                           Gabriela Rosas Benancio
+
+                            Directora de Climatología
+                             Grinia Avalos Roldán
+
+
+
+
+                                                                                2
+ÍNDICE
+
+
+PRESENTACIÓN                                                                       5
+
+CAPÍTULO I
+
+INTRODUCCIÓN                                                                       6
+
+       1.1 Objetivos                                                               7
+       1.2 Marco Teórico                                                           7
+       1.2.1 Gases de Efecto Invernadero                                           7
+               1.2.2 Modelos Climáticos                                            8
+               1.2.3 Escenarios de emisión                                         8
+               1.2.4 WRF                                                           9
+               1.2.5 AMICAF                                                        9
+               1.2.6 Incertidumbres de los Escenarios Climáticos                   9
+       1.3 Área de estudio                                                         10
+       1.4 Actividad Económica de Piura                                            11
+       1.5 Características Climáticas                                              12
+       1.6 Temperatura superficial del mar                                         13
+
+
+CAPÍTULO II
+
+METODOLOGÍA
+     2.1 Diagnóstico Climático de la región Piura                                  14
+             2.1.1 Caracterización Climática                                       14
+             2.1.2 Tendencias Climáticas                                           17
+                     2.1.2.1 Tendencias Climáticas observadas de precipitación y
+                             Temperatura                                           17
+                     2.1.2.2 Tendencia actual de los indicadores extremos
+                             Climáticos de precipitación y temperatura             19
+     2.2 Escenarios de Cambio Climático                                            21
+             2.2.1 El Modelo HadGEM2-ES                                            21
+             2.2.2 Regionalización Dinámica                                        21
+             2.2.3 Regionalización Estadística                                     22
+             2.2.4 Evaluación de Incertidumbres                                    23
+
+
+CAPÍTULO III
+
+CARACTERIZACIÓN CLIMÁTICA
+
+       3.1 Caracterización Climática de la Precipitación en Piura                  24
+               3.1.1 Distribución Temporal de la precipitación                     24
+               3.1.2 Distribución Espacial de la precipitación                     25
+       3.2 Caracterización Climática de la Temperatura Máxima en Piura             30
+               3.2.1 Distribución Temporal de la temperatura máxima                30
+               3.2.2 Distribución Espacial de la temperatura máxima                31
+       3.3 Caracterización Climática de la Temperatura Mínima en Piura             34
+               3.3.1 Distribución Temporal de la Temperatura Mínima                34
+               3.3.2 Distribución Espacial de la Temperatura Mínima                35
+
+
+
+                                                                                        3
+     3.4 Tendencias Climáticas                                      38
+            3.4.1 Tendencias observadas de Precipitación            38
+                    3.4.1.1 Tendencia Anual                         38
+                    3.4.1.2 Tendencia Estacional                    39
+            3.4.2 Tendencias observadas de la Temperatura Máxima    41
+                    3.4.2.1 Tendencia Anual                         41
+                    3.4.3.2 Tendencia Estacional                    41
+            3.4.3 Tendencias observadas de la Temperatura Mínima    43
+                    3.4.3.1 Tendencia Anual                         43
+                    3.4.3.2 Tendencia Estacional                    44
+
+
+CAPÍTULO IV
+
+ESCENARIOS CLIMÁTICOS REGIONALES
+
+     4.1 Proyecciones del Clima en la región de Piura               47
+             4.1.1 Proyecciones de la precipitación                 48
+             4.1.2 Proyecciones de la temperatura máxima            50
+             4.1.3 Proyecciones de la temperatura mínima            51
+     4.2 Incertidumbres                                             53
+             4.2.1 Cambios en la precipitación a nivel anual        54
+             4.2.2 Cambios en la temperatura máxima a nivel anual   55
+             4.2.3 Cambios en la temperatura mínima a nivel anual   56
+
+CAPÍTULO V
+CONCLUSIONES                                                        58
+
+CAPÍTULO VI
+BIBLIOGRAFÍA                                                        60
+
+ANEXOS                                                              63
+
+
+
+
+                                                                         4
+PRESENTACIÓN
+
+
+Durante las últimas décadas el sistema climático viene sufriendo alteraciones cada vez
+más recurrentes. El Quinto Informe con las Contribuciones del Grupo de trabajo I sobre
+las Bases Físicas del Cambio Climático (IPCC, 2013), precisa con certeza que se está
+produciendo un calentamiento global del planeta y que, desde 1950, los cambios
+observados no tienen precedente; la evidencia de la influencia humana en el
+calentamiento global, los cambios en el régimen de lluvias, el retroceso y/o desaparición
+de los glaciares (grandes reservas de agua dulce), el incremento del nivel del mar, el
+incremento de los caudales, los cambios en los patrones de los eventos meteorológicos y
+la concentración de gases invernadero, han aumentado desde la publicación del cuarto
+Informe, en el 2007, generando un impacto significativo en los                   sectores
+socioeconómicos, en las actividades y en el bienestar de la población.
+Por lo anteriormente descrito se ha incrementado la participación de los servicios
+meteorológicos en los diferentes sectores socioeconómicos con la mayor prestación de
+servicios climáticos y desarrollo de aplicaciones meteorológicas, tal como se reconoció
+en la Tercera Conferencia Mundial del Clima (Ginebra, 2009).
+En este contexto y en el marco del Proyecto “Hacia un desarrollo bajo en carbono y
+resiliente al cambio climático en las regiones de Piura y Tumbes” el Servicio Nacional de
+Meteorología e Hidrología del Perú – SENAMHI elabora el estudio sobre
+“Caracterización y Escenarios Climáticos para la región Piura”, la cual es un valioso e
+indispensable aporte que apoyará el desarrollo de la región a través de su enfoque
+multisectorial y multidisciplinario que permitirá plantear acciones para la identificación
+de riesgos y oportunidades relacionados con el cambio climático a nivel regional,
+integrándolos en la planificación del desarrollo regional e incrementar la resiliencia a los
+impactos del cambio climático y reducir la huella de carbono en la región.
+En Piura la deforestación es creciente y ha llegado a cifras de poco más de 20,000 hectáreas
+anuales y ha alcanzado dimensiones críticas, inclusive, dentro de áreas legalmente protegidas.
+
+
+
+
+                                                                                                 5
+Según el IPCC (2013) la temperatura del aire global de la Tierra está en tendencia creciente desde
+hace varias décadas. Desde comienzos de siglo XX la temperatura media global se ha incrementado
+en 0,85 °C, y la última decena de años es considerada como las más cálidas de los últimos 132 años,
+sin embargo, estos valores globales difícilmente explican los cambios del clima a una escala regional
+y local. Y es que diversas investigaciones hacen referencia de evidencias inequívocas de procesos de
+“cambios en el clima”, unos más acelerados y evidentes que otros, causando problemas críticos como
+escasez de agua, degradación de los suelos, pérdida de biodiversidad, etc (SENAMHI, 2013).
+
+Para el IPCC (2013), el calentamiento en el sistema climático es real, debido principalmente a las
+emisiones provenientes del uso de combustibles fusiles y del cambio de uso de suelo. Las
+proyecciones hacia finales del siglo XXI hablan de incrementos de los niveles de CO2 en la atmosfera
+superiores a 930 ppm, lo cual podría elevar la temperatura global hasta valores de 4°C.
+
+Surge entonces la necesidad de fortalecer la capacidad de respuesta de la población de manera
+organizada frente a los impactos del cambio climático, estableciendo acciones a nivel regional y local,
+para lo cual es necesario diseñar “estrategias de adaptación” que se constituyan en instrumentos de
+gestión para enfrentar cambios del clima, expresados en una mayor variabilidad y de impactos
+diferenciados dada la gran diversidad topoclimática de nuestro territorio.
+
+El punto de partida en este proceso es la identificación de la caracterización climática, la cual es una
+herramienta informativa de la variabilidad del clima tanto en el tiempo como en el espacio y cumple
+un rol fundamental en el desarrollo socio-económico de las regiones geográficas a las que se refiere.
+La Organización Meteorológica Mundial (OMM) ha establecido normativas para la elaboración y
+publicación de estudios de la Caracterización Climática y a su vez recomienda la elaboración de estos
+productos a nivel regional, a fin de que puedan responder a necesidades particulares de una región de
+interés y de un gran número de usuarios. Las normales climáticas empleadas en la elaboración de los
+mapas temáticos de la Caracterización Climática corresponden al promedio de 30 años (según las
+recomendaciones de la OMM). Asimismo, con las series de datos más extensas se determinaran las
+tendencias climáticas para la temperatura y precipitación así como los índices de eventos extremos.
+
+Posteriormente, sobre la línea de base climática se generan los escenarios futuros del clima para la
+región Piura, herramienta estratégica para determinar los potenciales impactos socioeconómicos en la
+región base para la planificación adecuada por parte de los tomadores de decisión regional.
+El SENAMHI es la entidad ejecutora de las actividades relacionadas con el estudio de los escenarios
+climáticos a nivel regional y en razón de sus funciones inherentes como órgano adscrito del Ministerio
+del Ambiente, su experiencia y conocimiento en la generación y suministro de información científica
+relacionada a la línea de base climática, así como las estimaciones cuantitativas de los cambios
+esperados en el clima en todo el territorio nacional, las cuales sirven de referencia para elaborar
+estudios integrados de impacto y vulnerabilidad, así como para valorar las necesidades de adaptación
+planificada al cambio climático en diversos sectores y sistemas socioeconómicos. Esta publicación
+brinda información relevante sobre el clima actual y futuro de la Región Tumbes.
+
+
+
+    1.1      Objetivos
+
+                  Caracterizar climáticamente la temperatura y precipitación de la región Piura.
+
+
+                                                                                                           6
+             Evaluar las tendencias actuales de la temperatura, precipitación y sus extremos
+              climáticos en Piura.
+             Generar los escenarios climáticos regionales de temperatura y precipitación
+              centrado al 2030.
+
+
+1.2     Marco Teórico
+La naturaleza del clima ha hecho que siempre ocurran procesos en la atmósfera desde etapas
+cálidas a frías y viceversa, tanto en periodos largos como cortos. Sin embargo, en las últimas
+décadas estos procesos han sufrido variaciones que han acelerado su ocurrencia e intensidad de
+manera anómala y que podrían deber su origen a procesos antropogénicos. En los últimos
+reportes del IPCC se confirma la relación directa entre el calentamiento global (principal
+causante del cambio climático) y el aumento de las emisiones de gases de efecto invernadero
+(GEI).
+
+
+        1.2.1      Gases de Efecto Invernadero (GEI)
+Reconocidos científicos comparten una misma conclusión con respecto al incremento de la
+concentración de los Gases de Efecto Invernadero indicando que éstos están provocando
+alteraciones en el clima, y se volvieron intensas con el apogeo de la Revolución Industrial. Los
+principales gases emitidos son el dióxido de carbono (CO2), metano (CH4), óxido nitroso (N2O)
+y halocarbonos.
+
+
+        1.2.2      Modelos Climáticos
+Un modelo climático es una representación matemática no lineal de los procesos que tiene lugar
+en el sistema climático, cuyas interacciones determinan el clima. Este sistema se compone por:
+atmósfera, criósfera, hidrósfera, litósfera y biósfera (Peixoto and Oort, 1922). En la actualidad la
+mayoría de modelos climáticos globales incluyen alguna representación de las cinco
+componentes del sistema climático y la interacción entre los mismos.
+Los modelos resuelven ecuaciones y dividen el área a analizar, en celdas, incluyendo las
+interacciones que ocurren en éstas y las celdas vecinas; la precisión del modelo difiere del
+tamaño de la celda; mientras más pequeña la celda, mayor precisión tendrá el modelo, pero más
+difícil y dilatado el cálculo Principalmente toman en cuenta a la atmósfera y océano debido al
+fuerte acoplamiento de éstos sistemas, reciben por nombre, según sus siglas en inglés, AOGCM
+(modelos climáticos globales acoplados atmósfera-océano).
+Los AOGCM trabajan ecuaciones matemáticas en un complejo sistema no-lineal, con ecuaciones
+diferenciales. Las simulaciones de clima actual con AOGCMs se llevan a cabo considerando la
+evolución de valores observados de concentraciones atmosféricas de GEIs. Aunque los
+resultados de proyecciones de clima obtenidos con diversos AOGCM son fiables a escala global,
+cuando se consideran escalas regionales (10-100 km) las distribuciones de temperatura y, sobre
+todo, de precipitación muestran notables discrepancias con los datos observados.
+Por tanto para estudios locales y regionales de cambio climático es necesario realizar la
+regionalización a fin de obtener más detalle de los posibles cambios futuros del clima sobre un
+dominio espacial de interés.
+En la Figura N°1 se puede apreciar el proceso que se sigue para realizar una regionalización tanto
+estadística como dinámica.
+
+
+
+
+                                                                                                       7
+    Figura N°1: Esquema de las metodologías de regionalización aplicadas a los escenarios
+                 globales de Cambio Climático. Fuente: Gaertner et al.2001.
+
+
+        1.2.3      Escenarios de emisión (GEI)
+Los nuevos escenarios de emisión conocidos como rutas o vías de concentración representativas
+(RCP, por sus siglas en inglés), que se caracterizan por el cálculo aproximado que hace del
+forzamiento radiativo total para el año 2100 en relación con 1850, el cual va de 2,6 W/m2 a 8,5
+W/m2.RCP8.5, fue desarrollado por el IIASA (International Institute for Applies Systems
+Analysis) de Austria. Representa la combinación de suposiciones de un alto crecimiento
+poblacional, un bajo crecimiento de PBI y modestas tasas de cambios tecnológicos y de
+eficiencia de energía, llevando a grandes demandas energéticas y el incremento de gases de
+efecto invernadero (Riahi et al, 2011).
+Los nuevos escenarios de emisión contemplan los efectos de las políticas orientadas a limitar el
+cambio climático del siglo XXI. Las motivaciones principales para el desarrollo de estos nuevos
+RCPs, por el lado de los tomadores de decisión, es que los escenarios exploren el impacto de
+diferentes políticas climáticas (esquemas de mitigación) en adición a los tradicionales escenarios
+que no analizan políticas sobre el clima, es decir, analizar el impacto de diferentes políticas
+climáticas que permitan evaluar el costo-beneficio de las metas climáticas a largo plazo y
+finalmente la necesidad de explorar la adaptación a más detalle (Moss et al. 2010).
+
+En la Figura 2 se observa que las proyecciones de la concentración del CO2 con el escenario de
+emisión RCP2.6 tienden a regularse en el tiempo, por el contrario utilizando el escenario RCP8.5
+para las próximas décadas tienden a ser muy elevada en concentración. Si consideramos el
+escenario más pesimista (RCP8.5) los cambios que se tendrán en todas las regiones del globo,
+incluirán cambios en la tierra y océano, en el ciclo hidrológico, el nivel del mar, la criósfera,
+algunos episodios extremos y la acidez de los océanos, los cuales persistirán durante muchos
+siglos y es probable que ya no sea reversible.
+Si se compara con los anteriores escenarios de familias A1, A2, B1 y B2 (AR4, 2007) estos
+muestran en magnitud de cambios en el clima similares a los RCPs, a excepción del RCP2.6.
+
+
+
+
+                                                                                                     8
+Figura N°2: Rutas de Concentración de CO2 equivalente a nivel global para distintos escenarios
+de emisión. Fuente: Fundación Biodiversidad, Oficina Española de Cambio Climático, Agencia
+             Estatal de Meteorología, Centro Nacional de Educación Ambiental.
+
+
+        1.2.4      WRF
+El modelo Weather Research and Forecasting (WRF) es un sistema numérico de mesoescala de
+nueva generación de pronóstico de las condiciones atmosféricas diseñado tanto para cubrir
+necesidades de pronósticos operativos y de investigación atmosférica. Cuenta con múltiples
+núcleos dinámicos, un sistema de asimilación de datos 3-dimensional variacional (3DVAR), y
+una arquitectura de software que permite paralelismo computacional y extensibilidad del sistema.
+El WRF está adecuado para un amplio espectro de aplicaciones a través de escalas que se
+extienden desde el orden de metros a cientos de kilómetros.
+
+
+        1.2.5      AMICAF
+AMICAF es un proyecto implementado por la FAO: “Evaluación de los impactos del cambio
+climático y mapeo de la vulnerabilidad a la inseguridad alimentaria bajo el cambio climático para
+reforzar la seguridad alimentaria familiar con enfoque de adaptación de los medios de
+subsistencia- AMICAF (por sus siglas en inglés)” con la finalidad de apoyar a los países en
+desarrollo a abordar la evaluación y adaptación al cambio climático. Debido a que los modelos
+de circulación general (MCG) son la principal herramienta para la prospección del clima de las
+próximas décadas y la resolución de estos modelos es limitada, se debe recurrir a la
+regionalización para poder estudiar mejor los impactos del cambio climático a escala regional.
+Por ello, en el presente estudio se realiza la regionalización estadística del modelo global
+HadGEM2-ES
+
+
+        1.2.6      Incertidumbre de los Escenarios Climáticos
+La incertidumbre es un estado de conocimiento incompleto que puede resultar de una falta de
+información o de un desacuerdo sobre lo que es conocido o incluso no conocible, puede ser
+representada por medidas cuantificadas o por enunciados cualitativos (Moss, 2010).
+Las evaluaciones y proyecciones regionales de cambio climático se caracterizan por la presencia
+de distintas fuentes de incertidumbres que afectan a todos los procesos en su generación, desde el
+establecimiento de los escenarios de emisión (RCPs), hasta los modelos globales e incluso en la
+
+
+
+
+                                                                                                     9
+simulación a escala regional o regionalización, donde es necesario el forzamiento global desde
+un modelo global numérico o AOGCM.
+
+1.3    Área de estudio
+Geográficamente la Región Piura se localiza al noroeste del Perú, limita por el norte con Tumbes
+y el Ecuador, con Lambayeque por el sur, con Cajamarca por el este y con el Océano Pacífico por
+el oeste. Posee una superficie: 35892.490 Km2. Frente a las costas del departamento se
+encuentran La Isla Foca frente a la Provincia de Paita y la Isla G frente a la Provincia de
+Sechura, estas islas en conjunto poseen una superficie de 1.32 Km2.
+
+El relieve del suelo es heterogéneo, notándose en la planicie costera el predominio de la
+formación desértica sobre tablazos y pampas. La franja costera es la más ancha del Perú y
+alcanza 200 km. desde el mar hasta los contrafuertes de la Cordillera Occidental de los Andes.
+En esta región se ubica Sechura la llanura desértica más extensa del Perú y América: ubicada al
+sur del río Piura y en él se localiza la depresión de Bayóvar, que es el área más baja del territorio
+peruano con 37 m. por debajo del nivel del mar. Las formas morfológicas más comunes en la
+costa, son las quebradas secas que funcionan en forma violenta cuando se producen lluvias
+intensas. Estas quebradas al norte de la región son profundas, al centro y sur son de gran
+amplitud y menos profundas.
+
+La sierra piurana está formada por la cordillera de Huancabamba de poca elevación con sus
+estribaciones andinas que forman cadenas de montañas de flancos abruptos, el amplio valle
+interandino de Huancabamba orientado de norte a sur y muchas quebradas. En consecuencia las
+principales elevaciones que presenta la región son el Cerro Negro (3967 msnm), Cerro Viejo
+(3934 msnm), Cerro San Juan Canchiaco (3900 msnm), Cerro Pan de Azúcar (3767 msnm) y
+Cerro La Viuda (3710 msnm (Ver Mapa N°1).
+
+
+
+
+                                                                                                        10
+                     Mapa 1. Región Piura, provincias y relieve asociado.
+
+
+
+   1.4   Actividad Económica de Piura
+
+La región Piura aporta el 4.2% del valor agregado bruto nacional, aunque su aporte a algunos
+sectores económicos es mucho mayor en términos proporcionales: 43.7% de la pesca, 5.5% de la
+agricultura y 6.8% de la manufactura. Otro aspecto donde Piura destaca es en la gravitación
+poblacional, pues con sus 1.7 millones de habitantes es la segunda región con mayor número de
+habitantes, al albergar el 6.1% de la población total del país.
+
+La principal actividad económica de Piura es la manufactura, que representa el 20.7% del valor
+agregado bruto regional. Esto se debe a la refinación de petróleo, al procesamiento pesquero y al
+procesamiento de la creciente producción frutícola y de biocombustibles. Otras actividades
+importantes son el comercio (17.2%), los servicios (15.9%) y la agricultura, la caza y la
+silvicultura (9.9% en conjunto).
+
+
+
+
+                                                                                                    11
+   1.5 Clasificación Climática
+De acuerdo a la clasificación climática por el método de Thornthwaite (SENAMHI 1988), el
+clima de la región Piura es desértico y semi-desértico en la costa y vertientes andinas
+occidentales, Subtropical en las vertientes orientales. Las precipitaciones son escasas, salvo
+cuando se produce el fenómeno de El Niño, años en que las lluvias son abundantes y corre el
+agua por todo el curso de las quebradas secas originando inundaciones y acciones morfológicas
+de gran dinamismo.
+
+La variedad y fusión climática otorgan características únicas a esta región, esto debido
+principalmente al choque de dos corrientes, la corriente fría de Humboldt con temperaturas de 13
+a 19°C y la corriente cálida de El Niño de 22 a 27°C. Estas corrientes chocan a la altura de la
+bahía de Sechura al sur de la ciudad de Piura y otorgan a la región una característica única en
+Sudamérica, mitad desierto y mitad trópico.
+
+La temperatura promedio anual es de 24°C; en el verano supera los 35°C, pudiendo llegar hasta
+40°C cuando se presenta el Fenómeno El Niño extraordinario. La época de lluvias intensas se da
+entre diciembre y mayo. En las zonas andinas, el clima presenta noches frías y mañanas
+templadas. (Ver Gráfico N°1).
+
+
+
+
+                        Gráfico N°1: Clasificación Climática de Piura.
+
+
+
+
+                                                                                                   12
+   1.6 Temperatura superficial del mar
+La temperatura superficial del mar (TSM) es una de las variables físicas que mejor indica la
+variación temporal del ciclo El Niño y la Oscilación del Sur (ENOS), por lo cual es ampliamente
+usada para estudiar la variabilidad a diferentes escalas de tiempo en el Océano Pacífico (Purca et
+al. 2005).
+
+
+
+
+                                                                                                     13
+                                                                                      CAPÍTULO II
+
+
+                                                                                    METODOLOGÍA
+
+
+
+2.1 Diagnóstico Climático de la región Piura
+
+         2.1.1 Caracterización Climática
+
+Del departamento de Piura se tiene registro de información meteorológica desde el año 1944, pero no
+todas las estaciones han mantenido su continuidad, es por esto que se seleccionó el periodo 1971 -
+2000 dado que ofrecía una mayor cobertura, además de ser el periodo sugerido por la Comisión de
+Climatología de la Organización Mundial de Meteorología (OMM-CCI/MG/Doc.10). Se presentan
+mapas de la distribución espacial de la precipitación promedio y la temperatura máxima y mínima
+para el periodo base 1971-2000.
+
+El nombre, ubicación de las estaciones seleccionadas a nivel nacional se presentan en el Cuadro N°1.
+
+
+                                                                                                                 Alt.
+N°   Estación         Sist_Hid      Cuenca          Dto   Prov.         Distrito         Lat.        Long.      (msnm
+                                                                                                                  )
+ 1   ALAMOR          PACIFICO    CHIRA          PIURA     SULLANA       LANCONES      04° 28'48     80° 23'56    13 3
+
+ 2   AYABACA         PACIFICO    CHIRA          PIURA     AYABACA       AYABACA       04° 38'38     79° 43'43   2830
+
+ 3   BERNAL          PACIFICO    PIURA          PIURA     SECHURA       BERNAL        05° 29'29     80° 45'45     7
+
+ 4   CHALACO         PACIFICO    PIURA          PIURA     MORROPON      CHALACO        05° 02'2     79° 49'48   1791
+
+ 5   CHULUCANAS      PACIFICO    PIURA          PIURA     MORROPON      CHULUCANAS     05° 06'6     80° 10'10    87
+
+ 6   CHUSIS          PACIFICO    PIURA          PIURA     SECHURA       SECHURA       05° 31'31     80° 50'50     6
+
+                                 INTERCUENCA
+ 7   EL ALTO         PACIFICO                   PIURA     TALARA        EL ALTO       04° 16'16     81° 13'13    252
+                                 DEL PACIFICO
+
+     HACIENDA
+ 8                   PACIFICO    PIURA          PIURA     MORROPON      SALITRAL      05° 20'20     79° 47'47    827
+     BIGOTE
+
+     HACIENDA        MARAÑO
+ 9                               CHAMAYA        PIURA     HUANCABAMBA   SONDOR        05° 22'22     79° 21'21   2050
+     SHUMAYA         N
+                     MARAÑO
+10   HUANCABAMBA                 CHAMAYA        PIURA     HUANCABAMBA   HUANCABAMBA    05° 15'1     79° 33'1    3177
+                     N
+                     MARAÑO
+11   HUARMACA                    CHAMAYA        PIURA     HUANCABAMBA   HUARMACA      05° 33'53.1   79° 31'11   2244
+                     N
+12   LA ESPERANZA    PACIFICO    CHIRA          PIURA     PAITA         COLAN         04° 55'55     81° 04'4      6
+
+13   LANCONES        PACIFICO    CHIRA          PIURA     SULLANA       LANCONES      04° 34'34     80° 29'29    123
+
+14   MALACASI        PACIFICO    PIURA          PIURA     MORROPON      SALITRAL       05° 19'1     79° 53'1     240
+
+15   MALLARES        PACIFICO    CHIRA          PIURA     SULLANA       MARCAVELICA   04° 51'51     80° 44'44    29
+
+16   MIRAFLORES      PACIFICO    PIURA          PIURA     PIURA         CASTILLA      05° 10'10     80° 35'34    40
+
+17   MORROPON        PACIFICO    PIURA          PIURA     MORROPON      MORROPON       05° 11'1     79° 59'1     109
+
+18   PACAYPAMPA      PACIFICO    CHIRA          PIURA     AYABACA       PACAIPAMPA     04° 59'1     79° 40'1    2315
+
+                                 INTERCUENCA
+19   PANANGA         PACIFICO                   PIURA     SULLANA       MARCAVELICA   04° 33'33     80° 53'53    500
+                                 DEL PACIFICO
+
+20   PARTIDOR        PACIFICO    CHIRA          PIURA     PIURA         LAS LOMAS     04° 38'38     80° 15'15    250
+                     MARAÑO
+21   PORCULLA                    CENEPA         PIURA     HUANCABAMBA   HUARMACA      05° 50'50     79° 30'30   1971
+                     N
+
+
+
+
+                                                                                                                        14
+                       MARAÑO                                            EL CARMEN DE
+22   SALALA                       CHAMAYA     PIURA        HUANCABAMBA                   05° 06'6   79° 27'27   2800
+                       N                                                 LA FRONTERA
+
+23   SAN MIGUEL        PACIFICO   PIURA       PIURA        PIURA         CATACAOS       05° 18'14   80° 40'55    20
+
+24   SAN PEDRO         PACIFICO   PIURA       PIURA        MORROPON      CHULUCANAS      05° 05'5   80° 02'2    309
+                                                                         SANTO
+25   SANTO DOMINGO     PACIFICO   PIURA       PIURA        MORROPON                      05° 02'1   79° 53'1    1475
+                                                                         DOMINGO
+26   SAPILLICA         PACIFICO   CHIRA       PIURA        AYABACA       SAPILLICA      04° 47'47   79° 59'59   1406
+     SAUSAL DE
+27                     PACIFICO   CHIRA       PIURA        AYABACA       LAGUNAS        04° 45'45   79° 46'46   1015
+     CULUCAN
+                       MARAÑO
+28   SONDORILLO                   CHAMAYA     PIURA        HUANCABAMBA   SONDOR         05° 20'20   79° 24'24   1900
+                       N
+                       MARAÑO
+29   TABACONAS                    CHINCHIPE   CAJAMARCA    SAN IGNACIO   TABACONAS      05° 19'19   79° 17'17   1801
+                       N
+                       MARAÑO
+30   TULUCE                       CHAMAYA     PIURA        HUANCABAMBA   SONDOR         05° 29'29   79° 22'22   1920
+                       N
+                       MARAÑO                                                             06°
+31   CUEVA BLANCA                 CHAMAYA     LAMBAYEQUE   FERREÑAFE     INCAHUASI                  79° 24'16   3300
+                       N                                                                07'52.68
+32   VIRREY            PACIFICO   CASCAJAL    LAMBAYEQUE   LAMBAYEQUE    OLMOS          05° 34'51   79° 58'2    264
+                       MARAÑO
+33   EL LIMON                     CHAMAYA     CAJAMARCA    JAEN          POMAHUACA      05° 55'55   79° 19'19   1255
+                       N
+                       MARAÑO
+34   SALLIQUE                     CHAMAYA     CAJAMARCA    JAEN          SALLIQUE        05° 39'1   79° 19'1    1750
+                       N
+                       MARAÑO
+35   SAN IGNACIO                  CHINCHIPE   CAJAMARCA    SAN IGNACIO   SAN IGNACIO    05° 08'43   78° 59'49   740
+                       N
+
+
+                   Cuadro 1. Ubicación de Estaciones Meteorológicas y Pluviométricas.
+
+
+
+La elaboración de mapas temáticos mediante métodos de interpolación ha generado una cantidad
+notable de bibliografía específica. El planteamiento es simple: a partir de un conjunto de datos
+puntuales (estaciones meteorológicas) localizadas en un espacio geográfico, deben estimarse los
+valores correspondientes a otros lugares incluidos en un dominio espacial determinado.
+El problema, por tanto, puede resolverse mediante un método de interpolación adecuado. Sin embargo,
+las dificultades son importantes debido a la naturaleza de los datos. Frecuentemente, las series son
+heterogéneas en calidad y longitud, su distribución espacial no es idónea y las propias variables suelen
+mostrar una variabilidad temporal muy notable. Asimismo, la influencia del relieve suele introducir
+variaciones difícilmente replicables, especialmente porque las estaciones meteorológicas son menos
+densas en zonas alto andinas y/o desérticas.
+
+Por estos motivos, debe considerarse que los mapas climáticos representan los patrones espaciales de
+distribución de las variables y deben ser interpretados sin perder de vista que la resolución espacial es
+frecuentemente de decenas de km.
+
+El mejor método de interpolación climática sigue siendo objeto de controversia, claro que este método
+universal no existe sino que, en función de las características territoriales y de los datos disponibles,
+unos pueden funcionar mejor que otros en diferentes lugares y circunstancias.
+
+En el caso concreto de los mapas temáticos para la región Piura se hicieron pruebas con los métodos
+Inverse Distance Weighted (IDW) y Spline que son dos modelos basados en métodos de
+interpolación determinista ya que se fundamentan en muestreos del área de estudio con fórmulas
+matemáticas que determinan la forma de la superficie resultante. Así también, se realizó pruebas con
+modelos basados en métodos geoestadísticos (como el Kriging) que utilizan fundamentos estadísticos
+que incluyen auto correlaciones. Es decir, son modelos que no solo predicen superficies de
+interpolación, sino que también indican el grado de exactitud y error de la predicción. Kriging es
+similar a IDW, en cuanto a que pondera muestras del entorno, para extraer predicciones de zonas
+próximas. La fórmula general para ambas interpolaciones se basa en la suma ponderada de todos los
+datos.
+                            Ž (So) = ∑λi Z(Si)                              (1)
+
+
+
+                                                                                                                       15
+En el IDW el peso solo depende de la distancia a los puntos de muestreo, mientras que en el Kriging
+los pesos no solo se basan en las distancias, sino también en las relaciones espaciales entre las
+muestras y sus valores. (Álvarez et al. 2011).
+
+Finalmente, se realizaron pruebas con el método de interpolación por regresión lineal múltiple, este
+método probado fue propuesto por Pons (1996) y Ninyerola et al. (2000), basado en técnicas de
+regresión lineal múltiple para la interpolación espacial de los datos proveniente de las estaciones
+meteorológicas.
+
+Lo resaltante de este método es que al final los mapas resultantes son corregidos utilizando los
+residuales, producto de la regresión lineal múltiple (Quevedo et al. 2009).
+
+
+                   ᵞi =βo + β1 xi1 + β2 xi2 + ……βP xiP +ei,                  (2)
+                                          Para i =1,2,…,n
+
+Las pruebas realizadas muestran resultados más cercanos con el método de regresión lineal, en el
+caso de la temperatura las isotermas a corregir fueron mínimas, en tanto que, para la precipitación
+igualmente este fue el método más cercano en comparación a los otros métodos pero se tuvieron que
+realizar algunos ajustes.
+
+En el Mapa N°2 se puede observar la ubicación de la red de estaciones en la región Piura.
+
+
+
+
+                                                                                                       16
+          Mapa N°2. Ubicación de la Red de Estaciones Meteorológicas y Pluviométricas.
+
+
+
+       2.1.2 Tendencias climáticas:
+
+Las tendencias climáticas se estiman a fin de conocer de qué manera están comportándose las
+variables climáticas en el tiempo y con ello determinar si existe un progresivo cambio que se
+establece sobre records de información lo más extensos posibles.
+
+               2.1.2.1 Tendencias Climáticas observadas de precipitación y temperatura
+
+Para determinar las tendencias anuales y estacionales de la precipitación y temperaturas extremas
+(máxima y mínima) en la región Piura y sus niveles de significancia estadística durante el periodo
+1964-2013. Estas tendencias se calculan mediante el test de Mann-Kendall (Kendall, 1975) y para
+obtener la pendiente o la magnitud de la inclinación, se utilizó la metodología desarrollado por Sen
+(1968). Estas tendencias y sus significancias se calculan mediante el test de Mann-Kendall (Kendall,
+1975) y Sen (1968).
+
+La ventaja de Mann-Kendall es saber utilizar la magnitud relativa de los valores de la serie temporal,
+filtrando valores extremos, en vez de utilizar los valores reales. Al mismo tiempo, es necesario tener
+presente que en este test los datos necesitan cumplir con los siguientes supuestos: ser variables
+
+
+
+                                                                                                         17
+aleatorias, independientes e idénticamente distribuidas. En conclusión, la autocorrelación de la serie
+necesita ser nula.
+Estas condiciones limitan su aplicación en las series climatológicas, como la precipitación, debido a la
+fuerte dependencia mensual o estacional. Esto induce a la necesidad de tener en cuenta las
+características de este test cuando es aplicado a las series climatológicas, como la precipitación, para
+las series totales anuales, totales o promedios de una estación o determinado mes, que pueden ser
+considerados como independientes.
+La hipotesis nula (H0) considera que los datos: x1, x2, x3, ..., xn, son variables aleatorias
+independientes e idénticamente distribuidas. El test estadístico de Mann-Kendall (S) es dado por:
+
+
+
+
+Donde,la función sgn es:
+                                sgn(xi - xj) = 1, si xi - xj > 0,
+                                                  = 0, si xi - xj = 0
+                                                  = −1, si xi - xj < 0
+
+Para las series con tamaño mayores que 10, la estadística (S) se aproxima a la distribución normal,
+cuando se hace la siguiente corrección: S=S-sgn(S). Considerando la hipótesis nula y la ausencia de
+repetición de valores dentro de la serie, la variancia de (S), [Var(S)], es definida por:
+
+
+
+
+Y con la corrección, debido a las repeticiones, la variancia queda:
+
+
+
+
+Donde g es el número de grupos con datos repetidos y tp es el número de datos con p-ésimo grupo.
+Luego s y Var (S) son utilizados para el cálculo de la estadística Z, con distribución normal
+estandarizada:
+
+
+
+
+                                                                                                           18
+Los valores positivos (negativos) de Z indican tendencia ascendente (descendente). Con la finalidad
+de mejorar la interpretación y profundizar los análisis de las tendencias lineales, se calcularon las
+tendencias de las variables climáticas de la precipitación para los totales anuales y estacionales, y para
+las temperaturas, los promedios anuales y estacionales. Para las tendencias de los índices climáticos se
+consideran solamente los valores anuales. Las estaciones del año para el presente trabajo fueron
+definidas del siguiente modo: primavera (SON), verano (DJF), otoño (MAM) e invierno (JJA).
+Si la hipótesis nula (H0) es verdadera, la estadística Z tiene distribución normal estándar. Para testar,
+tanto las tendencias ascendentes como las descendentes, al nivel significativo α la H0 es aceptada si el
+valor absoluto de Z es menor que Z1-α /2 (teste de dos lados). El valor Z1-α /2 es escogido a priori
+una vez que no tenemos conocimiento de la dirección de la tendencia. Este valor, α, en todos los test
+realizados para el presente informe, es de 0,05 (5%).
+
+Para obtener la pendiente o la magnitud de la inclinación, se utilizó la metodología desarrollado por
+Sen (1968). La magnitud de la tendencia lineal estimada de una serie temporal, denominada
+inclinación (razón de la variable por unidad de tiempo), puede ser estimada a partir del cálculo de los
+mínimos cuadrados de la inclinación estimada “β”, utilizando el método de Regresión Lineal. Sin
+embargo, “β”, calculado de esta manera, puede desviarse significativamente del verdadero valor de la
+inclinación cuando existen valores discrepantes (“outliers”) en los datos de la serie temporal a ser
+calculada (Gilbert, 1987). En este método, la inclinación de las tendencias de la serie temporal es
+obtenido a partir del cálculo de las, N’=n(n-1)/2, inclinaciones estimadas a través de:
+
+
+
+
+Donde: xj y xi son valores de los datos en el tiempo j e i, respectivamente, y j > i. N’ es el número de
+pares de datos de la serie en las cuales j > i. La mediana de estos N’ valores de Se es el valor estimado
+de la inclinación de la serie temporal, denominada como inclinación de Sen. Debido a la alta
+variabilidad, tanto temporal y espacial de la precipitación, se hace necesario algún tipo de
+normalización en el tratamiento de estos cálculos, fundamentalmente para analizar la distribución
+espacial de tendencias. Así, para obtener un mejor análisis y entendimiento de la distribución espacial
+de las tendencias de precipitación, en el presente informe se presenta la magnitud porcentual de las
+tendencias lineales de cada serie temporal en relación al promedio del periodo en estudio. Este
+parámetro es calculado de la siguiente manera:
+
+
+
+
+Donde: se es la inclinación estimada de la serie temporal mediante el método de Sen, xi es el
+promedio de la precipitación para el periodo y nd es el número de datos (años o meses) de la serie de
+datos considerados. Por ejemplo, nd es igual a 42 años para las precipitaciones (1965-2006). Para las
+tendencias lineales de las temperaturas máximas y mínimas fueron expresadas en °C/década.
+
+
+
+               2.1.2.2 Tendencia actual de los indicadores extremos climáticos de precipitación y
+        temperaturas
+
+
+
+
+                                                                                                             19
+ Entre muchos métodos estadísticos usados para el diagnóstico de eventos extremos tanto de
+ precipitación como de temperatura, se tiene el que se basa en los “índices extremos”, propuesto por
+ Frich et al. (2002) y es ampliamente usado en estudios recientes a nivel mundial y que también ha
+ sido adoptado como salida estándar de datos para el reciente Cuarto Reporte de Evaluación del IPCC
+ (Kamiguchi et al., 2006).
+ La investigación realizada por Frich et al. (2002) observa cambios en los extremos climáticos durante
+ la segunda mitad del Siglo XX, usando cuidadosamente un conjunto definido de índices derivados
+ desde observaciones diarias de temperatura máxima, mínima y precipitación.
+ El análisis de Extremos de la data diaria observada de temperaturas y precipitaciones en la región de
+ Piura se ha realizado haciendo uso del paquete estadístico RClimDex (recomendado por el Equipo de
+ Expertos de CCI/CLIVAR para el Climate Change Detection, Monitoring And Indices – ETCCDMI),
+ el cual se basa en el diagnóstico de eventos extremos propuesto por Frich et al. (2002) , y es usado en
+ estudios a nivel mundial, siendo además adoptado como salida estándar de datos para el Cuarto
+ Reporte de Evaluación del IPCC (Kamiguchi et al. 2006). Se ha utilizado información del período
+ 1963-2013, considerando las tendencias significativas a un p<0,1.
+ En las Tablas 1 y 2 se muestran los índices de precipitación y temperatura que se van a utilizar para el
+ estudio de la región Piura y sus respectivas definiciones.
+
+
+   Tabla N°1: Índices de precipitación con su definición y unidades. RR es la tasa de lluvia diaria.
+                       Todos los índices son calculados de enero a diciembre.
+
+Indicador               Nombre del Indicador                             Definición                  Unidades
+PRCPTOT             Precipitación en días húmedos           Precipitación total anual en los días    mm
+                                                                  húmedos (RR>=1mm)
+CWD                   Días húmedos consecutivos            Número máximo de días consecutivos        días
+                                                                      con RR>=1mm
+CDD                    Días secos consecutivos             Número máximo de días consecutivos        días
+                                                                       con RR<1mm
+R10mm          Número de días con precipitación intensa    Número máximo de días consecutivos        días
+                                                                    con PRCP>=10mm
+R95p                      Días muy húmedos                    Precipitación total anual en que       mm
+                                                                      RR>95 percentil
+RX1day         Cantidad máxima de precipitación en un      Máximo mensual de precipitación en        mm
+                               día                                          1 día
+RX5day          Cantidad máxima de precipitación en        Máximo mensual de precipitación en        mm
+                            cinco días                            cinco días consecutivos
+
+
+       Tabla N°2: Índices de temperatura con su definición y unidades. RR es la tasa de lluvia diaria.
+                          Todos los índices son calculados de enero a diciembre.
+Indicador                Nombre del Indicador                              Definición                Unidades
+Txx                   Temperatura máxima máxima                    Valor mensual máximo de           °C
+                                                                   temperatura máxima diaria
+Txn                    Temperatura máxima mínima                    Valor mensual mínimo de          °C
+                                                                   temperatura máxima diaria
+Tnx                    Temperatura mínima máxima                   Valor mensual máximo de           °C
+                                                                   temperatura mínima diaria
+Tnn                    Temperatura mínima mínima                    Valor mensual mínimo de          °C
+                                                                   temperatura mínima diaria
+
+
+
+
+                                                                                                                20
+DTR                   Rango Diurno de temperatura             Diferencia media mensual entre Tx     °C
+                                                                             y Tn
+Tx10p                          Días Fríos                     Porcentaje de días cuando Tx<10th     días
+                                                                           percentil
+Tx90p                         Días calientes                  Porcentaje de días cuando Tx>90th     días
+                                                                           percentil
+Tn10p                         Noches frías                    Porcentaje de días cuando Tn<10th     días
+                                                                           percentil
+Tn90p                       Noches calientes                  Porcentaje de días cuando Tn>90th     días
+                                                                           percentil
+
+
+ 2.2 Escenarios de Cambio Climático
+
+ Las proyecciones climáticas se basan en salidas de modelos, regionalizaciones y ajustes, por lo que se
+ debe considerar que a pesar que las diferentes herramientas utilizadas, éstas no son perfectas; por tal
+ motivo es necesario incluir alguna medida de incertidumbre en los resultados finales, pues en la
+ medida que el usuario incorpore correctamente estas incertidumbres a los escenarios climáticos,
+ planteará mejor sus estrategias de adaptación frente al cambio climático (Tracton, 2001).
+ Para este análisis se utilizó el escenario de emisión más pesimista, la forzante 8.5 W/m2 presentado en
+ el Quinto Informe de Evaluación del IPCC en el 2013, conocido como ruta o vía de concentración
+ representativa (RCP, por sus siglas en inglés); los RCP tienen asociada una base de datos de alta
+ resolución espacial de emisiones de sustancias contaminantes, de emisiones y concentraciones de
+ gases de efecto invernadero y de usos de suelo hasta el año 2100. Este RCP 8.5 W/m2 es la entrada del
+ modelo global HadGEM2-ES, el cual servirá como condición inicial al modelo regional WRF.
+
+
+         2.2.1 El Modelo HadGEM2-ES
+ Se consideró el modelo HadGEM2-ES en un escenario pesimista de RCP8.5
+ El modelo HadGEM2-ES fue desarrollado en dos etapas a partir de HadGEM1, representando
+ mejoras en el modelo físico (que conduce a HadGEM2-AO) y la adición de los componentes del
+ sistema y tierra de acoplamiento (que conduce a HadGEM2-ES). El proyecto HadGEM2-AO ha
+ dirigido dos características clave de rendimiento: el ENOS y los sesgos de temperatura en la
+ superficie terrestre. Este último tenía una prioridad particularmente alta para que el modelo sea capaz
+ de modelar adecuadamente la vegetación continental. A través de grupos de trabajo se centraron e
+ identificaron una serie de mecanismos que mejora el rendimiento. Algunos errores sistemáticos
+ conocidos en HadGEM1, tales como el monzón de la India, no fueron objeto de atención en
+ HadGEM2-AO. En HadGEM2-ES la cubierta vegetal es mejor que en el modelo anterior HadCM3LC
+ especialmente para los árboles, y la productividad es mejor que en el modelo HadGEM2-AO no
+ interactivo.
+
+         2.2.2 Regionalización Dinámica
+ La regionalización es un procedimiento que permite adaptar las proyecciones de modelos globales a
+ una escala más reducida con una resolución espacial más apropiada para su uso en evaluaciones de
+ impacto a escala más regional y local. Uno de los métodos para regionalizar es la dinámica, la cual
+ hace uso de un modelo regional. Se utilizó para el presente estudio el modelo Advanced Research
+ WRF (Weather Research and Forescast) versión 3.4, el cual fue forzado por el modelo global
+ HadGEM2-ES v2, con el componente Earth-System desarrollado por el Centro Hadley Global
+ Environmental Model, el cual representa coherentemente las variables atmosféricas en distintos
+ niveles de presión. Las variables analizadas (precipitación y temperaturas extremas) del modelo
+ global han sido intercomparadas. El modelo regional WRF, es un modelo de mesoescala no
+ hidrostático. El SENAMHI, ha obtenido resultados satisfactorios en el país utilizando el WRF para
+
+
+
+                                                                                                           21
+sus investigaciones, por lo cual este modelo regional para proyección de largo plazo fue ejecutado
+para simular el clima actual y su evolución futura en la región Piura.
+
+
+
+
+                       Figura N°3: Esquema de la regionalización estadística.
+                        Fuente: Gaertner, 2001. Proyecto Europeo Prudence
+
+
+        2.2.3 Regionalización Estadística
+La regionalización estadística se basa en el uso de las relaciones empíricas que relacionan
+predictandos (observaciones locales de una variable objetivo, tal como la precipitación, las
+temperaturas extremas) a un conjunto de predictores adecuados (variables a gran escala que
+determinan el estado de la atmósfera).
+Bajo el enfoque de la aproximación de Perfec Prog, estas relaciones (modelos) se obtienen al
+considerar predictores cuasi-observados desde el reanálisis. Posteriormente, son aplicados los
+modelos fijados/ calibrados (coeficientes) a los predictores del Modelo del Sistema de la Tierra a fin
+de trasladar sus simulaciones globales gruesas a la escala local requeridas para las aplicaciones en el
+impacto y adaptaciones del cambio climático. Los predictores de circulación utilizados en la
+regionalización estadística son: presión a nivel del mar (SLP), altura geopotencial (Z), componentes
+zonales/meridionales del viento (U/V) y termodinámicos son: temperatura (T), humedad específica
+(Q), en diferentes niveles de presión, superficie o cerca de la superficie (por ejemplo, 1000 hPa) en la
+troposfera media y superior (500/250 hPa). Las primeras variables son predictores robustos para
+estudios sobre el cambio climático, mientras que las siguientes llevan la señal de cambio climático y,
+por lo tanto, deben ser considerados para estudios sobre el cambio climático.
+
+
+
+
+                                                                                                           22
+                        Figura N°4: Esquema de la regionalización estadística.
+                                          Fuente: Petra, 2011
+En la Figura N° 4 se puede obervar el esquema que se sigue para la regionalización estadística , donde
+se tiene que Y (predictando) son los valores locales observables y x (predictor) son las variables
+atmosféricas a gran escala, suministrado por modelos globales.
+
+
+
+        2.2.4 Evaluación de Incertidumbres
+
+Las distintas técnicas de regionalización (estadística y dinámica) contribuyen a la incertidumbre con
+fuentes de error adicionales. Los métodos estadísticos sufren, en su capacidad predictiva, la limitación
+específica debida a que las relaciones entre las variables a gran escala y las variables locales no tienen
+por qué mantenerse frente a cambios en el clima; mientras que, los métodos dinámicos a través de los
+modelos regionales añaden fuentes de error adicionales y similares a los modelos globales con los que
+son forzados, y algunas específicas a la simulación a escala regional como la incertidumbre en el
+forzamiento radiativo asociada a la distribución espacio-temporal de aerosoles que tiene una
+relevancia especial a escala regional debido a la heterogeneidad del forzamiento y la respuesta. Otro
+aspecto que incide de forma importante en estas escalas regionales son las variaciones en los usos de
+suelo y el realismo en los modelos de suelo.
+En consecuencia, para reducir la incertidumbre en las técnicas de regionalización evaluadas, los
+resultados de las metodologías y modelos fueron promediados y expresados en términos de cambios
+de precipitación (%) promedio y cambios de temperatura del aire (°C) promedio para el periodo 2016-
+2045 centrado en el año 2030 relativo al clima actual (clima base 1981-2005) a nivel anual y para los
+trimestres: diciembre-enero-febrero (verano DEF), marzo-abril-mayo (otoño MAM), junio-julio-
+agosto (invierno JJA) y setiembre-octubre-noviembre (primavera SON) a escala regional.
+El IPCC (2007) recomienda representar la incertidumbre cuantitativamente mediante intervalo de
+valores calculados por diferentes modelos, diferentes escenarios de emisiones, diferentes técnicas de
+regionalización o diferentes miembros “ensemble”; para las incertidumbres utilizaremos el modelo de
+consenso RCP8.5, modelo AMICAF RCP-8.5 y el modelo regional WRF con 16Km de resolución y
+con un escenario RCP8.5.
+
+
+
+Modelos         Metodología      Resolución (Km)        RCP           Precipitación        Temperatura
+REA             consenso                 16                       8.5        x                  x
+Estadístico     Modelo global       A punto de                    8.5        x                  x
+                                      estación
+WRF             Modelo global            16                       8.5          x                  x
+AMICAF          Modelo global       A punto de                    8.5          x                  x
+                                      estación
+AMICAF          Modelo global       A punto de                    4.5          x                  x
+                                      estación
+REMO            Modelo global            50                  8.5                                  x
+ETA             Modelo global           200                  8.5                                  x
+HadGEM          Modelo global                                8.5                                  x
+                 Cuadro 2. Modelos utilizados en la comparación de incertidumbres
+
+El reconocimiento de la existencia de las incertidumbres en las proyecciones climáticas no elimina su
+utilidad. No se debe pensar que el incremento de la incertidumbre nos lleva a un desconocimiento de
+lo que pasara. Es necesario tener una idea de la magnitud de la señal y de la incertidumbre para dar el
+valor a las proyecciones climáticas, es ahí donde radica el reto de los tomadores de decisiones, saber
+
+
+
+
+                                                                                                             23
+                                                                                  CAPÍTULO III
+usar estas incertidumbres y aplicarlas en las planificación de medidas de adaptación y mitigación en la
+región Piura.
+
+
+                                               CARACTERIZACIÓN CLIMÁTICA
+
+
+
+
+3.1 Caracterización Climática de la Precipitación en Piura
+
+
+      3.1.1 Distribución Temporal de la precipitación
+
+La precipitación en la región Piura comprende dos períodos bien diferenciados en el año, un período
+lluvioso que inicia en diciembre y termina en abril, y un período de ligeras precipitaciones que
+comprende desde julio hasta noviembre. Dentro del período lluvioso, en los meses de otoño (MAM)
+es en donde se registran las mayores precipitaciones y en el período de estiaje, los meses de invierno
+(JJA) son los que registran bajas precipitaciones.
+
+          Tabla N°3: Climatología del promedio acumulado anual (mm año -1) y estacional (mm
+                           trimestre-1) de la precipitación de la región Piura.
+
+ESTACIONES                       ANUAL             DEF           MAM              JJA           SON
+Miraflores                         177.95           74.61        104.30           5.33           2.13
+Mallares                           197.03           85.26        116.09           0.68           2.12
+La Esperanza                        98.33           34.11         56.82           7.04           0.86
+Chusis                              66.85           31.27         34.70           1.64           2.17
+Morropón                           397.16          148.83        237.72           3.49           4.16
+Ayabaca                           1273.51          512.09        609.77          41.94         124.54
+Sausal de culucan                  320.77          135.27        151.32           9.00          37.52
+Huancabamba                        513.60          182.19        182.85          39.64         109.96
+San Miguel                         124.33           53.73         68.10           0.39           1.85
+Huarmaca                          1006.45          431.78        480.96          25.81          89.97
+Chulucanas                         425.13          164.58        238.83           9.15           4.25
+San Pedro                          609.97          263.24        354.44           8.33           8.36
+Bernal                              58.51           32.72         27.37           0.49           1.39
+Pananga                            265.94          111.17        149.23           3.72           1.80
+Lancones                           360.45          137.39        216.89           7.97           2.08
+Sapillica                          663.80          275.54        366.07          13.88          18.04
+Santo Domingo                     1238.87          505.84        656.85          19.21          56.16
+Hacienda Bigote                    461.84          207.79        262.76           0.59           5.19
+Chalaco                            968.06          427.46        460.39          18.32          66.13
+Pacaypampa                         952.09          358.64        441.04          30.41         127.90
+Sondorillo                         352.81          126.01        128.67          16.38          80.30
+Tuluce                            1195.69          371.38        409.45         210.42         222.35
+Hacienda Shumaya                   942.72          269.99        317.22         180.48         188.64
+
+
+
+                                                                                                          24
+Porculla                           936.54         421.73        438.23          24.64         80.57
+
+
+
+En la Tabla N°3 se muestran los valores climatológicos a nivel estacional y anual por cada estación
+meteorológica ubicada en la región Piura, el periodo analizado es 1971-2000.
+
+En la Figura N°5, se observa el ciclo anual de la precipitación en la región Piura, donde las mayores
+precipitaciones ocurren en los meses de febrero y marzo, y las menores a escasas precipitaciones en
+los meses de julio y agosto.
+
+
+a
+
+
+
+
+ b
+
+
+
+
+                       Figura N°5: Ciclo anual de la precipitación en mm mes-1.
+
+
+       3.1.2 Distribución Espacial de la precipitación
+
+
+
+
+                                                                                                        25
+El periodo de lluvias a nivel nacional se inicia en el mes de setiembre y culmina en mayo del
+siguiente año, usualmente las lluvias de verano en este sector son productos de trasvases de humedad
+provenientes de las zonas alto andinas de la sierra ecuatoriana.
+En relación a su ciclo anual las lluvias a lo largo del litoral no superan los 100 mm al año, en tanto
+que hacia el este las lluvias se ven incrementadas acumulando valores hasta de 1400 mm (Ver Mapa
+3).
+La precipitación acumulada durante los meses de DEF fluctúa entre 33 y 500 mm siendo más
+intensas al este de la región (Ver Mapa 4a), durante el trimestre MAM las lluvias registran cantidades
+más altas las cuales oscilan entre 73 y 700 mm (Ver Mapa 4b). A lo largo del trimestre JJA la región
+presenta ausencia de lluvias en la zona costera y media, alcanzando en las zonas alto andinas valores
+por debajo de los 200 mm (Ver Mapa 4c). Para el trimestre SON persiste la ausencia de lluvias en la
+zona costera y media de la región, totalizando en las zonas alto andinas lluvias acumuladas inferiores
+a los 206 mm (Ver Mapa 4d).
+
+
+
+
+                                                                                                         26
+Mapa 3. Promedio Multianual de la Precipitación Acumulada Anual
+
+
+
+
+                                                                  27
+     a                                                 b
+
+
+
+
+     c                                                 d
+      c                                               d
+
+          Mapa 4. Promedio Multianual de la Precipitación a) DEF b) MAM c) JJA d) SON
+
+
+Durante el año El Niño 1997-1998, las precipitaciones más intensas se registraron en la zona costera
+(Figuras N°6 y N°7), totalizando durante el periodo de lluvias cantidades hasta 9 veces más de lo
+normal (Ver Cuadro 3). Las zonas medias del departamento totalizaron cantidades de hasta 3767.6
+mm, (Santo Domingo), valor que representa el doble de lo esperado. Localidades alto andinas como
+Ayabaca registraron 60% más de lo climáticamente esperado (Ver Cuadro N°3).
+
+
+
+                                                                                                       28
+Se ha observado que durante los años La Niña las lluvias en la zona costera son similares a su patrón
+climático, en tanto que en las zonas medias del departamento estas se ven incrementadas hasta en
+170% más de lo esperado (Chalaco), las zonas más altas como Ayabaca registran igualmente
+cantidades superiores durante el evento, alcanzando valores de hasta 124 mm en 24 horas (Ayabaca,
+La Niña 1999 -2000), acumulando a lo largo del periodo de lluvias cantidades superiores a su normal
+pero en menor intensidad que en un año El Niño (Ver Cuadro 3).
+
+
+
+                                                      La Esperanza (6 msnm)
+                        600
+
+                                                 1982-1983         1997-1998       1999-2000          Normal
+                        500
+
+
+                        400
+   Precipitación (mm)
+
+
+
+
+                        300
+
+
+                        200
+
+
+                        100
+
+
+                          0
+                                 Set    Oct    Nov    Dic    Ene    Feb    Mar    Abr    May    Jun      Jul   Ago
+
+
+
+
+                              Figura N°6: Distribución mensual de la precipitación en años El Niño (1982-83; 1997-98),
+                                         La Niña (1999 – 2000) y Normal – Estación La Esperanza.
+
+
+
+                                                       Ayabaca (2830 msnm)
+                        160
+
+                        140
+                                                 1982-1983         1997-1998       1999-2000          Normal
+                        120
+  Precipitación (mm)
+
+
+
+
+                        100
+
+                         80
+
+                         60
+
+                         40
+
+                         20
+
+                          0
+                                 Set    Oct   Nov     Dic    Ene    Feb    Mar    Abr    May    Jun      Jul   Ago
+
+
+
+
+Figura N°7: Distribución mensual de la precipitación en años El Niño (1982-83; 1997-98), La Niña
+(1999- 2000) y Normal – Estación Ayabaca.
+
+
+
+
+                                                                                                                         29
+               Estación         Altura      PP Normal             El Niño          La Niña
+                                msnm          (mm)               1997-1998        2000-2001
+                                                                   (mm)             (mm)
+         Puerto Pizarro          7,0             424,8            3223,8             380
+            Papayal              45,0            552,9            2436,5            492,2
+            El Tigre             61,0            440,2            2609,2            509,8
+           Cañaveral             159             422.7            1683.8            644.2
+
+             Cuadro 3. Precipitaciones más intensas durante los eventos El Niño y La Niña.
+
+
+3.2 Caracterización Climática de la Temperatura Máxima en Piura
+
+
+   3.2.1 Distribución Temporal de la Temperatura Máxima
+
+El comportamiento de la temperatura máxima durante el año, varía entre los 16.8°C y 33.42°C entre
+todas las estaciones (Ver Tabla N°4). También se puede apreciar que en general la estación de verano
+(DEF) es la más cálida de todo el año, aunque este comportamiento no se cumple en todas las
+estaciones; mientras que, los valores más bajos de temperatura máxima se tienen en la estación de
+invierno (JJA).
+
+En la Tabla N°4 se muestran los valores climatológicos a nivel estacional y anual por cada estación
+meteorológica ubicada en la región Tumbes. El período analizado es 1971-2000.
+
+      Tabla N°4: Climatología de la temperatura máxima media anual (°C) y estacional (°C) de la
+                                            región Piura
+
+ESTACIONES                               ANUAL           DEF           MAM          JJA       SON
+Miraflores                                30.6            33.0             32.3     27.9       29.4
+Mallares                                  31.3            33.2             32.7     28.9       30.4
+La esperanza                              28.1            29.9             30.3     26.2       26.3
+Chusis                                    28.7            30.9             30.9     26.1       26.9
+Morropón                                  31.7            32.8             32.0     29.9       32.0
+Ayabaca                                   17.6            16.8             17.0     18.1       18.3
+Sausal de culucan                         28.3            28.0             28.0     28.2       28.9
+Huancabamba                               24.1            24.4             24.1     23.2       25.0
+San miguel                                30.5            32.9             32.1     27.7       29.3
+Huarmaca                                  19.3            17.6             18.9     21.0       19.6
+Chulucanas                                32.2            33.4             32.7     30.3       32.5
+Bernal                                    29.8            32.4             31.6     27.2       28.3
+Lancones                                  31.4            33.3             32.9     29.1       30.7
+Santo domingo                             21.7            21.2             21.3     21.9       22.0
+Chalaco                                   19.9            18.5             19.3     20.7       20.9
+Pacaypampa                                26.3            25.4             25.3     27.4       27.3
+Sondorillo                                25.5            25.9             25.6     24.5       26.1
+
+
+
+
+                                                                                                       30
+A nivel mensual la temperatura máxima es más alta en los meses de febrero y marzo; mientras que,
+las temperaturas máximas más bajas se presentan en los meses de julio y agosto (Ver Figura N°8) , a
+excepción de las estaciones Ayabaca, Huancabamba y Huarmaca que están ubicadas en zonas
+altoandinas y presenta un comportamiento particular, Ayabaca registra altas temperaturas en agosto y
+setiembre, y bajas temperaturas en enero y febrero; Huarmaca registra temperaturas máximas más
+altas en el trimestre JJA, y más bajas en enero y febrero; mientras que, Huancabamba registra valores
+altos de temperatura máxima en setiembre, octubre y diciembre.
+
+
+
+
+                     Figura N°8: Ciclo anual de la temperatura máxima en °C.
+
+
+       3.2.2 Distribución Espacial de la Temperatura Máxima
+A nivel anual las temperaturas máximas en el del litoral y la zona costera del departamento registran
+durante el año temperaturas que oscilan entre 28° y 34.0°C (Ver Mapa 5), como temperatura máxima
+absoluta se ha registrado 39.2°C en la estación Chulucanas en febrero del 2007, año catalogado como
+normal; es decir, sin la presencia del Fenómeno El Niño, que por lo general es durante este fenómeno
+donde se observan las temperaturas más altas en la región, estos eventos aislados se han vuelto más
+recurrentes en los últimos años. En el sector sierra del departamento las temperaturas máximas
+fluctúan entre 15.0° y 26°C, presentándose los valores más altos durante los meses de invierno que es
+donde se tiene mayor presencia de cielo despejado.
+Las temperaturas más intensas a lo largo de todo el año se registran en zona media de la región. Los
+promedios estacionales de los trimestre DEF y MAM, presentan un rango similar, donde las
+temperaturas varían entre los 16 y 32°C durante los trimestres JJA y SON el rango de temperaturas
+oscilan entre 14 y 32°C (Ver Mapas 6c y 6d), donde se observa un cambio marcado en la zona costera
+y media de la región respecto a los trimestres DEF y MAM (Ver Mapa 6 a y 6b)
+
+
+
+
+                                                                                                        31
+Mapa 5. Promedio Multianual de la Temperatura Máxima Anual
+
+
+
+
+                                                             32
+a)                                         b)
+
+
+
+
+c)                                              d)
+
+
+
+
+     Mapa 6. Promedio Multianual de la Temperatura Máxima a) DEF b) MAM c) JJA d) SON
+
+
+
+
+                                                                                        33
+3.3 Caracterización Climática de la Temperatura Mínima en Piura
+
+
+    3.3.1 Distribución Temporal de la Temperatura Mínima
+
+El comportamiento de la temperatura mínima durante el año, varía entre los 9.18°C y 21.48°C entre
+todas las estaciones (Ver Tabla N°5). También se puede apreciar que la estaciones de verano (DEF) y
+de otoño (MAM) son las más cálidas de todo el año; mientras que los valores más bajos de
+temperatura mínima se tienen en la estación de invierno (JJA).
+
+En la Tabla N°5 se muestran los valores climatológicos a nivel estacional y anual por cada estación
+meteorológica ubicada en la región Tumbes. El periodo analizado es 1971-2000.
+
+      Tabla N°5: Climatología de la temperatura mínima media anual (°C) y estacional (°C) de la
+                                            región Piura
+
+
+ESTACIONES                  ANUAL             DEF           MAM               JJA             SON
+Miraflores                     19.4             21.5          21.1              17.3           17.5
+Mallares                       19.3             21.3          21.1              17.5           17.6
+La esperanza                   19.5             21.3          21.4              17.7           17.6
+Chusis                         19.1             20.9          20.8              17.4           17.3
+Morropón                       18.5             20.6          20.3              16.3           16.7
+Ayabaca                         9.5              9.6          10.0               9.2            9.4
+Sausal de culucan              17.0             17.7          17.9              16.0           16.4
+Huancabamba                    12.6             12.9          13.0              12.1           12.4
+San miguel                     18.7             20.7          20.4              16.7           16.9
+Huarmaca                       12.1             11.8          12.6              12.3           11.6
+Chulucanas                     18.7             20.8          20.4              16.5           16.9
+Bernal                         19.0             21.1          20.6              17.5           17.1
+Lancones                       18.7             20.7          20.9              16.7           17.0
+Santo domingo                  14.6             14.4          14.8              14.6           14.7
+Chalaco                        10.3             10.7          11.0               9.4           10.1
+Pacaypampa                     11.9             12.2          12.4              11.1           11.8
+Sondorillo                     14.0             14.0          14.3              13.8           13.9
+
+
+
+La temperatura mínima tiene los valores más altos en los meses de febrero y marzo; mientras que,
+presenta mínimos valores en los meses de julio y agosto (Ver Figura N°9). a excepción de las
+estaciones Ayabaca y Huancabamba, donde se tiene temperatura casi constante durante todo el año y
+registran los valores más bajos de toda la región.
+
+
+
+
+                                                                                                      34
+                      Figura N°9: Ciclo anual de la temperatura mínima en °C.
+
+
+
+
+    3.3.2 Distribución Espacial de la Temperatura Mínima
+
+
+A nivel anual se observa que en la zona costera y media del departamento las temperaturas mínimas
+fluctúan entre 16° y 20°C en años La Niña se observa que las temperaturas mínimas logran descender
+hasta los 8°C (Estación Chusis). En las zonas alto andinas las temperaturas mínimas oscilan entre 6.9°
+y 13 °C, en cuanto a las mínimas absolutas, tenemos registros de hasta 1° y 1.8° C, en las localidades
+de Alto de Poclus (Ayabaca) ubicada a 3070 msnm y Frías ubicada a 3093 msnm (Ayabaca),
+respectivamente. No se descarta la presencia de heladas meteorológicas en los puntos más altos de la
+región, como Cerro Negro (Ayabaca) ubicada a 3990 msnm (Ver Mapa 7).
+A lo largo de todo el año los valores más altos de temperaturas mínimas se presentan en la zona
+costera de la región. Los promedios estacionales de los trimestre DEF y MAM, presentan un rango
+similar, donde las temperaturas oscilan entre los 6 y 22°C (Ver Mapa 8a y 8b), durante los trimestres
+JJA y SON el rango de temperaturas oscilan entre 6 y 18°C, registrándose los valores más bajos en las
+localidades de Frías, Ayabaca y Salala (Ver Mapas 8c y 8d).
+
+
+
+
+                                                                                                         35
+Mapa 7. Promedio Multianual de la Temperatura Mínima
+
+
+
+
+                                                       36
+  a)                                     b)
+
+
+
+
+  c)                                      d)
+
+
+
+
+Mapa 8. Promedio Multianual de la Temperatura Mínima a) DEF b) MAM c) JJA d) SON
+
+
+
+
+                                                                                   37
+3.4 Tendencias Climáticas
+
+
+En este capítulo se presenta las tendencias de la precipitación, temperatura máxima y temperatura
+mínima histórica y de sus extremos climáticos, en la escala anual y estacional.
+Estos análisis permiten detectar posibles cambios en los patrones climáticos en la región de Tumbes,
+a partir de los datos observados en el periodo 1964-2013. Para este análisis se consideró las series
+históricas con eventos extremos como El Niño y La Niña.
+
+
+    3.4.1 Tendencias observadas de Precipitación
+       3.4.1.1 Tendencia Anual
+La tendencia de la precipitación en las diferentes estaciones, reporta una tendencia positiva en casi
+toda la región, a excepción de la estacíon Chusis, que presenta una disminución no significativa de -1
+mm por década; y la mayoría con una tendencia no significativa (NS). Las estaciones con tendencias
+significativas son: Pananga, La Esperanza, Morropón, Hacienda Bigote, Ayabaca, Sausal de Culucan
+y Santo Domingo. El aumento de la precipitación va desde los -1 mm década-1 hasta los 135 mm
+década-1 (Santo Domingo).
+
+
+         Tabla N°6: Tendencia anual de la precipitación (mm/década) y significancia (%) en la
+                                            región Piura
+
+
+                                                              Tendencia (mm
+            ESTACIONES                         Período                             Significancia %
+                                                                 década-1)
+          MIRAFLORES                         1964-2014                 2                  NS
+            MALLARES                         1964-2014                 7                  NS
+         LA ESPERANZA                        1964-2014                 3                  90
+              CHUSIS                         1964-2014                -1                  NS
+           MORROPÓN                          1964-2014                46                  95
+             AYABACA                         1964-2014                74                  95
+      SAUSAL DE CULUCAN                      1964-2014                25                  90
+         HUANCABAMBA                         1964-2014                19                  NS
+           SAN MIGUEL                        1964-2014                 5                  NS
+           HUARMACA                          1964-2014                45                  NS
+          CHULUCANAS                         1964-2014                24                  NS
+            SAN PEDRO                        1964-2014                43                  NS
+              BERNAL                         1964-2014                 3                  NS
+             PANANGA                         1964-2014                22                  95
+            LANCONES                         1964-2014                18                  NS
+            SAPILLICA                        1964-2014                49                  NS
+        SANTO DOMINGO                        1964-2014               135                  95
+       HACIENDA BIGOTE                       1964-2014                40                  90
+             CHALACO                         1964-2014                49                  NS
+          PACAYPAMPA                         1964-2014                12                  NS
+          SONDORILLO                         1964-2014                 6                  NS
+              TULUCE                         1964-2014                29                  NS
+      HACIENDA SHUMAYA                       1964-2014                 7                  NS
+
+
+
+                                                                                                         38
+  Leyenda: Nivel de significancia No Significativo (NS), nivel de significancia 90% (+), nivel de
+    significancia 95% (*), nivel de significancia 99% (**), nivel de significancia 99.9% (***).
+
+
+        3.4.1.2 Tendencia Estacional
+En la Tabla N°7 se muestran las tendencias estacionales y su significancia. De todo el grupo de
+estaciones analizadas, en la estación de verano (DEF) se tiene que en toda la región la tendencia es
+creciente, a excepción de la estación Chusis que no muestra cambios significativos. En la estación de
+otoño (MAM) se tiene que toda la región presenta un aumento de precipitación, a excepción de las
+estaciones Huancabamba y Sondorillo, ambas estaciones ubicadas al sureste de la región que
+presentan una tendencia de disminución no significativa de la precipitación, de -2.5 mm década-1 y -
+1.3mm década-1 respectivamente. En invierno (JJA) se tiene que gran parte de la región presenta
+tendencia negativa y otro porcentaje no muestra cambios en el régimen de precipitación, solo
+Huarmaca, Sapilica y Tuluce presentan disminuciones significativas de la precipitación de -3.6, -3.9 y
+-14.5 por década, respectivamente. Finalmente en primavera (SON) se tiene tanto tendencias
+negativas como positivas en toda la región, lo que podría deberse a las características locales de cada
+estación, al igual que en algunas estaciones no se presentan cambios en la variable.
+
+
+  Tabla N°7: Tendencia estacionales de la precipitación (mm/década) y significancia (%) en la
+                                        región Piura
+
+         Estación               DEF                MAM                  JJA              SON
+                          Tend.      Sig. Tend.           Sig    Tend. Tend. Sig. Tend.
+MIRAFLORES                   2.9      NS         0.7       NS        0      NS        0     NS
+MALLARES                     2.0      NS         1.9       NS        0      NS        0     NS
+LA ESPERANZA                 1.3      NS         0.8       NS        0      NS        0     NS
+CHUSIS                       0.0      NS         1.0       NS        0       99       0      95
+MORROPÓN                    22.0      99        15.1       NS        0      NS       0.9     95
+AYABACA                     36.6      NS        35.4       NS      -0.7     NS        0     NS
+SAUSAL DE CULUCAN           19.2      99         7.5       NS      -0.9     NS       1.6    NS
+HUANCABAMBA                 17.4      90        -2.5       NS      -2.2     NS       9.1    NS
+SAN MIGUEL                   2.0      NS         3.2       95        0       95       0     NS
+HUARMACA                    39.1      95        20.6       NS      -3.6      95     -6.6    NS
+CHULUCANAS                   1.9      NS         0.0       NS       0.0     NS        1      90
+SAN PEDRO                   18.3      NS        21.9       NS      -1.0     NS       0.8    NS
+BERNAL                       0.8      NS         1.9       90        0       90       0     NS
+PANANGA                     10.2      95        11.6       95        0      NS        0     99,9
+LANCONES                     6.8      NS         8.9       NS        0      NS        0     NS
+SAPILLICA                   20.4      NS        31.4       NS      -3.9     99,9    -2.1     90
+SANTO DOMINGO               54.0      95        72.3       90        0      NS       4.1    NS
+HACIENDA BIGOTE             30.0      95        28.2       90        0       95      2.1    99,9
+CHALACO                     41.4      99        13.4       NS       0.0     NS       5.4    NS
+PACAYPAMPA                  20.1      NS         4.8       NS      -2.4     NS      -3.1    NS
+SONDORILLO                   1.4      NS        -1.3       NS        0      NS        0     NS
+TULUCE                      36.9      99         7.8       NS     -14.5      90     -2.2    NS
+HACIENDA SHUMAYA            13.8      NS        14.5       NS      -4.9     NS      -1.5    NS
+     Leyenda: Nivel de significancia No Significativo (NS), Nivel de significancia 90% (+),
+
+
+
+                                                                                                          39
+Nivel de significancia 95% (*), Nivel de significancia 99% (**), Nivel de significancia 99.9% (***).
+
+
+        a)
+
+
+
+
+         b)
+
+
+
+
+    Figura N°10: Tendencia de la precipitación acumulada anual considerando años Niño y sin
+          considerar años Niño (mm) de la estación Ayabaca (a) y Hacienda Bigote (b).
+En la Figura N°10 se puede apreciar la serie climática y la tendencia positiva de la precipitación
+acumulada anual. Ayabaca presenta un 28% de aumento, donde se tiene 7.6 mm de aumento por año,
+considerando eventos cálidos como El Niño; mientras que la tendencia anual acumulada cuando no se
+consideran años Niño es de 26% con un aumento de 7.4 mm por año. En la estación Hacienda Bigote,
+se tiene un aumento de 4.60 mm de por año, considerando eventos cálidos como El Niño; mientras
+que, la tendencia anual acumulada cuando no se consideran años Niño es de 4 mm por año.
+
+
+
+
+                                                                                                       40
+Estos resultados coinciden con las tendencias analizadas en la Segunda Comunicación Nacional de
+Cambio Climático (SENAMHI, 2009), donde se indica un incremento de la precipitación en la costa
+norte.
+     3.4.2    Tendencias observadas de la Temperatura Máxima
+La tendencia anual y estacional de la temperatura máxima del aire se observa en las Tablas N°8 y N°9
+respectivamente.
+        3.4.2.1 Tendencia Anual
+En la Tabla N°8 se puede apreciar la tendencia anual de la temperatura máxima. Los cambios son
+entre negativos y positivos; Chusis, Mallares, Morropón, San Miguel, Chulucanas, Ayabaca, Sausal
+de Culucan y Huarmaca presentan pequeños aumentos significativos; mientras que, Lancones muestra
+una disminución significativa a razón de -0.1 mm por década.
+
+
+  Tabla N°8: Tendencia anual de las temperaturas máxima (°C) y de las significancias (%) en la
+                                        región Piura.
+
+             ESTACIONES                      Período     Tendencia (°C      Significancia %
+                                                           década-1)
+
+
+          MIRAFLORES                       1964-2013            0                 NS
+          MALLARES                         1964-2013          0.05               99.9
+          LA ESPERANZA                     1964-2013         -0.01                NS
+          CHUSIS                           1964-2013          0.02                99
+          MORROPÓN                         1964-2013          0.02                90
+          SAN MIGUEL                       1964-2013          0.03                99
+          CHULUCANAS                       1964-2013          0.03               99.9
+          BERNAL                           1964-2013          0.06                NS
+          LANCONES                         1964-2013         -0.12                95
+          AYABACA                          1964-2013          0.02               99.9
+          SAUSAL DE CULUCAN                1964-2013          0.04               99.9
+          HUANCABAMBA                      1964-2013          0.01                NS
+          HUARMACA                         1964-2013          0.03                99
+          SANTO DOMINGO                    1964-2013         -0.02                NS
+          CHALACO                          1964-2013         -0.08                95
+          PACAYPAMPA                       1964-2013         -0.10                NS
+          SONDORILLO                       1964-2013         -0.08                NS
+      Leyenda: Nivel de significancia No Significativo (NS), Nivel de significancia 90% (+),
+Nivel de significancia 95% (*), Nivel de significancia 99% (**), Nivel de significancia 99.9% (***).
+
+
+        3.4.2.2 Tendencia Estacional
+
+
+En la Tabla N°9 se muestran las tendencias estacionales y su significancia, de la variable temperatura
+máxima. El panorama general indica un aumento de las temperaturas máximas . En verano (DEF) los
+cambios significativos, solo muestran aumentos, a excepción de Sondorillo que presenta una
+tendencia significativa negativa de -0.15°C por década y otras estaciones que no presentan cambios.
+En otoño (MAM), se tiene tendencias similares a verano, los valores van desde los -0.1°C (Santo
+
+
+
+                                                                                                         41
+  Domingo) a 0.07°C (Mallares) por década. En invierno (JJA) se tiene mayormente tendencias
+  positivas para toda la región a excepción de Miraflores, La Esperanza, Lancones, Chalaco, Sondorillo
+  y Pacaypampa que muestran tendencias decrecientes no significativa (Chalaco es la excepción con un
+  nivel de significancia de 90%). En primavera (SON) se tienen tendencias positivas en toda la región
+  analizada, a excepción de las mismas estaciones con tendencia negativa en la estación de invierno, la
+  mayor tasa de cambio se da en Sondorillo (sierra de Piura) con una decrecimiento de -0.1°C de
+  temperatura máxima por década.
+
+
+   Tabla N°9: Tendencias estacionales de las temperaturas máxima (°C) y de las significancias (%)
+                                         en la región Piura.
+
+
+                                   DEF                  MAM                  JJA                SON
+         Estación
+                             Tend.      Sig.    Tend.       Sig       Tend.      Sig      Tend.    Sig
+MIRAFLORES                   0          NS      0.00        NS        -0.01      NS       0.00     NS
+MALLARES                     0.06       99.9    0.07        99.9      0.06       99.9     0.03     99.9
+LA ESPERANZA                 -0.01      NS      0.01        NS        -0.01      NS       -0.03    95
+CHUSIS                       0.03       99      0.02        95        0.02       90       0.02     99
+MORROPÓN                     0          NS      0.01        NS        0.03       95       0.03     99.9
+SANMIGUEL                    0.03       99      0.03        95        0.05       99       0.02     NS
+CHULUCANAS                   0.02       90      0.04        90        0.04       99       0.04     99.9
+BERNAL                       0.01       NS      0.03        NS        0.10       NS       0.05     NS
+LANCONES                     -0.09      NS      -0.14       NS        -0.07      NS       -0.07    NS
+AYABACA                      0          NS      0.02        99.9      0.02       99.9     0.03     99.9
+SAUSAL DE CULUCAN 0.03                  95      0.03        99.9      0.05       99.9     0.04     99.9
+HUANCABAMBA                  0          NS      0.01        NS        0.02       95       0.01     90
+HUARMACA                     0          NS      0.03        99        0.04       95       0.04     99.9
+SANTO DOMINGO                0.1        NS      -0.1        NS        0.02       NS       0.06     NS
+CHALACO                      -0.1       NS      -0.11       NS        -0.07      90       -0.10    NS
+PACAYPAMPA                   -0.1       NS      -0.08       NS        -0.06      NS       -0.08    NS
+SONDORILLO                   -0.2       90      -0.07       NS        -0.01      NS       -0.10    NS
+        Leyenda: Nivel de significancia No Significativo (NS), Nivel de significancia 90% (+),
+  Nivel de significancia 95% (*), Nivel de significancia 99% (**), Nivel de significancia 99.9% (***).
+
+
+
+
+                                                                                                          42
+        a)
+
+
+
+
+       b)
+
+
+
+
+Figura N°11: Tendencia de la temperatura máxima anual de la estaciones Ayabaca (a) y Mallares (b)
+En la Figura N°11 se puede apreciar las series climáticas y la tendencia de la temperatura máxima
+anual de las estaciones Ayabaca (a) y Mallares (b), ambas estaciones muestran una clara tendencia de
+aumento de la temperatura máxima en toda su serie histórica, siendo la estación Mallares la que
+presenta un mayor aumento (0.5°C por década); Ayabaca presenta un aumento de casi 0.2°C por
+década. Estos resultados coinciden con las tendencias analizadas en la Segunda Comunicación
+Nacional de Cambio Climático (SENAMHI, 2009); según dicho estudio las temperaturas máxima
+sobre la costa norte del Perú van en aumento.
+
+
+    3.4.3 Tendencias observadas de la Temperatura Mínima
+Los valores y significancias de la tendencia anual y estacional de la temperatura mínima de Tumbes,
+se muestran en las Tablas N°10 y N°11.
+       3.4.3.1 Tendencia Anual
+La tendencia para la temperatura mínima es positiva en toda la región a excepción de las estaciones
+Santo Domingo, Chalaco, San Miguel y Chulucanas, solo Chalaco muestra un nivel de significancia
+de 99%. El cambio positivo más alto se da en la estación Bernal, ubicada cerca de las costas de Piura,
+con un nivel no significativo.
+
+
+
+
+                                                                                                         43
+ Tabla N°10: Tendencia anual de las temperaturas mínima (°C) y de las significancias (%) en la
+                                       región Piura.
+
+
+                                                           Tendencia
+       ESTACIONES                          Período                       Significancia %
+                                                         (°C década-1)
+       MIRAFLORES                         1964-2013           0.02                99
+       MALLARES                           1964-2013           0.01                NS
+       LA ESPERANZA                       1964-2013           0.04                99
+       CHUSIS                             1964-2013           0.01                NS
+       MORROPÓN                           1964-2013           0.04               99.9
+       SANMIGUEL                          1964-2013             0                 NS
+       CHULUCANAS                         1964-2013             0                 NS
+       BERNAL                             1964-2013           0.10                NS
+       LANCONES                           1964-2013           0.03                NS
+       AYABACA                            1964-2013           0.03               99.9
+       SAUSALDECULUCAN                    1964-2013           0.02               99.9
+       HUANCABAMBA                        1964-2013           0.03               99.9
+       HUARMACA                           1964-2013           0.03               99.9
+       SANTO DOMINGO                      1964-2013          -0.05                NS
+       CHALACO                            1964-2013          -0.19                99
+       PACAYPAMPA                         1964-2013           0.08                NS
+       SONDORILLO                         1964-2013           0.03                95
+      Leyenda: Nivel de significancia No Significativo (NS), Nivel de significancia 90% (+),
+Nivel de significancia 95% (*), Nivel de significancia 99% (**), Nivel de significancia 99.9% (***).
+
+
+       3.4.3.2 Tendencia Estacional
+En la Tabla N°11 se muestran las tendencias estacionales y su significancia, de la variable
+temperatura minima media estacional.
+En verano (DEF) se tiene que todas las tendencias son positivas a excepción de Santo Domingo (-
+0.1°C por década y 99% de significancia) y Chalaco (-0.2°C por década con un cambio no
+significativo), el cambio más alto de aumento se da en la estación Pacaypampa con 0.1°C de aumento
+no significativo de temperatura mínima por década. En otoño (MAM) también se tienen tendencias
+positivas en casi toda la región, a excepción de las estaciones Lancones, Santo Domingo, Chalaco y
+Sondorillo ubicadas en altitudes elevadas, a diferencia de Lancones que se encuentra más cerca de la
+costa de Piura.
+Invierno (JJA) y Primavera (SON) presentan un aumento de la temperatura mínima en todas las
+estaciones, a diferencia de Chulucanas, San Miguel y Chalaco que muestran un decrecimiento en la
+temperatura mínima.
+
+
+
+
+                                                                                                       44
+Tabla N°11: Tendencias estacionales de las temperaturas mínima (°C) y de las significancias (%)
+                                      en la región Piura
+
+
+                                DEF                MAM                  JJA               SON
+        Estación
+                          Tend.     Sig.    Tend.        Sig      Tend.     Sig     Tend.    Sig
+    MIRAFLORES            0.03      95      0.02         NS       0.03      95      0.02     NS
+     MALLARES             0         NS      0.01         NS       0.02      90      0.01     NS
+   LAESPERANZA            0.04      99.9 0.03            95       0.04      99      0.04     99
+       CHUSIS             0.02      95      0.01         NS       0.01      NS      0        NS
+     MORROPÓN             0.05      99.9    0.03         99       0.06      99.9    0.04     99.9
+     SANMIGUEL            0.01      NS      0            NS       0         NS      0.00     NS
+   CHULUCANAS             0.01      NS      0            NS       0         NS      -0.01    NS
+       BERNAL             0.04      NS      0.14         NS       0.08      NS      0.02     NS
+      LANCONES            0.01      NS      -0.06        NS       0.13      NS      0        NS
+      AYABACA             0.03      99.9 0.03            99.9     0.03      99.9 0.03        99.9
+SAUSALDECULUCAN 0.01                90      0.01         95       0.02      99      0.02     99.9
+  HUANCABAMBA             0.02      95      0.03         99.9     0.03      99.9 0.02        99
+     HUARMACA             0.03      99      0.03         99.9     0.03      99.9    0.03     99.9
+  SANTODOMINGO            -0.11     99      -0.07        95       -0.01     NS      0.03     NS
+      CHALACO             -0.22     NS      -0.22        90       -0.14     NS      -0.22    99
+   PACAYPAMPA             0.13      NS      0.01         NS       0.11      90      0.11     NS
+    SONDORILLO            0.08      NS      0            NS       0.05      95      0.02     NS
+      Leyenda: Nivel de significancia No Significativo (NS), Nivel de significancia 90% (+),
+Nivel de significancia 95% (*), Nivel de significancia 99% (**), Nivel de significancia 99.9% (***).
+
+
+
+        a)
+
+
+
+
+                                                                                                       45
+      b)
+
+
+
+
+ Figura N°12: Tendencia de la temperatura mínima anual de las estaciones Ayabaca (a) y Sausal de
+                                          Culucan( b).
+En la Figura N°12 se puede apreciar la serie climática y la tendencia positiva de la temperatura
+mínima anual de las estaciones Ayabaca (a) y Sausal de Culucan (b), ambas estaciones muestran una
+clara tendencia de aumento de la temperatura mínima en toda su serie histórica, siendo la estación
+Ayabaca la que presenta un aumento de 0.29°C por década; la estación Sausal de Culucan presenta un
+aumento de 0.16°C por década.
+Los resultados obtenidos en este documento guardan concordancia con los resultados de la Segunda
+Comunicación Nacional de Cambio Climático (SENAMHI, 2009), donde se menciona el aumento de
+la temperatura mínima con tendencia significativa en la costa norte del país.
+
+
+
+
+                                                                                                     46
+                                                                         CAPÍTULO IV
+
+
+                         ESCENARIOS CLIMÁTICOS REGIONALES
+
+
+
+El clima de una región es el resultado de una serie de factores en diferentes escalas espaciales, desde
+los forzamientos locales, la cobertura vegetal, la topografía, el tipo de suelo, pisos altitudinales,
+cercanía al mar, etc., hasta los forzamientos de gran escala, como la circulación de mesoescala o las
+teleconexiones, que pueden condicionar características propias de la región, por lo que es de gran
+importancia incluirlas en los análisis de señales de cambio climático. Sin embargo, este proceso puede
+volverse extremadamente complicado y caracterizado por un alto grado de incertidumbre (Giorgi,
+2008).
+Una forma de construir escenarios futuros del clima, es incorporando la variabilidad (interanual) a
+dichos escenarios (Wilks, 1992; Meams et al., 1992; Barrow, 1995; citados por Hulme y Lu 2000)
+siendo la variabilidad muy importante en el estudio de eventos extremos y la frecuencia con la que
+éstos eventos suceden.
+
+
+Los escenarios futuros del clima a escala regional y local son necesarios para proyectar los posibles
+“cambios” del clima en el futuro a un mejor detalle espacial y temporal; con lo cual es posible evaluar
+la vulnerabilidad económica social y con ello implementar estrategias de adaptación y enfrentar los
+posibles impactos del cambio climático global. La herramienta básica para estimar las proyecciones
+climáticas son los Modelos de Circulación General Acoplados Océano Atmósfera (AOGCMs, siglas
+en inglés). Los AOGCMs permiten simular el clima pasado, actual y futuro, habiendo, con el paso de
+los años, mejorado muchísimo en la representación de los efectos de los procesos físicos a través de
+sus esquemas de parametrización de radiación y convección principalmente, así como las
+interrelaciones entre las componentes del sistema climático atmósfera-océano-superficie terrestre-
+biósfera-criósfera.
+
+En la actualidad, existen en la comunidad cientifica diversos modelos AOGCM’s, los cuales forman
+parte del grupo de la Fase 5 del Proyecto de intercomparacíon de Modelos Acoplados (CMIP5 por sus
+siglas en ingles). De estos modelos, siete fueron evaluados sobre la region sudamericana (ACCESS1-
+0, CESM1-CAM5, NorESM1-M, HadGEM2-AO, HadGEM2-CC, HadGEM2-ES, MPI-ESM-LR.) a
+fin de identificar cual tenia una mejor representatividad de la dinámica atmosférica de esta parte del
+mundo (SENAMHI, 2013). El modelo inglés HadGEM2-ES (Met Office Hadley Centre) fue el que
+mejor representacion hace de la estructura atmosferica, siendo el utilizado para el proceso de
+regionalizacion dinamica con el modelo regional WRF, generando escenarios en dos pasos de
+reduccion de escala a 48 km y 16 km, siendo la resolución más fina la presentada en el presente
+estudio.
+
+
+4.1 Proyecciones del Clima en la región de Piura
+En este capítulo se busca conocer los cambios en la precipitación, temperatura máxima y temperatura
+mínima promedio anual y estacional para el time- slice 2016-2045 centrado en el año 2030, tomando
+como período histórico los años 1981-2005. Las proyecciones presentadas a continuación resultan del
+consenso de escenarios generados por procesos de regionalizacion estadística y dinámica, de los que
+se obtuvieron series que fueron comparadas con la serie base (datos históricos observados). Un mayor
+peso es asignado a aquella serie que se aproxime más a la serie base; una vez determinadas las series
+con mayores pesos, se realiza el promedio ponderado y se obtiene una serie patrón, la que se utiliza
+
+
+
+                                                                                                          47
+para las proyecciones climáticas futuras. Tanto la serie dinámica como la estadística, se regionalizaron
+a partir del modelo global HadGEM2-ES y tuvieron como escenario de emisión al RCP 8.5, el cual
+representa el escenario más pesimista.
+
+
+        4.1.1   Proyecciones de la precipitación
+En las Figuras N°13 y N°14 se muestran la variación porcentual de las precipitaciones en el Perú, esto
+a nivel anual y estacional a una resolución de 16 Km.
+A nivel anual, la region Piura presentaría cambios diferenciados entre la zona costera por debajo y
+encima de los 500 msnm aproximadamente. Se tiene que para el 2030, de la mitad de la región hacia
+las zonas altas al este del continente presentaría una disminución de hasta un -30%. En el resto de la
+region, hacia la zona costera, la precipitación de incrementaría, con aumentos de hasta 230%, el
+mayor en toda la región. En general, sobre la región predomina una tendencia proyectada al aumento
+de las precipitaciones (Ver la Figura N°13).
+
+
+
+
+  Figura N°13: Distribución espacial del Cambio en la precipitación anual para la región de Piura
+
+
+Estacionalmente se mantiene la distribución de cambios de lluvia proyectados a nivel anual. En la
+Figura N°14a se puede apreciar que en verano (DEF), el litoral costero presentaría un mayor aumento
+
+
+
+
+                                                                                                           48
+de la precipitación entre 90% y 230%; mientras que, las zonas altas mostrarían cambios que van de -
+10% a 10%.
+En otoño (MAM) se tendría un aumento en casi toda la región de hasta 230% en las provincias de
+Sechura, Paita, Sullana , Piura y Talara: mientras que Ayabaca y Huancabamba y todas las zonas altas
+presentarían una variación de -10% a 90% (Ver Figura N°14b).
+En invierno (JJA) se tendrían los mayores contrastes de variación de precipitación, con puntos
+localizados que presentarían aumentos de hasta 210%y se ubican en zonas altas. En general, las
+proyecciones indican aumentos en el norte y centro y disminuciones al sur y este de la región de hasta
+-30%. (Ver Figura N°14c)
+En primavera (SON) se tendría aumentos en el centro, sur y parte del norte de Piura de hasta 210%;
+mientras que en laz zonas altas y norte de Piura, se tendría disminuciones de la precipitación hasta
+más de -30%. (Ver Figura N°14d).
+
+
+
+
+     a                                          b
+
+
+
+
+     c                                           d
+
+
+
+
+ Figura N°14: Distribución espacial del cambio en la precipitación a nivel estacional a) verano, b)
+                  otoño, c) invierno y d) primavera, para la región de Tumbes.
+
+
+
+
+                                                                                                         49
+       4.1.2   Proyecciones de la temperatura máxima
+En general, la región Piura presenta proyecciones de calentamiento; es decir, la temperatura máxima
+se incrementaría. A nivel anual, los escenarios futuros proyectan que en la zona central de Piura, el
+aumento iría de 1°C a 1.25°C, las zonas altas tendrían una variación de 1.25°C hasta 2°C ,
+aumentando en dirección este, y el sur variciones de 1.25°C a 2°C en Sechura (Ver Figura N°15).
+
+
+
+
+ Figura N°15: Distribución espacial del cambio en la temperatura máxima anual para la región de
+                                             Piura.
+A nivel estacional las proyecciones futuras también indican aumento de la temperatura máxima. Y
+muestran una variación similar.
+En general, se espera mayores calentamientos al sur de Piura de hasta más de 2°C y en las zonas altas
+de la región con una variación de 1.25°C a más de 2°C, la zona central de Piura presentaría aumentos
+que van de 1°C a 1.25°C. En otoño (MAM) e invierno (JJA) se tendría aumentos en el litoral costero,
+de 1.25°C a más de 2°C (Ver Figura N°16).
+
+
+
+
+                                                                                                        50
+     a)                                           b)
+
+
+
+
+     c)                                           d)
+
+
+
+
+   Figura N°16: Distribución espacial del cambio en la temperatura máxima a nivel estacional a)
+              verano, b) otoño, c) invierno y d) primavera, para la región de Piura.
+
+
+          4.1. 3 Proyecciones de la Temperatura Mínima
+La distribución espacial anual de la temperatura mínima en la región de Piura, proyectada al 2030
+indica un aumento en toda la región de manera similar a la temperatura máxima con intensidades
+ligeramente mayores. Al sur de la región (toda la provincia de Sechura) se tendría un aumento de más
+de 2°C; mientras que en lsas zonas altas variaríaentre 1.25°C hasta más de 2°C (Pacaypampa), entre el
+norte y centro de Piura se tendría aumentos de entre .1.5°C a 1.75°C, solo Lancones podría registrar
+un aumento de más de 2°C por encima de su normal, como se aprecia en la Figura N°17.
+
+
+
+
+                                                                                                        51
+ Figura N°17: Distribución espacial del cambio en la temperatura mínima anual para la región de
+                                             Piura.
+A nivel estacional las proyecciones futuras indican un aumento de la temperatura mínima en toda la
+región durante todo el año (Ver Figura N°18, gráficos a, b, c y d).
+En verano (DEF) se tendría un aumento de la temperatura mínima en toda la región, en el sur se
+llegarían a registrar aumentos de más de 2°C, en las zonas altas entre 1.25°C a más de 2°C y en el
+resto de la región de entre 1.25C a 1.5°C.
+En otoño (MAM) se tendría un mayor aumento en la zona sur, de más de 2°C, al este entre 1.5°C a
+más de 2°C y al centro y norte entre 1.25°C a 2°C.
+En invierno (JJA) se experimentaría la mayor tasa de aumento de la temperatura mínima, el sur de
+Piura y parte de la zona centro experimentaría un aumento de más de 2°C, junto con la parte este de
+las zonas alta. Al este de la región, también se tendría valores de aumento de 1.25°C 1.5°C, al norte
+un aumento de hasta 2°C.
+Finalmente en Primavera (SON) en la zona central se tendrían aumento de 1°C a 1.25°C, al este una
+variación de 1.25°C a 2°C y al oeste se tendría entre 1.25°C a más de 2C.
+
+
+
+
+                                                                                                        52
+            a)                                     b)
+
+
+
+
+            c)                                      d)
+
+            c)                                     d)
+
+
+
+
+      Figura N°18: Distribución espacial del cambio en la temperatura mínima a nivel estacional a)
+                 verano, b) otoño, c) invierno y d) primavera, para la región de Piura.
+
+
+4.2       Incertidumbres
+Los cambios anuales estimados de las variables precipitación y extremos de temperatura centrados en
+el año 2030 son presentados en las Figuras N° 19, 20 y 21. El número de estaciones varía de acuerdo a
+la disponibilidad de información y el periodo base trabajado fue 1981-2005. Se utilizó el escenario
+más pesimista que corresponde al escenario de emisión RCP 8.5 y adicionalmente se contó con
+información de AMICAF/SENAMHI para el escenario de emisión moderada RCP 4.5.
+En esta sección se presenta la comparación de los cambios generados con diferentes escenarios
+disponible para la región Piura (Ver Cuadro N°2) estos cambios consideran diferentes modelos,
+métodos de regionalización, escenarios de emisión y resolución para las variables de precipitación,
+temperatura máxima del aire y temperatura mínima.
+
+
+
+
+                                                                                                        53
+       4.2.1   Cambios en la precipitación a nivel anual
+Los cambios de la precipitación en 3 estaciones analizadas (Morropón, Ayabaca y La Esperanza) se
+trabajaron en porcentaje.
+De la Figura N°19a se tiene la estación Morropón y se observa que el modelo patrón (líneas
+punteadas) muestra un aumento de la precipitación casi hasta en 500%, los modelos utilizados en
+AMICAF para los dos escenarios corridos (RCP 4.5 y 8.5) también muestran un incremento hasta en
+un 300%, la serie estadística también muestra un incremento de la precipitación; el WRF es el único
+modelo que muestra una disminución de la precipitación en el año 2021, y luego a partir del 2028 en
+adelante. En general, los modelos se muestran consistentes en el aumento de la precipitación en la
+estación de Morropón.
+De la Figura N°19b, se observa un aumento de la precipitación muy consistente en el período
+comprendido entre el 2013-2028, a excepción del WRF que disminuye en hasta el 2021, y el
+AMICAF en sus dos escenarios que varía entre aumentos y disminución hasta el año 2028 para luego
+aumentar hasta el año 2045. La serie resultante de la regionalización estadística es la que mayores
+aumentos de la precipitación predice, llegando a casi 500% de cambios por encima de la normal
+climatológica.
+De la Figura N° 19c, durante el periodo base se puede observar la deficiencia de precipitaciones en
+ésta estación; sin embargo, las proyecciones muestran un aumento de la precipitación, entre el periodo
+2013-2028 coinciden entre un aumento de hasta 600% a partir de ese periodo cada modelo traza un
+aumento en diferentes porcentajes, el escenario RCP 8.5 del AMICAF es el que mayor cambio
+predice, llegando hasta 1400% a partir del año 2040, lo que se podría analizar como una
+sobreestimación de ésta variable, el modelo WRF a partir del año 2028 no muestra variaciones en la
+precipitación.
+
+
+
+
+                                                                                                         54
+     a)                                           b)
+                                                  )
+
+
+
+
+                     c)
+
+
+
+
+  Figura N°19: Cambios estimados en la precipitación centrados al 2030. a) Estación Morropón b)
+                          Estación Ayabaca, c) Estación La Esperanza
+
+
+       4.2.2   Cambios en la temperatura máxima a nivel anual
+
+Los cambios de la temperatura máxima en las 3 estaciones analizadas (Ayabaca, Chusis y Mallares)
+se evalúan los cambios en grados Celsius (°C).
+De la Figura N°20a se tiene un notorio aumento de la temperatura máxima en todos los modelos,
+siendo más consistentes en el periodo 2013-2028 con un cambio de hasta 4°C lo que nos indica una
+clara consistencia en las proyecciones de ésta variable.
+De la Figura N°20b se puede observar un notorio aumento de la temperatura máxima en todos los
+modelos, es el WRF y el HadGEM los modelos que presentan un pico de hasta 4°C de aumento entre
+el periodo 2021-2031, a partir 2031, ambos modelos indican una disminución de la temperatura
+máxima. Las series del AMICAF muestran siempre un aumento de la temperatura máxima, al igual
+que los otros modelos.
+De la Figura N°20c se aprecia un aumento en todos los modelos, pero de forma particular; es decir,
+cada modelo tiene su propia variación. El WRF a pesar que muestra un aumento, siempre oscila entre
+altos y bajos valores (0.5°C a 1.5°C), las proyecciones del AMICAF son las que muestran aumentos
+en mayores rangos (0.5°C a 3.5°C).
+
+
+
+
+                                                                                                     55
+      a)                                            b)
+                                                    )
+
+
+
+
+                             c)
+
+
+
+
+ Figura N°20: Cambios estimados en la temperatura máxima centrados en el año 2030. a) Estación
+                              Ayabaca, b) Chusis y c) Mallares.
+
+
+       4.2.3   Cambios en la temperatura mínima a nivel anual
+De la Figura N°21a, se tiene un aumento de temperatura mínima en Huancabamba, a excepción del
+modelo que predice disminución de temperaturas ente el año 2020 al 2030, a partir del cual, aumenta
+hasta un poco más de 1°C. El resto de modelos muestran un buen consenso de aumento de hasta 3°C
+de la temperatura mínima.
+De la Figura N°21b la estación San Miguel, tiene un periodo base con temperaturas mínimas
+negativas hasta casi -1°C por debajo de su normal. Las proyecciones del modelo REMO indican una
+variación entre aumentos y disminuciones de la variable, en un rango que va de -1°C a 1°C, los demás
+modelos indican un aumento de las temperaturas mínimas, entre 0.5°C a 4.5°C.
+De la Figura N°21c se puede observar las proyecciones de la temperatura mínima la estación
+Morropón, aumentan en una rango en común, en el periodo 2013-2029, a partir del cual, siguen
+aumentando pero con una diferente variabilidad. El modelo REMO es el único que predice cambios
+positivos y negativos en la temperatura mínima, oscila entre -1°C a 1°C.
+
+
+
+
+                                                                                                       56
+    a)                                         b)
+                                               )
+
+
+
+
+    a)
+
+
+
+
+                     c)
+
+
+
+
+Figura N°21: Cambios estimados en la temperatura mínima centrados en el año 2030 de la estación
+                      Huancabamba (a), San Miguel (b) y Morropón (c).
+
+
+
+
+                                                                                                  57
+                                                                                     CAPÍTULO V
+
+
+                                                                               CONCLUSIONES
+
+
+
+La construcción de los escenarios de precipitación y temperatura máxima y mínima, se obtuvieron
+con en el método del promedio ponderado mediante una interpolación de correcciones sucesivas con
+el método de Cressman (1959), donde se promediaron datos de la regionalización estadística y
+dinámica teniendo como modelo global al HadGEM2-ES en un escenario pesimista RCP 8.5.
+Previamente se determinaron tendencias climáticas actuales e índices climáticos con datos observados
+en punto de estación, con un récord no menor de 30 años de datos. Cuenta demás con la experiencia
+del equipo de trabajo del Centro de Predicción Numérica del SENAMHI en la generación de
+escenarios climáticos en la región de Tumbes.
+Las conclusiones del presente estudio son las siguientes:
+    1. En relación al diagnóstico del clima actual.
+
+               La tendencia de las precipitaciones en las últimas décadas, indican un aumento de las
+                lluvias, presentando una tendencia positiva anual en toda la región, a excepción de la
+                estación Chusis, que presenta una tendencia negativa no significativa de -1 mm por
+                década. Solo La Esperanza, Morropón, Ayabaca, Sausal de Culucan, Pananga, Santo
+                Domingo y Hacienda Bigote, tienen tendencias positivas significativas.
+               A nivel estacional, lo mayores cambios se dan en las estaciones de verano (DEF) y
+                otoño (MAM); mientras que, en invierno (JJA) y primavera (SON) no se presentan
+                grandes cambios.
+               La tendencia de las temperaturas máximas y mínimas revelan un ligero incremento de
+                éstas, a excepción de Chalaco y Lancones, que presentan una disminución
+                significativa a razón de -0.1°C por década, para la temperatura máxima y -0.2°C por
+                década para la temperatura mínima (Chalaco).
+               A nivel estacional, los cambios de la temperatura máxima, son más significativos en
+                los trimestres JJA y SON.
+               A nivel estacional, los cambios de la temperatura mínima, son más significativos en
+                invierno (JJA).
+
+
+    2. En relación al año 2030.
+
+        Las proyecciones del clima en la región de Piura para el año 2030 se resume en lo siguiente:
+        Aumento en zonas costeras y disminución en zonas por encima de los 500m, de las
+        precipitaciones. También se tiene calentamiento de las temperaturas máximas y mínimas en
+        toda la región, aunque es ésta última la que muestra cambios más intensos, llegando a tener
+        aumento de más de 2°C en todas las estaciones del año.
+
+        Del análisis estacional, las conclusiones son las siguientes:
+
+
+
+
+                                                                                                         58
+   Los cambios en la precipitación en el largo plazo, en general, se tiene aumentos de
+    hasta 210% por encima de la normal climatológica, en la zona centro y sur en verano
+    (DEF), otoño (MAM) y primavera (SON); mientras que se esperan ligeros cambios
+    en las zonas altas de Piura, entre -10% a 10%. En invierno (JJA) se tienen
+    incrementos en algunos puntos de las zonas altas de Piura y disminución de la
+    precipitación hasta en -10%; mientras que, en primavera (SON) en las zonas altas se
+    tendrían déficit de precipitaciones.
+
+
+   Para la temperatura máxima las proyecciones indican un aumento de 1°C a 1.25°C en
+    todo el centro de Piura; mientras que, para las zonas altas predice aumentos que van
+    de 1.5 a 2°C; la zona sur es la que mayores rangos proyectados presenta, que van de
+    1.5°C a más de 2°C en todas las estaciones del año.
+
+   Las proyecciones de la temperatura mínima muestran que ésta variable presenta
+    mayores aumentos, lo que la hace más sensible al cambio climático.
+
+   Todas las proyecciones estacionales de la temperatura mínima, indican un mayor
+    aumento en la zona sur, de hasta más de 2°C, en las zonas altas el aumento varía entre
+    1.5°C a más de 2°C (Pacaypampa). Los aumentos en la zona centro y sur varía entre
+    1°C a 1.75°C.
+
+
+
+
+                                                                                             59
+                                                                                    CAPÍTULO VI
+
+
+                                                                            BIBLIOGRAFÍA
+
+
+
+ Beek, E.G.; Stein, A.; Janssen, L.L.F. (1992) Spatial variability and interpolation of daily
+   precipitation amount. Stochastic Hydrology and Hydraulics, 6: 304-320.
+ Bellouin N., O. Boucher, J. Haywood, C. Johnson, A. Jones, J. Rae, and S. Woodward. (2007)
+   Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre,
+   Technical Note 73, March 2007.
+ Cressman, G. (1959): An operational Objetive Analysis System. Vol 87. Number 10.
+ Cubash, U.; Waskewitz, J.; Hegel, G. y Perlwitz, J. (1995): Regional climate changes as
+   simulated in time-slice experiments. Clim Change 31: 273-304.
+ Dingman, S. Lawrence; Seely-Reynolds, Diana M.; Reynolds, Robert C. (1988): Application
+   of kriging to estimating mean annual precipitation in a region of orographic influence. Water
+   Resources Bulletin, 24(2): 329-339.
+ Frich, P.; Alexander, L; Della-Marta, P.; Gleason, B.; Haylock, M.; Peterson, T. (2002):
+   Observed coherent changes in climate extremes during the second half of the twentieh century.
+   Clim. Res.24: 47-57 pp.
+ Gaertner, S. L., Bachman, B. A., Dovidio, J. F., & Banker, B. S. (2001). Corporate mergers
+   and stepfamily marriages: Identity, harmony, and commitment. In M. A. Hogg & D. Terry
+   (Eds.), Social identity in organizations (pp. 265-288). Oxford, UK: Blackwell.
+ Giorgi, F. (2008): Regionalization of climate change information for impact assessment and
+   adaptation.
+ Hulme, M. and Lu, X. (2000): How to factor interannual climate variability into Climate
+   Scenarios. A note prepared for the DETR Fast-Track Impacts Group.
+ IDEAM (2004). Estudio de la Caracterización Climática de Bogotá y Cuenca Alta del Río
+   Tunjuelo.
+ IPCC (2007). Cuarto Informe de Evaluación. Climate Change 2007: The Physical Science
+   Basis. Alley, R. et al. Eds., Cambridge University Press, Uk, 881 pp.
+ IPCC (2013). Quinto Informe de Evaluación. Climate Change: The Physical Science Basis.
+   Stocker, R. et al. Eds., Cambridge University Press, Uk, 1535 pp.
+ Lowry,W. (1973) OMM N° 327. Compendio de apuntes de climatología para la formación de
+   personal meteorológico clase IV.
+
+
+
+
+                                                                                                   60
+ Kamiguchi, K.; Kitoh, A.; Uchiyama, T.; Mizuta, R. and Noda, A. (2006): Changes in
+   precipitation-based extremes indices due to global warming projected by a global 20-km-
+   mesh atmospheric model. Scientific Online Letters on the Atmosphere, 2, 64-67.
+ Kendall, M.G., (1975): Rank Correlation methods, $th Ed., Charles Griffin, London.
+ Kusunoki, S. et al. (2005): Change of Baiu in global warming projection by an atmospheric
+  general circulation model with 20-Km grid size. J. Meteor. Soc. Japan. Submitted.
+ Moss, R. H. et al. (2010): The next generation of scenarios for climate change research and
+  assessment. Nature 463(7282), 747–756.
+ Ninyerola, M.; Pons, X. y Roure, JM., “A methodological approach of climatological
+  modelling of air temperature and precipitation through GIS techniques”. International Journal
+  of Climatology. Vol. 20, pp. 1823-1841, 2000.
+ Organización     Meteorológica    Mundial,   OMM       (2003).   International   Meteorological
+   Vocabulary. WMO N°182.
+ Organización Meteorológica Mundial, OMM (2008). Guide to Hydrological Practices. WMO
+   N°168.
+ WMO No. 182, International meteorological vocabulary. World Meteorological Organization.
+  Geneva.1992
+ Peixoto, J.P. and Oort, A.H. (1922): Physics of Climate. Am. Inst.Physics.
+ Purca, S. 2005. Variabilidad temporal de baja frecuencia en el Ecosistema de la Corriente
+  Humboldt frente a Perú. Tesis de Doctorado. Universidad de Concepción, Chile. 32 pp.
+  Anexos 37pp.
+ Quevedo, K; Sánchez, K. (2009) comparación de dos métodos de interpolación para la
+   estimación de la temperatura del aire aplicando técnicas geo- estadísticas. Revista Peruana
+   Geo-atmosférica, 90-107.
+ Sen, P. K. (1968): Estimate of the regression coefficient based on Kendall’s tau. Journal of
+   the American Statistical Association, 63:1379-1389.
+ SENAMHI, (1989): Mapa de Clasificación Climática del Perú. Método de Thornthwaite. Eds.
+   SENAMHI Perú, 50 pp.
+ SENAMHI, (2007): Escenarios de cambio climático en la cuenca del río Mantaro para el año
+   2100. Autores: Ávalos, G.; Acuña, D.; Oria, C.; Metzger L.; Llacza, A. y Miguel, R.; PRAA.
+   Eds. SENAMHI Perú, 124 pp.
+ SENAMHI, (2008): Escenarios de cambio climático en el Perú para el año 2030. Autores:
+   Obregón, G.; Rosas, G.; Ávalos, G.; Díaz, A.; Oria, C.; Acuña, D.; Metzger L.; Rosas, G y
+   Miguel, R. Eds. SENAMHI- MINAM, Perú, 100 pp.
+ SENAMHI, (2012): “Caracterización y variabilidad climática en las regiones Cusco y
+   Apurímac. PACC PERU
+ SENAMHI, (2014): Regionalización Estadística de Escenarios climáticos en Perú al año 2050.
+  Proyecto AMICAF.
+ Tracton, M. S., and Du, J. (2001): Application of the NCEP/EMC Short-range ensemble
+   forecast system (SREF) to predicting extreme precipitation events. Pp. 64-65 in Preprints,
+
+
+
+
+                                                                                                    61
+   Symposium on Precipitation Extremes: Prediction Impacts and Responses, American
+   Meteorological Society.
+
+ Valdivia, J (1977): Meteorología general.
+ Wanabe S., Hajima T., Sudo k., Nagashima T., Takemura T., Okajima H., Nozawa T.,
+   Kawase H., Abe M., Yokohata T., Ise T., Sato H., Kato E., Emori S., Kawasiya M (2011)
+   MITOC-ES, (2010): Model description and basis results of CMIP5-20c3m experiments.
+   Geoscientific Model Development 4(4): 845-872, DOI 10.5194/gmd-4-845-2011.
+ Woodman, R; (1997): El Fenómeno El Niño y el Clima en el Perú.
+
+
+
+
+                                                                                           62
+ANEXOS
+
+
+
+
+         63
+Figura N°22: Tendencia de la precipitación de Bernal
+
+
+
+
+Figura N°23: Tendencia de la precipitación de Chalaco
+
+
+
+
+                                                        64
+Figura N°24: Tendencia de la precipitación de Chulucanas
+
+
+
+
+   Figura N°25: Tendencia de precipitación de Chusis
+
+
+
+
+                                                           65
+Figura N°26: Tendencia de precipitación de Hacienda Shumaya
+
+
+
+
+    Figura N°27: Tendencia de precipitación de Lancones
+
+
+
+
+                                                              66
+      Figura N°28: Tendencia de precipitación de Pacaypampa
+
+
+
+
+Figura N°29: Tendencia de temperatura máxima del aire de Huarmaca
+
+
+
+
+                                                                    67
+    Figura N°30: Tendencia de temperatura máxima del aire de San Miguel.
+
+
+
+
+Figura N°31: Tendencia de la temperatura máxima del aire de Sausal de Culucan
+
+
+
+
+                                                                                68
+Figura N°32: Tendencia de temperatura mínima del aire de Huancabamba
+
+
+
+
+  Figura N°33: Tendencia de temperatura mínima del aire de Lancones
+
+
+
+
+                                                                       69
+Figura N°34: Tendencia de temperatura mínima del aire de Miraflores
+
+
+
+
+Figura N°34: Tendencia de temperatura mínima del aire de Miraflores
+
+
+
+
+                                                                      70
+

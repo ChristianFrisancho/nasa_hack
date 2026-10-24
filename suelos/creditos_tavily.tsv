@@ -1,0 +1,15 @@
+fecha	herramienta	consulta	creditos	acumulado
+2026-10-24T05:41:33Z	tavily_search(basic)	GSASmap download GeoTIFF EC 0-30	1	1
+2026-10-24T05:41:33Z	tavily_research(mini)	ECe y napa freatica medidas valles Piura (consumo no informado por la API; se anota el tope mini 110)	110	111
+2026-10-24T05:41:33Z	tavily_research(mini)	Impactos FEN 2017 y 2023 Piura por provincia (consumo no informado; tope mini 110)	110	221
+2026-10-24T05:53:15Z	tavily_extract(basic) x2 fallidos	repositorio ANA 1510 y 1535	0	221
+2026-10-24T05:53:15Z	tavily_search(basic)	estudios ANA drenaje salinidad Bajo Piura	1	222
+2026-10-24T05:53:15Z	tavily_extract(basic)	ICEN oficial met.igp.gob.pe/datos/ICEN.txt	1	223
+2026-10-24T06:03:17Z	tavily_extract(basic)	CENEPRED GeoJSON riesgo inundacion Piura (fallo: Error fetching content)	0	223
+2026-10-24T06:22:31Z	tavily_extract(basic)	PDF ANA erh_piura_tomos_i_ii (ok) + handle ANA 1535 (timeout)	1	224
+2026-10-24T06:22:31Z	tavily_extract(advanced)	handle ANA 20.500.12543/1535 (fallo: Failed to fetch url; sin cobro esperado)	0	224
+2026-10-24	tavily_search	Durán Zuazo 2004 mango Osteen ECw/ECe (r6)	1	225
+2026-10-24	tavily_search	FAO/UNALM 1990 Bajo Piura texto (advanced, r6)	2	227
+2026-10-24	tavily_search	Kc mango Kent/banano Piura fuente peruana (r6)	1	228
+2026-10-24T08:06:30Z	tavily_search	r8: búsqueda básica CEw avenida/canales Piura (P1/P2), sin cifras nuevas	1	229
+2026-10-24T08:06:30Z	tavily_extract	r8: 2 extract fallidos (repositorio ANA/UNP), sin cobro	0	229

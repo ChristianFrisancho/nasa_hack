@@ -1,0 +1,801 @@
+                                                            Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+                                                                       Contents lists available at ScienceDirect
+
+
+                                                 Computers and Electronics in Agriculture
+                                                            journal homepage: www.elsevier.com/locate/compag
+
+
+
+
+Integrated decision support for promoting crop rotation based sustainable
+agricultural management using geoinformatics and stochastic optimization
+Shubham Aggarwal a, Rallapalli Srinivas a, *, Harish Puppala b, Joe Magner c
+a
+  Department of Civil Engineering, Birla Institute of Technology and Science, Pilani, Rajasthan, India
+b
+  School of Engineering and Technology, BML Munjal University, Haryana, India
+c
+  Department of Bioproducts and Biosystems Engineering, University of Minnesota, USA
+
+
+
+
+A R T I C L E I N F O                                        A B S T R A C T
+
+Keywords:                                                    Sustainable agricultural management is essential for ensuring food security and economic development. Efficient
+Agricultural management                                      agricultural land use based on crop rotation practices can deliver greater soil fertility and higher economic
+Crop rotation                                                potential. We proposed a decision support tool (DST) for preserving land fertility, maximizing agricultural profit,
+Decision support
+                                                             minimizing agricultural pollution, and water usage. The proposed DST links geoinformatics, stochastic pairwise
+Optimization
+Water quality
+                                                             comparison (SPC), and constraint optimization to suggest the suitable crops for growing. To demonstrate the
+                                                             proposed DST, suitability of seven major crops in Muzaffarnagar district in Uttar Pradesh (India), where the
+                                                             footprint of sugarcane cultivable region is nearly 90% is analyzed and the findings are presented. The crops
+                                                             cultivated in the study region and the criteria suitable for their cultivation are identified using the hybrid system
+                                                             approach. The DST primarily encompasses qualitative and quantitative analysis coupled with geospatial analysis.
+                                                             Qualitative analysis guides the decision-maker in finalizing the crucial criteria to be assessed for cultivation,
+                                                             while quantitative analysis uses beta distribution for pairwise comparison to understand the significance of
+                                                             finalized criteria. We collected the data concerning parameters related to the finalized criteria by considering
+                                                             2700 soil samples. Data required at the ungauged locations are estimated using the kriging interpolation tech­
+                                                             nique. The findings of this study suggest that sugarcane can be allocated up to 20% of the land area. In addition
+                                                             to the principal crops (i.e., sugarcane, wheat, and rice), potato, mustard, maize, and sorghum also have good
+                                                             cultivation potential in Muzaffarnagar and can be grown on up to 20%, 22%, 18%, 21% of the land area
+                                                             respectively while just 1.5%, 1.8%, 0.1%, and 0% of land area, is used for their cultivation. With the prime focus
+                                                             on knowledge transfer from scientific studies to farmers, we used an open-source geospatial repository to develop
+                                                             an interactive dashboard that can fetch farmers’ locations and present each crop’s suitability based on optimized
+                                                             crop rotation practices.
+
+
+
+
+1. Introduction                                                                                      restrictions like the United States Environmental Protection Agency’s
+                                                                                                     Total Maximum Daily Loads (USEPA, 2010) and adoption of Best
+   Land degradation is one of the severe environmental threats world­                                Management Practices (BMP) (Jiang et al., 2020). European Union (EU)
+wide as it causes food insecurity and imbalances in the agroecosystems                               is also examining the prospects of the Functional Land Management
+(Chasek et al., 2019; Prăvălie et al., 2021). Scientific surveys reveal that                       (FLM) concept, which aims at appropriate land-use selection based on
+unsustainable agricultural practices adopted by the farmers are the                                  the potential of respective soils (Schulte et al., 2015; Jiang et al., 2021).
+prime cause of the degradation of land fertility. The United States’                                     BMPs are unanimously recognized (Wang et al., 2019; Opoku-
+response to agricultural land use management includes pollution                                      Kwanowaa et al., 2020) for sustaining agricultural land’s productivity
+
+
+    Abbreviations: DST, Decision Support Tool; SPC, Stochastic Pairwise Comparison; BMP, Best Management Pratices; EU, Europian Union; FLM, Functional Land
+Management; AHP, Analytical Hierarchy Process; GIS, Geographic Information System; DM, Decision Maker; GDP, Gross Domestic Product; NDVI, Normalized
+Difference Vegetation Index; ICAR, Indian Council of Agricultural Research; CPCB, Central Pollution Control Board; S1, Highly Suitable; S2, Moderately Suitable; S3,
+Marginally Suitable; N, Not Suitable; EC, Electrical Conductivity; OC, Organic Carbon; CO, Constraint Optimization; MIR, Maximization of Income Returns; MIWR,
+Minimization of Irrigation Water Requirements.
+ * Corresponding author.
+    E-mail address: r.srinivas@pilani.bits-pilani.ac.in (R. Srinivas).
+
+https://doi.org/10.1016/j.compag.2022.107213
+Received 11 March 2022; Received in revised form 6 June 2022; Accepted 9 July 2022
+Available online 16 July 2022
+0168-1699/© 2022 Elsevier B.V. All rights reserved.
+S. Aggarwal et al.                                                                                           Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+and improving surface and groundwater quality. Crop rotation is one of             of different criteria. Unlike the limitation of fixed ranges in conventional
+the BMPs that enhances soil’s organic matter, controls pests, weeds, and           approaches, the DM in this approach has the flexibility to define their
+other diseases, prevent soil erosion, decreases dependency on chemical             range limits (Cobuloglu and Büyüktahtakın, 2015).
+fertilizers, and increases crop yields (Tariq et al., 2019; Bowles et al.,             The study proposes an integrated approach linking geoinformatics,
+2020). Past research works analyzed the cropping plan, where crop                  SPC, and constraint optimization for sustainable crop rotation planning
+rotation decisions have been primarily dealt as a static concept, and              to address the intimidating issues of declining water quality and quan­
+identified the need to model these decisions as dynamic problems (Dury             tity, land fertility, and enhancing farmers income return based on crop
+et al., 2012). Ridier et al. (2016) built a dynamic stochastic model to aid        rotation practices. The DST overcomes the major drawback in past crop
+crop rotation planning, keeping maximization of income over the                    planning models by combining the US and EU response towards agri­
+planning period as an objective with simultaneous consideration of crop            cultural land use management, i.e., extending the FLM concept in terms
+yield and market risks. Li et al. (2015) proposed a heuristic algorithm for        of delineating the suitable crop-rotation pattern (a BMP type) for the
+optimal crop rotation scheduling to maximize profits for smallholder               given land based on the soil’s physical and chemical characteristics and
+farmers and minimize the profit difference between the farmers. Dos                climatic conditions. The availability of study results through a web-
+et al. (2012) suggested and analyzed a binary optimization model dis­              based dashboard encourages field scale implementation of cropping
+integrated using Danzig-Wolfe decomposition and a heuristic based on               patterns by the farmers and the participation of other stakeholders.
+column generation to identify a crop rotation schedule while maxi­                 Seven major crops from the Muzaffarnagar district in Uttar Pradesh
+mizing the plot occupation subjected to adjacency and succession con­              (India) are selected to demonstrate the proposed DST. The main objec­
+straints. Further, a crop rotation model, CropRota, is presented by                tives include 1) identification of major crops and corresponding criteria
+(Schönhart et al., 2011), which integrates observed land-use data and             for their cultivation and evaluating their weights using hybrid system
+agronomic criteria for maximizing the agronomic value overall rotations            approach, 2) generating thematic layer maps followed by generation of
+by assigning discrete crops to a single or multiple crop rotation. Dupuis          land suitability maps specific to each of the seven major crops using food
+et al. (2022) presented a six-step methodology using Markov chains to              and agriculture organization (FAO) classification system, and 3) iden­
+predict N most likely crops for year n + 1. Similarly, many mathematical           tifying optimum crop rotation pattern required for sustaining soil
+or computational models have been proposed for crop rotation planning              fertility, maintaining water quality and quantity, and enhancing farmers
+problems (Santos et al., 2015; Capitanescu et al., 2017). Although these           income. Moreover, the proposed approach’s future development and
+models apply different agronomic, production, economic, market con­                universal applicability are also discussed.
+straints, and rules, they lack consideration of individual land potentials,
+subjective allocation of cropping patterns to the fields, and a framework          2. Materials and method
+for direct field implementation of cropping plan suggestions.
+    Many approaches are available for evaluating land suitability. For                 The Muzaffarnagar district contributes immensely to Uttar Pradesh’s
+example, the parametric approach, is a traditional method that com­                (India) gross domestic product (GDP) and is known for its sugar and
+pares crop requirements against land potentials and produces a suit­               jaggery production. The district covers an area of about 2960 km2 and is
+ability score respective to each land characteristic (Vasu et al., 2018).          surrounded by the Rivers Ganges and Yamuna. It is a land of high
+FAO’s (1981) land evaluation framework is also an extensively used                 fertility, with wheat, rice, and sugarcane being its principal crops. The
+approach to determine crop-land suitability based on soil, climate, and            geographic location of the district covers north latitudes from 29◦ 10′
+terrain data. Bagherzadeh et al. (2016) modeled the land suitability               49.33′′ to 29◦ 42′ 33.33′′ and east longitudes from 77◦ 23′ 10.06′ ’ to 78◦
+using parametric neural networks and fuzzy logic approaches for soy­               08′ 13.18′ ’ (Fig. 1).
+bean production in a semi-arid region and identified soil infertility as the           The massive sugarcane cultivation in the region has resulted in over-
+manor limiting factor. Vasu et al. (2018) compared parametric, multi-              extraction and contamination of groundwater despite reasonable
+criteria, and Storie index land suitability evaluation approaches for              average annual rainfall (870 mm). Due to the farmers’ general tendency
+assessing land suitability for pigeon pea, maize, cotton, groundnut, and           to grow sugarcane year after year to obtain maximum income, its over-
+rice in India. Similarly, land suitability evaluation for growing soyabean,        cultivation has degraded the land fertility. The district has about 2200
+wheat, and maize was carried out by Dedeoğlu and Dengiz (2019) and                sq. km. of net sown area, primarily irrigated using tube wells and canals.
+Ramamurthy et al. (2020), respectively, for wheat using a hybrid ana­              According to the reports (PTI, 2021a, 2021b), the farmers grow sugar­
+lytic hierarchy process (AHP) and geographic information system (GIS)              cane on 90% of the land. This high production is becoming difficult for
+model. Most of these works focused on the land suitability evaluation              the mills to process, causing the excess sugarcane crop laid on tractor-
+without providing an on-ground implementable decision support tool                 trollies dry in the sunlight. Such disproportion in production and de­
+(DST) to the farmers to shift from monocropping to crop rotation prac­             mand also causes stagnancy in sugarcane prices. Thus, this study aims to
+tices while enhancing their income as well as soil characteristics. The            provide farmers with cost-effective potential solutions based on imple­
+monoculture cropping system hampers the crop yield and is also detri­              menting crop rotation practices for preserving land fertility, maximizing
+mental to soil fertility. In addition, the monoculture cropping system             agricultural profit, minimizing agricultural pollution and water usage.
+may cause pest growth and a decline biodiversity of soil organisms. It             The proposed framework involves the integrated application of SPC,
+prevents benefits that would otherwise come from practicing crop                   GIS, and the collection of in-situ and web-based geospatial datasets
+rotation (Sahajpal et al., 2014).                                                  under a hybrid system approach. This is exercised by applying a suite of
+    For promoting crop rotation, the criteria for selecting suitable land          subsequent analytical steps highlighted in the flow scheme in Fig. 2.
+for a specific crop belong to different subdomains concerning climate
+bio-physicochemical characteristics of the land. In earlier studies, the           2.1. Database curation for the study
+AHP and fuzzy-AHP have been extensively used for pairwise compari­
+sons of criteria (Cobuloglu and Büyüktahtakın, 2015; Srinivas and                     Table 1 summarizes the datasets, time period, and sources used in
+Singh, 2018; Dedeoğlu and Dengiz, 2019; Srinivas et al., 2020). How­              developing the crop-rotation planning framework. The references for
+ever, these approaches have certain limitations, such as rank-reversal             data sources are listed in Supplementary material (A3 section) for
+and allowance of only some selected predefined ranges while convert­               brevity. Soil’s physical and chemical properties have a great influence
+ing linguistic variables to fuzzy sets and also an inability to offer flexi­       on crop yields. They directly influence the agrarian activities like
+bility to the Decision Maker (DM) to choose their own scale for rating the         erosion, tillage, irrigation, and drainage (Rogers et al., 2015). In general,
+criteria. In this study, we have used a stochastic pairwise comparison             17 elements are regarded essential for plant growth and based on their
+approach, which utilizes beta distribution for the pairwise comparison             high or low quantitative requirement by the crops, these elements are
+
+                                                                               2
+S. Aggarwal et al.                                                                                           Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+
+
+                                 Fig. 1. Location and land use classification of the study area using NDVI for the year 2020.
+
+
+
+
+                        Fig. 2. Schematic representation of the adopted methodology for sustainable crop-rotation pattern estimation.
+
+
+classified as macronutrients and micronutrients respectively (Parikh               2006; Impa et al., 2013). The exclusion of the micronutrients owes to the
+et al., 2012). Zolekar and Bhagat (2015) and Dedeoğlu and Dengiz                  various limitations related to their field-scale applicability, such as lack
+(2019) are two related studies which have used soil properties for                 of subsidies and high goods and services tax on micronutrients as
+determining land suitability. The detailed information on how these                compared to macronutrients, lack of technical knowledge related to
+properties influence crop’s metabolism events can also be found in these           micronutrients at field level, limited soil testing facilities (Shukla et al.,
+related articles. Both categories of soil nutrients viz., macronutrients and       2020), and dearth of knowledge or the active research for understanding
+micronutrients, are essential for plants’ metabolism events. However,              micronutrients dynamics and transformations under different agricul­
+micronutrients are not considered in the present study except for rice, as         tural productions systems, understanding various biological and physio-
+zinc deficiency has been reported as a widespread issue by many studies            chemical properties of soil which affect micronutrients’ uptake, utili­
+particularly for the rice grown in flooded conditions (Wissuwa et al.,             zation, and availability (Wang et al., 2016; Nadeem and Farooq, 2019).
+
+                                                                               3
+S. Aggarwal et al.                                                                                                   Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+Table 1                                                                                    are S1 (highly suitable), S2 (moderately suitable), S3 (marginally suit­
+Summary of the dataset used for development of crop-rotation planning                      able), and N (not suitable) for each of the selected crops.
+framework.                                                                                     Quantitative modeling uses stochastic pairwise comparison (SPC) for
+  Data used                                 Source                Time period              each crop, which determines the relative weights of each criterion in
+  Sentinel-2A satellite images              USGS, 2021            2020
+                                                                                           terms of their importance in the cultivation of the crop under discussion.
+  Soil’s macro-nutrient and physical        SHC, 2021             2017–18 to               Based on the classification system and curated database discussed
+    parameters                                                    2018–19                  earlier, the thematic map preparation for each criterion specific to each
+  Bulk density & Soil depth                 ISRIC, 2021           2021                     crop type was carried out using the ordinary kriging interpolation
+  Precipitation & Temperature               NASA, 2021            Jan. 1990 to Dec.
+                                                                                           technique, where the spherical semivariogram model was used for
+                                                                  2019
+  Soil Texture classification               NBSS, 2021; CGWB,     2018                     modelling the empirical semivariogram (Yakushev et al., 2020).
+                                            2018                                           Consequently, the thematic layers for criteria were prepared by classi­
+  DEM                                       ISRO, 2021            2021                     fying and standardizing prepared raster maps into four suitability
+                                                                                           criteria specific to each crop using the raster calculator tool in the GIS
+                                                                                           environment. The importance score for each class (i.e., S1, S2, S3, and N)
+The data concerning the physical and chemical properties of soil and
+                                                                                           is established through conventional AHP technique (Saaty, 1980;
+climate for the Muzaffarnagar district are obtained from various in-situ-
+                                                                                           Ramamurthy et al., 2020). The resultant eigenvector weights with
+based, web-based geospatial datasets. The in-situ collection of soil’s
+                                                                                           acceptable consistency ratio [i.e., 0.06 < 0.1], were 0.5666, 0.2674,
+macro-nutrient and physical parameters, e.g., Nitrogen (N), Phosphorus
+                                                                                           0.1667, and 0.0399 corresponding to S1, S2, S3, and N class
+(P), Potassium (K), pH, Electrical conductivity (EC), etc., from 15 to 20
+                                                                                           respectively.
+cm depth was used for preparing thematic layers for land suitability
+estimation. The bulk density layer map for 15–30 cm depth and the soil
+depth information was used for the standardization of soil macronu­                        2.3. Weighting of criteria using stochastic approach
+trient data. The 30-year monthly annual average precipitation data from
+January 1990 to December 2019 averaged over the months of two                                 The SPC scheme evaluates the relative weights of parameters suit­
+cropping seasons, i.e., Rabi (October to April) and Kharif (May to                         able for each crop. To convert DM’s valuation into a crisp value, a
+October) were also used. The average air temperature 2 m above the                         closed-form approximation of the median for the β-distribution is used.
+earth surface has also been attained, where the data obtained for random                   The novelty of this approach is that instead of accepting only a crisp
+discrete points were interpolated using ArcGIS (ver. 10.9). Further, the                   number from the experts when comparing two criteria, the approach
+soil texture classification layer maps for the study region were created                   provides flexibility to the experts to present their opinion either in the
+using ArcGIS from the soil texture classification maps published by the                    form of a ‘range of values’ or ‘most probable value with a lower and
+National Bureau of Soil Survey and Land Use Planning (NBSS, 2021) and                      upper bound’ or a ‘crisp comparison’. Further, SPC deals with the un­
+a groundwater management report (CGWB, 2018). Other important                              certainty or imprecision associated with DM’s choice by modeling un­
+datasets used were CartoDEM: Version-3 tiles encompassing the study                        certain comparisons to stochastic pairwise distributions. The approach
+area, Sentinel-2A satellite images with the cloud over less than 10% for                   terminates with successful consistency attainment in a pairwise com­
+preparing Normalized Difference Vegetation Index (NDVI) maps for                           parison matrix. A detailed description of this approach is as follows:
+identifying the cultivable land area of the selected region.
+                                                                                            • Construction of pairwise comparison matrix specific to each crop:
+                                                                                              DM performs comparison based on crisp responses, most probable
+2.2. Criteria selection, classification, and thematic layers preparation                      values with lower and upper bounds, or by using a range of values.
+                                                                                              For illustration, according to qualitative model, for potato cultiva­
+    We have used a hybrid system approach for evaluating the land                             tion, if soil pH is moderately more important than organic content in
+suitability for selected crops. Two model types, i.e., quantitative and                       the soil, then the score will be ‘PPo = 3’; if judgment says that
+qualitative, are assembled for land suitability evaluation. The opinions                      temperature is either equally or moderately more important than
+obtained from stakeholders (farmers, experts from the Indian Council of                       slope for rice cultivation, then the input will be Rts = (1, 3); or in
+Agricultural Research (ICAR), Central Pollution Control Board (CPCB),                         case of wheat, if the texture is at least in between equally and
+and Department of Irrigation) constitute the qualitative model. Quali­                        moderately important, most likely it is in between moderately and
+tative model is used for selecting crucial parameters concerning soil’s                       strongly important, or at most strongly more important than pH, then
+physical, chemical and climatic properties for each crop (Table 2). Four                      we will obtain Wtp = (2, 4, 5).
+classes are created for each criterion based on land evaluation classifi­                   • Converting stochastic pairwise comparison values are into crisp
+cation system as exercised by FAO (1996), United Nations. These classes
+                                                                                              values: If ‘l’ and ‘m’ are the two criteria related to crop A, then the
+                                                                                              crisp value for the corresponding pairwise comparison is equal to
+Table 2
+                                                                                              Alm . And let Glm (Alm |Φlm ) be the probability density function with
+Land suitability parameters for each crop.
+                                                                                              parameters Φlm for converting stochastic comparison values to crisp.
+  Crop type      Soil’s physical       Soil’s chemical           Climatic properties          Following the previous step, for example, Wtp = (2, 4, 5) can be
+                 properties            properties
+                                                                                              modelled using a triangular distribution with lower limit (ll), most
+  Paddy          Texture, Slope        pH, EC, N, P, K, OC, Zn   Temperature,                 likely (ml), and upper limit (ul) as Wtp Gtp (ll, ml, ul) = ttp (2, 4, 5).
+                                                                 Rainfall
+                                                                                              Similarly, Rts = (1, 3) can be modelled using a uniform distribution
+  Wheat          Texture, Slope,       pH, EC, N, P, OC          Temperature,
+                 Depth                                           Rainfall                     function, Rts Gts (ll, ul) = uts (1, 3) and the direct crisp comparisons
+  Maize          Texture, Slope        pH, EC, P, K, OC          Temperature,                 are simply written as Ppo Gpo = 3. For standardization of different
+                                                                 Rainfall                     distributions, a pairwise β-distribution function is used, β(Θ | υ, ω, ll,
+  Mustard        Texture, Slope        pH, EC, N, P, K, OC       Temperature
+                                                                                              ul) where Θ is beta-distributed pairwise comparison value, (υ, ω) are
+  Potato         Texture               pH, EC, OC                Temperature,
+                                                                 Rainfall                     the shape factors, and (ll, ul) are the location parameters, with ll ≤
+  Sugarcane      Texture, Slope,       pH                        Temperature,                 Θ ≤ ul and υ, ω ≥ 1. The methods of moments (MoM) are used to
+                 Depth                                           Rainfall                     model all Alm to β-distributed functions with shape factors (υlm , ωlm )
+  Sorghum        Slope, Depth          pH, EC, N, P, OC          Temperature,                 and location parameters (lllm , ullm ) (Jalao et al., 2014). Using the first
+                                                                 Rainfall
+                                                                                              and the second moment (Eq. (1) and Eq. (2), respectively), sample
+
+                                                                                       4
+S. Aggarwal et al.                                                                                                      Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+   mean and variance, as represented in Eq. (3) and Eq. (4), are                              four classified intervals for a particular crop were overlaid in ArcGIS to
+   calculated.                                                                                obtain a suitable land pattern for each crop. The resulted crop-land
+ [ ]                                                                                          suitability maps were then overlaid with the NDVI map for the year
+  ̃ = ll + υ (ul − ll)
+E A                                                          (1)                              2020 to produce crop-land suitability maps suggesting the suitable land
+            υ+ω
+                                                                                              only for the region which supports vegetation, i.e., the areas with built-
+   [ ]                   υω                                                                   up (including barren) land and waterbodies have been eliminated. The
+    ̃ =
+Var A                                       (ul − ll)                               (2)
+             (υ + ω)2 (υ + ω + 1)                                                             resulted crop-suitability land areas were further used for estimating
+                                                                                              optimal crop rotation pattern using constraint optimization (CO) based
+where,                                                                                        on the two objectives, i.e., maximization of income returns (MIR) and
+ [ ] ll + ml + ul                                                                             minimizing irrigation water requirements (MIWR). Table 3 gives
+  ̃ =
+E A                                                                                 (3)       detailed information on irrigation water requirements and net income
+           3
+                                                                                              return for each cropping pattern.
+   [ ] ll2 + ml2 +ul2 − llml − llul − mlul                                                        These cropping patterns are the different possible combinations of
+    ̃ =
+Var A                                                                               (4)       the seven selected crops and are obtained through past agricultural ex­
+                        18
+                                                                                              periences in the study area, experts’ consent, and detailed literature
+    Equating Eqs. (1) & (2) to Eqs. (3) & (4) respectively, υ and ω (Eqs.
+                                                                                              surveys (Chandrasekaran et al., 2010; Parihar et al., 2011). In addition
+(5) and (6)) are obtained as follows:
+                                                                                              to CO crop-rotation pattern, flexible cropping patterns corresponding to
+                        ⎛                                      ⎞                              each objective were derived for addressing subjective needs of the
+                            (           )(   (           ))
+   ⎛ [ ]     ⎞⎜                 E[̃
+                                  A]− ll       E[̃
+                                                 A]− ll        ⎟                              farmers.
+      ̃ − ll ⎜
+    E A       ⎜                  ul− ll
+                                          1−    ul− ll
+                                                               ⎟
+                                                               ⎟
+υ= ⎝         ⎠⎜                         [ ]/                − 1⎟                    (5)
+     ul − ll  ⎜
+              ⎜                          ̃ (ul − ll)   2       ⎟
+                                                               ⎟                              3. Results
+                                   Var A
+              ⎝                                                ⎠
+                                                                                              3.1. Preparation of classified thematic maps for crops and relative weights
+                                                                                              using SPC
+                              ⎛                                               ⎞
+                                   (              )(    (              ))
+   ⎛    [ ]     ⎞⎜
+         ̃ − ll ⎜
+                                       E[̃
+                                         A]− ll
+                                                 1−
+                                                            E[̃
+                                                              A]− ll           ⎟
+                                                                               ⎟                  The criteria selection for the seven selected crops is accomplished by
+       E A       ⎜                                                             ⎟              applying the ‘Hybrid system approach’. The list of criteria with suit­
+                                        ul− ll        ul− ll
+   ⎝
+ω = 1−          ⎠⎜
+                 ⎜                            [ ]/                          − 1⎟
+                                                                               ⎟    (6)
+        ul − ll  ⎜                         Var A (ul − ll)2
+                                               ̃                               ⎟              ability classification (i.e., S1, S2, S3, and N) for rice and wheat are
+                 ⎝                                                             ⎠
+                                                                                              provided in Table 4 and Table A1 (Supplementary material), respec­
+                                                                                              tively. Equivalent data corresponding to other crops is also created.
+   The outputs for conversion of SPC to β-distributed pairwise com­                           Using this data and the land suitability parameters (Fig. A2), the clas­
+parison after applying MoM are as mentioned in the Eqs. (7) to (9)                            sified thematic maps for each criterion corresponding to rice crop
+below:                                                                                        (Fig. 3) and other crops were prepared.
+                                                                                                  Now, the quantitative modeling results for the rice crop, as an
+Θlm β(υlm , ωlm , lllm , ullm ) if Alm t(lllm , mllm , ullm )                       (7)
+
+Θlm β(υlm = 1, ωlm = 1, lllm , ullm ) if Alm u(lllm , mllm , ullm )                 (8)       Table 3
+                                                                                              Crop-rotation patterns and corresponding information on irrigation water re­
+Θlm Alm if Alm is crisp                                                             (9)       quirements and net income return.
+
+   More details on converting SPC to β-distributed pairwise comparison                         Sr.     Crop-rotation         Irrigation water             Net income return
+                                                                                               No.     patterns              requirements (mm/            (₹/hectare/annum)
+are given in Jalao et al. (2014).
+                                                                                                                             annum)
+
+                                                                                               1       Rice-Wheat-Fallow     750                          28189.00
+ • The closed-form approximation as developed by (Kerman, 2011), is
+                                                                                               2       Maize-Wheat-Fallow    800                          22167.33
+   used to convert β-distributed pairwise comparison to crisp values.                          3       Maize-Potato-Maize-   980                          48470.40
+   The crisp value is obtained using the median of β-distribution (Eq.                                 Wheat-Fallow
+   (10)),                                                                                      4       Maize-Mustard-        700                          21464.80
+                                                                                                       Fallow
+                         υlm − 1/3                                                             5       Sorghum-Mustard-      633.33                       66177.47
+M(υlm , ωlm ) ≈                                                                    (10)                Fallow
+                     υlm + ωlm − 2/3
+                                                                                               6       Sorghum-Wheat-        733.33                       23878.67
+    subjected to constraints as depicted in Eq. (11),                                                  Fallow
+                                                                                               7       Rice-Mustard-Fallow   650                          28486.47
+    υlm − 1                         υlm                                                        8       Rice-Wheat-           1562.5                       68108.25
+              ≤ M(υlm , ωlm ) ≤                                                    (11)
+υlm + ωlm − 2                   υlm + ωlm                                                              Sugarcane-Fallow
+                                                                                               9       Maize-Wheat-          1600                         62842.00
+   Eq. (11) is applicable for the cases when υlm ≥ ωlm , elsewise the in­                              Sugarcane-Fallow
+equalities would get reversed. Lastly, the crisp value for Θlm is attained                     10      Rice-Potato-          1490                         85485.40
+using Eq. (12) as defined below:                                                                       Sugarcane-Wheat-
+                                                                                                       Fallow
+Θlm = lllm + (M(υlm , ωlm )*(ullm − lllm ))                                        (12)        11      Rice-Mustard-         1410                         63194.28
+                                                                                                       Sugarcane-Wheat-
+   After constructing a pairwise comparison matrix for all criteria, the                               Fallow
+weight or value of each criterion for supporting the growth of a partic­                       12      Rice-Wheat-           1470                         63615.80
+                                                                                                       Sugarcane-Wheat-
+ular crop is calculated using a priority eigenvector followed by consis­
+                                                                                                       Fallow
+tency evaluation.                                                                              13      Rice-Potato-Maize-    970                          74553.00
+                                                                                                       Potato-Fallow
+2.4. Predicting sustainable crop rotation pattern                                              14      Maize-Potato-         1625                         90179.00
+                                                                                                       Sugarcane-Fallow
+
+    The criteria weights and the respective thematic map layers with                          Sources: (FAO, 1986; MAFW, 2018; DAC, 2019).
+
+                                                                                          5
+S. Aggarwal et al.                                                                                                 Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+Table 4                                                                                  Table 6. The consistency ratio value of 0.099 indicates that the matrices
+Suitability range for criteria corresponding to rice.                                    are consistent (Ramamurthy et al., 2020). Similarly, the parameters’
+  Land suitability     S1               S2                  S3          N                weights of other crops are also determined.
+  parameters ↓                                                                               Table 6 indicates that temperature (17.45%), rainfall (16.94%), soil
+  Suitability class    0.5667           0.2674              0.1667      0.0399           texture (13.16%), and slope (13.51%) are the major parameters influ­
+    score →                                                                              encing rice cultivation, followed by electrical conductivity (9.32%), pH
+  Temperature (◦ C)    25 to 30         30 to 35            10 to 20    <10 and          (8.42%), and Nitrogen (7.56%) (Ran et al., 2018; Ujoh et al., 2019).
+                                                                        > 35
+  pH                   5.5 to 7.5       7.5 to 8            8 to 8.5    >8.5
+                                        5 to 5.5            4.5 to 5    <4.5             3.2. Procurement of land suitability patterns for Muzaffarnagar
+  Precipitation (mm)   >1500            1000 to 1500        700 to      <700
+                                                            1000
+  Electrical           <3               3 to 5              5 to 7      >7                   The classified thematic layers prepared earlier corresponding to each
+    Conductivity                                                                         criterion for each crop were overlaid with the help of the weights ob­
+    (dS/m)                                                                               tained using ArcGIS to derive land suitability maps for all the crops
+  Soil Texture         Loam, Sandy      Sandy Clay,         Silt,       Gravel,          (Fig. 4).
+                       clay, and Clay   Silty loam, Silty   Sandy       Sand
+                                                                                             The land use classes corresponding to built-up (including barren)
+                                        clay                Loam
+  Slope (%)            <1               1 to 2              2 to 6      >6               areas and water bodies have been removed from the map and the
+  Nitrogen (ppm)       >80              80 to 40            40 to 20    <20              resulted vegetative land area is obtained as shown in Fig. A1. Thus, we
+  Phosphorus (ppm)     >15              15 to 10            10 to 5     <5               eliminated the non-vegetative land area from the land suitability maps
+  Potassium (ppm)                       400 to 200          200 to
+                       >400                                             <100
+                                                                                         of all seven crops. The eliminated area accounts for around 2.5% (6,950
+                                                            100
+  Organic Carbon       >2               2 to 1              2 to 0.5    <0.5             ha) of the total area. The resultant land suitability crop maps indicate
+    (%)                                                                                  that only 3.5% (9,015 ha) of land constitutes high suitability for rice
+  Zinc (ppm)           >1               1 to 0.5            0.5 to      <0.25            cultivation in Muzaffarnagar while about 26% (67,400 ha) of land lying
+                                                            0.25                         mostly in the upper region of the district (i.e., covering portions of
+                                                                                         Charthawal, Muzaffarnagar, Morna, and Purkazi blocks) supports
+example, out of the seven crops are discussed, and the relative weights of               moderate and 68% (177,210 ha) of the remaining land supports mar­
+the soil properties, topography, and weather criteria are determined. A                  ginal cultivation of rice. The sugarcane crop partakes maximum per­
+total of 11 parameters are considered, and stakeholders are consulted,                   centage under high suitability region compared to other crop i.e., 60%
+and their judgments (comparison matrix) are summarized in Table A2                       (150,035 ha) under the high suitability region and about 40% (1,02,341
+(Supplementary material). This comparison matrix (Table A2) is trans­                    ha) under the moderate suitability region. Similarly, for the wheat crop
+formed into a β-distributed pairwise comparison using equations (7–9),                   31% (798,23 ha) land is under high suitability region whereas 66%
+and the resulted matrix is given in Table 5. The matrix with crisp                       (1,71,835 ha) land is under moderate suitable region.
+comparison (Table A3) is obtained using equations (10–12). Finally, the                      Interestingly, results indicate that potato, maize, and mustard crops
+relative weights of the parameters for rice cultivation are presented in                 also have high cultivation potential in Muzaffarnagar district, with
+                                                                                         around 20% (66,361 ha) land for mustard, and 25% (64,500 ha) for both
+
+
+
+
+                                             Fig. 3. Classified thematic maps for selected criteria corresponding to Rice crop.
+
+                                                                                     6
+S. Aggarwal et al.                                                                                                           Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+Table 5
+β-distributed pairwise comparison matrix for rice.
+  Criterion           C1      C2          C3          C4              C5                C6             C7              C8              C9              C10              C11
+
+  Temperature         1       β           β           β               β                 β              β               β               β               β                β
+    (C1)                      (1,1,1,3)   (1,1,1,3)   (2.5,2.5,2,4)   (2.09,2.62,2,5)   (1,1,1,3)      (1,1,1,3)       (2.62,          (2.5,2.5,2,4)   (2.62,           (2.5,2.5,2,4)
+                                                                                                                       2.09,2,5)                       2.09,2,5)
+  pH(C2)                      1           β           β               β                 β              β               3               3               3                3
+                                          (1,1, 1/    (2.5,2.5,1,3)   (2.5,2.5,1/6,1/   (2.58,         (1,1,2,3)
+                                          5,1/4)                      3)                2.37,1/
+                                                                                        7,1/3)
+  Rainfall(C3)                            1           β               β (2.5,2.5,2,4)   3              2               β               β(              β                β
+                                                      (2.5,2.5,2,4)                                                    (2.09,          2.62,           (2.5,2.5,2,4)    (2.09,
+                                                                                                                       2.62,2,5)       2.09,2,5)                        2.62,2,5)
+  EC(C4)                                              1               β(                β(             β               β               β(              β(               (4)
+                                                                      1.66,             1.66,          (2.5,2.5,2,4)   (2.5,2.5,3,5)   2.09,           1.8269,
+                                                                      2.48,1/6,1/3)     2.48,1/                                        2.62,3,6)       2.5577,3,7)
+                                                                                        6,1/3)
+  Texture(C5)                                                         1                 β              β (1,1,1,2)     3               3               3                β (1,1,3,4)
+                                                                                        (1,1,2,3)
+  Slope(C6)                                                                             1              β (1,1,2,3)     4               4               4                β (1,1,4,5)
+  N(C7)                                                                                                1               3               3               3                β (1,1,3,4)
+  P(C8)                                                                                                                1               1/2             1/2              1
+  K(C9)                                                                                                                                1               1                2
+  OC(C10)                                                                                                                                              1                2
+  Zn(C11)                                                                                                                                                               1
+
+
+
+                                                                                                 total acreage corresponding to each cropping pattern for each of the
+                 Table 6
+                                                                                                 three aforementioned scenarios are summarized in Tables 7, 8, and
+                 Land suitability criteria for rice cultivation and cor­
+                                                                                                 Table A4.
+                 responding weights.
+                                                                                                     Essentially, the CO scenario is a trade-off between the two non-
+                  Criterion                                       Weights
+                                                                                                 complementary objectives, MIWR and MIR. Following the results
+                  Temperature (C1)                                0.1745                         (Table 7, 8, and Table S4), the CO scenario provides 50% more income
+                  pH(C2)                                          0.0842                         returns on the cost of 30% more water than the MIWR scenario. On the
+                  Rainfall(C3)                                    0.1694
+                                                                                                 other hand, the crop rotation patterns in CO ensures 20% less profit than
+                  EC(C4)                                          0.0932
+                  Texture(C5)                                     0.1316                         the maximum profit (MIR) scenario but save nearly 40% of water
+                  Slope(C6)                                       0.1351                         consumed.
+                  N(C7)                                           0.0756                             Results suggest that the annual average cultivation or incorporation
+                  P(C8)                                           0.0291
+                                                                                                 of (18%) maize and (20%) potato crops in agricultural fields of Muzaf­
+                  K(C9)                                           0.0391
+                  OC(C10)                                         0.0388
+                                                                                                 farnagar in addition to (20%) sugarcane could provide maximum net
+                  Zn(C11)                                         0.0293                         income returns to the farmers while practicing crop rotation (Fig. 6).
+                                                                                                     Whereas as exclusion of these crops support conservation of irriga­
+                 Consistency index (CI) = 0.1500, RI = 1.51, Consis­
+                                                                                                 tion water. A trade-off of between these two opposing instances is ach­
+                 tency ratio = 0.099
+                                                                                                 ieved via CO scenario. On the other hand, cultivation of (22%) mustard
+                                                                                                 and (21%) sorghum crops on the Muzaffarnagar land parcels on the
+maize and potato lie within high suitability (S1) region with 35% to 45%
+                                                                                                 suggested locations is highly conducive for water conservation. Also, as
+land moderately good for cultivation of these crops. Sorghum crop also
+                                                                                                 can be inferred from Fig. 6, a minimum of 25% of the cultivated land
+found to have a good cultivation potential in Muzaffarnagar.
+                                                                                                 area should be allocated to fallow lands while practicing crop-rotation
+                                                                                                 patterns.
+3.3. Outcomes of crop-rotation planning and optimization
+                                                                                                 4. Discussion
+    This section presents the results of crop-rotation planning for Rabi
+and Kharif seasons using the seven crops (as discussed above) based on                           4.1. Flexible relative criteria weights determination using SPC approach
+the two objectives (MIR and MIWR). Crop rotation planning is accom­
+plished by categorizing the crop-land suitability areas into two classes                             The SPC approach applied for identifying the relative weights of
+namely ‘suitable land’ and ‘non-suitable land’. The land area under ‘S1′                         criteria (Table 6) excels the conventional AHP technique in offering
+and ‘S2′ region (Fig. 4) is classified as ‘suitable land’ and ‘S3′ land area as                  flexibility to the decision-maker without compromising the quality of
+‘non-suitable land’. Using stakeholder’s opinions on seven selected                              results as the results obtained are consistent with the findings of Ujoh
+crops, different agronomically feasible permutations of crop-rotation                            et al. (2019) and Amini et al. (2020), where they have used the con­
+patterns were formed as summarized in Table 3. The ‘suitable/non-                                ventional AHP approach. Also, the dominance of temperature over other
+suitable land’ information for each crop is then overlaid and intersect                          parameters (Table 6) is supported by the former studies (Xiong et al.,
+respective to each crop-rotation pattern, and the land area suitable for                         2009; Liu et al., 2014). It could be explained due to the direct effect of
+all crop-rotation patterns is deduced. Now, a sustainable or optimized                           temperature on the paddy yield (Liu et al., 2014). Temperature is also a
+crop-rotation pattern is estimated for each land parcel in the entire                            major factor concerning photosynthesis and formation of carbohydrates
+Muzaffarnagar district using MIR and MIWR objective functions (Fig. 5).                          which is the primary constituent of rice (Xiong et al., 2009). The tem­
+Additionally, the crop-rotation patterns corresponding to only MIWR                              perature difference also influences heat stress (Lobell, 2007) which in
+(Fig. A3) and only MIR (Fig. A4) objective were also suggested to pro­                           turn affects the soil respiration and nutrient absorption in rice (Xu et al.,
+vide flexibility to the farmers and the local authorities for choosing a                         2015). Rice being a tropical crop, requires high heat and humidity for its
+particular cropping pattern as per the native absolute requirement.                              healthy growth. Consequently, temperature and rainfall parameters
+    The annual irrigation water consumption, annual net return, and
+
+                                                                                             7
+S. Aggarwal et al.                                                                                         Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+
+
+                                            Fig. 4. Land suitability maps for crops for Muzaffarnagar district.
+
+
+
+
+                     Fig. 5. Crop-rotation pattern for Muzaffarnagar district corresponding to the Constraint Optimized (CO) scenario.
+
+
+
+
+                                                                             8
+S. Aggarwal et al.                                                                                              Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+Table 7                                                                                panicle count, stomatal conductance, and facilitates photosynthesis and
+Net return, total water consumption, and acreage for the crop-rotation patterns        transpiration, however, it is overruled by the EC and pH parameters. It
+under the constrained optimized scenario.                                              could be true because the non-conducive pH and EC environments could
+  Constraint optimization      Acreage (ha      Total Water          Net Return        impede the nutrient absorption of plants (Huang et al., 2017).
+  (CO)                         × 1000)          Consumption (Mm3)    (Million $)
+
+  Sorghum - Mustard -           90.48           573.06               80.46
+                                                                                       4.2. Scientific agricultural land-use allocation using proposed DST
+    Fallow
+  Sorghum - Wheat -             33.26           243.89               10.67
+    Fallow                                                                                 Muzaffarnagar is popularly known as the sugar bowl of India, the
+  Rice - Potato - Sugarcane     38.68           576.39               44.43             crop land-use pattern maps (Fig. 4) obtained using the proposed DST
+    - Wheat - Fallow                                                                   also propound the concurrent statistics with sugarcane having the
+  Rice - Potato - Maize -       53.76           521.48               53.86
+                                                                                       highest high-land suitability region. The suitable sugarcane growth re­
+    Potato - Fallow
+  NSP                           44.53           0                    0                 quirements encompass about neutral soil pH (6.5 to 7.5), loamy to sandy
+  Total                        260.72           1914.82              189.43            loamy soil texture, good soil depth, 20 to 30 ◦ C temperature, and rainfall
+                                                                                       greater than 950 mm (Rasheed and Venugopal, 2009; ICAR, 2021) in the
+                                                                                       study area are the potential factors for the observed trend. Rice being a
+Table 8                                                                                temperature sensitive and water loving crop, requires more than 1500
+Net return, total water consumption, and acreage for the crop-rotation patterns        mm precipitation and around 25 ◦ C to 30 ◦ C temperature for its opti­
+under minimum irrigation water scenario.                                               mum growth. However, the highest annual average precipitation being
+  MIWR                   Acreage (ha ×       Total Water            Net Return         1050 mm and the high average temperature (>29.5 ◦ C) in the study
+                         1000)               Consumption (Mm3)      (Million $)        region could be a cause of low high-suitability paddy farming regions
+  Rice - Wheat -            26.95            202.16                 10.57
+                                                                                       (ICAR, 2021). Similarly, the upper portions, rich in precipitation with
+    Fallow                                                                             lower temperature ranges, are more suitable for paddy cultivation than
+  Sorghum -                 90.48            573.06                 80.46              the remaining parts of the district. The results obtained are congruent
+    Mustard - Fallow                                                                   with the general observed trend i.e., wheat and sugarcane crops are the
+  Sorghum - Wheat -         44.99            329.90                 14.43
+                                                                                       two most suitable crops for the land in Muzaffarnagar, with rice being
+    Fallow
+  Rice - Mustard -          53.76            349.45                 20.58              the third principal crop with relatively low production (KVK, 2015).
+    Fallow                                                                                 The observed high cultivation potential of potato, maize, and
+  NSP                     44.53              0                      0                  mustard crops is primarily due to the favourable slope (i.e., >90% re­
+  Total                  260.72              1454.57                126.05             gion with slope between 0 and 6%), soil texture (loam and sandy loam),
+                                                                                       and rainfall conditions (>800 mm) for maize (Tashayo et al., 2020);
+consume maximum percentage for supporting rice growth (Ran et al.,                     favourable soil texture (loam and sandy loam), and phosphorus content
+2018). After meeting the fundamental and essential climatic re­                        (10 to 55 Kg/hectare) for mustard (Mandal et al., 2020); and texture
+quirements, soil and terrain characteristics influence the rice culture                (loam and sandy loam), and rainfall (800 mm or more) are the most
+maximum, which could be explained based on the fact that both soil                     favourable conditions for potato cultivation (Mandal et al., 2020; San­
+texture and slope are directly related to soil’s water holding capacity. No            geeta, 2021). However, as summarized by agricultural reports (KVK,
+doubt, the nitrogen is a leading nutrient among others as it improves                  2015; MAWF, 2018), potato, mustard, maize, sorghum crops are culti­
+                                                                                       vated only on 1.5%, 1.8%, 0.1%, and 0% land area.
+
+
+
+
+                                    Fig. 6. Annual average percentage of land covered by crops under MIR, CO, and MIWR scenario.
+
+                                                                                   9
+S. Aggarwal et al.                                                                                           Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+     Thus, some crops with good cultivation potential are not given due             based dashboard is developed and is made available to the stake­
+consideration. This could be because of the lack of land use and crop               holders. The developed dashboard can be accessed at https://harishp
+rotation planning, leading to biased cropping selection by the farmers              uppala43.github.io/croprotation/.
+like considering the market or economic aspects alone, which may                        Fig. 7 presents the snapshot of the developed dashboard. User loca­
+sustain for some short period of time (ICAR, 2021). But for sustainable             tion is a dynamic variable, while the data used for analysis is static. The
+cropping pattern selection, a comprehensive consideration is necessary,             dashboard tracks the geolocation of the user and overlays the location
+i.e., simultaneous achievement of ecological, hydrological, and socio-              on the map, which helps in the easy interpretation of the type of practice
+economic aspects (Li et al., 2015). Sugarcane is the most suitable crop             that farmer can adopt. Flexibility is provided to the user to turn on and
+for Muzaffarnagar, thus, naturally it has a good market. The lack of                off the layers to navigate between different layers.
+proper land use planning has led to extensive cultivation of sugarcane,
+and consequently, complications have risen, such as overexploitation of             4.5. Future work and applicability of the proposed DST on a global level
+the groundwater, land degradation, high usage of chemical fertilizers,
+and impaired water quality. According to Central Ground Water Board                     The study performs advanced analysis on multi-layered spatial data
+(CGWB, 2018), the groundwater in three out of nine blocks (Baghra,                  using GIS and remote sensing technology. The analysis employed an
+Budhana, Charthawal) in the Muzaffarnagar district is found to be                   array of flexible mathematical tools & models (GIS, SPC, and con­
+overexploited, with one block (Shahpur) reaching a critical state. Sus­             strained optimization) to attain a sustainable crop-rotation pattern. The
+tainable crop rotation planning is one of the viable solutions which can            uncertainties associated with stakeholders and input data is adequately
+account for economic, environmental, agronomical, hydrological con­                 dealt by infusion of fuzzy logic in the DST. The DST and dashboard offers
+siderations (Tariq et al., 2019).                                                   a flexible interface to users to modify/add/delete input datasets or
+                                                                                    cropping patterns. Thus, the DST is universally applicable provided the
+4.3. Optimized crop-rotation patterns for environmental and economical              availability of fundamental datasets (Table 1) and knowledge on the
+benefits                                                                            local agricultural system. The primary focus of this study was to propose
+                                                                                    a DST that can aid in suggesting cost-effective and environmentally
+    The allocation of crops based on CO, MIWR, MIR (Fig. 5, A3, and A4)             sustainable cropping pattern. Therefore, the crop yield or crop produc­
+scenarios provides substantial benefits like providing a natural pest               tion was not specifically considered as one of the optimization objec­
+control system, soil hygiene, enhancement in crop yield, minimizing                 tives. However, the consideration of yield prediction is also of great
+fertilizer usage, etc., by preventing overexploitation of soil because of           importance as it ensures and supports policy making for national food
+excessive cultivation of one crop-type. Eventually, it would preserve soil          security and thus can be deliberated by future studies. The present
+fertility and prevent water degradation by limiting the use of pesticides           research could be enhanced by using higher resolution datasets, and
+and insecticides in the field (Bonanomi et al., 2020; CEF, 2021). In                more scientifically designed cropping sequences for a greater number of
+addition to the aforementioned factors, the sustainable or constraint               crops and criteria. Artificial intelligence and cutting-edge optimization
+optimized cropping pattern is an attempt to provide maximum and long-               techniques such as genetic algorithm-based optimization, ant colony
+term benefit to farmers while simultaneously minimizing water con­                  optimization, particle swarm optimization, etc., could also be imple­
+sumption. The supplementation of three high profitable crops, i.e.,                 mented for attaining better sustainable solutions.
+maize, potato, and sugarcane (Islam and Islam, 2018; Wei et al., 2020),
+encompassing over 20% land area, to the CO scenario in comparison                   5. Conclusions
+with MIWR could explain the prevalent high income returns in CO
+scenario. While the reduction in high income potato and sugarcane                       Inappropriate decisions related to agricultural land-use planning can
+crops (23%) (MAFW, 2018) and addition of low water requiring sor­                   have severe repercussions on soil health, water resources, food security,
+ghum and mustard crops (28%) (FAO, 1986; Assefa et al., 2010; Shek­                 and economic crisis, which are being perceived over time. The current
+hawat et al., 2012) to CO scenario in comparison with MIR provide a                 research offers a DST that scientifically allocates the crop rotation pat­
+rationale for the observed variation in MIR and CO scenario. According              terns to potential land parcels by evaluating land’s strengths and
+to the general agricultural statistics for Muzaffarnagar (IWMP, 2009)               weaknesses as per the specific crop’s requirements using an integrated
+and reports of local Krishi Vigyan Kendra for the year 2014, sugarcane,             application of geoinformatics, stochastic pairwise comparison, and
+wheat, rice are the principal crops for the studied region. In a gradual            constrained optimization. The approach enables management of a wide
+rising trend, sugarcane cultivation area has increased to>90% of the                variety of multispatial data under the fields of climatology, topography,
+cultivated area, whereas the wheat and paddy are cultivated on around               and soil properties, generates classified criterion layers, standardizes,
+57% and 10% of the remaining land, respectively. Also, the cropping                 and overlays them. The research could be further strengthened by
+intensity for the district is 153.2%. However, the results suggest that             incorporating micronutrients in addition to macronutrients under soil
+even for retrieving maximum profit from the land (i.e., under MIR sce­              properties field. The use of SPC is especially advantageous in providing
+nario) which would essentially be at the cost of more water consump­                flexibility to the DMs in providing their opinions while ranking the
+tion, a maximum of about 20% of the land area can be allocated for                  criteria. Further, the infusion of constraint optimization assists farmers
+sugarcane cultivation. The inclusion of fallow land in the cropping se­             and other stakeholders in subjective selection of crop rotation patterns
+quences is also an agricultural management practice followed by the                 based on profit maximization and water conservation. However,
+farmers from centuries for restoring the soil’s crop yield ability primarily        consideration of other important factors like market demand of crops
+by improving soil’s nutrient, organic matter, and water concentrations              and man-hours per hectare required for different crops could enhance
+(Nadeem et al., 2019).                                                              the cropping pattern selection decision. The analytical study of three
+                                                                                    scenarios revealed that the annual average cultivation increment and
+4.4. Development of an interactive web-based dashboard for farmers                  decrement of maize, mustard, and sugarcane crops describe the profit as
+                                                                                    well as water conservation potential of the agricultural land in Muzaf­
+   Interpreting the results by referring to the obtained raster’s may be            farnagar, respectively. The results also highlight many important facts
+challenging due to the fixed resolution of the map. Further, to identify            such as: (1) Even for retrieving maximum profits, not more than 20% of
+the user’s location on the map, geo-referencing has to be performed.                land should be allocated for sugarcane cultivation (90% at present); (2)
+Since the outcomes of this study is a great interest to farmers, providing          Mustard, potato, maize, and sorghum also have good cultivation po­
+an accessible solution would help in the on-ground implementation of                tential which are currently not given due consideration in Muzaffarna­
+results. Considering this, for easy interpretation of the results, a web-           gar. The inclusion of interactive web-based dashboard sets a common
+
+                                                                               10
+S. Aggarwal et al.                                                                                                                Computers and Electronics in Agriculture 200 (2022) 107213
+
+
+
+
+                                                            Fig. 7. Schematic illustration of the web-based dashboard.
+
+
+interface for farmers, planners, and government officials where the                                    increases agricultural resilience to adverse growing conditions in north america. One
+                                                                                                       Earth 2 (3), 284–293.
+knowledgebase, opinions, and conflicts related to the cropping pattern
+                                                                                                   Capitanescu, F., Marvuglia, A., Navarrete Gutiérrez, T., Benetto, E., 2017. Multi-stage
+selection could be mutually shared. Thus, the proposed DST is a robust                                 farm management optimization under environmental and crop rotation constraints.
+framework which simultaneously considers multitudes of factors: soil                                   J. Cleaner Prod. 147, 197–205.
+nutrients, terrain characteristics, crop requirements, hydrology, eco­                             CEF, 2021. Advantages and Disadvantages of Crop Rotation - Conserve Energy Future.
+                                                                                                       https://www.conserve-energy-future.com/advantages-disadvantages-crop-rotation.
+nomics and promotes the sustainable agricultural land-use planning                                     php (accessed 10.20.21).
+through field scale implementation of optimized crop rotation patterns.                            Chandrasekaran, B., K. Annadurai, E. Somasundaram, 2010. A Textbook of Agronomy.
+                                                                                                       New age international publishers 856.
+                                                                                                   Chasek, P., Akhtar-Schuster, M., Orr, B.J., Luise, A., Rakoto Ratsimba, H., Safriel, U.,
+CRediT authorship contribution statement                                                               2019. Land degradation neutrality: The science-policy interface from the UNCCD to
+                                                                                                       national implementation. Environ. Sci. Policy 92, 182–190.
+   Shubham Aggarwal: Conceptualization, Data curation, Methodol­                                   Cobuloglu, H.I., Büyüktahtakın, İ.E., 2015. A stochastic multi-criteria decision analysis
+                                                                                                       for sustainable biomass crop selection. Expert Syst. Appl. 42 (15-16), 6065–6074.
+ogy, Software, Writing – original draft, Investigation, Visualization.                             DAC, 2019. Agricultural Statistics at a Glance 2018. https://agricoop.gov.in/sites/
+Rallapalli Srinivas: Supervision, Conceptualization, Data curation,                                    default/files/agristatglance2018.pdf.
+Methodology, Software, Writing – review & editing, Investigation,                                  Dedeoğlu, M., Dengiz, O., 2019. Generating of land suitability index for wheat with
+                                                                                                       hybrid system aproach using AHP and GIS. Comput. Electron. Agric. 167.
+Visualization. Harish Puppala: Data curation, Visualization, Investi­                              Dos Santos, L.M.R., Michelon, P., Arenales, M.N., Santos, R.H.S., 2011. Crop rotation
+gation, Writing – review & editing. Joe Magner: Writing – review &                                     scheduling with adjacency constraints. Ann. Oper. Res. 190, 165–180.
+editing, Conceptualization, Visualization, Investigation.                                          Dupuis, A., Dadouchi, C., Agard, B., 2022. Predicting crop rotations using process mining
+                                                                                                       techniques and Markov principals. Comput. Electron. Agric. 194.
+                                                                                                   Dury, J., Schaller, N., Garcia, F., Reynaud, A., Bergez, J.E., 2012. Models to support
+Declaration of Competing Interest                                                                      cropping plan and crop rotation decisions. A review. Agronomy Sustainable Dev. 32
+                                                                                                       (2), 567–580.
+                                                                                                   FAO, 1981. A framework for land evaluation. https://www.fao.org/3/x5310e/x53
+    The authors declare that they have no known competing financial                                    10e00.htm (accessed 10.23.21).
+interests or personal relationships that could have appeared to influence                          FAO, 1986. chapter 2: Crop water needs. https://www.fao.org/3/s2022e/s2022e02.htm
+the work reported in this paper.                                                                       (accessed 10.19.21).
+                                                                                                   FAO, 1996. Guidelines for land-use planning. https://www.fao.org/3/t0715e/t0715e00.
+                                                                                                       htm#Contents (accessed 5.31.22).
+Appendix A. Supplementary material                                                                 Huang, L., Liu, X., Wang, Z., Liang, Z., Wang, M., Liu, M., Suarez, D.L., 2017. Interactive
+                                                                                                       effects of pH, EC and nitrogen on yields and nutrient absorption of rice (Oryza sativa
+                                                                                                       L.). Agric. Water Manag. 194, 48–57.
+   Supplementary data to this article can be found online at https://doi.
+                                                                                                   ICAR, 2021. FAQ - Soils and their management - Sugarcane Breeding Institute,
+org/10.1016/j.compag.2022.107213.                                                                      Coimbatore, India. https://sugarcane.icar.gov.in/index.php/en/faq/crop-producti
+                                                                                                       on?id=349&phpMyAdmin=11c501a2a5dt8788ed6 (accessed 10.20.21).
+References                                                                                         Impa, S.M., Morete, M.J., Ismail, A.M., Schulin, R., Johnson-Beebout, S.E., 2013. Zn
+                                                                                                       uptake, translocation and grain Zn loading in rice (Oryza sativa L.) genotypes
+                                                                                                       selected for Zn deficiency tolerance and high grain Zn. J. Exp Bot. 64, 2739–2751.
+Amini, S., Rohani, A., Aghkhani, M.H., Abbaspour-Fard, M.H., Asgharipour, M.R., 2020.              IWMP, 2009. Integrated Watershed Management Programme (I.W.M.P) in Uttar Pradesh
+    Assessment of land suitability and agricultural production sustainability using a                  Perspective and Strategic Plan 2009-2027. https://dolr.gov.in/sites/default/files/SP
+    combined approach (Fuzzy-AHP-GIS): a case study of Mazandaran province. Iran.                      SP_Uttar%20Pradesh.pdf.
+    Information Process. Agric. 7 (3), 384–402.                                                    Jalao, E.R., Wu, T., Shunk, D., 2014. A stochastic AHP decision making methodology for
+Assefa, Y., Staggenborg, S.A., Prasad, V.P.V., 2010. Grain sorghum water requirement                   imprecise preferences. Inf. Sci. 270, 192–203.
+    and responses to drought stress: a review. Crop Manage. 9 (1), 1–11.                           Jiang, F., Drohan, P.J., Cibin, R., Preisendanz, H.E., White, C.M., Veith, T.L., 2021.
+Bagherzadeh, A., Ghadiri, E., Souhani Darban, A.R., Gholizadeh, A., 2016. Land                         Reallocating crop rotation patterns improves water quality and maintains crop yield.
+    suitability modeling by parametric-based neural networks and fuzzy methods for                     Agric. Syst. 187.
+    soybean production in a semi-arid region. Modeling Earth Syst. Environ. 2 (2), 1–11.           Jiang, F., Preisendanz, H.E., Veith, T.L., Cibin, R., Drohan, P.J., 2020. Riparian buffer
+Bonanomi, G., De Filippis, F., Zotti, M., Idbella, M., Cesarano, G., Al-Rowaily, S., Abd-              effectiveness as a function of buffer design and input loads. J. Environ. Qual. 49 (6),
+    ElGawad, A., 2020. Repeated applications of organic amendments promote                             1599–1611.
+    beneficial microbiota, improve soil fertility and increase crop yield. Appl. Soil Ecol.        Kerman, J., 2011. A closed-form approximation for the median of the beta distribution.
+    156.                                                                                               arXiv:1111.0433 [math, stat].
+Bowles, T.M., Mooshammer, M., Socolar, Y., Calderón, F., Cavigelli, M.A., Culman, S.W.,           KVK, 2015. Welcome Krishi Vigyan Kendra, Muzaffarnagar. https://muzaffarnagar.kvk4.
+    Deen, W., Drury, C.F., Garcia y Garcia, A., Gaudin, A.C.M., Harkcom, W.S.,                         in/district-profile.html (accessed 10.20.21).
+    Lehman, R.M., Osborne, S.L., Robertson, G.P., Salerno, J., Schmer, M.R., Strock, J.,
+    Grandy, A.S., 2020. Long-Term Evidence shows that crop-rotation diversification
+
+
+                                                                                              11
+S. Aggarwal et al.                                                                                                                       Computers and Electronics in Agriculture 200 (2022) 107213
+
+Li, J., Rodriguez, D., Zhang, D., Ma, K., 2015. Crop rotation model for contract farming                 Schönhart, M., Schmid, E., Schneider, U.A., 2011. CropRota–A crop rotation model to
+     with constraints on similar profits. Comput. Electron. Agric. 119, 12–18.                               support integrated land use assessments. Eur. J. Agron. 34 (4), 263–277.
+Liu, H.-B., Gou, Y.u., Wang, H.-Y., Li, H.-M., Wu, W., 2014. Temporal changes in climatic                Schulte, R.P.O., Bampa, F., Bardy, M., Coyle, C., Creamer, R.E., Fealy, R., Gardi, C.,
+     variables and their impact on crop yields in southwestern China. Int. J. Biometeorol.                   Ghaley, B.B., Jordan, P., Laudon, H., O’Donoghue, C., Ó’hUallacháin, D.,
+     58 (6), 1021–1030.                                                                                      O’Sullivan, L., Rutgers, M., Six, J., Toth, G.L., Vrebos, D., 2015. Making the most of
+Lobell, D.B., 2007. Changes in diurnal temperature range and national cereal yields.                         our land: managing soil functions from local to continental scale. Front. Environ. Sci.
+     Agric. For. Meteorol. 145 (3-4), 229–238.                                                               3, 81.
+MAFW, 2018. Price Policy for Kharif Crops, The Marketing Season 2018-19. https://cac                     Shekhawat, K., Rathore, S.S., Premi, O.P., Kandpal, B.K., Chauhan, J.S., 2012. Advances
+     p.dacnet.nic.in/ViewReports.aspx?Input=2&PageId=39&KeyId=615.                                           in Agronomic Management of Indian Mustard (Brassica juncea (L.) Czernj. Cosson):
+Mandal, S., Choudhury, B.U., Satpati, L., 2020. Soil site suitability analysis using geo-                    an Overview. Int. J. Agronomy e408284.
+     statistical and visualization techniques for selected winter crops in Sagar Island,                 Shukla, K., Johns, N., Rautela, R., 2020. The Case of Micronutrient Usage in Indian
+     India. Appl. Geogr. 122, 102249.                                                                        Agriculture 7.
+Nadeem, F., Farooq, M., 2019. Application of micronutrients in rice-wheat cropping                       Srinivas, R., Drewitz, M., Magner, J., 2020. Evaluating watershed-based optimized
+     system of South Asia. Rice Sci. 26, 356–371.                                                            decision support framework for conservation practice placement in Plum Creek
+Nadeem, F., Nawaz, A., Farooq, M., 2019. Crop Rotations, Fallowing, and Associated                           Minnesota. J. Hydrol. 583, 124573.
+     Environmental Benefits, in: Oxford Research Encyclopedia of Environmental                           Srinivas, R., Singh, A.P., 2018. An integrated fuzzy-based advanced eutrophication
+     Science. Oxford University Press.                                                                       simulation model to develop the best management scenarios for a river basin.
+Obaidul Islam, M., Islam, S., 2018. Sugarcane cultivation is highly profitable with potato                   Environ. Sci. Pollut. Res. 25, 9012–9039.
+     and mungbean as successive intercrops without loss in cane quality. J. Plant Bio.                   Tariq, M., Ali, H., Hussain, N., Nasim, W., Mubeen, M., Ahmad, S., Hasanuzzaman, M.,
+     Agric. Sci. 2, 9.                                                                                       2019. Fundamentals of Crop Rotation in Agronomic Management. In:
+Opoku-Kwanowaa, Y., Furaha, R.K., Yan, L., Wei, D., 2020. Effects of Planting Field on                       Hasanuzzaman, M. (Ed.), Agronomic Crops: Volume 1: Production Technologies.
+     Groundwater and Surface Water Pollution in China. CLEAN – Soil, Air Water 48,                           Springer, Singapore, pp. 545–559.
+     1900452.                                                                                            Tashayo, B., Honarbakhsh, A., Akbari, M., Eftekhari, M., 2020. Land suitability
+Parihar, C.M., Jat, S.L., Singh, A.K., Kumar, R.S., Hooda, K.S., 2011. Maize Production                      assessment for maize farming using a GIS-AHP method for a semi- arid region. Iran.
+     Technologies in India 34.                                                                               J. Saudi Soc. Agric. Sci. 19, 332–338.
+Parikh, S.J., James, B.R., 2012. Soil: The Foundation of Agriculture. Nature Educat.                     Ujoh, F., Igbawua, T., Ogidi Paul, M., 2019. Suitability mapping for rice cultivation in
+     Knowledge 3 (10), 2.                                                                                    Benue State, Nigeria using satellite data. Geo-spatial Information Science 22,
+Prăvălie, R., Patriche, C., Borrelli, P., Panagos, P., Roșca, B., Dumitraşcu, M., Nita, I.-A.,            332–344.
+     Săvulescu, I., Birsan, M.-V., Bandoc, G., 2021. Arable lands under the pressure of                 USEPA, 2010. Chesapeake Bay TMDL Executive Summary 14. https://www.epa.gov/sit
+     multiple land degradation processes. A global perspective. Environ. Res. 194,                           es/default/files/2014-12/documents/bay_tmdl_executive_summary_final_12.29.10_
+     110697.                                                                                                 final_1.pdf.
+PTI, 2021. Farmers’ protest in Muzaffarnagar villages more about sugarcane issues than                   Vasu, D., Srivastava, R., Patil, N.G., Tiwary, P., Chandran, P., Singh, S.K., 2018.
+     agri laws. The New Indian Express.                                                                      A comparative assessment of land suitability evaluation methods for agricultural
+PTI, 2021b. From farms to mills, it’s a long wait for Western U.P. farmers just to get                       land use planning at village level. Land Use Policy 79, 146–163.
+     sugarcane weighed. The Hindu.                                                                       Wang, J., Zhang, X., Li, L., Cheng, K., Zheng, J., Zheng, J., Shen, M., Liu, X., Pan, G.,
+Ramamurthy, V., Reddy, G.P.O., Kumar, N., 2020. Assessment of land suitability for                           2016. Changes in micronutrient availability and plant uptake under simulated
+     maize (Zea mays L) in semi-arid ecosystem of southern India using integrated AHP                        climate change in winter wheat field. J Soils Sediments 16, 2666–2675.
+     and GIS approach. Comput. Electron. Agric. 179, 105806.                                             Wang, Y., Bian, J., Lao, W., Zhao, Y., Hou, Z., Sun, X., 2019. Assessing the impacts of best
+Ran, Y., Chen, H., Ruan, D., Liu, H., Wang, S., Tang, X., Wu, W., 2018. Identification of                    management practices on nonpoint source pollution considering cost-effectiveness in
+     factors affecting rice yield gap in southwest China: An experimental study. PLoS ONE                    the source area of the Liao River, China. Water 11, 1241.
+     13, e0206479.                                                                                       Wei, C., Adamowski, J.F., Liu, Y., Zhang, Y., Liu, C., Zhou, J., Wang, X., Zhang, X.,
+Rasheed, S., Venugopal, K., 2009. Land suitability assessment for selected crops in                          Cao, J., 2020. A comparative study of rotation patterns on soil organic carbon in
+     Vellore district based on agro-ecological characterisation. J. Indian Soc. Remote                       China’s arid and semi-arid regions. Agronomy 10, 160.
+     Sens. 37, 615–629.                                                                                  Wissuwa, M., Ismail, A.M., Yanagihara, S., 2006. Effects of zinc deficiency on rice growth
+Ridier, A., Chaib, K., Roussy, C., 2016. A Dynamic Stochastic Programming model of crop                      and genetic factors contributing to tolerance. Plant Physiol 142, 731–741.
+     rotation choice to test the adoption of long rotation under price and production risks.             Xiong, Y., Xie, Y., Song, Q., Zeng, W., 2009. The relationship between meteorological
+     Eur. J. Oper. Res. 252 (1), 270–279.                                                                    factors and rice yield in Liuzhi special zone. Guizhou Agric. Sci. 79–81.
+Rogers, D.H., Aguilar, J., Kisekka, I., Barnes, P.L., Lamm, F.R., 2015. Important                        Xu, C., Xie, T., Wang, D., Chen, S., Ji, C., Zhang, X., Shi, Q., 2015. Effects of rhizosphere
+     Agricultural Soil Properties 8.                                                                         oxygen concentration on nutrient uptake and root morphology of rice at tillering
+Saaty, T.L., 1980. The analytic hierarchy process. McGraw-Hill, New York, p. 324.                            stage. Chin. J. Rice Sci. 29, 619–627.
+Sahajpal, R., Zhang, X., Izaurralde, R.C., Gelfand, I., Hurtt, G.C., 2014. Identifying                   Yakushev, V., Petrushin, A., Mitrofanova, O., Mitrofanov, E., Terleev, V., Nikonorov, A.,
+     representative crop rotation patterns and grassland loss in the US Western Corn Belt.                   2020. Spatial distribution prediction of agro-ecological parameter using kriging. E3S
+     Comput. Electron. Agric. 108, 173–182.                                                                  Web Conf. 164, 06030.
+Sangeeta Soni, 2021. Potato Cultivation: Guidance For Beginners https://krishijagran.                    Zolekar, R.B., Bhagat, V.S., 2015. Multi-criteria land suitability analysis for agriculture in
+     com/agripedia/potato-cultivation-guidance-for-beginners/ (accessed 10.20.21).                           hilly zone: Remote sensing and GIS approach. Comput. Electron. Agric. 118,
+Santos, L.M.R., Munari, P., Costa, A.M., Santos, R.H.S., 2015. A branch-price-and-cut                        300–321.
+     method for the vegetable crop rotation scheduling problem with minimal plot sizes.
+     Eur. J. Oper. Res. 245, 581–590.
+
+
+
+
+                                                                                                    12
+

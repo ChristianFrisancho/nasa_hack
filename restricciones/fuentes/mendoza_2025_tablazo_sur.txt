@@ -1,0 +1,2057 @@
+FACULTAD DE INGENIERÍA Y ARQUITECTURA
+ESCUELA PROFESIONAL DE INGENIERÍA AMBIENTAL
+
+
+ Análisis de la salinización antropogénica de suelos agrícolas
+     usando tecnología satelital en Tablazo Sur, Piura 2024
+
+
+       TESIS PARA OBTENER EL TÍTULO PROFESIONAL DE:
+                         Ingeniero Ambiental
+
+                               AUTOR:
+    Mendoza Flores, Elvis Cristhian (orcid.org/0000-0002-1798-6107)
+
+                              ASESOR:
+     Dr. Lozano Sulca, Yimi Tom (orcid.org/0000-0002-0803-1261)
+
+                     LÍNEA DE INVESTIGACIÓN:
+             Calidad y Gestión de los Recursos Naturales
+
+      LÍNEA DE RESPONSABILIDAD SOCIAL UNIVERSITARIA:
+         Desarrollo sostenible y adaptación al cambio climático
+
+
+                             LIMA - PERÚ
+
+                                 2025
+             Dedicatoria
+
+
+El presente trabajo está dedicado a mis
+padres y hermanos por todo su apoyo
+incondicional que me han brindado cada
+día y son los pilares fundamentales
+en   el   desarrollo   de    mi   vida
+personal y profesional, y siempre me
+motivaron a seguir adelante y cumplir
+mis metas.
+
+
+
+
+                                      iv
+            Agradecimiento
+
+
+Agradecer a mi familia, que siempre
+estuvieron conmigo apoyándome. A
+mi asesor el Dr. Yimi Tom Lozano
+Sulca, por toda su guía a lo largo
+de este proceso y por su valioso
+respaldo académico compartiendo sus
+saberes adquiridos lo largo de su
+trayectoria académica y laboral.
+
+ Al Mg. Omar Ferenks Arrunátegui
+Ruiz,      por        todo        su     apoyo
+incondicional         y      el        haberme
+brindado         la   motivación necesaria
+para poder finalizar este proyecto.
+
+
+
+
+                                             v
+                                             Índice de contenidos
+
+
+
+Carátula…………………………………………………………………………………..…i
+Declaratoria de autenticidad del asesor ................................................................. iii
+
+Declaratoria de originalidad del autor .................................................................... iiii
+
+Dedicatoria ............................................................................................................ iv
+
+Agradecimiento ....................................................................................................... v
+
+Índice de contenidos ............................................................................................. vii
+
+Índice de tablas ..................................................................................................... vii
+
+Índice de figuras ................................................................................................... viii
+
+Resumen ................................................................................................................ ix
+
+Abstract ................................................................................................................... x
+
+I.     Introducción ..................................................................................................... 1
+
+II. Metodología ................................................................................................... 15
+
+III.      Resultados.................................................................................................. 23
+
+IV. Discusión ......................................................................................................... 39
+
+V. Conclusiones .................................................................................................... 43
+
+VI. Recomendaciones ......................................................................................... 44
+
+Referencias………………………………………………………………………………42
+Anexos
+
+
+
+
+                                                                                                                           vi
+                                            Índice de figuras
+
+
+Figura 1. Ubicación de Tablazo Sur.......................................................................14
+Figura 2. Puntos de muestreo............................................................................... 14
+Figura 3. Ubicación de la zona de trabajo............................................................. 19
+Figura 4. Ubicación del Caserío Tablazo Sur........................................................20
+Figura 5. Suelos salinos........................................................................................ 22
+Figura 6. Formula Rho de Spearson..................................................................... 30
+
+
+
+
+                                                                                                               viii
+                                     Resumen
+
+
+Esta   investigación   contribuye   al   objetivo   12   del   desarrollo    sostenible
+(ODS): producción y consumo responsables, y tuvo como objetivo determinar la
+relación entre factores antrópicos y salinidad de suelos agrícolas de Tablazo Sur.
+Se utilizó un diseño de investigación correlacional, con enfoque cuantitativo
+aplicado a 40 agricultores de la zona, dando como resultado que existe
+correlación elevada entre los factores antrópicos tales como el tipo de riego,
+sobre todo cuando es por inundación, el tipo de cultivo más frecuente, el uso
+de insecticidas, herbicidas químicos        y la salinidad de zonas agrícolas. Se
+logró determinar por análisis de suelos que los predios seleccionados
+presentaban suelos salinos, sódicos y salinos sódicos. Y que los agricultores a
+cargo de estos terrenos tuvieron una actuación elevada                 con     factores
+antrópicos, resultando con mayor influencia el riego por inundación. Se obtuvo
+que el 42% de los predios de la muestra (40 ha.) es de tipo salino-sódico, el
+52.5% es sódico y un 5% es salino y en todos ellos se han ejecutado
+factores antrópicos de manera considerable. También el cultivo de arroz es el que
+más se ha realizado, en el 52.5% de predios que resultaron con salinidad. Y en el
+85% se usó frecuentemente insecticidas químicos.
+
+Palabras    claves:    Salinidad,   suelo   halomorfo,   impacto     medioambiental,
+desalinización, suelo cultivable.
+
+
+
+
+                                                                                     ix
+                                      Abstract
+
+This research contributes to Sustainable Development Goal (SDG) 12: responsible
+production and consumption. Its objective was to determine the relationship
+between anthropogenic factors and salinity in agricultural soils in Tablazo Sur. A
+correlational research design was used, with a quantitative approach applied to 40
+farmers in the area, revealing a high correlation between anthropogenic factors such
+as irrigation type, especially flooding, the most common crop type, the use of
+insecticides and chemical herbicides, and the salinity of agricultural areas. Soil
+analysis determined that the selected properties had saline, sodic, and saline-sodic
+soils. The farmers in charge of these lands were highly affected by anthropogenic
+factors, with flooding irrigation having the greatest influence. It was found that 42%
+of the sampled plots (40 ha) were saline-sodic, 52.5% were sodic, and 5% were
+saline, and all of them had significant anthropogenic influences. Rice cultivation was
+also the most common crop, with 52.5% of the plots showing salinity. Chemical
+insecticides were frequently used on 85%.
+
+Keywords: salinity, halomorphic soil, environmental impact, desalination, arable
+soil.
+
+
+
+
+                                                                                    x
+I.    Introducción
+
+A nivel mundial, La salinización de suelos es un problema crítico que afecta la
+productividad agrícola y la seguridad alimentaria. La Organización de las Naciones
+Unidas para la Agricultura y la Alimentación (FAO) estima que más del 1000 millón
+de hectáreas de las tierras agrícolas están afectadas por salinidad, lo que
+compromete la capacidad de producción alimentaria y amenaza la subsistencia de
+millones de personas (Omuto,2021, p 02). La salinización se ha intensificado debido
+a prácticas agrícolas inadecuadas, el uso excesivo de fertilizantes. Existe una
+relación significativa entre el uso de los fertilizantes con la calidad de suelo que se
+tiene (Vilca, 2018, p 45).
+
+En América del Sur, la salinización del suelo es un fenómeno creciente que afecta
+a varios países como Colombia, México, ecuador, incluyendo Perú. La expansión
+de la agricultura y el uso intensivo de recursos hídricos han exacerbado este
+problema, especialmente en regiones áridas y semiáridas. Estudios recientes
+destacan que la salinización está vinculada a la inadecuada gestión del agua y a la
+falta de prácticas sostenibles en la agricultura (Lams, 2012, p 5).
+
+En la región de Piura, y específicamente el valle del bajo Piura también presenta
+una situación difícil por cuanto según señala el Gobierno Regional de Piura en el
+expediente técnico del 2010, el 80% de la zona cultivable del valle en mención
+presenta niveles freáticos menores a 2 metros, lo que se complica porque los
+sistemas de drenaje creados no tienen salida al mar, al igual que ocurre con el río
+Piura. El riego por inundación y lo anterior estaría ocasionando que las zonas
+salinas vayan en aumento (GORE, 2010, p 40)
+
+La presente investigación busca contribuir con el objetivo de desarrollo sostenible
+(ODS) 12, que pretende garantizar la producción y consumo responsable y
+sostenible, algo fundamental para sostener los medios de subsistencia de las
+generaciones actuales y futuras. Nuestro planeta se está quedando sin recursos,
+pero el índice de población sigue creciendo. En caso de que la población mundial
+alcance los 9800 millones de personas en 2050, se podría necesitar el equivalente
+a casi tres planetas para proporcionar los recursos naturales necesarios para
+
+
+
+                                                                                     1
+mantener los estilos de vida actuales. Es por ello que surge la necesidad de buscar
+maneras de cuidar los recursos naturales, sobre todo de aquellos que son
+indispensables para la producción de alimentos, como son los suelos agrícolas.
+
+De esta manera se presentaba como problema principal ¿Qué relación existe entre
+los factores antrópicos y la salinidad de los suelos agrícolas de Tablazo Sur – La
+Unión - Piura, 2024? y como PE 1: ¿De qué manera los tipos de cultivos se
+relacionan con la salinización de los suelos agrícolas de Tablazo Sur – La Unión -
+Piura, 2024?, como PE 2: ¿De qué manera el riego por inundación se relacionan
+con la salinización de los suelos agrícolas de Tablazo Sur – La Unión - Piura,
+2024?, y como PE 3: ¿De qué manera el uso de fertilizantes y herbicidas químicos
+en el cuidado de los cultivos se relacionan con la presencia de sales solubles,
+aniones, cationes salinización de los suelos agrícolas de Tablazo Sur – La Unión
+- Piura, 2024?
+
+Del mismo modo, como objetivo general de esta tesis es: identificar la correlación
+entre los factores antrópicos y la salinidad de los suelos agrícolas de Tablazo Sur
+– La Unión - Piura, 2024, y los objetivos específicos: OE1: Establecer la relación de
+los tipos de cultivos, con la salinización de los suelos agrícolas de Tablazo Sur –
+La Unión - Piura, 2024; el OE 2: Identificar la relación entre el riego por inundación
+con la presencia de plantas propias de zonas salitrosas y la salinización de los
+suelos agrícolas de Tablazo Sur – La Unión - Piura, 2024-, y el OE3: Explicar la
+relación que existe entre el uso de fertilizantes y herbicidas químicos        con la
+presencia de sales solubles, aniones y cationes que generan salinización de los
+suelos agrícolas de Tablazo Sur – La Unión - Piura, 2024
+
+La investigación no solo contribuirá a una mejor comprensión del problema local,
+sino que también proporcionará una base para futuras investigaciones y políticas
+agrícolas en la región de Piura.
+
+Como resultado, se formuló la siguiente hipótesis: A mayor nivel o presencia de los
+factores antrópicos, mayor será la salinidad de los suelos agrícolas de Tablazo Sur
+– La Unión - Piura, 2024. Además también se plantearon las siguientes hipótesis
+específicas: HE1: A mayor nivel de cultivos, mayor será el nivel de la salinización y
+el índice de vegetación salitrosa de los suelos agrícolas de Tablazo Sur – La Unión
+
+
+                                                                                    2
+- Piura, 2024. HE 2: A menor nivel de riego por inundación, menor será la
+salinización e índice de humedad de los suelos agrícolas de Tablazo Sur – La Unión
+- Piura, 2024. Y la HE 3: A mayor nivel de fertilizantes y herbicidas químicos, mayor
+será la presencia de sales solubles, aniones y cationes que generan salinización
+de los suelos agrícolas de Tablazo Sur – La Unión - Piura, 2024
+
+Como Justificación científica, se plantea que la salinización de suelos agrícolas
+es un fenómeno que afecta la productividad agrícola y la sostenibilidad de los
+ecosistemas. La salinización puede ser causada por prácticas agrícolas
+inadecuadas, como el riego excesivo y el uso de aguas subterráneas salinas, lo
+que lleva a la acumulación de sales en el suelo. Problema que afectaría a mil
+quinientos millones de personas en el mundo, y se pierden al año aproximadamente
+1.5 millones de hectáreas de suelos con riego, que reduciría aproximadamente 11
+mil millones de dólares de la producción agrícola (Orosco y otros, 2017, p 4). Este
+problema a su vez ocasiona otros en el ámbito ambiental, ya que donde hay
+salinización no hay vegetación y por tanto tampoco producción de oxígeno; y de la
+construcción urbanística, dado que la salinización se convierte en un factor de
+riesgo en la edificación de casas.
+
+Desde una justificación económica, la salinización de suelos puede resultar en
+pérdidas significativas en la producción agrícola, lo que afecta la seguridad
+alimentaria y la economía rural. Según FAO se estima que la salinización afecta
+alrededor del 20% de las tierras irrigadas en el mundo, lo que representa una
+pérdida de ingresos para los agricultores y un aumento en los costos de producción
+debido a la necesidad de enmiendas y tratamientos del suelo (FAO, 2021, p 1).
+
+En cuanto a la Justificación social, la salinización de suelos tiene un impacto
+social significativo, ya que afecta la calidad de vida de las comunidades agrícolas.
+La disminución de la productividad agrícola puede llevar a la migración rural y a la
+pérdida de empleos en el sector agrícola. Según el informe de Naciones Unidas, la
+degradación del suelo, incluida la salinización, es una de las principales causas de
+la pobreza en las zonas rurales, afectando la salud y el bienestar de las poblaciones
+vulnerables. Por otro lado las Naciones Unidas señala que los suelos alterados por
+la sal ponen en peligro la seguridad alimentaria de la población mundial al reducir
+
+
+
+                                                                                   3
+el rendimiento y la calidad de los productos que se cultivan (ONU, 2021, p 1), lo
+que a su vez redunda en la estabilidad social, dado que repercute en la salud y
+estabilidad poblacional.
+
+Desde un enfoque de justificación práctica, el análisis de la salinización
+antropogénicas de suelos agrícolas es esencial para desarrollar estrategias de
+manejo sostenible. La investigación de (Munns y Tester 2018, p 12) sugiere que la
+implementación de prácticas de manejo adecuadas, como el uso de cultivos
+tolerantes a la sal y la mejora de la gestión del agua, puede mitigar los efectos de
+la salinización. Además, el monitoreo continuo de la salinidad del suelo es crucial
+para la toma de decisiones informadas en la agricultura. Por otro lado, al elaborar
+nuestro trabajo de investigación nos proponemos indagar cómo las actividades
+humanas repercuten y promueven la salinización de los suelos agrícolas, ideas que
+pueden luego ser replicadas a los agricultores y campesinos de las diversas
+regiones para que estén prevenidos, tengan el conocimiento y eviten seguir
+promoviendo que más suelos se pierdan debido a este problema.
+
+Viéndolo desde una justificación ambiental, La salinización antropogénica de
+suelos agrícolas representa un desafío ambiental significativo que afecta no solo la
+productividad agrícola, sino también la salud de los ecosistemas y la biodiversidad.
+Este fenómeno es el resultado de prácticas de manejo inadecuadas, como el riego
+excesivo, la utilización de aguas subterráneas salinas y la falta de drenaje
+adecuado, que conducen a la acumulación de sales en el perfil del suelo. Según
+(Rengasamy 2002, p 5), la salinización puede alterar la química del suelo,
+afectando la disponibilidad de nutrientes y la actividad biológica, lo que a su vez
+impacta la salud del ecosistema.
+
+La presente tesis se vincula directamente con el Objetivo de Desarrollo Sostenible
+12 (ODS 12): Producción y consumo responsables, al abordar la degradación de
+los suelos causada por prácticas agrícolas insostenibles, como el uso excesivo de
+fertilizantes, riego inadecuado y mal manejo de cultivos. La salinización de los
+suelos es un fenómeno que afecta tanto la productividad agrícola como la
+sostenibilidad de los ecosistemas, lo que dificulta una producción responsable y
+genera altos costos económicos y ambientales. Al analizar las causas y
+
+
+
+                                                                                  4
+consecuencias de la salinización, esta tesis proporcionará soluciones prácticas
+para mitigar los impactos negativos en los suelos agrícolas, promoviendo técnicas
+de manejo sostenible y adaptado a las condiciones locales. De esta forma, se
+contribuirá a la optimización del uso de los recursos, reduciendo el desperdicio y
+fomentando un consumo responsable de los mismos, mientras se protegen los
+ecosistemas y se mejora la calidad del suelo, clave para una producción agrícola
+más sostenible y eficiente.
+
+La salinización de suelos tiene efectos directos sobre la calidad del agua y la
+biodiversidad. Cuando las sales se acumulan en el suelo, pueden ser arrastradas
+hacia los cuerpos de agua cercanos a través de la escorrentía, lo que provoca la
+salinización de ríos y lagos. Este proceso puede afectar la fauna y flora acuática,
+alterando los ecosistemas acuáticos y reduciendo la biodiversidad. Según el estudio
+de (Qadir, 2014 p 2), la salinización de las aguas superficiales puede tener efectos
+devastadores en la vida acuática, afectando la cadena alimentaria y la salud de los
+ecosistemas.
+
+Además, la salinización de suelos agrícolas puede contribuir a la desertificación, un
+proceso que se ha acelerado en muchas regiones del mundo debido a la actividad
+humana. La desertificación no solo reduce la productividad de los suelos para
+sustentar la actividad agrícola, sino que también afecta los ecosistemas puesto que
+disminuye su poder de proporcionar aquellas acciones ambientales que
+comúnmente brinda, como la regulación del clima, la conservación del agua y la
+provisión de hábitats para la fauna. Según el PNUMA de ONU, la pérdida de la
+cubierta vegetal afecta a más de mil y medio millones de seres humanos en todo el
+globo terráqueo, lo que subraya la importancia de abordar la salinización como un
+problema ambiental crítico (ONU, 2014 p1).
+
+El manejo adecuado de los suelos es imprescindible para mitigar los efectos de la
+salinización. La implementación de prácticas de manejo sostenible, como el cambio
+constante de cultivos, el uso de cultivos resistentes a la sal y la mejora de la gestión
+del agua, puede ayudar a restaurar la salud del suelo y prevenir la salinización.
+Según (Munns y Tester 2008, p 7), estas prácticas no solo promueven una mayor
+
+
+
+
+                                                                                      5
+producción en la agricultura, sino que asimismo aportan a la preservación y
+mantención del agua y los ecosistemas.
+
+En síntesis, la justificación ambiental para el análisis de la salinización
+antropogénica de suelos agrícolas es clara. Este fenómeno no solo afecta la
+producción agrícola, sino que también tiene repercusiones significativas en la salud
+de los ecosistemas, el buen estado del líquido elemento y la gran diversidad.
+Abordar la salinización de manera efectiva es esencial para garantizar la
+sostenibilidad ambiental y la resiliencia de los ecosistemas frente a los desafíos del
+cambio climático y la presión humana.
+
+Con el trabajo actual, se busca identificar si existe una correlación entre las
+variables factores antrópicos y salinización de los terrenos agrícolas para proponer
+una solución que permita minimizar el proceso de salinización de los suelos
+agrícolas. Desde una perspectiva teórica, se recopiló información necesaria para
+identificar las causas más comunes de este problema. Desde un enfoque técnico,
+se buscaba proporcionar a los agricultores nuevas y mejores técnicas para cultivar
+sus suelos de manera más natural y orgánica. Asimismo, desde una perspectiva
+social, se busca concientizar a los agricultores sobre el impacto económico y
+ambiental del uso indebido de productos químicos o técnicas de cultivo.
+
+Es importante considerar los Antecedentes Internacionales, ya que nos permite
+conocer que la salinización de suelos es un problema crítico a nivel mundial que
+afecta la productividad agrícola y, en consecuencia, la seguridad alimentaria global.
+
+Munns y Tester (2008) proporcionan una visión exhaustiva de los mecanismos
+biológicos y fisiológicos mediante los cuales las plantas pueden tolerar altos niveles
+de salinidad en el suelo. Su investigación, publicada en el Annual Review of Plant
+Biology, se centró en la identificación de las conductas de resistencia frente a la
+salinidad, como la acumulación de iones y la regulación del crecimiento. El enfoque
+experimental, basado en cultivos sometidos a diferentes niveles de salinidad,
+permitió un análisis detallado de las respuestas fisiológicas de las plantas. La
+conclusión de su estudio subraya que la manipulación genética y la implementación
+de prácticas agrícolas adaptativas podrían mejorar significativamente la tolerancia
+a la salinidad (Munns & Tester, 2008).
+
+
+                                                                                    6
+Por otro lado, (Pulido Madrigal, 2007, p 1) llevaron a cabo una investigación que les
+permitió identificar los suelos salinos en el distrito 038 Río Mao, Sonora, México,
+utilizando y/o aplicando imágenes satelitales, así como mediciones en el campo,
+para luego cartografías estas zonas. El estudio destacó la efectividad de estas
+técnicas para proporcionar datos precisos sobre la distribución de la salinidad y la
+evaluación de su impacto en la agricultura. La conclusión del estudio es que la
+detección por satélite representa una herramienta moderna para la gestión de
+suelos salinos, aportando una base sólida para el uso de tecnología satelital en el
+análisis de la salinidad del suelo.
+
+Asimismo, (Castellanos 2016, p 3) investigaron el impacto de la salinidad en la
+productividad de los suelos agrícolas en América del Sur. En su artículo publicado
+en el Journal of Soil Science and Plant Nutrition, emplearon un planteamiento
+cuantitativo y un diseño transversal para evaluar la relación entre la salinidad del
+suelo y la productividad agrícola. Su investigación reveló un impacto negativo
+significativo en la productividad debido a la salinidad, subrayando la falta de
+procedimiento para un manejo que promueva el sostenimiento del agua y del suelo.
+Los hallazgos de este estudio proporcionan información valiosa para entender
+cómo la salinidad afecta la productividad agrícola y resaltan la importancia de la
+gestión adecuada del agua.
+
+En el contexto peruano, Curi, (2018) en Ocucaje – Lima, realizó su trabajo de tesis
+que tuvo como objetivo establecer una manera en que se pueda identificar con
+mayor rapidez los terrenos agrícolas con características salinas usando tecnología
+avanzada como la satelital; mismo que concluyó que es de gran utilidad e
+importancia el uso del satélite para identificar las zonas con mayor propensión a
+salinizarse. En estas se señala que, a menor índice de vegetación, mayor será el
+nivel de salinidad del terreno.
+
+Vilca et al (2018) en su trabajo de investigación buscó establecer la correlación
+entre el uso de fertilizantes químicos con el nivel de salinidad de los terrenos de
+cultivo dedicados a la siembra de maíz en la región Ancash. El autor llegó a la
+conclusión de que efectivamente el uso excesivo de fertilizantes químicos repercute
+
+
+
+
+                                                                                   7
+y produce elevados niveles de salinidad en los terrenos agrícolas en mención, por
+lo que recomiendan su uso racional, cuidadoso y hasta aplicar los naturales.
+
+Rocha, (2019), en su trabajo de investigación en Lima se propuso investigar y
+plantear métodos para suelos que hayan sido afectados por salinidad y sodicidad.
+Dentro de las conclusiones plantea que las causas de la salinidad en los suelos
+tienen mucho que ver con factores naturales y también con los antrópicos. Estos
+últimos son los que empeoran el panorama por lo que señala que es necesario
+procurar que los agricultores y personas del campo los identifiquen para poder dejar
+de hacerlos. Culmina el estudio haciendo recomendaciones de las ideas que se
+deben promover en los agricultores a fin de evitar mayores riesgos por
+desconocimiento en dicho cultivo.
+
+En Piura, Rodas (2008) el su trabajo de investigación tuvo como objetivo propiciar
+y alentar a la comunidad en la elaboración un sistema de gestión Integrada que
+permita un adecuado uso del recurso hídrico en la región, y entre sus logros estuvo,
+determinar que el cultivo del arroz no permite un adecuado uso del agua ni
+promueve el mejoramiento de los suelos agrícolas por cuanto se riega por
+inundación y genera aniegos, así como mayor presencia de salinización, siendo
+inversamente perjudicial para los agricultores de la zona.
+
+Fernández et al. (2021) investigó las prácticas de manejo de suelos en áreas
+afectadas por salinidad en Perú. En su investigación publicada en Agronomía
+Peruana, emplearon un enfoque descriptivo basado en estudios de campo y
+entrevistas a agricultores. Los resultados destacaron que las prácticas de manejo
+inadecuadas contribuyen a la salinización y que las estrategias de mitigación
+efectivas incluyen la adopción de técnicas agrícolas sostenibles y la educación de
+los agricultores. La conclusión subraya la importancia de superar las acciones de
+manejo de la tierra para reducir la salinidad y aumentar la productividad.
+
+Morales y otros (2013), en su informe final sobre el tema de desertificación en la
+región Piura establecen que este fenómeno trae consecuencias negativas para el
+ganado, la siembra y por ende repercute en la economía de la región. Incluyen
+dentro de este problema el tema de la salinización ya que impide el crecimiento
+vegetativo, así como repercute en la baja o nula producción de los terrenos de
+
+
+                                                                                  8
+cultivo. Dicho informe fue elaborado por 60 expertos los mismos que concluyeron
+en que son diversos los factores antrópicos que repercuten en la desertificación por
+lo que indicaron al gobierno regional y central el hecho de promover que los
+agricultores y pobladores en general se informen respecto de los factores para
+evitar seguir cayendo en los errores que coadyuvan a empeorar el problema.
+
+Finalmente, González y otros (1990) llevaron a cabo un estudio sobre el impacto
+de la salinidad en la agricultura de Piura, abordando las implicaciones
+socioeconómicas de la salinización. Los resultados mostraron un impacto negativo
+significativo en la economía agrícola local debido a la salinidad de la tierra. La
+conclusión de la investigación es que es necesario implementar medidas integradas
+para abordar la salinización y sus impactos socioeconómicos en la región.
+Establece la relación entre salinización y niveles de profundidad de la napa freática,
+así como la presencia de sistemas de drenaje en los terrenos de cultivo; para esto
+promovió el desarrollo de un sistema denominado SIG, sistema computacional que
+permitiría hacer el monitoreo y seguimiento al tema de drenaje y salinidad. Esta
+investigación   proporciona    un    entendimiento    más     amplio   del   impacto
+socioeconómico de la salinización en Piura.
+
+En cuanto a las bases teóricas, se puede mencionar los siguientes conceptos a
+tener en cuenta:
+
+La salinización de suelos es la acción por la cual las concentraciones de iones y
+cationes solubles en la tierra aumentan, afectando negativamente su estructura y
+capacidad para soportar la vegetación. Este fenómeno puede ser causado por la
+aplicación inadecuada de agua de riego con alto contenido salino, la evaporación
+en condiciones áridas, o la acumulación de sales debido a procesos geológicos y
+antropogénicos. La salinización reduce la presencia del líquido elemento para las
+plantas y puede deteriorar la fertilidad del suelo, limitando las cosechas de los
+agricultores y el bienestar de los ecosistemas (Guida, 2015, p 207).
+Las principales causas de la salinización incluyen el riego inadecuado, donde el uso
+excesivo de aguas ricas en sales o la falta de drenaje contribuyen a la
+conglomeración de sales en el suelo (Zamudio, 2004. P 35). La evaporación
+también persigue un papel trascendental; en climas áridos y semiáridos, la alta tasa
+
+
+
+                                                                                    9
+de evaporación puede concentrar las sales en la superficie del suelo (Setia, 2013,
+p 133). Además, las prácticas agrícolas, como el uso nada racional de fertilizantes
+y demás productos químicos, incrementan los niveles de salinidad (Sánchez, 2018,
+p 57).
+La salinización tiene múltiples efectos adversos sobre los suelos agrícolas. En
+primer lugar, se observa una disminución de la productividad, ya que los altos
+niveles de sal afectan la capacidad de las plantas para absorber agua y nutrientes,
+resultando en un menor rendimiento agrícola (Bayuelo-Jiménez, 2002, p 87). En
+segundo lugar, se produce una degradación del suelo, donde la acumulación de
+sales puede llevar a una degradación física y química del suelo, afectando su
+estructura y fertilidad.
+
+
+Además, los factores antrópicos se refieren a las actividades humanas que
+modifican o influyen en el entorno natural y los sistemas ecológicos. Estas
+actividades incluyen la urbanización, la agricultura intensiva, la deforestación y la
+contaminación, las cuales pueden alterar significativamente la estructura y
+funcionalidad de los ecosistemas. El impacto de los factores antrópicos puede
+manifestarse en la afectación de la tierra, la pérdida de biodiversidad y el cambio
+en los patrones climáticos, afectando tanto la sostenibilidad ambiental como la
+calidad de vida humana (García 2022, p 76).
+El proceso de salinización se orienta a la unión progresiva de sales en la tierra
+debido a diversos factores como la irrigación con agua salina, la evaporación en
+climas áridos y la intrusión de agua salina en acuíferos. Este proceso implica la
+acumulación de sales en el perfil del suelo, lo que puede llevar a la degradación de
+la calidad del suelo y afectar negativamente la fertilidad y la productividad agrícola.
+La salinización puede reducir la presencia de agua para los vegetales y alterar los
+procesos biogeoquímicos del suelo (Zhu, 2023, p 61).
+
+
+Se debe tener en cuenta también los suelos, que son el medio superficial terrestre
+compuesto por una combinación de minerales, sustancias orgánicas, agua y aire,
+que soporta la vida vegetal y es esencial para diversas actividades humanas. Los
+suelos se clasifican en diferentes tipos según sus propiedades físicas, químicas y
+biológicas, como la textura, la estructura y el contenido de nutrientes. Los tipos de
+
+
+                                                                                    10
+suelo incluyen arcilloso, arenoso, limoso y franco, cada uno con características
+específicas que influyen en la capacidad de absorción de líquido elemento, la
+fertilidad y la capacidad de soporte para diferentes usos agrícolas y constructivos
+(Smith., 2022, p 73).
+Así también, los elementos del suelo comprenden los componentes físicos,
+químicos y biológicos que constituyen el perfil del suelo y determinan sus
+propiedades. Estos elementos incluyen partículas minerales como arena, limo y
+arcilla; materia orgánica que se descompone y enriquece el suelo; agua y aire que
+influyen en la existencia y presencia de componentes nutritivos y la estructura del
+suelo; y organismos vivos que ayudan en la formación y fecundidad de la tierra. La
+interacción entre estos elementos es crucial para la capacidad del suelo de soportar
+vegetación y realizar funciones ecológicas y agrícolas (Kumar et al., 2023, p 76).
+En cuanto a la productividad del suelo, se define como el poder de la tierra para
+resistir el crecimiento de vegetales y producir rendimientos óptimos de cultivos en
+función de sus características físicas, químicas y biológicas. Esta capacidad está
+influenciada por factores como la fertilidad de la tierra, la disponibilidad de
+nutrientes, la retención de agua, la estructura del suelo y la gestión agronómica.
+Una alta productividad del suelo es esencial para garantizar la sostenibilidad
+agrícola y la seguridad alimentaria, y puede ser afectada por prácticas de manejo
+inadecuadas o cambios en las condiciones ambientales (Nguyen et al., 2023).
+La unión de sales en la tierra está estrechamente vinculada al proceso de
+evaporación del agua de riego. La cantidad máxima de sales que se puede
+acumular en el suelo está determinada por la solubilidad constante de las sales
+presentes en el sustrato. La acumulación excesiva de sales puede ser perjudicial
+para el crecimiento de los vegetales, ya que afecta la presencia del líquido elemento
+y nutrientes. Sin embargo, el tratamiento adecuado de la salinidad del suelo puede
+revertir estos efectos adversos y restaurar su capacidad productiva (Ramos, 2023,
+p 23).
+
+Los suelos salinos son aquellos cuya conductividad eléctrica y de saturación
+sobrepasa 4 dS/m a 25°C, además presenta PH mayor a 8.5, según (Hilgard 1906,
+p 76). Estos poseen indicadores, los mismos que tenemos:
+
+
+
+
+                                                                                  11
+a) Textura: comprende la presencia relativa de moléculas de diferente tamaño
+menores a 2 mm éstas son la arena, el limo y la arcilla (Zavaleta, 1992, p 94).
+
+      Arena (2- 0.05 mm). Formada por moléculas de dimensiones grande e
+      irregular. De forma áspera y moldeable con la humedad, y se seca muy
+      rápida. Los poros que presentan dichas partículas son de tamaño grande,
+      por lo tanto, son de alta permeabilidad para el agua y aire.
+      Limo (0.05-0.002 mm). Partículas medianas; con plasticidad y pegajosidad
+      ante la humedad; fácilmente moldeables; cuando se seca se deshace. Muy
+      alta capacidad de retener agua.
+      Arcilla (< 0.002 mm). Compuesta de partículas pequeñas únicamente
+      observadas con microscopio electrónico.
+
+   Análisis textural: determinada por el laboratorio conocido como análisis de
+   granulometría; verifica la distribución porcentual de las partículas de arena, limo
+   y arcilla. Usa el método del hidrómetro o de Bouyoucos.
+
+   b) pH: es la medida de acidez o alcalinidad de una sustancia; cuantifica la
+   cantidad de iones H+ e OH- indicando el nivel de acidez o alcalinidad en la
+   sustancia. Si hay mayor concentración de iones H+, se señala que la solución
+   es ácida, pero si hay más iones OH-, la solución es alcalina. Si la concentración
+   de iones (H+, OH-) es la misma, la solución y el pH es neutra. La escala está
+   dentro de los valores 0 a 14 a 25°C(Tabla II), es el logaritmo negativo en base
+   10 de la concentración molar de iones H+, donde 7 es neutra, menor a 7 es
+   ácida y mayor a 7 es alcalina (Zavaleta, 1992, p 86).
+
+c) Conductividad eléctrica (CE): resistencia de un elemento de permitir el paso
+de la corriente eléctrica a través de sí. Se define como la propiedad natural de cada
+cuerpo. (Zavaleta, 1992, p 62).
+
+Tabla 1: Clasificación de suelo según la USDA y parámetros, 1971
+                                                     Parámetro
+         Clasificación            CE EXT-Sat            PSI %                 pH
+
+            Normal                 < 4 ds/m              < 15                 No
+                                                                         determinante
+
+
+
+                                                                                   12
+             Salino                ≥ 4 ds/m              < 15                 < 8,5
+
+            Sódico                 <4 ds/m                ≥ 15                > 8,5
+
+        Salino – sódico            ≥ 4 ds/m               ≥ 15                < 8,5
+
+   Fuente: USDA. (1975)
+
+
+En este sentido, la salinización del suelo puede ser detectada y monitoreada
+efectivamente mediante el uso de imágenes satelitales, aprovechando el análisis
+de índices y características sensibles a la presencia de sales. Los métodos de
+detección incluyen el análisis de reflectancia espectral, que identifica cómo las sales
+afectan la reflectancia en diferentes longitudes de onda; la utilización de índices de
+vegetación como el Índice de Vegetación de Diferencia Normalizada (NDVI), que
+puede mostrar alteraciones en áreas afectadas por salinidad; y la evaluación de la
+temperatura superficial, que revela patrones espaciales asociados con la salinidad.
+Además, los sensores de microondas permiten la detección de cambios en la
+humedad y salinidad a diferentes profundidades (Choi, 2022, p 9).
+
+En las últimas décadas, la evolución de tecnologías como satélites, drones y
+sensores ha permitido a técnicos y agricultores gestionar los cultivos con una
+abundancia de datos adicionales a escala global. Estas herramientas tecnológicas
+complementan los trabajos de campo y optimizan el tiempo y recursos para lograr
+la sostenibilidad del ecosistema agrario y la rentabilidad del cultivo. Algoritmos
+matemáticos     basados    en   bandas     espectrales   específicas    del   espectro
+electromagnético se utilizan para estimar las pérdidas de rendimiento agrícola
+causadas por la salinización del suelo (Hernandez, 2023).
+
+La salinización del suelo es un problema crítico en la agricultura, especialmente en
+regiones áridas y semiáridas. La acumulación de sales en el suelo puede reducir
+significativamente la productividad agrícola. Las imágenes satelitales y los
+Sistemas de Información Geográfica (SIG) se han convertido en herramientas
+esenciales para monitorear y gestionar la salinidad del suelo.
+
+Las imágenes satelitales, como las obtenidas de los satélites Landsat y Sentinel,
+se utilizan para detectar y mapear la salinidad del suelo. Estas imágenes
+
+
+
+                                                                                      13
+proporcionan datos espectrales que pueden ser analizados para identificar áreas
+afectadas por la salinización. (Rodriguez, Ruiz, Padilla, 2016 p 14)
+
+El uso de imágenes satelitales para el monitoreo de la salinidad del suelo es una
+herramienta poderosa que ofrece múltiples beneficios. Permite una evaluación
+precisa y a gran escala de la salinidad, lo que es esencial para la gestión sostenible
+de los recursos agrícolas. La implementación de estas tecnologías puede mejorar
+significativamente la productividad agrícola y la sostenibilidad ambiental. (Ponvert
+y Lau, 2013 p 21).
+
+                            Ubicación del caserío de Tablazo Sur
+
+
+
+
+Figura 1: Ubicación del caserío de Tablazo Sur
+Fuente: google Earth
+                           Puntos de muestreo de suelos agrícolas
+
+
+
+
+Figura 2: Puntos de muestreo de suelos agrícolas
+
+Fuente: earth explorer
+
+
+
+
+                                                                                   14
+II.   Metodología
+
+
+Tipo, enfoque y diseño de investigación: el presente trabajo de investigación se
+desarrolló bajo el tipo aplicada, dado que la finalidad fue recoger información que
+permita conocer la correlación entre dos variables para establecer las
+causas y de esta manera contribuir con la literatura que permita a futuras
+investigaciones encontrar la experiencia y el bagaje que podría generar
+explicación y el punto de partida para arribar a nuevos descubrimientos a fin de
+solucionar el problema señalado. Se pretendió encontrar correlación entre
+factores antrópicos y salinización de suelos agrícolas de tablazo Sur, dado que
+este problema se viene agudizando en la zona, la región y el mundo entero.
+Según (Hernández 2014, p 42) un estudio aplicado es aquel que busca la
+solución a un determinado problema, que es donde coincidimos, cuando hemos
+realizado el presente trabajo.
+
+Cuando nos referimos al enfoque (Hernández et al 2014, p 5) si pensamos en el
+hecho de cuantificar los datos recogidos, no estamos refiriendo al enfoque
+cuantitativo. Nuestra investigación se basó en recurrir al análisis de laboratorio,
+de donde se obtuvo datos numéricos precisos para conocer los elementos
+propios de la salinización del suelo a estudiar, que luego fueron correlacionados y
+comparados con los resultados del análisis, observación y que resultaron al
+aplicar una encuesta, también que buscó recoger datos precisos del agricultor
+usuario de los terrenos agrícolas seleccionados para la investigación, se les dio
+un valor numérico, por tanto, al hacer uso de esta forma de trabajo, indicamos
+que el enfoque asumido es el cuantitativo.
+
+La presente tesis se enmarcó en el diseño correlacional descriptivo, porque tuvo
+el objetivo describir la relación entre la variable los factores antrópicos en
+relación a la salinización de suelos. Este tipo de diseño permitió describir con
+precisión el fenómeno antes señalado, sin intervenir en el entorno, de acuerdo
+con (Alban, 2020, p 17).
+
+El estudio de los factores antrópicos que se observa en los agricultores de
+tablazo Sur básicamente recogió las características, número de veces y también
+tipos de cultivo y de riego, es decir se enmarcó en recoger aquellas
+
+
+                                                                                15
+acciones que los agricultores tienen para con sus terrenos de cultivo durante el
+proceso de siembra y cosecha. Por otro lado, el análisis de laboratorio permitió
+identificar los tipos de elementos, sales, componentes que llegaron a estos
+terrenos producto de las actividades anteriores y se comparó con las de los
+distintos actores de la muestra. Respecto del alcance se previó encontrar
+respuesta y sobre todo cantidad de veces en que se da la correlación para
+establecer la posible regla que podría estar sucediendo en otros terrenos
+agrícolas, ya no solo del distrito, sino del país y mundo entero; esto a fin de
+determinar las causas y poder encontrar la respuesta a un problema que cada
+vez se hace más grave: la salinización de suelos agrícolas que trae como
+consecuencia la nula producción del agro, así como pérdidas económicas y
+posible déficit alimentario. Luego se ha previsto elaborar un mapa aplicando la
+tecnología satelital que posibilite hallar con mayor rapidez los suelos que están
+con tendencia a salinizarse.
+
+Variables y operacionalización: En el presente estudio, la naturaleza y el
+tamaño de los factores antrópicos identificados se consideran como la variable
+independiente. Por otro lado, la salinización de los suelos agrícolas se define
+como la variable dependiente. Todo lo mencionado se puede observar en la
+matriz de operacionalización de las variables ubicada en anexos.
+
+Factores antrópicos: Los fenómenos antrópicos son aquellos eventos que
+surgen como resultado de las actividades humanas dirigidas a interactuar con la
+naturaleza, por ejemplo el tipo de cultivo, tipo de riego, uso de fertilizantes y
+venenos para controlar las plagas, forma de cultivo, etc., y dentro de estos, se
+pueden identificar amenazas como la contaminación y otros procesos
+tecnológicos. (Araya, 2011, p 78)
+
+Salinización de suelos agrícolas: La salinización del suelo se refiere a la
+acumulación de sales solubles en el agua como en el suelo. Esta acumulación
+puede ocurrir de manera natural en suelos bajos y planos, o también de manera
+provocada. (García , 2012,p 71)
+
+Factores antrópicos: Todas las acciones que el ser humano realiza y que
+repercuten de manera negativa en la salinización del suelo.
+
+
+
+                                                                              16
+Salinización de suelos agrícolas: Presencia excesiva de sales en el suelo
+agrícola, debido a diversos factores y que hace poco o nada productivo, al
+mencionado.
+Entre las dimensiones que podemos medir con respecto a la variable
+independiente tenemos condiciones y tipos de cultivo, periodicidad de los
+cultivos, componentes orgánicos vs componente químico, y la tipología de los
+factores                                                                  antrópicos.
+Y para la variable dependiente, está el índice de vegetación, índice de humedad del
+suelo, componentes del suelo y calidad del suelo agrícola.
+
+
+En los indicadores podemos encontrar la productividad del suelo, Cantidad de
+humedad en el suelo, elementos y nutrientes del suelo, conductividad eléctrica, pH
+y textura. Los cuales en su mayoría los podemos obtener realizando análisis de
+suelos en el laboratorio.
+También podemos tomar como indicadores la cantidad de veces que se
+siembra     un     determinado     cultivo,    en    un      periodo    determinado.
+Se utilizó una escala de medición en intervalos, debido a que asignaremos
+valores numéricos a los factores antrópicos en cantidad de veces, en
+frecuencias, de los antes mencionados y buscaremos establecer las relaciones
+entre estos y el grado de salinidad que se encuentre en los terrenos agrícolas
+seleccionados, a través del análisis de suelos.
+
+La población objeto de estudio estará constituida por los suelos agrícolas de
+Tablazo Sur, distrito de La Unión, en Piura, que comprende 1757.95 ha.
+(Midagri 2024). De acuerdo con Tamayo (2015), la población se define como "la
+totalidad de un fenómeno de estudio, que incluye todas las unidades de análisis
+o entidades que componen dicho fenómeno" (Tamayo, 2015, p. 23). Este
+concepto es respaldado por la literatura científica, que también subraya la
+importancia de una definición clara de la población para garantizar la validez y la
+representatividad de los resultados en investigaciones agrícolas (Miller et al., 2020;
+Gupta & Singh, 2018, p 78). La selección de la población adecuada es crucial
+para el análisis de las características del suelo y su influencia en la productividad
+agrícola (Jones & Smith, 2019, p 54).
+
+
+
+                                                                                   17
+En cuanto a los criterios de inclusión tenemos:
+
+Áreas con Uso Agrícola Activo: Se incluirán únicamente los suelos que
+actualmente se utilizan para actividades agrícolas, ya que estos son los más
+relevantes para evaluar la influencia de las prácticas agrícolas en las características
+del suelo (Smith , 2022, p 76).
+
+Suelos con Historial Documentado: Se seleccionaron suelos con un historial de
+uso y manejo agrícola documentado, para proporcionar un contexto histórico que
+facilite el análisis de los cambios en las propiedades del suelo y que a su vez que
+presentaron características de salinidad a simple vista, pertenecientes a la zona
+seleccionada: Tablazo Sur – La Unión 2024.. (Miller & Anderson, 2021, p 76).
+
+Representatividad Geográfica: Se incluyeron suelos que representan la
+variabilidad geográfica dentro del distrito de La Unión, asegurando que la muestra
+refleje las distintas condiciones del área de estudio (Jones & Smith, 2019, p 31).
+
+Condiciones Ambientales Relevantes: Se consideraron suelos en condiciones
+ambientales que son representativos del entorno agrícola típico del distrito,
+excluyendo aquellos en áreas extremas que no reflejaron las condiciones normales
+de cultivo (Patel, 2020, p 98).
+
+Y entre los criterios de exclusión podemos mencionar a los siguientes:
+
+   1. Homogeneidad del Suelo: Se excluirán áreas con características edáficas
+       (zonas boscosas) significativamente diferentes a las del resto del distrito,
+       para evitar sesgos en los resultados (Khan, 2021, p 52).
+   2. No se tomarán en cuenta los suelos destinados para otros fines (terrenos
+       urbanísticos, para construcción, con fines recreativos, caminos, eriazos).
+
+Estos criterios ayudaron a garantizar que la muestra seleccionada sea
+representativa de la población de suelos agrícolas del distrito de La Unión,
+facilitando un análisis preciso de las características del suelo y su impacto en la
+productividad agrícola.
+
+
+
+
+                                                                                      18
+                           Ubicación de la zona de muestreo
+
+
+
+
+   Figura 3: Ubicación de la zona de trabajo
+   Fuente: Google Earth
+
+       En este caso para la muestra, debido a que el distrito de la unión está
+conformado por 13 caserío anexos, el presente estudio se desarrollará en un
+perímetro de 40 has del Caserío de Tablazo Sur, debido a la falta de información
+que existe entre los pobladores de la zona y la necesidad de preservar los suelos
+agrícolas en calidad productiva más alta.
+
+       Según (Batista, 2014, p 10), La muestra es una porción específica de la
+población de interés de la cual se recopilan datos; debe ser definida con precisión
+y delimitada previamente. Además, es crucial que la muestra sea representativa de
+la población en su conjunto.
+
+                          Ubicación del caserio de Tablazo Sur
+
+
+
+
+Figura 4: Ubicación del caserío de tablazo Sur
+Fuente: Earth explorer
+
+
+
+                                                                                19
+      En esta investigación, se utilizó el método de muestreo no probabilístico por
+conveniencia para la elección de la muestra. Esta forma de elegir la muestra se
+basa en la disponibilidad y accesibilidad de los elementos de la población. El
+proceso de muestreo por conveniencia comprende seleccionar los elementos de la
+muestra que están disponibles y son accesibles para quien llevará a cabo la
+investigación científica. (Ocampo, 2020, p 79).
+
+      De esta manera, los suelos agrícolas de La Unión, específicamente del
+Caserío de Tablazo Sur, son los más disponibles para el estudio y de mejor
+disponibilidad para el investigador. (Sáenz, 2015, p 34).
+
+      La unidad de análisis en este estudio se refiere a cada una de las acciones
+que nos permitieron determinar nuestros valores medibles. En el desarrollo de
+nuestra investigación, se empleó la observación directa para la recolección de datos
+de las zonas que presentan señales de salinización y baja productividad en
+los cultivos, así como su posterior análisis del suelo de esa misma zona en
+un laboratorio a través de un análisis de muestra.
+
+      Los instrumentos son el recurso empleado por el que realiza la
+investigación con el objetivo de abordar fenómenos y problemas para recoger los
+datos e información de la realidad considerando la variable elegida para el estudio.
+(Hernández-Sampieri y Mendoza, 2018, p 45). En este trabajo, se emplearon varias
+técnicas e instrumentos de colección de información. En primer lugar, se realizó
+una observación directa del terreno a estudiar. Se recogió información a través de
+apuntes sobre las características de los suelos encontrados, se tomaron fotografías
+y se usaron como evidencia del trabajo de campo, que luego fueron referentes para
+obtener en las imágenes por satélite.
+
+      También se usó como instrumento para recopilar datos de campo una
+encuesta aplicada a los responsables, conductores y/o dueños de los terrenos
+agrícolas en estudio. Se trabajó en base también a resultados de los análisis de
+suelos obtenidos en laboratorios, los cuales nos dieron un primer resultado.
+
+      Para el estudio, se siguió un enfoque rigurosamente científico, en línea con
+las normativas establecidas por la Universidad César Vallejo. Se procedió a
+
+
+                                                                                 20
+identificar los problemas asociados a cada variable, investigando todas las teorías
+actualizadas relacionadas con el tema de estudio. Luego, se definió las
+dimensiones pertinentes y los indicadores correspondientes. Se seleccionó la
+metodología más adecuada para la recopilación de datos, seguida por un análisis
+minucioso y una interpretación exhaustiva de los resultados. Además, se
+elaboraron conclusiones y recomendaciones dirigidas tanto a las autoridades
+ambientales como a la población en general.
+
+      Según (Ortega 2018, p 34), el método de análisis de datos se define como
+un conjunto de procedimientos establecidos para gestionar la información, donde
+se consideran diferentes modelos de análisis, los cuales varían según el enfoque
+de interés y el diseño seleccionado.
+
+      En este sentido, la presente tesis se desarrolló en dos etapas:
+
+Primera etapa: Salidas a campo y recolección de muestras para registrar evidencia
+sobre el estado de los suelos agrícolas de la zona en estudio. Recolección de
+información a través de entrevistas a los dueños de las parcelas elaborando así
+una línea base sobre cómo eran los suelos hace 3 años y cómo están ahora.
+
+Segunda etapa: Utilización de aplicativos para elaborar el mapa satelital sobre
+salinización de los suelos agrícolas en Tablazo Sur.
+Las imágenes satelitales fueron procesadas en aplicaciones y/o software, como la
+plataforma de Earth Explorer, para de esta manera obtener datos más confiables y
+precisos.
+      En cuanto a los aspectos éticos, dentro del marco del estudio, se asegura
+la confidencialidad y seguridad de la información personal y ambiental recolectada,
+cumpliendo con las normativas y regulaciones vigentes en cuanto a privacidad y
+protección de datos. Se reconoce la autoría de las fuentes de información utilizadas
+y se realiza una adecuada citación de estas. Se garantiza la integridad de la
+investigación al evitar el plagio, la falsificación y la manipulación de los datos.
+Debido a que únicamente se trabajó con personas adultas, a quienes se les entrego
+el consentimiento informado, obteniendo una respuesta positiva de todos los
+participantes.
+
+
+
+
+                                                                                 21
+                           Suelos salinos
+
+
+
+
+Figura 5: Suelos salinos
+Fuente: Google earth
+
+
+
+
+                                            22
+III.    Resultados
+
+
+Para llegar a los resultados se aplicaron diversos instrumentos. Se inició con el
+análisis de diversas muestras en el laboratorio de suelos para identificar los tipos
+de suelo establecidos según USDA (1971) de acuerdo a los parámetros salinos.
+Inmediatamente se procedió a aplicar la encuesta a los agricultores usuarios y
+dueños de los terrenos de las muestras para levantar información sobre las
+acciones antrópicas realizadas durante el uso de cada terreno. De esta manera,
+recogiendo la información, características y costumbres que los agricultores llevan
+a cabo en la siembre, abonamiento, cuidado y cosecha de los cultivos. Con los dos
+resultados obtenidos, se procedió a establecer la correlación;
+
+Las encuestas fueron trabajadas en Excel para determinar el coeficiente de
+correlación de Rho de Spearman, el Ji cuadrado; se promovió encontrar con el
+valor crítico y el nivel de significancia, así como la estadística de uso del Excel.
+
+Luego se procedió a hacer el ingreso de información para establecer las
+características de los suelos salitrosos y así determinar su detección usando
+tecnología satelital.
+
+Tabla 2: Parámetros encontrados en análisis de laboratorio
+
+ Predio /          Parámetros encontrados en el análisis de   cantidad   Tipo de suelo
+ terreno           suelos
+                   CE            PSI %           pH
+ Río M 1           5.53          7.30            7.12         2          Salino
+ Río M 2           3.44          17.73           8.73         7          Sódico
+ Vega M 3          6.05          17.61           7.96         5          Salino sódico
+ Vega M 4          3.60          16.63           8.88         7          Sódico
+ Tendido medio     7.8           15.98           7.66         4          Salino sódico
+ M5
+ Tendido medio 8.2                  15.11         7.62        4          Salino sódico
+ M6
+ Los hornos M      3.64             15.20         8.85        7          sódico
+ 7
+ Los hornos M      4.68             16.27         7.90        4          Salino sodico
+ 8
+Fuente: resultados de análisis de laboratorio
+
+En la tabla se dan a conocer las muestras de los 40 predios examinados en el
+laboratorio. De estos, solo 2 muestras indicaron que el suelo era salino (Rio M1).
+Luego tenemos 21 puntos que son sódicos (rio M 2, vega M 4 y lo hornos M 7); y
+
+
+
+
+                                                                                         23
+los demás 17 predios muestreados, arrojaron un suelo salino sódico (tendido medio
+M 5, tendido medio M 6, y vega M 3 y los hornos M 8).
+
+Estos resultados, se obtienen comparándolos con la tabla de valores para la
+clasificación de los suelos y sus parámetros, según USDA, que se muestra en la
+tabla 1 y la podemos encontrar en la página 12 de esta misma tesis.
+
+ Relación entre factores antrópicos y los niveles de salinidad de los suelos
+                                           agrícolas
+
+Hallados los niveles de salinización de las 40 muestras, se procedió a cruzar la
+información obtenida en el laboratorio con los resultados obtenidos de las
+encuestas aplicadas a los agricultores que tuvieron a cargo dichos predios. De esta
+manera se logró establecer la relación entre ambas variables; es decir, si a mayor
+actividad antrópica, mayor seria la salinidad de los suelos agrícolas.
+
+A continuación se presenta la tabla número 3, que establece los factores antrópicos
+con los niveles de salinización encontrados en la muestra.
+
+Tabla 3: Relación entre los factores antrópicos y los niveles de salinización
+                                           NIVELES DE SALINIZACIÓN
+Factores             Normal         Salino         Sódico             Salino -             Total
+antrópicos                                                            sódico
+Condiciones y
+tipos de
+cultivos            0      0%      1     2.5     02       5%        10      25%       13       32.5%
+                                         %
+Tipología de
+los factores
+                    0      0%      1     2.5     19      47.5       07     17.5%      27       67.5%
+                                         %                %
+
+ TOTAL
+                    0      0%      2     5%      21      52.5       17      42%       40       100%
+                                                          %
+Fuente: elaboración propia en base a resultados de la encuesta y de análisis de laboratorio.
+
+Para la obtención de estos datos, se trabajó en Excel, y se aplicó el instrumento de
+validación diseñado para esta tesis (ver en anexos).
+
+Entonces se puede indicar que del total de agricultores de la muestra, el 42% tienen
+terrenos agrícolas con suelo salino – sódico y han alcanzado el 52.5% de realizar
+actividades antrópicas como por ejemplo, uso de insecticidas, herbicidas, riego por
+
+
+                                                                                                 24
+inundación, siembra constante de arroz, lo que repercute y promueve que el suelo
+agrícola destinado a esta actividad alcance mayores rangos de salinización.
+Asimismo el 5% de los encuestados poseen terrenos con salinidad sódica, es decir
+que sus terrenos han acumulado sales negativas para el crecimiento de plantas y
+producción. Luego, un 5% de los agricultores posee terrenos salinos, es decir que
+poseen una proporción de sales de menor negatividad y por lo tanto afecta en
+menor escala la producción agrícola.
+
+Estos datos y porcentajes se obtienen en base a las respuestas obtenidas y
+procesadas estadísticamente, en donde a cada respuesta se le asigna un valor
+numérico, y luego se procesan estos datos, para colocar los resultados en las tablas
+que se presentan en la tesis.
+
+Considerando los resultados que nos muestra la tabla 3, podemos indicar una
+posible una relación positiva entre los factores antrópicos y los niveles de
+salinización del suelo agrícola en Tablazo Sur, durante el año 2024, es decir que
+cuanto más elevado es la práctica antrópica, mayor será el nivel de salinización de
+los suelos; lo cual será demostrado posteriormente a través de la comprobación de
+las hipótesis.
+
+Relación de los tipos de cultivos con la salinización de los suelos agrícolas
+
+En esta parte, se buscó conocer los tipos de cultivo que los agricultores y
+campesinos de la zona en estudio venían desarrollando en los últimos 3 años. Este
+aspecto fue recogido a través de la encuesta a agricultores y campesinos y luego
+se procedió a identificar la clasificación del tipo de suelo que tenía el mencionado
+personaje, así como la presencia de vegetación propia de suelos salitrosos que en
+su predio se identificó, para luego ver la correlación entre ambos aspectos.
+
+Inmediatamente se agrega la tabla 4, donde se muestran los datos de la encuesta
+y los resultados del análisis de laboratorio de suelos, considerando las respuestas
+sobre los cultivos, el tipo de suelo salino y la presencia de vegetación propia del
+suelo salino, procurando identificar si existía alguna relación entre los aspectos
+mencionados.
+
+
+
+
+                                                                                 25
+Tabla 4: relación entre tipos de cultivos y el índice de vegetación salitrosa en suelos
+agrícolas.
+
+                                   INDICE DE VEGETACIÓN SALITROSA
+Tipos de        Crecimiento          Pocas      Abundante         Nulo                         Total
+cultivos         normal de         plantas de   crecimiento   crecimiento
+                  plantas            suelo     de plantas de  de todo tipo
+                 comunes            salitroso      suelo     de vegetación
+                                                 salitroso
+Cultivo de
+arroz
+                 0       0%        3     7.5%       10       25%        15      37.5%      28    70%
+Cultivo de
+maíz,
+frejoles,        0       0%        1     2.5%        5      12.5%        6       15%       12    30%
+tubérculos,
+etc.
+TOTAL
+
+                 0       0%        4      10%       15      37.5%       21      52.5%      40     100
+                                                                                                   %
+Fuente: Elaboración propia en base a resultados de la encuesta y de análisis de laboratorio.
+
+
+En la tabla 4, se puede identificar que el 70% de los agricultores que siembran arroz
+han promovido que algún sector de su terreno o de los vecinos tenga un crecimiento
+nulo de todo tipo de vegetación, donde se aprecia que un 37.5% así lo identifica.
+Así también el 25% señala que ha cultivado arroz en los últimos años y ha generado
+que en las zonas salitrosas aparezcan abundantes plantas que crecen en este tipo
+de suelos. Solo el 7.5% reconoce que en suelo salitroso de su terreo han crecido
+pocas plantas propias del suelo salitroso y si hay presencia de las demás
+plantaciones.
+
+En base a los resultados obtenidos en las encuestas, (ver anexos), la figura en
+análisis de la dimensión índice de vegetación salitrosa nos permite observar que la
+mayor cantidad de terrenos que presentan salinización frecuentemente se ven
+invadido por plantas como verdolaga de playa, planta de cristal, juncia y otras
+plantas propias de zonas donde hay salinización. Pero cuando la salinización es
+mucho mayor también se ha detectado que no crece ningún tipo de vegetal.
+
+
+
+
+                                                                                                26
+Relación entre el riego por inundación y la salinización de los suelos agrícolas
+
+El presente estudio, partió de la hipótesis de que el tipo de riego por inundación
+generaba mayor presencia de sales en los suelos agrícolas. Se plantearon
+preguntas sobre la forma en que los agricultores venían regando sus cultivos y
+luego se procedió a identificar el tipo de suelo según el análisis de laboratorio,
+haciendo luego el procesamiento de los datos obtenidos, para encontrar la relación
+entre ambas variables que la tabla 5, a continuación busca detallar.
+
+Tabla 5: Relación entre tipo de riego y salinización, e índice de humedad en los
+suelos agrícolas.
+
+                                   Tipo de riego e índice de humedad
+  Tipos de                  Porcentaje de agua                               Total
+    riego
+                          alto                    Bajo                 #              %
+ Riego por           25          62.5%       5         12.5%           30            75%
+ inundación
+
+
+ Otros tipos         5           12.5%       5         12.5%           10            25%
+ de riego
+ TOTAL               30          710%        10          25%           40            100%
+Fuente: elaboración propia en base a resultados de la encuesta y de análisis de laboratorio.
+
+
+Del 75% de los agricultores que recurren al riego por inundación, un 62,5% que
+posee terrenos con salinidad, también presenta en estas zonas un alto nivel de
+porcentaje de sales. Solo un 12.5% según los análisis de laboratorio se encontró
+que tienen un nivel bajo de presencia de agua en la muestra de tierra que se llevó
+al laboratorio. Llama la atención que el 12.5% de suelos salitrosos que han sido
+regados usando otras técnicas también presentan alto porcentaje de humedad.
+Aquí se pudo encontrar que influye el desnivel de los terrenos, es decir que el
+terreno que presenta menor altura en relación con los terrenos agrícolas vecinos es
+el que aparece con signos de salinidad y aumento de la humedad.
+
+Así mismo, la siguiente tabla muestra los resultados obtenidos en el laboratorio de
+cada una de las muestras analizadas.
+
+Tabla 6: Resultados obtenidos en laboratorio
+
+
+                                                                                               27
+uso y el tipo de suelo presente en sus predios, que detallo el análisis de laboratorio
+de suelos.
+
+La tabla numero 7 busca encontrar la correlación entre el uso frecuente de los
+químicos mencionados y los cationes solubles (sodio, magnesio, calcio y potasio),
+así como los aniones solubles (cloruro, sulfato, bicarbonato), encontrados en las
+muestras de análisis de suelos. Los resultados son como a continuación se
+muestran:
+
+Tabla 7: Relación entre el nivel del uso de fertilizantes y herbicidas químicos, y
+presencia de sales solubles.
+
+                              Sales solubles en terrenos salinos
+
+ Uso de                      Cationes solubles   Aniones solubles:         total
+ fertilizantes,              Sodio, magnesio,     cloruro, sulfato,
+ insecticidas y               calcio, potasio.      bicarbonato,
+ herbicidas
+ Uso frecuente de             05        12.5%      29      72.5%      34           85%
+ fertilizantes y
+ venenos
+ químicos
+ Usa otro tipo de              3        7.5%        3       7.5%      06           15%
+ productos.
+ TOTAL                  08               20%       32       80%       40       100%
+
+Fuente: elaboración propia
+
+
+Haciendo un análisis entre los valores que indican los análisis de laboratorios y los
+valores que se obtuvieron del procesamiento de las respuestas de las encuestas,
+podemos indicar que la tabla 06 nos presenta que el 72.5% de los terrenos
+salitrosos contienen aniones solubles, es decir que las sales que contienen son las
+más nocivas para la vegetación y plantaciones agrícolas. Y esta a su vez se
+relaciona con que sus dueños cada campaña agrícola usan insecticidas,
+fertilizantes y herbicidas químicos, con lo que se puede ver una similitud en los
+resultados de ambas variables. El 12.5% de terrenos donde se usó fertilizantes
+químicos contiene en sus suelos sales que con el tratamiento adecuado se
+convierten suelos fértiles nuevamente, dado que estos componentes más bien
+nutren la raíz de la vegetación señalada.
+
+
+                                                                                     29
+                              Prueba de hipótesis
+
+A continuación se procede a comprobar la nulidad o no de cada una de las hipótesis
+
+planteadas en la presente investigación, así como otras pruebas a las que se
+
+sometieron estas, para su respectivo analisis.
+
+Tabla 8: Prueba de hipótesis general
+
+
+
+       Secuencia                       Valores obtenidos / Reglas
+
+Hipótesis nula (HO)     A mayor nivel o presencia de los factores antrópicos, no
+                        será mayor la salinidad de los suelos agrícolas de
+                        Tablazo Sur – La Unión - Piura, 2024.
+
+Hipótesis de            A mayor nivel o presencia de los factores antrópicos,
+                        mayor será la salinidad de los suelos agrícolas de
+investigación           Tablazo Sur – La Unión - Piura, 2024.
+
+
+(H1)
+
+Prueba de coeficiente
+de correlación de
+variables RHO DE
+PEARSON
+                                                 r = 0.9914
+
+
+
+
+Estadístico de
+
+prueba                                           χ²= 10.88
+
+((JI CUADRADO =χ² )
+
+X2 = ∑(fo - fe)2/Fe
+
+Valor crítico                                     7.8147
+
+
+
+                                                                                30
+Nivel de                                                 0.05
+
+Significancia
+
+Regla de decisión            Decisión:
+
+                             Si el valor calculado de X² es menor al valor de X² tabla
+                             (valor crítico) se acepta la hipótesis nula.
+
+                             Si el valor calculado de X² es mayor al valor de X² tabla
+                             (valor crítico) se rechaza la hipótesis nula.
+
+       Conclusión            Se rechaza la hipótesis nula y se acepta la hipótesis de
+                             investigación.
+Fuente: Análisis estadístico de la encuesta sobre la relación de los factores antrópicos y la
+salinización de suelos agrícolas, así como los resultados de análisis de laboratorio de suelos
+agrícolas del Tablazo Sur (2024).
+
+                                    Fórmula Rho de Pearson
+
+                             ∑ 𝑥𝑦                      220
+                   𝑟=                       𝑟=                  = 0.9914
+                        √(∑ 𝑥 2 )(∑ 𝑦 2 )        √(316)(154)
+
+
+Figura 6: cálculo operativo en base a Rho de Pearson
+Fuente: elaboración propia
+
+
+En las formula anterior se desarrolla el proceso operativo para hacer el cálculo del
+coeficiente de Rho de Pearson para la prueba de hipótesis general.
+
+Interpretación
+
+La tabla nos permite que las variables factores antrópicos y salinidad de los suelos
+de Tablazo Sur tiene un alto grado de correlación, dado que el resultado obtenido
+llegó a 0.9914; por lo tanto se interpreta que, los factores antrópicos de los
+agricultores promueven que aparezca sales solubles en los terrenos agrícolas de
+sus propiedades y que estas a su vez repercutan en la siembra y producción de los
+mencionados terrenos. La correlación es bastante alta, lo que se traduce en que
+cuantos más factores antrópicos se realicen, mayor será el nivel de salinidad de los
+terrenos. Dentro de los factores antrópicos con mayor impacto en la salinidad de
+
+
+                                                                                           31
+los suelos está el riego por inundación y uso excesivo de aguas, sobre todo cuando
+se siembra arroz; también se evidencia este impacto en los terrenos que no han
+sido emparejados y presentan zonas muy bajas, lo que hace que la filtración de
+aguas sea abundante y promueva la aparición de sales que provoca desde la poca
+presencia de plantas productivas o hasta la nula presencia de estas.
+
+ Por otro lado, la prueba ji cuadrado nos permite arribar a la conclusión siguiente:
+Se rechaza la hipótesis nula y se acepta la hipótesis de investigación. Esto quiere
+decir que los datos obtenidos en los instrumentos de investigación permiten
+reconocer que los factores antrópicos y la salinidad están bastante relacionados y
+que el uno promueve la aparición y elevación de los niveles del otro. Los terrenos
+de los agricultores participantes de la investigación que presentan mayor nivel de
+salinidad de los suelos de terrenos agrícolas, así como la presencia de sales
+sódicas y salino-sódicas en mayor escala.
+
+Hipótesis especifica 1: A mayor nivel de cultivos, mayor será el índice de
+vegetación salitrosa de los suelos agrícolas de Tablazo Sur – La Unión - Piura,
+2024.
+
+
+Tabla 9: Prueba de hipótesis especifica 01
+       Secuencia                        Valores obtenidos / Reglas
+
+Hipótesis nula (HO)        A mayor nivel de cultivos, no será mayor el nivel de la
+                           salinización y el índice de vegetación salitrosa de los
+                           suelos agrícolas de Tablazo Sur – La Unión - Piura, 2024
+
+Hipótesis de               A mayor nivel de cultivos, mayor el índice de vegetación
+                           salitrosa de los suelos agrícolas de Tablazo Sur – La
+investigación
+                           Unión - Piura, 2024
+(H2)
+
+Prueba de coeficiente
+de      correlación   de
+variables    RHO      DE
+PEARSON                                           r= 0.8604
+
+
+
+
+                                                                                  32
+Estadístico de prueba
+
+((JI CUADRADO =                                           18.119
+
+χ² )
+
+X2 = ∑(fo - fe)2/Fe
+
+Valor crítico                                             7.8147
+
+Nivel de                                                   0.05
+
+significancia
+
+Regla de decisión            Decisión:
+
+                             Si el valor calculado de X² es menor al valor de X² tabla
+                             (valor crítico) se acepta la hipótesis nula.
+
+                             Si el valor calculado de X² es mayor al valor de X² tabla
+                             (valor crítico) se rechaza la hipótesis nula.
+
+Conclusión                   Se rechaza la hipótesis nula y se acepta la hipótesis de
+                             investigación.
+
+Fuente: Análisis estadístico de la encuesta sobre la relación de los factores antrópicos y la
+salinización de suelos agrícolas, así como los resultados de análisis de laboratorio de suelos
+agrícolas del Tablazo Sur (2024).
+
+                                    Fórmula Rho de Pearson
+
+
+                             ∑ 𝑥𝑦                      215
+                   𝑟=                        𝑟=                    = 0.8604
+                        √(∑ 𝑥 2 )(∑ 𝑦 2 )         √(248)(203)
+
+Figura 7: cálculo operativo en base a Rho de Pearson, hipótesis especifica 01
+Fuente: elaboración propia
+
+
+
+
+                                                                                           33
+Interpretación:
+
+La tabla 08 nos permite ver que las categorías cultivos, específicamente de arroz y
+vegetación de suelo salitroso se relacionan con un nivel de significancia alto.
+Aplicando el coeficiente Rho de Pearson se encontró r= 0.8604, es decir, un alto
+nivel de correlación, el mismo que se traduce en que en los terrenos donde se
+sembró, presenta una alta probabilidad de alcanzar altos niveles de salinidad y
+también proliferación de plantas propias de terrenos salitrosos, como por ejemplo
+planta de cristal, verdolaga de playa, juncia, etc. que genera problemas a los
+agricultores. Se pudo evidenciar que los terrenos con la presencia de plantas de
+zonas salitrosas se tornan infértil y luego en la superficie aparecen costras de color
+blanquecino o del color de la sal común.
+
+Con la prueba ji cuadrado, cuyo resultado obtenido fue: 18.119 con lo que se acepta
+la hipótesis especifica 01, es decir que, a mayor nivel de siembra de cultivos como
+el arroz, mayor será el nivel de la presencia de plantas propias de zonas salitrosas
+y salinización de suelos agrícolas. El resultado estadístico nos permite aceptar la
+hipótesis con lo que queda también como conclusión que los cultivos donde se usa
+agua en abundancia, está propenso a salinizarse y a tener la presencia de plantas
+propias de zonas salitrosas. Las plantas propias de zonas salitrosas promueven
+que los suelos mantengan la salinización e impiden también el crecimiento de las
+plantas propias de zonas salitrosas.
+
+
+
+Hipótesis específica 2: A menor nivel de riego por inundación menor será la
+salinización e índice de humedad de los suelos agrícolas de Tablazo Sur – La
+Unión - Piura, 2024
+
+
+
+
+                                                                                   34
+Tabla 10: prueba de hipótesis especifica 02
+
+      Secuencia                            Valores obtenidos / Reglas
+
+Hipótesis nula (HO)          A menor nivel de riego por inundación no será menor la
+                             salinización e índice de humedad de los suelos agrícolas
+                             de Tablazo Sur – La Unión - Piura, 2024
+
+Hipótesis          de A menor nivel de riego por inundación con baja calidad
+investigación (H2)    de agua menor será la salinización e índice de humedad
+                      de los suelos agrícolas de Tablazo Sur – La Unión -
+                      Piura, 2024
+
+Prueba de coeficiente
+de correlación de
+variables RHO DE                                     r= 0.9947
+PEARSON
+
+
+
+
+Estadístico de prueba
+
+((JI CUADRADO = χ² )                                    15.71
+
+X2 = ∑(fo - fe)2/Fe
+
+Valor crítico                                          3,8415
+
+Nivel de                                                 0.05
+
+Significancia
+
+Regla de decisión            Decisión:
+
+                             Si el valor calculado de X² es menor al valor de X² tabla
+                             (valor crítico) se acepta la hipótesis nula.
+
+                             Si el valor calculado de X² es mayor al valor de X² tabla
+                             (valor crítico) se rechaza la hipótesis nula.
+
+       Conclusión            Se rechaza la hipótesis nula y se acepta la hipótesis de
+                             investigación.
+
+Fuente: Análisis estadístico de la encuesta sobre la relación de los factores antrópicos y la
+salinización de suelos agrícolas, así como los resultados de análisis de laboratorio de suelos
+agrícolas del Tablazo Sur (2024).
+
+
+
+                                                                                           35
+                                Fórmula Rho de Pearson
+
+
+                             ∑ 𝑥𝑦                      326
+                  𝑟=                        𝑟=                 = 0.9947
+                       √(∑ 𝑥 2 )(∑ 𝑦 2 )         √(435)(245)
+
+Figura 8: cálculo operativo en base a Rho de Pearson
+Fuente: elaboración propia
+
+
+
+
+Interpretación
+
+La tabla 09 nos presenta datos como que, la prueba de correlación entre las
+categorías riego por inundación y nivel de humedad de los suelos agrícolas y
+salinización guardan una correlación bastante significativa y directa, puesto que el
+estadígrafo lanzo un resultado de r= 0.9947. Cuando se hizo la prueba rho de
+Pearson se encontró que ambas categorías mantienen correlación que se traduce
+en que cuando los agricultores riegan sus terrenos con el riego por inundación
+promueven mayor probabilidad de generar alta o excesivo nivel de humedad, lo que
+a su vez promueve la presencia de sales solubles y por ende la salinización de los
+suelos agrícolas. Ahora bien, los terrenos visitados permitieron identificar que los
+suelos que se riegan por inundación y tienen adicionalmente el agravante de no
+contar con la presencia de drenaje para las aguas de riego, o que poseen pero no
+discurren debido a la falta de mantenimiento, tienen mayor probabilidad de generar
+la presencia de suelos altamente salinos.
+
+Con la aplicación del estadístico de prueba ji cuadrado se obtuvo el resultado 15.71,
+con lo que se aceptó la hipótesis específica 02 y se reafirmó lo que en el estadígrafo
+anterior ya se había planteado. Es decir que la técnica del riego por inundación
+promueve mayores niveles de humedad lo que luego posibilita la acumulación de
+sales perjudiciales y por ende la salinización de suelos agrícolas.
+
+
+
+
+                                                                                   36
+Hipótesis específica 3: A mayor nivel de fertilizantes y herbicidas químicos,
+mayor será la salinización y niveles de algunos componentes de los suelos
+agrícolas de Tablazo Sur – La Unión - Piura, 2024
+
+Tabla 11: Prueba de Hipótesis 03
+
+
+                                     Valores obtenidos / Reglas
+
+       Secuencia
+
+Hipótesis nula (HO)     A mayor nivel de fertilizantes y herbicidas químicos, no
+                        será mayor los niveles de algunos componentes salinos
+                        de los suelos agrícolas de Tablazo Sur – La Unión -
+                        Piura, 2024
+
+Hipótesis de            A mayor nivel de fertilizantes y herbicidas químicos,
+                        mayor será la salinización y niveles de algunos
+investigación           componentes de los suelos agrícolas de Tablazo Sur –
+                        La Unión - Piura, 2024
+(H1)
+
+Prueba de coeficiente
+de correlación de
+variables RHO DE
+PEARSON
+                                               r= 0.9943
+
+
+
+
+Estadístico de
+
+prueba                                           3.965
+
+((JI CUADRADO =
+
+χ² )
+
+X2 = ∑(fo - fe)2/Fe
+
+Valor crítico                                   3,8415
+
+Nivel de                                         0.05
+
+significancia
+
+Regla de decisión       Decisión:
+
+
+
+                                                                                37
+                             Si el valor calculado de X² es menor al valor de X² tabla
+                             (valor crítico) se acepta la hipótesis nula.
+
+                             Si el valor calculado de X² es mayor al valor de X² tabla
+                                    (valor crítico) se rechaza la hipótesis nula.
+
+       Conclusión            Se rechaza la hipótesis nula y se acepta la hipótesis de
+                             investigación.
+
+Fuente: Análisis estadístico de la encuesta sobre la relación de los factores antrópicos y la
+salinización de suelos agrícolas, así como los resultados de análisis de laboratorio de suelos
+agrícolas del Tablazo Sur (2024).
+
+                                    Fórmula Rho de Pearson
+
+
+                             ∑ 𝑥𝑦                       304
+                   𝑟=                       𝑟=                  = 0.9943
+                        √(∑ 𝑥 2 )(∑ 𝑦 2 )        √(412)(225)
+
+Figura 11: cálculo operativo en base a Rho de Pearson
+Fuente: elaboración propia. Comprobación de hipótesis 3
+
+
+
+
+Interpretación
+
+La tabla 10 pone en evidencia los resultados de la investigación respecto de la
+hipótesis específica n 03, donde se ve la correlación entre las dos categorías: uso
+de insecticidas, herbicidas químicos, frente a los mayores niveles de iones y
+cationes propios de los suelos salinos. Al aplicar la prueba estadística Rho de
+Pearson donde los resultados fueron: 0.9943, con lo que se evidenció una
+correlación alta y que indica que cuando los agricultores usan productos químicos
+para combatir las plagas y las hierbas estarían atentando contra la integridad del
+suelo promoviendo la proliferación de las sales solubles y que los terrenos agrícolas
+se tornen en suelos salitrosos no productores.
+
+Respecto de la prueba ji cuadrado se tuvo que los resultados fueron muy poco
+significativos a los niveles de significancia pero considerando la disposición
+establecida para estos casos se rechaza la hipótesis nula y queda aceptada la
+hipótesis específica 03. La presencia de fertilizantes e insecticidas en suelos
+agrícolas genera la presencia de sales que vuelven los suelos salitrosos.
+
+
+                                                                                           38
+IV.    Discusión
+
+
+El presente estudio concluyó afirmando que existe una correlación directa y alta
+entre los factores antrópicos y la salinización de los suelos agrícolas de Tablazo
+Sur – 2024. El estadígrafo Rho de Pearson ayudó a determinar la correlación alta
+entre ambas dimensiones; se encontró una correlación de r = 0.9914
+
+De esta manera se descubrió que actividades como promover el riego por
+inundación, usar insecticidas, herbicidas químicos, cultivar productos que
+demanden mucha cantidad de agua, persistir en cultivar reiteradas veces el mismo
+producto, se relaciona con el hecho de que aumenten las probabilidades de
+salinización de los suelos agrícolas y de que no crezcan o se mueran las plantas
+productivas. El 100% de los agricultores encuestados señalaron la salinización de
+sus terrenos origina disminución de la producción y por ende pérdidas económicas,
+tal y como Silva y Correa, 2009, (p 57) lo plantearon, al afirmar que los factores
+antrópicos propician alteraciones a las propiedades del suelo agrícola y por esto
+tendrá impacto en su productividad. Los factores antrópicos repercuten en la
+acumulación de sales solubles y luego generan que otras características de los
+suelos se tornan agresivos para las plantas y cultivos que deseen implantarse.
+Luego también si se intenta revertir este problema resulta costoso y difícil de
+superar por lo que es recomendable que se tenga consideración en cómo los
+agricultores y campesinos conducen sus terrenos y cultivos a fin de evitar
+consecuencias negativas. Así también Gustavo Mercado Macera p 126, señala que
+los productores que participaron en el estudio identificaron que falta recursos para
+poder implementar sistemas tecnológicos para el riego y prevenir este problema,
+afirmación que también se deduce de lo manifestado por los participantes del
+presente estudio, que identifican el factor de riego por inundación como principal
+aspecto de promoción de la perdida de suelos agrícolas y del mismo modo pérdidas
+económicas en su labor agrícola.
+
+La presente tesis coincide con los resultados que planteó el estudio investigativo
+de (Curi, 2018, p 65) quien señala que la salinización se vuelve un problema para
+los agricultores y evita que haya un crecimiento normal de las plantaciones
+agrícolas y por consiguiente nula producción de estas zonas. Luego (Ibañez, 2015,
+
+
+
+                                                                                 39
+p 78) en esta misma línea indica que la cantidad de terrenos a nivel mundial ha ido
+creciendo con los años y hasta ese año se tenía entre 60y 80 millones de hectáreas
+son las afectadas por la salinización. Y dentro de los factores que más se señala
+como la causal es el tipo de riego que se emplea en estas zonas, esto es la
+inundación.
+
+Según la Organización de las Naciones Unidas para la Agricultura y la Alimentación
+(FAO, 2017, p 35), el problema de la salinización ocurre a nivel mundial y degrada
+los suelos, lo que pondría en riesgos la alimentación de las poblaciones, por lo que
+urge prevenir y seguir haciendo investigación para lograr mejorar los suelos
+destinados a la agricultura.
+
+2. El estudio se planteó establecer la relación entre nivel de cultivos, mayor será el
+índice de vegetación salitrosa de los suelos agrícolas y con las pruebas estadísticas
+se evidenció que hay una estrecha correlación entre el nivel de cultivo de arroz con
+la proliferación de ambientes salinos donde crece vegetaciones propias de suelos
+salitrosos. (SIgueñas, 2019, p 61) en una publicación de la Universidad Nacional
+Mayor de San Marcos, que baso su estudio en suelo de Lambayeque menciona
+que el índice de vegetación en zonas salitrosas disminuye y las sales no permiten
+el crecimiento de las plantas productivas y que las plantas de suelo salitroso como
+la verdolaga de playa, las plantas de cristal, la juncia crece en estas zonas y tienden
+a expandirse a zonas cultivables buenas y promueven la salinización de nuevos
+suelos.
+
+Padilla, (2017, p 39), en su tesis agrega que el impacto de la salinización de los
+suelos repercute en la presencia de vegetación y que donde hay un exceso de sales
+genera que en los suelos haya claros, es decir espacios sin vegetación, que a la
+larga también repercute en el medioambiente y ornamento de los pueblos real.
+
+Los tipos de cultivo influyen y repercuten en la presencia de elementos y nutrientes
+del suelo. Según la cantidad de agua y los sedimentos que trae al terreno de cultivo.
+Además, es necesario precisar que cada tipo de cultivo acarrea una serie de
+subprocesos, el tiempo de duración, los abonos que se aplicarán, el tipo de
+movimiento que corresponde que el agricultor haga al suelo para poder ayudar al
+cultivo respectivo a crecer y mantenerse hasta llegar a la cosecha. Algunos cultivos
+
+
+
+                                                                                    40
+comprenden uno o más aplicaciones de abonos, riego, etc. En la zona donde se
+aplicó la investigación en los últimos años los cultivos que mas se han dado han
+sido el de arroz, algodón y maíz, siendo el preferido por los agricultores el de arroz
+por ser considerado el más rentable, pero es en este cultivo donde, como varias de
+las investigaciones citadas, es el cultivo que más consecuencias trae para el
+tratamiento y consolidación del suelo agrícola.
+
+3. La investigación también se centró en establecer la correlación entre el nivel de
+riego por inundación y la salinización e índice de humedad de los suelos agrícolas.
+Los agricultores encuestados manifestaron que los cultivos que dependiendo del
+cultivo que se promueva y el tipo de riego es que se genera un uso excesivo del
+agua que promueve humedad en exceso, misma que puede generar que la capa
+freática del suelo eleve su ubicación y por ende las sales fluyen con más rapidez
+promoviendo la salinidad de dichos suelos. (Ramos, 2021, p 75) señala que la
+salinización se debe a las malas prácticas agrícolas y en estas se agrega el tipo o
+forma en que se riegan los cultivos, coincidiendo con la conclusión de la
+investigación realizada. Agrega también él que esta también podría deberse al uso
+de aguas de que hayan sido usadas previamente en el riego de otros terrenos.
+(Palancar, 2017, p 98) concluye que los suelos salinos y salinos – sódicos se deben
+al riego. Que es el agua el conductor de las sales que promueven la salinidad. Indica
+que esto también se debe al uso de aguas residuales.
+
+En los datos que se recogieron en la presente investigación, el 98% de los terrenos
+son regados con agua de la represa, que es propia de la lluvia que se junta en el
+periodo de verano y luego es distribuido a través de canaletas hasta los terrenos
+agrícolas de cada zona. Si bien no se ha medido la calidad de las aguas, se tiene
+por experiencia que es agua en primer uso, aunque durante los primeros meses
+viene con sedimentos que arrastra al venir cerro abajo. Viendo los resultados del
+estadístico se tiene que la correlación es significativa y elevada, pero recoge la
+expectativa que los agricultores observan de su observación y experiencia con sus
+terrenos agrícolas y considerando los cultivos que han venido implantando.
+
+Según se ha podido observar, y como (Barbosa, 2022, p 53) en su artículo de
+investigación, titulado: “La variabilidad de la salinidad y humedad en la génesis de
+suelos de un humedal”, las zonas con depresión o que se encuentran por debajo
+
+
+                                                                                   41
+del nivel del mar y que tienen excesos de agua promueven la presencia de sales
+que posibilitan suelos salitrosos permanentes. Considerando la correlación
+significativa y alta que se obtuvo nos hace coincidir en los resultados. Ahora
+también es necesario precisar que la capa freática en muchos casos es la principal
+propulsora de suelos con abundante salinidad y es que el agua que alberga con
+mayor grado de salinidad es lo que promueve esta característica. Aunque también
+va a depender del tipo de suelo que se tenga, la calidad y cantidad de porosidad de
+este terreno, así como la presencia de drenaje que posibilite o no discurran las
+aguas o humedad que se haya cumulado.
+
+4. la tercera hipótesis que buscó corroborar fue la que a la letra señala: A mayor
+nivel de fertilizantes y herbicidas químicos, mayor será la salinización y niveles de
+algunos componentes de los suelos agrícolas. Dicha hipótesis fue aceptada dado
+los resultados aplicando los resultados del análisis estadístico de los instrumentos
+así como del análisis de suelos; se tuvo como resultado final 0.9943 como índice
+de correlación, es decir que el uso de los fertilizantes y venenos químicos influye
+en gran medida en la salinización de los suelos agrícolas. (Torres, y otros 2016, p
+18) en su artículo de investigación titulado “Riesgos de salinización y sodificación
+por el uso de abonos orgánicos en la depresión de Quíbor-Venezuela”, concluye
+que el uso de abonos orgánicos es beneficioso para el suelo, sin embargo cuando
+este excede a la necesidad del suelo podría convertirse en causa de salinización
+del mismo, por lo que recomienda el uso racional de este tipo de abonos. Esta
+conclusión coincide con lo que en nuestra investigación se recoge. En la aplicación
+de la encuesta los agricultores manifestaron como conocimiento empírico el hecho
+de que, si a un terreno le aplicaban mucho abono, esté terminada salinizándose.
+Por otro lado Vilca, et al ( 2018, p 47) en su tesis sobre impacto de los fertilizantes
+químicos en los suelos, concluye que cuando se utilizan en exceso fertilizantes,
+estos originan impacto negativo en la calidad de los suelos. Este estudio respalda
+lo recogido de los agricultores del Tablazo Sur, de que los suelos por presencia de
+insecticidas y abono químicas. La urea es uno de los abonos que se indicó es el
+fertilizante químico que más impactos tienen en el suelo y ambiente natural.
+
+
+
+
+                                                                                    42
+V.      Conclusiones
+
+La presente tesis arribó a las siguientes conclusiones:
+
+
+1.      En consideración al objetivo 1, a mayor cantidad de factores antrópicos como
+        el tipo de riego, el tipo de cultivo, la ubicación del terreno agrícola, el uso de
+        insecticidas químicos, mayor medida es la posibilidad de que este se
+        transforme en un terreno con abundante salinización y mayor será el impacto
+        que genera en los cultivos que se implanten.
+2.      En la zona del Tablazo sur, donde se ha desarrollado la presente
+        investigación se concluye que hay una mayor tendencia de que el cultivo de
+        arroz sea el que influya para que haya mayor cantidad de terrenos con el
+        problema de la salinidad excesiva y mayor será el índice de vegetación
+        salitrosa de los suelos agrícolas La correlación significativa determina que
+        cuanto más se siembra arroz hay más tendencia a que los suelos terminen
+        con el problema de salinización o que estas zonas vayan en aumento y en
+        estos suelos salitrosos aparezca mayor vegetación propia de suelos
+        salitrosos,   como    por    ejemplo:    juncus    acuts   (juncia),   Sesuvium
+        portulacastrum (verdolaga de playa), Salicornia europaea (hierba de cristal),
+        etc.
+     3. En los terrenos agrícolas de Tablazo sur hay, mayor será la relación entre el
+        riego por inundación y la salinización de los suelos, es decir que cuanto
+        menor sean las oportunidades de regar por inundación menor será la
+        posibilidad de promover que estos suelos se tornen salinos. Así, si un 25%
+        de los agricultores promueve un riego por inundación, el 62.5% tuvo un alto
+        nivel de salinidad.
+4.      El uso excesivo de fertilizantes, sean estos químicos u orgánicos promueven
+        y generan mayor tendencia a degradar el suelo o elevar sus niveles de ph y
+        salinidad. La aplicación muy alta de abonos y fertilizantes, muy por encima
+        de lo que se necesita, puede afectar de manera negativa en la producción y
+        calidad de los suelos que se tiene, llegándolos a tornar muy salinos.
+
+
+
+
+                                                                                       43
+VI.      Recomendaciones
+
+
+1. Se recomienda implementar sistemas de riego tecnificados, como el riego por
+      goteo o aspersión, para minimizar el uso excesivo de agua, lo cual puede
+      contribuir a la acumulación de sales en los suelos. Es fundamental que los
+      agricultores sean capacitados en el manejo adecuado de estos sistemas para
+      evitar la salinización y mejorar la eficiencia del uso del agua.
+
+
+2. Fomentar la utilización de fertilizantes orgánicos y la práctica de la rotación de
+      cultivos: Es crucial reducir el uso excesivo de fertilizantes químicos, los cuales
+      contribuyen a la salinización del suelo. Se recomienda sustituir gradualmente los
+      fertilizantes químicos por abonos orgánicos y promover la rotación de cultivos
+      para mantener la salud del suelo, disminuir la acumulación de sales y mejorar la
+      fertilidad a largo plazo.
+
+
+3. Implementación de medidas de drenaje adecuado en áreas de riego: El drenaje
+      adecuado de los suelos agrícolas es fundamental para prevenir la acumulación
+      de sales. Se sugiere implementar sistemas de drenaje que permitan la salida del
+      exceso de sales, evitando que estas se queden concentradas en la capa
+      superficial del suelo. Este tipo de intervención es esencial para la preservación
+      de la calidad del suelo y la sostenibilidad agrícola.
+
+
+4. Promover la educación y sensibilización en buenas prácticas agrícolas: Es
+      necesario desarrollar programas de capacitación y sensibilización dirigidos a los
+      agricultores sobre las consecuencias de la salinización del suelo y cómo
+      prevenirla. Estos programas deberían incluir el uso adecuado de insumos
+      agrícolas, la importancia del manejo adecuado del agua, y las técnicas de cultivo
+      que favorezcan la preservación de la calidad del suelo. La educación en prácticas
+      agrícolas sostenibles es clave para mitigar la salinización a largo plazo.
+
+
+
+
+                                                                                     44
+VII.     Referencias
+
+
+Barbosa, (2022) La variabilidad de la salinidad y humedad en la génesis de suelos
+de un humedal.
+https://ri.conicet.gov.ar/bitstream/handle/11336/214630/CONICET_Digital_Nro.e0
+4f8c96-5a52-42f2-996f-495d1a834da_B.pdf?sequence=2&isAllowed=y
+Bayuelo-Jiménez, J.S., Debouck, D.G., & Lynch, J.P. (2002). Salinity tolerance in
+Phaseolus species during early vegetative growth. *Crop Science*, 42(5), 2184-
+2192.
+
+Castellano (2016). La Salinidad de los Suelos, un Problema que Amenaza su
+Fertilidad. https://www.intagri.com/articulos/suelos/salinidad-de-suelos-problema-
+de-fertilidad
+Choi, J., Lee, K., & Kim, D. (2022). Remote Sensing Techniques for Soil Salinity
+Assessment: A Review. Remote Sensing of Environment, 275, 113264.
+https://doi.org/10.1016/j.rse.2022.113264.
+
+Curi, (2018). Identificación de suelos salinos mediante aplicación de un modelo
+matemático en imágenes del landsat 8/ldcm en el distrito de Ocucaje - Lima, 2018.
+https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/28101/CURI_QF.pdf
+?sequence=1&isAllowed=y
+Devine, (2005) Uso de insecticidas: contexto y consecuencias ecológicas.
+http://www.scielo.org.pe/pdf/rins/v25n1/a11v25n1
+
+FAO, (2021). La Desertificación y sequía: una consecuencia directa en nuestras
+vidas.                 https://ciup.up.edu.pe/analisis/la-desertificacion-y-sequia-una-
+consecuencia-directa-en-nuestras-vidas/
+Fertilab.    (2020).    La    salinidad    en     los   suelos.    Recuperado       de
+[Fertilab](https://www.fertilab.com.mx/AdminFertilab/Notas_Tecnicas/pdf_nota/LA_
+SALINIDAD_EN_LOS_SUELOS.pdf).
+García, J., Moreno, A., & Vargas, F. (2022). Impacts of Anthropogenic Factors on
+Environmental and Ecological Systems. Environmental Science & Policy, 129, 97-
+106. https://doi.org/10.1016/j.envsci.2022.01.013.
+
+
+
+
+                                                                                    45
+González, (1990). Análisis y evaluación de los problemas de drenaje y salinidad
+con el apoyo del sistema de información geográfica en el valle del Bajo Piura –
+Perú.
+https://repositorio.ana.gob.pe/bitstream/handle/20.500.12543/1535/ANA0000316.p
+df?sequence=1&isAllowed=y
+
+GORE (Gobierno Regional de Piura), (2010), Expediente técnico para la Creación
+y conformación del consejo de recursos hídricos de la cuenca Chira – Piura.
+http://www.ana.gob.pe/sites/default/files/archivos/paginas/02%20ExpTecnico_0.pd
+f
+Hernandez, J., Lopez, M., & Martinez, E. (2023). Advancements in Precision
+Agriculture: Integrating Satellite and Drone Data for Soil Management. Precision
+Agriculture, 24(2), 512-529. https://doi.org/10.1007/s11119-023-09725-9.
+IUSS Working Group WRB. (2007). *World Reference Base for Soil Resources
+2006*. First Update 2007. FAO.
+JOHNSON, M.; LEE, A. Anthropogenic Factors and Soil Salinization: A Review.
+Journal of Environmental Management, [s.l.], v. 234, p. 45-60, 2019. DOI:
+10.1016/j.jenvman.2018.12.029.
+Kumar, A., Sharma, R., & Patel, V. (2023). Soil Elements and Their Role in Soil
+Health and Crop Production. Journal of Soil Science and Plant Nutrition, 23(1), 45-
+59. https://doi.org/10.1007/s11368-022-03678-9.
+
+Lamz, Alexis (2012). La salinidad como problema en la agricultura: la mejora
+vegetal            una            solución            inmediata.             Cuba.
+http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0258-59362013000400005
+
+Liu, Y., Zhang, H., & Li, X. (2023). Recent Advances in Understanding Soil
+Salinization: Processes, Impacts, and Management Strategies. Soil Use and
+Management, 39(1), 16-29. https://doi.org/10.1111/sum.12785.
+Marchese, (2015) Estudio físico y químico de suelos agrícolas para la estimación
+del nivel de salinización en el sector bajo de San Pedro                   de Lloc.
+https://tesis.pucp.edu.pe/repositorio/bitstream/handle/20.500.12404/6442/MARCH
+ESE_ADOLOFO_BRUNO_SUELOS_AGRICOLAS_SALINIZACION.pdf?sequenc
+e=1&isAllowed=y
+
+
+
+                                                                                 46
+Mercado, G. (2011). Desertificación de cuencas agrícolas en la baja California Sur.
+Uso, manejo y preservación de los recursos naturales (orientación en agricultura
+sostenible)
+MILLER, J.; ANDERSON, M. Documenting Soil Histories for Effective Agricultural
+Research. Soil Science Society of America Journal, [s.l.], v. 84, n. 1, p. 89-100,
+2021. DOI: 10.2136/sssaj2020.06.0274.
+
+Morales, (2013). Estudio de los costos de la desertificación y degradación de las
+tierras           en         el          departamento              de          Piura.
+https://sinia.minam.gob.pe/sites/default/files/sinia/archivos/public/docs/3803.pdf
+
+Munns y Tester (2018). Mechanisms of Salinity Tolerance. Annual Review of Plant
+Biology,651-681
+
+Omuto, Christian (2021). Mapeo de suelos afectados por salinidad. Manual técnico.
+https://openknowledge.fao.org/server/api/core/bitstreams/bd007ae9-18ef-4f5e-
+abd3-6194eb8a8100/content
+
+ONU, (2021). Los suelos salinos se convierten en un nuevo peligro para nuestra
+alimentación. https://news.un.org/es/story/2021/10/1498492
+
+Orosco y otros, 2017. Tolerancia a salinidad en plantas cultivadas: una visión
+agronómica.
+file:///C:/Users/marko/Downloads/valeria_sias,+Journal+manager,+con-8.pdf
+Padilla, Leonardo (2017) Variabilidad espacial de la salinidad en suelos del distrito
+de            riego        014,           Mexicali          Baja           California.
+http://ri.uaemex.mx/bitstream/handle/20.500.11799/67920/UAEM-FaPUR-Tesis.
+Leonardo%20Sebastian%20Padilla%20Arzaluz.pdf;jsessionid=FEE8EA5C854DB
+983764B176B71C576EE?sequence=3
+Palancar, (2018) Compresibilidad y resistencia al corte de suelos salinizados y
+sodificados                              por                               irrigación.
+https://m.riunet.upv.es/bitstream/handle/10251/1939/tesisUPV2695.pdf?sequence
+=1&isAllowed=y
+
+
+
+
+                                                                                     47
+PATEL, R.; DAVIS, M.; KUMAR, R. Criteria for Soil Sampling in Varied
+Environmental Conditions. Soil & Tillage Research, [s.l.], v. 205, p. 33-42, 2020.
+DOI: 10.1016/j.still.2020.104764.
+Ponvert Delisles, D., & Lau Quan, A. (2013). Uso de las imágenes de satélites y los
+SIG en el campo de la Ingeniería Agrícola. Revista Ciencias Técnicas
+Agropecuarias, 22(4), 13-22.
+
+Pulido Madrigal, (2007). Monitoreo de la salinidad mediante sensores remotos.
+https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0187-
+57792010000100002
+
+Quadir, (2014) Economía de la degradación y restauración de la tierra inducida por
+la salinización. https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-8947.12054
+
+
+Ramírez, A. (2016). Evaluación del impacto ambiental por salinización en suelos
+agrícolas. *Revista Latinoamericana de Recursos Naturales*, 12(1), 45-60.
+Ramos, I., Martinez, J., & Garcia, P. (2023). Soil Salinization Dynamics and
+Management       Strategies.    Soil    &      Tillage      Research,    227,    105732.
+https://doi.org/10.1016/j.still.2023.105732.
+
+
+Rengasamy,      (2021).   World     salinization     with     emphasis    on    Australia.
+https://www.semanticscholar.org/paper/Salinity-and-the-reclamation-of-salinized-
+lands-Harper-Dell/c6f3b1d33ddc250a68a3052ebc8449598e764f7b
+
+Rocha, (2019). Métodos para recuperar suelos afectados por la salinidad y/o
+sodicidad,                                                                          Lima.
+https://repositorio.cientifica.edu.pe/bitstream/handle/20.500.12805/780/TB-
+Rocha%20R-Ext.pdf?sequence=10&isAllowed=y
+
+Rodas, A. (2008). Degradación de suelos por empantanamiento y desalinización:
+valle          Bajo            Piura.              https://iragerblog.wordpress.com/wp-
+content/uploads/2016/06/tesina-degradacic3b3n-suelos-empantanamiento-
+salinizacic3b3n-bajo-piura-abraham-rodas.pdf
+
+
+
+
+                                                                                       48
+Rodríguez Moreno, V. M., Ruíz Corral, J. A., Padilla Ramírez, J. S., & Marín Silva
+Serna, M. (2016). Mapeo espacial de la salinidad del suelo a través de sensores
+remotos. Revista Mexicana de Ciencias Agrícolas, 7(spe13), 2577-2588.
+Sánchez, J.E., et al. (2008). Dinámica de la salinidad en los suelos agrícolas:
+causas y consecuencias. *E-BIOS*, 1(5), 26-35.
+Setia, R., et al. (2013). Estimación del nivel de salinización en suelos agrícolas
+mediante métodos espectrales. *Revista Internacional de Agricultura*, 10(2), 123-
+135.
+Sigueñas, (2019) Vigilancia de la salinidad del suelo en cultivos de arroz en
+Lambayeque, periodo 2001-2014 utilizando imágenes de satélite y conductividad
+eléctrica.                             Recuperado                                de:
+file:///C:/Users/marko/Downloads/santillan,+02siguenas.pdf
+Smith, J., Brown, P., & Johnson, R. (2022). Soil Properties and Classification:
+Implications for Agriculture and Engineering. Soil Science Society of America
+Journal, 86(2), 345-357. https://doi.org/10.2136/sssaj2021.09.0368.
+SMITH, J.; DOE, A.; WILSON, T. Impact of Agricultural Practices on Soil Properties:
+Insights and Methodologies. Journal of Soil and Water Conservation, [s.l.], v. 77, n.
+4, p. 210-223, 2022. DOI: 10.2489/jswc.77.4.210.
+
+SMITH, J.; DOE, A.; WILSON, T. Impact of Anthropogenic Activities on Soil
+Properties. Soil Science Society of America Journal, [s.l.], v. 85, n. 3, p. 123-134,
+2021. DOI: 10.2136/sssaj2020.11.0406.
+Taylor, M. (2018). Soil Quality Indicators: Methods and Applications. Soil Science
+Society        of        America          Journal,         82(4),        1251-1260.
+https://doi.org/10.2136/sssaj2018.01.0012.
+
+Vilca, Juan (2018) Los fertilizantes químicos y su influencia en la calidad de suelos
+de cultivos de maíz en el distrito Chingas, provincia de Antonio Raimondi- Ancash,
+2017-2018.
+https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/21141/Vilca_RJC.pdf
+?sequence=1&isAllowed=y
+Zamudio, G.B., López-P., G.A., & González E.J.A.R. (2004). Delimitación de áreas
+salinas en el distrito de riego Caborca, Sonora, México. *TERRA Latinoamericana*,
+22(1), 91-97
+
+
+                                                                                  49
+Anexo 4: reporte de similitud en turnitin
+

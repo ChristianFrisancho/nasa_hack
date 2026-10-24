@@ -1,0 +1,1765 @@
+ 
+
+ 
+ 
+ Chapter 8 - ETc under soil water stress conditions 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chapter 8 - ET c 
+ under soil water stress conditions 
+ 
+ Soil water availability 
+ Water stress coefficient (K s ) 
+ Soil water balance 
+ Forecasting or allocating 
+ irrigations 
+ Effects of soil salinity 
+ Yield-salinity relationship 
+ Yield-moisture stress 
+ relationship 
+ Combined salinity-ET 
+ reduction relationship 
+ Application 
+ 
+ Forces acting on the soil water decrease its potential energy and make it less available for plant root extraction. When the soil is wet, the water has a high potential energy, is relatively free to move and is easily taken up by the plant roots. In dry soils, the water has a low potential energy and is strongly bound by capillary and absorptive forces to the soil matrix, and is less easily extracted by the crop.
+ When the potential energy of the soil water drops below a threshold value, the crop is said to be water stressed. The effects of soil water stress are described by multiplying the basal crop coefficient by the water stress coefficient, K s :
+ ET c adj = (K s K cb + K e ) ET o (80) 
+ For soil water limiting conditions, K s < 1. Where there is no soil water stress, K s = 1.
+ K s describes the effect of water stress on crop transpiration. Where the single crop coefficient is used, the effect of water stress is incorporated into K c as:
+ ET c adj = K s K c ET o (81) 
+ Because the water stress coefficient impacts only crop transpiration, rather than evaporation from soil, the application of K s using Equation 80 is generally more valid than is application using Equation 81. However, in situations where evaporation from soil is not a large component of ET c , use of Equation 81 will provide reasonable results.
+ Soil water availability 
+ 
+ 
+ Total available water (TAW) 
+ Readily available water (RAW) 
+ 
+ 
+ Total available water (TAW) 
+ Soil water availability refers to the capacity of a soil to retain water available to plants. After heavy rainfall or irrigation, the soil will drain until field capacity is reached. Field capacity is the amount of water that a well-drained soil should hold against gravitational forces, or the amount of water remaining when downward drainage has markedly decreased. In the absence of water supply, the water content in the root zone decreases as a result of water uptake by the crop. As water uptake progresses, the remaining water is held to the soil particles with greater force, lowering its potential energy and making it more difficult for the plant to extract it. Eventually, a point is reached where the crop can no longer extract the remaining water. The water uptake becomes zero when wilting point is reached. Wilting point is the water content at which plants will permanently wilt.
+ As the water content above field capacity cannot be held against the forces of gravity and will drain and as the water content below wilting point cannot be extracted by plant roots, the total available water in the root zone is the difference between the water content at field capacity and wilting point:
+ TAW = 1000( q FC - q WP ) Z r (82) 
+ where
+ TAW the total available soil water in the root zone [mm], q FC the water content at field capacity [m 3 m -3 ], q WP the water content at wilting point [m 3 m -3 ], Z r the rooting depth [m]. 
+ TAW is the amount of water that a crop can extract from its root zone, and its magnitude depends on the type of soil and the rooting depth. Typical ranges for field capacity and wilting point are listed in Table 19 for various soil texture classes. Ranges of the maximum effective rooting depth for various crops are given in Table 22. Readily available water (RAW) 
+ Although water is theoretically available until wilting point, crop water uptake is reduced well before wilting point is reached. Where the soil is sufficiently wet, the soil supplies water fast enough to meet the atmospheric demand of the crop, and water uptake equals ET c . As the soil water content decreases, water becomes more strongly bound to the soil matrix and is more difficult to extract. When the soil water content drops below a threshold value, soil water can no longer be transported quickly enough towards the roots to respond to the transpiration demand and the crop begins to experience stress. The fraction of TAW that a crop can extract from the root zone without suffering water stress is the readily available soil water:
+ RAW = p TAW (83) 
+ where
+ RAW the readily available soil water in the root zone [mm], p average fraction of Total Available Soil Water (TAW) that can be depleted from the root zone before moisture stress (reduction in ET) occurs [0-1]. 
+ Values for p are listed in Table 22. The factor p differs from one crop to another. The factor p normally varies from 0.30 for shallow rooted plants at high rates of ET c (> 8 mm d -1 ) to 0.70 for deep rooted plants at low rates of ET c (< 3 mm d -1 ). A value of 0.50 for p is commonly used for many crops.
+ The fraction p is a function of the evaporation power of the atmosphere. At low rates of ET c , the p values listed in Table 22 are higher than at high rates of ET c . For hot dry weather conditions, where ET c is high, p is 10-25% less than the values presented in Table 22, and the soil is still relatively wet when the stress starts to occur. When the crop evapotranspiration is low, p will be up to 20% more than the listed values. Often, a constant value is used for p for a specific growing period, rather than varying the value each day. A numerical approximation for adjusting p for ET c rate is p = p Table 22 + 0.04 (5 - ET c ) where the adjusted p is limited to 0.1 £ p £ 0.8 and ET c is in mm/day. The influence of the numerical adjustment is shown in Figure 41.
+ TABLE 22. Ranges of maximum effective rooting depth (Z r ), and soil water depletion fraction for no stress (p), for common crops 
+ 
+ 
+ 
+ 
+ Crop 
+ 
+ Maximum Root Depth 1 (m) 
+ 
+ Depletion Fraction 2 (for ET » 5 mm/day) p 
+ a. Small Vegetables 
+ Broccoli 
+ 0.4-0.6 
+ 0.45 
+ Brussel Sprouts 
+ 0.4-0.6 
+ 0.45 
+ Cabbage 
+ 0.5-0.8 
+ 0.45 
+ Carrots 
+ 0.5-1.0 
+ 0.35 
+ Cauliflower 
+ 0.4-0.7 
+ 0.45 
+ Celery 
+ 0.3-0.5 
+ 0.20 
+ Garlic 
+ 0.3-0.5 
+ 0.30 
+ Lettuce 
+ 0.3-0.5 
+ 0.30 
+ Onions 
+ | 
+ | 
+ | 
+ - dry 
+ 0.3-0.6 
+ 0.30 
+ | 
+ - green 
+ 0.3-0.6 
+ 0.30 
+ | 
+ - seed 
+ 0.3-0.6 
+ 0.35 
+ Spinach 
+ 0.3-0.5 
+ 0.20 
+ Radishes 
+ 0.3-0.5 
+ 0.30 
+ b. Vegetables - Solarium Family (Solanaceae) 
+ Egg Plant 
+ 0.7-1.2 
+ 0.45 
+ Sweet Peppers (bell) 
+ 0.5-1.0 
+ 0.30 
+ Tomato 
+ 0.7-1.5 
+ 0.40 
+ c. Vegetables - Cucumber Family ( Cucurbitaceae ) 
+ Cantaloupe 
+ 0.9-1.5 
+ 0.45 
+ Cucumber 
+ | 
+ | 
+ | 
+ - Fresh Market 
+ 0.7-1.2 
+ 0.50 
+ | 
+ - Machine harvest 
+ 0.7-1.2 
+ 0.50 
+ Pumpkin, Winter Squash 
+ 1.0-1.5 
+ 0.35 
+ Squash, Zucchini 
+ 0.6-1.0 
+ 0.50 
+ Sweet Melons 
+ 0.8-1.5 
+ 0.40 
+ Watermelon 
+ 0.8-1.5 
+ 0.40 
+ d. Roots and Tubers 
+ Beets, table 
+ 0.6-1.0 
+ 0.50 
+ Cassava 
+ | 
+ | 
+ | 
+ - year 1 
+ 0.5-0.8 
+ 0.35 
+ | 
+ - year 2 
+ 0.7-1.0 
+ 0.40 
+ Parsnip 
+ 0.5-1.0 
+ 0.40 
+ Potato 
+ 0.4-0.6 
+ 0.35 
+ Sweet Potato 
+ 1.0-1.5 
+ 0.65 
+ Turnip (and Rutabaga) 
+ 0.5-1.0 
+ 0.50 
+ Sugar Beet 
+ 0.7-1.2 
+ 0.55 3 
+ e. Legumes (Leguminosae) 
+ Beans, green 
+ 0.5-0.7 
+ 0.45 
+ Beans, dry and Pulses 
+ 0.6-0.9 
+ 0.45 
+ Beans, lima, large vines 
+ 0.8-1.2 
+ 0.45 
+ Chick pea 
+ 0.6-1.0 
+ 0.50 
+ Fababean (broad bean) 
+ | 
+ | 
+ | 
+ - Fresh 
+ 0.5-0.7 
+ 0.45 
+ | 
+ - Dry/Seed 
+ 0.5-0.7 
+ 0.45 
+ Grabanzo 
+ 0.6-1.0 
+ 0.45 
+ Green Gram and Cowpeas 
+ 0.6-1.0 
+ 0.45 
+ Groundnut (Peanut) 
+ 0.5-1.0 
+ 0.50 
+ Lentil 
+ 0.6-0.8 
+ 0.50 
+ Peas 
+ | 
+ | 
+ | 
+ - Fresh 
+ 0.6-1.0 
+ 0.35 
+ | 
+ - Dry/Seed 
+ 0.6-1.0 
+ 0.40 
+ Soybeans 
+ 0.6-1.3 
+ 0.50 
+ f. Perennial Vegetables (with winter dormancy and initially bare or mulched soil) 
+ Artichokes 
+ 0.6-0.9 
+ 0.45 
+ Asparagus 
+ 1.2-1.8 
+ 0.45 
+ Mint 
+ 0.4-0.8 
+ 0.40 
+ Strawberries 
+ 0.2-0.3 
+ 0.20 
+ g. Fibre Crops 
+ Cotton 
+ 1.0-1.7 
+ 0.65 
+ Flax 
+ 1.0-1.5 
+ 0.50 
+ Sisal 
+ 0.5-1.0 
+ 0.80 
+ h. Oil Crops 
+ Castorbean (Ricinus) 
+ 1.0-2.0 
+ 0.50 
+ Rapeseed, Canola 
+ 1.0-1.5 
+ 0.60 
+ Safflower 
+ 1.0-2.0 
+ 0.60 
+ Sesame 
+ 1.0-1.5 
+ 0.60 
+ Sunflower 
+ 0.8-1.5 
+ 0.45 
+ i. Cereals 
+ Barley 
+ 1.0-1.5 
+ 0.55 
+ Oats 
+ 1.0-1.5 
+ 0.55 
+ Spring Wheat 
+ 1.0-1.5 
+ 0.55 
+ Winter Wheat 
+ 1.5-1.8 
+ 0.55 
+ Maize, Field (grain) (field corn) 
+ 1.0-1.7 
+ 0.55 
+ Maize, Sweet (sweet corn) 
+ 0.8-1.2 
+ 0.50 
+ Millet 
+ 1.0-2.0 
+ 0.55 
+ Sorghum 
+ | 
+ | 
+ | 
+ - grain 
+ 1.0-2.0 
+ 0.55 
+ | 
+ - sweet 
+ 1.0-2.0 
+ 0.50 
+ Rice 
+ 0.5-1.0 
+ 0.20 4 
+ j. Forages 
+ Alfalfa 
+ | 
+ | 
+ | 
+ - for hay 
+ 1.0-2.0 
+ 0.55 
+ | 
+ - for seed 
+ 1.0-3.0 
+ 0.60 
+ Bermuda 
+ | 
+ | 
+ | 
+ - for hay 
+ 1.0-1.5 
+ 0.55 
+ | 
+ - Spring crop for seed 
+ 1.0-1.5 
+ 0.60 
+ Clover hay, Berseem 
+ 0.6-0.9 
+ 0.50 
+ Rye Grass hay 
+ 0.6-1.0 
+ 0.60 
+ Sudan Grass hay (annual) 
+ 1.0-1.5 
+ 0.55 
+ Grazing Pasture 
+ | 
+ | 
+ | 
+ - Rotated Grazing 
+ 0.5-1.5 
+ 0.60 
+ | 
+ - Extensive Grazing 
+ 0.5-1.5 
+ 0.60 
+ Turf grass 
+ | 
+ | 
+ | 
+ - cool season 5 
+ 0.5-1.0 
+ 0.40 
+ | 
+ - warm season 5 
+ 0.5-1.0 
+ 0.50 
+ k. Sugar Cane 
+ 1.2-2.0 
+ 0.65 
+ l. Tropical Fruits and Trees 
+ Banana 
+ | 
+ | 
+ | 
+ - 1 st year 
+ 0.5-0.9 
+ 0.35 
+ | 
+ - 2 nd year 
+ 0.5-0.9 
+ 0.35 
+ Cacao 
+ 0.7-1.0 
+ 0.30 
+ Coffee 
+ 0.9-1.5 
+ 0.40 
+ Date Palms 
+ 1.5-2.5 
+ 0.50 
+ Palm Trees 
+ 0.7-1.1 
+ 0.65 
+ Pineapple 
+ 0.3-0.6 
+ 0.50 
+ Rubber Trees 
+ 1.0-1.5 
+ 0.40 
+ Tea 
+ | 
+ | 
+ | 
+ - non-shaded 
+ 0.9-1.5 
+ 0.40 
+ | 
+ - shaded 
+ 0.9-1.5 
+ 0.45 
+ m. Grapes and Berries 
+ Berries (bushes) 
+ 0.6-1.2 
+ 0.50 
+ Grapes 
+ | 
+ | 
+ | 
+ - Table or Raisin 
+ 1.0-2.0 
+ 0.35 
+ | 
+ - Wine 
+ 1.0-2.0 
+ 0.45 
+ Hops 
+ 1.0-1.2 
+ 0.50 
+ n. Fruit Trees 
+ Almonds 
+ 1.0-2.0 
+ 0.40 
+ Apples, Cherries, Pears 
+ 1.0-2.0 
+ 0.50 
+ Apricots, Peaches, Stone Fruit 
+ 1.0-2.0 
+ 0.50 
+ Avocado 
+ 0.5-1.0 
+ 0.70 
+ Citrus 
+ | 
+ | 
+ | 
+ - 70% canopy 
+ 1.2-1.5 
+ 0.50 
+ | 
+ - 50% canopy 
+ 1.1-1.5 
+ 0.50 
+ | 
+ - 20% canopy 
+ 0.8-1.1 
+ 0.50 
+ Conifer Trees 
+ 1.0-1.5 
+ 0.70 
+ Kiwi 
+ 0.7-1.3 
+ 0.35 
+ Olives (40 to 60% ground coverage by canopy) 
+ 1.2-1.7 
+ 0.65 
+ Pistachios 
+ 1.0-1.5 
+ 0.40 
+ Walnut Orchard 
+ 1.7-2.4 
+ 0.50 
+ 1 The larger values for Z r are for soils having no significant layering or other characteristics that can restrict rooting depth. The smaller values for Z r may be used for irrigation scheduling and the larger values for modeling soil water stress or for rainfed conditions.
+ 2 The values for p apply for ET c » 5 mm/day. The value for p can be adjusted for different ET c according to
+ p = p table 22 + 0.04 (5 - ET c ) 
+ where p is expressed as a fraction and ET c as mm/day.
+ 3 Sugar beets often experience late afternoon wilting in arid climates even at p < 0.55, with usually only minor impact on sugar yield.
+ 4 The value for p for rice is 0.20 of saturation.
+ 5 Cool season grass varieties include bluegrass, ryegrass and fescue. Warm season varieties include bermuda grass, buffalo grass and St. Augustine grass. Grasses are variable in rooting depth. Some root below 1.2 m while others have shallow rooting depths. The deeper rooting depths for grasses represent conditions where careful water management is practiced with higher depletion between irrigations to encourage the deeper root exploration. 
+ FIGURE 41. Depletion factor for different levels of crop evapotranspiration 
+ EXAMPLE 36. Determination of readily available soil water for various crops and soil types 
+ 
+ 
+ 
+ 
+ Estimate RAW for a full-grown onion, tomato and maize crop. Assume that 
+ the crops are cultivated on loamy sand, silt and silty clay soils.
+ 
+ 
+ 
+ 
+ From Table 22
+ 
+ 
+ Onion
+ 
+ 
+ Z r » 0.4 m
+ 
+ 
+ p = 0.30
+ 
+ 
+ 
+ 
+ Tomato
+ 
+ 
+ Z r » 0.8 m
+ 
+ 
+ p = 0.40
+ 
+ 
+ 
+ 
+ Maize
+ 
+ 
+ Z r » 1.2 m
+ 
+ 
+ p = 0.55
+ 
+ 
+ 
+ 
+ From Table 19
+ 
+ 
+ Loamy sand
+ 
+ 
+ q FC » 
+ 0.15 m 3 m -3 
+ 
+ 
+ q WP » 
+ 0.06 m 3 m -3 
+ 
+ 
+ 
+ 
+ 1000 ( q FC - q WP ) 
+ = 90 mm(water)/m(soil depth)
+ 
+ 
+ 
+ 
+ Silt
+ 
+ 
+ q FC » 
+ 0.32 m 3 m -3 
+ 
+ 
+ q WP » 
+ 0.15 m 3 m -3 
+ 
+ 
+ 
+ 
+ 1000 ( q FC - q WP ) 
+ = 170 mm(water)/m(soil depth)
+ 
+ 
+ 
+ 
+ Silty clay
+ 
+ 
+ q FC » 
+ 0.35 m 3 m -3 
+ 
+ 
+ q WP » 
+ 0.23 m 3 m -3 
+ 
+ 
+ 
+ 
+ 1000 ( q FC - q WP ) 
+ = 120 mm(water)/m(soil depth)
+ 
+ 
+ 
+ 
+ 
+ | 
+ 
+ Loamy sand 
+ 
+ 
+ Silt 
+ 
+ 
+ Silty clay 
+ 
+ 
+ 
+ 
+ 
+ | 
+ 
+ TAW 
+ (Eq. 82) 
+ mm 
+ 
+ 
+ RAW 
+ (Eq. 83) 
+ mm 
+ 
+ 
+ TAW 
+ (Eq. 82) 
+ mm 
+ 
+ 
+ RAW 
+ (Eq. 83) 
+ mm 
+ 
+ 
+ TAW 
+ (Eq. 82) 
+ mm 
+ 
+ 
+ RAW 
+ (Eq. 83) 
+ mm 
+ 
+ 
+ 
+ 
+ Onion
+ 
+ 
+ 36
+ 
+ 
+ 11
+ 
+ 
+ 68
+ 
+ 
+ 20
+ 
+ 
+ 48
+ 
+ 
+ 14
+ 
+ 
+ 
+ 
+ Tomato
+ 
+ 
+ 72
+ 
+ 
+ 29
+ 
+ 
+ 136
+ 
+ 
+ 54
+ 
+ 
+ 96
+ 
+ 
+ 38
+ 
+ 
+ 
+ 
+ Maize
+ 
+ 
+ 108
+ 
+ 
+ 59
+ 
+ 
+ 204
+ 
+ 
+ 112
+ 
+ 
+ 144
+ 
+ 
+ 79
+ 
+ 
+ 
+ To express the tolerance of crops to water stress as a function of the fraction (p) of TAW is not wholly correct. The rate of root water uptake is in fact influenced more directly by the potential energy level of the soil water (soil matric potential and the associated hydraulic conductivity) than by water content. As a certain soil matric potential corresponds in different soil types with different soil water contents, the value for p is also a function of the soil type. Generally, it can be stated that for fine textured soils (clay) the p values listed in Table 22 can be reduced by 5-10%, while for more coarse textured soils (sand), they can be increased by 5-10%.
+ RAW is similar to the term Management Allowed Depletion (MAD) introduced by Merriam However, values for MAD are influenced by management and economic factors in addition to the physical factors influencing p. Generally, MAD < RAW where there is risk aversion or uncertainty, and MAD > RAW where plant moisture stress is an intentional part of soil water management. Water stress coefficient (K s ) 
+ The effects of soil water stress on crop ET are described by reducing the value for the crop coefficient. This is accomplished by multiplying the crop coefficient by the water stress coefficient. K s (Equations 80 and 81).
+ Water content in me root zone can also be expressed by root zone depletion, D r , i.e., water shortage relative to field capacity. At field capacity, the root zone depletion is zero (D r = 0). When soil water is extracted by evapotranspiration, the depletion increases and stress will be induced when D r becomes equal to RAW. After the root zone depletion exceeds RAW (the water content drops below the threshold q t ), the root zone depletion is high enough to limit evapotranspiration to less than potential values and the crop evapotranspiration begins to decrease in proportion to the amount of water remaining in the root zone (Figure 42).
+ FIGURE 42. Water stress coefficient, K s 
+ EXAMPLE 37. Effect of water stress on crop evapotranspiration 
+ 
+ Estimate the effect of water stress on the evapotranspiration of a full grown tomato crop (Z r = 0.8 m and p = 0.40) cultivated on a silty soil ( q FC = 0.32 and q WP = 0.12 m 3 m -3 ) for the coming 10 days when the initial root zone depletion is 55 mm and neither rain nor irrigations are either forecasted or planned. The expected ET o for the coming decade is 5 mm/day and K c = 1.2.
+ 
+ 
+ From Eq. 82 
+ TAW = 1000 (0.32-0.12) 0.8 = 160 mm 
+ From Eq. 83 
+ RAW = 0.40 (160) = 64 mm 
+ (1) 
+ (2) 
+ (3) 
+ (4) 
+ (5) 
+ (6) 
+ (7) 
+ (8) 
+ Day 
+ ET o 
+ K c 
+ ET c 
+ D r, i start 
+ K s 
+ ET c adj 
+ D r, i end 
+ | 
+ mm/day 
+ | 
+ mm/day 
+ mm 
+ | 
+ mm/day 
+ mm 
+ start 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ 55.0 
+ 1 
+ 5.0 
+ 1.2 
+ 6.0 
+ 55.0 
+ 1.00 
+ 6.0 
+ 61.0 
+ 2 
+ 5.0 
+ 1.2 
+ 6.0 
+ 61.0 
+ 1.00 
+ 6.0 
+ 67.0 
+ 3 
+ 5.0 
+ 1.2 
+ 6.0 
+ 67.0 
+ 0.97 
+ 5.8 
+ 72.8 
+ 4 
+ 5.0 
+ 1.2 
+ 6.0 
+ 72.8 
+ 0.91 
+ 5.4 
+ 78.3 
+ 5 
+ 5.0 
+ 1.2 
+ 6.0 
+ 78.3 
+ 0.85 
+ 5.1 
+ 83.4 
+ 6 
+ 5.0 
+ 1.2 
+ 6.0 
+ 83.4 
+ 0.80 
+ 4.8 
+ 88.2 
+ 7 
+ 5.0 
+ 1.2 
+ 6.0 
+ 88.2 
+ 0.75 
+ 4.5 
+ 92.6 
+ 8 
+ 5.0 
+ 1.2 
+ 6.0 
+ 92.6 
+ 0.70 
+ 4.2 
+ 96.9 
+ 9 
+ 5.0 
+ 1.2 
+ 6.0 
+ 96.9 
+ 0.66 
+ 3.9 
+ 100.8 
+ 10 
+ 5.0 
+ 1.2 
+ 6.0 
+ 100.8 
+ 0.62 
+ 3.7 
+ 104.5 
+ (1) 
+ Day number. 
+ (2) 
+ Reference crop evapotranspiration. 
+ (3) 
+ Crop coefficient. 
+ (4) 
+ Eq. 58, crop ET if no water stress. 
+ (5) 
+ Root zone depletion at the beginning of the day (column 8 of previous day), 
+ (6) 
+ Eq. 84 where K s = 1 if D r, i < RAW. 
+ (7) 
+ Eq. 81, crop ET under soil water stress conditions. 
+ (8) 
+ Depletion at end of day. 
+ The example demonstrates that the estimate of K s requires a daily water balance calculation. This is developed further in the next section. 
+ FIGURE 43. Water balance of the root zone 
+ For D r > RAW, K s is given by:
+ 
+ (84) 
+ where
+ K s is a dimensionless transpiration reduction factor dependent on available soil water [0 - 1], D r root zone depletion [mm], TAW total available soil water in the root zone [mm], p fraction of TAW that a crop can extract from the root zone without suffering water stress [-]. 
+ After the computation of K s , the adjusted evapotranspiration ET c adj is computed by means of Equation 80 or 81, depending on the coefficients used to describe crop evapotranspiration. When the root zone depletion is smaller than RAW, K s = 1. Soil water balance 
+ The estimation of K s requires a daily water balance computation for the root zone. Schematically (Figure 43), the root zone can be presented by means of a container in which the water content may fluctuate. To express the water content as root zone depletion is useful. It makes the adding and subtracting of losses and gains straightforward as the various parameters of the soil water budget are usually expressed in terms of water depth. Rainfall, irrigation and capillary rise of groundwater towards the root zone add water to the root zone and decrease the root zone depletion. Soil evaporation, crop transpiration and percolation losses remove water from the root zone and increase the depletion. The daily water balance, expressed in terms of depletion at the end of the day is:
+ D r, i = D r, i-1 - (P - RO) i - I i - CR i + ET c, i + DP i (85) 
+ where
+ D r, i root zone depletion at the end of day i [mm], D r, i-1 water content in the root zone at the end of the previous day, i-1 [mm], P i precipitation on day i [mm], RO i runoff from the soil surface on day i [mm], I i net irrigation depth on day i that infiltrates the soil [mm], CR i capillary rise from the groundwater table on day i [mm], ET c, i crop evapotranspiration on day i [mm], DP i water loss out of the root zone by deep percolation on day i [mm]. 
+ Limits on D r, i 
+ In Figure 43 it is assumed that water can be stored in the root zone until field capacity is reached. Although following heavy rain or irrigation the water content might temporally exceed field capacity, the total amount of water above field capacity is assumed to be lost the same day by deep percolation, following any ET for that day. By assuming that the root zone is at field capacity following heavy rain or irrigation, the minimum value for the depletion D r, i is zero. As a result of percolation and evapotranspiration, the water content in the root zone will gradually decrease and the root zone depletion will increase. In the absence of any wetting event, the water content will steadily reach its minimum value q WP . At that moment no water is left for evapotranspiration in the root zone, K s becomes zero, and the root zone depletion has reached its maximum value TAW. The limits imposed on D r, i are consequently:
+ 0 £ D r, i £ TAW (86) 
+ Initial depletion 
+ To initiate the water balance for the root zone, the initial depletion D r, i-1 should be estimated. The initial depletion can be derived from measured soil water content by:
+ D r, i-1 = 1000( q FC - q i-1 ) Z r (87) 
+ where q i-1 is the average soil water content for the effective root zone. Following heavy rain or irrigation, the user can assume that the root zone is near field capacity, i.e., D r, i-1 » 0.
+ Precipitation (P), runoff (RO) and irrigation (I) 
+ P i is equivalent to daily precipitation. Daily precipitation in amounts less than about 0.2 ET o is normally entirely evaporated and can usually be ignored in the water balance calculations especially when the single crop coefficient approach is being used. Ii is equivalent to the mean infiltrated irrigation depth expressed for the entire field surface. Runoff from the surface during precipitation can be predicted using standard procedures from hydrological texts.
+ Capillary rise (CR) 
+ The amount of water transported upwards by capillary rise from the water table to the root zone depends on the soil type, the depth of the water table and the wetness of the root zone. CR can normally be assumed to be zero when the water table is more than about 1 m below the bottom of the root zone. Some information on CR was presented in FAO Irrigation and Drainage Paper No. 24. CR will be a topic in a future FAO publication.
+ Evapotranspiration (ET c ) 
+ Where the soil water depletion is smaller than RAW, the crop evapotranspiration equals ET c = K c ET o . As soon as D r, i exceeds RAW, the crop evapotranspiration is reduced and ET c can be computed from Equation 80 or 81.
+ Deep percolation (DP) 
+ Following heavy rain or irrigation, the soil water content in the root zone might exceed field capacity. In this simple procedure it is assumed that the soil water content is at q FC within the same day of the wetting event, so that the depletion D r, i in Equation 85 becomes zero. Therefore, following heavy rain or irrigation
+ DP i = (P i - RO i ) + I i - ET c, i - D r, i-1 ³ 0 (88) 
+ As long as the soil water content in the root zone is below field capacity (i.e., D r, i > 0), the soil will not drain and DP i = 0.
+ The DP i term in Equations 85 and 88 is not to be confused with the DP e, i term used in Equations 77 and 79 for the evaporation layer. Both terms can be calculated at the same time, but are independent of one another. Forecasting or allocating irrigations 
+ Irrigation is required when rainfall is insufficient to compensate for the water lost by evapotranspiration. The primary objective of irrigation is to apply water at the right period and in the right amount. By calculating the soil water balance of the root zone on a daily basis (Equation 85), the timing and the depth of future irrigations can be planned. To avoid crop water stress, irrigations should be applied before or at the moment when the readily available soil water is depleted (D r, i £ RAW). To avoid deep percolation losses that may leach relevant nutrients out of the root zone, the net irrigation depth should be smaller than or equal to the root zone depletion (I i £ D r, i ).
+ Example 38 illustrates the application of a water balance of the root zone to predict irrigation dates to avoid water stress. The example utilizes various calculations for K e from Example 35. A complete "spreadsheet" that includes all necessary calculations for predicting both irrigation schedules and to predict K c = K cb + K e for daily timesteps is presented in Annex 8.
+ EXAMPLE 38. Irrigation scheduling to avoid crop water stress 
+ 
+ Plan the irrigation applications for Example 35. It is assumed that:
+ - irrigations are to be applied when RAW is depleted,
+ - the depletion factor (p) is 0.6,
+ - all irrigations and precipitations occur early in the day,
+ - the depth of the root zone (Z r ) on day 1 is 0.3 m and increases to 0.35 m by day 10,
+ - the root zone depletion at the beginning of day 1 (D r, i-1 ) is RAW. 
+ From Eq. 82 
+ TAW = 1000 (0.23 - 0.10) Z r, i = 130 Z r, i [mm] 
+ From Eq. 83 
+ RAW = 0.6 TAW = 78 Z r, i [mm] 
+ On day 1, 
+ when Z r = 0.3 m: D r, i-1 = RAW = 78 (0.3) = 23 mm 
+ 
+ 
+ (1) 
+ (2) 
+ (3) 
+ (4) 
+ (5) 
+ (6) 
+ (7) 
+ (8) 
+ (9) 
+ (10) 
+ (11) 
+ (12) 
+ (13) 
+ (14) 
+ Day 
+ ET o 
+ Z r 
+ RAW 
+ D r, i start 
+ P-RO 
+ I 
+ K s 
+ K cb 
+ K e 
+ K c 
+ ET c 
+ DP 
+ D r, i end 
+ | 
+ mm/d 
+ m 
+ mm 
+ mm 
+ mm 
+ mm 
+ | 
+ | 
+ | 
+ | 
+ mm 
+ mm 
+ mm 
+ start 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ 23 
+ 1 
+ 4.5 
+ 0.30 
+ 23 
+ 0 
+ 0 
+ 40 
+ 1 
+ 0.30 
+ 0.91 
+ 1.21 
+ 5.5 
+ 17 
+ 5 
+ 2 
+ 5.0 
+ 0.31 
+ 24 
+ 5 
+ 0 
+ 0 
+ 1 
+ 0.31 
+ 0.90 
+ 1.21 
+ 6.1 
+ 0 
+ 12 
+ 3 
+ 3.9 
+ 0.31 
+ 24 
+ 12 
+ 0 
+ 0 
+ 1 
+ 0.32 
+ 0.72 
+ 1.04 
+ 4.0 
+ 0 
+ 16 
+ 4 
+ 4.2 
+ 0.32 
+ 25 
+ 16 
+ 0 
+ 0 
+ 1 
+ 0.33 
+ 0.37 
+ 0.70 
+ 2.9 
+ 0 
+ 18 
+ 5 
+ 4.8 
+ 0.32 
+ 25 
+ 18 
+ 0 
+ 0 
+ 1 
+ 0.34 
+ 0.18 
+ 0.52 
+ 2.5 
+ 0 
+ 21 
+ 6 
+ 2.7 
+ 0.33 
+ 26 
+ 15 
+ 6 
+ 0 
+ 1 
+ 0.36 
+ 0.64 
+ 1.00 
+ 2.7 
+ 0 
+ 18 
+ 7 
+ 5.8 
+ 0.33 
+ 26 
+ 18 
+ 0 
+ 0 
+ 1 
+ 0.37 
+ 0.45 
+ 0.82 
+ 4.7 
+ 0 
+ 22 
+ 8 
+ 5.1 
+ 0.34 
+ 26 
+ 22 
+ 0 
+ 0 
+ 1 
+ 0.38 
+ 0.17 
+ 0.55 
+ 2.8 
+ 0 
+ 25 
+ 9 
+ 4.7 
+ 0.34 
+ 27 
+ 25 
+ 0 
+ 0 
+ 1 
+ 0.39 
+ 0.08 
+ 0.47 
+ 2.2 
+ 0 
+ 27 
+ 10 
+ 5.2 
+ 0.35 
+ 27 
+ 0 
+ 0 
+ 27 
+ 1 
+ 0.40 
+ 0.81 
+ 1.21 
+ 6.3 
+ 0 
+ 6 
+ (1) 
+ Day number. 
+ (2) 
+ From Example 35. 
+ (3) 
+ Z r is given (interpolated between 0.3 m on day 1 and 0.35 m on day 10). 
+ (4) 
+ Eq. 83. 
+ (5) 
+ D r, i start (root zone depletion at the beginning of the day)
+ If precipitation and irrigation occur early in the day then D r, i start = Max(D r, i-1 end - I - (P-RO), or 0)
+ If precipitation and irrigation occur late in the day, then
+ D r, i start = D r, i-1 end 
+ where D r, i-1 end is taken from column 14 of previous day
+ Since the depth of the root zone increases each day, the water content of the subsoil ( q sub ) has to be considered to update D r, i 
+ D r, i = D r, i-1 + 1000 ( q FC - q sub, i-1 ) D Z r, l 
+ In the example it is assumed that q sub is at field capacity (due to prior overirrigation and excessive rainfall on previous days). Therefore, a combination of the equations for D r, i can be utilized. 
+ (6) 
+ From Example 35. 
+ (7) 
+ Irrigation is required when D r, i ³ RAW.
+ On day 1, the irrigation depth (infiltrating the soil) is given (from Example 35:1 = 40 mm)
+ On day 10, another irrigation is required. An irrigation with a net depth of 27 mm refills the root zone and avoids water loss by deep percolation (DP = 0 mm). 
+ (8) 
+ Eq. 84, where K s = 1 for D r, i £ RAW. 
+ (9) 
+ From Example 35. 
+ (10) 
+ Day 1 to 9: From Example 35.
+ Day 10: Following the extra irrigation early in the day, the topsoil will be wet and K r is 1 or from Eq. 71: K e = (1.21 - 0.40) = 0.81. 
+ (11) 
+ K c =K s K cb + K e . 
+ (12) 
+ Eq. 80. 
+ (13) 
+ Eq. 88, where D r, i-1 is taken from column 14 of previous day. 
+ (14) 
+ D r, i (root zone depletion at end of one day) = the starting D r, i at the beginning of the next day (see footnote 5). From Eq. 85, where D r, i-1 is taken from column 14 of previous day. 
+ Effects of soil salinity 
+ Salts in the soil water solution can reduce evapotranspiration by making soil water less "available" for plant root extraction. Salts have an affinity for water and hence additional force is required for the crop to extract water from a saline soil. The presence of salts in the soil water solution reduces the total potential energy of the soil water solution. In addition, some salts cause toxic effects in plants and can reduce plant metabolism and growth. A function is presented here that predicts the reduction in evapotranspiration caused by salinity of soil water. The function is derived by combining yield-salinity equations from the FAO Irrigation and Drainage Paper N°29 with yield-ET equations from FAO Irrigation and Drainage Paper N°33. The resulting equation provides a first approximation of the reduction in evapotranspiration expected under various salinity conditions.
+ There is evidence that crop yield and transpiration are not as sensitive to low osmotic potential as they are to low matric potential. Under saline conditions, many plants are able to partially compensate for low osmotic potential of the soil water by building up higher internal solute contents. This is done by absorbing ions from the soil solution and by synthesizing organic osmolytes. Both of these reactions reduce the impact of osmotic potential on water availability. However, synthesis of organic osmolytes does require expenditure of metabolic energy. Therefore plant growth is often reduced under saline conditions. The reduced plant growth impacts transpiration by reducing ground cover and is sometimes additionally due to partial stomatal closure.
+ Other impacts of salts in the soil include direct sodium and chloride toxicities and induced nutrient deficiencies. These deficiencies reduce plant growth by reducing the rate of leaf elongation, the enlargement, and the division of cells in leaves. The modality depends on the method of irrigation. With sprinkler irrigation, adsorption of sodium and chloride through the leaf can result in toxic conditions for all crop species. With surface or trickle irrigation, direct toxic conditions generally occur only in vine and tree crops; however, high levels of sodium can induce calcium deficiencies for all crop species.
+ Since salt concentration changes as the soil water content changes, soil salinity is normally measured and expressed on the basis of the electrical conductivity of the saturation extract of the soil (EC e ). The EC e is defined as the electrical conductivity of the soil water solution after the addition of a sufficient quantity of distilled water to bring the soil water content to saturation. EC e is typically expressed in deciSiemens per meter (dS m -1 ). Under optimum management conditions, crop yields remain at potential levels until a specific, threshold electrical conductivity of the saturation soil water extract (EC e threshold ) is reached. If the average EC e of the root zone increases above this critical threshold value, the yield is presumed to begin to decrease linearly in proportion to the increase in salinity. The rate of decrease in yield with increase in salinity is usually expressed as a slope, b, having units of % reduction in yield per dS/m increase in EC e .
+ All plants do not respond to salinity in a similar manner; some crops can produce acceptable yields at much higher soil salinity levels than others. This is because some crops are better able to make the needed osmotic adjustments that enable them to extract more water from a saline soil, or they may be more tolerant of some of the toxic effects of salinity. Salt tolerance for many agricultural crops are provided in the FAO Irrigation and Drainage Papers No. 33 and 48. The EC e threshold and slope b from these sources are listed in Table 23.
+ As can be observed from the data in Table 23, there is an 8 to 10-fold range in salt tolerance of agricultural crops. The effect of soil salinity on yield and crop evapotranspiration is hence crop specific.
+ The EC e threshold and b parameters in Table 23 were determined primarily in research experiments using nearly steady-state irrigation where soil water contents were maintained at levels close to field capacity. However, under most types of irrigation scheduling for sprinkler and surface irrigation, the soil water content is typically depleted to well below field capacity, so that the EC of the soil water solution, EC SW , increases prior to irrigation, even though the EC of the saturation extract does not change. The increased salt concentration in the soil water solution reduces the osmotic potential of the soil water solution (it becomes more negative), so that the plant must expend more metabolic energy and may exert more mechanical force to absorb water. In addition, metabolic and toxic effects of salts on plants may become more pronounced as the soil dries and concentrations increase. However, the variation in soil water content during an irrigation interval has not been found to strongly influence crop evapotranspiration. This is because of the rise of soil water content to levels that are above that experienced under steady state irrigation early in a long irrigation interval. There is a similar, counteractive decrease in soil water content later in a long irrigation interval. In addition, the distribution of salts in the root zone under low frequency irrigation can reduce salinity impacts during the first portion of the irrigation interval. Also, under high frequency irrigation of the soil surface, soil evaporation losses are higher. Consequently, given the same application depth, the leaching fraction is reduced. For these reasons, the length of irrigation interval and the change in EC of soil water during the interval have usually not been found to be factors in the reduction of ET, given that the same depths of water are infiltrated into the root zone over time.
+ In some cases, increased evaporation under high frequency irrigation of the soil surface can counteract reductions in K c caused by high EC e of the root zone. Under these conditions, the total K c and ET c are not very different from the non-saline, standard conditions under less frequent irrigation, even though crop yields and crop transpiration are reduced. Because of this, under saline conditions, the K s reducing factor should only be applied with the dual K c approach.
+ In review articles on impacts of salinity on crop production, Letey et al. (1985) and Shalhevet (1994) concluded that effects of soil salinity and water stress are generally additive in their impacts on crop evapotranspiration. Therefore, the same yield-ET functions may hold for both water shortage induced stress and for salinity induced stress. Yield-salinity relationship 
+ A widely practiced approach for predicting the reduction in crop yield due to salinity has been described in the FAO Irrigation and Drainage Paper N°29. The approach presumes that, under optimum management conditions, crop yields remain at potential levels until a specific, threshold electrical conductivity of the soil water solution is reached. When salinity increases beyond this threshold, crop yields are presumed to decrease linearly in proportion to the increase in salinity. The soil water salinity is expressed as the electrical conductivity of the saturation extract, EC e . In equation form, the procedure followed in FAO Irrigation and Drainage Paper N°29 is:
+ 
+ (89) 
+ for conditions where EC e > EC e threshold where:
+ Y a actual crop yield
+ Y m maximum expected crop yield when EC e < EC e threshold 
+ EC e mean electrical conductivity of the saturation extract for the root zone [dS m -1 ]
+ EC e threshold electrical conductivity of the saturation extract at the threshold of EC e when crop yield first reduces below Y m [dS m -1 ]
+ b reduction in yield per increase in EC e [%/(dS m -1 )] 
+ Values for EC e threshold and b have been provided in the FAO Irrigation and Drainage Paper N°29 and 48 and are listed in Table 23 for many agricultural crops.
+ Salinity-yield data from the FAO Irrigation and Drainage papers Nos. 29 and 48 were mostly from studies where soil water content was held at about-3 m potential (-30 kPa) or higher at the 0.3 to 0.6 m depth, depending on the crop. However, these papers indicate that for most crops, the data are transferable to typical field situations where the readily available soil water (RAW) is depleted between irrigations. Yield-moisture stress relationship 
+ A simple, linear crop-water production function was introduced in the FAO Irrigation and Drainage Paper N°33 to predict the reduction in crop yield when crop stress was caused by a shortage of soil water:
+ 
+ (90) 
+ where:
+ K y a yield response factor [-] ET c adj adjusted (actual) crop evapotranspiration [mm d -1 ] ET c crop evapotranspiration for standard conditions (no water stress) [mm d -1 ] 
+ K y is a factor that describes the reduction in relative yield according to the reduction in ET c caused by soil water shortage. In FAO N°33, K y values are crop specific and may vary over the growing season. In general, the decrease in yield due to water deficit during the vegetative and ripening period is relatively small, while during the flowering and yield formation periods it will be large. Values for K y for individual growth periods and for the complete growing season have been included in the FAO Irrigation and Drainage Paper N°33. Seasonal values for K y are summarized in Table 24.
+ Combined salinity-ET 
+ reduction relationship 
+ 
+ 
+ No water stress (D r 
+ < RAW) 
+ With water stress (D r 
+ > RAW) 
+ 
+ 
+ No water stress (D r < RAW) 
+ When salinity stress occurs without water stress, Equations 89 and 90 can be combined and solved for an equivalent K s , where K s = ET c adj /ET c :
+ 
+ (91) 
+ for conditions when EC e > EC e threshold and soil water depletion is less than the readily available soil water depth (D r < RAW). D r and RAW are defined in the previous section. With water stress (D r > RAW) 
+ When soil water stress occurs in addition to salinity stress, Equation 84 in Chapter 8 and Equations 89 and 90 are combined to yield:
+ 
+ (92) 
+ for conditions when EC e > EC e threshold and D r > RAW. Figure 44 shows the impact of salinity reduction on K s as salinity increases. Note that the approach presumes that RAW (and p) do not change with increasing salinity. This may or may not be a good assumption for some crops.
+ Limitations 
+ Because the impact of salinity on plant growth and yield and on crop evapotranspiration is a time-integrated process, generally only the seasonal value for K y is used to predict the reduction in evapotranspiration. There are K y values in FAO Irrigation and Drainage paper N°33 for only about 23 crops. The seasonal values for K y from paper N°33 are summarized in Table 24. For many crops, the seasonal K y is nearly 1. For crops where K y is unknown, the user may use K y = 1 in Equations 91 and 92 or may select the K y for a crop type that has similar behaviour.
+ Equations 91 and 92 are suggested as only approximate estimates of salinity impacts on ET, and represent general effects of salinity on evapotranspiration as occurring over an extended period of time (as measured in weeks or months). These equations are not expected to be accurate for predicting ET c for specific days. Nor do they include other complicating effects such as specific ion toxicity. Application of equations 91 and 92 presumes that the EC e represents the average EC e for the root zone.
+ The equations presented may not be valid at high salinity, where the linear relationships between EC e , crop yield and K s may not hold. The use of Equations 91 and 92 should usually be restricted to EC e < EC threshold + 50/b. In addition, the equations predict Y a = 0 before K s = 0 when K y > 1 and vice versa.
+ As indicated earlier, reduction in ET c in the presence of soil salinity is often partially caused by reduced plant size and fraction of ground cover. These effects are largely included in the coefficient values in Table 23. Therefore, where plant growth is affected by salinity and Equations 91 and 92 are applied, no other reductions in K c are required, for example using LAI or fraction of ground cover, as described in Chapter 9.
+ TABLE 23. Salt tolerance of common agricultural crops expressed as electrical conductivity of the soil saturation extract at the threshold when crop yield first reduces below the full yield potential (EC e, threshold ) and as the slope (b) of reduction in crop yield with increasing salinity beyond EC e, threshold . 
+ 
+ Crop 1 
+ EC e treshold 2 (dS m -1 ) 3 
+ b 4 (%/dS m -1 ) 
+ Rating 5 
+ a. Small vegetables 
+ Broccoli 
+ 2.8 
+ 9.2 
+ MS 
+ Brussels sprouts 
+ 1.8 
+ 9.7 
+ MS 
+ Cabbage 
+ 1.0-1.8 
+ 9.8-14.0 
+ MS 
+ Carrots 
+ 1.0 
+ 14.0 
+ S 
+ Cauliflower 
+ 1.8 
+ 6.2 
+ MS 
+ Celery 
+ 1.8-2.5 
+ 6.2-13.0 
+ MS 
+ Lettuce 
+ 1.3-1.7 
+ 12.0 
+ MS 
+ Onions 
+ 1.2 
+ 16.0 
+ S 
+ Spinach 
+ 2.0-3.2 
+ 7.7-16.0 
+ MS 
+ Radishes 
+ 1.2-2.0 
+ 7.6-13.0 
+ MS 
+ b. Vegetables - Solanum Family (Solanaceae) 
+ Egg Plant 
+ - 
+ - 
+ MS 
+ Peppers 
+ 1.5-1.7 
+ 12.0-14.0 
+ MS 
+ Tomato 
+ 0.9-2.5 
+ 9.0 
+ MS 
+ c. Vegetables Cucumber Family (Cucurbitaceae) 
+ Cucumber 
+ 1.1-2.5 
+ 7.0-13.0 
+ MS 
+ Melons 
+ | 
+ - 
+ MS 
+ Pumpkin, winter squash 
+ 1:2 
+ 13.0 
+ MS 
+ Squash, Zucchini 
+ 4.7 
+ 10.0 
+ MT 
+ Squash (scallop) 
+ 3.2 
+ 16.0 
+ MS 
+ Watermelon 
+ - 
+ - 
+ MS 
+ d. Roots and Tubers 
+ Beets, red 
+ 4.0 
+ 9.0 
+ MT 
+ Parsnip 
+ - 
+ - 
+ S 
+ Potato 
+ 1.7 
+ 12.0 
+ MS 
+ Sweet potato 
+ 1.5-2.5 
+ 10.0 
+ MS 
+ Turnip 
+ 0.9 
+ 9.0 
+ MS 
+ Sugar beet 
+ 7.0 
+ 5.9 
+ T 
+ e. Legumes (Leguminosae) 
+ Beans 
+ 1.0 
+ 19.0 
+ S 
+ Broadbean (faba bean) 
+ 1.5-1.6 
+ 9.6 
+ MS 
+ Cowpea 
+ 4.9 
+ 12.0 
+ MT 
+ Groundnut (Peanut) 
+ 3.2 
+ 29.0 
+ MS 
+ Peas 
+ 1.5 
+ 14.0 
+ S 
+ Soybeans 
+ 5.0 
+ 20.0 
+ MT 
+ f. Perennial Vegetables (with winter dormancy and initially bare or mulched soil) 
+ Artichokes 
+ - 
+ - 
+ MT 
+ Asparagus 
+ 4.1 
+ 2.0 
+ T 
+ Mint 
+ - 
+ - 
+ - 
+ Strawberries 
+ 1.0-1.5 
+ 11.0-33.0 
+ S 
+ g. Fibre crops 
+ Cotton 
+ 7.7 
+ 5.2 
+ T 
+ Flax 
+ 1.7 
+ 12.0 
+ MS 
+ h. Oil crops 
+ Casterbean 
+ - 
+ - 
+ MS 
+ Safflower 
+ - 
+ - 
+ MT 
+ Sunflower 
+ - 
+ - 
+ MS 
+ i. Cereals 
+ Barley 
+ 8.0 
+ 5.0 
+ T 
+ Oats 
+ - 
+ - 
+ MT 
+ Maize 
+ 1.7 
+ 12.0 
+ MS 
+ Maize, sweet (sweet corn) 
+ 1.7 
+ 12.0 
+ MS 
+ Millet 
+ - 
+ - 
+ MS 
+ Sorghum 
+ 6.8 
+ 16.0 
+ MT 
+ Rice 6 
+ 3.0 
+ 12.0 
+ S 
+ Wheat (Triticum aestivum) 
+ 6.0 
+ 7.1 
+ MT 
+ Wheat, semidwarf (T. aestivum) 
+ 8.6 
+ 3.0 
+ T 
+ Wheat, durum (Triticum turgidum) 
+ 5.7-5.9 
+ 3.8-5.5 
+ T 
+ j. Forages 
+ Alfalfa 
+ 2.0 
+ 7.3 
+ MS 
+ Barley (forage) 
+ 6.0 
+ 7.1 
+ MT 
+ Bermuda 
+ 6.9 
+ 6.4 
+ T 
+ Clover, Berseem 
+ 1.5 
+ 5.7 
+ MS 
+ Clover (alsike, ladino, red, strawberry) 
+ 1.5 
+ 12.0 
+ MS 
+ Cowpea (forage) 
+ 2.5 
+ 11.0 
+ MS 
+ Fescue 
+ 3.9 
+ 5.3-6.2 
+ MT 
+ Foxtail 
+ 1.5 
+ 9.6 
+ MS 
+ Hardinggrass 
+ 4.6 
+ 7.6 
+ MT 
+ Lovegrass 
+ 2.0 
+ 8.4 
+ MS 
+ Maize (forage) 
+ 1.8 
+ 7.4 
+ MS 
+ Orchardgrass 
+ 1.5 
+ 6.2 
+ MS 
+ Rye-grass (perennial) 
+ 5.6 
+ 7.6 
+ MT 
+ Sesbania 
+ 2.3 
+ 7.0 
+ MS 
+ Sphaerophysa 
+ 2.2 
+ 7.0 
+ MS 
+ Sudangrass 
+ 2.8 
+ 4.3 
+ MT 
+ Trefoil, narrowleaf birdsfoot 
+ 5.0 
+ 10.0 
+ MT 
+ Trefoil, big 
+ 2.3 
+ 19.0 
+ MS 
+ Vetch, common 
+ 3.0 
+ 11.0 
+ MS 
+ Wheatgrass, tall 
+ 7.5 
+ 4.2 
+ T 
+ Wheatgrass, fairway crested 
+ 7.5 
+ 6.9 
+ T 
+ Wheatgrass, standard crested 
+ 3.5 
+ 4.0 
+ MT 
+ Wildrye, beardless 
+ 2.7 
+ 6.0 
+ MT 
+ k. Sugar cane 
+ 1.7 
+ 5.9 
+ MS 
+ l. Tropical Fruits and Trees 
+ Banana 
+ - 
+ - 
+ MS 
+ Coffee 
+ - 
+ - 
+ - 
+ Date Palms 
+ 4.0 
+ 3.6 
+ T 
+ Palm trees 
+ - 
+ - 
+ T 
+ Pineapple (multi-year crop) 
+ - 
+ - 
+ MT 
+ Tea 
+ - 
+ - 
+ - 
+ m. Grapes and berries 
+ Blackberry 
+ 1.5 
+ 22.0 
+ S 
+ Boysenberry 
+ 1.5 
+ 22.0 
+ S 
+ Grapes 
+ 1.5 
+ 9.6 
+ MS 
+ Hops 
+ - 
+ - 
+ - 
+ n. Fruit trees 
+ Almonds 
+ 1.5 
+ 19.0 
+ S 
+ Avocado 
+ - 
+ - 
+ S 
+ Citrus (Grapefruit) 
+ 1.8 
+ 16.0 
+ S 
+ Citrus (Orange) 
+ 1.7 
+ 16.0 
+ S 
+ Citrus (Lemon) 
+ - 
+ - 
+ S 
+ Citrus (Lime) 
+ - 
+ - 
+ S 
+ Citrus (Pummelo) 
+ - 
+ - 
+ S 
+ Citrus (Tangerine) 
+ - 
+ ' 
+ S 
+ Conifer trees 
+ - 
+ - 
+ MS/MT 
+ Deciduous orchard 
+ | 
+ | 
+ | 
+ | 
+ - Apples 
+ - 
+ - 
+ S 
+ | 
+ - Peaches 
+ 1.7 
+ 21.0 
+ S 
+ | 
+ - Cherries 
+ - 
+ - 
+ S 
+ | 
+ - Pear 
+ - 
+ . - 
+ S 
+ | 
+ - Apricot 
+ 1.6 
+ 24.0 
+ S 
+ | 
+ - Plum, prune 
+ 1.5 
+ 18.0 
+ S 
+ | 
+ - Pomegranate 
+ - 
+ - 
+ MT 
+ Olives 
+ - 
+ - 
+ MT 
+ 1 The data serve only as a guideline - Tolerance vary depending upon climate, soil conditions and cultural practices. Crops are often less tolerant during germination and seedling stage.
+ 2 EC e, threshold means average root zone salinity at which yield starts to decline
+ 3 Root zone salinity is measured by electrical conductivity of the saturation extract of the soil, reported in deciSiemens per metre (dS m -1 ) at 25 °C
+ 4 b is the percentage reduction in crop yield per 1 dS/m increase in EC e beyond EC e threshold 
+ 5 Ratings are: T = Tolerant, MT = Moderately Tolerant, MS = Moderately Sensitive and S = Sensitive
+ 6 Because paddy rice is grown under flooded conditions, values refer to the electrical conductivity of the soil water while the plants are submerged
+ Primary sources: 
+ Ayers and Westcot, 1985. FAO Irrigation and Drainage Paper N° 29. Water quality for agriculture; Rhoades, Kandiah and Mashali, 1992. FAO Irrigation and Drainage Paper N° 48. The use of saline waters for crop productions. Application 
+ Under steady state conditions, the value for EC e can be predicted as a function of EC of the irrigation water (EC iw ) and the leaching fraction, using a standard leaching formula. For example, the FAO-29 leaching formula LR = EC iw /(5 EC e - EC iw predicts the leaching requirement when approximately a 40-30-20-10 percent water extraction pattern occurs from the upper to lower quarters of the root zone prior to irrigation. EC iw is the electrical conductivity of the irrigation water. From this equation, EC e is estimated as:
+ 
+ (93) 
+ TABLE 24. Seasonal yield response functions from FAO Irrigation and Drainage Paper No. 33. 
+ 
+ Crop 
+ K y 
+ Alfalfa 
+ 1.1 
+ Banana 
+ 1.2-1.35 
+ Beans 
+ 1.15 
+ Cabbage 
+ 0.95 
+ Citrus 
+ 1.1-1.3 
+ Cotton 
+ 0.85 
+ Grape 
+ 0.85 
+ Groundnet 
+ 0.70 
+ Maize 
+ 1.25 
+ Onion 
+ 1.1 
+ Peas 
+ 1,15 
+ Pepper 
+ 1.1 
+ Potato 
+ 1.1 
+ Safflower 
+ 0.8 
+ Sorghum 
+ 0.9 
+ Soybean 
+ 0.85 
+ Spring Wheat 
+ 1.15 
+ Sugarbeet 
+ 1.0 
+ Sugarcane 
+ 1.2 
+ Sunflower 
+ 0.95 
+ Tomato 
+ 1.05 
+ Watermelon 
+ 1.1 
+ Winter wheat 
+ 1.05 
+ where LF, the actual leaching fraction, is used in place of LR, the leaching requirement. Equation 93 predicts EC e = 1.5 EC iw under conditions where a 15-20 percent leaching fraction is employed. Other leaching fraction equations can be used in place of the FAO-29 equation to fit local characteristics. Equation 93 is only true if the irrigation water quality and the leaching fraction are constant over the growing season. Time is required to attain a salt equilibrium in the soil. If there are important winter rains of high quality water and often excellent leaching, the salt balance in the soil will be quite different at the beginning of the season and with a lower average EC e of the root zone than would be predicted from Equation 93. An appropriate local calibration of Equation 93 is desirable under these particular conditions.
+ FIGURE 44. The effect of soil salinity on the water stress coefficient K s 
+ EXAMPLE 39. Effect of soil salinity on crop evapotranspiration 
+ 
+ 
+ 
+ A field of beans is cultivated on a silt loam soil and is irrigated during the midseason period using water having salinity EC iw = 1 dS m -1 . A 15 percent leaching fraction is employed. The EC e, threshold and slope from Table 23 are 1.0 dS m -1 and 19 %/(dS m -1 ) respectively. The seasonal K y from FAO Irrigation and Drainage Paper No 33 and Table 24 for beans is K y = 1.15. Compare the effect on crop evapotranspiration for various levels of soil water depletion in the root zone under saline and nonsaline conditions. The TAW and RAW for the bean crop are 110 and 44 mm (for p = 0.4). 
+ Since the leaching fraction is 0.15, EC e is estimated from Equation 93 as EC e = 1.5 EC w = 1.5 (1) = 1.5 dS m -1 . The K s in the presence of salinity stress and absence of moisture stress is:
+ 
+ The K s in the presence of moisture stress, but in the absence of salinity stress is:
+ 
+ The K s in the presence of both moisture stress and salinity stress is:
+ 
+ The effect on crop evapotranspiration for various soil water depletions in the root zone (D r ) are: 
+ 
+ 
+ D r (mm) 
+ 
+ K s no soil salinity 
+ 
+ K s with soil salinity (EC e = 1.5 dS m -1 ) (Eq. 92) 
+ 
+ Additional reduction in potential ET c due to salinity 
+ 0 
+ 1.00 
+ no reduction in ET c 
+ 0.92 
+ 8% reduction in ET c 
+ 8% 
+ 35 
+ 1.00 
+ no reduction in ET c 
+ 0.92 
+ 8% reduction in ET c 
+ 8% 
+ 40 
+ 1.00 
+ no reduction in ET c 
+ 0.92 
+ 8% reduction 
+ 8% 
+ 44 
+ 1.00 
+ no reduction in ET c 
+ 0.92 
+ 8% reduction 
+ 8% 
+ 50 
+ 0.91 
+ 9% reduction 
+ 0.83 
+ 17% reduction 
+ 8% 
+ 60 
+ 0.76 
+ 24% reduction 
+ 0.69 
+ 31 % reduction 
+ 7% 
+ 70 
+ 0.61 
+ 39% reduction 
+ 0.56 
+ 44% reduction 
+ 5% 
+ 80 
+ 0.45 
+ 55% reduction 
+ 0.42 
+ 58% reduction 
+ 3% 
+ 90 
+ 0.30 
+ 70% reduction 
+ 0.28 
+ 72% reduction 
+ 2% 
+ 100 
+ 0.15 
+ 85% reduction 
+ 0.14 
+ 86% reduction 
+ 1% 
+ 110 
+ 0.00 
+ ET c = 0 
+ 0.00 
+ ET c = 0 
+ -- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

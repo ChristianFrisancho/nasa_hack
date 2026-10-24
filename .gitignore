@@ -1,0 +1,15 @@
+.venv/
+**/.venv/
+__pycache__/
+.pytest_cache/
+**/.pytest_tmp/
+cultivos/_scratch/
+restricciones/respaldo/
+suelos/datos/clima/raw/
+suelos/datos/hwsd2/
+*.nc
+*.tif
+*.bil
+*.mdb
+*.zip
+*.tgz

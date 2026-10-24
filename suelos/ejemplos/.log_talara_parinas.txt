@@ -1,0 +1,1 @@
+talara_parinas: 34 filas -> /workspace/piura-agro/suelos/ejemplos/talara_parinas.csv | estimado=29, observado=3, desconocido=2

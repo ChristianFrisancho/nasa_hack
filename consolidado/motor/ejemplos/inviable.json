@@ -1,0 +1,35 @@
+{
+  "parcela": {
+    "punto": [
+      -5.45,
+      -80.75
+    ],
+    "area_ha": 3.0,
+    "provincia": "Sechura",
+    "zona": "bajo_piura"
+  },
+  "suelo": {
+    "ece_ds_m": [
+      14,
+      18
+    ],
+    "ph": 8.6,
+    "profundidad_cm": 40,
+    "drenaje": "pobre",
+    "pendiente_pct": 2,
+    "napa_m": [
+      0.8,
+      1.2
+    ]
+  },
+  "agua": {
+    "m3_por_mes": 500,
+    "ecw_ds_m": 4.5,
+    "eficiencia": 0.5
+  },
+  "presupuesto_pen": 3000,
+  "cultivo_anterior": "algodon",
+  "escenario": "sin_el_nino",
+  "mes_siembra": 9,
+  "horizonte_meses": 5
+}

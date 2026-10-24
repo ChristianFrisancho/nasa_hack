@@ -1,0 +1,146 @@
+tabla_origen,variable,zona,lugar,valor,estado,representatividad,campos_faltantes
+datos/zonas_ece_drenaje_fen.csv,ECe_medida_local,chira,"Sullana, parcela de limón (muestra Base #00)",0.103,observado,punto,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,chira,Valle del Chira,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_medida_local,san_lorenzo,San Lorenzo,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,san_lorenzo,San Lorenzo,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,area_inundada_FEN2017,san_lorenzo,San Lorenzo,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,cultivo_inundado_FEN2017,san_lorenzo,San Lorenzo,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,ECe_medida_local,medio_piura,"Parcela Experimental Túpac Amaru, Facultad de Agronomía UNP (valle Medio Piura)",0.95,observado,punto,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,medio_piura,Medio Piura,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,bajo_piura,Bajo Piura,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,alto_piura,Alto Piura,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,area_inundada_FEN2017,alto_piura,Alto Piura,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,cultivo_inundado_FEN2017,alto_piura,Alto Piura,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,ECe_medida_local,sierra_piura,Sierra Ayabaca,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,sierra_piura,Sierra Ayabaca,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,area_inundada_FEN2017,sierra_piura,Sierra Ayabaca,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,cultivo_inundado_FEN2017,sierra_piura,Sierra Ayabaca,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,ECe_medida_local,sierra_piura,Sierra Huancabamba,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_freatica,sierra_piura,Sierra Huancabamba,,desconocido,zona,resolucion;fecha
+datos/zonas_ece_drenaje_fen.csv,area_inundada_FEN2017,sierra_piura,Sierra Huancabamba,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,cultivo_inundado_FEN2017,sierra_piura,Sierra Huancabamba,,desconocido,zona,resolucion
+datos/zonas_ece_drenaje_fen.csv,infraestructura_riego_rehabilitada_FEN2023,bajo_piura,Sechura,10,observado,zona,rango
+datos/zonas_ece_drenaje_fen.csv,infraestructura_riego_rehabilitada_FEN2023,bajo_piura,Bajo Piura,19.3,observado,zona,rango
+datos/zonas_ece_drenaje_fen.csv,infraestructura_riego_rehabilitada_FEN2023,san_lorenzo,San Lorenzo,40,observado,zona,rango
+datos/zonas_ece_drenaje_fen.csv,infraestructura_riego_rehabilitada_FEN2023,chira,Valle del Chira,31,observado,zona,rango
+datos/zonas_ece_drenaje_fen.csv,cultivo_afectado_FEN2017,piura_region,Departamento Piura,15342,observado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,cultivo_perdido_FEN2017,piura_region,Departamento Piura,8733,observado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,caudal_pico_rio_Piura_FEN2017,piura_region,Departamento Piura,3800,observado,punto,rango
+datos/zonas_ece_drenaje_fen.csv,area_inundada_FEN2017,piura_region,Departamento Piura,163720,estimado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,cultivo_afectado_FEN2023,piura_region,Departamento Piura,14973,observado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,cultivo_perdido_FEN2023,piura_region,Departamento Piura,13651,observado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,clase_drenaje_local,bajo_piura,Bajo Piura,imperfecto a pobre (napa somera y salina),estimado,zona,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_minima_recomendada_salinidad,bajo_piura,Bajo Piura,2.0,estimado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_minima_recomendada_salinidad,medio_piura,Medio Piura,2.0,estimado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_minima_recomendada_salinidad,chira,Valle del Chira,2.0,estimado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_minima_recomendada_salinidad,san_lorenzo,San Lorenzo,2.0,estimado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,profundidad_napa_minima_recomendada_salinidad,alto_piura,Alto Piura,2.0,estimado,regional,rango
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,alto_piura,,,desconocido,zona,fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,bajo_piura,,,desconocido,zona,fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,chira,,,desconocido,zona,fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,medio_piura,,,desconocido,zona,fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,san_lorenzo,,,desconocido,zona,fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,sierra_piura,,,desconocido,zona,fecha
+datos/zonas_ece_drenaje_fen.csv,ECe_0_20cm,sierra_piura,,,desconocido,zona,fecha
+datos/profundidad_ph_por_zona.csv,profundidad_napa_estacional,chira,Valle del Chira,,desconocido,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,chira,Valle del Chira,,desconocido,zona,fecha
+datos/profundidad_ph_por_zona.csv,franja_capilar,chira,Valle del Chira,,estimado,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,profundidad_napa_estacional,san_lorenzo,San Lorenzo,,desconocido,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,san_lorenzo,San Lorenzo,,desconocido,zona,fecha
+datos/profundidad_ph_por_zona.csv,franja_capilar,san_lorenzo,San Lorenzo,,estimado,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,medio_piura,Medio Piura,parcial,estimado,zona,fecha;rango
+datos/profundidad_ph_por_zona.csv,franja_capilar,medio_piura,Medio Piura,,estimado,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,bajo_piura,Bajo Piura,parcial,estimado,zona,fecha;rango
+datos/profundidad_ph_por_zona.csv,franja_capilar,bajo_piura,Bajo Piura,,estimado,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,profundidad_napa_estacional,alto_piura,Alto Piura,,desconocido,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,alto_piura,Alto Piura,,desconocido,zona,fecha
+datos/profundidad_ph_por_zona.csv,franja_capilar,alto_piura,Alto Piura,,estimado,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,profundidad_napa_estacional,sierra_piura,Sierra Ayabaca,,desconocido,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,sierra_piura,Sierra Ayabaca,si,estimado,zona,fecha;rango
+datos/profundidad_ph_por_zona.csv,franja_capilar,sierra_piura,Sierra Ayabaca,,estimado,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,profundidad_napa_estacional,sierra_piura,Sierra Huancabamba,,desconocido,zona,resolucion;fecha
+datos/profundidad_ph_por_zona.csv,cumple_napa_2m_FAO29,sierra_piura,Sierra Huancabamba,si,estimado,zona,fecha;rango
+datos/profundidad_ph_por_zona.csv,franja_capilar,sierra_piura,Sierra Huancabamba,,estimado,zona,resolucion;fecha
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,chira,,333.6,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,san_lorenzo,,-254.9,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,medio_piura,,324.2,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,bajo_piura,,441.5,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,alto_piura,,-320.2,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,sierra_piura,,-1015.8,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_dic_abr_POWER_vs_CHIRPS_nino_2023,sierra_piura,,-367.9,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,chira,,355.0,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,san_lorenzo,,-243.9,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,medio_piura,,344.4,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,bajo_piura,,456.2,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,alto_piura,,-299.2,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,sierra_piura,,-1027.6,estimado,regional,rango
+datos/clima_por_zona.csv,sesgo_lluvia_ago_jul_POWER_vs_CHIRPS_nino_2023,sierra_piura,,-352.3,estimado,regional,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Quebrada Puente Fierro, captación agua potable Palambla (CANCHAQUE)",0.172,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Río Pusmalca, 100 m aguas arriba del puente La Afiladera (CANCHAQUE)",0.197,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,alto_piura,"Río Huarmaca, 350 m aguas abajo del badén Serrán (SALITRAL)",0.51,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Quebrada Singucate parte alta, puente Coyona (CANCHAQUE)",0.061,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Quebrada Singucate parte baja, puente Pajonal (CANCHAQUE)",0.348,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,alto_piura,"Río Bigote, estación hidrométrica Barrios (SAN JUAN DE BIGOTE)",0.483,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,alto_piura,"Río Piura, 400 m aguas arriba del puente Salitral (SALITRAL)",0.741,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,alto_piura,"Río Piura, 500 m aguas arriba del río Bigote (SALITRAL)",0.621,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,alto_piura,"Río Corral del Medio, caserío Polvazal (Morropón) (BUENOS AIRES)",0.345,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,medio_piura,"Río Piura, 150 m aguas arriba de la captación de la empresa Rapel (PIURA)",5.98,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,medio_piura,"Río Piura frente a la caseta de bombeo del penal, caserío Río Seco (CASTILLA)",0.74,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Río Palo Blanco, 30 m aguas arriba del puente Aranza (AYABACA)",0.0903,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,Río San Pablo frente a Frejolito (PACAIPAMPA),0.227,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Río Macará, bocatoma del canal de irrigación Macará (JILILI)",0.334,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Río Macará, 500 m aguas abajo del puente internacional",0.436,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,"Río Quiroz, 200 m aguas arriba del puente Jambur (PAIMAS)",0.449,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,Río Quiroz (punto 3 de la red) (MONTERO),0.445,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,"Río Chipillico, 5.5 km antes del reservorio San Lorenzo (LAS LOMAS)",0.417,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,sierra_piura,"Quebrada Timbes de Guabal, 80 m aguas arriba del puente peatonal (SAPILLICA)",0.347,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chipillico, 300 m del acueducto del canal de derivación Daniel Escobar (LANCONES)",1.877,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chipillico, 690 m aguas abajo de la descarga de American Quality Aquaculture (SULLANA)",0.888,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Quiroz, 1 km antes de unirse al Chira (LANCONES)",0.591,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira, 150 m antes de la unión con el río Alamor (LANCONES)",0.514,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira, sector Huaypira, 250 m aguas abajo de la salida del reservorio Poechos (QUERECOTILLO)",0.59,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira en La Peña, 200 m antes de la captación de agua potable (SULLANA)",0.665,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira, puente Nuevo Sullana (MARCAVELICA)",0.848,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira, puente Sojo (MARCAVELICA)",1.707,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira, captación de la planta de tratamiento El Arenal (AMOTAPE)",4.98,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Río Chira, 300 m de la localidad Miramar (frente al pase a Pueblo Nuevo) (VICHAYAL)",4.11,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,"Quebrada San Francisco, 750 m antes de la desembocadura en el río Piura (TAMBO GRANDE)",1.945,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,Río Piura frente a Ocoto Bajo (TAMBO GRANDE),2.32,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,medio_piura,"Río Piura, caseta de bombeo de riego de parcelas (CASTILLA)",3.32,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,medio_piura,"Río Piura, caseta de bombeo de agua para el penal (Río Seco) (CASTILLA)",1.979,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,"Agua del reservorio San Lorenzo que llega por el canal Yuscay / canal Tablazo / lateral L-3 T2+520 (sector Cerro Hermoso, CR Algarrobo-Valle Hermoso, Tambogrande)",0.47,observado,punto,rango
+datos/cew_por_zona.csv,ce_agua_riego,bajo_piura,Canal Biaggio Arbulú y canales del Bajo Piura (incl. Sechura),,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,medio_piura,Canal Biaggio Arbulú (Castilla) y canal de derivación Daniel Escobar,,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,chira,"Canales Miguel Checa, Norte y Sur del Chira",,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,"Canales Yuscay, Tablazo y laterales de San Lorenzo",,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,bajo_piura,Drenes Sechura y 13.08 (DS 13.04) y red secundaria,,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,bajo_piura,"Río Piura aguas abajo de Piura (Catacaos, Cura Mori, La Arena, El Tallán, Sechura)",,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,medio_piura,Drenes del Medio Piura,,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,chira,Pozos del valle del Chira,,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,san_lorenzo,Pozos de San Lorenzo,,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,alto_piura,Pozos del Alto Piura,,desconocido,zona,fecha
+datos/cew_por_zona.csv,ce_agua_riego,bajo_piura,"Tablazo Sur (La Unión-Sechura), acuífero Sechura-Parachique, pozo por pozo",,desconocido,zona,fecha
+datos/fen_por_zona.csv,cultivo_afectado_FEN2017,chira,Distritos de la zona chira (datos/distrito_zona.csv),995.9,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2017,chira,Distritos de la zona chira (datos/distrito_zona.csv),376.5,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2017,alto_piura,Distritos de la zona alto_piura (datos/distrito_zona.csv),2592.8,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2017,alto_piura,Distritos de la zona alto_piura (datos/distrito_zona.csv),1754.5,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2017,sierra_piura,Distritos de la zona sierra_piura (datos/distrito_zona.csv),309.4,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2017,sierra_piura,Distritos de la zona sierra_piura (datos/distrito_zona.csv),450.0,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2023,chira,Distritos de la zona chira (datos/distrito_zona.csv),1288.6,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2023,chira,Distritos de la zona chira (datos/distrito_zona.csv),1438.5,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2023,san_lorenzo,Distritos de la zona san_lorenzo (datos/distrito_zona.csv),2729.5,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2023,san_lorenzo,Distritos de la zona san_lorenzo (datos/distrito_zona.csv),3352.0,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2023,medio_piura,Distritos de la zona medio_piura (datos/distrito_zona.csv),0.0,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2023,medio_piura,Distritos de la zona medio_piura (datos/distrito_zona.csv),1243.3,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2023,alto_piura,Distritos de la zona alto_piura (datos/distrito_zona.csv),2225.6,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2023,alto_piura,Distritos de la zona alto_piura (datos/distrito_zona.csv),1014.2,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_afectado_FEN2023,sierra_piura,Distritos de la zona sierra_piura (datos/distrito_zona.csv),3496.9,observado,zona,rango
+datos/fen_por_zona.csv,cultivo_perdido_FEN2023,sierra_piura,Distritos de la zona sierra_piura (datos/distrito_zona.csv),2173.2,observado,zona,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,alto_piura,Distritos de la zona alto_piura,sí,observado,punto,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,bajo_piura,Distritos de la zona bajo_piura,sí,observado,punto,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,chira,Distritos de la zona chira,sí,observado,punto,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,medio_piura,Distritos de la zona medio_piura,sí,observado,punto,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,piura_region,Distritos de la zona piura_region,sí,observado,punto,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,san_lorenzo,Distritos de la zona san_lorenzo,sí,observado,punto,rango
+datos/fen_por_zona.csv,huaicos_inventariados_INGEMMET,sierra_piura,Distritos de la zona sierra_piura,sí,observado,punto,rango
+datos/fen_por_zona.csv,consistencia_FEN_ICEN,piura_region,Departamento de Piura,parcial,estimado,regional,rango

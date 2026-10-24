@@ -1,0 +1,5943 @@
+      UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN
+        Facultad de Ciencias Agropecuarias
+
+
+  Escuela Profesional de Ingeniería en Economía Agraria
+
+
+“CARACTERÍSTICAS FINANCIERO - COMERCIALES Y SU
+   EFECTO SOBRE LA RENTABILIDAD DEL CULTIVO
+     DE VAINITA EN LOS PRODUCTORES DEL
+      DISTRITO DE LA YARADA - LOS PALOS”
+
+
+                         TESIS
+
+                    Presentada por:
+
+      Bach. ALEXIS YAMILET PAXI MAMANI
+
+           Para optar el Título Profesional de:
+
+         INGENIERO EN ECONOMÍA AGRARIA
+
+
+
+
+                     TACNA – PERÚ
+
+                          2022
+
+
+
+                            1
+ii
+               DEDICATORIA
+
+
+
+A Dios, por guiarme y darme las fuerzas
+
+para seguir adelante y no rendirme ante los
+
+problemas que se presentaban. A mis
+
+padres Hilda y Julio por la confianza y
+
+apoyo brindado.
+
+
+
+
+         iii
+                          AGRADECIMIENTO
+
+
+
+  A Dios, por darme la salud, sabiduría y perseverancia necesaria para
+
+culminar mi investigación, y poner en mi camino buenas personas que me
+
+                                apoyaron.
+
+
+
+     A mi asesor MSc. Edwin Ismael Palza Chambe y jurados por la
+
+   orientación y colaboración para la realización de esta investigación.
+
+
+
+   A mis padres y hermanos por su apoyo absoluto en la realización y
+
+            culminación del presente trabajo de investigación.
+
+
+
+  A mi compañero incondicional Daniel, por sus consejos, su apoyo y a
+
+todas mis amistades que de una manera u otra influyeron en la realización
+
+                       y culminación de esta tesis.
+
+
+
+
+                                        iv
+                             ÍNDICE GENERAL
+
+
+DEDICATORIA .............................................................................. iii
+
+AGRADECIMIENTO ...................................................................... iv
+
+ÍNDICE GENERAL ......................................................................... v
+
+ÍNDICE DE TABLAS.................................................................... viii
+
+RESUMEN ..................................................................................... xi
+
+ABSTRACT .................................................................................. xii
+
+INTRODUCCIÓN ..............................................................................
+
+CAPÍTULO I: EL PROBLEMA
+
+   1.1    PLANTEAMIENTO DEL PROBLEMA ................................. 3
+
+   1.2    FORMULACIÓN Y SISTEMATIZACIÓN DEL PROBLEMA 6
+
+      1.2.1 Problema Principal......................................................... 6
+
+      1.2.2 Problemas Secundarios................................................. 7
+
+   1.3    DELIMITACIÓN DE LA INVESTIGACIÓN .......................... 7
+
+   1.4    JUSTIFICACIÓN ................................................................. 7
+
+   1.5    LIMITACIONES................................................................... 9
+
+   1.6    OBJETIVOS ...................................................................... 10
+
+      1.6.1 Objetivo general .......................................................... 10
+
+      1.6.2 Objetivos específicos ................................................... 10
+
+                                               v
+CAPÍTULO II: FUNDAMENTACIÓN TEÓRICA
+
+  2.1     CONCEPTOS GENERALES Y DEFINICIONES ............... 11
+
+  2.2     ENFOQUES TEÓRICO - TÉCNICOS ............................... 26
+
+  2.3     MARCO REFERENCIAL................................................... 29
+
+CAPÍTULO III: HIPÓTESIS Y VARIABLES
+
+  3.1. HIPÓTESIS ....................................................................... 45
+
+  3.2. DIAGRAMA DE VARIABLES ............................................ 45
+
+  3.3. INDICADORES DE VARIABLES ...................................... 46
+
+  3.4. OPERACIONALIZACIÓN DE VARIABLES ....................... 47
+
+CAPÍTULO IV: METODOLOGÍA DE LA INVESTIGACIÓN
+
+  4.1. TIPO DE INVESTIGACIÓN............................................... 48
+
+  4.2. POBLACIÓN Y MUESTRA ............................................... 48
+
+  4.3. MATERIALES Y MÉTODOS ............................................. 52
+
+CAPÍTULO V: TRATAMIENTO DE LOS RESULTADOS
+
+   5.1. TÉCNICAS APLICADAS EN LA RECOLECCIÓN DE LA
+
+          INFORMACIÓN ................................................................ 55
+
+  5.2. RESULTADOS.................................................................. 56
+
+  5.3. DISCUSIÓN DE RESULTADOS ....................................... 90
+
+CONCLUSIONES ....................................................................... 100
+
+
+                                           vi
+RECOMENDACIONES ............................................................... 102
+
+REFERENCIAS BIBLIOGRÁFICAS ........................................... 103
+
+ANEXOS ..................................................................................... 108
+
+
+
+
+                                              vii
+                            ÍNDICE DE TABLAS
+
+
+
+Tabla 1. Producción de Vainita, según Departamento (Tm.) .................... 19
+
+Tabla 2. Producción de Vainita, Departamento de Tacna (Tm.) ............... 20
+
+Tabla 3. Superficie, producción y rendimiento, Departamento de Tacna
+
+           (2012-2015) ............................................................................... 21
+
+Tabla 4. Rendimiento de Vainita (Año 2014) ............................................ 22
+
+Tabla 5. Costo Estimado de Producción del cultivo de Vainita - Tacna…23
+
+Tabla 6. Operacionalización de variables ................................................. 47
+
+Tabla 7. Número de productores encuestados ........................................ 51
+
+Tabla 8. Valoración del índice de rentabilidad .......................................... 54
+
+Tabla 9. Estadísticos descriptivos precio de kilo ...................................... 57
+
+Tabla 10. Evolución de los precios de vainita en la región de Tacna ....... 58
+
+Tabla 11. Estadísticos descriptivos: Superficie cosechada ..................... 59
+
+Tabla 12. Rendimiento por Hectárea en relación a la superficie
+
+             cosechada .............................................................................. 60
+
+Tabla 13. Costos de Semilla por Hectárea de vainita ............................... 61
+
+Tabla 14. Costo de Fertilizantes por Hectárea de vainita ......................... 62
+
+Tabla 15. Costo de Agroquímicos por Hectárea de vainita ...................... 63
+
+Tabla 16. Costo de Mano de Obra por Hectárea de vainita ..................... 64
+
+Tabla 17. Otros costos directos por Hectárea de vainita .......................... 65
+
+Tabla 18. Total de Costos directos por Hectárea de vainita ..................... 66
+
+Tabla 19. Costos Financieros por Hectárea de vainita ............................. 68
+                                              viii
+Tabla 20. Costos Generales por Hectárea de vainita ............................... 69
+
+Tabla 21. Otros Costos Indirectos por Hectárea de vainita ...................... 70
+
+Tabla 22. Total de Costos indirectos por Hectárea de vainita .................. 72
+
+Tabla 23. Costo de Producción Total por Hectárea de vainita ................. 73
+
+Tabla 24. Rentabilidad por Hectárea de vainita ........................................ 74
+
+Tabla 25. Categorización del índice de rentabilidad ................................. 75
+
+Tabla 26. Fuente de Financiamiento por ha de vainita ............................ 76
+
+Tabla 27. Si utilizó prestamo ¿Quién se lo brindó? según Hectárea de
+
+              vainita ...................................................................................... 78
+
+Tabla 28. Entidad a la que solicitó el crédito según Hectárea de
+
+              vainita ...................................................................................... 79
+
+Tabla 29. Lugar en comercialización ........................................................ 79
+
+Tabla 30. A quién vende........................................................................... 80
+
+Tabla 31. Modo de comercialización ....................................................... 80
+
+Tabla 32. Forma de venta a los demandantes ........................................ 81
+
+Tabla 33. Rentabilidad según fuente de financiamiento ........................... 83
+
+Tabla 34. Prueba Chi-cuadrado................................................................ 83
+
+Tabla 35. Rentabilidad según ¿Quién le brindó el crédito? ...................... 84
+
+Tabla 36. Prueba Chi-cuadrado ............................................................... 85
+
+Tabla 37. Rentabilidad según Entidad a la que solicitó el crédito ............. 86
+
+Tabla 38. Prueba Chi-cuadrado................................................................ 87
+
+Tabla 39. Rentabilidad según lugar de comercialización ......................... 88
+
+Tabla 40. Rentabilidad según forma de venta a los demandantes .......... 89
+                                 ix
+Tabla 41. Pruebas Chi-cuadrado .............................................................. 90
+
+Tabla 42. Estadísticos descriptivos: Edad de los productores .............. 121
+
+Tabla 43. Sexo del productor ................................................................. 122
+
+Tabla 44. Nivel Educativo Culminado .................................................... 124
+
+Tabla 45. Estadísticos descriptivos hectáreas destinadas al cultivo ...... 124
+
+Tabla 46. Estadísticos descriptivos: Hectáreas de Magnum ................. 125
+
+Tabla 47. Estadísticos descriptivos: Hectáreas de Venus ...................... 125
+
+Tabla 48. Sistema de riego ..................................................................... 126
+
+Tabla 49. Equipos agrícolas ................................................................... 126
+
+Tabla 50. Fertilizantes químicos ............................................................. 127
+
+Tabla 51. Uso de plaguicidas ................................................................. 127
+
+Tabla 52. ¿Con lo que respecta a la titularidad del predio, es usted?….128
+
+
+
+
+                                              x
+                                 RESUMEN
+
+
+
+       La presente tesis tuvo por objetivo determinar la incidencia del
+
+financiamiento y las características de comercialización utilizados por el
+
+productor de vainita sobre la rentabilidad del cultivo, para ello se realizó la
+
+investigación de tipo descriptiva – transversal, el diseño empleado fue no
+
+experimental, la muestra estuvo constituida por 70 productores dedicados
+
+al cultivo de la vainita, se utilizó como instrumento de medición el
+
+cuestionario; asimismo, para el análisis de datos se empleó los
+
+estadísticos descriptivos, tabla de frecuencias y para establecer la
+
+relación entre las variables de estudio se utilizó la prueba no paramétrica
+
+de Chi cuadrado con un nivel de confianza del 95%. Los resultados
+
+demostraron     que    el   financiamiento        y   las   características    de
+
+comercialización    utilizados   por    el    productor     de   vainita   inciden
+
+significativamente sobre la rentabilidad de este cultivo en el distrito de La
+
+Yarada – Los Palos con un nivel de confianza del 95%, puesto que el
+
+48,60% de los productores perciben una rentabilidad que varía de 26 a
+
+50%, seguido de un 41,40% que perciben una rentabilidad de 51 a 75%,
+
+en menor proporción con 5,70% su rentabilidad varia de 1 a 25% y un
+
+4,30% su rentabilidad es superior al 76%, deduciendo que los agricultores
+
+oscilan entre una rentabilidad media.
+
+Palabras clave: Rentabilidad, financiamiento, comercialización.
+
+
+
+                                             xi
+                                ABSTRACT
+
+
+
+    The objective of this thesis was to determine the incidence of
+
+financing and the marketing characteristics used by the bean producer on
+
+the profitability of the crop, for which a descriptive - cross-sectional
+
+investigation was carried out, the design used was non-experimental, the
+
+sample was constituted by 70 producers dedicated to the cultivation of
+
+green beans, the questionnaire was used as a measurement instrument;
+
+likewise, for data analysis, descriptive statistics and a frequency table
+
+were used, and to establish the relationship between the study variables,
+
+the non-parametric Chi-square test was used with a confidence level of
+
+95%. The results showed that the financing and marketing characteristics
+
+used by the bean producer have a significant impact on the profitability of
+
+this crop in the district of La Yarada - Los Palos with a confidence level of
+
+95%, since 48.60% of the producers perceive a return that varies from 26
+
+to 50%, followed by 41.40% who perceive a return from 51 to 75%, to a
+
+lesser extent with 5.70% their return varies from 1 to 25% and 4 .30% its
+
+profitability is higher than 76%, deducing that farmers oscillate between an
+
+average profitability.
+
+
+
+Keywords: Keywords: Profitability, financing, marketing.
+
+
+
+
+                                        xii
+                             INTRODUCCIÓN
+
+
+
+       El presente estudio da a conocer las características financiero –
+
+comerciales y su efecto sobre la rentabilidad del cultivo de vainita en los
+
+productores del distrito de La Yarada – Los Palos” , considerando de
+
+suma importancia ofrecer información económica financiera a todos los
+
+productores actuales del área para el crecimiento económico; y
+
+obteniendo un beneficio social para las familias de las zonas productoras,
+
+y cubrir las demandas de este producto sobre todo para la población de la
+
+localidad. Cada uno de los capítulos aporta información indispensable
+
+para la realización de este estudio. Para resolver el problema de este
+
+estudio se tuvo que investigar fuentes de información primaria y
+
+secundaria que sirvieron como base para la discusión de resultados.
+
+       La presente tesis además trata de responder a la pregunta de:
+
+¿Cómo incide el financiamiento y las características de comercialización
+
+utilizados por el productor de vainita sobre la rentabilidad de este cultivo
+
+en el distrito de La Yarada – Los Palos? Para lo cual se formularon los
+
+siguientes objetivos: Conocer la incidencia del financiamiento utilizado por
+
+el productor de vainita sobre la rentabilidad y determinar el impacto de las
+
+características comerciales empleadas por el productor de vainita sobre la
+
+rentabilidad de este cultivo en el distrito La Yarada – Los Palos.
+
+
+                                         1
+       En atención a lo antes mencionado, la presente tesis se ha
+
+desarrollado en base a los objetivos; en consecuencia su contenido se
+
+desarrolla en los siguientes capítulos: En primer término se expone el
+
+capítulo I, donde se presenta el planteamiento del problema, la
+
+formulación y sistematización del problema, en el capítulo II se presenta la
+
+fundamentación teórica que involucra conceptos generales, enfoques
+
+teóricos - técnicos y el marco referencial. El capítulo III aborda la hipótesis
+
+y variables de estudio, presentando la operacionalización de variable. Así
+
+mismo en el capítulo IV se detalla la metodología aplicada en el desarrollo
+
+de la investigación, en donde se definen las técnicas, métodos e
+
+instrumentos que se han de utilizar en la recolección de información, y en
+
+el capítulo V se presenta el tratamiento de los resultados y la discusión de
+
+los mismos.
+
+       Para      finalizar   se   plasman   las   principales   conclusiones   y
+
+recomendaciones que, según las conclusiones merecen destacarse y que
+
+su puesta en práctica posibilitaría a los productores de vainita, superar en
+
+gran medida las deficiencias y limitantes detectadas en la etapa de
+
+investigación.
+
+
+
+
+                                            2
+                                   CAPÍTULO I
+
+
+                                  EL PROBLEMA
+
+
+
+1.1   PLANTEAMIENTO DEL PROBLEMA
+
+         El distrito de La Yarada – Los Palos se encuentra ubicado en la
+
+Provincia de Tacna, en la Región de Tacna, que limita con la frontera con
+
+Chile; el 7 de noviembre del 2015 se promulgó la ley de creación de dicho
+
+distrito, que reúnen a una población de 16 432 habitantes (INEI, 2007).
+
+Siendo un total de 1 228 usuarios los que pertenecen a la Junta de
+
+Usuarios La Yarada, con un área total de 6 056,66 ha, de las cuales 5
+
+358,56 ha están bajo riego (Junta de Usuarios de Aguas de la Yarada,
+
+2013).
+
+         La actividad económica del distrito se sustenta principalmente en la
+
+actividad agrícola, caracterizándose así por ser el mayor productor de
+
+olivo (Olea Europea) en la región Tacna, concentrando el 51% (17500
+
+TM.) de las exportaciones de olivo (DIA - DRAT, 2015); además también
+
+se distinguen la producción de los siguientes cultivos como el ají, cebolla,
+
+melón, sandía, zapallo, vainita; siendo estos irrigados con aguas
+
+subterráneas (DIA - DRAT, 2015).
+
+         El   distrito   cuenta   con   ventajas   comparativas   (condición
+
+climatológica favorable, irrigación con agua subterráneas, etc.), para la
+
+
+                                           3
+producción de cultivos de exportación, y uno de los cultivos que desde el
+
+año 2008 va tomando mayor importancia es el de la vainita (Phaseolus
+
+Vulgaris L.), la siembra de este cultivo en el distrito va desde el mes de
+
+marzo a abril, la cosecha se realiza en Junio a Agosto, cuando en el
+
+vecino país de Chile es muy escasa su producción (DIA - DRAT, 2015).
+
+Es por eso que en términos de exportación aproximadamente más del
+
+80% de la producción de la Región Tacna se va al vecino país de Chile.
+
+(SENASA, 2015).
+
+         Según la Dirección de Información Agraria de la Dirección Regional
+
+Agraria Tacna, en el año 2015 se cosecharon en la región un total de 289
+
+ha de vainita, con una producción de 2188 toneladas, resultando un
+
+rendimiento promedio de 7571 kg/ha con un precio en chacra de 1,55
+
+soles; destacando que esta producción se obtuvo en su totalidad de los
+
+Centros Poblados La Yarada y Los Palos, ahora denominado distrito La
+
+Yarada – Los Palos. Así mismo, según el Servicio Nacional de Sanidad
+
+Agraria Tacna; en dicho año se reportó una exportación por el Puesto de
+
+Control Externo de Santa Rosa del SENASA, de 4063 toneladas de
+
+vainita, correspondiente a Tacna (50%), Moquegua (10%) y Arequipa
+
+(40%).
+
+         Los productores de vainita del distrito requieren en promedio una
+
+inversión total de 10 327,07 soles por hectárea para dicho cultivo según el
+
+
+
+                                         4
+costo estimado de producción, elaborado por la Dirección Regional de
+
+Agricultura Tacna (DIA - DRAT, 2015), y considerando que los
+
+productores de vainita destinan un promedio de 2 hectáreas para este
+
+cultivo, pero que disponen generalmente de poco capital de trabajo
+
+recurriendo así a los prestamos financieros de Agrobanco, Banca Privada
+
+y Cajas Municipales, pero al ser el agro considerado como una actividad
+
+de alto riesgo, por los diversos factores que afectan a la producción y
+
+comercialización, es que los productores son sometidos a algunas
+
+restricciones de acceso al financiamiento (exigencias de garantías
+
+tangibles, seguro agrícola, altas tasas de interés, etc.), donde solo el 29%
+
+de productores accede a créditos (INEI, 2015) (INEI, "Encuesta Nacional
+
+Agropecuaria", 2015), limitándose así a producir en una menor superficie
+
+cultivada y al uso de tecnología media, componentes esenciales para una
+
+mayor rentabilidad del cultivo.
+
+        Por otra parte los mecanismos de comercialización deficientes
+
+empleados por el productor, donde los costos de comercialización pueden
+
+resultar considerables y constituir un componente importante del precio de
+
+venta, lo cual no permitiría que el productor pueda vincularse a vender
+
+directamente al consumidor final y/o exportarlo, y tenga que limitarse a
+
+vender al intermediario, aceptando el precio que éste le ofrece. (Rojas,
+
+2014)
+
+
+
+                                        5
+       Sin embargo, todo lo descrito anteriormente es muy somero, por lo
+
+que se necesita mayores precisiones, ya que aún se desconoce los
+
+principales aspectos relacionados a: principal fuente de financiamiento
+
+utilizado por los productores de vainita (capital propio o crédito), así como
+
+a la entidad a quien solicitó el crédito; así también lo concerniente a los
+
+mecanismos de comercialización que utiliza el productor: modo de
+
+comercialización (individual o asociativa), lugar de comercialización, la
+
+forma de venta a los demandantes (contado o crédito), y si la venta es
+
+mediante intermediarios, directa al consumidor final y/o lo exporta
+
+directamente. Y como inciden estás características (financiero –
+
+comerciales) en la rentabilidad obtenida de la producción de vainita, entre
+
+otros aspectos.
+
+       Por lo anteriormente expresado, el enunciado del problema de
+
+investigación es el siguiente:
+
+
+1.2   FORMULACIÓN Y SISTEMATIZACIÓN DEL PROBLEMA
+
+
+1.2.1 Problema Principal
+
+      •     ¿Cómo incide el financiamiento y las características de
+
+            comercialización utilizados por el productor de vainita sobre la
+
+            rentabilidad de este cultivo en el distrito de La Yarada – Los
+
+            Palos?
+
+
+
+                                         6
+1.2.2 Problemas Secundarios
+
+
+          •    ¿Cómo incide el financiamiento utilizado por el productor de
+
+               vainita sobre la rentabilidad de este cultivo en el distrito La
+
+               Yarada – Los Palos?
+
+          •    ¿Cuál es el impacto de las características comerciales
+
+               empleadas por el productor de vainita sobre la rentabilidad de
+
+               este cultivo en el distrito La Yarada – Los Palos?
+
+
+1.3   DELIMITACIÓN DE LA INVESTIGACIÓN
+
+          Para un mejor análisis e interpretación de resultados, el trabajo se
+
+estructuró de la siguiente manera:
+
+
+      •       Espacio Geográfico: Se analizó el espacio correspondiente al
+
+              distrito de La Yarada – Los Palos, que constituye el escenario
+
+              principal de la investigación.
+
+      •       Sujetos de Observación: Los sujetos de observación fueron
+
+              los productores de vainita del distrito de La Yarada – Los Palos,
+
+              de la campaña agrícola 2015 – 2016.
+
+
+1.4   JUSTIFICACIÓN
+
+                 En el Perú, la superficie anual cosechada de vainita es de
+
+          2 381 ha, con una producción anual de 16 840 t de esta hortaliza.
+
+
+
+                                               7
+En Tacna se tienen 227 ha de superficie cosechada y una
+
+producción anual de vainita de 1 603 t (Ministerio de Agricultura y
+
+Riego, 2014). Este cultivo se halla técnicamente más desarrollado
+
+en la costa en donde, además, su consumo es bastante popular y
+
+apreciado por las características nutritivas y alto contenido de fibra
+
+de las vainas. La vainita ha adquirido gran importancia en la
+
+actividad agrícola del Valle de Tacna, principalmente por sus
+
+características exportables hacia el vecino país de Chile; que en
+
+estos últimos años ha ido en incremento, beneficiando a los
+
+productores de La Yarada y Los Palos.
+
+       La rentabilidad representa uno de los objetivos que se traza
+
+todo productor para conocer el beneficio de lo invertido al realizar
+
+una serie de actividades en un determinado período de tiempo. Es
+
+así que el presente estudio se justifica porque nos permitirá
+
+conocer a nivel descriptivo las características financiero –
+
+comerciales y su efecto en la rentabilidad del cultivo de vainita en el
+
+distrito La Yarada - Los Palos, permitiendo tener ideas mucho más
+
+acertadas de cómo opera el financiamiento así como la
+
+comercialización en el accionar de los productores de vainita en el
+
+sector en estudio. Asimismo, el estudio nos servirá de base para
+
+realizar otros estudios similares en otros sectores productivos.
+
+
+
+                                  8
+       Finalmente desde el punto de vista metodológico, se pretende
+
+       ejecutar la investigación con metodologías teóricas y empíricas
+
+       para analizar la rentabilidad del cultivo de vainita que lleve a
+
+       obtener conclusiones del tema propuesto.
+
+
+1.5   LIMITACIONES
+
+       En cuanto a lo planteado y por las condiciones de investigación se
+
+plantean las siguientes limitaciones:
+
+      •   Limitaciones de tiempo: El estudio es de tipo transversal por
+
+          lo tanto los resultados obtenidos se ajustarán únicamente al
+
+          período de tiempo evaluado, el cual corresponde a la campaña
+
+          agrícola 2015 – 2016.
+
+      •   Limitaciones de espacio o territorio: Se consideró solamente
+
+          a los productores de vainita del distrito de La Yarada – Los
+
+          Palos.
+
+      •   Limitaciones de recursos: El estudio fue asumido por el
+
+          investigador    con   presupuesto limitado, pero procurando no
+
+          incidir con ello en el resultado final de la presente investigación.
+
+
+
+
+                                         9
+1.6   OBJETIVOS
+
+
+1.6.1 Objetivo general
+
+
+
+      •    Determinar la incidencia del financiamiento y las características
+
+           de comercialización utilizados por el productor de vainita sobre
+
+           la rentabilidad de este cultivo en el distrito de La Yarada – Los
+
+           Palos, Tacna 2016.
+
+
+1.6.2 Objetivos específicos
+
+      •   Conocer la incidencia del financiamiento utilizado por el
+
+          productor de vainita sobre la rentabilidad de este cultivo en el
+
+          distrito La Yarada – Los Palos, Tacna 2016.
+
+
+
+      •   Analizar el impacto de las características comerciales empleadas
+
+          por el productor de vainita sobre la rentabilidad de este cultivo en
+
+          el distrito La Yarada – Los Palos, Tacna 2016.
+
+
+
+
+                                         10
+                              CAPÍTULO II
+
+
+                      FUNDAMENTACIÓN TEÓRICA
+
+
+
+2.1   CONCEPTOS GENERALES Y DEFINICIONES
+
+
+2.1.1. Rentabilidad
+
+      Es la relación que existe entre la utilidad y la inversión necesaria
+
+para lograrla, la rentabilidad mide la efectividad de la gerencia de una
+
+empresa demostrada por las utilidades obtenidas de las ventas realizadas
+
+y la utilización de las inversiones, dichas utilidades a su vez son la
+
+conclusión de una administración competente. (Lopez, 2007)
+
+
+      La rentabilidad es la capacidad que tiene algo para generar
+
+suficiente utilidad o beneficio; es decir, la relación que existe entre la
+
+utilidad y la inversión necesaria para lograrla, ya que mide tanto la
+
+efectividad de la gerencia de una empresa, demostrada por las utilidades
+
+obtenidas de las ventas realizadas y utilización de inversiones, su
+
+categoría y regularidad es la tendencia de las utilidades. (Nevado, 2007)
+
+
+      La rentabilidad es un índice que mide la relación entre utilidades,
+
+beneficios o lucro económico de las ventas realizadas, de esta manera se
+
+obtiene una determinada acción y los recursos que son requeridos para la
+
+generación de dicho beneficio. La rentabilidad empresarial es sinónimo de
+
+
+                                       11
+ganancia, utilidad, beneficio se trata de un objetivo válido para cualquier
+
+empresa, ya que a partir de la obtención de resultados positivos ella
+
+puede mirar con optimismo no sólo su presente, que implica la
+
+supervivencia, sino también su futuro: es decir, el desarrollo de la
+
+organización en el tiempo. Con esta perspectiva, la rentabilidad asegura
+
+el presente empresarial, el aquí y el ahora, y al mismo tiempo provee a su
+
+desarrollo futuro. Los elementos que componen la rentabilidad son
+
+básicamente el precio de venta (el “techo” o la recompensa por
+
+comercializar el producto y el costo (el “piso” o el sacrificio que hay que
+
+hacer para fabricar y vender ese producto). Como consecuencia de la
+
+concurrencia de ambos factores, precio de venta y costo, se obtiene el
+
+resultado que para respetar el criterio de rentabilidad debiera ser positivo,
+
+aunque muchas veces no lo sea.       Como resultados positivos, entonces,
+
+las organizaciones con fines de lucro “continúan en carrera”, algunas
+
+mejor que otras, tras los objetivos de perdurar y crecer. Con resultados
+
+negativos, en cambio, no solo no se tiene seguridad sobre el presente,
+
+sino que tampoco existe una clara misión sobre el futuro. (Faga & Ramos,
+
+2006)
+
+
+2.1.2. Características que deben ser identificadas en todo tipo de
+
+        explotaciones o fincas:
+
+
+
+
+                                        12
+2.1.2.1.    Recursos Financieros (financiamiento)
+
+
+       La dificultad de obtener crédito limita el uso de insumos, lo que
+
+condiciona a su vez la productividad. Los obstáculos que enfrentan los
+
+productores, así como las alternativas desarrolladas recientemente por las
+
+instituciones de crédito comerciales para superar dichos problemas fueron
+
+expuestos precedentemente. En el caso de los créditos hay que
+
+considerar los siguientes aspectos:
+
+            a. Condiciones del crédito: requisitos exigidos (respaldo de
+
+  propiedad); garantías (seguros contra riesgos de pérdida de cosechas,
+
+  compra adelantada de cosecha) y plazos de pago.
+
+            b. Fuentes del crédito: bancos comerciales, bancos agrarios o
+
+  de fomento, instituciones de préstamo a los pobres (especializados en
+
+  mujeres       con    bajos   ingresos),    prestamistas,   cooperativas,
+
+  organizaciones no gubernamentales, compañías de seguros y fuentes
+
+  informales como parientes o amigos (FAO, 1998).
+
+           También existen subsidios gubernamentales al productor. En
+
+ cada país, es posible hacer preguntas específicas sobre los programas
+
+ existentes. Además del apoyo monetario, la asistencia técnica contable,
+
+ financiera y administrativa es de gran valor (FAO, 1998).
+
+
+
+
+                                        13
+2.1.3. Producción
+
+         El tipo de producción se puede clasificar desde varios puntos de
+
+vista:
+
+
+    •    Destinación de la propia actividad agropecuaria: para la
+
+    alimentación directa o para insumos industriales, que a su vez pueden
+
+    destinarse a la alimentación o a materias primas para uso industrial.
+
+    •    Tipo de cultivo: perennes (árboles frutales) o cíclicos (maíz)
+
+    •    La   cría   de   animales:    consumo      alimenticio   humano    o
+
+    aprovechamiento de sus productos derivados etc.
+
+
+         En todo caso, lo mejor es centrar la atención en los productos
+
+específicos y explorar las contribuciones a la producción agrícola y la cría
+
+de animales (FAO, 1998).
+
+
+2.1.4. Comercialización agropecuaria
+
+
+         La Comercialización agropecuaria, es una actividad humana que
+
+tiene por objeto satisfacer las necesidades y los deseos por intermedio de
+
+transacciones, siendo para nuestro caso las necesidades a satisfacer las
+
+de alimentación directa y la agroindustria. Es pues la comercialización la
+
+vinculación entre la producción y las ventas, donde el consumidor final
+
+influye en todas las decisiones.
+
+
+
+                                          14
+       Se pueden distinguir los siguientes sistemas de comercialización:
+
+
+   •   Venta directa a los consumidores;
+
+
+   •   Venta a través de un intermediario en un centro de acopio, que
+
+       puede ser: a) único y siempre el mismo; b) varios, con posibilidad
+
+       de elección; 2) en la propia explotación.
+
+
+   •   Venta de la producción a) ya cosechada; b) en pie, o sea aún sin
+
+       cosechar (cuando el comprador contrata a jornaleros que
+
+       cosechan).
+
+
+   •   Otras modalidades que corresponden a procesos muy difundidos
+
+       en algunas industrias, en que el trabajador, aparentemente
+
+       independiente, en realidad vende su trabajo incorporándolo en la
+
+       renta de algunos recursos productivos. (FAO, 1998)
+
+
+
+2.1.4.1. Proceso de Comercialización.
+
+       Kotler, menciona que “el proceso de comercialización incluye
+
+cuatro aspectos fundamentales: ¿cuándo?, ¿dónde?, ¿a quién? y
+
+¿cómo? En el primero, el autor se refiere al momento preciso de llevarlo a
+
+efecto; en el segundo aspecto, a la estrategia geográfica; el tercero, a la
+
+definición del público objetivo y finalmente, se hace una referencia a la
+
+
+                                        15
+estrategia a seguir para la introducción del producto al mercado (Kotler,
+
+1995).
+
+
+
+2.1.4.2. Canales de Comercialización.
+
+
+         Es el conjunto de circuitos a través de los cuales se establece la
+
+relación entre producción y consumo, a efectos de hacer disponibles los
+
+bienes para los consumidores, mediante la articulación de los distintos
+
+flujos de comercialización: de bienes, informativos, financieros (Lopez,
+
+2007)
+
+
+2.1.5.    Producto.
+
+
+         El producto es todo aquello (tangible o intangible) que se ofrece a
+
+un mercado para su adquisición, uso o consumo y que puede satisfacer
+
+una necesidad o un deseo del consumidor final (Rubio, 2010).
+
+
+
+2.1.6. Precio.
+
+         Monto en dinero que están dispuestos a pagar los consumidores o
+
+usuarios para lograr el uso, posesión o consumo de un producto o servicio
+
+específico. Es un instrumento que estimula a la demanda, la única
+
+variable que supone ingresos y la de relación más directa con la
+
+rentabilidad (Soriano, 2010).
+
+
+
+                                         16
+       Los precios son señales que contienen toda la información
+
+necesaria para garantizar la coherencia de las decisiones de las
+
+economías domésticas y de las empresas. El precio además, es un
+
+mecanismo de gran importancia que puede afectar la relación conocida
+
+con el nombre de la ley de la oferta y la demanda (Rubio, 2010)
+
+
+
+2.1.7. Costo de la Producción.
+
+
+       Valor del conjunto de bienes y esfuerzos, en que han incurrido o se
+
+va a incurrir, que deben consumir los centros fabriles para obtener un
+
+producto terminado en condiciones de ser entregados al sector comercial
+
+(Sinisterra, 2007).
+
+       Los costos de producción (también llamados costos de operación)
+
+son los gastos necesarios para mantener un proyecto, línea de
+
+procesamiento o un equipo en funcionamiento. Es un sistema de costo
+
+por proceso la cual se prepara el informe del costo de producción para
+
+cada proceso y en él se resume el flujo fijo de la producción, las unidades
+
+equivalentes de producción y la asignación de los costos de producción a
+
+unidades terminadas y en proceso. (Oriol, 2008)
+
+
+       Los costos de producción están constituidos por la materia prima,
+
+la mano de obra directa y los gastos indirectos de producción, que son los
+
+
+
+
+                                       17
+factores productivos que permiten transformar la materia prima en un
+
+producto terminado listo para la venta. (Bolaños & Rodriguez, 1993)
+
+
+
+2.1.8. Producción Nacional de Vainita
+
+
+      Con respecto al volumen producido, Lima sigue siendo la zona con
+
+mayor participación del total nacional. Sin embargo, nótese que Arequipa
+
+ocupaba el segundo lugar hasta el año 2010, ya que desde el año 2011 el
+
+departamento de Tacna lo superó en su producción, siendo los segundos
+
+de mayor producción, lo que se debe probablemente a un uso más
+
+eficiente de la superficie cultivada y mejores prácticas agrícolas en
+
+general.
+
+
+      Se puede observar en la Tabla 1, en cuanto a la producción
+
+nacional total en el año 2014 la producción de vainita disminuyo en un
+
+11%, siendo este un total de 16840 TM en promedio, las que están
+
+orientadas hacia los grandes mercados de Lima, mercados regionales y
+
+locales de sus propias zonas de producción. Pero mayormente el destino
+
+de la producción de vainita es hacia el país vecino Chile al que se le
+
+registra exportaciones.
+
+
+
+
+                                      18
+Tabla 1
+Producción de Vainita, según Departamento (Toneladas Métricas)
+
+   Departamento     2008       2009       2010            2011       2012       2013       2014
+  Total             15 267     13 873     16 587          14 677     17 133     18 854     16 840
+
+  Tumbes                                                         -                     -          -
+                           -          -          -                          -
+  Piura                                                          -                     -          -
+                           -          -          -                          -
+  Lambayeque                                                     -                     -          -
+                           -          -          -                          -
+  Cajamarca                                                      -                     -          -
+                           -          -          -                          -
+  Amazonas                                                       -                     -          -
+                           -          -          -                          -
+  La Libertad          484       551        691             598        229                   421
+                                                                                  539
+  Áncash               177        92         98             111         98         91         77
+  Lima              12 534     10 689     11 467          10 304     11 936     13 877     12 544
+  Ica                                                        11                               28
+                           -          3      40                         64         44
+  Huancavelica                                                   -                     -          -
+                           -          -          -                          -
+  Ayacucho                                                   85
+                       101       113        168                        125        168        149
+  Arequipa             423       581       2 551           1 204      1 421      1 294      1 151
+  Puno                                                           -
+                           -          -          -                          -          -          -
+  Moquegua             766       545        302             381        294        138        257
+  Tacna                319       390        304            1 282      2 046      1 835      1 603
+  Cusco                                                      64
+                       354       307         82                        148         64        100
+  Madre de Dios                                                  -
+                           -          -          -                          -          -          -
+  Apurímac              69       201        210             129        306        442        238
+  Ucayali                                                        -
+                           -          -          -                          -          -          -
+  Huánuco                                                   509
+                        40       401        674                        467        363        272
+  Pasco                                                          -
+                           -          -          -                          -          -          -
+  Junín                                                          -
+                           -          -          -                          -          -          -
+  San Martín                                                     -
+                           -          -          -                          -          -          -
+  Loreto                                                         -
+                           -          -          -                          -          -          -
+
+  Fuente: Ministerio de Agricultura y Riego - Dirección General de Evaluación y
+  Seguimiento de Políticas - Dirección de Estadística Agraria.
+
+
+                                                     19
+2.1.9. Superficie cultivada, Producción y Rendimiento de Vainita en
+
+      la Región de Tacna
+
+
+      En la Región Tacna, el uso de las tierras se orienta al cultivo de 4
+
+grandes grupos: forrajeros, transitorios, permanentes y forestales.
+
+Ocupando, en orden de importancia, un área cultivada a nivel regional de:
+
+forrajeros (66,44%), transitorios (25,31%), y permanentes (9,15%).
+
+
+      En la Tabla 2 se puede observar que el cultivo de vainita desde el
+
+año 2008 ha mostrado una evolución positiva en cuanto a la producción
+
+en función de los requerimientos del mercado, esto debido también a su
+
+demanda a ser exportado al vecino país de Chile.
+
+
+Tabla 2
+Producción de Vainita, Departamento de Tacna (Toneladas Métricas)
+
+                                               Años
+
+   Departamento       2008    2009     2010        2011    2012      2013      2014
+
+
+       Tacna           319     390      304      1 282     2 046     1 835     1 603
+
+
+     Fuente: Ministerio de Agricultura y Riego - Dirección General de Evaluación y
+     Seguimiento de Políticas - Dirección de Estadística Agraria.
+
+
+
+
+      Y según la Dirección de Información Agraria de la Dirección
+
+Regional Agraria Tacna (Tabla 3), en el año 2015 se cosecharon en la
+
+
+
+                                              20
+región un total de 289 ha de vainita, con una producción de 2 188 t,
+
+resultando un rendimiento promedio de 7 571 kg/ha con un precio en
+
+chacra de 1,55 soles; destacando que esta producción se obtuvo en su
+
+totalidad de los Centros Poblados La Yarada y Los Palos.
+
+
+Tabla 3
+
+Superficie, producción y rendimiento, Departamento de Tacna (2012-2015)
+
+                                                        Años
+       Cultivo Vainita           2012         2013             2014        2015
+
+          Siembra (ha)          278,00        225,00           231,00     307,00
+
+          Cosecha (ha)          314,00        211,00           227,00     289,00
+
+     Rendimiento (kg/ha)       6 515,92      8 696,68      7 061,67      7 570,93
+
+          Producción (t)       2 046,00      1 835,00      1 603,00      2 188,00
+
+
+  Fuente: Dirección Regional Agraria Tacna – Dirección de Información Agraria
+
+
+
+2.1.10. Rendimiento de Vainita:
+
+
+      Según el compendio estadístico de producción agrícola elaborado
+
+por el Ministerio de Agricultura (Tabla 4), en el año 2014 el rendimiento de
+
+vainita en la región Tacna fue de 7 062 kg/ha, inferior al rendimiento
+
+promedio del departamento Lima (principal productor de vainita) el cual
+
+fue de 7 179 kg/ha, y al rendimiento promedio de Arequipa con 9 592
+
+kg/ha; pero superior al rendimiento promedio de otros departamentos
+
+
+                                            21
+         productores de vainita. Cabe indicar que el rendimiento promedio nacional
+
+         en dicho año fue de 7 074 kg/ha.
+
+
+         Tabla 4
+         Rendimiento de Vainita (Año 2014)
+
+                                        Rendimiento (kg/ha)
+
+
+Ancash    Apurímac   Arequipa    Ayacucho    Cuzco    Huánuco     Ica    Lima    Moquegua   Tacna
+
+
+ 3505      4 760       9 592       4 806      4 000    6 476     4 017   7 179    4 143     7 062
+
+
+Fuente: Ministerio de Agricultura y Riego - Dirección de Estadística Agraria.
+
+
+
+        2.1.11. Costo de Producción de Vainita
+
+
+                Según la Tabla 5, los productores de vainita requieren en promedio
+
+         una inversión total de 10 327,07 soles por hectárea para dicho cultivo
+
+         según el costo estimado de producción, elaborado por la Dirección
+
+         Regional de Agricultura Tacna (DEA - DRAT, 2014) , teniendo en
+
+         consideración lo siguiente; Sistema de riego: Goteo, Tecnología: Media,
+
+         Época de plantación: Abril– Mayo, Época de Cosecha: Junio – Julio, P.
+
+         Vegetativo: transitorio, Variedad: Frijol Vainita Venus, obteniendo un
+
+         rendimiento de 8,697 Kg /ha.
+
+
+
+
+                                                        22
+    Tabla 5
+
+    Costo Estimado de Producción del cultivo de Vainita – Tacna
+
+                                     UNIDAD DE        CANTIDAD     COSTO     COSTO
+           RUBRO / ACTIVIDAD
+                                      MEDIDA          UTILIZADA   UNITARIO   TOTAL
+
+I. COSTOS DIRECTOS                                                            9 139,00
+A. MANO DE OBRA                                                               3 915,00
+ Labores Culturales
+ Preparación del Terreno               Jornal            12         45,00      540,00
+ Incorporación de materia orgánica     Jornal             1         45,00       45,00
+ Siembra                               Jornal             8         45,00      360,00
+ riego                                 Jornal            10         45,00      450,00
+ abonamiento                           Jornal             4         45,00      180,00
+ Control fitosanitario                 Jornal             8         45,00      360,00
+ guiadores                             Jornal            10         45,00      450,00
+ deshierbo                             Jornal             6         45,00      270,00
+ cosecha                               Jornal            28         45,00     1 260,00
+B. INSUMOS                                                                    4 739,00
+ Semilla                                kg               40                    600,00
+ Abonamiento
+ Urea agrícola                          Kg               300        1,40       420,00
+ Fosfato Diamónico                      Kg               250        1,90       475,00
+ Sulfato de Potasio                     Kg               150        2,40       360,00
+ Estiércol                              tm                2        180,00      360,00
+ Riegos
+ Riego tecnificado (depreciación)       Año               1        156,00      156,00
+ cintas                                  M              1 700       0,30       510,00
+ mangueras                               M               700        0,40        30,00
+ agua                                   kw/h             75        180,00      720,00
+ Rebombeo de motor                      Mes               4        180,00      720,00
+ Control Fitosanitario
+ Topas                                   L                1        230,00      230,00
+ Ridomil                                Kg                2         75,00      150,00
+ Lannate                                Kg                1        130,00      130,00
+ Adherente                               L                1         38,00       38,00
+C. ENVASE, MATERIALES Y FLETE                                                  485,00
+ Envase                                saco              75         1,00        75,00
+ Equipos y Herramientas
+ Mochila de Fumigar                    Unid.              1        250,00      250,00
+ Lampas                                Unid.              2         30,00       60,00
+
+
+
+
+                                                 23
+ Otros
+ Flete Traslado de Insumos                 glb             1            100,00           100,00
+II.COSTOS INDIRECTOS                                                                   1 188,07
+ Imprevistos                               5%                                            456,95
+ Gastos Adm. y financieros                 3%                                            274,17
+ Asistencia Técnica                        5%                                            456,95
+
+
+COSTO TOTAL DE PRODUCCIÓN                                                            10 327,07
+
+
+
+
+Fuente: Dirección Regional Agraria Tacna - Dirección de Estadística Agraria Tacna.
+
+
+    2.1.12.            Exportación de Vainita
+
+
+               En la Región Tacna, las exportaciones de los productos agrícolas
+
+    tradicionales y no tradicionales presentan un crecimiento sostenido en los
+
+    últimos años, actitud que genera una oferta exportable más competitiva
+
+    que ayuda a consolidar y abrir mercados internacionales.
+
+               Exportar productos agrícolas es aprovechar ventanas de mercado.
+
+    En el caso de Chile, por ejemplo, es exportar vainitas de invierno para el
+
+    consumo en el mercado de Santiago. Esto ha hecho que los agricultores
+
+    vean en el rubro hortícola expectativas de crecimiento y exista interés
+
+    especialmente por los cultivos fuera de estación.
+
+               La siembra de vainita en el distrito va desde el mes de marzo a
+
+    abril, la cosecha se realiza en Junio a Agosto, cuando en el vecino país
+
+    de Chile es muy escasa su producción (DIA - DRAT, 2015). Es por eso
+
+    que en términos de exportación aproximadamente más del 80% de la
+
+
+
+
+                                                   24
+ producción de la Región Tacna se va al vecino país de Chile. (SENASA,
+
+ 2015)
+
+
+      Así mismo, según el Servicio Nacional de Sanidad Agraria Tacna; en
+
+ el año 2015 se reportó una exportación por el Puesto de Control Externo
+
+ de Santa Rosa del SENASA, de 4 063 toneladas de vainita,
+
+ correspondiente a Tacna (50%), Moquegua (10%) y Arequipa (40%).
+
+
+2.2.13. Oferta de Hortalizas en la Región Tacna
+
+
+     Las condiciones agro climáticas favorables de los valles de la región
+
+Tacna, permiten cultivar una amplia gama de cultivos, entre ellos las
+
+hortalizas, las que son regadas con aguas de buena calidad, entre ellas, de
+
+los ríos Uchusuma, Caplina y las aguas subterráneas de la irrigación La
+
+Yarada. Estas zonas presentan una temperatura media anual de 18,6 ºC,
+
+una máxima de 23,6 ºC y mínimas de 13,6 ºC con una humedad relativa
+
+promedio anual de 75% llegando a un máximo de 80% entre los meses de
+
+mayo a septiembre. La línea de las hortalizas y legumbres, se ha
+
+convertido en una importante línea generadora de divisas y de atracción
+
+de inversiones a nivel nacional. Tacna cuenta con ventajas comparativas
+
+tanto en clima y suelo y la contra estación que permite ofertar a Chile
+
+cuando no hay producción interna en dicho país o competir con productos
+
+frescos, de mejor calidad y presentación. La producción de hortalizas en
+
+
+                                        25
+Tacna, históricamente es para el consumo regional y local. En los últimos
+
+años abastece en mayores niveles los mercados extra regionales de
+
+Arequipa, Puno y la ciudad de Ilo (Moquegua). Otro mercado lo constituye
+
+el país vecino Chile al que se le registra exportaciones de productos
+
+perecibles, que se exportan estacionariamente, este es el caso de la
+
+vainita. (SENASA, 2015)
+
+
+
+ 2.2   ENFOQUES TEÓRICO - TÉCNICOS
+
+
+ 2.2.1. Indicadores de rentabilidad
+
+
+       Son aquellos indicadores financieros que sirven para medir la
+
+ efectividad de la administración de la empresa para controlar los costos y
+
+ gastos y, de esta manera convertir ventas en utilidades. Los indicadores
+
+ más utilizados son: margen bruto, margen operacional, margen neto y
+
+ rendimiento de patrimonio (Ortiz, 2003).
+
+
+ 2.2.2. Valor neto de la producción
+
+
+       Para establecer un adecuado valor de la producción, hay que
+
+ cuantificar los ingresos netos obtenidos en la actividad agraria. Define así
+
+ el uso del Valor Neto de la Producción (VNP), como la unidad de medida
+
+ de resultado económico que se obtiene al restar de las entradas brutas
+
+ los gastos directos realizados en un período determinado. (Oriol, 2008)
+
+                                         26
+2.2.3. Rentabilidad
+
+
+        La rentabilidad, se trata de un índice, de una relación tal como, por
+
+ejemplo, la relación entre un beneficio y un coste incurrido para obtenerlo,
+
+entre una utilidad y un gasto, o entre un resultado y un esfuerzo. La
+
+noción económica de productividad, como relación entre producción y
+
+factores de producción empleados, es de este mismo tipo. (Sinisterra,
+
+2007)
+
+
+2.2.4. Ingreso
+
+        Un ingreso es el incremento de los activos o el decremento de los
+
+pasivos de una entidad, durante un periodo contable, con un impacto
+
+favorable en la utilidad o pérdida neta o, en su caso, en el cambio neto en
+
+el patrimonio contable y, consecuentemente, en el capital ganado o
+
+patrimonio contable, respectivamente. (Soriano, 2010)
+
+
+2.2.5. Egreso
+
+
+        Erogación o salida de recursos financieros, motivada por el
+
+compromiso de liquidación de algún bien o servicio recibido o por algún
+
+otro concepto. Desembolsos o salidas de dinero, aun cuando no
+
+constituyan gastos que afecten las pérdidas o ganancia (Soriano, 2010).
+
+
+
+
+                                         27
+2.2.6. Costo de Producción
+
+
+         Este costo es aquel que se incurre o se genera para la obtención
+
+de un bien o servicio. Dentro de este grupo se encuentra la materia prima,
+
+mano de obra directa y costos indirectos de fabricación (Gutierrez, 1985).
+
+
+2.2.7.    Financiamiento
+
+
+         Para Lerma et al. (2007) el financiamiento consiste en proporcionar
+
+los recursos financieros necesarios para la puesta en marcha, desarrollo y
+
+gestión de todo proyecto o actividad económica. Siendo los recursos
+
+económicos obtenidos por esta vía, recuperados durante el plazo y
+
+retribuidos a un tipo de interés fijo o variable previamente establecido.
+
+
+         Toda empresa, sea pública o privada, para poder realizar sus
+
+actividades requiere de recursos financieros (dinero), ya sea para
+
+desarrollar sus funciones actuales o ampliarlas, así como para el inicio de
+
+nuevos proyectos que impliquen inversión, llámese a ello financiamiento.
+
+(Hernández, 2002)
+
+
+
+2.2.8. Caracterización de la planificación Financiera
+
+         Sobre la planificación financiera, expone que es un “proceso de
+
+análisis de las influencias mutuas entre las alternativas de inversión y de
+
+financiamiento; proyección de las consecuencias futuras de las decisiones
+
+                                         28
+presentes, decisión de las alternativas a adoptar y por último comparación
+
+del comportamiento posterior con los objetivos establecidos en el plan
+
+financiero” (Brealey, Myers, & Allen, 2015).
+
+
+2.2.9.    Proceso de Comercialización
+
+
+         El   proceso    de    comercialización   incluye   cuatro   aspectos
+
+fundamentales: ¿cuándo?, ¿dónde?, ¿a quién? y ¿cómo? En el primero,
+
+el autor se refiere al momento preciso de llevarlo a efecto; en el segundo
+
+aspecto, a la estrategia geográfica; el tercero, a la definición del público
+
+objetivo y finalmente, se hace una referencia a la estrategia a seguir para
+
+la introducción del producto al mercado (Kotler, 1995).
+
+
+
+
+2.3   MARCO REFERENCIAL
+
+
+2.1.1. Antecedentes
+
+2.1.1.1.      “Análisis de los Márgenes de Comercialización en el Cultivo de
+
+              Vainita (Phaseolus vulgaris L.) producida en la irrigación La
+
+              Yarada (2012)”
+
+
+         Rojas (2014); Efectúo la mencionada tesis para obtener el título de
+
+Ingeniero en Economía Agraria, teniendo como objetivo de su
+
+investigación determinar los márgenes de comercialización generados
+
+
+
+                                          29
+por función en el cultivo de vainita, producido en la Irrigación La Yarada,
+
+desde el enfoque funcional de la comercialización de vainita, se muestra
+
+que el tipo de investigación fue de tipo descriptivo, y de corte exploratorio
+
+para lo cual se usaron fuentes primarias como fuentes secundarias, y la
+
+observación. Se usó una encuesta estructurada a 32 productores
+
+representativos de la zona de la Yarada y a 34 agentes intermediarios
+
+minoristas de los 7 mercados de la localidad de Tacna. Para el análisis
+
+de resultados, se evaluarán los datos obtenidos en el procesamiento de
+
+la información refiriéndose a tendencias, frecuencias, dispersiones, etc.
+
+Se utilizó la prueba t Student para muestras dependientes, se utilizó para
+
+comparar las medias de un mismo grupo en diferentes etapas.              Las
+
+conclusiones más importantes a las que se llegaron se encontró 3
+
+canales de comercialización: canal 1: Productor→intermediario             →
+
+consumidor    final.   Canal   2:   Productor   →   Mayorista    →Minorista
+
+→Consumidor      el    Canal   3:   Productor   →   Acopiador    →Mercado
+
+Internacional. Se determinó que la participación del productor, en los
+
+márgenes brutos de comercialización fue de 22,36, la participación del
+
+margen bruto de comercialización del agricultor es de 77,64 %. De
+
+acuerdo las funciones de facilitación evidencian en efecto una mayor
+
+participación del productor en cuanto a la información de precios
+
+
+
+
+                                        30
+(46,90%), información sobre costos de producción (59,40%); Información
+
+sobre la importancia del valor agregado (100,0%).
+
+
+
+2.1.1.2.   “Estudio de la cadena de valor y formación de precios del
+
+           sector del poroto verde (Phaseolus vulgaris L.)
+
+
+Ministerio de Agricultura España (2013); realizó un estudio en base a la
+
+cadena de valor y formación de precios del sector del poroto verde
+
+(vainita). Y a pesar de su alta rentabilidad, el cultivo nacional de judía
+
+verde ha experimentado un retroceso en los últimos años, tanto en
+
+superficie cultivada como en producción, aunque ha aumentado su
+
+rendimiento. Así, en el año 2010 se cultivaron 8 857 hectáreas y se
+
+cosecharon 144 301 toneladas (rendimiento de 16,3 t/ha) por un valor de
+
+205 008 miles de euros. Según las estimaciones para el año 2011 y 2012,
+
+estos valores se mantendrían más o menos constantes. Entre los
+
+principales inconvenientes a los que se enfrentan los agricultores se
+
+encuentra la alta exigencia en mano de obra que genera un alto coste
+
+económico y diversos problemas de índole sanitaria que dan lugar a
+
+pérdidas importantes en las cosechas. En cuanto a los intercambios
+
+internacionales, España ha reducido paulatinamente sus exportaciones y,
+
+por el contrario, ha incrementado sus importaciones hasta situarse como
+
+primer importador mundial.    Las propias características del cultivo han
+
+
+                                        31
+facilitado que países como Marruecos, principal suministrador nacional,
+
+hayan aumentado sus exportaciones de forma significativa al conseguir
+
+producciones a bajo costo.
+
+
+
+2.1.1.3.    “Rentabilidad Agrícola Esperada Ciclo 2015/2016 y Aspectos
+
+            Financieros”
+
+
+       El Instituto de Estudios Económicos sobre la Realidad Argentina y
+
+Latinoamérica y el Ministerio de Agricultura de Córdoba (2015); realizaron
+
+un estudio en el cual se propone incorporar aspectos financieros al
+
+análisis de rentabilidad agrícola esperada para el ciclo 2015/2016. En
+
+particular, interesa mostrar la relación que existe entre la rentabilidad
+
+sobre activos y la rentabilidad sobre capital propio y bajo qué condiciones
+
+podría ser conveniente financiar con deuda parte de las inversiones a
+
+realizar.
+
+       El estudio indica que además de optimizar el uso de los fondos,
+
+una cuestión clave consiste en determinar si resulta conveniente el
+
+financiamiento (al menos parte) de la inversión con deuda en el ciclo
+
+2015/2016. De acuerdo a las simulaciones realizadas, si se financia con
+
+deuda el pago del alquiler (35% de la inversión total estimada) pagando
+
+una tasa del 33% anual (que puede ser cercana a la que rige actualmente
+
+en el mercado), la rentabilidad esperada desciende del 26,1% al 21,0%.
+
+
+                                       32
+Dada la rentabilidad esperada del “caso base” o del “caso base
+
+optimizado”, toda deuda que cueste más del 21,5% o 26,0%,
+
+respectivamente, deteriorará la rentabilidad sobre el capital propio. Desde
+
+otra perspectiva, un productor que enfrente un costo financiero similar o
+
+mayor a los porcentajes antes referidos se encontrará en una disyuntiva
+
+importante: a) reducir la escala productiva (hectáreas sembradas) hasta el
+
+tamaño que permiten los fondos propios a los efectos de obtener la mayor
+
+rentabilidad posible; b) mantener la escala productiva, tomar deuda a los
+
+efectos de completar la inversión, y reducir el retorno esperado sobre su
+
+capital propio. La segunda opción antes referida, además de tener un
+
+efecto negativo sobre la tasa de retorno esperada, lleva al productor a un
+
+escenario de mayor riesgo. Debe recordarse que, ante diferentes
+
+perturbaciones (escenarios buenos o malos), la rentabilidad esperada de
+
+una inversión financiada (parcial o totalmente) con deuda tiene mayor
+
+variabilidad que la de la inversión financiada con capital propio, y esto se
+
+profundiza mientras mayor sea la relación deuda/capital. En otras
+
+palabras, tomar deuda a las tasas actuales y para la rentabilidad
+
+esperada de un productor arrendatario puede derivar en fuertes
+
+quebrantos en caso de no lograr resultados productivos medios o de
+
+haber algún deterioro en cualquiera de las variables del mercado respecto
+
+de lo que actualmente se proyecta.
+
+
+
+                                        33
+      En síntesis, un correcto manejo financiero tiene un impacto
+
+importante sobre la rentabilidad. No sólo importa tener en claro si el
+
+proyecto permite endeudarse a las tasas de mercado o la búsqueda
+
+permanente del menor costo financiero posible en el mercado, sino
+
+también el manejo de los fondos y los tiempos. Un manejo correcto
+
+consiste básicamente en disminuir el monto y el tiempo en que el capital
+
+(propio o de terceros) se encuentra inmovilizado en el proyecto (reducir la
+
+inversión financiera a su mínima expresión). En términos simples, el
+
+capital, como tiene un costo, debe ser puesto en el momento justo en que
+
+se deben afrontar los pagos (no antes) y en los montos requeridos.
+
+      Del análisis anterior surge una consideración muy importante: Los
+
+productores que recurren al financiamiento externo para desarrollar la
+
+actividad o expandir su negocio se encuentran en una situación de mayor
+
+riesgo, por lo que debería existir siempre una prima en materia de
+
+rentabilidad que compense este mayor riesgo. Otro punto importante es
+
+que quienes se financian con deuda deberían trabajar de manera más
+
+comprometida con las herramientas que se encuentran en el mercado
+
+para eliminar algunos de estos riesgos.
+
+
+
+
+                                          34
+2.1.1.4.   “Caracterización del financiamiento, la capacitación y la
+
+           rentabilidad de las Mypes del sector agrario – rubro camu
+
+           camu, del distrito de Calleria-Pucallpa, período 2011 – 2012”
+
+
+      Saldaña (2013), en su tesis tuvo como objetivo general: describir
+
+las principales características del financiamiento, la capacitación y la
+
+rentabilidad de las Mypes del sector agrario-rubro camu camu del distrito
+
+de Callería-Pucallpa, periodo 2011-2012. La investigación fue cuantitativa-
+
+descriptiva, para el recojo de la información se escogió en forma dirigida a
+
+10 Mypes, a quiénes se les aplicó un cuestionario de 23 preguntas
+
+cerradas, aplicando la técnica de la encuesta. Obteniéndose los
+
+siguientes resultados: Respecto a los empresarios y las Mypes: El 100%
+
+de los representantes legales de las Mypes encuestadas, su edad fluctúa
+
+entre 26 a 60 años; el 100% son del sexo masculino y el 65% tiene grado
+
+de instrucción secundaria incompleta. El 40% tiene más de tres años en el
+
+rubro empresarial y el 90% posee más de tres trabajadores permanentes.
+
+      Finalmente, el 70% manifestaron que la formación de las Mypes
+
+fue por subsistencia. Respecto al financiamiento: El 50% manifestaron
+
+que el financiamiento que obtuvieron fue por parte del Gobierno Regional.
+
+El 60% de los representantes legales encuestados que recibieron créditos
+
+en los años 2011 y 2012, el 40% invirtió el crédito en plantones de camu
+
+camu. Respecto a la capacitación: El 50% manifestó que recibió más de
+
+
+                                        35
+cuatro capacitaciones en los dos últimos años. El 60% manifestó que su
+
+personal si recibió capacitación. El 80% considera que la capacitación es
+
+una inversión. Y el 80% declaró que la capacitación fue relevante para
+
+sus empresas. Respecto a la rentabilidad: El 90% de los representantes
+
+legales encuestados manifestaron que el financiamiento no ha mejorado
+
+la rentabilidad de sus empresas y el 70% manifestó que la rentabilidad de
+
+sus empresas no ha mejorado en los dos últimos años.
+
+
+
+2.1.1.5.   “Influencia del Financiamiento en el Desarrollo de las Mypes en
+
+           el Sector Comercial del Distrito de Independencia - Período
+
+           2015”
+
+
+      Durand y León (2016), en su investigación tuvieron como objetivo
+
+principal determinar la influencia de las fuentes de financiamiento para el
+
+desarrollo de las MYPES del Distrito de Independencia. La investigación
+
+fue de tipo descriptiva con un enfoque cuantitativo y no experimental, se
+
+analizó la realidad en forma objetiva a través de las herramientas de
+
+recolección de datos: Establecieron como población de su trabajo de
+
+investigación un total de 400 MYPES en el Distrito de Independencia.
+
+Escogiendo una Muestra Poblacional de 50 Microempresas, a quienes se
+
+les aplicó un cuestionario de 17 preguntas utilizando la técnica de la
+
+encuesta. Sin embargo, las MYPES, en su gran mayoría, tienen
+
+
+                                       36
+impedimentos al solicitar un crédito en el sistema financiero ya por falta de
+
+información, de experiencia en gestión administrativa, o porque las
+
+políticas crediticias no son accesibles para dichas empresas, este
+
+obstáculo frena su desarrollo y su expansión en el mercado. Resumiendo,
+
+que, si las MYPES llegaran a gestionar su financiamiento de manera
+
+eficaz y correcta, se vería reflejado en el aumento de su producción y en
+
+el de sus ventas, considerándolo favorable para la influencia de las
+
+fuentes de financiamiento.
+
+      Teniendo en cuenta lo planteado anteriormente, los resultados
+
+obtenidos en dicha investigación indican que los créditos inciden
+
+favorablemente en la competitividad. Esto se representó en una tabla de
+
+contingencia obteniendo un nivel aceptable y una calificación satisfactoria
+
+representado por el 85.7%, ya que la mayoría de los propietarios de las
+
+MYPES, prefieren obtener el volumen de financiación bancaria que
+
+precisa el desarrollo de su actividad al mínimo coste posible. Llegando así
+
+a la conclusión de que las fuentes de Financiamiento generan un efecto
+
+favorable sobre las MYPES del Distrito de Independencia. 3
+
+      7Los propietarios de las MYPES del Distrito de Independencia,
+
+respecto a la influencia de las fuentes de financiamiento en el periodo
+
+2015, el 87.2% (68) manifiesta que sí se aplica en forma aceptable y el
+
+12.8% (10) se aplica en forma insuficiente. Por otra parte, respecto al
+
+
+
+                                        37
+desarrollo de las MYPES en el sector comercial período 2015, el 1.3% (1)
+
+manifiesta que se aplica en mayor grado, el 69.2% (54) se aplica en forma
+
+aceptable y 29.5% (23) se aplica en forma insuficiente. 77respecto a la
+
+accesibilidad de los créditos en el período 2015, el 1.3% (1) manifiesta
+
+que se aplica en mayor grado, el 85.9% (67) se aplica en forma aceptable
+
+y 12.8% (10) se aplica en forma insuficiente. Por otra parte, sobre
+
+respecto el desarrollo de las MYPES en el sector comercial periodo 2015,
+
+el 1.3% (1) manifiesta que se aplica en mayor grado, el 69.2% (54) se
+
+aplica en forma aceptable y 29.5% (23) se aplica en forma insuficiente.
+
+respecto al incremento del capital propio en el período 2015, el 33.3%
+
+(26) manifiesta que se aplica en mayor grado, el 38.5% (30) se aplica en
+
+forma aceptable y 28.2% (22) se aplica en forma insuficiente. Por otra
+
+parte, sobre respecto el desarrollo de las MYPES en el sector comercial
+
+período 2015, el 1.3% (1) manifiesta que se aplica en mayor grado, el
+
+69.2% (54) se aplica en forma aceptable y 29.5% (23) se aplica en forma
+
+insuficiente
+
+
+       Los créditos para el capital de trabajo e inversión inciden
+
+favorablemente en la competitividad de las MYPES del distrito de
+
+Independencia ya que, a través de los financiamientos, (prestamos de
+
+entidades financieras) podrán aumentar sus inventarios por ende los
+
+empresarios podrán desarrollar fuertes ventajas competitivas sobre sus
+
+
+                                      38
+competidores, brindándoles un buen servicio a sus clientes con mejores
+
+costos. Tendrán, asimismo, mayores estrategias para poder sobresalir en
+
+el mercado generándoles mayor rentabilidad.
+
+
+
+2.1.1.6.     “Financiamiento agrícola:   Servicios Financieros en el Medio
+
+             Rural; Una palanca indispensable para el desarrollo”
+
+
+      Développement International Desjardins (2010); realizó un estudio
+
+donde consideran que existe una gran influencia de la intermediación
+
+financiera en la economía, y que, en consecuencia, para aumentar el
+
+acceso de las poblaciones rurales al crédito agrícola y a otros servicios
+
+financieros, asegurando a la vez la rentabilidad y la viabilidad de las
+
+instituciones financieras, es preciso identificar estrategias que permitan
+
+atenuar los riesgos inherentes al financiamiento de las actividades
+
+agrícolas.
+
+      Desjardins es una red cooperativa integrada de servicios
+
+financieros seguros y rentables, de forma permanente, propiedad y
+
+administrada por los socios, y una red de empresas financieras
+
+complementarias,      con    rendimientos     competitivos   y   controladas.
+
+Atribuyéndose logros como:
+
+      - Ayudar a más de 43.000 agricultores y agricultoras.
+
+
+
+
+                                         39
+       - Haber otorgado 75.000 préstamos, por un total de 200 millones de
+
+        dólares canadienses en préstamos.
+
+       -10.000     agricultores   y   agricultoras   han   recibido   educación
+
+financiera.
+
+       -Ha formado a 3.500 profesionales de las finanzas sobre educación
+
+        financiera y servicios financieros.
+
+       Sobre la sólida base de sus numerosos logros en materia de
+
+desarrollo de los servicios financieros, así como los logros de sus redes
+
+asociadas, DID considera que:
+
+       • Es necesario adaptar los servicios financieros y las metodologías
+
+de crédito a los sistemas agrícolas de cada región a fin de responder
+
+adecuadamente a las necesidades de los prestatarios y facilitar la gestión
+
+de los créditos.
+
+       • La oferta de servicios financieros agrícolas debe, en la medida de
+
+lo posible, estar integrada a un enfoque global que favorezca el desarrollo
+
+de la cadena de valor.
+
+       • Deben ponerse en práctica mecanismos de gestión y distribución
+
+de los riesgos para dar seguridad a las carteras de crédito agrícola frente
+
+a los riesgos sistémicos.
+
+
+
+
+                                           40
+2.1.1.7.   “Factores de la Gestión Empresarial que permiten mejorar la
+
+           rentabilidad en las pequeñas unidades de producción agrícola
+
+           (PUPA) del Chili Regulado en Arequipa, Perú. 2004”
+
+
+      Galván (2004); efectuó la menciona tesis para obtener el grado de
+
+Magister en Administración de Negocios, teniendo como objetivos de su
+
+investigación: determinar los factores de la gestión empresarial que
+
+influyen en las PUPA, identificar su rentabilidad sobre ventas e identificar
+
+cuáles factores permiten mejorar su rentabilidad; para lograrlos se realizó
+
+un estudio explicativo, coyuntural y seccional, con trabajo documental y de
+
+campo. El universo de estudio estuvo conformado por las PUPA con
+
+superficies cultivadas entre 1 a 15 hectáreas. Se formaron cuatro tipos de
+
+superficies: (1) 1≤ha<3, (2) 3≤ha<5, (3) 10≤ha<15 pertenecientes a la
+
+cuenca del Chili Regulado. La determinación de la muestra estratificada
+
+permitió la aplicación de los instrumentos a 15 unidades.
+
+      Los supuestos considerados para la investigación fueron en el
+
+sentido de creer que el sistema de información, la planificación y control, y
+
+el sistema de comercialización contribuyen a mejorar la rentabilidad de las
+
+pequeñas unidades de producción agrícola en la cuenca del Chili
+
+Regulado en Arequipa. De lo anterior, se concluye que existen factores
+
+importantes para la gestión empresarial de las pequeñas unidades de
+
+producción agrícola (PUPA) del Chili Regulado en Arequipa, en orden de
+
+
+                                        41
+importancia está el sistema de comercialización, planificación y control,
+
+sistema de información y mecanización moderna; que la rentabilidad bruta
+
+sobre ventas para estos productores, va desde el 11% hasta el 25%,
+
+dando como promedio 19%; en general, se puede afirmar que la
+
+rentabilidad es buena ya que el 87% de la población estudiada se ubica
+
+en el rango rentabilidad media alta (13% ≤R≤25%); mientras que el resto
+
+se ubica en la rentabilidad media baja (6%<R<13%); que la buena
+
+rentabilidad es muy dependiente de la Planificación y Control (80%), un
+
+poco dependiente del Sistema de Información (67%) y muy dependiente
+
+del Sistema de Comercialización (33%). De esta forma se comprueba la
+
+hipótesis planteada que dice que los factores de la gestión empresarial
+
+que influyen en las PUPA aunque parcialmente pues se obtuvo que el
+
+67% tiene un nivel de “poco dependiente” de los factores de la gestión
+
+empresarial y en un porcentaje más bajo del 33% señala ser “muy
+
+dependiente” de factores de la Gestión Empresarial que permiten mejorar
+
+la rentabilidad en las pequeñas unidades de producción agrícola (PUPA)
+
+
+
+      Los resultados, de alguna manera, dan luces para comprender que
+
+uno de los factores más influyentes en la rentabilidad de los pequeños
+
+productores estudiados es la Planificación y Control, hecho que se
+
+relaciona directamente con el conocimiento adecuado de Información
+
+
+
+                                      42
+Agrícola actualizada y la adopción de las mejores formas de
+
+Comercialización considerando el mercado tan cambiante que se da para
+
+los productos agrícolas en nuestro medio. Estos resultados muestran que
+
+la rentabilidad de las PUPA es dependiente de la Planificación y Control
+
+(80%), y del Sistema de Información (67%) mientras que es independiente
+
+del Sistema de Comercialización (33%).
+
+
+
+2.1.1.8.   “Modos    de   Producción,    Comercialización    del   Maíz   y
+
+           Rentabilidad en la Economía de los Productores Distrito de
+
+           Urcos Periodo 2016”
+
+
+Martiarena & Quispe (2016); El objetivo de la investigación fue determinar
+
+el nivel de incidencia de los modos de producción y comercialización del
+
+maíz en la rentabilidad de la economía de los productores del distrito de
+
+Urcos período 2016. Los resultados obtenidos han permitido evidenciar la
+
+existencia de la incidencia de los modos de producción y comercialización
+
+del maíz en la rentabilidad de los productores del distrito de Urcos periodo
+
+2016, comprobando que los incrementos de dichos niveles generan
+
+mejora en la rentabilidad, con resultados que devienen del valor de
+
+X2=136,990 con un P valor menor al nivel de significancia del 5%,
+
+determinado una influencia directa y significativa. Con relación a
+
+comercialización y rentabilidad; la comercialización presenta incidencia
+
+
+                                        43
+con la rentabilidad de los productores de maíz del distrito de Urcos, esto
+
+se evidencia de acuerdo a los resultados de la prueba estadística de Chi
+
+cuadrado de Pearson X2=29,593 además de que esta relación es alta y
+
+directa por el valor de Gamma=0,783 los antecedentes investigativos
+
+hacen notar que para conseguir una mejor utilidad en la producción del
+
+maíz se requiere de un sistema adecuado de comercialización.
+
+
+
+
+                                       44
+                               CAPÍTULO III
+
+
+                        HIPÓTESIS Y VARIABLES
+
+
+
+
+3.1. HIPÓTESIS
+
+
+3.1.1. Hipótesis General
+
+   •   El financiamiento     y las    características de    comercialización
+
+       utilizados por el productor de vainita inciden significativamente
+
+       sobre la rentabilidad de este cultivo en el distrito de La Yarada –
+
+       Los Palos.
+
+
+3.1.2. Hipótesis Específicas
+
+   •   El tipo de financiamiento utilizado por el productor de vainita incide
+
+       significativamente en la rentabilidad de este cultivo en el distrito La
+
+       Yarada – Los Palos.
+
+   •   Las características comerciales empleadas por el productor de
+
+       vainita inciden significativamente sobre la rentabilidad de este
+
+       cultivo en el distrito La Yarada – Los Palos.
+
+
+3.2. DIAGRAMA DE VARIABLES
+
+
+                                               Oy
+
+                                  M            rOx
+
+                                         45
+      Donde:
+
+      M= es la muestra
+      O= observaciones de las variables Y y X
+      r = coeficiente de correlación
+
+
+3.3. INDICADORES DE VARIABLES
+
+
+Indicadores de la Variable dependiente (Y): Rentabilidad
+
+      •     Ingresos por venta
+
+      •     Precio de venta promedio
+
+      •     Superficie cosechada
+
+      •     Rendimiento
+
+      •     Costo de producción
+
+
+Indicadores de las Variables Independientes (X): Características
+
+financieras y comerciales
+
+
+      •     Principal fuente de financiamiento:
+
+      •     Entidad a la que solicitó el crédito
+
+      •     Frecuencia en la que solicita el crédito
+
+      •     Lugar de comercialización
+
+      •     A quien vende el productor
+
+      •     Modo de comercialización
+
+      •     Forma de venta a los demandantes
+
+
+                                        46
+         3.4. OPERACIONALIZACIÓN DE VARIABLES
+
+
+         Tabla 6
+         Operacionalización de variables
+  Tipo de
+                  Variables           Concepto             Dimensión                        Indicadores
+  variable
+
+                                  La     rentabilidad                         1. Ingresos por venta
+                                  mide la relación                            2. Precio de venta promedio
+ Variable                         entre el resultado        Ingresos y        3. Superficie cosechada
+Dependiente      Rentabilidad     financiero                 egresos          4. Rendimiento
+                                  obtenido y los                              5. Costo de producción
+     Y                            recursos
+                                  económicos
+                                  dispuestos        y    Indicadores de
+                                  valorados        en     Rentabilidad      Índice de Rentabilidad=     Utilidad     x 100
+                                  términos                                                         Costo de Inversión
+                                  monetarios
+
+
+                                  Conjunto        de                          1. Fuente de financiamiento:
+                                  aspectos
+                Características   relacionados      al      Acceso al             a) capital propio
+                 Financieras      financiamiento         Financiamiento           b) crédito
+                    (X1)          referido   a      la                            c) ambos
+                                  inversión,                                  2. ¿Quién le brindo el crédito?
+                                  comercialización,
+                                  explotación, etc.                               a) entidad bancaria
+   Variable                                                                       b) familiares
+Independiente                                                                 3. Entidad a la que solicitó el crédito
+
+
+     X                                                                       1. Lugar de comercialización
+                                  Conjunto       de                               a) En su parcela
+                                  condiciones      o                              b) En su negocio
+                                  aspectos                                        c) Otro lugar
+                                  comerciales                                2. A quién vende
+                Características   vinculados a la          Proceso de             a) Directo al consumidor final
+                 Comerciales      producción de un       comercialización         b) A la intermediación
+                    (X2)          bien o producto.                                c) Otros
+                                                                             3. Modo de comercialización:
+                                                                                  a)Individual
+                                                                                  b)Asociativa
+                                                                                  c)Otro
+                                                                             4. Forma de venta a los demandantes:
+                                                                                  a) Contado
+                                                                                  b) Crédito
+                                                                                  c) Ambas formas de venta
+
+
+
+
+                                                             47
+                              CAPÍTULO IV
+
+
+                METODOLOGÍA DE LA INVESTIGACIÓN
+
+
+
+4.1. TIPO DE INVESTIGACIÓN
+
+
+       El tipo de investigación es de tipo transversal, porque se realiza
+
+ un corte en el tiempo (presente), para conocer la rentabilidad de la
+
+ vainita, así mismo por las características de la investigación se
+
+ determina que es “descriptivo” (describe ciertos rasgos de la realidad), y
+
+ correlacional, porque busca determinar la causa y efecto que tiene una
+
+ variable en otra. Ya que existe la necesidad de encontrar la relación de
+
+ la variable dependiente con cada una de las variables independientes
+
+ para así establecer el grado de influencia de cada una de las variables
+
+ en la variable dependiente. El trabajo constituye una investigación no
+
+ experimental, que utiliza variables analíticas que permiten una
+
+ evaluación eficaz de los indicadores del problema.
+
+
+4.2. POBLACIÓN Y MUESTRA
+
+
+4.2.1. Población
+
+      La población considerada fueron todos los productores de vainita
+
+ del distrito de La Yarada – Los Palos, los cuales conforman una
+
+
+
+                                       48
+ población de 85 productores distribuidos en los distintos sectores del
+
+ distrito.
+
+
+4.2.2.    Muestra
+
+         Para abordar este universo dentro de los límites de tiempo y
+
+presupuesto existente se realizó un muestreo aleatorio simple (donde se
+
+seleccionó al azar entre los N de la población) de tipo probabilístico. Para
+
+estipular la dimensión de la muestra se tomó el universo compuesto por
+
+los agricultores productores de vainita del distrito La Yarada – Los Palos.
+
+
+         Para determinar el tamaño de muestra (n), la fórmula que se aplicó
+
+para fines de muestreo, es la correspondiente a (Kazmier, 2001)               -
+
+Estadística Aplicada. Se realizó una muestra con la fórmula tradicional de
+
+95% de confianza y 5% de error, con la cual se obtiene una muestra de
+
+70 productores de vainita.
+
+                                   𝑁 𝑍 2 𝑝𝑞
+                           𝑛=
+                              (𝑁 − 1)𝐸 2 + 𝑍 2 𝑝𝑞
+
+         Donde:
+
+               N = Población = 85
+
+               E = Error máximo Permitido: 0,05
+
+               Z = Limite de Distribución Normal: 1,96
+
+               p = Probabilidad de éxito: 0,50
+
+               q = Probabilidad de fracaso: 0,50
+
+
+                                        49
+                                85x 1.96 2 (0,5 0,50)
+                         n=    (85 - 1) 0,052 + 1,962 (0,5 x 0,5)
+
+                         n=    70 productores de vainita
+
+
+        Y para la determinación del tamaño de las sub muestra según
+
+sectores del distrito en estudio, se realizó de la siguiente forma:
+                                         𝑛𝐼
+                                 𝑛𝑖 = 𝑛 ( )
+                                         𝑁
+
+Donde:
+
+N: población de productores = 85
+
+𝑛𝐼 : 𝑠𝑢𝑏 𝑚𝑢𝑒𝑠𝑡𝑟𝑎 𝑡𝑜𝑡𝑎𝑙 𝑑𝑒 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑜𝑟𝑒𝑠 (𝑣𝑒𝑟 𝑡𝑎𝑏𝑙𝑎 7)
+
+𝑛: 𝑡𝑎𝑚𝑎ñ𝑜 𝑑𝑒 𝑚𝑢𝑒𝑠𝑡𝑟𝑎 𝑜𝑏𝑡𝑒𝑛𝑖𝑑𝑎 = 70
+
+𝑛𝑖 : 𝑠𝑢𝑏 𝑚𝑢𝑒𝑠𝑡𝑟𝑎 𝑜𝑏𝑡𝑒𝑛𝑖𝑑𝑎 (𝑣𝑒𝑟 𝑡𝑎𝑏𝑙𝑎 7)
+
+
+
+   a.    Asentamiento 5 y 6
+
+                2
+          70      =2
+               85
+
+   b.    Los olivos
+
+                2
+          70      =2
+               85
+
+   c. Las Palmeras
+
+               32
+          70      = 26
+               85
+
+
+
+
+                                          50
+d. Los Palos
+
+                      9
+                70      =7
+                     85
+
+ e. Juan Velasco
+
+                      4
+                70      =3
+                     85
+
+
+
+f. Rancho grande
+                     36
+                70      = 30
+                     85
+
+
+
+Tabla 7
+
+Número de productores de vainita encuestados, según sectores
+
+                                               Número de      Número de
+     Distrito                  Sector
+                                               productores   Encuestados
+                      Asentamiento 5- 6            2             2
+
+                             Los Olivos            2             2
+La Yarada       –
+Los Palos
+                         Las Palmeras              32            26
+
+                             Los Palos             9             7
+
+                         Juan Velasco              4             3
+
+                        Rancho Grande              36            30
+
+TOTAL                                              85            70
+
+
+Fuente: Oficina Agraria La Yarada.
+
+
+
+                                          51
+      La Tabla 7 muestra el número de productores encuestados según
+
+sectores del distrito donde se observa que el mayor número de
+
+encuestados se encuentran en el sector de Rancho Grande con 30
+
+productores, le sigue el sector de las Palmeras con 26 también destaca
+
+los Palos con 7 productores respectivamente.
+
+
+
+      Y debido a las diferencias en las cantidades de ha destinadas por
+
+el productor para la producción de vainita, posterior a la encuesta
+
+aplicada, para el análisis estadístico se agrupo a los productores de la
+
+muestra, tomando en referencia el número de ha destinado por los
+
+productores de vainita durante el proceso de producción de la última
+
+campaña de este cultivo en el distrito.
+
+
+
+4.3. MATERIALES Y MÉTODOS
+
+
+4.3.1. Ubicación geográfica y temporal
+
+      La investigación se desarrolló en el distrito La Yarada – Los Palos,
+
+el cual se encuentra políticamente ubicada en la provincia de Tacna, de la
+
+Región Tacna.
+
+      Respecto a la temporalidad los datos estuvieron referidos a la
+
+condición recogida en referencia a la campaña agrícola del cultivo
+
+(Campaña 2015 – 2016).
+
+
+                                          52
+4.3.2. Análisis estadístico
+
+
+      Para analizar la información recibida en campo a través del
+
+cuestionario se usaron herramientas de estadística como:
+
+
+a) Análisis descriptivo
+
+
+      El análisis descriptivo consiste en la descripción de cada una de las
+
+variables en estudio (características financieras X1, características
+
+comerciales X2, rentabilidad Y), utilizando las medidas descriptivas:
+
+media, desviación estándar, varianza y los rangos así mismo las técnicas
+
+de   análisis de frecuencias     y proporciones.    Siendo    discutido   el
+
+comportamiento de dichas variables.
+
+
+b)   Análisis de Causalidad : Prueba Chi-Cuadrado χ2
+
+
+      En relación al nivel de dependencia y pruebas de hipótesis entre la
+
+variable dependiente e independientes se analizó utilizando pruebas
+
+estadísticas no paramétrica Chi - Cuadrado de Pearson, con un nivel de
+
+significancia α 0,05. Para efectos de este análisis las variables
+
+características financieras y características comerciales son variables
+
+cualitativas nominales, la variable rentabilidad fue categorizada asignando
+
+rangos e intervalos a sus valores convirtiéndola en variable nominal,
+
+siendo aptas para realizar las pruebas Chi - Cuadrado de Pearson.
+
+
+
+                                       53
+c) Índice de rentabilidad
+
+Es el beneficio expresado en tanto por ciento, el cual se obtuvo mediante
+
+un cálculo que obedece a la relación entre la utilidad y los costos de
+
+producción de la vainita.
+
+
+       Índice de Rentabilidad=     Utilidad     x 100
+                              Costo de Inversión
+
+
+Los cuales fueron determinados y se observan de manera detallada en el
+
+anexo 3, para ello además fue necesario calcular los costos de
+
+producción, obtener los precios en chacra y rendimiento para determinar
+
+el VBP (Valor Bruto de Producción) por ha, para finalmente calcular la
+
+utilidad (S/.) y así obtener el índice de rentabilidad.
+
+Para poder medir por escalas se realiza una valoración según el autor
+
+(Buffett, 2013) en el cual se manifiesta que los niveles de rentabilidad se
+
+clasifican de la siguiente manera:
+
+Tabla 8
+
+Valoración del índice de rentabilidad
+
+     Categoría                                     %
+
+          Bajo                                 0 -30
+
+          Medio                                 31 - 65
+
+          Alto                                  66 - 100
+
+
+ Fuente: (Buffett, 2013)
+
+                                          54
+                                 CAPÍTULO V
+
+
+                  TRATAMIENTO DE LOS RESULTADOS
+
+
+
+5.1. TÉCNICAS          APLICADAS      EN      LA    RECOLECCIÓN        DE     LA
+
+      INFORMACIÓN
+
+
+        Para esta investigación una parte importante de los datos primarios
+
+se obtuvo de la aplicación de la encuesta a productores de vainita del
+
+distrito.
+
+
+        Para recabar información objetiva, la encuesta estuvo a cargo de
+
+un grupo de encuestadores adecuadamente capacitados, quienes
+
+efectuaron la encuesta de forma personalizada a fin de mantener un
+
+contacto directo con el entrevistado y garantizar una adecuada
+
+recolección de la información
+
+
+        La investigación inicio con la recolección de información primaria y
+
+secundaria, la información secundaria constaba de información de la
+
+Agencia Agraria, Junta de Usuarios, Dirección Regional de Agricultura
+
+Tacna,      estudios   e   investigaciones,     etc.,   que   fundamentaran   la
+
+investigación. La recopilación de la información primaria requerida
+
+consistió en realizar visitas a los productores, donde se les aplico la
+
+
+
+                                           55
+encuesta debidamente formulada permitieron identificar las principales
+
+variables    planteadas   en   el    presente    trabajo   de    investigación.
+
+Posteriormente se procesó la información para mostrar los resultados
+
+obtenidos.
+
+
+
+5.1.1. Instrumentos de medición
+
+       El instrumento de medición de esta investigación es la encuesta,
+
+técnica estructurada de recopilación de datos, que consiste en una serie
+
+de   preguntas    debidamente       elaboradas   según     las   variables   de
+
+investigación, que fueron respondidas por el encuestado (ver anexo Nº 1).
+
+
+
+5.2. RESULTADOS
+
+
+5.2.1. Variable Dependiente: Rentabilidad (Y)
+
+
+
+5.2.1.1.    Precio de venta promedio (S/)
+
+
+       La Tabla 9 muestra que el 47,10% de los productores vendieron
+
+entre 1,80 a 2 soles el kg de vainita, seguido del 42,90% de productores
+
+que vendieron entre 2,10 a 2,50 soles el kg, el 5,70% entre 2,60 a 3,00
+
+soles y solamente el 4,30% su precio de venta vario entre 3,10 a 3,50
+
+soles el kg de vainita.
+
+
+
+
+                                         56
+       Tabla 9
+       Precio de kilo de vainita
+
+                                                           Porcentaje
+                                   Frecuencia Porcentaje     válido
+       Válido 1,80 a 2,00 soles           33        47,1           47,1
+              2,10 a 2,50 soles           30        42,9           42,9
+              2,60 a 3,00 soles             4        5,7            5,7
+              3,10 a 3,50 soles             3        4,3            4,3
+              Total                       70       100,0          100,0
+
+
+
+
+      La encuesta aplicada permitió determinar así el precio promedio de
+
+S/. 2,27 por kilogramo; este precio es similar con el identificado por la
+
+Dirección Regional de Agricultura de Tacna que para el año 2016
+
+determinó un precio de venta en chacra de S/. 2,19 por kg. La tendencia
+
+resulta siendo marcadamente creciente si se contempla que para el año
+
+2015 el precio promedio alcanzaba S/.1,55 por kg.
+
+
+
+      En la Tabla 10 se observa la evolución de los precios de la vainita
+
+registrados durante el periodo 2007 al 2016 donde se aprecia que los
+
+menores precios se registraron los años 2009 con un precio por kilo a
+
+1,94 soles y en el año 2015 a un precio de 1,55 soles, en tanto que los
+
+mayores precios se registraron en el año 2014 a 3,57 soles y en el año
+
+2010 que tuvo un promedio de 3,00 soles respectivamente
+
+
+
+
+                                        57
+Tabla 10
+Evolución de los precios de vainita en la Región Tacna (S/)
+
+
+
+ Años      2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+
+ Precio    2,14   2,06    1,94    3,00    1,99     2,05   2,34   3,57    1,55   2,19
+
+
+Fuente: Dirección Regional Agraria Tacna – Dirección de Estadística Agraria
+
+
+
+
+        La evolución de precios de la Vainita presenta una tendencia poco
+
+estable, los precios no presentan un comportamiento constante. el precio
+
+de la vainita entre el año 2007 al 2016 presentó un alza en su precio en el
+
+2010 y el 2014 con 3,00 y 3,57 soles asimismo su punto más bajo se
+
+registra en el año 2015 con 1,55 soles por kilo mientras que al año
+
+siguiente aumentó a 2,19 soles.
+
+
+5.2.1.2.   Superficie cosechada de vainita (ha)
+
+
+        En relación a la superficie cosechada en la Tabla 11 se observa
+
+que el 71,40% de los productores encuestados tiene una superficie
+
+cosechada que varía entre 1 a 2,5 ha, le sigue el 18,60% de productores
+
+cuya superficie varía entre 2,60 a 4 ha, seguido de un 5.7% de
+
+productores que tienen entre 4,1 a 5,5 ha, y solamente el 4,3% tuvo una
+
+superficie cosechada entre 7,1 a 15 ha.
+
+
+
+                                              58
+Tabla 11
+ Superficie Cosechada de vainita (ha)
+
+           ha de vainitas   Frecuencia        Porcentaje   Porcentaje válido
+ Válido 1 a 2,5                50               71,4            71,4
+        2,6 a 4,0              13               18,6            18,6
+        4,1 a 5,5               4                5,7             5,7
+        7,1 a 15                3                4,3             4,3
+        Total                  70               100,0           100,0
+
+       En nuestra costa este cultivo puede cosecharse durante todo el
+
+año; sin embargo, el período óptimo de cosecha se da durante la
+
+primavera.
+
+
+
+5.2.1.3.   Rendimiento por hectárea de vainita (kg/ha)
+
+
+       La Tabla 12 muestra que de los productores que tuvieron una
+
+superficie de 1 a 2,5 has de vainita, el 48,60% de los productores
+
+encuestados obtuvieron un rendimiento entre 5500 a 6500 kg/ha, seguido
+
+del 22,90% de productores cuyo rendimiento vario entre 6501 a 7500
+
+kg/ha; así también destacan los productores que tuvieron una superficie
+
+de 2,6 a 4 ha, el 12,90% obtuvo un rendimiento entre 6501 a 7500 kg/ha,
+
+y se aprecia que solamente en un productor su rendimiento vario entre
+
+8501 a 9000 kg/ha.
+
+
+
+
+                                         59
+Tabla 12
+
+Rendimiento por hectárea (kg/ ha) en relación a la superficie cosechada de vainita
+
+                                                    ha de vainitas
+                                   1 a 2,5    2,6 a 4,0   4,1 a 5,5   7,1 a 15   Total
+Rendimiento    5500 a 6500 kilos     34             1         0          1           36
+por ha                             48,6%          1,4%      0,0%       1,4%      51,4%
+               6501 a 7500 kilos     16             9         4          0           29
+                                   22,9%          12,9%     5,7%       0,0%      41,4%
+               7501 a 8500 kilos      0             2         0          2           4
+                                    0,0%          2,9%      0,0%       2,9%      5,7%
+               8501 a 9000 kilos      0             1         0          0           1
+                                    0,0%          1,4%      0,0%       0,0%      1,4%
+Total                                50            13          4          3          70
+                                   71,4%          18,6%      5,7%       4,3%     100,0%
+
+
+         Así también se aprecia en la Tabla 12 que el 51,40% de los
+
+productores de vainita obtuvieron un rendimiento que varía entre 5500 a
+
+6500 kg/ha, un 41,40% obtuvieron rendimiento que variaron de 6501 a
+
+7500 kilos, el 5,70% su rendimiento varió de 7501 a 8500 kg/ha y en
+
+menor proporción con el 1,40% obtuvo un rendimiento que variaron entre
+
+8501 a 9000 kg/ha.
+
+
+         Según la Dirección de Información Agraria de la Dirección Regional
+
+Agraria Tacna, en el año 2015 se cosecharon en la región un total de 289
+
+ha de vainita, con una producción de 2188 toneladas, resultando un
+
+rendimiento promedio de 7571 kg/ha; destacando que esta producción se
+
+obtuvo en su totalidad de los Centros Poblados La Yarada y Los Palos,
+
+
+
+                                             60
+        dicho rendimiento es similar a los obtenidos en la presente investigación
+
+        por el 41.40% de los productores del distrito.
+
+
+        5.2.1.4.   Costos de producción
+
+
+        •   Insumos:
+
+        a. Costo de semilla
+
+                   La Tabla 13 muestra que el 60,0% de los productores que tienen
+
+        entre 1 a 2,50 ha su costo de semilla vario entre 1801 a 2000 soles, el
+
+        14.30% de productores que tiene entre 2,6 a 4,0 ha su costo vario entre
+
+        1800 a 2000 soles, y el 7,1% y el 4,3% de productores cuyas áreas de
+
+        vainita son entre 1 a 2,5 y 7,1 a 15 ha respectivamente, su costo de
+
+        semillas fue entre 1600 a 1800 soles.
+
+        Tabla 13
+
+        Costo de Semilla por Hectárea de vainitas
+
+                                                         ha de vainitas
+                                        1 a 2,5 2,6 a 4,0 4,1 a 5,5 7,1 a 15         Total
+Costo de      1600 a 1800 soles                5         2         1         3               11
+Semilla
+(S/)                                       7,1%          2,9%        1,4%     4,3%    15,7%
+              1801 a 2000 soles               42            10            3      0           55
+                                          60,0%      14,3%           4,3%     0,0%    78,6%
+              2001 a 2200 soles                2             1            0      0            3
+                                           2,9%          1,4%        0,0%     0,0%     4,3%
+              2201 a 2250 soles               1             0           0        0        1
+                                           1,4%          0,0%        0,0%     0,0%     1,4%
+Total                                        50            13             4      3           70
+                                         71,4%       18,6%          5,7%      4,3%   100,0%
+
+
+                                                    61
+b. Costo de Fertilizantes
+
+   En la Tabla 14 se observa que el 42,90% de los productores su costo
+
+de fertilizantes varía entre 1601 a 2000 soles, seguido de un 35,7% cuyo
+
+costo varía de 2001 a 2400 soles, el 12,90% su costo varía entre 1200 a
+
+1600 soles, y un mínimo 2,90% su costo es mayor de 2800 soles.
+
+
+ Tabla 14
+
+ Costo de Fertilizantes por Hectárea de Vainitas
+
+                                                ha de vainitas
+                                   1 a 2,5 2,6 a 4,0 4,1 a 5,5 7,1 a 15     Total
+ Costo de      1200 a 1600 soles           7         0            0       2        9
+ Fertilizantes                       10,0%      0,0%          0,0%    2,9%    12,9%
+ (S/).         1601 a 2000 soles          19         6            4       1       30
+                                     27,1%      8,6%          5,7%    1,4%    42,9%
+              2001 a 2400 soles           19         6            0       0       25
+                                     27,1%      8,6%          0,0%    0,0%    35,7%
+              2401 a 2800 soles            3         1            0       0        4
+                                       4,3%     1,4%          0,0%    0,0%     5,7%
+              Mas de 2800 soles            2         0            0       0        2
+                                       2,9%     0,0%          0,0%    0,0%     2,9%
+ Total                                  50        13            4       3       70
+                                    71,4%    18,6%          5,7%    4,3% 100,0%
+
+
+         Así también se aprecia en la Tabla 14 que el 27,10 % de los
+
+productores que tienen entre 1 a 2,50 ha, sus costos de fertilizantes vario
+
+entre 1601 a 2000 soles y entre 2001 a 2400 soles, el 8,60 % de
+
+productores que tiene entre 2,6 a 4,0 ha su costo de fertilizantes vario
+
+entre 1601 a 2000 soles. Se observa también que los productores que
+
+
+
+                                          62
+tuvieron un costo por fertilizantes mayor a 2800 soles fueron aquellos
+
+productores que tienen entre 1 a 2,5 ha de vainita.
+
+
+c. Costo de Agroquímicos
+
+
+            Según la Tabla 15, el 30% de los productores su costo de
+
+agroquímicos varía entre 601 a 700 soles, seguido de un 21,4% cuyo
+
+costo varía de 701 a 800 soles, el 27,1% su costo varía entre 901 a 1000
+
+soles y un mínimo del 10% de productores su costo varía 500 a 600 soles.
+
+
+ Tabla 15
+
+ Costo de Agroquímicos por Hectárea de Vainitas
+
+                                               ha de vainitas
+                                    1 a 2,5 2,6 a 4,0 4,1 a 5,5 7,1 a 15     Total
+ Costo de     500 a 600 soles              4         0         0        3          7
+ Agroquímicos                          5,7%     0,0%        0,0%    4,3%      10,0%
+ (S/)         601 a 700 soles             15         2         4        0         21
+                                      21,4%     2,9%        5,7%    0,0%      30,0%
+                701 a 800 soles           12         3         0        0         15
+                                      17,1%     4,3%        0,0%    0,0%      21,4%
+                801 a 900 soles            8         0         0        0          8
+                                      11,4%     0,0%        0,0%    0,0%      11,4%
+                901 a 1000 soles          11         8         0        0         19
+                                      15,7%    11,4%        0,0%    0,0%      27,1%
+ Total                                    50       13          4       3         70
+
+         También la tabla señala que de los productores que tienen entre 1
+
+a 2,50 ha, el 21,4% de productores sus costos de agroquímicos fueron
+
+entre 601 a 700 soles, seguido del 17,1% y del 15.7% de productores
+
+
+                                        63
+  cuyos costos fueron entre 701 a 800 soles y de 901 a 1000 soles
+
+  respectivamente. Así también se aprecia que el 4,3% de productores que
+
+  tiene entre 7,1 a 15 ha de vainita tuvieron el menor costo de agroquímicos
+
+  el cual fue entre 500 a 600 soles.
+
+
+ •      Costo de Mano de Obra
+
+             En la Tabla 16 se observa que en relación a la mano obra el
+
+  27,10 % de los productores el costo de mano de obra varía entre 2000 a
+
+  2500 soles, seguido de un 21,40% de productores cuyo costo varía de
+
+  3001 a 3400 soles, y de más de 3400 soles.
+
+
+  Tabla 16
+
+  Costo de Mano de obra por Hectárea de Vainitas
+
+                                               ha de vainita
+                                1 a 2,5    2,6 a 4,0 4,1 a 5,5 7,1 a 15    Total
+Costo de      2000 a 2500 soles       18           1          0        0        19
+Mano de                           25,7%        1,4%        0,0%    0,0%     27,1%
+obra          2501 a 2800 soles        7           1          4        1        13
+(S/)                              10,0%        1,4%        5,7%    1,4%     18,6%
+              2801 a 3100 soles        4           4          0        0         8
+                                   5,7%        5,7%        0,0%    0,0%     11,4%
+              3101 a 3400 soles        8           7          0        0        15
+                                  11,4%       10,0%        0,0%    0,0%     21,4%
+              Más de 3400 soles       13           0          0        2        15
+                                  18,6%        0,0%        0,0%    2,9%     21,4%
+Total                                50          13           4       3        70
+                                 71,4%       18,6%      5,7%      4,3%     100,0%
+
+
+
+
+                                            64
+               Así también La Tabla indica que de productores que tienen en 1 a
+
+    2,5 ha de vainita, el 25,70 % tiene un costo de mano de obra entre 2000
+
+    a 2500 soles, seguido de un 18,60 % cuyo costo es mas a 3400 soles.
+
+
+•     Otros Costos Directos
+
+
+                En la Tabla 17 se observa que, en relación a otros Costos
+
+Directos, el 44,30% de los productores su costo varía entre 901 a 1100
+
+soles, seguido de un 20,0% cuyo costo varía de 1001 a 1300 soles, el
+
+17,10 % su costo es superior a más de 1500 soles, y el 15,70% su costo
+
+varía entre 700 a 900 soles.
+
+
+Tabla 17
+
+Otros Costos directos por Hectárea de Vainita
+
+                                                    ha de vainita
+                                    1 a 2,5    2,6 a 4,0 4,1 a 5,5     7,1 a 15     Total
+    Otros       700 a 900 soles            4            3          3           1        11
+    Costos                             5,7%         4,3%        4,3%       1,4%     15,7%
+    directos    901 a 1100 soles          23            8          0           0        31
+    (S/)                             32,9%        11,4%         0,0%       0,0%     44,3%
+                1101 a 1300 soles         11            2          1           0        14
+                                     15,7%          2,9%        1,4%       0,0%     20,0%
+                1301 a 1500 soles          2            0          0           0          2
+                                       2,9%         0,0%        0,0%       0,0%      2,9%
+                más de 1500 soles         10            0          0           2        12
+                                     14,3%          0,0%        0,0%       2,9%     17,1%
+    Total                                 50           13          4           3        70
+                                     71,4%        18,6%         5,7%       4,3%    100,0%
+
+
+
+
+                                                65
+               Según la Tabla, el 32,90% de los productores que tienen entre a 1
+
+    a 2,5 ha sus costos fueron entre 901 a 1100 soles, seguido de un
+
+    15,70% cuyos costos fueron entre 1101 a 1300 soles. En otros costos se
+
+    consideró: el flete por el traslado de los insumos, tarifa de agua, etc.
+
+
+•     Total de Costos Directos
+
+
+            En la Tabla 18 se observa que en relación al total de costos
+
+directos el 54,30% de los productores su costo varía entre 9000 a 10650
+
+soles, seguido de un 18,60% cuyo costo varía de 8001 a 8500 soles, el
+
+12,90% su costo varía entre 8501 a 9000 soles, y un mínimo 2,90 % su
+
+costo varía entre 7000 a 7500 soles.
+
+
+    Tabla 18
+
+    Total de Costos directos por Hectárea de vainita
+
+                                                    ha de vainita
+                                       1 a 2,5 2,6 a 4,0 4,1 a 5,5 7,1 a 15    Total
+    Total de      7000 a 7500 soles           0         1           0      1         2
+    Costos                                0,0%     1,4%         0,0%   1,4%      2,9%
+    directos      7501 a 8000 soles           7         0           1      0         8
+    (S/.)                                10,0%     0,0%         1,4%   0,0%     11,4%
+                  8001 a 8500 soles          10         0           3      0        13
+                                         14,3%     0,0%         4,3%   0,0%     18,6%
+                  8501 a 9000 soles           6         1           0      2         9
+                                          8,6%     1,4%         0,0%   2,9%     12,9%
+                  9000 a 10650 soles         27       11            0      0        38
+                                         38,6%    15,7%         0,0%   0,0%     54,3%
+    Total                                    50       13          4       3        70
+                                          71,4%    18,6%      5,7%      4,3%     100,0%
+
+
+
+
+                                              66
+         Según la Tabla 18, indica que el 38,6% de los productores que
+
+tienen entre 1,0 a 2,5 ha sus costos fueron entre 9001 a 10650 soles,
+
+seguido de un 15,7% de productores que tienen entre 2,60 a 4,0 ha, así
+
+también se aprecia que en un 14,3% de encuestados que tienen entre 1 a
+
+2,5 ha de vainita su total de costos directos varió de 8001 soles a 8500
+
+soles.
+
+•   Costos Indirectos:
+
+    a. Costos financieros (interés de préstamos)
+
+           En la Tabla 19, se observa que el 65,8% de los productores no
+
+efectúan costos financieros, es decir no obtuvieron prestamos durante la
+
+campaña en estudio, sin embargo de los productores que si obtuvieron
+
+algún préstamo el 15,7% de encuestados indico que el interés que
+
+tuvieron que pagar por los prestamos fue entre 901 a 1200 soles, seguido
+
+de un 10 % de productores que indicaron que pagaron entre 1201 a 1500
+
+soles, y el 5,7 % de productores que indicaron entre 601 a 900 soles, y
+
+un mínimo de 1,4 % de productores pago un interés entre 300 a 600
+
+soles y de 1501 a 1800 soles. Cabe indicar que algunos productores
+
+trabajan con ambas fuentes de financiamiento (propia y préstamo), y que
+
+el préstamo solicitado lo utilizan específicamente para el cultivo de vainita,
+
+ya que una vez finalizada dicha campaña, culminan con el pago del
+
+préstamo y del interés que éste genera.
+
+
+                                         67
+Tabla 19
+Costos financieros por hectárea de vainita
+
+                                               ha de vainita
+                                  1 a 2,5   2,6 a 4,0 4,1 a 5,5 7,1 a 15 Total
+Costos      0 soles                      32          8          3       3    46
+financieros                          45,8%      11,4%        4,3%   4,3% 65,8%
+(S/)        300 a 600 soles               0          0          1       0     1
+                                      0,0%       0,0%        1,4%   0,0% 1,4%
+              601 a 900 soles             1          3          0       0     4
+                                      1,4%       4,3%        0,0%   0,0% 5,7%
+              901 a 1200 soles               9       2       0        0       11
+                                     12,8%        2,9%    0,0%     0,0% 15,7%
+              1201 a 1500                7           0       0        0     7
+              soles                  10,0%        0,0%    0,0%     0,0% 10,0%
+              1501 a 1800                1           0       0        0     1
+              soles                   1,4%        0,0%    0,0%     0,0% 1,4%
+Total                                    50         13      4       3       70
+                                       71,4%      18,6%   5,7%    4,3%    100,0%
+
+
+
+        Así también se aprecia en la Tabla 19 que el 12,8 % de los
+
+productores que tienen entre a 1,0 a 2,5 ha tuvieron costos financieros de
+
+901 a 1200 soles seguido de 10% que tuvo costos financieros de 1201 a
+
+1500 soles. Por otro lado, se observa que el 1,4% de encuestados que
+
+tienen entre 4,1 a 5,5 ha su costo financiero fue de 300 a 600 soles, y que
+
+de los productores que tienen entre 7,1 a 15 ha de vainita no tuvieron
+
+costos financieros, puesto que no recurrieron a préstamos, lo que
+
+indicaría que tuvieron la liquidez suficiente para su capital de trabajo
+
+durante la campaña en estudio.
+
+
+
+                                             68
+ b. Costos generales y administrativos
+
+         Según la Tabla 20 con relación a los costos indirectos / gastos
+
+generales se evidencia que de los productores que tienen entre 1 a 2,5
+
+ha de vainita, el 22,90 % de encuestados tiene gastos generales entre
+
+281 soles a 300 soles, el 20,00 % de los encuestados tiene entre 241 a
+
+260 soles, y el 17,10% de los encuestados tiene entre 261 a 280 soles,
+
+Así también se aprecia que de los productores que tienen entre 7,1 a 15
+
+ha de vainita el 2,9% de los encuestados tuvo un gasto general entre 261
+
+a 280 soles y del 1,4% su gasto vario entre 200 a 240 soles.
+
+
+Tabla 20
+Costos generales por hectárea de vainita
+
+                                                ha de vainita
+                                1 a 2,5 2,6 a 4,0       4,1 a 5,5       7,1 a 15       Total
+Costos        200 a 240 soles        7            1             0              1               9
+generales                        10,0%          1,4%        0,0%           1,4%        12,9%
+(S/)          241 a 260 soles       14            1             4              0           19
+                                 20,0%          1,4%        5,7%           0,0%        27,1%
+              261 a 280 soles       12            4             0              2           18
+                                 17,1%          5,7%        0,0%           2,9%        25,7%
+              281 a 300 soles       16            7             0              0           23
+                                 22,9%      10,0%           0,0%           0,0%        32,9%
+              301 a 320 soles        1            0             0              0               1
+                                  1,4%          0,0%        0,0%           0,0%          1,4%
+Total                                 50           13               4              3           70
+                                  71,4%         18,6%         5,7%           4,3%       100,0%
+
+
+
+
+                                           69
+        c. Otros Costos Indirectos (costo de alquiler del terreno)
+
+
+               Según La Tabla 21 se aprecia que la mayor proporción de los
+
+    productores encuestados, con un 94,3% no tienen otros costos indirectos
+
+    en relación al alquiler de terreno, el resto que suman solamente 4
+
+    productores de vainita alquilaron terrenos que como mínimo generaron un
+
+    costo de 500 soles y como máximo 1000 soles, cabe indicar que el
+
+    alquiler de terrenos se da en algunos casos para todo un año y en otros
+
+    casos específicamente para la campaña de vainita, así pues se tiene una
+
+    variación de costos, los cuales también dependen de otras características
+
+    como: la ubicación del terreno, el tipo de suelo, disponibilidad de agua, etc
+
+
+    Tabla 21
+
+    Otros Costos Indirectos por hectárea de vainita
+
+                                                 ha de vainita
+                                    1 a 2,5 2,6 a 4,0 4,1 a 5,5 7,1 a 15    Total
+Otros costos      0,00 soles             49        11           4       2        66
+Indirectos                           70,0%     15,7%        5,7%    2,9%     94,3%
+(costo de       500,00 soles              0         1           0       0         1
+alquiler del                          0,0%      1,4%        0,0%    0,0%      1,4%
+terreno)        667,00 soles              1         0           0       0         1
+                                      1,4%      0,0%        0,0%    0,0%      1,4%
+                833,00 soles              0         0           0       1         1
+                                      0,0%      0,0%        0,0%    1,4%      1,4%
+               1000,00 soles              0         1           0       0         1
+                                       0,0%      1,4%        0,0%    0,0%      1,4%
+Total                                    50        13           4       3        70
+                                     71,4%      18,6%    5,7%      4,3%     100,0%
+
+
+
+                                               70
+•   Total de Costos indirectos
+
+
+    Según la Tabla 22 se aprecia que la mayor proporción de los
+
+productores con el 35,70% su costo indirecto total va entre 200 a 500 soles,
+
+el 32,90% su costo varía entre 1001 a 1500 soles, seguido del 21,40%
+
+cuyo costo varía de 1501 a 2000 soles y en menor proporción con un
+
+8,60% su costo varía de 501 a 1000 soles. Siendo así que de los
+
+productores que tienen entre 1 a 2,5 ha de vainita, el 30% de encuestados
+
+tuvieron un costo indirecto total entre 1001 a 1500 soles y de un 24,30% de
+
+encuestados tuvieron un costo indirecto total de 200 a 500 soles, cabe
+
+mencionar que esta diferenciación de los costos indirectos totales y la
+
+proporción que representan los productores, se dio principalmente debido a
+
+los costos financieros (interés por préstamo) en los que incurrieron algunos
+
+productores.
+
+
+
+
+                                       71
+    Tabla 22
+
+    Costos indirectos total por hectárea de vainita
+
+                                                      ha de vainita
+                                       1 a 2,5    2,6 a 4,0 4,1 a 5,5 7,1 a 15       Total
+    Total de     200 a 500 soles            17            6           0      2           25
+    Costos                              24,3%         8,6%       0,0%     2,9%       35,7%
+    indirectos   501 a 1000 soles            1            4           1      0               6
+    (S/)                                  1,4%        5,7%       1,4%     0,0%        8,6%
+                 1001 a 1500 soles          21            2           0      0           23
+                                        30,0%         2,9%       0,0%     0,0%       32,9%
+                 1501 a 2000 soles          10            1           3      1           15
+                                        14,3%         1,4%       4,3%     1,4%       21,4%
+                 Más de 2000 soles           1            0           0      0               1
+                                          1,4%        0,0%       0,0%     0,0%        1,4%
+    Total                                    50          13           4          3       70
+                                         71,4%        18,6%      5,7%      4,3% 100,0%
+
+
+
+•     Costo de producción total
+
+
+             En la Tabla 23 se puede comparar cuáles son los costos de
+
+producción totales que genera el producir una hectárea de vainita,
+
+teniendo en cuenta la mano de obra, los insumos, el uso del agua y otros.
+
+Así se puede apreciar que el 40,0% de los productores tiene un costo que
+
+oscila entre 10 001 a 11 000 soles, similares al costo de producción
+
+estimado por la Dirección de Estadística Agraria Tacna (2014), el cual
+
+considero una inversión promedio de 10 327,97 soles por ha. Se observa
+
+también que de los productores que tienen entre 1 a 2,5 ha de vainita, el
+
+27,1% de encuestados tuvo un costo de producción entre 10 001 a 11 000
+
+
+                                                 72
+soles, así también que el 8,6% de los encuestados tuvieron un costo
+
+mayor que varía entre 11 001 a 12 000 soles, y de los 3 productores que
+
+tienen el mayor número de hectáreas de vainita que van de 7,1 a 15 ha,
+
+se aprecia que tuvieron el menor costo de producción el cual varía entre
+
+8 000 a 9 000 soles.
+
+
+Tabla 23
+
+Costo de producción total por hectárea de vainita
+
+                                                      ha de vainita                 Total
+                                     1 a 2,5      2,6 a 4,0   4,1 a 5,5 7,1 a 15
+Costo de     8000 a 9000 soles         11                 0       1         3         15
+producción                         15,7%           0,0%       1,4%      4,3%       21,4%
+total        9001 a 10000 soles        14                 7       0         0         21
+(S/)                               20,0%          10,0%       0,0%      0,0%       30,0%
+             10001 a 11000 soles       19                 6       3         0         28
+                                   27,1%           8,6%       4,3%      0,0%       40,0%
+             11001 a 12000 soles        6                 0       0         0          6
+                                    8,6%           0,0%       0,0%      0,0%       8,6%
+Total                                   50           13          4           3         70
+                                      71,4%        18,6%       5,7%        4,3%     100,0%
+
+
+La tabla 23, contiene los datos que fueron recolectados mediante el
+
+cuestionario aplicado, en el cual se pide estimar cada uno de los costos
+
+de producción de vainita a los agricultores, posteriormente se realiza un
+
+cálculo del total de costos y se evalúa según rangos asignados para
+
+esta investigación.
+
+
+
+
+                                             73
+5.2.1.5.   Índice de Rentabilidad
+
+
+       En la Tabla 24 se muestra que el 48,60% de los productores
+
+perciben una rentabilidad que varía de 26 a 50%, seguido de un 41,40%
+
+que perciben una rentabilidad de 51 a 75% en menor proporción con
+
+5,70% su rentabilidad varia de 1 a 25% y un 4,30% su rentabilidad es
+
+superior al 76%. Apreciándose así que de los productores que tienen
+
+entre 1 a 2.5 ha el 38,60% obtiene un índice de rentabilidad que varía
+
+entre 26 a 50%, seguido de 27,1% de encuestados que obtiene una
+
+rentabilidad entre 51 a 75%, similar a la obtenida por los productores que
+
+tienen entre 7,1 a 15 ha de vainita.
+
+
+Tabla 24
+
+Rentabilidad por hectárea de vainita
+
+                                                     ha de vainita
+                                       1 a 2,5 2,6 a 4,0   4,1 a 5,5   7,1 a 15    Total
+ Rentabilidad       1 a 25%              4          0           0          0         4
+                                       5,7%        0,0%       0,0%       0,0%      5,7%
+                    26 a 50%             27         3           4          0         34
+                                       38,6%       4,3%       5,7%       0,0%      48,6%
+                    51 a 75%             19         7           0          3         29
+                                       27,1%      10,0%       0,0%       4,3%      41,4%
+                   Más de 76%            0          3           0          0         3
+                                       0,0%        4,3%       0,0%       0,0%      4,3%
+           Total                         50        13          4          3         70
+                                       71,4%      18,6%      5,7%       4,3%      100,0%
+
+
+
+
+                                             74
+      Merece mencionar que el cultivo de vainita, si bien no alcanza los
+
+niveles de producción de los cultivos tradicionales, tiene una gran
+
+proyección futura por el importante y continúo incremento anual de su
+
+superficie cultivada por su excelente adaptación y rentabilidad económica
+
+tiene gran importancia como producto de exportación.
+
+
+Tabla 25
+Categorización del Índice de Rentabilidad
+
+
+              Categoría          Frecuencia             %
+
+                 Bajo                  8               11%
+
+                Medio                  53              76%
+
+                 Alto                  9               13%
+
+                 Total                 70              100%
+
+
+
+Esta categorización del índice de rentabilidad se basa en la escala dada
+
+por Buffet (2013) quien establece 3 escalas (bajo, medio y alto) y cuya
+
+valoración se observa en la tabla 8.
+
+Como podemos denotar en la Tabla 25, el nivel bajo es del 11% lo que
+
+demuestra que los agricultores tienen un bajo nivel de rentabilidad, a ello
+
+observamos que existe el 76% de los agricultores que cuentan con un
+
+nivel medio y de igual forma un 13% de nivel alto.
+
+
+
+
+                                           75
+A todo ello podemos deducir que los agricultores oscilan entre una
+
+rentabilidad media alta, pero no es lo recomendable puesto que el 76%
+
+cuenta con un nivel medio, cuando el autor Buffett (2013) recomienda que
+
+para una muestra mayor a 50 el índice de rentabilidad debe ser 42% de
+
+nivel alto para poder generalizar a la muestra.
+
+
+5.2.2. Variable Independiente: Características financieras (X1)
+
+5.2.2.1.    Fuente de Financiamiento
+
+
+        Según La Tabla 26, se muestra que el 65,7 % de los productores
+
+trabaja con capital propio, el 12,9% recurre como fuente de financiamiento
+
+solo a préstamos y finalmente el 21,4% de productores encuestados
+
+señalo que trabaja con ambas fuentes de financiamiento.
+
+Tabla 26
+Fuente de financiamiento por hectárea de vainita
+
+                                     Fuente de financiamiento
+            Ha. de vainita          Propio Préstamo Ambos         Total
+  ha de       1 a 2,5 Recuento        32           7       11      50
+  vainita             % del total   45,7%        10,0%   15,7%   71,4%
+            2,6 a 4,0 Recuento         8           2       3       13
+                      % del total   11,4%        2,9%    4,3%    18,6%
+            4,1 a 5,5 Recuento         3           0       1        4
+                      % del total    4,3%        0,0%    1,4%     5,7%
+            7,1 a 15 Recuento          3           0       0        3
+                      % del total    4,3%        0,0%    0,0%     4,3%
+        Total         Recuento        46           9       15      70
+                      % del total   65,7%        12,9%   21,4%   100,0%
+
+
+                                            76
+Considerando que los productores de vainita destinan en mayor
+
+porcentaje un promedio de 1 a 2,5 hectáreas para este cultivo, se puede
+
+apreciar que el 45,7% de los encuestados trabaja con capital propio, ya
+
+que generalmente al disponer de poco capital de trabajo, y al no poder
+
+acceder a créditos se limitan así a producir en una menor superficie
+
+cultivada. Por otro lado el 12,9% y el 21,4% de productores que recurre
+
+como capital de trabajo a préstamos y ambas fuente de financiamiento
+
+(propia y crédito), recurriendo así a los créditos financieros de Agrobanco,
+
+Banca Privada y Cajas Municipales, pero al ser el agro considerado como
+
+una actividad de alto riesgo, por los diversos factores que afectan a la
+
+producción y comercialización, es que los productores son sometidos a
+
+algunas exigencias de garantías tangibles, seguro agrícola, altas tasas de
+
+interés, etc. Es por ello que los productores solicitan el préstamo
+
+específicamente para la cantidad de meses que dura la campaña del
+
+cultivo, y una vez finalizada dicha campaña, culminan con el pago del
+
+préstamo y del interés que éste genera.
+
+
+5.2.2.2. Si utilizó préstamo, ¿quién se lo brindó?
+
+       Observamos en la Tabla 27 que, según los datos obtenidos de la
+
+encuesta, el 95,8% de los productores que tuvo como fuente de
+
+financiamiento el crédito lo obtuvo de entidades financieras, mientras que
+
+el 4,2% de productores obtuvo el capital de préstamos de familiares. Así
+
+                                        77
+también se observa que el 70,8% de los productores cuyas has de vainita
+
+son entre 1 a 2,5 ha les brindaron crédito las entidades bancarias, y que
+
+4,2% de los productores que obtuvo el préstamo de familiares,
+
+corresponde al productor que tiene entre 1 a 2,5 ha de vainita.
+
+Tabla 27
+
+Hectárea de vainita según fuente de financiamiento
+
+                                        ¿Quién le brindó el crédito?
+                         Ha            Familiares Entidad bancaria  Total
+  ha de vainita   1 a 2,5 Recuento         1             17          18
+                           % del total   4,2%          70,8%       75,0%
+                 2,6 a 4,0 Recuento        0              5           5
+                           % del total   0,0%          20,8%       20,8%
+                 4,1 a 5,5 Recuento        0              1           1
+                           % del total   0,0%           4,2%        4,2%
+           Total           Recuento        1             23          24
+                           % del total   4,2%          95,8%       100,0%
+
+
+5.2.2.3.   Entidad a la que solicitó el crédito
+
+
+       Según la Tabla 28 se observa que de los productores que tienen
+
+entre 1 a 2,5 ha, el 34,8% solicitaron préstamo de cajas municipales, el
+
+30,4% obtuvo prestamos de Agrobanco y un 13,0 % de productores que
+
+tienen entre 2,6 a 4,0 ha obtuvo crédito de cajas municipales, esto debido
+
+a las diversas exigencias de garantías tangibles, seguro agrícola, tasas de
+
+interés que solicitan en las diversas entidades.
+
+
+
+
+                                         78
+Tabla 28
+
+Hectárea de vainita según Entidad a la que solicito el crédito
+
+                                Entidad a la que solicito el crédito
+                   ha   Agro banco Caja Municipal Banca privada         Otros     Total
+ha de        1 a 2,5         7             8                  1           1        17
+vainita                   30,4%         34,8%              4,3%         4,3%     73,9%
+           2,6 a 4,0         1             3                  1           0        5
+                           4,3%         13,0%              4,3%         0,0%     21.8%
+           4,1 a 5,5         1             0                  0           0        1
+                           4,3%          0,0%              0,0%         0,0%     4,3%
+       Total                 9             11                 2           1        23
+                          39,1%         47,8%              8,7%         4,3%    100,0%
+
+
+  5.2.3. Variable Independiente: Características Comerciales (X2)
+
+  a. Lugar de comercialización
+
+
+               La Tabla 29 indica que el 100,0 % de los productores su lugar de
+
+  comercialización lo efectúa en su parcela, para lo cual los intermediarios
+
+  recogen la producción con sus camiones, pues muchos de los
+
+  productores no cuentan con medio de transporte.
+
+
+  Tabla 29
+
+  Lugar de Comercialización
+
+
+                                 Frecuencia     Porcentaje       Porcentaje válido
+
+    Válido      En su parcela
+                                     70            100,0               100,0
+
+
+
+
+                                              79
+   b. ¿A quién vende?
+
+           Según la Tabla 30, indica que el 100,0 % de los productores
+
+vende su producto a la intermediación.
+
+Tabla 30
+¿A quién vende?
+
+                                         Frecuencia         Porcentaje
+ Válido         A la intermediación           70              100,0
+
+
+
+
+   c. Modo de comercialización
+
+           Los resultados de la Tabla 31, señala que el 100% de los
+
+productores su modo de comercialización es individual, ya que no se
+
+encuentran asociados.
+
+Tabla 31
+Modo de comercialización
+
+
+                          Frecuencia   Porcentaje     Porcentaje válido
+
+  Válido     Individual      70          100,0             100,0
+
+
+
+
+   d. Forma de venta a los demandantes
+
+
+           La Tabla 32 muestra que el 67,10% de los encuestados efectúa
+
+su venta al contado, el 2,90% solo al crédito y un 30% indico que lo
+
+realiza de ambas formas
+
+
+                                         80
+Tabla 32
+
+Hectárea de vainitas según forma de venta a los demandantes
+
+                                    Forma de venta a los demandantes
+                                                             Ambas
+                                                           formas de
+                       ha           Contado    Crédito        venta     Total
+  ha de      1 a 2,5  Recuento         42         2           6          50
+  vainita             % del total    60,0%      2,9%        8,6%       71,4%
+            2,6 a 4,0 Recuento         3          0          10          13
+                      % del total    4,3%       0,0%       14,3%       18,6%
+            4,1 a 5,5 Recuento         1          0           3           4
+                      % del total    1,4%       0,0%        4,3%        5,7%
+            7,1 a 15 Recuento          1          0           2           3
+                      % del total    1,4%       0,0%        2,9%        4,3%
+        Total         Recuento         47         2          21          70
+                      % del total    67,1%      2,9%       30,0%       100,0%
+
+
+
+5.2.4. Contrastación de hipótesis
+
+
+            Las hipótesis han sido contrastadas a través de la prueba Chi
+
+Cuadrado, y se muestra mediante los pasos siguientes:
+
+
+a. Planteamiento de la hipótesis específica 1
+
+
+Ho: El financiamiento utilizado por el productor de vainita no incide
+
+     significativamente en la rentabilidad de este cultivo en el distrito La
+
+     Yarada – Los Palos.
+
+
+
+
+                                          81
+H1: El financiamiento utilizado por el productor de vainita incide
+
+       significativamente en la rentabilidad de este cultivo en el distrito La
+
+       Yarada – Los Palos.
+
+
+
+   •    Nivel de significación
+
+
+                                       α : 0,05
+
+
+
+   •    Estadístico de prueba
+
+
+
+
+5.2.4.1.   Rentabilidad en relación a las Características Financieras
+
+
+5.2.4.1.1. Rentabilidad en relación a la Fuente de Financiamiento
+
+
+           En la Tabla 33     muestra que el 32,90 % de los encuestados
+
+percibe una rentabilidad de entre 26 a 50% y son aquellos productores
+
+que trabajan con capital propio, así mismo seguido de un grupo de
+
+25,70% quienes perciben una rentabilidad entre 51 a 75% y en una menor
+
+proporción con el 2,90% perciben una rentabilidad mayor al 76% aquellos
+
+productores que toman como fuente de financiamiento el capital propio.
+
+
+
+
+                                          82
+Tabla 33
+
+Rentabilidad según fuente de Financiamiento
+
+                                             Fuente de financiamiento
+                                           Propio Préstamo Ambos          Total
+Rentabilidad       1 a 25%   Recuento         3          1         0        4
+                             % del total    4,3%      1,4%       0,0%     5,7%
+               26 a 50%      Recuento        23          4         7       34
+                             % del total   32,9%      5,7%      10,0%    48,6%
+               51 a 75%      Recuento        18          3         8       29
+                             % del total   25,7%      4,3%      11,4%    41,4%
+                   Más de    Recuento         2          1         0        3
+                    76%      % del total    2,9%      1,4%       0,0%     4,3%
+           Total             Recuento        46          9        15       70
+                             % del total   65,7%     12,9%      21,4%    100,0%
+
+
+
+       En la Tabla 34 del análisis se puede afirmar que como el valor – p
+
+(0,006) es menor que el nivel de significancia (0,05); se rechaza H0, y se
+
+acepta H1, en consecuencia se concluye que, la variable rentabilidad de
+
+productores de vainita tiene una relación significativa con la fuente de
+
+financiamiento utilizado, con un nivel de confianza del 95%.
+
+
+  Tabla 34
+
+ Prueba Chi-cuadrado
+ Rentabilidad en relación a la Fuente de Financiamiento
+
+                                    Valor         gl   Sig. asintótica (2 caras)
+   Chi-cuadrado de Pearson         12,180a        3              0,006
+    Razón de verosimilitud         12,951         3              0,009
+   Asociación lineal por lineal     0,891         1              0,005
+       N de casos válidos            70
+  a. 6 casillas (75,0%) han esperado un recuento menor que 5. El recuento
+  mínimo esperado es 0,09.
+
+
+                                             83
+5.2.4.1.2. Rentabilidad en relación a ¿Quién le brindo el crédito?
+
+
+           En la Tabla 35       muestra que el 45,8 % de los encuestados que
+
+perciben una rentabilidad de entre 51 a 75% obtuvieron su crédito de la
+
+entidad financiera, seguido de un grupo de 41,7 % de productores
+
+       con una rentabilidad del 26 a 50% que también percibieron el
+
+crédito de una entidad bancaria y un 4,20% que recibieron el crédito de
+
+familiares.
+
+Tabla 35
+
+Rentabilidad según quien le brindó el crédito
+
+                                                Quien le brindo el crédito
+                                              Familiares Entidad bancaria     Total
+Rentabilidad          1 a 25%   Recuento          0                1            1
+                                % del total     0,0%            4,2%          4,2%
+                  26 a 50%      Recuento          1               10           11
+                                % del total     4,2%            41,7%        45,8%
+                  51 a 75%      Recuento          0               11           11
+                                % del total     0,0%            45,8%        45,8%
+                      Más de    Recuento          0                1            1
+                       76%      % del total     0,0%            4,2%          4,2%
+              Total             Recuento          1               23           24
+                                % del total     4,2%            95,8%        100,0%
+
+
+           En la Tabla 36 del análisis se puede afirmar que como el valor –
+
+p (0,004) es menor que el nivel de significancia (0,05); se rechaza H0, y se
+
+acepta H1. En consecuencia, se concluye que, la variable rentabilidad de
+
+
+                                                84
+productores de vainita tiene una relación significativa con la entidad que le
+
+brindo el capital utilizado, con un nivel de confianza del 95%.
+
+
+Tabla 36
+
+Pruebas de chi-cuadrado
+Rentabilidad según quien le brindó el crédito
+
+                                   Valor            gl   Sig. asintótica (2 caras)
+   Chi-cuadrado de Pearson       141,233   a
+                                                    3             0,004
+    Razón de verosimilitud        11,612            3             0,007
+  Asociación lineal por lineal     1,375            1             0,000
+      N de casos válidos            24
+a. 6 casillas (75,0%) han esperado un recuento menor que 5. El recuento
+mínimo esperado es 0,08.
+
+
+5.2.4.1.3. Rentabilidad en relación a la entidad a la que solicito el
+
+           crédito
+
+
+           En la Tabla 37 se muestra que el 30,40% de los encuestados
+
+que percibe una rentabilidad de entre 51 a 75% son aquellos productores
+
+que recibieron préstamo de cajas municipales, seguido de un 21,7% de
+
+productores cuya rentabilidad varía entre 26 a 50% quienes solicitaron el
+
+crédito a Agrobanco.
+
+
+
+
+                                               85
+ Tabla 37
+
+ Rentabilidad según la entidad a la que solicito el crédito
+
+                                   Entidad a la que solicito el crédito
+                                              Caja       Banca
+                               Agrobanco Municipal privada Otros              Total
+  Rentabilidad    1 a 25%          0            1            0          0      1
+                                 0,0%         4,3%        0,0%       0,0%    4,3%
+                  26 a 50%         5            3            1          1      10
+                                 21,7%       13,1%        4,3%       4,3%    43,5%
+                  51 a 75%         4            7            0          0      11
+                                 17,4%       30,4%        0,0%       0,0%    47,8%
+                 Más de 76%        0            0            1          0      1
+                                 0,0%         0,0%        4,3%       0,0%    4,3%
+             Total                 9            11           2          1      23
+                                 39,1%       47,8%        8,7%       4,3%   100,0%
+
+
+          Según la Tabla 38 del análisis se puede afirmar que como el
+
+valor – p (0,00) es menor que el nivel de significancia (0,05); se rechaza
+
+H0, y se acepta H1, por lo tanto se concluye que la rentabilidad de los
+
+productores de vainita tiene una relación significativa con la entidad
+
+bancaria con un nivel de confianza del 95%
+
+
+
+
+                                           86
+Tabla 38
+
+Pruebas Chi-cuadrado
+Rentabilidad según la entidad a la que solicito el crédito
+
+                                    Valor          gl        Sig. asintótica (2 caras)
+    Chi-cuadrado de Pearson        37,379a         12                 0,000
+     Razón de verosimilitud        37,845          12                 0,000
+    Asociación lineal por lineal   12,115          1                  0,001
+        N de casos válidos           70
+a. 14 casillas (70,0%) han esperado un recuento menor que 5. El recuento
+mínimo esperado es 0,09.
+
+
+         b. Planteamiento de la hipótesis especifica 2
+
+
+H0: Las características comerciales empleadas por el productor de vainita
+
+        no inciden significativamente sobre la rentabilidad de este cultivo en
+
+        el distrito La Yarada – Los Palos.
+
+
+H1: Las características comerciales empleadas por el productor de vainita
+
+        inciden significativamente sobre la rentabilidad de este cultivo en el
+
+        distrito La Yarada – Los Palos
+
+
+•       Nivel de significación
+
+
+                                            α : 0,05
+
+•       Estadístico de prueba
+
+
+
+
+                                              87
+5.2.4.2.    Rentabilidad en relación a las Características Comerciales
+
+
+5.2.4.2.1. Rentabilidad en relación al lugar de comercialización
+
+       En la Tabla 39 muestra que el 48,60 de los productores
+
+encuestados percibe una rentabilidad de entre 26 a 50% y son aquellos
+
+productores que comercializan en su parcela, el 41,40% perciben una
+
+rentabilidad entre 51 a 75%     y comercializan su producto en su parcela
+
+seguido de un grupo de 41,40% quienes perciben una rentabilidad entre
+
+51 a 75% en una menor proporción con el 4,30% perciben una
+
+rentabilidad mayor del 75% y comercializan su producto en su parcela.
+
+
+ Tabla 39
+
+ Rentabilidad según Lugar de comercialización
+
+                                               Lugar de comercialización
+                                                                            Total
+                                                     En su parcela
+  Rentabilidad        1 a 25%   Recuento                   4                 4
+                                % del total              5,7%              5,7%
+                  26 a 50%      Recuento                  34                 34
+                                % del total             48,6%              48,6%
+                  51 a 75%      Recuento                  29                 29
+                                % del total             41,4%              41,4%
+                 Más de 76%     Recuento                   3                 3
+                                % del total              4,3%              4,3%
+              Total             Recuento                 70                  70
+                                % del total            100,0%              100,0%
+
+
+
+
+                                          88
+5.2.4.2.4. Rentabilidad en relación a la forma de venta de los
+
+demandantes
+
+
+           Según La Tabla 40 muestra que el 41,40 % de los productores
+
+percibe una rentabilidad de entre 26 a 50% y son aquellos productores
+
+que venden su producto al contado, seguido del 22,90% que perciben una
+
+rentabilidad entre 51 a 75% y venden al contado, un 15,70% señalo que
+
+perciben una rentabilidad entre 51 a 75% y venden su producto en ambas
+
+formas, es decir al contado y crédito.
+
+Tabla 40
+
+Rentabilidad según forma de venta a los demandantes
+
+                                                Forma de venta a los
+                                                   demandantes
+                                                               Ambas     Total
+                                            Contado Crédito formas de
+                                                                venta
+Rentabilidad        1 a 25%   Recuento         2       0        2         4
+                              % del total    2,9%    0,0%     2,9%      5,7%
+                26 a 50%      Recuento        29       0         5        34
+                              % del total   41,4%    0,0%      7,1%     48,6%
+                51 a 75%      Recuento        16       2        11        29
+                              % del total   22,9%    2,9%     15,7%     41,4%
+               Más de 76% Recuento             0       0        3         3
+                          % del total        0,0%    0,0%     4,3%      4,3%
+            Total             Recuento        47       2        21        70
+                              % del total   67,1%    2,9%     30,0%     100,0%
+
+
+
+
+                                             89
+        Según La Tabla 41 del análisis se puede afirmar que como el valor
+
+– p (0.014) es menor que el nivel de significancia (0,05); se rechaza H0, y
+
+se acepta H1, por lo tanto, se concluye que la rentabilidad de los
+
+productores de vainita tiene una relación significativa con la forma de
+
+venta con un nivel de confianza del 95%
+
+
+
+ Tabla 41
+
+ Prueba Chi-cuadrado
+ Rentabilidad según forma de venta a los demandantes
+
+                                  Valor       gl     Sig. asintótica (2 caras)
+                                        a
+   Chi-cuadrado de Pearson      15,997        6                0,014
+     Razón de verosimilitud      17,239       6                0,008
+  Asociación lineal por lineal   5,923        1                0,015
+       N de casos válidos          70
+ a. 8 casillas (66,7%) han esperado un recuento menor que 5. El recuento
+ mínimo esperado es 0,09.
+
+
+
+
+5.3. DISCUSIÓN DE RESULTADOS
+
+
+Objetivo General: Determinar la incidencia del financiamiento y las
+
+características de comercialización utilizados por el productor de vainita
+
+sobre la rentabilidad de este cultivo en el distrito de La Yarada – Los
+
+Palos
+
+
+
+
+                                          90
+Los resultados, dada la adecuación del modelo para describir la relación
+
+entre las variables, ha permitido establecer que el financiamiento y la
+
+comercialización son variables que inciden de forma significativa, de
+
+acuerdo al P-Valor calculado menor de 0.05, sobre la rentabilidad, lo que
+
+demuestra que el hecho que los productores de acuerdo a sus fuentes de
+
+financiamiento y los métodos de comercialización utilizados, pueden
+
+determinar el éxito o no de la producción de un determinado cultivo,
+
+medido de acuerdo a valores de rentabilidad, y que denotan la
+
+importancia de gestionar de forma adecuada dichos valores. Resultados
+
+similares a los obtenidos en la investigación de Cabrera (2015) quien
+
+obtuvo que el 70% de las Mypes encuestadas precisan que la rentabilidad
+
+de sus microempresas ha mejorado en los últimos años. E iguales a los
+
+resultados encontrado por Díaz & Inga donde el 100% de las Mypes
+
+estudiadas manifestaron que la rentabilidad de sus empresas si mejoró en
+
+los últimos años, datos contrarios a lo encontrado por Saldaña donde el
+
+70% de las Mypes estudiadas su rentabilidad en los últimos años no
+
+mejoró.
+
+
+Objetivo Específico 1: Conocer la incidencia del financiamiento utilizado
+
+por el productor de vainita sobre la rentabilidad de este cultivo en el
+
+distrito La Yarada – Los Palos.
+
+En relación a las características financieras (X1) se evidenció que:
+
+
+                                        91
+➢ Según la fuente de financiamiento, el 32,90% de los productores
+
+   encuestados percibe una rentabilidad entre el 26 al 50% y son
+
+   aquellos productores que trabajan con capital propio, seguido de
+
+   un grupo de 25,70% quienes perciben una rentabilidad entre 51 a
+
+   75%    que también trabajan con capital propio y en una menor
+
+   proporción con el 11,40%          los productores que perciben una
+
+   rentabilidad entre 51 a 75% y que son aquellos que recurren a
+
+   ambas fuentes de financiamiento (propia y préstamo); en la Tabla
+
+   31 del análisis se pudo afirmar que como el valor – P (0.006) es
+
+   menor que el nivel de significancia (0,05); se rechaza H0, y se
+
+   acepta H1, en consecuencia se concluye que, la variable
+
+   rentabilidad   de   productores     de    vainita   tiene   una   relación
+
+   significativa con el capital utilizado, con un nivel de confianza del
+
+   95%, estos resultados concuerdan con la investigación realizada
+
+   por Durand     y León     (2016),       quienes en     su   investigación
+
+   determinaron que los créditos para el capital de trabajo e inversión
+
+   inciden favorablemente en la competitividad de las MYPES ya que,
+
+   a través de los financiamientos, (prestamos de entidades
+
+   financieras) podrán aumentar sus inventarios por ende los
+
+   empresarios podrán desarrollar fuertes ventajas competitivas sobre
+
+   sus competidores, un 60.3% señalo que utilizo el crédito financiero
+
+
+
+                                      92
+   para invertirlo en mejoramiento/ampliación de local, un 9.0% en
+
+   Programa de capacitación y un 30.8% en Activos Fijos. Y por ende
+
+   tendrán, mayores estrategias para poder sobresalir en el mercado
+
+   generándoles mayor rentabilidad. Resultados contrarios a los
+
+   obtenidos por Cabrera (2015)          quien señala que los micro
+
+   empresarios encuestados el 100% autofinancia su actividad
+
+   empresarial y contrarios también a los obtenidos por Díaz donde el
+
+   70% autofinancia su empresa.
+
+
+
+➢ En relación a la fuente de financiamiento, se determinó que el
+
+   65.70% de los productores encuestados trabajan con capital
+
+   propio, el 12.90% trabaja con préstamos, y el 21.4% con ambas
+
+   fuentes de financiamiento, evidenciando que la tasa de penetración
+
+   del crédito en el sector agropecuario es relativamente baja; durante
+
+   el 2012 cerca de 200 mil pequeños y medianos productores
+
+   agropecuarios a nivel nacional solicitaron crédito y para el 2016 se
+
+   observa el incremento de esta cifra en 4%. Al respecto se puede
+
+   también mencionar que por el lado de la demanda, (Palacios, 1998)
+
+   destaca la inhibición de los agricultores pequeños y medianos en
+
+   solicitar créditos, estos resultados son similares a los obtenidos por
+
+   Durand & León (2016) quienes al realizar contraste de hipótesis
+
+
+
+                                    93
+   obtienen un valor de X2= 10.586, con 4 grados de libertad y P=
+
+   0.032 concluyendo que se rechaza la hipótesis nula y en
+
+   consecuencia se acepta la hipótesis de investigación. Afirmando
+
+   que existe dependencia entre el capital propio y el desarrollo de las
+
+   MYPES en el sector comercial del Distrito de Independencia
+
+   período 2015.
+
+➢ En relación a quien le brindo el crédito se pudo determinar que un
+
+   95.8% de los productores encuestados obtuvo el crédito de una
+
+   entidad financiera, y solo el 4.2% lo obtuvo de familiares,
+
+   evidenciando así que los principales actores en la dinámica de
+
+   créditos agropecuarios son Agrobanco, Cajas Municipales, la
+
+   Banca    Comercial     y   Cajas   Rurales   de   Ahorro   y   Crédito
+
+   (Superintendencia de Banca, Seguros y AFP, 2006) . Siendo las
+
+   Cajas Municipales la entidad de la cual se obtuvo en mayor
+
+   proporción (47.8%) los créditos agrícolas en la zona de estudio,
+
+   esto debido a las condiciones de los créditos en términos de tasas
+
+   de interés, comisiones, plazos y moneda que rigen por los tarifarios
+
+   de cada institución.
+
+
+
+
+                                      94
+Objetivo Específico 2: Analizar el impacto de las características
+
+comerciales empleadas por el productor de vainita sobre la rentabilidad de
+
+este cultivo en el distrito La Yarada – Los Palos
+
+En cuanto a las características comerciales (X2) en relación al lugar de
+
+comercialización, se evidenció que el 100% de los productores de vainita
+
+realizan sus ventas en su propia parcela, lo venden al intermediario y lo
+
+efectúan en forma individual, coincidiendo con (Rojas, 2014) donde
+
+evidencio el lugar de venta del producto (93,80 %) ya que las
+
+transferencias de la producción lo efectúan en su misma chacra, para lo
+
+cual los intermediarios recogen la producción con sus camiones. Mientras
+
+que otro porcentaje (6,30%) dicha entrega lo hacen en el mercado, indica
+
+a su vez que existen limitaciones para elevar la rentabilidad de los
+
+productos agrícolas en el distrito, refiriéndose a la desconexión entre la
+
+oferta y la demanda e incluso cuando se logra acceso a acopiadores, el
+
+poder de negociación de los productores es mínimo, no solamente por la
+
+poca producción que pueden ofrecer al mercado, sino por la falta de
+
+organización y estandarización de sus productos.
+
+
+      La comercialización de la producción como se indicó el mayor
+
+porcentaje lo realiza en su predio pues muchos de los productores no
+
+cuentan con medio de transporte y centro de acopio, así mismo la
+
+totalidad de dicha producción es vendida al intermediario (100%) lo cual
+
+
+                                        95
+limita un mayor margen de ganancia; concluyendo mediante la prueba de
+
+hipótesis que la rentabilidad de los productores de vainita tiene una
+
+relación significativa con dichas características comerciales; sin embargo
+
+existen también investigaciones donde se demostró que los factores de
+
+comercialización (punto de venta donde se comercializan los productos
+
+agrícolas,   canal   de   comercialización,   modo   de   comercialización)
+
+determinan parcialmente la buena rentabilidad de las pequeñas unidades
+
+de producción agrícola según la percepción de los productores
+
+entrevistados, mas no parece factible establecer una implicación absoluta
+
+debido a que en algunos aspectos los resultados de la prueba de
+
+hipótesis mostraron independencia entre las variables (Galván, 2004). Los
+
+resultados de la referida investigación fueron contrarios a lo esperado
+
+inicialmente, puesto que se descubrieron en los resultados de casi todos
+
+los sub indicadores la independencia respecto a la rentabilidad, llamando
+
+mucho la atención el comportamiento observado ya que según (Guerra y
+
+Aguilar, 2003) , el mercado se mueve en torno a la intervención de
+
+diversos actores tales como consumidores, productores, intermediarios
+
+(comisionistas), transportistas, industriales, exportadores e importadores
+
+quienes día a día toman decisiones bajo condiciones muy cambiantes y
+
+tal pareciera que la población estudiada en la mencionada investigación
+
+se comportara de otra manera.
+
+
+
+                                        96
+      Por otro lado en la investigación de Martiarena y Quispe (2016) ,
+
+presenta resultados similares a esta investigación pues se determinó que
+
+la comercialización presenta incidencia con la rentabilidad de los
+
+productores de maíz del distrito de Urcos, esto se evidencio de acuerdo a
+
+los resultados de la prueba estadística de Chi cuadrado de Pearson
+
+X2=29.593, además de que esta relación es alta y directa por el valor de
+
+Gamma=0.783, los antecedentes investigativos hacen notar que para
+
+conseguir una mejor utilidad en la producción del maíz se requiere de un
+
+sistema adecuado de comercialización. (Martiarena & Quispe, 2016)
+
+
+      Al   respecto   Développement    International   Desjardins   (2010)
+
+menciona que los agricultores suelen tener escaso control de su margen
+
+de ganancias porque tienen poco poder sobre el precio de venta de los
+
+productos que comercializan y sobre el costo de los insumos necesarios
+
+para el cultivo, su relación de fuerza con los intermediarios del mercado
+
+suele ser débil. Además, la globalización de los mercados agrícolas y el
+
+cambio de los hábitos alimentarios que acompaña la globalización de las
+
+economías exigen que los productores estén más familiarizados con la
+
+función de comercialización. No se trata únicamente de que vendan bien
+
+lo que producen, sino que produzcan lo que se vende bien en los
+
+mercados. (Développement International Desjardins, 2010)
+
+
+
+
+                                      97
+      Contrastando con los antecedentes de investigación los resultados
+
+guardan concordancia con los resultados de (Rojas, 2014), quien logró
+
+determinar los márgenes de la comercialización de vainitas a partir de los
+
+métodos de producción y canales utilizados para la venta final, logrando
+
+determinar, al igual que el presente estudio, la importancia de gestionar
+
+adecuadas herramientas que faciliten la colocación de los productos en el
+
+mercado de destino, que permiten generar mejores resultados para los
+
+productores.
+
+      Se puede precisar además que el grado de desarrollo de los
+
+sistemas de comercialización se sitúa pues en el centro del análisis de las
+
+cadenas de producción que las instituciones financieras deben realizar
+
+para evaluar el potencial y el nivel de riesgo asociado a un sector preciso.
+
+En efecto, cuanto más desarrollados estén los mecanismos de
+
+comercialización, mejor podrán los agricultores prever la colocación de
+
+sus productos en el mercado, obtener precios justos y estables, cubrir los
+
+costos de producción y obtener una remuneración adecuada por su
+
+trabajo. Por ejemplo, el crédito utilizado para el almacenamiento de la
+
+producción permite que los agricultores puedan ir espaciando la venta y
+
+obtener así un precio medio superior (y por ende mayor rentabilidad) al
+
+que hubieran obtenido si hubieran vendido la totalidad de la producción
+
+
+
+
+                                        98
+enseguida después de la cosecha, cuando los precios son en general
+
+más bajos. (Développement International Desjardins, 2010)
+
+      Según (Buffett, 2013) en su libro “Aprende a Invertir” demuestra
+
+que la rentabilidad se categoriza según los rangos de 0- 30 % (bajo), 31%
+
+- 65% (medio) y de 66% - 100% (alto), es por ello que La Tabla 25
+
+muestra   que en la zona de estudio el nivel bajo es del 11% lo que
+
+demuestra que los agricultores tienen un bajo nivel de rentabilidad, a ello
+
+observamos que existe el 76% de los agricultores que cuentan con un
+
+nivel medio y de igual forma un 13% de nivel alto. A todo ello podemos
+
+deducir que los agricultores oscilan entre una rentabilidad media alta, pero
+
+no es lo recomendable puesto que el 76% cuenta con un nivel medio,
+
+cuando el autor Buffett (2013) recomienda que para una muestra mayor a
+
+50 el índice de rentabilidad debe ser 42% de nivel alto para poder
+
+generalizar a la muestra.
+
+
+
+
+                                        99
+                              CONCLUSIONES
+
+
+
+1.   En la presente investigación se conoció que el           financiamiento
+
+     utilizado por el productor de vainita inciden significativamente sobre la
+
+     rentabilidad de este cultivo en el distrito de La Yarada – Los Palos de
+
+     acuerdo a los resultados de la prueba estadística de Chi cuadrado de
+
+     Pearson X2=12.180, además de que esta relación es alta y directa por
+
+     el valor de Gamma=0.891 con un            nivel de confianza del 95%,
+
+     obteniéndose en mayor porcentaje una rentabilidad media (76%), la
+
+     cual podría mejorar aún más para que los productores obtengan
+
+     mayores ganancias. Además, en la Tabla 26 se muestra que el 65,7%
+
+     de los productores trabaja con capital propio, el 12,9% de los
+
+     productores recurre como fuente de financiamiento solo a préstamos y
+
+     finalmente el 21,4% de productores encuestados señalo que trabaja
+
+     con ambas fuentes de financiamiento.
+
+
+
+2.   En relación a las características comerciales se determinó que
+
+     también inciden significativamente sobre la rentabilidad de este cultivo
+
+     en el distrito La Yarada – Los Palos con un nivel de confianza del
+
+     95%, evidenciándose que el 100% de los productores de vainita
+
+     realizan sus ventas en su propia parcela, lo vende a la intermediación
+
+
+
+                                         100
+y lo efectúa en forma individual.         Asimismo el 41,40 % de los
+
+productores que percibe una rentabilidad de entre 26 a 50% como
+
+utilidad obtenida del dinero que ha generado el Capital invertido son
+
+aquellos que venden su producto al contado, seguido del 22,90% de
+
+productores que venden al contado y cuya rentabilidad es entre 51 a
+
+75%, seguido de un 15,70% de productores que perciben una
+
+rentabilidad entre 51 a 75% que venden su producto en ambas
+
+formas, es decir al contado y crédito.
+
+
+
+
+                                    101
+                      RECOMENDACIONES
+
+
+
+1. Realizar programas de capacitación financiera y asistencia técnica
+
+   a los productores del distrito, para la toma de decisiones acertadas
+
+   en la producción de dicho cultivo, teniendo en cuenta estrategias
+
+   de planificación en los aspectos financieros y comerciales.
+
+
+
+2. Promover las capacitaciones en temas de organización de los
+
+   productores de vainita en el proceso de comercialización (mediante
+
+   talleres de capacitación), logrando conformar Asociación de
+
+   Productores de vainita con la finalidad de que exista mayor y mejor
+
+   participación del productor en la venta de su producción, para así
+
+   obtener mayores márgenes de ganancias.
+
+
+
+3. Se recomienda realizar estudios de mercado con la finalidad de
+
+   analizar y evaluar la oferta, la demanda, los precios y la
+
+   comercialización, así como otros factores no tratados en la
+
+   presente investigación y que podrían incidir en la rentabilidad de la
+
+   vainita.
+
+
+
+
+                                   102
+                     REFERENCIAS BIBLIOGRÁFICAS
+
+
+
+Aucant, A. R. (2017). Finanzas Comerciales para Pequeños Productores. USA:
+
+       Hill.
+
+Bolaños & Rodriguez. (1993). "Aspectos Conceptuales y Metodológicos de los
+
+       Costos. Publicación Miscelánea(61 INIAP - GTZ 1993), 19.
+
+Brealey, R. A., Myers, S. C., & Allen, F. (2015). Principio de Finanzas
+
+       Corporativa. Mexico D.F.: McGraw - Hill Interamericana.
+
+Buffett, W. (2013). Aprende a invertir. ALICE: USA.
+
+Cabrera Vargas, J. (2015). Caracterización del financiamiento, la capacitación y
+
+       la rentabilidad de las micro y pequeñas empresas del sector agrario –
+
+       rubro camu camu, del distrito de Yarinacocha 2015.
+
+DEA - DRAT. (2014). "Costos de Producción Cultivos de Tacna (Diciembre).
+
+Développement International Desjardins. (2010). Financiamiento Agrícola:
+
+       Servicios     Financieros    en      el     Medio    Rural.    Obtenido   de
+
+       https://www.did.qc.ca/media/documents/es/positionnements/DIDFinancia
+
+       mientoAgricolas-Noviembre2010.pdf
+
+DIA - DRAT. (2015). Estadística Agrícola 2015. Dirección Regional de
+
+       Agricultura                 Tacna.                  Obtenido              de
+
+       http://www.agritacna.gob.pe/sites/default/files/Estadistica/ESTADISTICA
+
+       _AGRICOLA_2015.pdf
+
+
+
+                                             103
+Durand y León. (2016). Influencia del Financiamiento en el Desarrollo de las
+
+       Mypes en el Sector Comercial del Distrito de Independencia - Período
+
+       2015. Tesis (de grado), Universidad Santiago Antuñez de Mayolo.
+
+Faga & Ramos. (2006). Cómo profundizar en el análisis de sus costos para tomar
+
+       mejores decisiones empresariales. Buenos Aires: Ediciones Granica S.A.
+
+FAO. (1998). "Censos Agropecuarios y Género - Concepto y Metodología".
+
+       Obtenido de http://www.fao.org/docrep/004/X2919S/x2919s00.htm
+
+Galván, S. (2004). “Factores de la Gestión Empresarial que permiten mejorar la
+
+       Rentabilidad en las Pequeñas Unidades de Producción Agrícola del Chili
+
+       Regulado en Arequipa, Perú. 2004”. Tesis (de grado), Universidad
+
+       Cátolica de Santa María.
+
+Guerra y Aguilar. (2003). Guía de Mercadeo para el Administrador de
+
+       Agronegocios. México D.F.: Editorial limusa S.A. - UTHEA Noriega
+
+       Editores.
+
+Gutierrez, L. (1985). La actividad empresarial del Estado en la comercialización
+
+       agropecuaria en el Perú. Serie Diagnóstico y Debate(15).
+
+Hernández, A. (2002). Matemática Financiera. Teoría y práctica. México:
+
+       COPYRIGHT.                            Obtenido                        de
+
+       http://books.google.com.pe/books?id=19GtihVxDzIC&printsec=frontcove
+
+       r#v=onepage&q&f=false
+
+
+
+
+                                         104
+INEI.       (2007).   "Censo   de    Población    y    Vivienda".     Obtenido   de
+
+        http://censos.inei.gob.pe/censos2007/documentos/Resultado_CPV2007.pd
+
+        f
+
+INEI.       (2012).   IV   Censo     Nacional     Agropecuario.     Obtenido     de
+
+        http://censos.inei.gob.pe/cenagro/tabulados/
+
+INEI.       (2015).   "Encuesta     Nacional     Agropecuaria".     Obtenido     de
+
+        http://censos.inei.gob.pe/cenagro/tabulados/
+
+INEI.       (2016).   "Encuesta     Nacional     Agropecuaria".     Obtenido     de
+
+        https://webinei.inei.gob.pe/anda_inei/index.php/catalog/302
+
+Instituto de Estudios Económicos sobre la Realidad Argentina y Latinoamérica y
+
+        el Ministerio de Agricultura de Córdoba. (2015). Rentabilidad Agrícola
+
+        esperada ciclo 2015/2016 y aspectos finacieros. Argentina, Córdoba:
+
+        Monitor Agrícola de Córdoba.
+
+Junta de Usuarios de Aguas de la Yarada. (2013). "Plan de Cultivo de Riego,
+
+        Campaña agrícola 2012 - 2013".
+
+Kazmier, L. (2001). Estadística Aplicada a la Administración y la Economía (3era
+
+        ed.). México DF: McGRAW - Hill Interamericana Editores.
+
+Kotler, P. (1995). Dirección de Mercadotecnia. México: Ed. Diana.
+
+Lerma et al. (2007). Liderazgo Emprendedor. Cómo ser un emprendedor de éxito
+
+        y no morir en el intento. México: Cengage Learning Editores S.A.
+
+        Obtenido                                                                 de
+
+
+
+                                           105
+       http://books.google.com.pe/books?id=9XCUjcSKhAgC&printsec=frontco
+
+       ver#y=onepage&q&f=false
+
+Lopez, C. (2007). Cálculo Financiero aplicado, un enfoque profesional (Segunda
+
+       ed.). Buenos Aires, Argentina: La Ley.
+
+Martiarena, D., & Quispe, D. (2016). "Modos de Producción, Comercialización
+
+       del Maíz y Rentabilidad en la Economía de los Productores Distrito de
+
+       Urcos Período 2016". Tesis (de grado), Universidad Peruana Austral del
+
+       Cusco.
+
+Ministerio de Agricultura España. (2013). Estudio de la cadena de valor y
+
+       formación de precios del sector del poroto verde.
+
+Nevado, D. (2007). Cómo gestionar el binomio rentabilidad productiva (1ra ed.
+
+       ed.). Madrid, España: Edita Especial Directives.
+
+Oriol, A. (2008). Análisis de Estados Financieros. Barcelona, España: Ediciones
+
+       Gestión 2000.
+
+Ortiz, H. (2003). Finanzas Básicas para no financieros. Bogotá, Colombia:
+
+       Thomson Learning.
+
+Palacios, E. (1998). El Crédito Agrario en el Perú. Revista de la Facultad de
+
+       Ciencias Económicas de la UNMSM, Año VI(Nº 20 (1998)), (73-90).
+
+Rojas, G. (2014). Análisis de los Márgenes de Comercialización en el cultivo de
+
+       vainita (Phaseolus vulgaris L.) producido en la Irrigación La Yarada.
+
+       Tesis (de grado), Universidad Nacional Jorge Basadre Grohmann.
+
+
+
+                                          106
+Rubio, R. (2010). Introducción al Marketing. (Primera ed.). España: Editorial
+
+       Club Universitario.
+
+Saldaña, N. (2013). Caracterización del financiamiento, la capacitación y la
+
+       rentabilidad de las Mypes del sector agrario – rubro camu camu, del
+
+       distrito de Calleria-Pucallpa, período 2011 – 2012. Tesis (de grado),
+
+       Universidad Católia los Angeles de Chimbote.
+
+SENASA. (2015). Servicio Nacional de Sanidad Agraria. Obtenido de
+
+       http:/www.senasa.gob.pe
+
+Sinisterra, G. (2007). Contabilidad Administrativa (Segunda ed.). Bogotá,
+
+       Colombia: Editorial Ecoe.
+
+Soriano, C. (2010). El Marketing Mix: Conceptos, Estrategias y Aplicaciones
+
+       (Primera ed.). Madrid, España: MAPCAL S.A.
+
+Superintendencia de Banca, Seguros y AFP. (2006). Memoria Institucional.
+
+       Obtenido                                                           de
+
+       http://www.sbs.gob.pe/Portals/0/jer/pub_memorias/20171215_SBS_Mem
+
+       oria_2016.pdf
+
+Vara, H. A. (2016). Metodología de la Investigación. México: Hill.
+
+
+
+
+                                          107
+                     ANEXOS
+
+
+
+Anexo 01: Encuesta aplicada.
+
+Anexo 02: Relación de productores.
+
+Anexo 03: Índice de rentabilidad.
+
+Anexo 04: Aspectos Generales y Agronómicos del Productor de
+
+          Vainita.
+
+
+
+
+                            108
+                                  ANEXO 1.
+
+
+
+                             ENCUESTA APLICADA
+
+   ENCUESTA: “CARACTERISTICAS FINANCIERO – COMERCIALES Y SU
+EFECTO SOBRE LA RENTABILIDAD DEL CULTIVO DE VAINITA EN LOS
+   PRODUCTORES DEL DISTRITO DE LA YARADA – LOS PALOS”
+                         (Campaña Agrícola 2015 – 2016)
+
+
+ I. DATOS GENERALES DEL PRODUCTOR:
+
+ 1. Nombres y Apellidos: ___________________________________
+
+ 2. Edad: _____ - Años
+
+ 3. Sexo:
+ a) Hombre
+
+ b) Mujer
+
+ 4. Nivel educativo culminado:
+ a) Primaria
+
+ b) Secundaria
+
+ c) Superior universitaria
+
+ d) Superior técnica
+
+ e) Ninguno
+
+
+ II. DATOS AGROECONÓMICOS:
+
+ 1. Hectáreas destinada a la producción de vainita: ________ha
+
+ 2. Variedad y/o variedades que cultivo
+ a) _______________, ha: ______
+ b) _______________, ha: ______
+
+
+
+
+                                      109
+               3. Nivel Tecnológico:
+- Sistema de riego                      a) Gravedad       b) Goteo c) Otro (especifique: .……………)
+- Uso de equipos agrícolas              a) Si (¿Cuáles? ……………………………)                    b) No
+
+- Uso de maquinarias agrícolas          a) Si (¿Cuáles? ……………………………)                    b) No
+
+- Uso de semillas                       a) Certificadas                             b) No certificadas
+
+- Uso de fertilizantes químicos:        a) Si                                            b) No
+
+- Uso de Plaguicidas:                   a) Si                                            b) No
+
+
+               4. Con lo que respecta a la titularidad del predio, es usted:
+
+               a) Propietario
+               b) Arrendatario
+
+               III. VALORIZACIÓN DE LOS INGRESOS Y COSTOS DE PRODUCCIÓN:
+
+               1. Precio de venta promedio (Kg.): __________
+
+               2. Superficie cosechada: ____________
+
+               3. Rendimiento por Ha: _____________
+
+               4. Porcentaje destinado al mercado: ___________
+
+               5. Costo de producción
+
+               5.1. Insumos:
+
+               a) Semilla
+                                   Unidad de          Cantida      Costo Unitario      Costo Total
+          Descripción
+                                   Medida               d              S/.               S/.
+       Semilla                        Kg
+
+               b) Fertilizantes
+                                   Unidad de          Cantida      Costo Unitario       Costo Total
+                Descripción
+                                    Medida             d               S/.                S/.
+       Úrea                           kg
+       Nitrato de Amonio               kg
+       Abono foliar                    L
+       Estiércol                       Kg
+       Otros
+
+
+
+
+                                                       110
+         c) Agroquímicos
+                           Unidad de                               Costo Unitario           Costo Total
+    Descripción                                Cantidad
+                            Medida                                      S/.                    S/.
+Insecticidas                   L
+
+Adherentes                    L
+
+Fungicida                    L./Kg
+
+Otros
+
+
+
+         5.2. Mano de Obra
+
+                                       Unidad de                             Costo            Costo Total
+            Descripción                                    Cantidad
+                                        Medida                             Unitario S/.           S/.
+Preparación de terreno                    Jornal
+Siembra                                   Jornal
+Labores Culturales                        Jornal
+(abonamiento, deshierbos,
+riego)
+Control de Malezas (aplicación            Jornal
+de pesticidas)
+Cosecha                                   Jornal
+Transporte                             --------------     --------------   --------------
+
+
+         5.3. Maquinaria Agrícola
+
+         a) Preparación del terreno
+                                                                                               Costo
+     Descripción           Unidad de Medida             Cantidad     Costo Unitario S/.
+                                                                                              Total S/.
+Arado                             Hora
+Rastrado                          Hora
+Surcado                           Hora
+
+         5.4. Otros Gastos Directos
+
+                            Descripción                                             Costo Total S/.
+Flete traslado de insumos (materia prima, etc)
+Otros Gastos (tarifa de agua, etc)
+
+
+
+
+                                                        111
+        5.6. Costos Indirectos
+
+
+                           Descripción                              Costo Total S/.
+
+Costos Financieros
+
+Gastos Generales y Adm.
+
+Otros (costo del alquiler del terreno)
+
+
+
+        IV. ACCESO AL FINANCIAMIENTO
+
+1. Fuente de financiamiento
+          Usa:
+       a) Capital propio
+
+        b)    Capital      de     terceros        (préstamo)
+
+        c) Ambos
+
+2. Si utilizó capital de terceros, ¿quién se lo ha brindado?
+        a) Familiares
+
+        b) Conocidos
+
+        c) Entidad financiera
+        d) Prestamistas
+
+3. Entidad a la que solicitó el crédito
+       a) Agrobanco
+
+        b)Caja municipal
+
+        c)Banca privada
+        e)                                Otro         Especifique:______________
+
+
+        V. PROCESO DE COMERCIALIZACIÓN
+
+1. Lugar de comercialización
+       a) En su parcela
+
+        b) En su negocio
+
+        c) Otro lugar Especifique:______________
+
+
+                                                 112
+2. ¿A quién vende?
+a) Directo al consumidor final
+b) A la intermediación
+c) Otros. Especifique:________
+
+3. Modo de comercialización:
+a) Individual
+
+b) Asociativa
+
+c) Otro Especifique:______________
+
+
+4.      Forma    de    venta     a   los    demandantes:
+
+ a) Contado
+
+ b) Crédito
+
+ c) Ambas formas de venta
+
+
+
+
+                                           113
+      ANEXO 2. RELACIÓN DE PRODUCTORES
+
+N°    Productores de Vainita             Sector
+
+1.    Andrés Avelino Alférez Gutiérrez   Las Palmeras
+
+2.    Edgar Abel Alférez Mamani          Las Palmeras
+
+3.    Flora Apaza Contreras              Las Palmeras
+
+4.    Marcelo Callosani Chura            Las Palmeras
+
+5.    Gregorio Condori Nina              Las Palmeras
+
+6.    Feliciano Contreras Mamani         Las Palmeras
+
+7.    Luisa Contreras Mamani             Las Palmeras
+
+8.    Román Delgado Tarqui               Las Palmeras
+
+9.    Leonardo Herrera Roque             Las Palmeras
+
+10.   Magdalena Larico Quispe            Las Palmeras
+
+11.   Lourdes Llanque Mamani             Las Palmeras
+
+12.   Santiago Llanque Mamani            Las Palmeras
+
+13.   Alejandro Mamani Hinojosa          Las Palmeras
+
+14.   Cecilio Mamani Hinojosa            Las Palmeras
+
+15.   Mariano Mamani Jilaja              Las Palmeras
+
+16.   Guillermina Mamani Llampazo        Las Palmeras
+
+17.   Nelly Mamani Macha                 Las Palmeras
+
+18.   Renau Mamani Machaca               Las Palmeras
+
+19.   Julián Mamani Mamani               Las Palmeras
+
+20.   Alejandro Mamani Paco              Las Palmeras
+
+21.   Marcelino Mamani Pacohuanaco       Las Palmeras
+
+22.   Teófilo Maquera Flores             Las Palmeras
+
+
+
+
+                                114
+23.   José Quelcahuanca Yapurasi       Las Palmeras
+
+24.   Janeth Quilcahuanca Condori      Las Palmeras
+
+25.   Roger Sánchez Hinojosa           Las Palmeras
+
+26.   Mario Vargas                     Las Palmeras
+
+27.   Andrés Apaza Jilaja              Las Palmeras
+
+28.   Martin Chata Ticona              Las Palmeras
+
+29.   David Huanca Jilaja              Las Palmeras
+
+30.   Reynaldo Quilcahuanca Yapurasi   Las Palmeras
+
+31.   Domingo Mamani Jilaja            Las Palmeras
+
+32.   Rafael Catari                    Las Palmeras
+
+33.   Wilfredo Vargas Castillo         Los Olivos
+
+34.   Gerardo Yapurasi Vargas          Los Olivos
+
+35.   Edgar Rivera Mamani              Los Palos
+
+36.   Gladys Pérez Velasco             Los Palos
+
+37.   Benancia Turpo Mamani            Los Palos
+
+38.   Rogelio Cabrera Llanqui          Los Palos
+
+39.   Milfer Maquera García            Los Palos
+
+40.   Gregorio Cabrera Ticona          Los Palos
+
+41.   Elizabet Calderón Fernández      Los Palos
+
+42.   Raúl Gallegos Ponce              Los Palos
+
+43.   Edgar Cabrera Llanqui            Los Palos
+
+44.   Pedro Huanca Huanca              Juan Velasco
+
+45.   José Mamani Vega                 Juan Velasco
+
+46.   Simón Copari Mamani              Juan Velasco
+
+
+
+
+                                 115
+47.   Raúl Cabrera Llanque             Juan Velasco
+
+48.   Isabel Mamani Gutiérrez          Asentamiento 5 y 6
+
+49.   Wilson Gutiérrez Mamani          Asentamiento 5 y 6
+
+50.   Rodolfo Vilca Maquera            Rancho Grande
+
+51.   Reynaldo Quelcahuanca Yapurasi   Rancho Grande
+
+52.   Guido Cohori Hinojosa            Rancho Grande
+
+53.   Sabino Ccori Hinojosa            Rancho Grande
+
+54.   Roger Ccori Hinojosa             Rancho Grande
+
+55.   Raúl Apaza Nina                  Rancho Grande
+
+56.   David Huanca Jilaja              Rancho Grande
+
+57.   Hernán Huanca Jilaja             Rancho Grande
+
+58.   Jaime Huanca Apaza               Rancho Grande
+
+59.   Edwin Apaza                      Rancho Grande
+
+60.   Roberto Apaza                    Rancho Grande
+
+61.   Raúl Yapurasi Mamani             Rancho Grande
+
+62.   David Hinojosa                   Rancho Grande
+
+63.   Olga Ccori Hinojosa              Rancho Grande
+
+64.   Elsa Chino                       Rancho Grande
+
+65.   Rolando Ccori Hinojosa           Rancho Grande
+
+66.   Wilber Ccori Hinojosa            Rancho Grande
+
+67.   Juan Pari Yapurasi               Rancho Grande
+
+68.   Armando Apaza                    Rancho Grande
+
+69.   Orlando Apaza                    Rancho Grande
+
+70.   Samuel Callosani Jilaja          Rancho Grande
+
+
+
+
+                                116
+71.   Francisco Zapana                Rancho Grande
+
+72.   Moisés Huanca Mamani            Rancho Grande
+
+73.   Remigio Severo Vildoso Liendo   Rancho Grande
+
+74.   Miguel Ángel Aranda Burgos      Rancho Grande
+
+75.   Guillermo Aranda Hurtado        Rancho Grande
+
+76.   Rene Yapurasi                   Rancho Grande
+
+77.   Gregorio Anquise Cauna          Rancho Grande
+
+78.   Bernabé Retamoso Calderón       Rancho Grande
+
+79.   José Luis Huanca                Rancho Grande
+
+80.   Javier Mamani Mamani            Rancho Grande
+
+81.   Ernesto Mamani Pacohuanaco      Rancho Grande
+
+82.   Sebero Vildoso Liendo           Rancho Grande
+
+83.   Avelina Ticona de Mamani        Rancho Grande
+
+84.   Hernán Huanca Jilaja            Rancho Grande
+
+85.   Maria Yapurasi Vargas           Rancho Grande
+
+
+
+
+                               117
+                          ANEXO 3. ÍNDICE DE RENTABILIDAD
+
+            Rendimiento     Precio (S/.   VBP por    Costos producción                         %
+Productor                                                                Utilidad (S/.)
+               (t/ha)        Por Kg)      ha (S/.)      por ha (S/.)                      rentabilidad
+
+   1           6000            2.30        13800           9581              4219            44.04
+
+   2           6600            2.50        16500           9799              6701            68.38
+
+   3           6200            2.00        12400           8158              4242            52.00
+
+   4           5500            2.80        15400          10466              4934            47.14
+
+   5           6000            2.20        13200           8881              4319            48.63
+
+   6           6000            2.20        13200           8141              5059            62.14
+
+   7           6000            2.50        15000           9498              5502            57.93
+
+   8           6900            2.00        13800          10119              3681            36.38
+
+   9           7000            2.00        14000          10901              3099            28.43
+
+   10          6600            2.20        14520          10265              4255            41.45
+
+   11          6500            2.00        13000           8215              4785            58.25
+
+   12          7500            1.90        14250          10167              4083            40.16
+
+   13          6900            2.50        17250           9992              7258            72.64
+
+   14          7500            1.80        13500           9878              3622            36.67
+
+   15          6000            3.00        18000          10624              7376            69.43
+
+   16          6000            2.40        14400          10549              3851            36.51
+
+   17          6000            2.50        15000          11109              3891            35.03
+
+   18          6000            2.50        15000           9713              5287            54.43
+
+   19          7500            2.30        17250          10536              6714            63.72
+
+   20          6000            3.50        21000          10982             10018            91.22
+
+   21          6300            2.00        12600          10105              2495            24.69
+
+   22          7500            2.20        16500          10924              5576            51.04
+
+   23          6300            2.00        12600           9692              2908            30.00
+
+
+
+                                            118
+24   8400   1.80   15120   10013   5107   51.00
+
+25   6900   2.00   13800   9491    4309   45.40
+
+26   6900   1.80   12420   8487    3933   46.34
+
+27   6900   2.00   13800   9669    4131   42.72
+
+28   6900   2.00   13800   10219   3581   35.04
+
+29   9000   1.80   16200   10138   6062   59.79
+
+30   6000   2.50   15000   8993    6007   66.80
+
+31   6600   2.00   13200   8236    4964   60.27
+
+32   7500   2.00   15000   11774   3226   27.40
+
+33   6000   2.20   13200   9749    3451   35.40
+
+34   6300   2.00   12600   8864    3736   42.15
+
+35   7000   2.00   14000   10901   3099   28.43
+
+36   6600   2.20   14520   10322   4198   40.67
+
+37   6500   2.00   13000   8511    4489   52.74
+
+38   7500   1.90   14250   10257   3993   38.93
+
+39   6900   2.50   17250   9874    7376   74.70
+
+40   7800   1.80   14040   9998    4042   40.43
+
+41   6000   3.00   18000   10986   7014   63.84
+
+42   6000   2.40   14400   10354   4046   39.08
+
+43   6000   2.50   15000   11213   3787   33.77
+
+44   6300   2.50   15750   9987    5763   57.71
+
+45   7500   2.30   17250   10238   7012   68.49
+
+46   6300   3.10   19530   10552   8978   85.08
+
+47   6300   2.00   12600   10215   2385   23.35
+
+48   6500   2.00   13000   11002   1998   18.16
+
+
+
+                   119
+49   6450   2.00   12900   9223    3677   39.87
+
+50   7950   1.80   14310   10917   3393   31.08
+
+51   6900   2.00   13800   9688    4112   42.44
+
+52   6000   2.30   13800   8674    5126   61.21
+
+53   6000   2.50   15000   9232    5768   62.48
+
+54   6900   2.00   13800   10301   3499   33.97
+
+55   7800   2.00   15600   10756   4844   45.04
+
+56   6600   2.20   14520   10119   4401   43.49
+
+57   6500   2.00   13000   8526    4474   52.47
+
+58   7500   1.90   14250   10333   3917   37.91
+
+59   6900   2.30   15870   9974    5896   59.11
+
+60   7500   1.80   13500   9617    3883   40.38
+
+61   6000   3.00   18000   10866   7134   65.65
+
+62   6000   2.40   14400   10238   4162   40.65
+
+63   6000   2.50   15000   11120   3880   34.89
+
+64   6000   2.50   15000   9572    5428   56.71
+
+65   7500   2.30   17250   10882   6368   58.52
+
+66   6600   3.10   20460   10915   9545   87.45
+
+67   6000   2.40   14400   10123   4277   42.25
+
+68   6000   2.50   15000   11035   3965   35.93
+
+69   6000   2.50   15000   9876    5124   51.88
+
+70   6400   2.00   12800   10405   2395   23.02
+
+
+
+
+                   120
+                                    ANEXO 4.
+
+     ASPECTO GENERALES Y AGRONÓMICOS DEL PRODUCTOR DE
+
+                                  VAINITA
+
+•     ASPECTOS GENERALES
+
+
+a.    Edad
+
+
+            En cuanto a la edad según la Tabla 42 se observa que en
+
+promedio los productores de vainita tienen 47, 48 años con un rango de
+
+38 años siendo el de menor promedio de 28 años y el de mayor edad de
+
+66 años respectivamente, es necesario precisar que la avanzada edad de
+
+los productores que cultivan a veces constituye una limitación para
+
+transmitir las bondades de una práctica o técnica; son un tanto más
+
+tradicionales y apegados a sus métodos.
+
+Tabla 42
+Edad de los productores
+
+                                                              Desviación
+                  N      Rango     Mínimo Máximo    Media
+                                                               estándar
+     Edad         70      38,00    28,00    66,00   47,4857   10,51809
+  N válido
+                  70
+ (por lista)
+
+
+
+
+                                      121
+ b.       Sexo del productor
+
+
+            En la Tabla 43 se evidencia que el género masculino tiene una
+
+representatividad de 80,0% lo que confiere casi exclusividad, motivado
+
+principalmente por la ardua labor de los trabajos manuales y la mayor
+
+resistencia física, a su vez evidencia que la participación de las mujeres
+
+es muy regular 20,0% corresponde al aporte de éstas, muchas mujeres se
+
+encuentran en las unidades de producción, tienen relación directa con la
+
+producción agrícola y se concentran en tareas domésticas. Tiene gran
+
+importancia, ya que permite conocer la participación de los recursos
+
+laborales femeninos, dentro de los recursos laborales activos en la
+
+producción agropecuaria. La participación de la mujer en el trabajo tiene
+
+un gran significado, tanto desde el punto de vista económico, político y
+
+social.
+
+Tabla 43
+Sexo del productor
+
+                                                Porcentaje   Porcentaje
+                        Frecuencia Porcentaje
+                                                  válido     acumulado
+Válido      Masculino       56        80,0         80,0         80,0
+            Femenino        14        20,0         20,0        100,0
+              Total         70        100,0       100,0
+
+
+
+
+                                       122
+c. Nivel educativo del productor
+
+
+         Para poder identificar a los agricultores y sus características, se
+
+realizó un análisis correspondiente al nivel educativo de los encuestados.
+
+Los resultados indican en la Tabla 44 que el 51,40 % alcanzaron
+
+secundaria completa, el 34,30% primaria, y solamente un 2,90% tiene
+
+educación superior.     Según el INEI (2008), existe un importante
+
+porcentaje 13,1%, de productores agropecuarios sin educación y la mayor
+
+concentración de población en esta condición se encuentra en la sierra,
+
+con niveles de analfabetismo que fluctúan entre 14,1% y 16,7%. No
+
+obstante, es de señalar que a nivel del promedio nacional la proporción de
+
+productores agropecuarios sin educación ha disminuido en siete puntos
+
+porcentuales con respecto a la cifra reportada por el Censo Nacional
+
+Agropecuario (CENAGRO, 1994), que fue de 20,4% de analfabetos a
+
+nivel nacional. Es notable el incremento de productores agropecuarios
+
+con secundaria. El porcentaje al 2008 es de 25,4%, cifra mayor en 10
+
+puntos porcentuales a la proporcionada por el CENAGRO que fue de
+
+15,0%.
+
+
+
+
+                                       123
+     Tabla 44
+     Nivel Educativo Culminado
+
+                                                                 Porcentaje     Porcentaje
+                                   Frecuencia   Porcentaje
+                                                                   válido       acumulado
+      Válido       Primaria           24              34,3           34,3          34,3
+                  Secundaria          36              51,4           51,4          85,7
+                   Superior
+                                       2              2,9            2,9           88,6
+                 Universitaria
+                Superior técnica       6              8,6            8,6          97,1
+                   Ninguno             2              2,9            2,9          100,0
+                    Total             70          100,0              100,0
+
+
+
+•     ASPECTOS AGRONÓMICOS
+
+
+          a. Hectáreas destinadas al cultivo de vainita
+
+               Los resultados de la encuesta señalan en la Tabla 45, que el
+
+promedio de área del cultivo de vainita es de 2,48 has, con un mínimo de
+
+1 ha y máximo de 15 has con una desviación estándar que se desvía del
+
+promedio en 2,85 has respectivamente.
+
+    Tabla 45
+    Hectáreas destinadas al cultivo de vainita
+
+                                                                              Desviación
+                               N      Rango Mínimo Máximo Media
+                                                                               estándar
+     ha destinada a la
+       producción de           70      14,00    1,00         15,00   2,4857    2,85263
+           vainita
+     N válido (por lista)      70
+
+
+
+
+                                                124
+b. Variedades de vanita cultivadas
+
+      b.1. Variedad Magnum
+
+      La Tabla 46 muestra que los 70 productores de vainita cultivan la
+
+variedad Magnum con un promedio de 2,05 has con un rango mínimo de
+
+1 has y máximo de 15 has con una deviación estándar de 2,625 has.
+
+
+Tabla 46
+Estadísticos descriptivos: ha de Magnum
+
+                                                             Desviación
+                 N     Rango Mínimo Máximo          Media
+                                                              estándar
+  Mágnum         70    14,00    1,00      15,00    2,0571     2,62588
+
+
+      b.2. Variedad Venus
+
+
+         La Tabla 47 señala que de los 70 productores de vainita
+
+solamente 9 cultivan la variedad Venus con un promedio de 1,66 has con
+
+un rango mínimo de 1 ha y máximo de 2 ha con una desviación estándar
+
+de 0,500 has respectivamente cultivan en un promedio de 2,05 has.
+
+
+Tabla 47
+Estadísticos descriptivos: has de Venus
+
+                                       Máxim                Desviación
+            N         Rango Mínimo                Media
+                                          o                  estándar
+ Venus       9        1,00     1,00    2,00       1,666       0,500
+
+
+
+
+                                       125
+        c. Sistema de riego
+
+           En la Tabla 48, se indica que el 85,70% de los encuestados
+
+  utiliza riego tecnificado en base a goteo superando significativamente a
+
+  los productores que utilizan por goteo que son solamente el 14,30%
+
+  respectivamente. El uso de tecnología en riego es un factor muy
+
+  importante para el desarrollo agrícola. Los tipos de tecnologías tienen
+
+  influencia en el uso de los recursos productivos.
+
+
+Tabla 48
+Sistema de riego
+
+                                              Porcentaje    Porcentaje
+                    Frecuencia Porcentaje
+                                                válido      acumulado
+       Gravedad        10         14,3            14,3         14,3
+        Goteo          60         85,7            85,7        100,0
+         Total         70        100,0            100,0
+
+
+        d. Cuenta con equipos
+
+           La Tabla 49 revela que el 92,90% de los productores si tienen
+
+  equipos agrícolas y solamente el 7,10% preciso que no.
+
+
+  Tabla 49
+  Equipos agrícolas
+
+                                             Porcentaje    Porcentaje
+                   Frecuencia Porcentaje
+                                               válido      acumulado
+  Válido    SI        65          92,9          92,9          92,9
+            No         5           7,1           7,1         100,0
+           Total      70         100,0         100,0
+
+
+                                            126
+       e. Utiliza fertilizantes
+
+         La Tabla 50 muestra que el 100% de los productores de vainita
+
+si emplean fertilizantes para su cultivo.
+
+Tabla 50
+Fertilizantes químicos
+
+                                                  Porcentaje   Porcentaje
+                 Frecuencia       Porcentaje
+                                                    válido     acumulado
+Válido 1,00          70             100,0           100,0        100,0
+
+
+       f. Uso de plaguicidas
+
+         En relación al uso de plaguicida La Tabla 51 indica que el
+
+97,10%de los productores hacen uso de plaguicidas y solamente un
+
+2,90% preciso que no hace uso de ello.
+
+Tabla 51
+Uso de plaguicidas
+
+                                               Porcentaje      Porcentaje
+                 Frecuencia Porcentaje
+                                                 válido        acumulado
+Válido    Si         68            97,1           97,1            97,1
+          No          2             2,9            2,9           100,0
+         Total       70            100,0         100,0
+
+
+       g. Propiedad del predio
+
+         En la Tabla 52 vemos que la mayor parte de los productores del
+
+distrito la Yarada – Los Palos, el 94,30% son propietarios y solamente el
+
+2,9% son arrendatarios y el otro 2,90% son arrendatarios y propietarios.
+
+
+                                            127
+Tabla 52
+¿Con lo que respecta a la titularidad del predio, es usted?
+
+                                                Porcentaje    Porcentaje
+                        Frecuencia Porcentaje
+                                                  válido      acumulado
+Válido   Propietario       66         94,3         94,3          94,3
+         Arrendatario      2           2,9          2,9          97,1
+           Ambos           2           2,9          2,9         100,0
+            Total          70         100,0        100,0
+
+
+
+
+                                       128
+

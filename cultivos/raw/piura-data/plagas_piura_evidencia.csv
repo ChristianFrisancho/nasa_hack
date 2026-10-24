@@ -1,0 +1,11 @@
+<cursor_untrusted_data_1337 source="CallDynamicTool">
+
+crop,agent,common_label,evidence_interpretation,source_date,source_url,quality_status
+arroz,Pomacea canaliculata,caracol manzana,presencia/intervencion historica local,2021-02-25T13:10:00,https://www.senasa.gob.pe/senasacontigo/piura-midagri-despliega-acciones-de-prevencion-y-control-contra-el-caracol-manzana-del-arroz/,historico_requiere_verificacion_vigente
+banano/platano,Fusarium R4T,marchitez por Fusarium,brotes historicos y medidas de contencion; vigencia actual por verificar,2021-07-27T02:02:06,https://www.senasa.gob.pe/senasacontigo/piura-midagri-y-productores-reafirman-compromiso-para-evitar-la-dispersion-del-fusarium-r4t/,historico_requiere_verificacion_vigente
+frutales/mango,moscas de la fruta,grupo de plagas; no resolver especie por nombre comun,vigilancia/erradicacion historica; prevalencia actual desconocida,2023-10-18T12:21:35,https://www.senasa.gob.pe/senasacontigo/senasa-piura-se-mantiene-en-etapa-de-erradicacion-de-mosca-de-la-fruta/,historico_requiere_verificacion_vigente
+citricos/limon,Huanglongbing (HLB),enfermedad de citricos,"amenaza bajo vigilancia; articulo declara ausencia en Peru en su fecha, NO presencia local",2021-12-22T16:42:57,https://www.senasa.gob.pe/senasacontigo/productores-piuranos-enviaron-mas-de-17-mil-toneladas-de-limon-a-mercados-internacionales/,historico_requiere_verificacion_vigente
+papa,Tecia solanivora,polilla guatemalteca,vigilancia preventiva para evitar ingreso; NO convertir a deteccion positiva,2021-02-10T11:46:14,https://www.senasa.gob.pe/senasacontigo/piura-refuerzan-acciones-fitosanitarias-para-evitar-ingreso-de-la-polilla-de-la-papa/,historico_requiere_verificacion_vigente
+
+
+</cursor_untrusted_data_1337>

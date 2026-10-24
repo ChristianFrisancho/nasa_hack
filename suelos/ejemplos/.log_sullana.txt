@@ -1,0 +1,1 @@
+sullana: 55 filas -> /workspace/piura-agro/suelos/ejemplos/sullana.csv | estimado=39, observado=8, desconocido=8

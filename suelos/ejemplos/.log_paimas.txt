@@ -1,0 +1,1 @@
+paimas: 59 filas -> /workspace/piura-agro/suelos/ejemplos/paimas.csv | estimado=44, desconocido=11, observado=4

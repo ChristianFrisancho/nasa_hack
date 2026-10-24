@@ -1,0 +1,2 @@
+variable,valor,valor_min,valor_max,unidad,cultivo,variedad,etapa,zona,lugar,lat,lon,fecha_o_periodo,fuente,url_o_doi,metodo,tipo_evidencia,estado,notas
+costo_produccion_ha,,1800,2600,PEN/ha,caupi,,,piura_region,Piura (departamento),,,2026,FICTICIO sin url,,,regional,estimado,debe rechazarse: falta url_o_doi

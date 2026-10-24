@@ -1,0 +1,8 @@
+agente,cultivos_afectados,accion,motivo,fuente,tipo_evidencia
+foc_r4t,banano,descarta,Fusarium R4T confirmado en Piura (2021); no asumir que un año de rotación sanea el suelo,https://www.senasa.gob.pe/senasacontigo/midagri-senasa-confirma-brote-de-fusarium-raza-4-tropical-en-piura,regional
+spodoptera,maiz amarillo duro;maiz choclo;algodon;zapallo;frijol grano;frijol verde;caupi;arveja;frijol de palo,advierte,"hospedantes compartidos con algodón, zapallo y leguminosas (guía BPA maíz)",https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BPA-MAIZ-AMARILLO-DURO.pdf,bibliografico
+elasmopalpus,maiz amarillo duro;maiz choclo;frijol grano;frijol verde;arveja,advierte,hospeda frijol/arveja/pallar; mejor establecimiento en suelos arenosos (guía BPA maíz),https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BPA-MAIZ-AMARILLO-DURO.pdf,bibliografico
+meloidogyne,papaya,advierte,suelo infestado; rotación según rango de hospedantes y diagnóstico (guía BPA papaya),https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BPA-PAPAYA.pdf,bibliografico
+pomacea,arroz,advierte,caracol manzana del arroz; intervención histórica en Piura 2021; confirmar presencia,https://www.senasa.gob.pe/senasacontigo/piura-midagri-despliega-acciones-de-prevencion-y-control-contra-el-caracol-manzana-del-arroz/,regional
+mismo_cultivo,*,advierte,repetir el mismo cultivo concentra plagas y patógenos propios del cultivo,regla heurística del motor v0; pendiente de respaldo por Piura Agronomía,prediccion
+misma_familia,*,advierte,cultivo de la misma familia botánica que el anterior: comparte parte de plagas y enfermedades,regla heurística del motor v0; pendiente de respaldo por Piura Agronomía,prediccion

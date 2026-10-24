@@ -1,0 +1,51 @@
+{
+ "motor_dir": "/workspace/piura-agro/consolidado/motor",
+ "etiqueta": "r6",
+ "escenarios": [
+  "sin_el_nino",
+  "el_nino_moderado",
+  "el_nino_fuerte_extraordinario"
+ ],
+ "commit": "sin_git",
+ "sha256_codigo": "9e62b5aacb53c4a9",
+ "sha256_datos_repo": "787d6d7abebb9242",
+ "ultima_ronda_readme": "Ronda 6",
+ "tests": "1 failed, 62 passed in 5.76s",
+ "parcelas_por_zona": 12,
+ "semillas": 2,
+ "marca": "no_informativo_margen",
+ "margen_p50_igual_entre_escenarios": true,
+ "segundos": 320,
+ "rangos_cew": {
+  "alto_piura": [
+   0.345,
+   0.741,
+   "río resumen"
+  ],
+  "chira": [
+   0.514,
+   4.98,
+   "río resumen"
+  ],
+  "medio_piura": [
+   0.74,
+   9.92,
+   "río resumen"
+  ],
+  "san_lorenzo": [
+   0.417,
+   7.86,
+   "río resumen"
+  ],
+  "sierra_piura": [
+   0.0903,
+   0.445,
+   "río resumen"
+  ],
+  "bajo_piura": [
+   0.13,
+   1.12,
+   "pozos de tesis Cura Mori (UNP 2019)"
+  ]
+ }
+}

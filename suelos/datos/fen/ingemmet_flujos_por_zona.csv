@@ -1,0 +1,8 @@
+zona,peligros_total,flujos_huaicos,flujos_fechados_2017,flujos_fechados_2023,anio_min_inventario,anio_max_inventario,sin_ubigeo_en_mapa
+alto_piura,89,82,0,1,2008.0,2023.0,0
+bajo_piura,13,12,0,0,2009.0,2010.0,0
+chira,121,85,0,0,2002.0,2009.0,0
+medio_piura,3,3,0,0,2009.0,2009.0,0
+piura_region,92,85,0,0,2002.0,2024.0,0
+san_lorenzo,64,61,0,0,2002.0,2024.0,0
+sierra_piura,629,161,0,1,2002.0,2026.0,0

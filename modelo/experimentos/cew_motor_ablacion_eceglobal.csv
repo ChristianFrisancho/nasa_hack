@@ -1,0 +1,31 @@
+zona,base_ecw,feature,top1_base,top1_sin,cambia_top1,aceptados_base,aceptados_sin,sec_viables_base,sec_viables_sin,sec_top_base,sec_top_sin
+chira_sullana,"[0.514, 4.98]",ece_ds_m,caupi,ninguno,1,12,0,30,0,frijol grano+maiz amarillo duro,ninguna
+chira_sullana,"[0.514, 4.98]",ph,caupi,caupi,0,12,12,30,28,frijol grano+maiz amarillo duro,frijol grano+maiz choclo
+chira_sullana,"[0.514, 4.98]",profundidad_cm,caupi,caupi,0,12,12,30,28,frijol grano+maiz amarillo duro,frijol grano+maiz choclo
+chira_sullana,"[0.514, 4.98]",pendiente_pct,caupi,caupi,0,12,12,30,30,frijol grano+maiz amarillo duro,frijol grano+maiz amarillo duro
+chira_sullana,"[0.514, 4.98]",ecw_ds_m,caupi,caupi,0,12,12,30,0,frijol grano+maiz amarillo duro,ninguna
+bajo_piura,1.5,ece_ds_m,caupi,ninguno,1,12,0,30,0,arveja+frijol grano,ninguna
+bajo_piura,1.5,ph,caupi,caupi,0,12,12,30,30,arveja+frijol grano,arveja+frijol grano
+bajo_piura,1.5,profundidad_cm,caupi,caupi,0,12,12,30,28,arveja+frijol grano,arveja+frijol grano
+bajo_piura,1.5,pendiente_pct,caupi,caupi,0,12,12,30,30,arveja+frijol grano,arveja+frijol grano
+bajo_piura,1.5,ecw_ds_m,caupi,caupi,0,12,12,30,0,arveja+frijol grano,ninguna
+medio_piura,"[0.74, 9.92]",ece_ds_m,caupi,ninguno,1,12,0,30,0,maiz amarillo duro+frijol grano,ninguna
+medio_piura,"[0.74, 9.92]",ph,caupi,caupi,0,12,12,30,28,maiz amarillo duro+frijol grano,frijol grano+maiz choclo
+medio_piura,"[0.74, 9.92]",profundidad_cm,caupi,caupi,0,12,12,30,28,maiz amarillo duro+frijol grano,frijol grano+maiz choclo
+medio_piura,"[0.74, 9.92]",pendiente_pct,caupi,caupi,0,12,12,30,30,maiz amarillo duro+frijol grano,maiz amarillo duro+frijol grano
+medio_piura,"[0.74, 9.92]",ecw_ds_m,caupi,caupi,0,12,12,30,0,maiz amarillo duro+frijol grano,ninguna
+alto_piura,"[0.345, 0.741]",ece_ds_m,caupi,ninguno,1,12,0,28,0,frijol grano+maiz choclo,ninguna
+alto_piura,"[0.345, 0.741]",ph,caupi,caupi,0,12,12,28,28,frijol grano+maiz choclo,frijol grano+maiz choclo
+alto_piura,"[0.345, 0.741]",profundidad_cm,caupi,caupi,0,12,12,28,26,frijol grano+maiz choclo,frijol grano+maiz choclo
+alto_piura,"[0.345, 0.741]",pendiente_pct,caupi,caupi,0,12,12,28,28,frijol grano+maiz choclo,frijol grano+maiz choclo
+alto_piura,"[0.345, 0.741]",ecw_ds_m,caupi,caupi,0,12,12,28,0,frijol grano+maiz choclo,ninguna
+san_lorenzo,"[0.417, 7.86]",ece_ds_m,frijol grano,ninguno,1,12,0,30,0,frijol grano+maiz amarillo duro,ninguna
+san_lorenzo,"[0.417, 7.86]",ph,frijol grano,frijol verde,1,12,12,30,30,frijol grano+maiz amarillo duro,frijol grano+maiz amarillo duro
+san_lorenzo,"[0.417, 7.86]",profundidad_cm,frijol grano,frijol verde,1,12,12,30,30,frijol grano+maiz amarillo duro,frijol grano+maiz amarillo duro
+san_lorenzo,"[0.417, 7.86]",pendiente_pct,frijol grano,frijol grano,0,12,12,30,30,frijol grano+maiz amarillo duro,frijol grano+maiz amarillo duro
+san_lorenzo,"[0.417, 7.86]",ecw_ds_m,frijol grano,frijol grano,0,12,12,30,0,frijol grano+maiz amarillo duro,ninguna
+chira_sullana,"[0.514, 4.98]",agregar_dotacion_uniforme,caupi,maiz choclo,1,12,2,30,2,frijol grano+maiz amarillo duro,maiz choclo+arveja
+bajo_piura,1.5,agregar_dotacion_uniforme,caupi,ninguno,1,12,0,30,0,arveja+frijol grano,ninguna
+medio_piura,"[0.74, 9.92]",agregar_dotacion_uniforme,caupi,ninguno,1,12,0,30,0,maiz amarillo duro+frijol grano,ninguna
+alto_piura,"[0.345, 0.741]",agregar_dotacion_uniforme,caupi,maiz choclo,1,12,1,28,0,frijol grano+maiz choclo,ninguna
+san_lorenzo,"[0.417, 7.86]",agregar_dotacion_uniforme,frijol grano,ninguno,1,12,0,30,0,frijol grano+maiz amarillo duro,ninguna

@@ -1,0 +1,9 @@
+chira_sullana
+ chirps 2000 1827
+ chirps 2005 1826
+ chirps 2010 1826
+ chirps 2015 1826
+ chirps 2020 1827
+/workspace/piura-agro/modelo/scripts/descargar_clima_zona.py:67: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  df[cols].round(3).to_csv(f, index=False)
+chira_sullana 9132 faltan lluvia: 0

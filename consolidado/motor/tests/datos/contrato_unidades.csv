@@ -1,0 +1,4 @@
+variable,valor,valor_min,valor_max,unidad,cultivo,variedad,etapa,zona,lugar,lat,lon,fecha_o_periodo,fuente,url_o_doi,metodo,tipo_evidencia,estado,notas,fuente_primaria,subzona
+costo_produccion_ha,,1800,2600,soles,caupi,,,bajo_piura,x,,,2026,FICTICIO,https://example.invalid/u,,regional,estimado,x,,
+dotacion_agua,,9000,12000,m3/ha/año,todos,,,bajo_piura,x,,,2026,FICTICIO,https://example.invalid/d,dotacion_asignada,regional,observado,x,,
+dotacion_agua,,9000,12000,m3/ha/año,todos,,,bajo_piura,x,,,2026,FICTICIO,https://example.invalid/d,dotacion_asignada,regional,estimado,x,,
