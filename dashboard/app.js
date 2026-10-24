@@ -8,6 +8,7 @@
     limon:'Limón', platano:'Plátano', papaya:'Papaya', yuca:'Yuca',
     'frijol grano':'Frijol grano', 'frijol verde':'Frijol verde',
     'frijol de palo':'Frijol de palo', cebolla:'Cebolla', papa:'Papa', piquillo:'Piquillo', zapallo:'Zapallo' };
+  const soilVariables={ECe_medida_local:'Salinidad medida del suelo',clase_drenaje_local:'Drenaje',pH_rango_zona:'Rango de pH cartográfico',profundidad_efectiva_enraizamiento:'Profundidad de raíces estimada',pendiente_media_cultivo:'Pendiente media de cultivo'};
   const zones = {bajo_piura:'Bajo Piura', medio_piura:'Medio Piura', alto_piura:'Alto Piura',
     chira:'Chira', san_lorenzo:'San Lorenzo', sierra_piura:'Sierra de Piura', piura_region:'Región Piura'};
   const filterNames = {salinidad:'Sales en el suelo', drenaje:'Drenaje', pendiente:'Pendiente', agua:'Agua disponible',
@@ -26,6 +27,11 @@
   }
   function clear(node) { node.replaceChildren(); return node; }
   function pretty(value) { return names[value] || (value ? value[0].toUpperCase() + value.slice(1).replaceAll('_',' ') : 'No registrado'); }
+  function canonicalCrop(value){
+    const text=(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+    const alias={'frijol castilla/grano seco':'frijol grano','frijol caupi':'caupi','uva de mesa':'uva','banano (ano 1)':'banano','banano (ano 2)':'banano','naranja (referencia citricos)':'naranja','cana de azucar (planta)':'cana de azucar','cana de azucar (soca)':'cana de azucar'};
+    return alias[text]||text;
+  }
   function num(value, decimals) {
     if (value === null || value === undefined || value === '' || !Number.isFinite(Number(value))) return 'Sin dato';
     return new Intl.NumberFormat('es-PE', {maximumFractionDigits: decimals ?? 1}).format(Number(value));
@@ -68,13 +74,17 @@
     for (const e of state.data.examples) option(parcels,e.id,e.label);
     const profiles = clear(byId('profile-select'));
     for (const p of state.data.profiles) option(profiles,p.cultivo,pretty(p.cultivo));
+    const soilCrops=clear(byId('soil-crop-select'));
+    for(const p of state.data.profiles)option(soilCrops,p.cultivo,pretty(p.cultivo));
+    soilCrops.addEventListener('change',renderSoils);
+    byId('soil-region-select').addEventListener('change',renderSoils);
     prior.addEventListener('change', () => {
       const example = state.data.examples.find(e => e.previousCrop === prior.value);
       if (example) chooseExample(example.id);
     });
     parcels.addEventListener('change', () => chooseExample(parcels.value));
     profiles.addEventListener('change', renderProfiles);
-    byId('data-stamp').textContent = `${state.data.counts.examples} parcelas · ${state.data.counts.candidates} alternativas · ${nf.format(state.data.counts.evidence)} datos`;
+    byId('data-stamp').textContent = `${state.data.counts.profiles} cultivos · ${state.data.counts.cropSpeciesWithDetails} con fichas (${nf.format(state.data.counts.cropFichaRows)} registros) · ${state.data.counts.soilUnits} unidades de suelo`;
   }
 
   function chooseExample(id, crop) {
@@ -309,17 +319,86 @@
     }
     card.append(facts);
     const rotation=elem('div','profile-rotation');rotation.append(elem('p','',`Después conviene estudiar: ${p.conviene_despues||'Sin regla específica verificada.'}`),elem('p','',`Evitar o vigilar: ${p.evitar_o_cuidar_despues||'Sin regla específica verificada.'}`));card.append(rotation);
-    card.append(elem('p','profile-sources',`Referencias: ${p.fuentes_principales||'Consultar el dataset detallado.'}`));return card;
+    card.append(elem('p','profile-sources',`Referencias: ${p.fuentes_principales||'Consultar el dataset detallado.'}`));
+    const detailRows=state.data.cropDetails[canonicalCrop(p.cultivo)]||[];
+    const details=elem('details','crop-data-details');details.append(elem('summary','',detailRows.length?`Ver ${detailRows.length} registros agronómicos con evidencia y fuente`:'Sin ficha agronómica detallada para este cultivo en las tablas cargadas'));
+    if(!detailRows.length)details.append(elem('p','crop-note','Este cultivo conserva su ficha resumen y aparece en el motor, pero falta una ficha por etapa. No se le asignaron cifras de otro cultivo parecido.'));
+    if(detailRows.length){const tally={estimado:0,observado:0,desconocido:0};for(const row of detailRows)if(row.status in tally)tally[row.status]++;details.append(elem('p','crop-note',`${tally.observado} observados · ${tally.estimado} estimados · ${tally.desconocido} desconocidos. “Estimado” incluye referencias bibliográficas y análogos; revisa confianza, método y notas en cada fila.`));}
+    const scroll=elem('div','crop-data-scroll'),table=elem('table',''),head=elem('thead',''),trh=elem('tr','');
+    for(const title of ['Dato','Valor / rango','Variedad, etapa y lugar','Evidencia y confianza','Fuente, fecha y notas'])trh.append(elem('th','',title));head.append(trh);table.append(head);
+    const tbody=elem('tbody','');
+    for(const row of detailRows){
+      const tr=elem('tr','');tr.append(elem('td','',pretty(row.variable)));
+      tr.append(elem('td','',`${row.value||'—'}${row.min||row.max?` (${row.min||'—'}–${row.max||'—'})`:''}${row.unit?' '+row.unit:''}`));
+      tr.append(elem('td','',`${row.variety||'Variedad no indicada'} · ${row.stage||'Etapa no especificada'} · ${row.place||zones[row.zone]||row.zone||'lugar no indicado'}${row.date?' · '+row.date:''}`));
+      const quality=elem('td','');quality.append(elem('span','pill '+(row.status==='observado'?'good':row.status==='desconocido'?'unknown':'warning'),row.status||'estado no indicado'));
+      quality.append(elem('small','crop-note',`${row.evidence||'tipo de evidencia no indicado'} · confianza ${row.confidence||'no indicada'}${row.method?' · '+row.method:''}`));tr.append(quality);
+      const source=elem('td','');addLink(source,row.source||'Fuente sin nombre',row.url);if(row.date)source.append(elem('small','crop-note',row.date));if(row.notes)source.append(elem('small','crop-note',row.notes));tr.append(source);tbody.append(tr);
+    }
+    table.append(tbody);scroll.append(table);details.append(scroll);card.append(details);return card;
   }
   function renderProfiles() {
     const grid=clear(byId('crop-profiles'));
     grid.append(profileCard(state.example.previousCrop,'Cultivo anterior'),profileCard(byId('profile-select').value,'Cultivo que exploras'));
   }
+  function soilCropGuidance(unit,crop){
+    const threshold=getProfile(crop)?.ECe_sin_perdida_dS_m;
+    if(unit.soil_unit==='Pajarito'||unit.soil_unit==='Ramón')return threshold?
+      `Salinidad y mal drenaje documentados. ${pretty(crop)} tiene umbral bibliográfico de ${threshold}; falta ECe medida en esta unidad para comparar.`:
+      'Salinidad y mal drenaje documentados. Falta un umbral fiable del cultivo y ECe medida de esta unidad.';
+    if(unit.soil_unit==='Cerezal')return `Suelo arenoso con baja retención de agua y nutrientes. Para ${pretty(crop)} hay que valorar frecuencia de riego y fertilización; el mapa no permite declararlo apto.`;
+    if(unit.soil_unit==='Curumuy')return 'Yeso y carbonatos posibles. La química del perfil y el acceso al agua deben medirse antes de escoger el cultivo.';
+    return 'Suelo aluvial sin limitación específica cuantificada en esta ficha. La compatibilidad queda pendiente de medir ECe, pH, drenaje y profundidad en el lote.';
+  }
+  function renderSoils(){
+    const mode=byId('soil-region-select').value,crop=byId('soil-crop-select').value;
+    const box=clear(byId('soil-cards')),summary=clear(byId('soil-summary')),mapBox=clear(byId('soil-map-units'));
+    if(mode==='bajo'){
+      summary.append(elem('p','',`El mapa histórico del Bajo Piura registra ${state.data.soilUnits.length} unidades edáficas —seis series o unidades, clasificadas en Entisoles y Aridisoles— y ${state.data.soilMapUnits.length} asociaciones cartográficas con clases de pendiente. El mapa no da análisis de pH, salinidad, nutrientes o profundidad por unidad; estas descripciones no reemplazan una calicata.`));
+      for(const soil of state.data.soilUnits){
+        const card=elem('article','soil-card');card.append(elem('span','soil-kicker','BAJO PIURA · UNIDAD DE SUELO'),elem('h3','',soil.soil_unit));
+        card.append(elem('div','soil-taxonomy',`${soil.soil_taxonomy_order_1999} · ${soil.soil_taxonomy_group_1999} · ${soil.fao_1990_map_label}`));
+        const facts=elem('div','soil-facts');
+        for(const [label,value] of [['Textura descrita',soil.texture_evidence],['Fertilidad descrita',soil.fertility_evidence],['Relieve',soil.geomorphic_setting],['Profundidad de perfil medida',soil.profile_depth_cm?soil.profile_depth_cm+' cm':'Sin medición por unidad'],['ECe medida',soil.ECe_dS_m||'Sin medición por unidad'],['pH medido',soil.pH||'Sin medición por unidad'],['N disponible medido',soil.available_N_mg_kg||'Sin medición por unidad'],['P disponible medido',soil.available_P_mg_kg||'Sin medición por unidad'],['K intercambiable medido',soil.exchangeable_K_cmol_kg||'Sin medición por unidad'],['Restricción',soil.known_constraints]]){const f=elem('div','soil-fact');f.append(elem('span','',label),elem('strong','',value||'No consignado'));facts.append(f);}card.append(facts);
+        card.append(elem('p','soil-match-note',soilCropGuidance(soil,crop)));
+        const source=elem('div','soil-source');source.append(document.createTextNode(`SIAR Piura, pp. ${soil.source_pages}. `));addLink(source,'Abrir estudio ↗',soil.source_url);card.append(source);box.append(card);
+      }
+      const title=elem('h3','soil-map-title','Asociaciones cartográficas y pendiente');
+      mapBox.append(title,elem('p','soil-summary','Son combinaciones de unidad y pendiente del mapa histórico; no representan lotes uniformes ni una recomendación automática de cultivo. El área es la publicada en el cuadro cartográfico.'));
+      const scroller=elem('div','table-scroll'),table=elem('table',''),thead=elem('thead',''),trh=elem('tr','');
+      for(const label of ['Unidad cartográfica','Clase de pendiente','Rango','Área histórica','Alcance','Fuente'])trh.append(elem('th','',label));thead.append(trh);table.append(thead);
+      const tbody=elem('tbody','');
+      for(const unit of state.data.soilMapUnits){const tr=elem('tr','');tr.append(elem('td','',unit.map_unit),elem('td','',unit.slope_class||'No indicada'),elem('td','',unit.slope_range||'No indicado'),elem('td','',unit.area_ha?`${num(unit.area_ha)} ha`:'Sin dato'),elem('td','',unit.status));const source=elem('td','');addLink(source,'SIAR ↗',unit.source_url);tr.append(source);tbody.append(tr);}
+      table.append(tbody);scroller.append(table);mapBox.append(scroller);
+    }else if(mode==='montero'){
+      summary.append(elem('p','','Seis clases de capacidad de uso de la microzonificación de Montero, Ayabaca (circa 2016). Son clases de uso y pendiente, no seis tipos taxonómicos de suelo ni toda la sierra piurana.'));
+      for(const soil of state.data.soilCum){
+        const card=elem('article','soil-card');card.append(elem('span','soil-kicker','MONTERO · CAPACIDAD DE USO'),elem('h3','',soil.cum_class),elem('div','soil-taxonomy',soil.land_use_capability));
+        const facts=elem('div','soil-facts');
+        for(const [label,value] of [['Pendiente',soil.slope_pct_as_documented+' %'],['Textura',soil.texture],['Profundidad',soil.effective_depth],['pH descrito',soil.pH_description],['Limitaciones',soil.limitations]]){const f=elem('div','soil-fact');f.append(elem('span','',label),elem('strong','',value||'No especificado'));facts.append(f);}card.append(facts);
+        card.append(elem('p','soil-match-note',`${soil.decision_constraint}. Para ${pretty(crop)}, esta restricción de uso manda; confirma el polígono y la zonificación.`));
+        const source=elem('div','soil-source');source.append(document.createTextNode(`SIGRID/CENEPRED, pp. ${soil.source_pages}. `));addLink(source,'Abrir memoria ↗',soil.source_url);card.append(source);box.append(card);
+      }
+    }else{
+      const select=elem('select','');select.id='soil-zone-inner';select.setAttribute('aria-label','Zona de Piura');
+      for(const z of state.data.soilZones){const o=elem('option','',zones[z.zone]||z.zone);o.value=z.zone;select.append(o);}summary.append(elem('label','','Datos de suelo por zona: '),select);
+      const draw=()=>{clear(box);const z=state.data.soilZones.find(x=>x.zone===select.value);if(!z)return;
+        if(!z.measurements.length){box.append(elem('p','empty-state','Esta tabla no contiene valores de suelo para esta zona. Consulta los CSV de fuentes y solicita muestreo local antes de inferir condiciones.'));return;}
+        for(const m of z.measurements){const card=elem('article','soil-card zone-soil-card');card.append(elem('span','soil-kicker',zones[z.zone]||z.zone),elem('h3','',soilVariables[m.variable]||pretty(m.variable)));
+          const value=m.value||((m.min||m.max)?`${m.min||'—'}–${m.max||'—'}`:'Sin medición');card.append(elem('div','zone-soil-value',`${value}${m.unit?' '+m.unit:''}`));
+          card.append(elem('span','pill '+(m.status==='desconocido'?'unknown':m.evidence==='medicion_local'?'good':'warning'),`${m.status||'sin estado'} · ${m.evidence||'evidencia no indicada'}`));
+          if(m.place)card.append(elem('p','soil-match-note','Lugar / cobertura: '+m.place));
+          if(m.method)card.append(elem('p','soil-match-note','Método: '+m.method));
+          if(m.notes)card.append(elem('p','soil-match-note',m.notes));const source=elem('div','soil-source');source.append(document.createTextNode((m.source||'Fuente no indicada')+' '));addLink(source,'Fuente ↗',m.url);card.append(source);box.append(card);
+        }};
+      select.addEventListener('change',draw);select.value=state.data.soilZones.find(z=>z.zone==='bajo_piura')?.zone||state.data.soilZones[0]?.zone;draw();
+    }
+  }
   function render() {
     const candidate=currentCandidate();if(!candidate)return;
     renderRecommendation(candidate);renderMetrics(candidate);renderAlternatives();renderMarginChart();renderFilters(candidate);renderWater(candidate);renderNutrients(candidate);renderRecovery(candidate);renderScenarios(candidate);
     byId('profile-select').value=getProfile(candidate.crop)?candidate.crop:state.data.profiles[0].cultivo;
-    renderProfiles();
+    renderProfiles();renderSoils();
   }
 
   async function loadEvidence() {

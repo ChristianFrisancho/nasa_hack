@@ -2,6 +2,7 @@
 import csv
 import json
 import subprocess
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,31 @@ EXAMPLES = [
 def read_csv(name):
     with (SOURCE / name).open(encoding='utf-8-sig', newline='') as handle:
         return list(csv.DictReader(handle))
+
+
+def canonical_crop(value):
+    text = ''.join(c for c in unicodedata.normalize('NFKD', value.lower()) if not unicodedata.combining(c))
+    aliases = {
+        'frijol castilla/grano seco':'frijol grano', 'frijol caupi':'caupi',
+        'uva de mesa':'uva', 'banano (ano 1)':'banano', 'banano (ano 2)':'banano',
+        'naranja (referencia citricos)':'naranja', 'cana de azucar (planta)':'cana de azucar',
+        'cana de azucar (soca)':'cana de azucar',
+    }
+    return aliases.get(text, text)
+
+
+def crop_record(row):
+    return {
+        'variable': row.get('variable',''), 'value': row.get('valor',''),
+        'min': row.get('valor_min',''), 'max': row.get('valor_max',''),
+        'unit': row.get('unidad',''), 'variety': row.get('variedad',''),
+        'stage': row.get('etapa',''), 'date': row.get('fecha_o_periodo',''),
+        'zone': row.get('zona',''), 'place': row.get('lugar',''),
+        'method': row.get('metodo',''),
+        'status': row.get('estado',''), 'evidence': row.get('tipo_evidencia',''),
+        'confidence': row.get('confianza',''), 'source': row.get('fuente',''),
+        'url': row.get('url_o_doi',''), 'notes': row.get('notas',''),
+    }
 
 
 def number(value):
@@ -89,6 +115,32 @@ def candidate(raw, row, rank):
 def build():
     rows = read_csv('recomendaciones_por_parcela.csv')
     profiles = read_csv('cultivos_resumen.csv')
+    crop_rows = []
+    for filename, kind in [('../cultivos/fichas_anuales.csv','anual'),('../cultivos/perennes.csv','perenne')]:
+        crop_rows.extend((canonical_crop(row.get('cultivo','')), kind, row)
+                         for row in read_csv(filename) if row.get('cultivo','').strip() not in ('','todos'))
+    crop_details = {}
+    for canonical, kind, row in crop_rows:
+        crop_details.setdefault(canonical, []).append({**crop_record(row), 'kind':kind, 'originalCrop':row['cultivo']})
+    soil_units = read_csv('../../piura-data/suelos_bajo_piura_unidades_v2.csv')
+    soil_cum = read_csv('../../piura-data/suelos_montero_ayabaca_cum_v2.csv')
+    soil_map_units = read_csv('../../piura-data/suelos_bajo_piura_mapunits_v2.csv')
+    soil_zone_rows = read_csv('../suelos/suelos_piura.csv')
+    zone_vars = ['ECe_medida_local','clase_drenaje_local','pH_rango_zona','profundidad_efectiva_enraizamiento','pendiente_media_cultivo']
+    soil_zones = []
+    zone_names = sorted({r['zona'] for r in soil_zone_rows if r.get('zona')})
+    evidence_priority = {'medicion_local':0,'observado':0,'regional':1,'bibliografico':2,'prediccion':3,'analogo_externo':4}
+    for zone in zone_names:
+        items=[]
+        for variable in zone_vars:
+            matches=[r for r in soil_zone_rows if r.get('zona')==zone and r.get('variable')==variable and (r.get('valor') or r.get('valor_min') or r.get('estado')=='desconocido')]
+            matches.sort(key=lambda r:(evidence_priority.get(r.get('tipo_evidencia',''),9), not bool(r.get('valor')), r.get('fuente','')))
+            for r in matches:
+                items.append({'variable':variable,'value':r.get('valor',''),'min':r.get('valor_min',''),'max':r.get('valor_max',''),
+                    'unit':r.get('unidad',''),'status':r.get('estado',''),'evidence':r.get('tipo_evidencia',''),
+                    'source':r.get('fuente',''),'url':r.get('url_o_doi',''),'notes':r.get('notas',''),
+                    'place':r.get('lugar',''),'method':r.get('metodo','')})
+        soil_zones.append({'zone':zone,'measurements':items})
     parcel_names = {
         'bajo_piura_tras_arroz': 'Bajo Piura después de arroz',
         'sin_datos_suelo': 'Chira sin análisis de suelo',
@@ -143,8 +195,13 @@ def build():
         source_commit = 'desconocido'
     payload = {
         'sourceCommit': source_commit, 'examples': examples, 'profiles': profiles,
+        'cropDetails': crop_details,
+        'soilUnits': soil_units, 'soilCum': soil_cum, 'soilMapUnits': soil_map_units,
+        'soilZones': soil_zones,
         'counts': {'examples': len(examples), 'candidates': len(rows), 'profiles': len(profiles),
-                   'evidence': evidence_count},
+                   'cropSpeciesWithDetails': len(crop_details), 'cropFichaRows': len(crop_rows),
+                   'soilUnits': len(soil_units), 'soilMapUnits': len(soil_map_units),
+                   'soilCumClasses': len(soil_cum), 'evidence': evidence_count},
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')

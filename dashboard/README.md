@@ -14,14 +14,15 @@ Abre `http://localhost:8000/dashboard/`. Debe servirse desde la raíz porque la 
 
 ## Qué muestra
 
-- Seis parcelas **de ejemplo**, 84 alternativas evaluadas y 36 fichas de cultivos. El selector de cultivo anterior salta al ejemplo disponible; no recalcula una parcela arbitraria.
+- Seis parcelas **de ejemplo**, 84 alternativas evaluadas y 36 fichas resumen de cultivos. Cada perfil despliega además sus registros agronómicos con variedad, etapa, lugar, valores/rangos, tipo de evidencia, estado, confianza, método, fecha y fuente. Las fichas originales incluyen datos estimados, observados y desconocidos; no se mezclan especies solo por parecerse de nombre.
+- La sección **Suelos** lista las seis unidades del mapa histórico de Bajo Piura (Entisoles y Aridisoles), las 27 asociaciones cartográficas unidad-pendiente del cuadro de áreas, seis clases de capacidad de uso de Montero y datos regionales disponibles por zona. Las clases de Montero no son tipos taxonómicos ni cubren toda la sierra. El cruce con cultivos muestra límites y vacíos de evidencia; no declara aptitud cuando falta medición de campo.
 - El primer puesto del motor y los diez filtros separados en **pasa, alerta, sin evaluar y descarta**. El detalle técnico y la fuente están dentro de cada filtro.
 - Margen P10 y P50, agua, duración, rendimiento, exportación de N/P₂O₅/K₂O, balance posterior modelado, escenarios El Niño y secuencias.
 - El CSV completo de 17 150 filas se carga solo si la persona abre «Datos y fuentes». Puede buscar y filtrar sin confundir un resultado estimado con una medición.
 
 La arveja tras arroz en Bajo Piura aparece con sus alertas térmicas y su ausencia en las siembras DRAP del llano. El primer caupí del Tablazo muestra margen P50 negativo y una advertencia explícita. Un ejemplo sin opciones viables muestra «ninguno viable».
 
-`data/dashboard.json` es una instantánea compacta derivada de las tablas y salidas estructuradas del motor en `piura-agro/consolidado/`. Tras actualizar esas fuentes, regenera la instantánea con:
+`data/dashboard.json` es una instantánea derivada de las tablas del motor, `piura-agro/cultivos/fichas_anuales.csv`, `piura-agro/cultivos/perennes.csv`, las descripciones de suelo del SIAR Piura y la microzonificación de Montero. Tras actualizar esas fuentes, regenera la instantánea con:
 
 ```bash
 python dashboard/build_data.py

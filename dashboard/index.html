@@ -19,6 +19,7 @@
         <a href="#decision">Decisión</a>
         <a href="#comparar">Comparar</a>
         <a href="#cultivos">Cultivos</a>
+        <a href="#suelos">Suelos</a>
         <a href="#evidencia">Datos y fuentes</a>
       </nav>
       <span class="header-tag">Piura · Perú</span>
@@ -100,6 +101,14 @@
       <section id="cultivos" class="section crops-section" aria-labelledby="crops-title">
         <div class="section-heading"><div><p class="eyebrow">06 / CONOCE CADA CULTIVO</p><h2 id="crops-title">Su ficha, en lenguaje claro</h2><p>Compara necesidades generales antes de mirar una parcela concreta. Hay 36 cultivos en el catálogo.</p></div><div class="profile-control"><label for="profile-select">Explorar otro cultivo</label><select id="profile-select"><option>Cargando…</option></select></div></div>
         <div id="crop-profiles" class="profile-grid"></div>
+      </section>
+
+      <section id="suelos" class="section soils-section" aria-labelledby="soils-title">
+        <div class="section-heading"><div><p class="eyebrow">06 / EL SUELO TIENE TIPOS DISTINTOS</p><h2 id="soils-title">Unidades de suelo y aptitud</h2><p>El mapa del Bajo Piura identifica seis unidades y 27 asociaciones unidad-pendiente. Montero tiene otras seis clases de capacidad de uso; no son intercambiables ni describen todo el departamento.</p></div><div class="profile-control"><label for="soil-region-select">Explorar cartografía</label><select id="soil-region-select"><option value="bajo">Bajo Piura · unidades de suelo</option><option value="montero">Montero · capacidad de uso</option><option value="zonas">Piura · datos por zona</option></select></div></div>
+        <div class="soil-controls"><label for="soil-crop-select">Cruzar con el cultivo</label><select id="soil-crop-select"><option>Cargando…</option></select><p>El cruce muestra límites documentados. Si el mapa no contiene un valor medido de salinidad, drenaje o profundidad, no declara el cultivo “apto” por intuición.</p></div>
+        <div id="soil-summary" class="soil-summary"></div>
+        <div id="soil-cards" class="soil-card-grid"></div>
+        <div id="soil-map-units" class="soil-map-units"></div>
       </section>
 
       <section id="evidencia" class="section evidence-section" aria-labelledby="evidence-title">
