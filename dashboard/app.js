@@ -22,6 +22,11 @@
   const filterNames = {salinidad:'Sales en el suelo', drenaje:'Drenaje', pendiente:'Pendiente', agua:'Agua disponible',
     sanidad:'Plagas y sanidad', calendario:'Clima y calendario', pH:'Acidez del suelo',
     profundidad:'Profundidad del suelo', presupuesto:'Presupuesto', normas:'Normas'};
+  const scienceNames={N:'Nitrógeno (N)',P2O5:'Fósforo (P₂O₅)',K2O:'Potasio (K₂O)',ETc_mm:'Evapotranspiración del cultivo (ETc)',
+    riego_neto_mm:'Riego neto',riego_neto_m3_ha:'Riego neto del ciclo',riego_bruto_m3_ha:'Riego bruto del ciclo',
+    costo_ha:'Costo de producción',precio_chacra:'Precio en chacra',margen_ha:'Margen contable',
+    ECe:'Salinidad del suelo (ECe)',pH:'pH del suelo',profundidad_cm:'Profundidad efectiva',
+    balance_kg_ha:'Balance de nutrientes',riego_neto_mensual_mm:'Riego neto mensual'};
   const scenarioNames = {sin_el_nino:'Sin El Niño', el_nino_moderado:'El Niño moderado',
     el_nino_fuerte_extraordinario:'El Niño fuerte / extraordinario'};
   const resultNames = {pasa:'Pasa', advierte:'Alerta', no_evaluable:'Sin evaluar', descarta:'Descarta'};
@@ -288,9 +293,10 @@
   }
 
   function measureText(measure,unit){
-    if(!measure||measure.value==null)return 'Pendiente de dato';
-    const range=measure.min!=null&&measure.max!=null&&Number(measure.min)!==Number(measure.max)?` (${num(measure.min)}–${num(measure.max)})`:'';
-    return `${num(measure.value)}${range}${unit||measure.unit?' '+(unit||measure.unit):''}`;
+    const value=measure?.value??measure?.valor,min=measure?.min??measure?.valor_min,max=measure?.max??measure?.valor_max;
+    if(value==null)return 'Pendiente de dato';
+    const range=min!=null&&max!=null&&Number(min)!==Number(max)?` (${num(min)}–${num(max)})`:'';
+    return `${num(value)}${range}${unit||measure.unit?' '+(unit||measure.unit):''}`;
   }
 
   function renderLiveResults(result){
@@ -312,10 +318,6 @@
     }else cards.append(elem('p','live-empty','No hay una opción anual aceptada para estas entradas. Revisa los datos esenciales pendientes y los motivos de descarte que aparecen abajo.'));
     const other=clear(byId('live-alternatives'));
     for(const item of result.accepted.slice(result.quickMode?3:5))other.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,false));
-    if(result.quickMode)for(const crop of result.ranking.slice(3)){
-      const row=elem('article','live-status-row');row.append(elem('strong','',pretty(crop)),elem('span','pill good',`Aceptado · puesto ${result.ranking.indexOf(crop)+1}`));
-      row.append(elem('p','', 'Alternativa aceptada por el escenario de referencia; usa el cálculo detallado para abrir todos sus filtros.'));other.append(row);
-    }
     for(const item of result.withoutData||[])other.append(renderCompactStatus(item,'Sin datos suficientes'));
     for(const item of result.rejected||[])other.append(renderCompactStatus(item,'Descartado'));
     const perennials=clear(byId('live-perennials'));
@@ -337,11 +339,100 @@
     const metrics=elem('div','live-candidate-metrics');
     const margin=item.margen_mc?.p50==null?'Pendiente':`S/ ${num(item.margen_mc.p50,0)}/ha · P10 ${num(item.margen_mc.p10,0)}`;
     for(const [label,value] of [['Margen simulado',margin],['Ciclo',measureText(item.duracion,'días')],['Riego bruto',measureText(item.agua?.riego_bruto_m3_ha,'m³/ha')],['Rendimiento',measureText(item.rendimiento,'t/ha')]]){const m=elem('div','');m.append(elem('span','',label),elem('strong','',value));metrics.append(m);}card.append(metrics);
-    const reasons=(item.veredictos||[]).filter(v=>v.resultado!=='pasa');
-    const explanation=elem('details','live-reasons');explanation.append(elem('summary','',`${reasons.length} alertas o datos pendientes · Ver por qué`));
-    for(const verdict of reasons.slice(0,6))explanation.append(elem('p','',`${filterNames[verdict.filtro]||pretty(verdict.filtro)}: ${verdict.motivo}`));
-    if(item.datos_faltantes?.length)explanation.append(elem('p','',`Datos que podrían cambiar el orden: ${item.datos_faltantes.join('; ')}`));
+    const explanation=elem('details','live-reasons');explanation.append(elem('summary','',`${(item.veredictos||[]).length} filtros · ver por qué ocupa este puesto`));
+    explanation.addEventListener('toggle',()=>{if(explanation.open&&!explanation.dataset.rendered){renderCandidateEvidence(explanation,item,rank);explanation.dataset.rendered='true';}});
     card.append(explanation);return card;
+  }
+
+  function renderCifraTree(parent,label,value){
+    if(value==null)return;
+    if(Array.isArray(value)){value.forEach((item,index)=>renderCifraTree(parent,`${label} ${index+1}`,item));return;}
+    if(typeof value==='object'&&('valor'in value||'value'in value)){
+      const row=elem('div','candidate-evidence-row');
+      row.append(elem('strong','',`${label}: ${measureText(value)}`));
+      if(value.estado||value.tipo_evidencia)row.append(elem('small','',`${value.estado||''}${value.tipo_evidencia?' · '+value.tipo_evidencia:''}`));
+      if(value.fuente){const source=elem('div','candidate-source');if(value.url_o_doi)addLink(source,value.fuente,value.url_o_doi);else source.textContent=value.fuente;row.append(source);}
+      if(value.notas)row.append(elem('small','candidate-evidence-note',value.notas));
+      parent.append(row);return;
+    }
+    if(typeof value==='object'){
+      for(const [key,nested] of Object.entries(value))renderCifraTree(parent,`${label} · ${scienceNames[key]||pretty(key)}`,nested);
+    }else parent.append(elem('p','candidate-evidence-note',`${label}: ${String(value)}`));
+  }
+
+  function renderCandidateEvidence(parent,item,rank){
+    const why=elem('p','rank-explanation',item.explicacion_puesto||'El motor ordena primero seguridad agronómica y luego margen, aptitud y agua.');parent.append(why);
+    const counts=elem('p','candidate-filter-counts',`${item.alertas??'—'} alertas / datos sin evaluar · ${item.alertas_directas??'—'} advertencias explícitas · aptitud de suelo ${item.aptitud_suelo==null?'sin evaluar':num(item.aptitud_suelo,2)}.`);parent.append(counts);
+    for(const verdict of item.veredictos||[]){
+      const box=elem('article','candidate-filter-evidence'),status=resultNames[verdict.resultado]||verdict.resultado;
+      const header=elem('div','candidate-filter-head');header.append(elem('strong','',filterNames[verdict.filtro]||pretty(verdict.filtro)),elem('span',`pill ${verdict.resultado==='pasa'?'good':verdict.resultado==='advierte'?'warning':verdict.resultado==='descarta'?'danger':'unknown'}`,status));box.append(header);
+      if(verdict.motivo)box.append(elem('p','',verdict.motivo));
+      if(verdict.fuente){const source=elem('div','candidate-source');if(verdict.cifras&&Object.values(verdict.cifras).some(c=>c?.url_o_doi))addLink(source,verdict.fuente,Object.values(verdict.cifras).find(c=>c?.url_o_doi).url_o_doi);else source.textContent=verdict.fuente;box.append(source);}
+      if(verdict.probable_no_apto)box.append(elem('p','candidate-warning','El motor detecta posible no aptitud; no compensa esta alerta con un margen económico alto.'));
+      for(const [key,value] of Object.entries(verdict.cifras||{}))renderCifraTree(box,pretty(key),value);
+      if(verdict.faltantes?.length)box.append(elem('small','candidate-evidence-note',`Pendiente: ${verdict.faltantes.join('; ')}`));
+      parent.append(box);
+    }
+    const water=item.agua||{},waterBox=elem('section','candidate-resource-evidence');waterBox.append(elem('h5','','Agua durante el ciclo'));
+    for(const key of ['riego_neto_mm','riego_neto_m3_ha','riego_bruto_m3_ha'])if(water[key])renderCifraTree(waterBox,pretty(key),water[key]);
+    for(const [stage,data] of Object.entries(water.etapas||{})){
+      waterBox.append(elem('h6','',pretty(stage)));
+      for(const metric of ['dias','ETc_mm','riego_neto_mm'])if(data[metric])renderCifraTree(waterBox,pretty(metric),data[metric]);
+    }
+    if(waterBox.children.length>1)parent.append(waterBox);
+    const nutrientBox=elem('section','candidate-resource-evidence');nutrientBox.append(elem('h5','','Nutrientes: absorción, cosecha y residuos'));
+    const labels={absorcion:'Absorción total del cultivo',exportacion:'Sale con la cosecha',residuo_devuelto:'Vuelve al suelo si se incorporan residuos'};
+    for(const [kind,records] of Object.entries(item.nutrientes||{})){
+      nutrientBox.append(elem('h6','',labels[kind]||pretty(kind)));
+      renderCifraTree(nutrientBox,'N',records?.N);renderCifraTree(nutrientBox,'P₂O₅',records?.P2O5);renderCifraTree(nutrientBox,'K₂O',records?.K2O);
+    }
+    if(item.nutrientes?.notas?.length)for(const note of item.nutrientes.notas)nutrientBox.append(elem('p','candidate-evidence-note',note));
+    if(nutrientBox.children.length>1)parent.append(nutrientBox);
+    if(item.estado_tras_cosecha){
+      const soil=elem('section','candidate-resource-evidence');soil.append(elem('h5','','Suelo estimado después de cosechar'));
+      const after=item.estado_tras_cosecha;
+      for(const key of ['ECe','pH','profundidad_cm'])if(after[key])renderCifraTree(soil,pretty(key),after[key]);
+      for(const key of ['N','P2O5','K2O'])renderCifraTree(soil,`Balance ${key} (kg/ha)`,after.balance_kg_ha?.[key]);
+      for(const note of after.notas||[])soil.append(elem('p','candidate-evidence-note',note));
+      parent.append(soil);
+    }
+    if(item.deja_en_suelo?.length){
+      const residues=elem('section','candidate-resource-evidence');residues.append(elem('h5','','Lo que deja o devuelve al suelo'));
+      for(const residue of item.deja_en_suelo){
+        if(residue.concepto==='nota')residues.append(elem('p','candidate-evidence-note',String(residue.valor)));
+        else renderCifraTree(residues,scienceNames[residue.concepto]||pretty(residue.concepto),residue.valor);
+      }
+      parent.append(residues);
+    }
+    const economics=elem('section','candidate-resource-evidence');economics.append(elem('h5','','Economía y nivel de evidencia'));
+    for(const key of ['precio_chacra','costo_ha','margen_ha'])if(item[key])renderCifraTree(economics,pretty(key),item[key]);
+    const mc=item.margen_mc;if(mc)economics.append(elem('p','',`Rango Monte Carlo: P10 S/ ${num(mc.p10,0)} · P50 S/ ${num(mc.p50,0)} · P90 S/ ${num(mc.p90,0)} por ha; ${num(mc.prob_negativo*100,1)} % de simulaciones con margen negativo. ${mc.supuesto||''}`));
+    parent.append(economics);
+    const profile=getProfile(item.cultivo);
+    if(profile){
+      const ficha=elem('section','candidate-resource-evidence');ficha.append(elem('h5','','Ficha agronómica y rotación'));
+      const fields=[['Ciclo',profile.ciclo],['Kc medio',profile.kc_mitad_ciclo],['Tolerancia a salinidad',profile.tolerancia_sal],['ECe sin pérdida',profile.ECe_sin_perdida_dS_m],['ECe al 50 % de rendimiento',profile.ECe_50pct_rendimiento],['Pérdida por salinidad',profile.perdida_por_dS_m],['Temperatura óptima',profile.temperatura_optima],['pH óptimo',profile.pH_optimo],['Raíz máxima',profile.raiz_max],['Extracción N/P₂O₅/K₂O',`${profile.saca_del_suelo_N||'s/d'} · ${profile.saca_del_suelo_P2O5||'s/d'} · ${profile.saca_del_suelo_K2O||'s/d'}`],['Absorción total N',profile.absorcion_total_N],['Fijación de N',profile.deja_N_fijado_por_campana],['Plaga clave',profile.plaga_clave],['Conviene después',profile.conviene_despues],['Evitar o cuidar después',profile.evitar_o_cuidar_despues]];
+      for(const [label,value] of fields)if(value)ficha.append(elem('p','candidate-evidence-note',`${label}: ${value}`));
+      if(profile.fuentes_principales)ficha.append(elem('p','candidate-source',`Fuentes de la ficha: ${profile.fuentes_principales}`));
+      const records=state.data.cropDetails?.[canonicalCrop(item.cultivo)]||[];
+      if(records.length){
+        const sourceDetails=elem('details','crop-source-details');sourceDetails.append(elem('summary','',`Abrir ${records.length} registros de evidencia de este cultivo`));
+        const table=elem('table','candidate-data-table'),thead=elem('thead',''),header=elem('tr','');
+        for(const title of ['Dato','Valor / rango','Etapa · variedad · zona','Estado · evidencia · fuente'])header.append(elem('th','',title));
+        thead.append(header);const body=elem('tbody','');
+        for(const record of records){
+          const row=elem('tr','');row.append(elem('td','',pretty(record.variable)));
+          row.append(elem('td','',[record.value,record.min&&record.max?`${record.min}–${record.max}`:'',record.unit].filter(Boolean).join(' ')));
+          row.append(elem('td','',[record.stage,record.variety,record.zone||record.place].filter(Boolean).join(' · ')));
+          const source=elem('td','');source.append(elem('span','',`${record.status||'estado s/d'} · ${record.evidence||'evidencia s/d'} · `));if(record.url)addLink(source,record.source||'Fuente ↗',record.url);else source.append(elem('span','',record.source||'Fuente s/d'));
+          if(record.notes){const note=elem('details','record-note');note.append(elem('summary','','Método y notas'),elem('p','',record.notes));source.append(note);}
+          row.append(source);body.append(row);
+        }
+        table.append(thead,body);sourceDetails.append(table);ficha.append(sourceDetails);
+      }
+      parent.append(ficha);
+    }
+    if(item.datos_faltantes?.length)parent.append(elem('p','candidate-warning',`Datos que podrían cambiar el puesto: ${item.datos_faltantes.join('; ')}`));
   }
 
   function renderCompactStatus(item,status){

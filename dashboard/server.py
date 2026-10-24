@@ -18,7 +18,7 @@ MOTOR = ROOT / "piura-agro" / "consolidado" / "motor"
 sys.path.insert(0, str(MOTOR))
 
 from motor_rotacion.entradas import Consulta  # noqa: E402
-from motor_rotacion.motor import evaluar  # noqa: E402
+from motor_rotacion.motor import evaluar, catalogo_por_defecto  # noqa: E402
 from motor_rotacion.reporte import evaluacion_a_dict, perenne_a_dict  # noqa: E402
 
 REFERENCE_POINTS = {
@@ -114,6 +114,69 @@ def evaluate_payload(payload: dict) -> dict:
     rank_by_crop = {crop: index + 1 for index, crop in enumerate(ranking)}
     evaluations = [evaluacion_a_dict(e) for e in result.evaluaciones]
     evaluations.sort(key=lambda item: (rank_by_crop.get(item["cultivo"], 10_000), item["decision"], item["cultivo"]))
+    cat = catalogo_por_defecto()
+    family_before = (cat.fichas[consulta.cultivo_anterior].familia
+                     if consulta.cultivo_anterior in cat.fichas else consulta.familia_anterior)
+    accepted_raw = {item.cultivo: item for item in result.evaluaciones if item.decision == "aceptado"}
+
+    def rank_components(item):
+        loss = bool(item.margen_mc) and item.margen_mc["p90"] < 0
+        net_water = (item.agua.riego_neto_m3_ha.hi
+                     if item.agua and item.agua.riego_neto_m3_ha and item.agua.riego_neto_m3_ha.conocido
+                     else float("inf"))
+        p10 = item.margen_mc["p10"] if item.margen_mc else None
+        aptitude = item.aptitud_suelo
+        components = [
+            ("alertas graves", item.n_graves, item.n_graves, "menor"),
+            ("riesgo de pérdida casi segura (P90 < 0)", loss, loss, "evitar"),
+            ("alertas y filtros no evaluables", item.n_alertas, item.n_alertas, "menor"),
+            ("advertencias", item.n_advierte, item.n_advierte, "menor"),
+            ("repetición de familia botánica", item.familia == family_before, item.familia == family_before, "no repetir"),
+        ]
+        if consulta.condicion_suelo == "salino":
+            tolerance = (cat.fichas[item.cultivo].salinidad or {}).get("ECe_100")
+            components.extend([
+                ("dato de tolerancia a salinidad", tolerance is None, tolerance is not None, "tener dato"),
+                ("umbral ECe para rendimiento pleno (dS/m)", -tolerance if tolerance is not None else 0,
+                 tolerance, "mayor"),
+            ])
+        if consulta.condicion_suelo in ("arido", "arenoso"):
+            components.append(("riego neto del ciclo (m³/ha)", net_water, net_water, "menor"))
+        components.extend([
+            ("disponibilidad de margen P10", p10 is None, p10 is not None, "tener dato"),
+            ("margen conservador P10 (redondeado a S/100)", -round(p10 / 100) if p10 is not None else 0,
+             p10, "mayor"),
+            ("aptitud mínima estimada del suelo", -(aptitude if aptitude is not None else 0), aptitude, "mayor"),
+        ])
+        if consulta.condicion_suelo not in ("arido", "arenoso"):
+            components.append(("riego neto del ciclo (m³/ha)", net_water, net_water, "menor"))
+        return components
+
+    ranked = [accepted_raw[crop] for crop in ranking if crop in accepted_raw]
+    for index, crop in enumerate(ranking):
+        candidate = accepted_raw.get(crop)
+        serialized = next((item for item in evaluations if item["cultivo"] == crop), None)
+        if candidate is None or serialized is None:
+            continue
+        reference = ranked[index + 1] if index == 0 and len(ranked) > 1 else ranked[index - 1] if index > 0 else None
+        if reference is None:
+            explanation = "Única alternativa aceptada en este escenario; no existe otra opción aceptada con la cual comparar su puesto."
+        else:
+            left, right = rank_components(candidate), rank_components(reference)
+            difference = next(((a, b) for a, b in zip(left, right) if a[1] != b[1]), None)
+            if difference is None:
+                explanation = (f"Empata en los criterios de orden con {reference.cultivo}; el orden estable del catálogo desempata."
+                               if index > 0 else f"Empata en los criterios de orden con {reference.cultivo}; el orden estable del catálogo desempata.")
+            else:
+                a, b = difference
+                if index == 0:
+                    explanation = (f"Queda delante de {reference.cultivo}: el primer criterio que los separa es {a[0]} "
+                                   f"({a[2]} frente a {b[2]}; prioridad: {a[3]}).")
+                else:
+                    explanation = (f"Queda detrás de {reference.cultivo}: el primer criterio que los separa es {a[0]} "
+                                   f"({a[2]} frente a {b[2]}; prioridad: {a[3]}).")
+        serialized["puesto"] = index + 1
+        serialized["explicacion_puesto"] = explanation
     perennials = [perenne_a_dict(item) for item in result.perennes]
     perennials.sort(key=lambda item: (item["decision"] != "aceptado", item["cultivo"]))
     return {

@@ -24,31 +24,58 @@ MODES = {"normal": "aluvial", "salino": "salino", "agua": "arenoso"}
 def measure(value):
     if not isinstance(value, dict):
         return None
-    return {key: value.get(key) for key in ("valor", "valor_min", "valor_max", "unidad")}
+    return {key: value.get(key) for key in ("valor", "valor_min", "valor_max", "unidad", "fuente",
+                                             "tipo_evidencia", "estado", "notas", "url_o_doi", "variable")}
+
+
+def simplify(value):
+    if isinstance(value, dict):
+        if "valor" in value:
+            return measure(value)
+        return {key: simplify(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [simplify(item) for item in value]
+    return value
 
 
 def compact_candidate(item, detailed=True):
     water = item.get("agua") or {}
-    annual = item.get("agua_anual") or {}
     if not detailed:
         return {
             "cultivo": item.get("cultivo"), "familia": item.get("familia"), "decision": item.get("decision"),
-            "motivos_descarte": [(reason or "")[:150] for reason in (item.get("motivos_descarte") or [])[:2]],
-            "datos_faltantes": (item.get("datos_faltantes") or [])[:3],
+            "puesto": item.get("puesto"), "explicacion_puesto": item.get("explicacion_puesto", ""),
+            "motivos_descarte": [(reason or "")[:180] for reason in (item.get("motivos_descarte") or [])[:2]],
+            "duracion": measure(item.get("duracion")),
+            "agua": {"riego_bruto_m3_ha": measure(water.get("riego_bruto_m3_ha"))},
+            "rendimiento": measure(item.get("rendimiento")),
+            "margen_mc": {key: (item.get("margen_mc") or {}).get(key) for key in ("p10", "p50", "p90")},
+            "alertas": item.get("alertas"), "alertas_directas": item.get("alertas_directas"),
+            "datos_faltantes": (item.get("datos_faltantes") or []),
             "anios_a_primera_produccion": measure(item.get("anios_a_primera_produccion")),
-            "agua_anual": {"riego_bruto_m3_ha": measure(annual.get("riego_bruto_m3_ha"))},
+            "agua_anual": simplify(item.get("agua_anual")),
         }
     return {
         "cultivo": item.get("cultivo"), "familia": item.get("familia"), "decision": item.get("decision"),
-        "motivos_descarte": [(reason or "")[:180] for reason in (item.get("motivos_descarte") or [])[:2]],
+        "puesto": item.get("puesto"), "explicacion_puesto": item.get("explicacion_puesto", ""),
+        "motivos_descarte": [(reason or "")[:400] for reason in (item.get("motivos_descarte") or [])],
         "veredictos": [{"filtro": v.get("filtro"), "resultado": v.get("resultado"),
-                        "motivo": (v.get("motivo") or "")[:180]}
-                       for v in item.get("veredictos", []) if v.get("resultado") != "pasa"][:4],
+                        "motivo": (v.get("motivo") or "")[:800], "fuente": v.get("fuente"),
+                        "tipo_evidencia": v.get("tipo_evidencia"), "cifras": simplify(v.get("cifras", {})),
+                        "faltantes": v.get("faltantes", []), "probable_no_apto": v.get("probable_no_apto", False)}
+                       for v in item.get("veredictos", [])],
         "duracion": measure(item.get("duracion")),
-        "agua": {"riego_bruto_m3_ha": measure(water.get("riego_bruto_m3_ha"))},
+        "agua": simplify(water),
+        "nutrientes": simplify(item.get("nutrientes")),
+        "deja_en_suelo": simplify(item.get("deja_en_suelo", [])),
+        "estado_tras_cosecha": simplify(item.get("estado_tras_cosecha")),
         "rendimiento": measure(item.get("rendimiento")),
+        "precio_chacra": measure(item.get("precio_chacra")),
+        "costo_ha": measure(item.get("costo_ha")),
+        "margen_ha": measure(item.get("margen_ha")),
         "margen_mc": {key: (item.get("margen_mc") or {}).get(key) for key in ("p10", "p50", "p90")},
-        "datos_faltantes": (item.get("datos_faltantes") or [])[:4],
+        "aptitud_suelo": item.get("aptitud_suelo"), "alertas": item.get("alertas"),
+        "alertas_directas": item.get("alertas_directas"),
+        "datos_faltantes": (item.get("datos_faltantes") or []),
     }
 
 
@@ -77,7 +104,8 @@ def main():
                     "scenario": "sin_el_nino",
                 }
                 result = evaluate_payload(payload)
-                result["accepted"] = [compact_candidate(item) for item in result["accepted"][:3]]
+                result["accepted"] = [compact_candidate(item, index == 0)
+                                       for index, item in enumerate(result["accepted"])]
                 result["withoutData"] = [compact_candidate(item, False) for item in result["withoutData"]]
                 result["rejected"] = [compact_candidate(item, False) for item in result["rejected"]]
                 result["perennials"] = [compact_candidate(item, False) for item in result["perennials"]]

@@ -129,6 +129,9 @@ class DashboardBrowserTest(unittest.TestCase):
         self.assertIn('Cerezal', self.page.locator('#live-results-summary').inner_text())
         self.assertIn('arenoso', self.page.locator('#live-results-summary').inner_text())
         self.assertEqual(self.page.locator('#live-ranking .rank-bubble').all_text_contents()[:3], ['1', '2', '3'])
+        self.page.locator('#live-ranking .live-reasons').first.locator('summary').click()
+        self.assertIn('Queda delante de', self.page.locator('#live-ranking .rank-explanation').first.inner_text())
+        self.assertNotIn('Pendiente de dato', self.page.locator('#live-ranking .live-candidate-metrics').first.inner_text())
 
     def test_no_history_is_a_calculable_scenario_not_a_sample_parcel(self):
         self.page.select_option('#previous-select', '__unregistered__')
@@ -153,6 +156,11 @@ class DashboardBrowserTest(unittest.TestCase):
         self.assertEqual(self.page.locator('#live-ranking .rank-bubble').all_text_contents(), ['1', '2', '3'])
         self.assertIn('Cerezal', self.page.locator('#live-results-summary').inner_text())
         self.assertIn('Escenario de referencia Bajo Piura', self.page.locator('#live-notes').inner_text())
+        self.assertNotIn('Pendiente de dato', self.page.locator('#live-ranking .live-candidate-metrics').first.inner_text())
+        self.assertEqual(self.page.locator('#live-ranking .live-candidate').count() + self.page.locator('#live-alternatives .live-candidate').count(), 13)
+        self.page.locator('#live-ranking .live-reasons').first.locator('summary').click()
+        self.assertIn('Queda delante de', self.page.locator('#live-ranking .rank-explanation').first.inner_text())
+        self.assertIn('Abrir', self.page.locator('#live-ranking .crop-source-details summary').first.inner_text())
         self.assertFalse(any('/api/evaluate' in url for url in requests))
 
     def test_evidence_loaded_on_demand(self):
