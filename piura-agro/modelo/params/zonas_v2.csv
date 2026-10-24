@@ -1,0 +1,6 @@
+zona,dotacion_m3_ha_anio,eficiencia_operativa,sistema_ana,estado,fuente
+chira_sullana,15399,0.52,Sistema regulado Chira,observado_regional,"ANA PGRH Chira-Piura p.155 linea base c.2013-2014 via restricciones/insumos/ana_agua.csv"
+bajo_piura,11472,0.57,Sistema regulado Medio y Bajo Piura (Sechura: eficiencia 0.60),observado_regional,"ANA PGRH Chira-Piura p.155 via ana_agua.csv; la zona incluye Sechura, que no tiene dotacion propia en la tabla"
+medio_piura,11472,0.57,Sistema regulado Medio y Bajo Piura,observado_regional,"ANA PGRH Chira-Piura p.155 via ana_agua.csv"
+alto_piura,11807,0.60,Sistema no regulado Alto Piura,observado_regional,"ANA PGRH Chira-Piura p.155 via ana_agua.csv"
+san_lorenzo,9528,0.59,Sistema regulado San Lorenzo (no regulado 28000 sin usar: pregunta a Piura Datos),observado_regional,"ANA PGRH Chira-Piura p.155 via ana_agua.csv"

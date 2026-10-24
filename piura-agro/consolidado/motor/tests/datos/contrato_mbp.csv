@@ -1,0 +1,2 @@
+variable,valor,valor_min,valor_max,unidad,cultivo,variedad,etapa,zona,lugar,lat,lon,fecha_o_periodo,fuente,url_o_doi,metodo,tipo_evidencia,estado,notas,fuente_primaria,subzona
+costo_produccion_ha,,1800,2600,PEN/ha,caupi,,,medio_bajo_piura,Medio y Bajo Piura,,,2026,FICTICIO prueba,https://example.invalid/mbp,,regional,estimado,fila de prueba,FICTICIO fuente citada,Sector Cumbibira

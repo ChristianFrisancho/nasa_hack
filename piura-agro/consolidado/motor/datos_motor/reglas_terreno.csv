@@ -1,0 +1,7 @@
+variable,operador,umbral,aplica_a,accion,motivo,fuente,tipo_evidencia
+pendiente_pct,>,15,anual,descarta,"pendiente >15 %: clase F3se/Xse, excluir cultivo intensivo",suelos_montero_ayabaca_cum_v2.csv (repo nasa_hack; Capacidad de Uso Mayor Montero-Ayabaca),regional
+pendiente_pct,>,8,anual,advierte,"pendiente 8-15 %: clase C3s(r)/P3se, cultivo con restricciones o pastos",suelos_montero_ayabaca_cum_v2.csv (repo nasa_hack; Capacidad de Uso Mayor Montero-Ayabaca),regional
+pendiente_pct,>,50,perenne,descarta,"pendiente >50 %: clase Xse, protección",suelos_montero_ayabaca_cum_v2.csv (repo nasa_hack; Capacidad de Uso Mayor Montero-Ayabaca),regional
+pendiente_pct,>,15,perenne,advierte,"pendiente 15-50 %: F3se, uso forestal; perenne solo con conservación",suelos_montero_ayabaca_cum_v2.csv (repo nasa_hack; Capacidad de Uso Mayor Montero-Ayabaca),regional
+drenaje,=,pobre,papaya;limon,descarta,Phytophthora: no elegir sitio que se encharca sin mitigación (guías BPA papaya y limón),plagas_hospedantes_condiciones_v2.csv (SENASA BPA papaya/limón),bibliografico
+drenaje,=,pobre,*-arroz,advierte,drenaje pobre: riesgo de anegamiento y sales; tolerancia por cultivo no documentada en los datos,regla heurística del motor v0,prediccion

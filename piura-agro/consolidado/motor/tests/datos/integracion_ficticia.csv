@@ -1,0 +1,2 @@
+variable,valor,valor_min,valor_max,unidad,cultivo,variedad,etapa,zona,lugar,lat,lon,fecha_o_periodo,fuente,url_o_doi,metodo,tipo_evidencia,estado,notas
+costo_produccion_ha,,1800,2600,PEN/ha,caupi,,,piura_region,Piura (departamento),,,2026,FICTICIO: fila de prueba del motor (no es un dato),https://example.invalid/ficticio-prueba-motor,,regional,estimado,dominio .invalid reservado (RFC 2606): nunca resuelve; solo prueba que una fila completa reemplaza un desconocido

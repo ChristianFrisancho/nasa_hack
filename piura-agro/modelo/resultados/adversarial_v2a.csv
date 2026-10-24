@@ -1,0 +1,91 @@
+supuesto,zona,top1_central,top3_central,p_top1_lider,p_top1_arroz,p_top1_camote,p_top1_caupi,p_top1_algodon,p_ninguno
+base_v2,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.01,0.37,0.203,0.215,0.203
+base_v2,bajo_piura,camote,camote|caupi|algodon,caupi,0.004,0.191,0.341,0.218,0.246
+base_v2,medio_piura,camote,camote|caupi|algodon,caupi,0.004,0.191,0.351,0.213,0.242
+base_v2,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.011,0.0,0.448,0.349,0.192
+base_v2,san_lorenzo,camote,camote|caupi|frijol,camote,0.002,0.302,0.267,0.153,0.276
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.024,0.397,0.175,0.224,0.18
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,bajo_piura,camote,camote|algodon|caupi,camote,0.025,0.329,0.167,0.305,0.175
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,medio_piura,camote,camote|caupi|algodon,camote,0.024,0.322,0.179,0.297,0.177
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,alto_piura,algodon,algodon|arroz|caupi,algodon,0.026,0.0,0.344,0.452,0.178
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,san_lorenzo,camote,camote|arroz|caupi,camote,0.025,0.441,0.116,0.239,0.18
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.009,0.397,0.175,0.224,0.195
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,bajo_piura,camote,camote|algodon|caupi,camote,0.011,0.329,0.167,0.305,0.189
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,medio_piura,camote,camote|caupi|algodon,camote,0.012,0.322,0.179,0.297,0.19
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,alto_piura,algodon,algodon|caupi|arroz,algodon,0.022,0.0,0.344,0.453,0.18
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,san_lorenzo,camote,camote|caupi|algodon,camote,0.015,0.441,0.116,0.239,0.19
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.001,0.397,0.175,0.224,0.203
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,bajo_piura,camote,camote|algodon|caupi,camote,0.001,0.329,0.167,0.305,0.199
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,medio_piura,camote,camote|caupi|algodon,camote,0.001,0.322,0.179,0.297,0.2
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,algodon,0.007,0.0,0.344,0.453,0.196
+agua_parcela=1200mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,san_lorenzo,camote,camote|caupi|algodon,camote,0.001,0.441,0.116,0.239,0.203
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,chira_sullana,camote,camote|arroz|caupi,camote,0.025,0.436,0.116,0.244,0.179
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,bajo_piura,camote,camote|algodon|arroz,camote,0.025,0.365,0.079,0.356,0.175
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,medio_piura,camote,camote|algodon|caupi,camote,0.024,0.361,0.09,0.347,0.177
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,alto_piura,algodon,algodon|arroz|caupi,algodon,0.025,0.0,0.29,0.507,0.178
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=150,san_lorenzo,camote,camote|arroz|algodon,camote,0.025,0.447,0.087,0.262,0.18
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.02,0.436,0.116,0.244,0.184
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,bajo_piura,camote,camote|algodon|caupi,camote,0.02,0.365,0.079,0.356,0.18
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,medio_piura,camote,camote|algodon|caupi,camote,0.021,0.361,0.09,0.347,0.181
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,alto_piura,algodon,algodon|arroz|caupi,algodon,0.025,0.0,0.29,0.507,0.178
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=450,san_lorenzo,camote,camote|arroz|algodon,camote,0.023,0.447,0.087,0.262,0.181
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.005,0.436,0.116,0.244,0.199
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,bajo_piura,camote,camote|algodon|caupi,camote,0.007,0.365,0.079,0.356,0.193
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,medio_piura,camote,camote|algodon|caupi,camote,0.007,0.361,0.09,0.347,0.194
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,algodon,0.018,0.0,0.29,0.507,0.185
+agua_parcela=1500mm (Agraria 12000 / DIGESA 15000 m3) extra_arroz=780,san_lorenzo,camote,camote|algodon|caupi,camote,0.011,0.447,0.087,0.262,0.193
+rendimiento de referencia = mediana (no ponderado),chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.01,0.408,0.185,0.195,0.203
+rendimiento de referencia = mediana (no ponderado),bajo_piura,algodon,algodon|caupi|maiz_amarillo_duro,algodon,0.004,0.0,0.319,0.431,0.246
+rendimiento de referencia = mediana (no ponderado),medio_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.004,0.0,0.406,0.348,0.242
+rendimiento de referencia = mediana (no ponderado),alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.011,0.0,0.43,0.365,0.192
+rendimiento de referencia = mediana (no ponderado),san_lorenzo,caupi,caupi|algodon|frijol,caupi,0.003,0.0,0.449,0.25,0.276
+umbral de perdida del filtro duro = 0.3,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.018,0.414,0.258,0.124,0.185
+umbral de perdida del filtro duro = 0.3,bajo_piura,camote,camote|caupi|algodon,caupi,0.011,0.212,0.395,0.193,0.189
+umbral de perdida del filtro duro = 0.3,medio_piura,camote,camote|caupi|algodon,caupi,0.01,0.205,0.412,0.181,0.191
+umbral de perdida del filtro duro = 0.3,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.02,0.0,0.514,0.284,0.183
+umbral de perdida del filtro duro = 0.3,san_lorenzo,camote,camote|caupi|frijol,camote,0.007,0.403,0.294,0.099,0.197
+umbral de perdida del filtro duro = 0.7,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,caupi,0.003,0.227,0.234,0.145,0.391
+umbral de perdida del filtro duro = 0.7,bajo_piura,caupi,caupi|frijol,caupi,0.001,0.101,0.289,0.07,0.538
+umbral de perdida del filtro duro = 0.7,medio_piura,camote,camote|caupi|frijol,caupi,0.001,0.117,0.284,0.077,0.521
+umbral de perdida del filtro duro = 0.7,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.006,0.0,0.377,0.336,0.282
+umbral de perdida del filtro duro = 0.7,san_lorenzo,caupi,caupi|frijol,caupi,0.0,0.103,0.278,0.044,0.574
+drenaje malo en toda la parcela,chira_sullana,ninguno,,arroz,0.045,0.0,0.0,0.0,0.955
+drenaje malo en toda la parcela,bajo_piura,ninguno,,arroz,0.019,0.0,0.0,0.0,0.981
+drenaje malo en toda la parcela,medio_piura,ninguno,,arroz,0.019,0.0,0.0,0.0,0.981
+drenaje malo en toda la parcela,alto_piura,ninguno,,arroz,0.049,0.0,0.0,0.0,0.951
+drenaje malo en toda la parcela,san_lorenzo,ninguno,,arroz,0.012,0.0,0.0,0.0,0.988
+factor_costo fijo = 1.67,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.01,0.363,0.217,0.207,0.203
+factor_costo fijo = 1.67,bajo_piura,camote,camote|caupi|frijol,caupi,0.004,0.181,0.371,0.199,0.246
+factor_costo fijo = 1.67,medio_piura,camote,camote|caupi|frijol,caupi,0.004,0.18,0.378,0.197,0.242
+factor_costo fijo = 1.67,alto_piura,caupi,caupi|frijol|algodon,caupi,0.011,0.0,0.493,0.304,0.192
+factor_costo fijo = 1.67,san_lorenzo,camote,camote|caupi|frijol,camote,0.002,0.297,0.276,0.148,0.276
+factor_costo fijo = 2.11,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.01,0.326,0.264,0.198,0.203
+factor_costo fijo = 2.11,bajo_piura,camote,camote|caupi|frijol,caupi,0.004,0.139,0.434,0.178,0.246
+factor_costo fijo = 2.11,medio_piura,camote,camote|caupi|frijol,caupi,0.004,0.14,0.435,0.179,0.242
+factor_costo fijo = 2.11,alto_piura,caupi,caupi|frijol|maiz_amarillo_duro,caupi,0.011,0.0,0.564,0.233,0.192
+factor_costo fijo = 2.11,san_lorenzo,camote,camote|caupi|frijol,caupi,0.002,0.254,0.322,0.145,0.276
+Ky x0.8,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.013,0.405,0.158,0.233,0.191
+Ky x0.8,bajo_piura,camote,camote|caupi|algodon,algodon,0.006,0.262,0.228,0.309,0.194
+Ky x0.8,medio_piura,camote,camote|caupi|algodon,algodon,0.006,0.252,0.252,0.295,0.196
+Ky x0.8,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.015,0.0,0.423,0.374,0.188
+Ky x0.8,san_lorenzo,camote,camote|caupi|frijol,camote,0.004,0.393,0.18,0.222,0.202
+Ky x1.2,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.007,0.332,0.245,0.173,0.243
+Ky x1.2,bajo_piura,camote,camote|caupi|algodon,caupi,0.002,0.136,0.397,0.13,0.335
+Ky x1.2,medio_piura,camote,camote|caupi|algodon,caupi,0.003,0.143,0.401,0.132,0.322
+Ky x1.2,alto_piura,caupi,caupi|algodon|maiz_amarillo_duro,caupi,0.009,0.0,0.467,0.321,0.203
+Ky x1.2,san_lorenzo,camote,camote|caupi|frijol,caupi,0.002,0.221,0.32,0.084,0.374
+ECe fija = 0.5 dS/m,chira_sullana,camote,camote|caupi|maiz_amarillo_duro,camote,0.016,0.765,0.031,0.0,0.188
+ECe fija = 0.5 dS/m,bajo_piura,camote,camote|caupi|algodon,camote,0.006,0.572,0.217,0.0,0.205
+ECe fija = 0.5 dS/m,medio_piura,camote,camote|caupi|algodon,camote,0.006,0.581,0.211,0.0,0.202
+ECe fija = 0.5 dS/m,alto_piura,algodon,algodon|caupi|frijol,caupi,0.019,0.0,0.648,0.149,0.184
+ECe fija = 0.5 dS/m,san_lorenzo,camote,camote|caupi|frijol,camote,0.004,0.591,0.187,0.0,0.218
+ECe fija = 4.0 dS/m,chira_sullana,camote,camote|caupi|algodon,camote,0.016,0.692,0.104,0.0,0.188
+ECe fija = 4.0 dS/m,bajo_piura,camote,camote|caupi|algodon,caupi,0.006,0.332,0.456,0.001,0.205
+ECe fija = 4.0 dS/m,medio_piura,camote,camote|caupi|algodon,caupi,0.006,0.329,0.463,0.0,0.202
+ECe fija = 4.0 dS/m,alto_piura,algodon,algodon|caupi|maiz_amarillo_duro,caupi,0.018,0.0,0.648,0.15,0.184
+ECe fija = 4.0 dS/m,san_lorenzo,camote,camote|caupi|algodon,camote,0.004,0.556,0.222,0.0,0.218
+ECe fija = 8.0 dS/m,chira_sullana,caupi,caupi|algodon,caupi,0.0,0.0,0.679,0.117,0.204
+ECe fija = 8.0 dS/m,bajo_piura,algodon,algodon|caupi,caupi,0.0,0.0,0.552,0.237,0.211
+ECe fija = 8.0 dS/m,medio_piura,algodon,algodon|caupi,caupi,0.0,0.0,0.588,0.204,0.208
+ECe fija = 8.0 dS/m,alto_piura,algodon,algodon|caupi,caupi,0.0,0.0,0.486,0.311,0.203
+ECe fija = 8.0 dS/m,san_lorenzo,caupi,caupi|algodon,caupi,0.0,0.0,0.721,0.057,0.222

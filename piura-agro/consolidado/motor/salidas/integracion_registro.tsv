@@ -1,0 +1,1169 @@
+archivo	fila	cultivo	variable	estado	motivo
+rendimiento_precio_drap.csv	línea 2	arroz	rendimiento	aceptada	4.0–9.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 3	arroz	precio_chacra	aceptada	1.0–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 4	arroz	rendimiento	aceptada	4.0–8.4 t/ha (regional)
+rendimiento_precio_drap.csv	línea 5	arroz	precio_chacra	aceptada	1.0–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 6	arroz	rendimiento	aceptada	4.0–7.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 7	arroz	precio_chacra	aceptada	1.1–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 8	arroz	rendimiento	aceptada	5.9–8.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 9	arroz	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 10	arroz	rendimiento	aceptada	7.8–10.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 11	arroz	precio_chacra	aceptada	1.0–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 12	arroz	rendimiento	aceptada	6.9–9.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 13	arroz	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 14	arroz	rendimiento	aceptada	6.8–9.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 15	arroz	precio_chacra	aceptada	1.1–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 16	arroz	rendimiento	aceptada	8.7–10.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 17	arroz	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 18	maiz amarillo duro	rendimiento	aceptada	1.2–5.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 19	maiz amarillo duro	precio_chacra	aceptada	0.9–1.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 20	maiz amarillo duro	rendimiento	aceptada	1.0–3.5 t/ha (regional)
+rendimiento_precio_drap.csv	línea 21	maiz amarillo duro	precio_chacra	aceptada	0.9–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 22	maiz amarillo duro	rendimiento	aceptada	1.2–4.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 23	maiz amarillo duro	precio_chacra	aceptada	0.9–1.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 24	maiz amarillo duro	rendimiento	aceptada	0.9–5.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 25	maiz amarillo duro	precio_chacra	aceptada	0.8–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 26	maiz amarillo duro	rendimiento	aceptada	5.0–6.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 27	maiz amarillo duro	precio_chacra	aceptada	1.2–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 28	maiz amarillo duro	rendimiento	aceptada	3.0–5.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 29	maiz amarillo duro	precio_chacra	aceptada	1.0–1.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 30	maiz amarillo duro	rendimiento	aceptada	3.9–5.2 t/ha (regional)
+rendimiento_precio_drap.csv	línea 31	maiz amarillo duro	precio_chacra	aceptada	1.0–1.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 32	maiz amarillo duro	rendimiento	aceptada	5.0–6.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 33	maiz amarillo duro	precio_chacra	aceptada	1.0–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 34	maiz choclo	rendimiento	aceptada	4.6–6.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 35	maiz choclo	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 36	maiz choclo	rendimiento	aceptada	4.7–6.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 37	maiz choclo	precio_chacra	aceptada	1.0–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 38	maiz choclo	rendimiento	aceptada	4.5–6.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 39	maiz choclo	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 40	frijol grano	rendimiento	aceptada	0.6–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 41	frijol grano	precio_chacra	aceptada	2.5–4.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 42	frijol grano	rendimiento	aceptada	0.5–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 43	frijol grano	precio_chacra	aceptada	2.8–4.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 44	frijol grano	rendimiento	aceptada	0.8–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 45	frijol grano	precio_chacra	aceptada	2.5–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 46	frijol grano	rendimiento	aceptada	0.7–1.2 t/ha (regional)
+rendimiento_precio_drap.csv	línea 47	frijol grano	precio_chacra	aceptada	2.5–8.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 48	caupi	rendimiento	aceptada	1.3–2.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 49	caupi	precio_chacra	aceptada	1.6–3.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 50	caupi	rendimiento	aceptada	1.2–2.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 51	caupi	precio_chacra	aceptada	2.0–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 52	caupi	rendimiento	aceptada	1.3–2.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 53	caupi	precio_chacra	aceptada	1.4–3.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 54	caupi	rendimiento	aceptada	2.0–3.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 55	caupi	precio_chacra	aceptada	1.3–3.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 56	caupi	rendimiento	aceptada	1.2–2.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 57	caupi	precio_chacra	aceptada	1.7–3.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 58	caupi	rendimiento	aceptada	1.6–3.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 59	caupi	precio_chacra	aceptada	2.4–3.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 60	caupi	rendimiento	aceptada	2.0–2.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 61	caupi	precio_chacra	aceptada	1.0–3.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 62	arveja	rendimiento	aceptada	0.6–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 63	arveja	precio_chacra	aceptada	2.2–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 64	arveja	rendimiento	aceptada	0.5–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 65	arveja	precio_chacra	aceptada	2.1–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 66	arveja	rendimiento	aceptada	0.8–1.2 t/ha (regional)
+rendimiento_precio_drap.csv	línea 67	arveja	precio_chacra	aceptada	2.5–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 68	arveja	rendimiento	aceptada	0.6–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 69	arveja	precio_chacra	aceptada	2.0–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 70	algodon	rendimiento	aceptada	0.9–5.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 71	algodon	precio_chacra	aceptada	2.6–6.3 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 72	algodon	rendimiento	aceptada	1.6–12.4 t/ha (regional)
+rendimiento_precio_drap.csv	línea 73	algodon	precio_chacra	aceptada	3.0–3.4 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 74	algodon	rendimiento	aceptada	0.6–2.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 75	algodon	precio_chacra	aceptada	2.5–6.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 76	algodon	rendimiento	aceptada	0.9–4.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 77	algodon	precio_chacra	aceptada	2.2–6.3 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 78	algodon	rendimiento	aceptada	1.4–5.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 79	algodon	precio_chacra	aceptada	2.7–6.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 80	papa	rendimiento	aceptada	6.0–13.5 t/ha (regional)
+rendimiento_precio_drap.csv	línea 81	papa	precio_chacra	aceptada	0.7–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 82	papa	rendimiento	aceptada	6.3–14.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 83	papa	precio_chacra	aceptada	0.8–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 84	papa	rendimiento	aceptada	7.2–11.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 85	papa	precio_chacra	aceptada	0.7–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 86	papa	rendimiento	aceptada	4.9–12.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 87	papa	precio_chacra	aceptada	0.8–1.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 88	yuca	rendimiento	aceptada	3.0–15.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 89	yuca	precio_chacra	aceptada	0.9–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 90	yuca	rendimiento	aceptada	3.5–8.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 91	yuca	precio_chacra	aceptada	1.0–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 92	yuca	rendimiento	aceptada	3.0–5.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 93	yuca	precio_chacra	aceptada	0.8–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 94	yuca	rendimiento	aceptada	3.7–12.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 95	yuca	precio_chacra	aceptada	0.9–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 96	yuca	rendimiento	aceptada	12.8–19.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 97	yuca	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 98	yuca	rendimiento	aceptada	6.8–14.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 99	yuca	precio_chacra	aceptada	1.1–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 100	yuca	rendimiento	aceptada	12.3–18.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 101	yuca	precio_chacra	aceptada	1.0–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 102	zapallo	rendimiento	aceptada	2.6–4.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 103	zapallo	precio_chacra	aceptada	0.5–1.2 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 104	zapallo	rendimiento	aceptada	2.6–4.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 105	zapallo	precio_chacra	aceptada	0.5–1.2 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 106	cebolla	rendimiento	aceptada	13.4–39.5 t/ha (regional)
+rendimiento_precio_drap.csv	línea 107	cebolla	precio_chacra	aceptada	0.5–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 108	cebolla	rendimiento	aceptada	1.4–3.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 109	cebolla	precio_chacra	aceptada	2.0–6.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 110	cebolla	rendimiento	aceptada	11.7–20.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 111	cebolla	precio_chacra	aceptada	0.6–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 112	cebolla	rendimiento	aceptada	30.0–40.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 113	cebolla	precio_chacra	aceptada	0.3–1.9 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 114	cebolla	rendimiento	aceptada	19.8–40.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 115	cebolla	precio_chacra	aceptada	0.4–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 116	cebolla	rendimiento	aceptada	13.2–20.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 117	cebolla	precio_chacra	aceptada	0.6–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 118	piquillo	rendimiento	aceptada	6.0–20.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 119	piquillo	precio_chacra	aceptada	1.0–1.4 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 120	piquillo	rendimiento	aceptada	6.0–22.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 121	piquillo	precio_chacra	aceptada	1.0–1.4 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 122	piquillo	rendimiento	aceptada	8.9–18.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 123	piquillo	precio_chacra	aceptada	0.8–2.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 124	piquillo	rendimiento	aceptada	7.0–13.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 125	piquillo	precio_chacra	aceptada	1.0–4.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 126	frijol de palo	rendimiento	aceptada	0.8–6.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 127	frijol de palo	precio_chacra	aceptada	1.2–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 128	frijol de palo	precio_chacra	aceptada	2.0–3.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 129	frijol de palo	precio_chacra	aceptada	2.0–2.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 130	frijol de palo	rendimiento	aceptada	0.7–1.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 131	frijol de palo	precio_chacra	aceptada	1.5–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 132	frijol de palo	rendimiento	aceptada	2.0–6.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 133	frijol de palo	precio_chacra	aceptada	1.2–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 134	frijol de palo	rendimiento	aceptada	2.0–6.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 135	frijol de palo	precio_chacra	aceptada	1.2–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 136	mango	rendimiento	aceptada	1.5–16.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 137	mango	precio_chacra	aceptada	0.4–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 138	mango	rendimiento	aceptada	2.5–7.2 t/ha (regional)
+rendimiento_precio_drap.csv	línea 139	mango	precio_chacra	aceptada	0.4–1.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 140	mango	rendimiento	aceptada	0.6–3.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 141	mango	precio_chacra	aceptada	0.3–1.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 142	mango	rendimiento	aceptada	4.0–14.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 143	mango	precio_chacra	aceptada	0.4–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 144	mango	rendimiento	aceptada	3.9–12.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 145	mango	precio_chacra	aceptada	0.8–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 146	mango	rendimiento	aceptada	5.0–20.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 147	mango	precio_chacra	aceptada	0.4–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 148	mango	rendimiento	aceptada	0.6–24.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 149	mango	precio_chacra	aceptada	0.5–1.7 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 150	mango	rendimiento	aceptada	3.8–20.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 151	mango	precio_chacra	aceptada	0.6–1.3 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 152	limon	rendimiento	aceptada	1.8–16.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 153	limon	precio_chacra	aceptada	0.5–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 154	limon	rendimiento	aceptada	1.5–6.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 155	limon	precio_chacra	aceptada	0.5–2.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 156	limon	rendimiento	aceptada	0.6–4.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 157	limon	precio_chacra	aceptada	0.7–1.8 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 158	limon	rendimiento	aceptada	2.8–11.4 t/ha (regional)
+rendimiento_precio_drap.csv	línea 159	limon	precio_chacra	aceptada	0.4–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 160	limon	rendimiento	aceptada	6.3–23.5 t/ha (regional)
+rendimiento_precio_drap.csv	línea 161	limon	precio_chacra	aceptada	0.8–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 162	limon	rendimiento	aceptada	3.2–16.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 163	limon	precio_chacra	aceptada	0.5–1.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 164	limon	rendimiento	aceptada	3.0–15.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 165	limon	precio_chacra	aceptada	0.8–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 166	limon	rendimiento	aceptada	4.0–24.2 t/ha (regional)
+rendimiento_precio_drap.csv	línea 167	limon	precio_chacra	aceptada	0.5–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 168	banano	precio_chacra	aceptada	0.9–1.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 169	banano	precio_chacra	aceptada	0.9–1.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 170	uva	rendimiento	aceptada	5.6–44.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 171	uva	precio_chacra	aceptada	2.0–4.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 172	uva	rendimiento	aceptada	0.6–24.5 t/ha (regional)
+rendimiento_precio_drap.csv	línea 173	uva	precio_chacra	aceptada	3.0–5.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 174	uva	rendimiento	aceptada	7.5–49.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 175	uva	precio_chacra	aceptada	2.0–4.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 176	uva	rendimiento	aceptada	6.6–13.2 t/ha (regional)
+rendimiento_precio_drap.csv	línea 177	uva	precio_chacra	aceptada	1.0–3.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 178	uva	rendimiento	aceptada	19.7–54.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 179	uva	precio_chacra	aceptada	2.5–3.5 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 180	cacao	rendimiento	aceptada	0.2–1.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 181	cacao	precio_chacra	aceptada	3.6–21.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 182	cacao	rendimiento	aceptada	0.2–1.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 183	cacao	precio_chacra	aceptada	3.5–8.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 184	cacao	rendimiento	aceptada	0.2–0.7 t/ha (regional)
+rendimiento_precio_drap.csv	línea 185	cacao	precio_chacra	aceptada	4.0–10.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 186	cacao	rendimiento	aceptada	0.3–2.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 187	cacao	precio_chacra	aceptada	4.5–22.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 188	cacao	rendimiento	aceptada	0.4–2.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 189	cacao	precio_chacra	aceptada	3.0–7.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 190	cafe	rendimiento	aceptada	0.2–1.0 t/ha (regional)
+rendimiento_precio_drap.csv	línea 191	cafe	precio_chacra	aceptada	5.0–10.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 192	cafe	rendimiento	aceptada	0.1–0.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 193	cafe	precio_chacra	aceptada	5.0–15.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 194	cafe	rendimiento	aceptada	0.2–1.3 t/ha (regional)
+rendimiento_precio_drap.csv	línea 195	cafe	precio_chacra	aceptada	5.0–9.2 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 196	cafe	rendimiento	aceptada	0.2–0.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 197	cafe	precio_chacra	aceptada	5.0–12.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 198	papaya	rendimiento	aceptada	1.9–22.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 199	papaya	precio_chacra	aceptada	1.0–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 200	papaya	rendimiento	aceptada	0.9–5.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 201	papaya	precio_chacra	aceptada	1.0–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 202	papaya	precio_chacra	aceptada	1.6–1.6 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 203	papaya	rendimiento	aceptada	2.6–33.5 t/ha (regional)
+rendimiento_precio_drap.csv	línea 204	papaya	precio_chacra	aceptada	1.0–2.2 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 205	papaya	rendimiento	aceptada	2.7–31.8 t/ha (regional)
+rendimiento_precio_drap.csv	línea 206	papaya	precio_chacra	aceptada	1.5–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 207	papaya	rendimiento	aceptada	1.3–22.1 t/ha (regional)
+rendimiento_precio_drap.csv	línea 208	papaya	precio_chacra	aceptada	1.0–2.0 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 209	papaya	rendimiento	aceptada	3.0–20.9 t/ha (regional)
+rendimiento_precio_drap.csv	línea 210	papaya	precio_chacra	aceptada	1.2–2.4 PEN/kg (regional)
+rendimiento_precio_drap.csv	línea 211	papaya	rendimiento	aceptada	3.8–22.6 t/ha (regional)
+rendimiento_precio_drap.csv	línea 212	papaya	precio_chacra	aceptada	1.5–2.0 PEN/kg (regional)
+costos_produccion.csv	línea 2	arroz	costo_produccion_ha	aceptada	5 409.7–9 037.0 PEN/ha (regional)
+costos_produccion.csv	línea 3	uva	costo_produccion_ha	aceptada	52 821.2 PEN/ha (regional)
+costos_produccion.csv	línea 4	banano	costo_produccion_ha	aceptada	16 570.8 PEN/ha (regional)
+costos_produccion.csv	línea 5	limon	costo_produccion_ha	aceptada	6 920.5 PEN/ha (regional)
+costos_produccion.csv	línea 6	arveja	costo_produccion_ha	aceptada	1 020.3 PEN/ha (regional)
+costos_produccion.csv	línea 7	piquillo	costo_produccion_ha	aceptada	34 595.4 PEN/ha (regional)
+costos_produccion.csv	línea 8	maiz amarillo duro	costo_produccion_ha	aceptada	2 287.8–4 834.2 PEN/ha (bibliografico)
+costos_produccion.csv	línea 9	papa	costo_produccion_ha	aceptada	9 325.1–15 985.6 PEN/ha (bibliografico)
+costos_produccion.csv	línea 10	cebolla	costo_produccion_ha	aceptada	7 279.2–17 025.5 PEN/ha (bibliografico)
+costos_produccion.csv	línea 11	maiz choclo	costo_produccion_ha	aceptada	2 685.4–3 734.1 PEN/ha (bibliografico)
+costos_produccion.csv	línea 12	frijol grano	costo_produccion_ha	aceptada	1 116.4–1 330.6 PEN/ha (bibliografico)
+costos_produccion.csv	línea 13	mango	costo_produccion_ha	aceptada	7 427.0–9 166.2 PEN/ha (bibliografico)
+costos_produccion.csv	línea 14	yuca	costo_produccion_ha	aceptada	2 041.1–16 209.6 PEN/ha (bibliografico)
+costos_produccion.csv	línea 15	cacao	costo_produccion_ha	aceptada	3 633.8–7 097.3 PEN/ha (bibliografico)
+costos_produccion.csv	línea 16	cafe	costo_produccion_ha	aceptada	1 014.4–2 252.2 PEN/ha (bibliografico)
+costos_produccion.csv	línea 17	algodon	costo_produccion_ha	aceptada	3 649.0–5 132.0 PEN/ha (bibliografico)
+costos_produccion.csv	línea 18	zapallo	costo_produccion_ha	aceptada	3 374.0–6 086.6 PEN/ha (bibliografico)
+costos_produccion.csv	línea 19	frijol verde	costo_produccion_ha	rechazada	sin fuente; sin url_o_doi
+costos_produccion.csv	línea 20	caupi	costo_produccion_ha	rechazada	sin fuente; sin url_o_doi
+costos_produccion.csv	línea 21	frijol de palo	costo_produccion_ha	rechazada	sin fuente; sin url_o_doi
+costos_produccion.csv	línea 22	papaya	costo_produccion_ha	rechazada	sin fuente; sin url_o_doi
+parametros_cultivo_v2_propuesta.csv	R30	camote	pH_suelo_absoluto_ecocrop	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R31	camote	pH_suelo_optimo	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R32	camote	temperatura_adaptacion	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R33	camote	temperatura_optima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R34	camote	profundidad_suelo_apta_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R30	mani	pH_suelo_absoluto_ecocrop	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R31	mani	pH_suelo_optimo	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R32	mani	temperatura_adaptacion	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R33	mani	temperatura_optima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R34	mani	profundidad_suelo_apta_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R30	sorgo	pH_suelo_absoluto_ecocrop	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R31	sorgo	pH_suelo_optimo	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R32	sorgo	temperatura_adaptacion	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R33	sorgo	temperatura_optima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R34	sorgo	profundidad_suelo_apta_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R30	soya	pH_suelo_absoluto_ecocrop	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R31	soya	pH_suelo_optimo	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R32	soya	temperatura_adaptacion	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R33	soya	temperatura_optima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R34	soya	profundidad_suelo_apta_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R4D	camote	profundidad_suelo_favorable_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R4D	mani	profundidad_suelo_favorable_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R4D	sorgo	profundidad_suelo_favorable_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R4D	soya	profundidad_suelo_favorable_minima	ignorada	cultivo fuera del catálogo
+parametros_cultivo_v2_propuesta.csv	R30	arroz	pH_suelo_absoluto_ecocrop	aceptada	4.5–9.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	arroz	pH_suelo_optimo	aceptada	5.5–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	arroz	temperatura_adaptacion	aceptada	10.0–36.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	arroz	temperatura_optima	aceptada	20.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	arroz	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	maiz amarillo duro	pH_suelo_absoluto_ecocrop	aceptada	4.5–8.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	maiz amarillo duro	pH_suelo_optimo	aceptada	5.0–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	maiz amarillo duro	temperatura_adaptacion	aceptada	10.0–47.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	maiz amarillo duro	temperatura_optima	aceptada	18.0–33.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	maiz amarillo duro	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	frijol grano	pH_suelo_absoluto_ecocrop	aceptada	4.0–9.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	frijol grano	pH_suelo_optimo	aceptada	5.5–7.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	frijol grano	temperatura_adaptacion	aceptada	7.0–32.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	frijol grano	temperatura_optima	aceptada	16.0–25.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	frijol grano	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	caupi	pH_suelo_absoluto_ecocrop	aceptada	4.0–8.8 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	caupi	pH_suelo_optimo	aceptada	5.5–7.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	caupi	temperatura_adaptacion	aceptada	15.0–40.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	caupi	temperatura_optima	aceptada	25.0–35.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	caupi	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	arveja	pH_suelo_absoluto_ecocrop	aceptada	4.5–8.3 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	arveja	pH_suelo_optimo	aceptada	5.5–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	arveja	temperatura_adaptacion	aceptada	4.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	arveja	temperatura_optima	aceptada	10.0–24.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	arveja	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	frijol de palo	pH_suelo_absoluto_ecocrop	aceptada	4.5–8.4 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	frijol de palo	pH_suelo_optimo	aceptada	5.0–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	frijol de palo	temperatura_adaptacion	aceptada	10.0–45.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	frijol de palo	temperatura_optima	aceptada	18.0–38.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	frijol de palo	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	algodon	pH_suelo_absoluto_ecocrop	aceptada	5.0–8.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	algodon	pH_suelo_optimo	aceptada	5.2–7.2 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	algodon	temperatura_adaptacion	aceptada	15.0–38.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	algodon	temperatura_optima	aceptada	22.0–32.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	algodon	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	papa	pH_suelo_absoluto_ecocrop	aceptada	4.2–8.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	papa	pH_suelo_optimo	aceptada	5.0–6.2 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	papa	temperatura_adaptacion	aceptada	7.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	papa	temperatura_optima	aceptada	15.0–25.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	papa	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	yuca	pH_suelo_absoluto_ecocrop	aceptada	4.0–9.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	yuca	pH_suelo_optimo	aceptada	5.5–8.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	yuca	temperatura_adaptacion	aceptada	10.0–35.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	yuca	temperatura_optima	aceptada	20.0–29.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	yuca	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	zapallo	pH_suelo_absoluto_ecocrop	aceptada	4.5–8.3 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	zapallo	pH_suelo_optimo	aceptada	5.5–7.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	zapallo	temperatura_adaptacion	aceptada	10.0–40.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	zapallo	temperatura_optima	aceptada	20.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	zapallo	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	cebolla	pH_suelo_absoluto_ecocrop	aceptada	4.3–8.3 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	cebolla	pH_suelo_optimo	aceptada	6.0–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	cebolla	temperatura_adaptacion	aceptada	4.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	cebolla	temperatura_optima	aceptada	12.0–25.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	cebolla	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	piquillo	pH_suelo_absoluto_ecocrop	aceptada	4.5–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	piquillo	pH_suelo_optimo	aceptada	5.5–6.8 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	piquillo	temperatura_adaptacion	aceptada	8.0–35.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	piquillo	temperatura_optima	aceptada	17.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	piquillo	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	mango	pH_suelo_absoluto_ecocrop	aceptada	4.3–8.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	mango	pH_suelo_optimo	aceptada	5.5–7.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	mango	temperatura_adaptacion	aceptada	8.0–48.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	mango	temperatura_optima	aceptada	24.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	mango	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	papaya	pH_suelo_absoluto_ecocrop	aceptada	4.5–8.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	papaya	pH_suelo_optimo	aceptada	5.5–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	papaya	temperatura_adaptacion	aceptada	12.0–44.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	papaya	temperatura_optima	aceptada	21.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	papaya	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	cafe	pH_suelo_absoluto_ecocrop	aceptada	4.3–8.4 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	cafe	pH_suelo_optimo	aceptada	5.5–7.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	cafe	temperatura_adaptacion	aceptada	10.0–34.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	cafe	temperatura_optima	aceptada	14.0–28.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	cafe	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	cacao	pH_suelo_absoluto_ecocrop	aceptada	4.0–8.0 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	cacao	pH_suelo_optimo	aceptada	5.0–6.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	cacao	temperatura_adaptacion	aceptada	10.0–38.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	cacao	temperatura_optima	aceptada	21.0–32.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	cacao	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	banano	pH_suelo_absoluto_ecocrop	aceptada	4.0–8.4 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	banano	pH_suelo_optimo	aceptada	5.5–7.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	banano	temperatura_adaptacion	aceptada	12.0–42.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	banano	temperatura_optima	aceptada	23.0–33.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	banano	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	limon	pH_suelo_absoluto_ecocrop	aceptada	4.8–8.3 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	limon	pH_suelo_optimo	aceptada	6.0–6.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	limon	temperatura_adaptacion	aceptada	13.0–38.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	limon	temperatura_optima	aceptada	26.0–32.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	limon	profundidad_suelo_apta_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R30	uva	pH_suelo_absoluto_ecocrop	aceptada	4.5–8.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R31	uva	pH_suelo_optimo	aceptada	5.5–7.5 pH (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R32	uva	temperatura_adaptacion	aceptada	10.0–38.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R33	uva	temperatura_optima	aceptada	18.0–30.0 °C (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R34	uva	profundidad_suelo_apta_minima	aceptada	0.2–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	arroz	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	maiz amarillo duro	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	frijol grano	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	caupi	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	arveja	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	frijol de palo	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	algodon	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	papa	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	yuca	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	zapallo	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	cebolla	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	piquillo	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	mango	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	papaya	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	cafe	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	cacao	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	banano	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	limon	profundidad_suelo_favorable_minima	aceptada	0.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R4D	uva	profundidad_suelo_favorable_minima	aceptada	1.5–None m (bibliografico, rango de especie)
+parametros_cultivo_v2_propuesta.csv	R7	arveja	temperatura_umbral_estres_reproductivo	aceptada	27.0–32.0 °C (bibliografico; se compara el inferior con la Tmáx media PISCOt de los meses de floración, regla blanda)
+umbrales_salinidad_propuesta.csv	arveja	arveja	ECe	aceptada	ECe 100 % = 3.4 dS/m (bibliografico)
+umbrales_salinidad_defecto_clase.csv	frijol de palo	frijol de palo	ECe	aceptada	ECe 100 % = 1.3 dS/m (analogo_externo); defecto de clase: menor confianza, nunca descarta
+umbrales_salinidad_defecto_clase.csv	mango	mango	ECe	aceptada	ECe 100 % = 1.3 dS/m (analogo_externo); defecto de clase: menor confianza, nunca descarta
+umbrales_salinidad_defecto_clase.csv	papaya	papaya	ECe	aceptada	ECe 100 % = 3.0 dS/m (analogo_externo); defecto de clase: menor confianza, nunca descarta
+umbrales_salinidad_defecto_clase.csv	yuca	yuca	ECe	aceptada	ECe 100 % = 3.0 dS/m (analogo_externo); defecto de clase: menor confianza, nunca descarta
+umbrales_salinidad_defecto_clase.csv	banano	banano	ECe	aceptada	ECe 100 % = 1.3 dS/m (analogo_externo); defecto de clase: menor confianza, nunca descarta
+fichas_anuales.csv	AN0263	arveja	ece_umbral	aceptada	alternativa rotulada como estimación: solo en notas
+fichas_anuales.csv	AN0264	arveja	pendiente_salinidad_b	aceptada	alternativa rotulada como estimación: solo en notas
+fichas_anuales.csv	AN0419	pimiento/paprika	ece_umbral	ignorada	cultivo sin umbral principal en el catálogo
+fichas_anuales.csv	R7A001	arveja	ece_umbral	aceptada	umbral ECe del cultivar SP-290 = 2.5 dS/m: amplía el rango del umbral, no reemplaza el principal
+fichas_anuales.csv	R7A002	arveja	ece_umbral	aceptada	umbral ECe del cultivar Durana = 4.5 dS/m: amplía el rango del umbral, no reemplaza el principal
+fichas_anuales.csv	AN0453	arroz	tolerancia_anegamiento	rechazada	valor/valor_min/valor_max no numérico
+fichas_anuales.csv	AN0454	maiz amarillo duro	perdida_rendimiento_anegamiento	aceptada	pérdida media 22.43 % con 0-3 días de anegamiento; solo se cita si hay exceso de agua
+fichas_anuales.csv	AN0455	maiz amarillo duro	perdida_rendimiento_anegamiento	aceptada	pérdida media 39.77 % con 3-6 días de anegamiento; solo se cita si hay exceso de agua
+fichas_anuales.csv	AN0456	maiz amarillo duro	perdida_rendimiento_anegamiento	aceptada	pérdida media 52.72 % con 6-9 días de anegamiento; solo se cita si hay exceso de agua
+fichas_anuales.csv	AN0457	maiz amarillo duro	perdida_rendimiento_anegamiento	aceptada	pérdida media 76.33 % con 9-15 días de anegamiento; solo se cita si hay exceso de agua
+fichas_anuales.csv	AN0458	algodon	perdida_rendimiento_anegamiento	aceptada	pérdida media 59.95 % promedio de duraciones de hasta 15 días; solo se cita si hay exceso de agua
+fichas_anuales.csv	AN0459	trigo	perdida_rendimiento_anegamiento	ignorada	cultivo fuera del catálogo
+fichas_anuales.csv	AN0462	cana de azucar (planta)	tolerancia_encharcamiento	rechazada	unidad 'texto' fuera de la lista de CONTRATO.md; valor/valor_min/valor_max no numérico
+nutrientes_cultivo_propuesta.csv	caupi	caupi	exportación	aceptada	N/P2O5/K2O 33.0/8.9/19.2 kg/t (analogo_externo, Piauí, Brasil)
+nutrientes_cultivo_propuesta.csv	caupi	caupi	absorción	aceptada	N/P2O5/K2O 101.8/19.0/85.6 kg/t (analogo_externo, Piauí, Brasil)
+nutrientes_cultivo_propuesta.csv	zapallo	zapallo	exportación	aceptada	N/P2O5/K2O 1.2/1.0/5.8 kg/t (analogo_externo, Carolina del Norte, EE.UU.)
+nutrientes_cultivo_propuesta.csv	papa	papa	exportación	aceptada	coincide con la cifra ya cargada del repo; se conserva
+fao56_kc_propuesta.csv	mango	mango	Kc	aceptada	Kc media 0.85–0.95 (marcado: no es Kc de FAO-56 Tabla 12)
+fao56_kc_propuesta.csv	papaya	papaya	Kc	aceptada	Kc media 0.95–1.05 (marcado: no es Kc de FAO-56 Tabla 12)
+calendario_siembra_cosecha_piura.csv	2	algodon	calendario	aceptada	alto_piura: siembra jun (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	3	algodon	calendario	aceptada	bajo_piura: siembra mar-may (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	4	algodon	calendario	aceptada	chira: siembra ene; mar; jun; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	5	algodon	calendario	aceptada	medio_piura: siembra feb-may (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	6	algodon	calendario	aceptada	san_lorenzo: siembra mar-may (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	7	algodon	calendario	aceptada	bajo_piura: siembra feb-jul (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	8	algodon	calendario	aceptada	san_lorenzo: siembra mar (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	9	arroz	calendario	aceptada	alto_piura: siembra ene-mar (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	10	arroz	calendario	aceptada	bajo_piura: siembra feb-mar (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	11	arroz	calendario	aceptada	chira: siembra feb-mar; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	12	arroz	calendario	aceptada	medio_piura: siembra feb-mar; jul-ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	13	arroz	calendario	aceptada	san_lorenzo: siembra feb; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	14	arroz	calendario	aceptada	sierra_piura: siembra ene-feb (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	15	arveja	calendario	aceptada	san_lorenzo: siembra mar-may; jul (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	16	arveja	calendario	aceptada	sierra_piura: siembra mar-abr (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	17	arveja	calendario	aceptada	sierra_piura: siembra mar; ago-set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	18	cacao	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	19	cacao	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	20	cacao	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	21	cafe	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	22	cafe	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	23	camote	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	24	camote	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	25	camote	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	26	cebolla	calendario	aceptada	bajo_piura: siembra mar-abr; jun; ago-set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	27	cebolla	calendario	aceptada	chira: siembra abr; jun; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	28	cebolla	calendario	aceptada	medio_piura: siembra mar-abr; jun-ago; oct (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	29	frijol castilla/grano seco	calendario	ignorada	'frijol castilla' en Piura suele ser caupí, pero la fila dice grano seco (podría ser frijol grano); no se asigna
+calendario_siembra_cosecha_piura.csv	30	frijol castilla/grano seco	calendario	ignorada	'frijol castilla' en Piura suele ser caupí, pero la fila dice grano seco (podría ser frijol grano); no se asigna
+calendario_siembra_cosecha_piura.csv	31	caupi	calendario	aceptada	alto_piura: siembra feb-mar; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	32	caupi	calendario	aceptada	bajo_piura: siembra mar; ago-set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	33	caupi	calendario	aceptada	chira: siembra feb; ago; oct (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	34	caupi	calendario	aceptada	medio_piura: siembra feb-abr; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	35	caupi	calendario	aceptada	san_lorenzo: siembra feb-abr (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	36	caupi	calendario	aceptada	sierra_piura: siembra may-jun; set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	37	frijol caupi (vaina verde)	calendario	ignorada	puede ser caupí o el 'frijol verde' del catálogo; no se asigna
+calendario_siembra_cosecha_piura.csv	38	frijol caupi (vaina verde)	calendario	ignorada	puede ser caupí o el 'frijol verde' del catálogo; no se asigna
+calendario_siembra_cosecha_piura.csv	39	frijol de palo	calendario	aceptada	alto_piura: siembra ene-feb; jun; nov (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	40	frijol de palo	calendario	aceptada	chira: siembra feb; abr; jun; ago; oct-nov (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	41	frijol de palo	calendario	aceptada	sierra_piura: siembra feb-mar (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	42	haba	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	43	limon	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	44	limon	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	45	limon	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	46	limon	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	47	limon	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	48	limon	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	49	maiz amarillo duro	calendario	aceptada	alto_piura: siembra feb-mar (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	50	maiz amarillo duro	calendario	aceptada	bajo_piura: siembra feb-mar; ago-set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	51	maiz amarillo duro	calendario	aceptada	chira: siembra feb; abr; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	52	maiz amarillo duro	calendario	aceptada	medio_piura: siembra feb (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	53	maiz amarillo duro	calendario	aceptada	san_lorenzo: siembra feb-mar; ago-set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	54	maiz amarillo duro	calendario	aceptada	sierra_piura: siembra ene-feb (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	55	maiz amilaceo	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	56	maiz amilaceo	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	57	maiz choclo	calendario	aceptada	chira: siembra feb; may; ago (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	58	mango	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	59	mango	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	60	mango	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	61	mango	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	62	mango	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	63	mango	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	64	mani	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	65	mani	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	66	maracuya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	67	maracuya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	68	maracuya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	69	maracuya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	70	maracuya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	71	maracuya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	72	melon	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	73	melon	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	74	melon	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	75	naranja	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	76	naranja	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	77	naranja	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	78	naranja	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	79	naranja	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	80	palta	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	81	palta	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	82	palta	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	83	palta	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	84	palta	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	85	papa	calendario	aceptada	sierra_piura: siembra mar; may (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	86	papaya	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	87	papaya	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	88	papaya	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	89	papaya	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	90	papaya	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	91	papaya	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	92	pimiento/paprika	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	93	pimiento/paprika	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	94	pimiento/paprika	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	95	piquillo	calendario	aceptada	bajo_piura: siembra feb; ago; oct (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	96	piquillo	calendario	aceptada	chira: siembra may; set (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	97	piquillo	calendario	aceptada	medio_piura: siembra mar-abr; jul-ago; oct (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	98	banano	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	99	banano	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	100	banano	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	101	banano	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	102	banano	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	103	banano	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	104	sandia	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	105	sandia	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	106	sandia	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	107	sandia	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	108	sorgo escobero	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	109	soya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	110	soya	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	111	tomate	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	112	tomate	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	113	tomate	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	114	tomate	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	115	trigo	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	116	trigo	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	117	uva	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	118	uva	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	119	uva	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	120	uva	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	121	uva	calendario	ignorada	perenne: la ventana es de cosecha y el motor no programa siembras de perennes
+calendario_siembra_cosecha_piura.csv	122	yuca	calendario	aceptada	alto_piura: siembra ene-mar (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	123	yuca	calendario	aceptada	chira: siembra feb; abr; ago; nov (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	124	yuca	calendario	aceptada	san_lorenzo: siembra feb; abr (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	125	yuca	calendario	aceptada	sierra_piura: siembra ene-feb; may (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	126	zapallo	calendario	aceptada	sierra_piura: siembra ene-feb (regional, observado; ventana observada, no recomendación)
+calendario_siembra_cosecha_piura.csv	127	zarandaja	calendario	ignorada	cultivo fuera del catálogo del motor
+calendario_siembra_cosecha_piura.csv	128	arveja	calendario	aceptada	bajo_piura: ausencia observada (0 ha en la DRAP, 2016-2024 (9 campañas calendario)); sin ventana de siembra observada; se usa como alerta, no como ventana
+reglas_rotacion.csv	R4R001	arroz	cambio_ECe_suelo	aceptada	regla del motor: arroz con drenaje deficiente o napa < 2 m sube napa y ECe
+reglas_rotacion.csv	R4R002	arroz	cambio_ECe_suelo	aceptada	regla del motor: con drenaje funcional y napa ≥ 2 m el arroz puede lavar sales
+reglas_rotacion.csv	R4R003	todos	riesgo_perdida_cultivo	aceptada	regla del motor: alerta de Niño + parcela inundable + cultivo en campo ene-abr = riesgo alto de pérdida
+reglas_rotacion.csv	R4R004	algodon	plazo_campo_limpio	aceptada	regla del motor: campo limpio 75-80 días tras el algodón
+reglas_rotacion.csv	R4R005	algodon	campanas_sin_algodon	aceptada	regla del motor: gorgojo de la chupadera: al menos 1 campaña sin algodón
+reglas_rotacion.csv	R4R006	algodon	socas_algodon	aceptada	regla del motor: socas de algodón prohibidas
+reglas_rotacion.csv	86 filas			ignorada	filas que el motor v1 no modela (de ellas 0 no cumplirían el contrato)
+fichas_anuales.csv	R4A002	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A003	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A006	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A007	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A010	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A011	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A014	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A015	algodon	ventana_siembra	aceptada	regla del motor: ventana de siembra algodón
+fichas_anuales.csv	R4A021	todos	area_cultivo_perdida_FEN	aceptada	regla del motor: área perdida FEN 2017
+fichas_anuales.csv	R4A022	todos	area_cultivo_afectada_FEN	aceptada	regla del motor: área afectada FEN 2017
+fichas_anuales.csv	R4A025	todos	pronostico_FEN	aceptada	regla del motor: pronóstico ENFEN vigente
+fichas_anuales.csv	R4A026	todos	napa_freatica_profundidad_minima_control_salinidad	aceptada	regla del motor: napa ≥ 2 m para que valga ECe ≈ 1.5·ECw
+fichas_anuales.csv	686 filas			ignorada	filas que el motor v1 no modela (de ellas 37 no cumplirían el contrato)
+recuperacion_suelo.csv	R4S001	algodon	restriccion_legal_incorporacion_rastrojo	aceptada	regla del motor: prohibido incorporar rastrojo de algodón (RM 0251-94-AG Art. 12)
+recuperacion_suelo.csv	32 filas			ignorada	filas que el motor v1 no modela (de ellas 1 no cumplirían el contrato)
+perennes.csv	PE0001	banano	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0002	banano	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0003	banano	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0015	banano	anos_a_primera_produccion	aceptada	años a la primera producción 0.85–1.20 años (regional) para chira
+perennes.csv	PE0017	banano	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0018	banano	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0019	banano	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0031	banano	anos_a_primera_produccion	aceptada	años a la primera producción 0.85–1.20 años (regional) para chira
+perennes.csv	PE0033	uva de mesa	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0034	uva de mesa	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0035	uva de mesa	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0053	uva de mesa	anos_a_primera_produccion	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0055	limon	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0056	limon	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0057	limon	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0069	limon	anos_a_primera_produccion	aceptada	años a la primera producción 3.00–6.00 años (analogo_externo) para cualquier zona
+perennes.csv	PE0075	mango	anos_a_primera_produccion	aceptada	años a la primera producción 3.00–4.00 años (regional) para cualquier zona
+perennes.csv	PE0077	palta	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0078	palta	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0079	palta	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0083	palta	anos_a_primera_produccion	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0084	palta	anos_a_primera_produccion	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0086	cacao	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0087	cacao	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0088	cacao	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0094	cacao	anos_a_primera_produccion	aceptada	años a la primera producción 3.00 años (analogo_externo) para alto_piura, san_lorenzo, sierra_piura
+perennes.csv	PE0096	cafe	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0097	cafe	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0098	cafe	kc	ignorada	duplica FAO-56 Tabla 12, ya cargada del repo
+perennes.csv	PE0104	cafe	anos_a_primera_produccion	aceptada	años a la primera producción 2.00–3.00 años (analogo_externo) para san_lorenzo, sierra_piura
+perennes.csv	PE0110	papaya	anos_a_primera_produccion	rechazada	sin fuente; sin url_o_doi
+perennes.csv	PE0113	maracuya	anos_a_primera_produccion	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0115	pina	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0116	pina	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0117	pina	kc	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0129	pina	anos_a_primera_produccion	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	PE0138	naranja	anos_a_primera_produccion	rechazada	sin fuente; sin url_o_doi
+perennes.csv	R3P0059	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0061	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0063	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0065	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0067	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0069	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0071	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0073	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0075	mango	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0077	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0079	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0081	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0083	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0085	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0087	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0089	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0091	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0093	papaya	kc	ignorada	duplica Paredes et al. 2024, ya cargado de fao56_kc_propuesta.csv
+perennes.csv	R3P0097	papaya	meses_a_primera_cosecha	aceptada	años a la primera producción 0.75 años (bibliografico) para cualquier zona
+perennes.csv	R5P003	palta	anos_a_primera_cosecha_observada	ignorada	cultivo fuera del catálogo de perennes del motor
+perennes.csv	R6P001	mango	ece_inicio_problemas	aceptada	ECe 1.4 dS/m de inicio de problemas (analogo_externo): no cambia el umbral ECe 100 % = 1.3 (defecto de clase); se anota como contraste
+perennes.csv	R6P004	mango	kc	aceptada	Kc 0.88 (analogo_externo) cae dentro de la envolvente 0.85–0.95: se conserva la envolvente y se cita como contraste
+perennes.csv	R6P005	mango	kc	aceptada	Kc 0.84 (analogo_externo, Submedio São Francisco (Petrolina-Juazeiro, Brasil), semiárido con riego) fuera de 0.85–0.95: amplía la envolvente del agua anual a 0.84–0.95
+perennes.csv	R6P006	mango	kc	aceptada	Kc 0.81 (analogo_externo, Submedio São Francisco (Petrolina-Juazeiro, Brasil), semiárido con riego) fuera de 0.84–0.95: amplía la envolvente del agua anual a 0.81–0.95
+perennes.csv	R6P007	mango	kc	aceptada	Kc 0.73 (analogo_externo, Submedio São Francisco (Petrolina-Juazeiro, Brasil), semiárido con riego) fuera de 0.81–0.95: amplía la envolvente del agua anual a 0.73–0.95
+perennes.csv	R6P008	banano	kc	aceptada	Kc 1.12 (analogo_externo) cae dentro de la envolvente 1.1–1.2: se conserva la envolvente y se cita como contraste
+perennes.csv	217 filas			ignorada	variables de perennes que el motor no modela
+recuperacion_suelo.csv	R6S004		ce_agua_subterranea	aceptada	contexto regional medio_bajo_piura: 0.04–16.83 dS/m (regional); solo aviso, nunca reemplaza el dato de la parcela
+recuperacion_suelo.csv	R6S006		napa_freatica_sev_mediana	aceptada	contexto regional medio_bajo_piura: 0.60–6.00 m (regional); solo aviso, nunca reemplaza el dato de la parcela
+temperatura_pisco_zona.csv	2	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	3	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	4	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	5	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	6	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	7	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	8	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	9	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	10	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	11	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	12	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	13	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de alto_piura mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	14	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	15	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	16	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	17	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	18	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	19	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	20	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	21	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	22	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	23	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	24	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	25	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de medio_piura mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	26	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	27	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	28	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	29	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	30	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	31	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	32	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	33	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	34	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	35	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	36	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	37	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de bajo_piura mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	38	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	39	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	40	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	41	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	42	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	43	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	44	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	45	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	46	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	47	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	48	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	49	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de chira mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	50	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	51	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	52	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	53	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	54	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	55	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	56	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	57	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	58	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	59	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	60	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	61	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de san_lorenzo mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	62	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	63	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	64	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	65	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	66	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	67	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	68	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	69	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	70	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	71	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	72	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	73	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	74	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 1 (regla térmica grave)
+temperatura_pisco_zona.csv	75	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 2 (regla térmica grave)
+temperatura_pisco_zona.csv	76	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 3 (regla térmica grave)
+temperatura_pisco_zona.csv	77	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 4 (regla térmica grave)
+temperatura_pisco_zona.csv	78	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 5 (regla térmica grave)
+temperatura_pisco_zona.csv	79	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 6 (regla térmica grave)
+temperatura_pisco_zona.csv	80	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 7 (regla térmica grave)
+temperatura_pisco_zona.csv	81	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 8 (regla térmica grave)
+temperatura_pisco_zona.csv	82	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 9 (regla térmica grave)
+temperatura_pisco_zona.csv	83	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 10 (regla térmica grave)
+temperatura_pisco_zona.csv	84	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 11 (regla térmica grave)
+temperatura_pisco_zona.csv	85	todos	temperatura_max_media_mensual	aceptada	Tmáx media PISCOt de sierra_piura mes 12 (regla térmica grave)
+temperatura_pisco_zona.csv	86	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	87	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	88	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	89	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	90	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	91	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	92	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	93	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	94	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	95	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	96	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	97	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	98	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	99	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	100	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	101	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	102	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	103	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	104	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	105	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	106	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	107	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	108	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	109	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	110	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	111	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	112	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	113	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	114	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	115	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	116	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	117	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	118	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	119	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	120	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	121	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	122	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	123	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	124	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	125	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	126	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	127	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	128	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	129	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	130	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	131	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	132	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	133	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	134	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	135	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	136	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	137	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	138	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	139	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	140	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	141	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	142	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	143	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	144	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	145	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	146	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	147	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	148	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	149	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	150	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	151	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	152	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	153	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	154	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	155	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	156	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	157	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	158	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	159	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	160	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	161	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	162	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	163	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	164	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	165	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	166	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	167	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	168	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+temperatura_pisco_zona.csv	169	todos	temperatura_min_media_mensual	ignorada	el motor solo usa la media de las máximas en la regla térmica grave
+lluvia_zona_pisco.csv	2		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 1: 2.4–12.1 mm
+lluvia_zona_pisco.csv	3		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 1: 5.8–28.5 mm
+lluvia_zona_pisco.csv	4		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 1: 4.9–564.7 mm
+lluvia_zona_pisco.csv	5		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 2: 2.7–69.4 mm
+lluvia_zona_pisco.csv	6		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 2: 26.5–184.3 mm
+lluvia_zona_pisco.csv	7		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 2: 38.6–478.3 mm
+lluvia_zona_pisco.csv	8		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 3: 0.3–40.1 mm
+lluvia_zona_pisco.csv	9		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 3: 41.4–297.5 mm
+lluvia_zona_pisco.csv	10		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 3: 91.7–395.9 mm
+lluvia_zona_pisco.csv	11		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 4: 0.2–9.4 mm
+lluvia_zona_pisco.csv	12		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 4: 1.8–29.3 mm
+lluvia_zona_pisco.csv	13		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 4: 9.3–226.9 mm
+lluvia_zona_pisco.csv	14		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 5: 0.0–2.7 mm
+lluvia_zona_pisco.csv	15		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 5: 0.0–3.4 mm
+lluvia_zona_pisco.csv	16		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 5: 0.0–97.2 mm
+lluvia_zona_pisco.csv	17		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 6: 0.0–0.3 mm
+lluvia_zona_pisco.csv	18		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 6: 0.0–0.4 mm
+lluvia_zona_pisco.csv	19		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 6: 1.0–23.2 mm
+lluvia_zona_pisco.csv	20		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 7: 0.0–0.2 mm
+lluvia_zona_pisco.csv	21		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 7: 0.0–0.3 mm
+lluvia_zona_pisco.csv	22		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 7: 0.0–1.7 mm
+lluvia_zona_pisco.csv	23		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 8: 0.0–0.3 mm
+lluvia_zona_pisco.csv	24		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 8: 0.0–0.5 mm
+lluvia_zona_pisco.csv	25		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 8: 0.0–0.2 mm
+lluvia_zona_pisco.csv	26		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 9: 0.0–0.1 mm
+lluvia_zona_pisco.csv	27		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 9: 0.0 mm
+lluvia_zona_pisco.csv	28		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 9: 0.0–0.5 mm
+lluvia_zona_pisco.csv	29		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 10: 0.0–0.8 mm
+lluvia_zona_pisco.csv	30		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 10: 0.0 mm
+lluvia_zona_pisco.csv	31		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 10: 0.0–2.8 mm
+lluvia_zona_pisco.csv	32		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 11: 0.0–1.0 mm
+lluvia_zona_pisco.csv	33		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 11: 0.0–0.1 mm
+lluvia_zona_pisco.csv	34		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 11: 0.9–2.2 mm
+lluvia_zona_pisco.csv	35		precipitacion_mensual	aceptada	lluvia PISCOp chira sin_el_nino mes 12: 0.0–2.1 mm
+lluvia_zona_pisco.csv	36		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_moderado mes 12: 0.2–0.4 mm
+lluvia_zona_pisco.csv	37		precipitacion_mensual	aceptada	lluvia PISCOp chira el_nino_fuerte_extraordinario mes 12: 0.0–79.1 mm
+lluvia_zona_pisco.csv	38		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	39		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	40		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	41		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	42		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	43		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	44		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 1: 4.6–16.7 mm
+lluvia_zona_pisco.csv	45		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 1: 7.6–59.8 mm
+lluvia_zona_pisco.csv	46		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 1: 15.1–550.0 mm
+lluvia_zona_pisco.csv	47		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 2: 6.7–107.9 mm
+lluvia_zona_pisco.csv	48		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 2: 51.3–312.8 mm
+lluvia_zona_pisco.csv	49		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 2: 74.1–723.0 mm
+lluvia_zona_pisco.csv	50		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 3: 1.1–77.2 mm
+lluvia_zona_pisco.csv	51		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 3: 62.3–439.4 mm
+lluvia_zona_pisco.csv	52		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 3: 54.8–348.9 mm
+lluvia_zona_pisco.csv	53		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 4: 1.7–27.7 mm
+lluvia_zona_pisco.csv	54		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 4: 7.2–60.4 mm
+lluvia_zona_pisco.csv	55		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 4: 28.3–344.0 mm
+lluvia_zona_pisco.csv	56		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 5: 0.1–3.2 mm
+lluvia_zona_pisco.csv	57		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 5: 0.4–10.5 mm
+lluvia_zona_pisco.csv	58		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 5: 0.2–124.7 mm
+lluvia_zona_pisco.csv	59		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 6: 0.0–0.6 mm
+lluvia_zona_pisco.csv	60		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 6: 0.0–0.7 mm
+lluvia_zona_pisco.csv	61		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 6: 0.4–29.6 mm
+lluvia_zona_pisco.csv	62		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 7: 0.0–0.2 mm
+lluvia_zona_pisco.csv	63		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 7: 0.0–0.5 mm
+lluvia_zona_pisco.csv	64		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 7: 0.0–1.8 mm
+lluvia_zona_pisco.csv	65		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 8: 0.0–0.4 mm
+lluvia_zona_pisco.csv	66		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 8: 0.0–0.7 mm
+lluvia_zona_pisco.csv	67		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 8: 0.0–0.3 mm
+lluvia_zona_pisco.csv	68		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 9: 0.0–0.4 mm
+lluvia_zona_pisco.csv	69		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 9: 0.1–0.2 mm
+lluvia_zona_pisco.csv	70		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 9: 0.1–1.3 mm
+lluvia_zona_pisco.csv	71		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 10: 0.0–1.8 mm
+lluvia_zona_pisco.csv	72		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 10: 0.0–0.2 mm
+lluvia_zona_pisco.csv	73		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 10: 0.4–2.7 mm
+lluvia_zona_pisco.csv	74		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 11: 0.0–1.4 mm
+lluvia_zona_pisco.csv	75		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 11: 0.0–0.2 mm
+lluvia_zona_pisco.csv	76		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 11: 0.9–3.3 mm
+lluvia_zona_pisco.csv	77		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo sin_el_nino mes 12: 0.9–5.7 mm
+lluvia_zona_pisco.csv	78		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_moderado mes 12: 2.2–6.1 mm
+lluvia_zona_pisco.csv	79		precipitacion_mensual	aceptada	lluvia PISCOp san_lorenzo el_nino_fuerte_extraordinario mes 12: 1.0–319.6 mm
+lluvia_zona_pisco.csv	80		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	81		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	82		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	83		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	84		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	85		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	86		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 1: 1.1–6.8 mm
+lluvia_zona_pisco.csv	87		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 1: 2.7–50.0 mm
+lluvia_zona_pisco.csv	88		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 1: 3.4–401.4 mm
+lluvia_zona_pisco.csv	89		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 2: 2.4–49.3 mm
+lluvia_zona_pisco.csv	90		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 2: 20.4–182.3 mm
+lluvia_zona_pisco.csv	91		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 2: 41.3–603.9 mm
+lluvia_zona_pisco.csv	92		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 3: 0.1–38.2 mm
+lluvia_zona_pisco.csv	93		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 3: 53.9–361.4 mm
+lluvia_zona_pisco.csv	94		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 3: 56.6–304.9 mm
+lluvia_zona_pisco.csv	95		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 4: 0.1–11.0 mm
+lluvia_zona_pisco.csv	96		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 4: 0.5–20.9 mm
+lluvia_zona_pisco.csv	97		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 4: 12.1–290.4 mm
+lluvia_zona_pisco.csv	98		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 5: 0.0–2.2 mm
+lluvia_zona_pisco.csv	99		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 5: 0.0–5.1 mm
+lluvia_zona_pisco.csv	100		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 5: 0.0–67.8 mm
+lluvia_zona_pisco.csv	101		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 6: 0.0–0.3 mm
+lluvia_zona_pisco.csv	102		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 6: 0.0–0.2 mm
+lluvia_zona_pisco.csv	103		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 6: 0.1–28.7 mm
+lluvia_zona_pisco.csv	104		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 7: 0.0–0.1 mm
+lluvia_zona_pisco.csv	105		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 7: 0.0–0.4 mm
+lluvia_zona_pisco.csv	106		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 7: 0.0–1.2 mm
+lluvia_zona_pisco.csv	107		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 8: 0.0–0.2 mm
+lluvia_zona_pisco.csv	108		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 8: 0.0–0.5 mm
+lluvia_zona_pisco.csv	109		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 8: 0.0–0.2 mm
+lluvia_zona_pisco.csv	110		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 9: 0.1–0.3 mm
+lluvia_zona_pisco.csv	111		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 9: 0.0–0.1 mm
+lluvia_zona_pisco.csv	112		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 9: 0.1–0.7 mm
+lluvia_zona_pisco.csv	113		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 10: 0.0–1.0 mm
+lluvia_zona_pisco.csv	114		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 10: 0.0 mm
+lluvia_zona_pisco.csv	115		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 10: 0.1–1.1 mm
+lluvia_zona_pisco.csv	116		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 11: 0.0–1.0 mm
+lluvia_zona_pisco.csv	117		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 11: 0.0–0.4 mm
+lluvia_zona_pisco.csv	118		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 11: 0.3–2.2 mm
+lluvia_zona_pisco.csv	119		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura sin_el_nino mes 12: 0.0–2.2 mm
+lluvia_zona_pisco.csv	120		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_moderado mes 12: 0.2–0.3 mm
+lluvia_zona_pisco.csv	121		precipitacion_mensual	aceptada	lluvia PISCOp medio_piura el_nino_fuerte_extraordinario mes 12: 0.0–69.5 mm
+lluvia_zona_pisco.csv	122		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	123		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	124		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	125		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	126		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	127		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	128		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 1: 2.4–7.8 mm
+lluvia_zona_pisco.csv	129		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 1: 3.3–151.7 mm
+lluvia_zona_pisco.csv	130		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 1: 6.3–973.9 mm
+lluvia_zona_pisco.csv	131		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 2: 1.5–22.2 mm
+lluvia_zona_pisco.csv	132		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 2: 8.2–90.2 mm
+lluvia_zona_pisco.csv	133		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 2: 17.5–464.5 mm
+lluvia_zona_pisco.csv	134		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 3: 0.6–41.4 mm
+lluvia_zona_pisco.csv	135		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 3: 45.3–506.4 mm
+lluvia_zona_pisco.csv	136		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 3: 53.8–335.2 mm
+lluvia_zona_pisco.csv	137		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 4: 0.2–5.3 mm
+lluvia_zona_pisco.csv	138		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 4: 2.1–8.8 mm
+lluvia_zona_pisco.csv	139		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 4: 1.2–80.4 mm
+lluvia_zona_pisco.csv	140		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 5: 0.0–1.1 mm
+lluvia_zona_pisco.csv	141		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 5: 0.0–1.3 mm
+lluvia_zona_pisco.csv	142		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 5: 0.0–21.2 mm
+lluvia_zona_pisco.csv	143		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 6: 0.0–0.3 mm
+lluvia_zona_pisco.csv	144		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 6: 0.0–0.1 mm
+lluvia_zona_pisco.csv	145		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 6: 0.2–15.3 mm
+lluvia_zona_pisco.csv	146		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 7: 0.0–0.3 mm
+lluvia_zona_pisco.csv	147		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 7: 0.0–0.3 mm
+lluvia_zona_pisco.csv	148		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 7: 0.0–0.5 mm
+lluvia_zona_pisco.csv	149		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 8: 0.0–0.2 mm
+lluvia_zona_pisco.csv	150		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 8: 0.0–0.4 mm
+lluvia_zona_pisco.csv	151		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 8: 0.0–0.2 mm
+lluvia_zona_pisco.csv	152		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 9: 0.0–0.2 mm
+lluvia_zona_pisco.csv	153		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 9: 0.0–0.1 mm
+lluvia_zona_pisco.csv	154		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 9: 0.0–0.3 mm
+lluvia_zona_pisco.csv	155		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 10: 0.0–0.5 mm
+lluvia_zona_pisco.csv	156		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 10: 0.0 mm
+lluvia_zona_pisco.csv	157		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 10: 0.0–0.3 mm
+lluvia_zona_pisco.csv	158		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 11: 0.0–0.8 mm
+lluvia_zona_pisco.csv	159		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 11: 0.0–0.2 mm
+lluvia_zona_pisco.csv	160		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 11: 0.5–1.6 mm
+lluvia_zona_pisco.csv	161		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura sin_el_nino mes 12: 0.0–1.6 mm
+lluvia_zona_pisco.csv	162		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_moderado mes 12: 0.2–0.3 mm
+lluvia_zona_pisco.csv	163		precipitacion_mensual	aceptada	lluvia PISCOp bajo_piura el_nino_fuerte_extraordinario mes 12: 0.0–31.8 mm
+lluvia_zona_pisco.csv	164		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	165		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	166		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	167		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	168		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	169		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	170		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 1: 10.2–48.3 mm
+lluvia_zona_pisco.csv	171		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 1: 22.2–145.9 mm
+lluvia_zona_pisco.csv	172		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 1: 88.3–407.0 mm
+lluvia_zona_pisco.csv	173		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 2: 17.8–211.5 mm
+lluvia_zona_pisco.csv	174		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 2: 63.5–438.8 mm
+lluvia_zona_pisco.csv	175		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 2: 127.2–647.8 mm
+lluvia_zona_pisco.csv	176		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 3: 11.0–288.6 mm
+lluvia_zona_pisco.csv	177		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 3: 203.8–1 104.9 mm
+lluvia_zona_pisco.csv	178		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 3: 112.6–802.6 mm
+lluvia_zona_pisco.csv	179		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 4: 6.6–53.2 mm
+lluvia_zona_pisco.csv	180		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 4: 15.6–99.0 mm
+lluvia_zona_pisco.csv	181		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 4: 47.9–393.9 mm
+lluvia_zona_pisco.csv	182		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 5: 1.1–9.5 mm
+lluvia_zona_pisco.csv	183		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 5: 1.5–21.0 mm
+lluvia_zona_pisco.csv	184		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 5: 1.4–120.7 mm
+lluvia_zona_pisco.csv	185		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 6: 0.2–1.9 mm
+lluvia_zona_pisco.csv	186		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 6: 0.1–1.3 mm
+lluvia_zona_pisco.csv	187		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 6: 0.8–54.5 mm
+lluvia_zona_pisco.csv	188		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 7: 0.0–0.7 mm
+lluvia_zona_pisco.csv	189		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 7: 0.0–1.6 mm
+lluvia_zona_pisco.csv	190		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 7: 0.0–1.3 mm
+lluvia_zona_pisco.csv	191		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 8: 0.0–0.7 mm
+lluvia_zona_pisco.csv	192		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 8: 0.2–0.6 mm
+lluvia_zona_pisco.csv	193		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 8: 0.0–0.5 mm
+lluvia_zona_pisco.csv	194		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 9: 0.1–1.5 mm
+lluvia_zona_pisco.csv	195		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 9: 0.2–2.2 mm
+lluvia_zona_pisco.csv	196		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 9: 0.0–4.3 mm
+lluvia_zona_pisco.csv	197		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 10: 0.6–7.6 mm
+lluvia_zona_pisco.csv	198		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 10: 0.6–1.7 mm
+lluvia_zona_pisco.csv	199		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 10: 1.8–6.6 mm
+lluvia_zona_pisco.csv	200		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 11: 0.2–5.8 mm
+lluvia_zona_pisco.csv	201		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 11: 0.3–2.2 mm
+lluvia_zona_pisco.csv	202		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 11: 5.1–11.2 mm
+lluvia_zona_pisco.csv	203		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura sin_el_nino mes 12: 1.9–13.7 mm
+lluvia_zona_pisco.csv	204		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_moderado mes 12: 4.6–14.4 mm
+lluvia_zona_pisco.csv	205		precipitacion_mensual	aceptada	lluvia PISCOp alto_piura el_nino_fuerte_extraordinario mes 12: 0.8–174.0 mm
+lluvia_zona_pisco.csv	206		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	207		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	208		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	209		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	210		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	211		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	212		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 1: 56.7–168.0 mm
+lluvia_zona_pisco.csv	213		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 1: 40.5–152.0 mm
+lluvia_zona_pisco.csv	214		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 1: 128.3–313.5 mm
+lluvia_zona_pisco.csv	215		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 2: 79.3–278.9 mm
+lluvia_zona_pisco.csv	216		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 2: 130.7–260.8 mm
+lluvia_zona_pisco.csv	217		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 2: 162.4–318.1 mm
+lluvia_zona_pisco.csv	218		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 3: 59.4–278.6 mm
+lluvia_zona_pisco.csv	219		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 3: 163.5–501.1 mm
+lluvia_zona_pisco.csv	220		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 3: 197.7–388.1 mm
+lluvia_zona_pisco.csv	221		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 4: 67.5–186.7 mm
+lluvia_zona_pisco.csv	222		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 4: 88.7–203.4 mm
+lluvia_zona_pisco.csv	223		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 4: 190.4–378.7 mm
+lluvia_zona_pisco.csv	224		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 5: 21.6–104.2 mm
+lluvia_zona_pisco.csv	225		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 5: 35.1–130.4 mm
+lluvia_zona_pisco.csv	226		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 5: 41.6–251.9 mm
+lluvia_zona_pisco.csv	227		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 6: 4.6–31.0 mm
+lluvia_zona_pisco.csv	228		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 6: 2.4–13.9 mm
+lluvia_zona_pisco.csv	229		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 6: 12.5–43.0 mm
+lluvia_zona_pisco.csv	230		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 7: 1.4–10.5 mm
+lluvia_zona_pisco.csv	231		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 7: 1.2–14.7 mm
+lluvia_zona_pisco.csv	232		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 7: 1.8–14.1 mm
+lluvia_zona_pisco.csv	233		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 8: 0.5–6.0 mm
+lluvia_zona_pisco.csv	234		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 8: 1.0–4.8 mm
+lluvia_zona_pisco.csv	235		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 8: 0.5–1.0 mm
+lluvia_zona_pisco.csv	236		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 9: 2.9–22.0 mm
+lluvia_zona_pisco.csv	237		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 9: 4.9–21.2 mm
+lluvia_zona_pisco.csv	238		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 9: 1.2–47.8 mm
+lluvia_zona_pisco.csv	239		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 10: 16.1–59.1 mm
+lluvia_zona_pisco.csv	240		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 10: 17.2–18.9 mm
+lluvia_zona_pisco.csv	241		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 10: 49.8–54.5 mm
+lluvia_zona_pisco.csv	242		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 11: 8.0–61.7 mm
+lluvia_zona_pisco.csv	243		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 11: 3.6–32.8 mm
+lluvia_zona_pisco.csv	244		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 11: 54.4–127.2 mm
+lluvia_zona_pisco.csv	245		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 12: 20.1–92.3 mm
+lluvia_zona_pisco.csv	246		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 12: 48.3–77.7 mm
+lluvia_zona_pisco.csv	247		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 12: 13.5–211.9 mm
+lluvia_zona_pisco.csv	248		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	249		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	250		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	251		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	252		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	253		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	254		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 1: 41.8–127.2 mm
+lluvia_zona_pisco.csv	255		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 1: 39.6–104.9 mm
+lluvia_zona_pisco.csv	256		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 1: 67.6–144.7 mm
+lluvia_zona_pisco.csv	257		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 2: 41.2–199.3 mm
+lluvia_zona_pisco.csv	258		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 2: 64.1–114.0 mm
+lluvia_zona_pisco.csv	259		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 2: 80.5–132.4 mm
+lluvia_zona_pisco.csv	260		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 3: 46.1–162.7 mm
+lluvia_zona_pisco.csv	261		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 3: 66.0–306.6 mm
+lluvia_zona_pisco.csv	262		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 3: 100.7–172.5 mm
+lluvia_zona_pisco.csv	263		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 4: 40.2–105.9 mm
+lluvia_zona_pisco.csv	264		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 4: 43.7–101.8 mm
+lluvia_zona_pisco.csv	265		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 4: 93.0–129.8 mm
+lluvia_zona_pisco.csv	266		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 5: 25.4–92.5 mm
+lluvia_zona_pisco.csv	267		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 5: 30.2–76.5 mm
+lluvia_zona_pisco.csv	268		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 5: 33.2–84.5 mm
+lluvia_zona_pisco.csv	269		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 6: 12.0–46.7 mm
+lluvia_zona_pisco.csv	270		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 6: 6.0–25.3 mm
+lluvia_zona_pisco.csv	271		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 6: 20.1–48.1 mm
+lluvia_zona_pisco.csv	272		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 7: 6.7–24.7 mm
+lluvia_zona_pisco.csv	273		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 7: 8.3–23.7 mm
+lluvia_zona_pisco.csv	274		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 7: 8.0–18.1 mm
+lluvia_zona_pisco.csv	275		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 8: 5.5–25.6 mm
+lluvia_zona_pisco.csv	276		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 8: 9.4–16.8 mm
+lluvia_zona_pisco.csv	277		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 8: 4.6–7.1 mm
+lluvia_zona_pisco.csv	278		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 9: 7.9–30.2 mm
+lluvia_zona_pisco.csv	279		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 9: 7.0–28.2 mm
+lluvia_zona_pisco.csv	280		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 9: 5.7–20.5 mm
+lluvia_zona_pisco.csv	281		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 10: 27.0–115.3 mm
+lluvia_zona_pisco.csv	282		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 10: 28.8–39.1 mm
+lluvia_zona_pisco.csv	283		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 10: 48.8–67.2 mm
+lluvia_zona_pisco.csv	284		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 11: 18.5–97.5 mm
+lluvia_zona_pisco.csv	285		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 11: 21.0–44.4 mm
+lluvia_zona_pisco.csv	286		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 11: 52.9–109.6 mm
+lluvia_zona_pisco.csv	287		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura sin_el_nino mes 12: 35.2–117.7 mm
+lluvia_zona_pisco.csv	288		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_moderado mes 12: 52.9–82.3 mm
+lluvia_zona_pisco.csv	289		precipitacion_mensual	aceptada	lluvia PISCOp sierra_piura el_nino_fuerte_extraordinario mes 12: 28.8–106.9 mm
+lluvia_zona_pisco.csv	290		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	291		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	292		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	293		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	294		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+lluvia_zona_pisco.csv	295		precipitacion_temporada	ignorada	el motor usa la lluvia mensual; la de temporada es un resumen
+motor_integracion.csv	R3M0001	arroz	duracion_ciclo	aceptada	148.0–155.0 días (regional)
+motor_integracion.csv	R3M0002	caupi	duracion_ciclo	aceptada	80.0–100.0 días (regional)
+evidencia_integrar_r5.csv	e4fdd29e73aa		ce_agua_riego	ignorada	estado desconocido: no reemplaza ningún dato
+evidencia_integrar_r5.csv	f5bb78566d2c		ce_agua_riego	aceptada	punto de río o quebrada chira (, c. 2019-2021 (fechas de muestreo no están en el resumen), estación desconocida): 0.373–1.167 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	0a5bfd09ce64		ce_agua_riego	ignorada	estado desconocido: no reemplaza ningún dato
+evidencia_integrar_r5.csv	30bd62a7388e		ce_agua_riego	aceptada	punto de río o quebrada san_lorenzo (QCarn1, 2024-10-24, estiaje): 1.940–3.230 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	41413af10d76		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (QPfie1, 2024-10-22, estiaje): 0.172 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	14ac9d750028		ce_agua_riego	aceptada	punto de río o quebrada san_lorenzo (QSFran1, 2024-10-24, estiaje): 5.000 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	bb239133f8c5		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (QSing1, 2024-10-22, estiaje): 0.061 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	b0f3ee3aef2a		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (QSing2, 2024-10-23, estiaje): 0.348 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	f90deb3c0662		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (QTimb1, 2024-10-14, estiaje): 0.347 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	9067c3b4a4cc		ce_agua_riego	aceptada	punto de río o quebrada alto_piura (RBigo2, 2024-10-23, estiaje): 0.483 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	490dd48a3e58		ce_agua_riego	aceptada	punto de río o quebrada chira (RChip2, 2024-10-14, estiaje): 1.877 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	251c69f37cc2		ce_agua_riego	aceptada	punto de río o quebrada san_lorenzo (RChip1, 2024-10-14, estiaje): 0.417 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	a7b8b282ab25		ce_agua_riego	aceptada	punto de río o quebrada chira (RChip4, 2024-10-14, estiaje): 0.888 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	81cc87679737		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir4, 2024-10-16, estiaje): 0.665 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	21fbe022537b		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir2, 2024-10-15, estiaje): 0.514 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	5441a9746470		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir12, 2024-10, estiaje): 4.110 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	d2b6d2923d09		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir7, 2024-10-17, estiaje): 4.980 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	dd3c3b7874da		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir11, 2024-10-17, estiaje): 0.848 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	c84d490a344d		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir6, 2024-10-17, estiaje): 1.707 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	8371ec0144de		ce_agua_riego	aceptada	punto de río o quebrada chira (RChir3, 2024-10-16, estiaje): 0.590 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	13c113bb0b7a		ce_agua_riego	aceptada	punto de río o quebrada alto_piura (RCmed1, 2024-10-23, estiaje): 0.345 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	2d20ad7fdc12		ce_agua_riego	aceptada	punto de río o quebrada alto_piura (RHuar3, 2024-10-21, estiaje): 0.510 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	700910bb2a8d		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (RMaca4, 2024-10-11, estiaje): 0.436 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	9f45558f23f5		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (RMaca1, 2024-10-11, estiaje): 0.334 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	b44ad1695a6b		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (RPbla1, 2024-10-10, estiaje): 0.090 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	b11441814cc9		ce_agua_riego	aceptada	punto de río o quebrada medio_piura (RPiur5, 2024-10-25, estiaje): 9.920 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	78a277a30665		ce_agua_riego	aceptada	punto de río o quebrada san_lorenzo (RPiur4, 2024-10-24, estiaje): 5.560–9.030 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	19c35a61cbea		ce_agua_riego	aceptada	punto de río o quebrada medio_piura (RPiur6, 2024-10-25, estiaje): 0.740 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	f37a8b3ed164		ce_agua_riego	aceptada	punto de río o quebrada medio_piura (RPiur13, 2024-10-25, estiaje): 5.980 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	399ec1f752d5		ce_agua_riego	aceptada	punto de río o quebrada alto_piura (RPiur2, 2024-10-23, estiaje): 0.741 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	3d8296724c54		ce_agua_riego	aceptada	punto de río o quebrada alto_piura (RPiur11, 2024-10-23, estiaje): 0.621 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	b01b6df28b3a		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (RPusm2, 2024-10-22, estiaje): 0.197 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	7af90dfa04a0		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (RQuir3, 2024-10-11, estiaje): 0.445 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	4ea204a44ae0		ce_agua_riego	aceptada	punto de río o quebrada chira (RQuir2, 2024-10-15, estiaje): 0.591 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	c78eaaec7344		ce_agua_riego	aceptada	punto de río o quebrada san_lorenzo (RQuir1, 2024-10-14, estiaje): 0.449 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	65f4d5c92a7e		ce_agua_riego	aceptada	punto de río o quebrada sierra_piura (RSpab1, 2024-10-10, estiaje): 0.227 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	ea10256add7c		ce_agua_riego	ignorada	estado desconocido: no reemplaza ningún dato
+evidencia_integrar_r5.csv	2cb1989996bc		ce_agua_riego	ignorada	estado desconocido: no reemplaza ningún dato
+evidencia_integrar_r5.csv	5e50e1ec77bf		ce_agua_riego	ignorada	estado desconocido: no reemplaza ningún dato
+evidencia_integrar_r5.csv	c3de5a91d1fe	caupi	costo_produccion	aceptada	solo para zona alto_piura
+evidencia_integrar_r5.csv	8e714fc4563e	caupi	costo_produccion	aceptada	solo para zona alto_piura (envolvente)
+evidencia_integrar_r5.csv	1a6b5fe734ec	camote	costo_produccion	ignorada	cultivo fuera del catálogo del motor
+evidencia_integrar_r5.csv	f6471d3a3c47	caupi	costo_produccion	aceptada	1 624.3–6 497.3 PEN/ha (analogo_externo) (costo análogo externo: rango ampliado a 1 624–6 497 PEN/ha; el reporte avisa)
+evidencia_integrar_r5.csv	e789514c737b	frijol verde	costo_produccion	aceptada	5 163.5–20 654.1 PEN/ha (analogo_externo) (costo análogo externo: rango ampliado a 5 164–20 654 PEN/ha; el reporte avisa)
+evidencia_integrar_r5.csv	af593d78c9d8	papaya	costo_produccion	aceptada	1 092.1–9 419.1 PEN/ha (analogo_externo) (costo análogo externo: rango ampliado a 1 092–9 419 PEN/ha; el reporte avisa)
+evidencia_integrar_r5.csv	e6bc216fce1e	papaya	costo_produccion_por_t	ignorada	variable conocida que el motor no usa del catálogo: costo por tonelada (PEN/t); el margen necesita PEN/ha
+evidencia_integrar_r5.csv	8db6ed03b39e	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	76709844f07a	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	622263ec907b	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	b4600eb6e965	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	e828c97cecfe	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	2637354ae1c5	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	43eee1624c16	todos	area_cultivo_pendiente_mayor_15pct	rechazada	variable 'area_cultivo_pendiente_mayor_15pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	15fa9602a975	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	fc714ba7b753	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	c9054cd4c609	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	9f1cd21b3e25	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	073058733dc4	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	7514accb63a9	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	2fd01f0a8ce6	todos	area_cultivo_pendiente_mayor_2pct	rechazada	variable 'area_cultivo_pendiente_mayor_2pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	0e3ba488c103	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	ac3a10a72012	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	df6d3a2849e3	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	2d6903252af4	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	e1301f6221ba	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	0f71e1c27cc1	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	598055b9cd53	todos	area_cultivo_pendiente_mayor_5pct	rechazada	variable 'area_cultivo_pendiente_mayor_5pct' no reconocida por el motor; nombres aceptados: ce_agua_riego, ce_extracto, ce_suelo, conductividad_electrica_suelo, costo_produccion, costo_produccion_ha, costo_produccion_por_t, dotacion_agua, duracion_ciclo, ece, ece_suelo, pendiente_media_cultivo, pendiente_p50_cultivo, pendiente_p90_cultivo, precio_chacra, rendimiento
+evidencia_integrar_r5.csv	4cbe248fe360		pendiente_media_cultivo	aceptada	contexto de zona sierra_piura (Sierra Huancabamba): 19.00 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	0562dd00f031		pendiente_media_cultivo	aceptada	contexto de zona sierra_piura (Sierra Ayabaca): 16.00–16.70 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	4a5a446ddb5d		pendiente_media_cultivo	aceptada	contexto de zona alto_piura (Alto Piura): 1.30–1.80 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	7fd0e3eb828a		pendiente_media_cultivo	aceptada	contexto de zona san_lorenzo (San Lorenzo): 2.00–2.70 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	0459c7324c45		pendiente_media_cultivo	aceptada	contexto de zona medio_piura (Medio Piura): 1.40–1.80 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	585ba0dac4a5		pendiente_media_cultivo	aceptada	contexto de zona bajo_piura (Bajo Piura): 0.60–1.20 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	8110ff2f5433		pendiente_media_cultivo	aceptada	contexto de zona chira (Valle del Chira): 1.00–1.50 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	eb0125b8043e		pendiente_p50_cultivo	aceptada	contexto de zona sierra_piura (Sierra Huancabamba): 17.50–17.80 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	025b2e7883b0		pendiente_p50_cultivo	aceptada	contexto de zona sierra_piura (Sierra Ayabaca): 15.20–15.40 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	89b52128da36		pendiente_p50_cultivo	aceptada	contexto de zona alto_piura (Alto Piura): 0.80–1.10 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	0082c7e09b40		pendiente_p50_cultivo	aceptada	contexto de zona san_lorenzo (San Lorenzo): 1.60–2.10 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	519d30baf0d5		pendiente_p50_cultivo	aceptada	contexto de zona medio_piura (Medio Piura): 1.10–1.40 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	ef79c6f01db8		pendiente_p50_cultivo	aceptada	contexto de zona bajo_piura (Bajo Piura): 0.30–0.80 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	5cdccf0592cf		pendiente_p50_cultivo	aceptada	contexto de zona chira (Valle del Chira): 0.60–1.00 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	f6ab04951380		pendiente_p90_cultivo	aceptada	contexto de zona sierra_piura (Sierra Huancabamba): 31.70–33.10 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	a9c2fe87a521		pendiente_p90_cultivo	aceptada	contexto de zona sierra_piura (Sierra Ayabaca): 27.00–30.30 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	a4af76aaa478		pendiente_p90_cultivo	aceptada	contexto de zona alto_piura (Alto Piura): 2.60–3.90 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	6a8b9c6b4674		pendiente_p90_cultivo	aceptada	contexto de zona san_lorenzo (San Lorenzo): 3.50–5.10 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	8b3c1e831a7e		pendiente_p90_cultivo	aceptada	contexto de zona medio_piura (Medio Piura): 2.90–3.80 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	a22e50861d89		pendiente_p90_cultivo	aceptada	contexto de zona bajo_piura (Bajo Piura): 1.30–2.60 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	b3dd20fb756b		pendiente_p90_cultivo	aceptada	contexto de zona chira (Valle del Chira): 2.20–3.00 % (prediccion); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	territorio:RMaca1:sierra_piura		ce_agua_riego	aceptada	contexto de zona sierra_piura (Sierra Ayabaca): 0.33 dS/m (medicion_local); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	territorio:RChir3:chira		ce_agua_riego	aceptada	contexto de zona chira (Valle del Chira): 0.59 dS/m (medicion_local); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	territorio:PSI2011_SanLorenzo:san_lorenzo		ce_agua_riego	aceptada	contexto de zona san_lorenzo (Valle San Lorenzo): 0.47 dS/m (medicion_local); solo si la parcela no trae el dato, etiquetado como valor de zona
+evidencia_integrar_r5.csv	territorio:UNP2019_CuraMori:bajo_piura		ce_agua_riego	aceptada	pozo bajo_piura (Bajo Piura, c. 2019, estación desconocida): 0.130–1.120 dS/m; solo aviso, no es el agua que llega a la parcela
+evidencia_integrar_r5.csv	territorio:UNP2018_Castilla:medio_piura		ce_agua_riego	aceptada	pozo medio_piura (Medio Piura, c. 2018, estación desconocida): 0.160–3.830 dS/m; solo aviso, no es el agua que llega a la parcela

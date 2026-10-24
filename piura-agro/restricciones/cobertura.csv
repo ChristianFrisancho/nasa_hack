@@ -1,0 +1,195 @@
+cultivo,suelo,zona,grupo_variable,n_registros,n_con_cifra,n_medicion_local,n_regional,n_bibliografico,n_analogo_externo,n_prediccion,n_desconocido,mejor_tipo_evidencia,estados,archivos
+arroz,genérico,san_lorenzo,agua,1,1,0,1,0,0,0,0,regional,observado,curado_r2.csv
+arroz,genérico,piura_region,agua,4,4,0,4,0,0,0,0,regional,estimado,curado_r1b.csv
+arroz,genérico,piura_region,costo,3,3,0,3,0,0,0,0,regional,observado,ena2018_costos.csv|esco_arroz_2024.csv
+arroz,salino_sódico,alto_piura,ece_suelo,1,1,1,0,0,0,0,0,medicion_local,observado,curado_r2.csv
+arroz,genérico,chira,precio,81,81,0,81,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,medio_piura,precio,11,11,0,11,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,bajo_piura,precio,104,104,0,104,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,san_lorenzo,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,alto_piura,precio,47,47,0,47,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,sierra_piura,precio,146,146,0,146,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,piura_region,precio,13,13,0,13,0,0,0,0,regional,estimado|observado,compendio_inei.csv|esco_arroz_2024.csv
+arroz,genérico,chira,rendimiento,84,84,0,84,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+arroz,genérico,medio_piura,rendimiento,11,11,0,11,0,0,0,0,regional,observado,drap_distrito_anual.csv
+arroz,genérico,bajo_piura,rendimiento,105,105,0,105,0,0,0,0,regional,estimado|observado,drap_distrito_anual.csv|n8n_curado.csv
+arroz,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+arroz,genérico,san_lorenzo,rendimiento,23,23,0,23,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+arroz,genérico,alto_piura,rendimiento,51,51,1,50,0,0,0,0,medicion_local,estimado|observado,compendio_inei.csv|curado_r2.csv|drap_distrito_anual.csv
+arroz,genérico,sierra_piura,rendimiento,155,155,0,155,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+arroz,genérico,piura_region,rendimiento,16,16,0,16,0,0,0,0,regional,observado,compendio_inei.csv|esco_arroz_2024.csv
+maíz amarillo duro,genérico,bajo_piura,agua,1,1,0,1,0,0,0,0,regional,estimado,curado_r2.csv
+maíz amarillo duro,genérico,bajo_piura,costo,3,3,0,3,0,0,0,0,regional,observado,curado_r2.csv
+maíz amarillo duro,genérico,fuera de Piura,costo,2,2,0,0,0,2,0,0,analogo_externo,observado,curado_r1b.csv
+maíz amarillo duro,genérico,chira,precio,99,99,0,99,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,medio_piura,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,bajo_piura,precio,103,103,0,103,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,san_lorenzo,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,alto_piura,precio,55,55,0,55,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,sierra_piura,precio,197,197,0,197,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,piura_region,precio,12,12,0,12,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+maíz amarillo duro,genérico,chira,rendimiento,102,102,0,102,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+maíz amarillo duro,genérico,medio_piura,rendimiento,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+maíz amarillo duro,genérico,bajo_piura,rendimiento,106,106,0,106,0,0,0,0,regional,estimado|observado,curado_r2.csv|drap_distrito_anual.csv
+maíz amarillo duro,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+maíz amarillo duro,genérico,san_lorenzo,rendimiento,23,23,0,23,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+maíz amarillo duro,genérico,alto_piura,rendimiento,58,58,0,58,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+maíz amarillo duro,genérico,sierra_piura,rendimiento,206,206,0,206,0,0,0,0,regional,estimado|observado,compendio_inei.csv|drap_distrito_anual.csv
+maíz amarillo duro,genérico,piura_region,rendimiento,15,15,0,15,0,0,0,0,regional,observado,compendio_inei.csv
+algodón,genérico,piura_region,costo,1,1,0,1,0,0,0,0,regional,estimado,curado_r2.csv
+algodón,genérico,fuera de Piura,costo,3,3,0,1,0,2,0,0,regional,observado,curado_r1b.csv
+algodón,genérico,chira,precio,11,11,0,11,0,0,0,0,regional,observado,drap_distrito_anual.csv
+algodón,genérico,medio_piura,precio,9,9,0,9,0,0,0,0,regional,observado,drap_distrito_anual.csv
+algodón,genérico,bajo_piura,precio,104,104,0,104,0,0,0,0,regional,observado,drap_distrito_anual.csv
+algodón,genérico,san_lorenzo,precio,7,7,0,7,0,0,0,0,regional,observado,drap_distrito_anual.csv
+algodón,genérico,alto_piura,precio,7,7,0,7,0,0,0,0,regional,observado,drap_distrito_anual.csv
+algodón,genérico,piura_region,precio,12,7,0,7,0,0,0,5,regional,desconocido|observado,compendio_inei.csv
+algodón,genérico,fuera de Piura,precio,1,1,0,0,0,1,0,0,analogo_externo,observado,curado_r1b.csv
+algodón,genérico,chira,rendimiento,12,10,0,10,0,0,0,2,regional,desconocido|observado,compendio_inei.csv|drap_distrito_anual.csv
+algodón,genérico,medio_piura,rendimiento,7,7,0,7,0,0,0,0,regional,observado,drap_distrito_anual.csv
+algodón,genérico,bajo_piura,rendimiento,94,94,0,94,0,0,0,0,regional,observado,curado_r2.csv|drap_distrito_anual.csv
+algodón,genérico,medio_bajo_piura,rendimiento,2,2,0,2,0,0,0,0,regional,observado,compendio_inei.csv
+algodón,genérico,san_lorenzo,rendimiento,8,8,0,8,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+algodón,genérico,alto_piura,rendimiento,9,7,0,7,0,0,0,2,regional,desconocido|observado,compendio_inei.csv|drap_distrito_anual.csv
+algodón,genérico,piura_region,rendimiento,15,15,0,15,0,0,0,0,regional,observado,compendio_inei.csv
+frijol,genérico,fuera de Piura,costo,1,1,0,0,0,1,0,0,analogo_externo,observado,curado_r1b.csv
+frijol,genérico,san_lorenzo,precio,1,1,0,1,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol,genérico,sierra_piura,precio,183,183,0,183,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol,genérico,san_lorenzo,rendimiento,1,1,0,1,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol,genérico,sierra_piura,rendimiento,183,182,0,182,0,0,0,1,regional,desconocido|observado,drap_distrito_anual.csv
+frijol caupí,genérico,alto_piura,costo,2,2,0,2,0,0,0,0,regional,estimado,curado_r4.csv
+frijol caupí,genérico,piura_region,costo,1,0,0,0,0,0,0,1,,desconocido,curado_r1b.csv
+frijol caupí,genérico,fuera de Piura,costo,2,2,0,0,0,2,0,0,analogo_externo,estimado,curado_r3.csv|curado_r4.csv
+frijol caupí,genérico,chira,precio,51,51,0,51,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,medio_piura,precio,13,13,0,13,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,bajo_piura,precio,91,91,0,91,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,san_lorenzo,precio,12,12,0,12,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,alto_piura,precio,42,42,0,42,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,sierra_piura,precio,14,14,0,14,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,piura_region,precio,5,5,0,5,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+frijol caupí,genérico,chira,rendimiento,54,54,0,54,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+frijol caupí,genérico,medio_piura,rendimiento,13,13,0,13,0,0,0,0,regional,observado,drap_distrito_anual.csv
+frijol caupí,genérico,bajo_piura,rendimiento,91,90,0,90,0,0,0,1,regional,desconocido|observado,drap_distrito_anual.csv
+frijol caupí,genérico,medio_bajo_piura,rendimiento,3,2,0,2,0,0,0,1,regional,desconocido|observado,compendio_inei.csv
+frijol caupí,genérico,san_lorenzo,rendimiento,14,14,0,14,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+frijol caupí,genérico,alto_piura,rendimiento,46,46,0,46,0,0,0,0,regional,estimado|observado,compendio_inei.csv|curado_r4.csv|drap_distrito_anual.csv
+frijol caupí,genérico,sierra_piura,rendimiento,16,15,0,15,0,0,0,1,regional,desconocido|observado,compendio_inei.csv|drap_distrito_anual.csv
+frijol caupí,genérico,piura_region,rendimiento,5,5,0,5,0,0,0,0,regional,estimado|observado,compendio_inei.csv|curado_r4.csv
+frijol caupí,genérico,fuera de Piura,rendimiento,1,1,0,0,0,1,0,0,analogo_externo,estimado,curado_r4.csv
+frijol verde,genérico,fuera de Piura,costo,1,1,0,0,0,1,0,0,analogo_externo,estimado,curado_r3.csv
+frijol verde,genérico,fuera de Piura,rendimiento,1,1,0,0,0,1,0,0,analogo_externo,estimado,curado_r3.csv
+frijol de palo,genérico,piura_region,costo,1,0,0,0,0,0,0,1,,desconocido,curado_r3.csv
+frijol de palo,genérico,fuera de Piura,costo,1,1,0,0,0,1,0,0,analogo_externo,estimado,curado_r4.csv
+frijol de palo,genérico,piura_region,precio,5,5,0,5,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+frijol de palo,genérico,chira,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+frijol de palo,genérico,alto_piura,rendimiento,2,2,0,2,0,0,0,0,regional,observado,compendio_inei.csv
+frijol de palo,genérico,sierra_piura,rendimiento,1,1,0,1,0,0,0,0,regional,observado,compendio_inei.csv
+frijol de palo,genérico,piura_region,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+papaya,genérico,fuera de Piura,costo,2,2,0,0,0,2,0,0,analogo_externo,observado,curado_r3.csv
+papaya,genérico,piura_region,precio,12,12,0,12,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+papaya,genérico,chira,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+papaya,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+papaya,genérico,san_lorenzo,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+papaya,genérico,alto_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+papaya,genérico,piura_region,rendimiento,13,12,0,12,0,0,0,1,regional,desconocido|observado,compendio_inei.csv
+papaya,genérico,fuera de Piura,rendimiento,1,1,0,0,0,1,0,0,analogo_externo,estimado,curado_r3.csv
+camote,genérico,fuera de Piura,costo,4,4,0,0,0,4,0,0,analogo_externo,estimado|observado,curado_r1b.csv|curado_r3.csv
+camote,genérico,chira,precio,37,37,0,37,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,medio_piura,precio,2,2,0,2,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,bajo_piura,precio,21,21,0,21,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,san_lorenzo,precio,4,4,0,4,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,sierra_piura,precio,112,112,0,112,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,piura_region,precio,12,12,0,12,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+camote,genérico,chira,rendimiento,40,40,0,40,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+camote,genérico,medio_piura,rendimiento,2,2,0,2,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,bajo_piura,rendimiento,21,21,0,21,0,0,0,0,regional,observado,drap_distrito_anual.csv
+camote,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+camote,genérico,san_lorenzo,rendimiento,7,7,0,7,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+camote,genérico,alto_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+camote,genérico,sierra_piura,rendimiento,121,121,0,121,0,0,0,0,regional,estimado|observado,compendio_inei.csv|drap_distrito_anual.csv
+camote,genérico,piura_region,rendimiento,15,15,0,15,0,0,0,0,regional,observado,compendio_inei.csv
+camote,genérico,fuera de Piura,rendimiento,1,1,0,0,0,1,0,0,analogo_externo,estimado,curado_r3.csv
+quinua,tablazo_arenoso,medio_piura,ece_suelo,1,1,1,0,0,0,0,0,medicion_local,observado,curado_r2.csv
+limón,genérico,piura_region,costo,2,2,0,2,0,0,0,0,regional,observado,ena2018_costos.csv
+limón,tablazo_arenoso,chira,ece_suelo,1,1,1,0,0,0,0,0,medicion_local,observado,curado_r3.csv
+limón,genérico,chira,precio,72,72,0,72,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,medio_piura,precio,19,19,0,19,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,bajo_piura,precio,72,72,0,72,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,san_lorenzo,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,alto_piura,precio,60,60,0,60,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,sierra_piura,precio,140,140,0,140,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,piura_region,precio,12,12,0,12,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+limón,genérico,chira,rendimiento,66,64,0,64,0,0,0,2,regional,desconocido|observado,compendio_inei.csv|drap_distrito_anual.csv
+limón,genérico,medio_piura,rendimiento,17,17,0,17,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,bajo_piura,rendimiento,64,64,0,64,0,0,0,0,regional,observado,drap_distrito_anual.csv
+limón,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+limón,genérico,san_lorenzo,rendimiento,21,21,0,21,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+limón,genérico,alto_piura,rendimiento,57,57,0,57,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+limón,genérico,sierra_piura,rendimiento,135,135,0,135,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+limón,genérico,piura_region,rendimiento,14,13,0,13,0,0,0,1,regional,desconocido|estimado|observado,compendio_inei.csv|n8n_curado.csv
+mango,genérico,chira,precio,58,58,0,58,0,0,0,0,regional,observado,drap_distrito_anual.csv
+mango,genérico,medio_piura,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+mango,genérico,bajo_piura,precio,60,60,0,60,0,0,0,0,regional,observado,drap_distrito_anual.csv
+mango,genérico,san_lorenzo,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+mango,genérico,alto_piura,precio,60,60,0,60,0,0,0,0,regional,observado,drap_distrito_anual.csv
+mango,genérico,sierra_piura,precio,94,94,0,94,0,0,0,0,regional,observado,drap_distrito_anual.csv
+mango,genérico,piura_region,precio,12,12,0,12,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+mango,genérico,chira,rendimiento,55,55,0,55,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+mango,genérico,medio_piura,rendimiento,18,17,0,17,0,0,0,1,regional,desconocido|observado,drap_distrito_anual.csv
+mango,genérico,bajo_piura,rendimiento,54,51,0,51,0,0,0,3,regional,desconocido|observado,drap_distrito_anual.csv
+mango,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+mango,genérico,san_lorenzo,rendimiento,21,21,0,21,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+mango,genérico,alto_piura,rendimiento,57,57,0,57,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+mango,genérico,sierra_piura,rendimiento,96,95,0,95,0,0,0,1,regional,desconocido|observado,compendio_inei.csv|drap_distrito_anual.csv
+mango,genérico,piura_region,rendimiento,14,13,0,12,1,0,0,1,regional,desconocido|estimado|observado,compendio_inei.csv|n8n_curado.csv
+uva,genérico,piura_region,agua,1,1,0,1,0,0,0,0,regional,estimado,curado_r1b.csv
+uva,genérico,piura_region,costo,2,2,0,2,0,0,0,0,regional,observado,ena2018_costos.csv
+uva,genérico,chira,precio,17,17,0,17,0,0,0,0,regional,observado,drap_distrito_anual.csv
+uva,genérico,medio_piura,precio,20,20,0,20,0,0,0,0,regional,observado,drap_distrito_anual.csv
+uva,genérico,bajo_piura,precio,22,22,0,22,0,0,0,0,regional,observado,drap_distrito_anual.csv
+uva,genérico,san_lorenzo,precio,16,16,0,16,0,0,0,0,regional,observado,drap_distrito_anual.csv
+uva,genérico,alto_piura,precio,23,23,0,23,0,0,0,0,regional,observado,drap_distrito_anual.csv
+uva,genérico,piura_region,precio,5,5,0,5,0,0,0,0,regional,estimado|observado,compendio_inei.csv
+uva,genérico,chira,rendimiento,18,18,0,18,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+uva,genérico,medio_piura,rendimiento,18,18,0,18,0,0,0,0,regional,observado,drap_distrito_anual.csv
+uva,genérico,bajo_piura,rendimiento,21,20,0,20,0,0,0,1,regional,desconocido|observado,drap_distrito_anual.csv
+uva,genérico,medio_bajo_piura,rendimiento,3,3,0,3,0,0,0,0,regional,observado,compendio_inei.csv
+uva,genérico,san_lorenzo,rendimiento,18,17,0,17,0,0,0,1,regional,desconocido|observado,compendio_inei.csv|drap_distrito_anual.csv
+uva,genérico,alto_piura,rendimiento,24,24,0,24,0,0,0,0,regional,observado,compendio_inei.csv|drap_distrito_anual.csv
+uva,genérico,piura_region,rendimiento,13,12,0,12,0,0,0,1,regional,desconocido|observado,compendio_inei.csv
+todos,genérico,chira,agua,1,1,0,1,0,0,0,0,regional,estimado,ana_agua.csv
+todos,genérico,medio_bajo_piura,agua,2,2,0,2,0,0,0,0,regional,estimado,ana_agua.csv|curado_r1b.csv
+todos,genérico,san_lorenzo,agua,7,7,0,7,0,0,0,0,regional,estimado|observado,ana_agua.csv|curado_r1b.csv|curado_r2.csv
+todos,genérico,alto_piura,agua,1,1,0,1,0,0,0,0,regional,estimado,ana_agua.csv
+todos,genérico,piura_region,agua,4,4,0,4,0,0,0,0,regional,estimado,ana_agua.csv|curado_r1b.csv|esco_arroz_2024.csv
+todos,genérico,chira,ce_agua,12,11,11,0,0,0,0,1,medicion_local,desconocido|observado,cew_ana_r4.csv|curado_r3.csv
+todos,genérico,medio_piura,ce_agua,4,3,3,0,0,0,0,1,medicion_local,desconocido|estimado|observado,cew_ana_r4.csv|curado_r3.csv
+todos,genérico,bajo_piura,ce_agua,1,0,0,0,0,0,0,1,,desconocido,curado_r3.csv
+todos,genérico,medio_bajo_piura,ce_agua,2,2,1,1,0,0,0,0,medicion_local,observado,ana_agua.csv|curado_r4.csv
+todos,genérico,san_lorenzo,ce_agua,6,5,5,0,0,0,0,1,medicion_local,desconocido|estimado|observado,cew_ana_r4.csv|curado_r3.csv
+todos,genérico,alto_piura,ce_agua,6,5,5,0,0,0,0,1,medicion_local,desconocido|observado,cew_ana_r4.csv|curado_r7.csv
+todos,genérico,sierra_piura,ce_agua,10,10,10,0,0,0,0,0,medicion_local,observado,cew_ana_r4.csv
+todos,salino_sódico,medio_bajo_piura,ce_agua,1,1,0,1,0,0,0,0,regional,estimado,curado_r7.csv
+todos,tablazo_arenoso,bajo_piura,ce_agua,1,0,0,0,0,0,0,1,,desconocido,curado_r3.csv
+todos,genérico,chira,drenaje_sales,1,1,0,1,0,0,0,0,regional,observado,curado_r2.csv
+todos,genérico,bajo_piura,drenaje_sales,10,10,0,10,0,0,0,0,regional,estimado|observado,curado_r1b.csv|curado_r2.csv
+todos,genérico,medio_bajo_piura,drenaje_sales,1,1,0,1,0,0,0,0,regional,observado,curado_r2.csv
+todos,genérico,san_lorenzo,drenaje_sales,1,1,0,1,0,0,0,0,regional,observado,curado_r2.csv
+todos,genérico,alto_piura,drenaje_sales,4,4,0,4,0,0,0,0,regional,observado,curado_r2.csv
+todos,genérico,piura_region,drenaje_sales,1,1,0,1,0,0,0,0,regional,estimado,curado_r2.csv
+todos,genérico,fuera de Piura,drenaje_sales,3,3,0,0,1,2,0,0,bibliografico,estimado,curado_r1b.csv
+todos,tablazo_arenoso,bajo_piura,drenaje_sales,3,3,3,0,0,0,0,0,medicion_local,observado,curado_r2.csv
+todos,salino_sódico,fuera de Piura,ece_suelo,21,21,21,0,0,0,0,0,medicion_local,observado,siar1997_suelos_ce.csv
+todos,tablazo_arenoso,bajo_piura,ece_suelo,2,2,2,0,0,0,0,0,medicion_local,observado,curado_r2.csv
+todos,tablazo_arenoso,fuera de Piura,ece_suelo,3,3,0,0,0,3,0,0,analogo_externo,observado,curado_r1b.csv
+todos,genérico,chira,eficiencia,2,2,0,2,0,0,0,0,regional,observado,ana_agua.csv
+todos,genérico,bajo_piura,eficiencia,2,2,0,2,0,0,0,0,regional,observado,ana_agua.csv
+todos,genérico,medio_bajo_piura,eficiencia,2,2,0,2,0,0,0,0,regional,observado,ana_agua.csv
+todos,genérico,san_lorenzo,eficiencia,2,2,0,2,0,0,0,0,regional,observado,ana_agua.csv
+todos,genérico,alto_piura,eficiencia,2,2,0,2,0,0,0,0,regional,observado,ana_agua.csv
+todos,genérico,chira,pendiente,6,6,0,0,0,0,6,0,prediccion,estimado,pendiente_territorio.csv
+todos,genérico,medio_piura,pendiente,6,6,0,0,0,0,6,0,prediccion,estimado,pendiente_territorio.csv
+todos,genérico,bajo_piura,pendiente,6,6,0,0,0,0,6,0,prediccion,estimado,pendiente_territorio.csv
+todos,genérico,san_lorenzo,pendiente,6,6,0,0,0,0,6,0,prediccion,estimado,pendiente_territorio.csv
+todos,genérico,alto_piura,pendiente,6,6,0,0,0,0,6,0,prediccion,estimado,pendiente_territorio.csv
+todos,genérico,sierra_piura,pendiente,12,12,0,0,0,0,12,0,prediccion,estimado,pendiente_territorio.csv

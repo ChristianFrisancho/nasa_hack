@@ -1,0 +1,25 @@
+Fuente estaciones: SENAMHI (2016) Caracterización y escenarios climáticos de la región Piura, Tabla N°3 y Cuadro N°1 (https://siar.regionpiura.gob.pe/documentos/normativa/2584.pdf)
+CHIRPS: suelos/datos/clima/raw/chirps_ventana_piura.npz
+
+== CHIRPS 1981-2000 vs SENAMHI 1971-2000: 20 estaciones dentro de la ventana
+  correlación espacial (anual, n=20): r = 0.777
+  correlación estaciones×temporadas (n=80): r = 0.851
+  sesgo anual: mediana -35.1 %, rango -69.5 a +112.4 %; sesgo medio -164.1 mm/año
+  costa (<600 m): n=11, sesgo mediano -36.7 %, r=0.948
+  sierra (≥600 m): n=9, sesgo mediano -29.5 %, r=-0.083
+  Miraflores  anual SENAMHI   177.9 | CHIRPS    61.9 | sesgo  -65.2 % | MAM 104.3 vs 3.3 | DEF 74.6 vs 58.3
+  Chulucanas  anual SENAMHI   425.1 | CHIRPS   283.3 | sesgo  -33.4 % | MAM 238.8 vs 124.6 | DEF 164.6 vs 148.7
+  Mallares    anual SENAMHI   197.0 | CHIRPS    77.0 | sesgo  -60.9 % | MAM 116.1 vs 3.6 | DEF 85.3 vs 75.1
+  San Miguel  anual SENAMHI   124.3 | CHIRPS    40.0 | sesgo  -67.9 % | MAM 68.1 vs 2.1 | DEF 53.7 vs 37.6
+
+== CHIRPS 1981-2010 vs SENAMHI 1971-2000: 20 estaciones dentro de la ventana
+  correlación espacial (anual, n=20): r = 0.781
+  correlación estaciones×temporadas (n=80): r = 0.857
+  sesgo anual: mediana -36.8 %, rango -73.4 a +116.3 %; sesgo medio -167.1 mm/año
+  costa (<600 m): n=11, sesgo mediano -38.5 %, r=0.945
+  sierra (≥600 m): n=9, sesgo mediano -27.8 %, r=-0.024
+  Miraflores  anual SENAMHI   177.9 | CHIRPS    52.7 | sesgo  -70.4 % | MAM 104.3 vs 3.1 | DEF 74.6 vs 48.4
+  Chulucanas  anual SENAMHI   425.1 | CHIRPS   275.5 | sesgo  -35.2 % | MAM 238.8 vs 126.5 | DEF 164.6 vs 138.7
+  Mallares    anual SENAMHI   197.0 | CHIRPS    64.4 | sesgo  -67.3 % | MAM 116.1 vs 3.2 | DEF 85.3 vs 61.6
+  San Miguel  anual SENAMHI   124.3 | CHIRPS    34.3 | sesgo  -72.4 % | MAM 68.1 vs 2.0 | DEF 53.7 vs 31.5
+

@@ -1,0 +1,1655 @@
+Review
+
+Utilizing Different Crop Rotation Systems for Agricultural and
+Environmental Sustainability: A Review
+Zainulabdeen Kh. Al-Musawi 1,2, * , Viktória Vona 3 and István Mihály Kulmány 1,2
+
+                                         1   Agricultural and Food Research Centre, Széchenyi István University, 9026 Győr, Hungary;
+                                             kulmany.istvan@sze.hu
+                                         2   Department of Plant Sciences, Albert Kázmér Faculty of Agricultural and Food Sciences in Mosonmagyaróvár,
+                                             Széchenyi István University, 9200 Mosonmagyaróvár, Hungary
+                                         3   Department of Water Management and Natural Ecosystems, Albert Kázmér Faculty of Agricultural and Food
+                                             Sciences in Mosonmagyaróvár, Széchenyi István University, 9200 Mosonmagyaróvár, Hungary;
+                                             vonaviki@gmail.com
+                                         *   Correspondence: hashim.zainulabdeen@sze.hu
+
+
+                                         Abstract
+                                         Monoculture involves growing the same crop on the same land over at least two crop cycles.
+                                         Continuous monoculture can increase the population density of pests and pathogens over
+                                         time, thereby reducing agricultural yields and increasing dependence on chemical inputs.
+                                         Crop rotation is an agricultural practice that involves systematically and sequentially
+                                         planting different crops in the same field over multiple growing seasons. This review
+                                         explores the advantages of crop rotation and its contribution to promoting sustainable
+                                         farming practices, such as legume integration and cover cropping. It is based on a thematic
+                                         literature review of peer-reviewed studies published between 1984 and 2025. We found
+                                         that crop rotation can significantly improve soil structure and organic matter content and
+                                         enhance nutrient cycling. Furthermore, soil organic carbon increased by up to 18% when
+                                         legumes were included in rotations compared to monoculture systems in Europe, while
+                                         also mitigating greenhouse gas emissions, enhancing carbon sequestration, and decreasing
+                                         nutrient leaching and pesticide runoff. Farmers can adopt several strategies to optimise crop
+                                         rotation benefits, such as diversification of various crops, legume integration, cultivation of
+                                         cover crops, and rotational grazing. These practices ensure agricultural sustainability and
+                                         food security and support climate resilience.
+Received: 9 July 2025
+Revised: 7 August 2025                   Keywords: crop rotation; greenhouse gas emissions; monoculture; soil fertility; sustainable
+Accepted: 10 August 2025                 practices
+Published: 14 August 2025
+
+Citation: Al-Musawi, Z.K.; Vona, V.;
+Kulmány, I.M. Utilizing Different Crop
+Rotation Systems for Agricultural and
+                                         1. Introduction
+Environmental Sustainability:
+A Review. Agronomy 2025, 15, 1966.            The global demand for sustainable agriculture has increased in response to the growing
+https://doi.org/10.3390/                 awareness of the environmental impact of unsustainable agricultural practices, particularly
+agronomy15081966                         climate change, biodiversity loss, and ecological degradation [1–3]. For example, the global
+Copyright: © 2025 by the authors.        organic market reached USD 135 billion in 2022, and by 2022, organically managed land
+Licensee MDPI, Basel, Switzerland.       had increased by more than 65% compared to 2012 [4–6]. Additionally, the global adoption
+This article is an open access article   of conservation agriculture, including practices such as crop rotation, no-till, and cover
+distributed under the terms and
+                                         cropping, has exceeded 205 million hectares as of 2023, accounting for nearly 15% of global
+conditions of the Creative Commons
+                                         arable land [7]. Sustainable farming methods aim to optimise agricultural productivity
+Attribution (CC BY) license
+(https://creativecommons.org/
+                                         while preserving the environment. Therefore, it is essential to explore practices that reduce
+licenses/by/4.0/).                       greenhouse gas (GHG) emissions and maintain soil health [8].
+
+
+Agronomy 2025, 15, 1966                                                                                  https://doi.org/10.3390/agronomy15081966
+Agronomy 2025, 15, 1966                                                                                          2 of 31
+
+
+
+                                Crop rotation is a central component of sustainable agriculture, referring to a planned
+                          sequence of different crops grown in the same field across seasons to improve soil health
+                          and productivity. It differs from other agricultural practices, such as intercropping and
+                          monoculture (monocropping) [9]. Crop rotation has been a fundamental practice in many
+                          civilisations. Historical records from ancient Rome indicate that farmers recognised the
+                          benefits of alternating crops for restoring soil quality and health and breaking pest cycles
+                          and performed an early form of rotational cropping based on food, feed, and fallow
+                          sequences [10]. The ‘three-field method’, a type of crop rotation, was used in the Middle
+                          Ages to boost agricultural output in Europe, and research on the effects of crop rotational
+                          diversity on yields and soil health is still ongoing [11–13]. Over the centuries, rotation
+                          systems became increasingly structured, particularly as farming practices intensified during
+                          the agricultural revolution of the 18th and 19th centuries. Crop rotation has developed
+                          into a systematic approach to improve yields and reduce soil depletion, with farmers
+                          rotating crops such as legumes that form symbiotic relationships with nitrogen-fixing
+                          microorganisms to naturally restore soil nutrients [14,15]. In the early 20th century, in
+                          the Southern United States, George Washington Carver advocated for improving soil
+                          fertility by rotating cotton with peanuts and other legumes, demonstrating how crop
+                          rotation could restore degraded soils and reduce dependency on synthetic inputs [16]. In
+                          modern agriculture, crop rotation remains an effective strategy for balancing productivity
+                          and environmental stewardship, particularly in regions heavily affected by industrial
+                          farming [17]. It plays a critical role in improving climate resilience, minimising dependence
+                          on synthetic inputs, enhancing soil carbon sequestration, and supporting global goals for
+                          sustainable intensification and food security [7,18].
+                                Currently, crop rotation systems vary according to weather conditions. For example, in
+                          the U.S. Midwest, corn and soybean rotation is prevalent, where soybeans fix nitrogen in the
+                          soil, which helps subsequent corn crops [19]. Farmers in Southeast Asia commonly rotate
+                          rice with legumes, such as rice–mung bean or rice–vegetable legumes, thereby enhancing
+                          nitrogen content and decreasing pest pressure [20].
+                                Compared with other practices, such as monoculture, crop rotation presents many
+                          benefits, such as improving soil structure, quality, and health, as well as reducing carbon
+                          dioxide (CO2 ) emissions [18], thus mitigating some of the adverse environmental effects of
+                          agriculture [16]. This practice has evolved as a viable method to reduce dependence on
+                          chemical fertilisers to enhance soil nutrition and promote crop yield, reduce GHG emis-
+                          sions [15], and control crop pests [21]. This review represents a thematic synthesis of crop
+                          rotation research between 1984 and 2025, covering different agroecological systems and
+                          integrating agronomic, environmental, and implementation perspectives. It also addresses
+                          research gaps, including limited site-specific information under climate variability, limited
+                          long-term trials in tropical systems, and a lack of socioeconomic analysis of adoption in
+                          smallholder farming. This review first identifies the most promising crop rotation ap-
+                          proaches, then compares their advantages and disadvantages with those of other cropping
+                          systems, and finally examines their practical application, thus highlighting the value of
+                          crop rotation and its practical importance in sustainable agriculture.
+
+                          2. Materials and Methods
+                               The data for this literature review were obtained by conducting extensive searches
+                          across various bibliometric databases, including Scopus, Cambridge Journals, MDPI,
+                          PubMed, Web of Science, Taylor & Francis, ScienceDirect, Springer, and AGRO. These
+                          databases were specifically chosen for their extensive archives of peer-reviewed academic
+                          journals in the agricultural and environmental sciences. This approach ensured that the
+Agronomy 2025, 15, 1966                                                                                           3 of 31
+
+
+
+                           sourced articles were of high academic and scientific value and directly relevant to our
+                           research themes.
+                                 The analysis excluded articles published in languages other than English to ensure
+                           consistency in data interpretation, as well as popular science articles and those describing
+                           cellular-level research findings. This review focused on research papers published between
+                          1984 and 2024. The articles selected for the review are discussed in the thematically relevant
+                           sections of the manuscript. Search terms included combinations of keywords, including
+                          ‘Crop rotation’, ‘Greenhouse gas emissions’, ‘Monoculture’, ‘Soil fertility’, and ‘Sustainable
+                          practices’. This specific selection of keywords aimed to encompass a broad spectrum of
+                           research topics within the scope of agricultural practices and their environmental impacts.
+                                 Over 300 studies were initially identified and screened for their relevance. After
+                           screening for relevance, duplication, and language, 226 studies met the inclusion criteria
+                           and were thoroughly analysed and included in the final review. To categorise the results
+                           systematically, studies were grouped according to the specific agricultural practice(s)
+                           investigated (crop rotation in agriculture and the environment). The classification was
+                           based on key variables reported in the literature, including cropping systems, agronomic
+                           outcomes (e.g., yield and nutrient cycling), environmental metrics (e.g., GHG emissions,
+                           soil health), and implementation strategies. When possible, papers were further stratified
+                           by crop type (e.g., cereals and legumes), specific crop studied (e.g., maize, wheat, and
+                           soybeans), geographic region, soil type, and climate, providing a comprehensive overview
+                           that reflects diverse conditions and practices across the globe.
+
+                          3. Crop Rotation Strategies
+                          3.1. Crop Rotation
+                                Crop rotation is a key practice in sustainable farming [22] and can reduce pests,
+                          improve soil health, and increase crop yield if implemented strategically. An important
+                          aspect of crop rotation is the selection of appropriate crops to alternate each season to
+                          disrupt pest development cycles and enhance nitrogen accumulation [23]. For example,
+                          crop rotation alters the life cycle of insects and pathogens by hindering their reproduction.
+                          Crop rotations that include clover and rotations of wheat and legumes are beneficial for
+                          improving soil fertility. Legumes help to build nitrogen in the soil. Therefore, crop rotation
+                          is not typically chosen in industrial agriculture to conserve nitrogen, as these systems
+                          depend heavily on synthetic nitrogen fertilisers to achieve high yields, making natural
+                          nutrient cycling less essential [24–26].
+                                Additionally, crop rotation with crops with different root structures and nutrient
+                          requirements can significantly alter soil physicochemical properties. For example, corn–
+                          wheat–soybean rotation has been cited for its agronomic benefits. Wheat utilises nitrogen
+                          efficiently, soybeans improve its availability through nitrogen-fixing bacteria, and corn
+                          enhances biomass and utilises the remaining nitrogen. These effects are, in principle,
+                          supported; however, more region-specific field studies are needed to quantify their long-
+                          term impact under different agroecological conditions. This rotation improves soil quality
+                          by increasing the soil mass, organic carbon, microbial biomass, and nutrient levels, while
+                          lowering the pH [27,28]. This improves production while reducing the need for synthetic
+                          fertilisers and pesticides.
+                                Crop rotation is affected by the climate and type of soil in each area. Crop rotation
+                          is primarily practiced in colder climates, such as in Finland, using wheat or barley to
+                          limit pests and improve soil conditions [19,29]. Corn–soybean rotations are frequently
+                          implemented in the American Midwest because the nitrogen requirements for corn can be
+                          met by deposits from prior soybean planting [19].
+Agronomy 2025, 15, 1966                                                                                              4 of 31
+
+
+
+                               Tropical and subtropical areas, such as Southeast Asia, have rice–legume vegetable
+                          systems, which help eliminate pests related to rice and legumes and improve soil fertility
+                          through legumes. Area sensitivity is critical because the climatic conditions of a given area
+                          and soil type determine the effectiveness of crop rotation. For example, desert areas should
+                          switch between plant species that can tolerate the effects of climate change on rainfall and
+                          temperature patterns, such as drought and heat waves. Contrastingly, zones characterised
+                          by abundant rainfall should be used for rice cultivation [20,30].
+
+                          3.2. Legume Integration
+                                The inclusion of legumes in crop rotations increases nitrogen cycling, significantly
+                          influencing plant growth [31]. Bean, clover, and alfalfa contain root nodules with symbiotic
+                          bacteria that can fix nitrogen from the atmosphere into bioavailable forms [31,32]. These
+                          bacteria convert atmospheric nitrogen (N2 ) into ammonia (NH3 ) through a complex enzy-
+                          matic process involving nitrogenase. The ammonia is then converted into other forms, such
+                          as ammonium (NH4 + ), which can be easily absorbed by plants and used for growth [33,34].
+                          This facilitates natural nitrogen fixation, reducing the need for artificial nitrogen fertilisers
+                          and the associated costs and environmental impacts [35]. The amount of nitrogen that
+                          is fixed by legumes varies depending on their species, environmental conditions, and
+                          agriculture management practices. In the case of soybean in the Midwest, the upper limit
+                          for average nitrogen fixation is estimated at approximately 75 kg N/ha. This estimation
+                          assumes that soybean plants in the Midwest accumulate a total of 150 kg N/ha, with
+                          approximately 50% of this amount being supplied by biological nitrogen fixation [36,37].
+                          Alfalfa, which widely grown in temperate regions, has been shown to fix approximately
+                          148 kg N/ha during the growing season [38]. Additionally, adding clover or alfalfa into
+                          rotations can benefit crops by improving the structure, nutrient content, and water-holding
+                          capacity of the soil. Organically managed legume crops such as lentil or vetch are often
+                          inserted into a rotational system to maintain soil fertility without recourse to chemical
+                          fertilisers [39,40]. Besides the fixed nitrogen, legumes can also improve the availability
+                          of phosphorus in soil, improve soil structure, and increase biodiversity. Studies have
+                          found that legumes can increase the amount of organic matter and enhance water infiltra-
+                          tion rates, leading to improved soil health and reduced erosion. Legume crop rotations
+                          promote soil health and reduce reliance on synthetic inputs, contributing to long-term
+                          agricultural sustainability [41].
+
+                          3.3. Cover Cropping
+                               Cover crops provide soil protection, including improving soil texture and nutrient
+                          conservation [42]. They conserve the soil by anchoring the soil particles with their root
+                          systems, thereby preventing erosion by wind or water [43]. The sustainable use of cover
+                          crops also aids in soil and water conservation by adding to the soil organic matter (SOM)
+                          content, which leads to improved water and root-holding capacities required for subsequent
+                          crop production [44]. While accurate global data may vary, the adoption of cover crops by
+                          farmers is increasing. According to a survey conducted between 2014 and 2015 in the United
+                          States, cover crop planting has shown a steady increase, averaging 105 hectares (259 ac)
+                          per farm. This is further substantiated by the findings of the 2012 Agriculture Census
+                          report, as 4.2 million ha (10.3 million ac) of cover crops were planted. This demonstrates
+                          that if current trends continue, this figure could exceed 8 million ha (20 million ac) after
+                          approximately 8 years [45].
+                               Common cover crops include legumes, such as clover and vetch; grasses, such as rye
+                          and barley; and Brassica and Raphanus species, such as mustard and radish, with each
+                          presenting distinct agronomic benefits. For instance, rye is effective in suppressing weeds
+Agronomy 2025, 15, 1966                                                                                             5 of 31
+
+
+
+                          through multiple mechanisms including competitive effects and allelopathic compounds,
+                          while mustard is used as a biopesticide to control soil-borne pests and demonstrates high
+                          competitiveness as a cover crop species [46,47]. Rye cover crops limit weeds through
+                          resource competition, releasing natural weed-inhibiting chemicals, creating dense canopies
+                          that reduce light, and producing residues that further continue suppression [48]. Like-
+                          wise, mustard cover crops grow quickly, compete with weeds for resources, and release
+                          allelopathic compounds like glucosinolates [49,50]. For example, it has been observed
+                          that nematode and soilborne pathogens populations are substantially reduced in fields
+                          containing cover crops, such as mustard, particularly in those in the Brassica genus, in
+                          temperate regions such as Lower Saxony, Germany. This effect is likely due to the release
+                          of biofumigant compounds, such as glucosinolates. Similarly, in Germany and the United
+                          States, it has been observed that rye is capable of supressing weeds under different farming
+                          systems [47]. Among the most significant advantages of cover cropping is the enhancement
+                          of soil fertility [51]. Leguminous cover crops such as clover and vetch biologically fix
+                          nitrogen, rendering atmospheric nitrogen available for subsequent crops. Results from
+                          studies have demonstrated that the amount of nitrogen fixed by legume cover crops in the
+                          soil can range from 10 to 217 kg N/ha over a single growing season, depending on the
+                          species used and the site-specific conditions [52]. In field trials conducted in North Carolina,
+                          United States, hairy vetch fixed up to 217 kg N/ha over a single season (e.g., cultivar ‘PRO’
+                          at Piedmont, late termination), while lupin (TifBlue78) and subterranean clover (Denmark)
+                          contributed as little as 15 and 16 kg N/ha, respectively, within the same timeframe. Sim-
+                          ilarly, it was determined in a long-term no-till cropping experiment in Kansas, United
+                          States, that Sunn hemp, a high-biomass summer legume, fixed up to 172 kg N/ha within
+                          14 weeks, increasing total soil nitrogen by up to 279 kg N/ha compared with non-cover
+                          cropped plots [53]. The nitrogen that is fixed by these crops can substantially offset syn-
+                          thetic fertiliser needs, especially in low-input systems. It is an economical and natural
+                          process that reduces synthetic fertiliser usage [54]. The organic material from decomposing
+                          cover crops further enhances soil structure and increases water retention, aeration, and
+                          microbial activity [47,55].
+                                Cover cropping is also a fundamental erosion control method. Cover crop root systems
+                          stabilise the soil and reduce wind and water erosion on sloping or high-precipitation land.
+                          Studies have shown that using cover crops can decrease soil erosion by 11–29% under
+                          Midwestern cropping systems [56]. Moreover, field experiments conducted in the southeast-
+                          ern United States demonstrated a 64% reduction in erosion rates when compared to bare
+                          soil [57]. Additionally, Olson et al. [58] mentioned a soil erosion level of 17.9 tons/acre/year
+                          in non-controlled systems; Langdale et al. [59] noted that cover crops reduced soil loss
+                          from 30.1 to 24.3 Mg·ha−1 ·year−1 . Kaspar and Singer [60] observed significant erosion
+                          reductions in a variety of cropping systems with cover crop adoption. By incorporating
+                          cover crops into crop rotation systems, producers can enhance soil health, stabilise yields,
+                          and positively contribute to long-term agricultural sustainability [61,62]. Moreover, using
+                          cover crops can lead to similar or even higher crop yields, while enhancing their durability.
+                          In the United States, cover crops have been shown to reduce crop insurance losses from
+                          drought, high temperature, and high level of moisture, reflecting enhanced resilience under
+                          climatic stress [63]. Additionally, winter legume cover crops have found to significantly
+                          increase corn yields by an average of 24% compared to crops that do not use cover crops.
+                          Moreover, a 37% yield increase was observed when no nitrogen fertiliser was used, whereas
+                          grass cover crops-maintained yields at levels comparable to those of no-cover systems [64].
+Agronomy 2025, 15, 1966                                                                                             6 of 31
+
+
+
+                          3.4. Incorporation of Livestock
+                                Rotational grazing involves the integration of livestock rearing and crop rotation to
+                          promote soil health and pasture productivity. Livestock are moved to various sections
+                          of a field where they feed, allowing the crops in previously grazed areas to recover [65].
+                          Galindo et al. [65] noted that over a four-year period, rotational grazing in Minnesota and
+                          Pennsylvania greatly improved soil organic carbon (SOC) and enhanced enzymatic activity,
+                          specifically, β-glucosidase, alkaline phosphatase, and arylsulfatase, indicating improved
+                          nutrient cycling and enhanced enzymatic activity.
+                                Animal manure introduces organic matter and nutrients into the soil, which benefits
+                          soil bacteria and overall soil health [66,67]. In fact, consistent rotational systems in grazing
+                          have been shown to enhance nitrogen use efficiency and store more carbon in the soil by
+                          approximately 0.3–1.6 Mg C ha−1 yr−1 , depending on local conditions and management
+                          practices [67]. This aligns with field results for regenerative systems in Spain, where
+                          rotational grazing enhanced topsoil carbon compared to conventional methods, especially
+                          with longer rest periods [68]. It is also supported by global meta-analyses highlighting that
+                          rotational grazing increases SOC compared to continuous grazing [69].
+                                This management practice optimises the utilisation of forage crops, avoids overgrazing,
+                          and encourages pastureland restoration by allowing rest and recovery between grazing
+                          periods. In the Midwest and semi-arid Texas, U.S, this system has been shown to enhance
+                          soil biological activity and physical resilience [65,70]. By regulating grazing intensity and
+                          timing, rotational grazing minimises the adverse effects of continuous grazing, such as
+                          soil compaction, plant biodiversity loss, and nutrient depletion [71]. Furthermore, rotating
+                          livestock contributes to effective weed and pest control, thus minimising the need for
+                          chemical controls. It also prevents soil erosion and maintains vegetation variety, supporting
+                          valuable insect species for pollination and pest control, thereby maintaining the biological
+                          diversity essential for a resilient ecosystem [72]. Rest periods between short grazing
+                          intervals allow plant species to regrow and root systems to stabilise, improving soil aeration
+                          and water retention. According to studies conducted in Iowa, U.S, there were no significant
+                          differences observed in SOM when exposed to short-term grazing periods. However, long-
+                          term grazing in Virginia and the southeastern United States reported increases of 22–31.9%
+                          in SOC with management-intensive grazing [71,73–75].
+                                Rotational grazing enhances the growth of deeper and more vigorous root systems,
+                          which improves soil structure, nutrient cycling, and erosion resistance. Improved root
+                          mass increases the carbon sequestration potential of pastures, reducing atmospheric CO2
+                          concentrations [65]. Adaptive multi-paddock grazing systems enhance water infiltration
+                          and boost soil microbial biomass, fungal-to-bacterial ratios, and overall microbial function,
+                          contributing to healthier soil conditions and ecological resilience [65]. A previous study
+                          demonstrated a 20–60% rise in infiltration rates and improvements in microbial biomass
+                          under adaptive grazing management [76,77]. Integrating livestock into crop cycles, partic-
+                          ularly on heterogeneous farms with diverse crops and landscapes, promotes mutualism
+                          between plants and animals, enhancing soil fertility and reducing vulnerability to pest
+                          damage and temperature extremes. Additionally, cover crops can cut down erosion by up
+                          to 90% and reduce pesticide runoff by more than 50%, while providing up to 132 kg N/ha
+                          for subsequent crops [78].
+                                Controlled manure deposition through rotational grazing increases microbial activity
+                          and nutrient cycling. This reduces the need for synthetic fertilisers and supports sustainable
+                          fertility management through improved nutrient uptake efficiency and reduced environ-
+                          mental loss [79]. Integrated manure management also prevents leaching and nutrient
+                          runoff, mitigating water pollution risks [67,80].
+Agronomy 2025, 15, 1966                                                                                                7 of 31
+
+
+
+                                     Animals grazing on crop residues during harvest or on cover crops in off-cropping
+                                seasons can sustainably recycle nutrients for crops and livestock [72,80]. Using combined
+                                grazing methods such as those incorporating forage legumes and managed grazing, such as
+                                those employed in Florida and southern Brazil, has been shown to improve nutrient cycling
+                                and decrease the need for synthetic fertilisers, without compromising productivity [80].
+                                Furthermore, rotational grazing reduces parasitic infestation and disease transmission
+                                among livestock [81] and improves livestock gut health, potentially lowering veterinary
+                                costs [82]. According to van der Voort et al. [81], using better grazing methods help reduce
+                                parasites, boosts productivity, and saves USD 9.03 per cow each year.
+                                     Increased plant species diversity improves ecological stability and ensures long-term
+                                viability of livestock systems. By reducing dependency on external inputs and encouraging
+                                the natural regenerative capacity of pasture systems, rotational grazing exemplifies sustain-
+                                able agriculture. It is consistent with ecological guidelines and focuses on conservation,
+                                yielding results that benefit nature and the economy [70,83].
+
+                                3.5. Alternate Intercropping Systems
+                                     Changing intercropping or strip intercropping with annual alternation of crops in
+                                adjacent strips combines advantages of intercropping and crop rotation. It promotes
+                                complementarity across spatial and temporal niches, minimises limitations of continu-
+                                ous cropping challenges, and enhances soil health as well as supporting dual harvests
+                                within a single year. In cotton–peanut rotations, this approach has been reported to in-
+                                crease yields by 17–21%, net returns by 10–23%, and land equivalent ratios (LERs) by
+                                20–30% [84]. In cotton–soybean systems, the modification of planting dates and selection
+                                of appropriate varieties mitigate interspecific competition, achieving LERs between 1.04
+                                and 1.15 and promoting canopy photosynthesis and root growth [85,86]. These systems
+                                offer high yield resilience and ecological efficiency, placing them as integral components of
+                                sustainable intensification strategies. A summary of the crop rotation methods discussed
+                                in Sections 3.1–3.5 is presented in Table 1.
+
+                                Table 1. Summary of crop rotation methods and their impacts (Sections 3.1–3.5).
+
+        Rotation Strategy                      Main Advantages               Quantitative Representative Outcomes
+                                   Disrupts pest/disease cycles; improves
+                                                                            Up to 18% increase in SOC; yield increase
+                                   soil health and yield; enhances nitrogen
+   3.1 General Crop Rotation                                                of 13–44% in cereal–legume sequences;
+                                   cycling; improves soil organic carbon
+                                                                            39% reduction in N2 O emissions.
+                                   (SOC) and pH balance.
+                                   Fixes atmospheric nitrogen               Soybean biological nitrogen fixation (BNF)
+                                   (e.g., soybean ~75 kg N/ha, alfalfa ~148 ~75 kg N/ha; alfalfa ~148 kg N/ha;
+    3.2 Legume Integration
+                                   kg N/ha); enhances P availability;       improved nutrient cycling and organic
+                                   boosts soil biodiversity and fertility.  matter; enhances microbial activity.
+                                   Reduces erosion by 11–29%; increases
+                                                                            Hairy vetch fixed 217 kg N/ha; erosion
+                                   soil organic matter (SOM); fixes up to
+                                                                            reduced by 11–29%; crop yields increased
+       3.3 Cover Cropping          217 kg N/ha (e.g., hairy vetch);
+                                                                            up to 24% (corn); reduced pesticide runoff
+                                   suppresses weeds via competition and
+                                                                            by >50%.
+                                   allelopathy.
+                                   Increases SOC by 0.3–1.6 Mg C/ha/year; SOC gains 0.3–1.6 Mg C/ha/year;
+                                   improves enzymatic activity; enhances    enzymatic activity (β-glucosidase,
+     3.4 Rotational Grazing
+                                   water retention and microbial biomass;   phosphatase) increased; 22–32% SOM rise
+                                   reduces input needs.                     in long-term trials.
+                                   Increases land equivalent ratios (LERs   Yield increase: cotton-peanut 17–21%; LER
+                                   (20–30%)); improves root–shoot           improvement up to 30%; increased
+  3.5 Alternate Intercropping
+                                   interactions; enhances canopy            economic return by 10–23%; improved
+                                   photosynthesis and yield stability.      stress resilience.
+Agronomy 2025, 15, 1966                                                                                                         8 of 31
+
+
+
+                               4. Advantages and Disadvantages of Crop Rotation
+                               4.1. Soil Fertility
+                                     Crop rotation and monocropping systems are often compared because they signif-
+                               icantly differ in their effects on soil fertility, nutrient cycling, and sustainability [87]. In
+                               the following section, both systems are discussed to identify the specific benefits and
+                               drawbacks of crop rotation.
+                                     Crop rotation is often contrasted with monocropping regarding its long-term impact on
+                               soil and environmental health. These systems differ in their impact, use, carbon storage, and
+                               biodiversity outcomes (Table 2). Crop rotation plays a significant role in SOM accumulation.
+                               The decomposition of different plant residues stimulates the development of humus, a
+                               stable form of organic matter, resulting in enhanced microbial activity and soil structure
+                               through the provision of a food source and stabilising agent for soil particles [88–90].
+                                     According to recent studies, root–shoot dynamics is one of the key mechanisms
+                               enhancing soil fertility in diversified systems. Improved root structure in rotations and
+                               intercropping increases nutrient uptake, root exudation, and microbial activity, which
+                               enhances nutrient cycling and soil structure [84,91]. These systems also result in improved
+                               adaptation to poor soils through more efficient nutrient foraging [92].
+                                     A diverse soil microbiome ensures improved nutrient cycling in addition to the sup-
+                               pression of soil-borne pathogens by fostering competition between microorganisms and pro-
+                               ducing compounds that inhibit pathogen growth, resulting in improved crop health [93–96].
+                                     Conversely, continuous monocropping can result in the exhaustion of specific nutrients
+                               like nitrogen, phosphorus, and potassium and establishment of a favourable environment
+                               in the soil for pests and diseases. By adopting crop rotation, farmers can break pest and
+                               disease cycles, reduce their frequency, and minimise the use of chemical pesticides, thereby
+                               protecting soil health and reducing environmental pollution [97–99].
+                                     While crop rotation has many advantages, it also has some drawbacks, including
+                               increased management complexity, more planning, and reduced compatibility with large-
+                               scale, single-crop machinery. Furthermore, it has the potential to result in lower short-
+                               term profitability compared to monocropping systems specialised for high-value cash
+                               crops [100–102]. For instance, in the Indo-Gangetic Plain, many small farmers avoid rotat-
+                               ing between rice and legumes because of low market returns, despite soil benefits [35,103].
+                               Additionally, while in the U.S. Midwest, corn–soybean is still the most common rota-
+                               tion [104], concerns about equipment needs in diversified systems are also being addressed;
+                               these systems often face additional costs or machinery incompatibility, with research show-
+                               ing improved mechanisation compatibility and specialised machinery development [105].
+                               In dry sub-Saharan Africa, legume rotation adoption is limited by socio-economic barriers
+                               rather than by water scarcity. However, despite the long-term agronomic benefits, crop
+                               options are still limited by low water availability and lack of affordable irrigation [106,107].
+
+                               Table 2. Comparison of single cropping and crop rotation systems.
+
+          Aspect                           Monocropping                                         Crop Rotation
+                                                                             Improves soil health by 45%; adds organic
+                          Lower soil health index [108,109].
+                                                                             matter [108,109].
+     Soil Health and
+                          Nutrient depletion reduced microbial
+         Fertility                                                           Improves soil fertility, biodiversity [102,110].
+                          diversity [102,110].
+                          Degradation implied [111].                         Stabilises yield across climates [111].
+                                                                             Higher diversity in rotations like
+    Microbial and Soil    Lower bacterial diversity [112,113].
+                                                                             maize–alfalfa [113].
+      Biodiversity
+                          Reduces biodiversity [108,110].                    Enhance biodiversity [108,110]
+Agronomy 2025, 15, 1966                                                                                                                  9 of 31
+
+
+
+                               Table 2. Cont.
+
+          Aspect                            Monocropping                                                 Crop Rotation
+                                                                                     Significantly increases SOC [109]. Increased SOC
+   Soil Organic Carbon    Reduced soil organic carbon [109].
+                                                                                     by 18% [114]
+                          Greater reliance on synthetic inputs; up to 120 kg         Reduces N input: oats = 82 vs. clover–
+                          N/ha in cereals [115].                                     oats = 42 kg N/ha [115].
+                          Nitrogen limitation in corn-after-corn [111].              Soybean N fixation boosts corn yield [111].
+ Nutrient Management
+                          −41 kg N, −6 kg P, −26 kg K ha−1 yr−1 lost;
+                                                                                     Enhances nutrient cycling, esp. with legumes [87].
+                          higher fertiliser use [87].
+                                                                                     Reduces N requirement [116].
+                                                                                     Reduces N2 O emissions in rotation systems; one
+     GHG Emissions        Higher N2 O emissions [109].
+                                                                                     study reported a 39% decrease [109].
+                          More vulnerable to climate variability [117].              Up to 1000 kg/ha more during heat/drought [117].
+    Climate Resilience
+                                                                                     Improves resilience to biotic/abiotic stress [116].
+                          Associated with land degradation [118].                    Promotes sustainable land use [118].
+    Sustainability and
+      Environment         Environmental degradation and
+                                                                                     Promotes sustainability and biodiversity [108].
+                          deforestation [108].
+                          Increased pest/disease pressure [102,108].                 Reduces pest/disease pressure [102,116].
+     Pest and Disease     Higher pest pressure [111].                                Benefit increases under high pest pressure [111].
+      Management          Weed pressure may increase [26].                           Suppresses weeds with rye, radish [26].
+                          High dependency on synthetic inputs [108].                 Improves natural fertility, pest control [108].
+                          Simpler and widely adopted [87,102].                       Requires complex planning [87,102].
+    Management and        Treated as control [111].                                  Treated as treatment [111].
+      Scalability         Traditional practice, being replaced [110].                Core principle of CA, increasingly adopted [110].
+                          Dependent on synthetic inputs [26].                        Reduces input reliance; improves stability [26].
+                                                                                     A 48% higher margin in faba bean–wheat
+                          Lower gross margins [119].
+                                                                                     rotation [119].
+                          More profit fluctuations [115]                             Stable profits under variable weather [115].
+ Economic Performance     Requires more external input [110].                        Decreases variability in returns [116].
+                                                                                     Reduces costs by 15–16% [110]. Economic
+                                                                                     outcomes may vary for small-scale farmers
+                                                                                     depending on local conditions and resource access.
+    Agrobiodiversity                                                                 Enhances agroecosystem diversity [116].
+                                                                                     Potential contamination risk when manure
+                          Higher risk of nitrate accumulation in edible crops
+                                                                                     managed poorly but otherwise supports to lower
+                          because of excessive use of synthetic fertiliser and
+       Food Safety                                                                   nitrate accumulation because of enhancing
+                          decrease nutrient efficiency in
+                                                                                     nutrient cycling and organic management
+                          monocultures [108,120].
+                                                                                     systems [108,121].
+   Mechanization and      Mechanisation-friendly machinery. Costs USD                Less compatible with single-crop machinery. Costs
+    Machinery Cost        67,200 [100].                                              USD 115,000 [100].
+                          Lower yields in cereals [117].                             Higher yields; 860 kg/ha (winter), 390 kg/ha [117].
+                          Short-term yields maintained, long-term
+                                                                                     Stabilises yield via fertility and pest control [87].
+                          decline [87].
+           Yield
+                                                                                     Corn +1.03 t/ha; Soy +0.21 t/ha higher under
+                          Lower yields under monoculture [111].
+                                                                                     rotation vs. monoculture [111].
+                                                                                     Increased output in trials [26].
+                               Note: The “Soil Health Index” refers to a composite measure typically based on physical, chemical, and biological
+                               soil indicators, which vary by study and region.
+
+
+                                    Different residues and root structures are deposited in the soil each time a crop
+                               is grown. Thereby, crop rotation improves the breakdown of SOM, increases soil car-
+                               bon content, improves nutrient availability, and promotes the health of soil microorgan-
+                               isms [122,123]. Enhanced microbial populations and SOM improve soil structure, water
+                               retention, and aeration [124,125]. Different crops remove and replenish nutrients at varying
+Agronomy 2025, 15, 1966                                                                                           10 of 31
+
+
+
+                          rates, preventing the long-term deficiency of specific elements. Crop rotation is therefore
+                          a natural method of enriching the nitrogen content of soils and reducing the need for
+                          synthetic fertiliser [126].
+                                Various crop rotation methods, especially those that include diverse plant families,
+                          help maintain a balanced soil environment and promote the activity of certain microbes
+                          and fungi that benefit soil health by suppressing pathogens and enhancing nutrient cy-
+                          cling [127,128]. Sometimes plant roots or soils are synthetically inoculated with beneficial
+                          microbes; this is often referred to as ‘labelling crops with microbes’, by doing this, farmers
+                          are improving soil health. Moreover, crop rotations using crops such as corn, wheat, and
+                          soybean aid in maintaining the soil nitrogen balance, alternating nitrogen-demanding and
+                          nitrogen-fixing plants. This reduces nutrient depletion, enhances nutrient use efficiency,
+                          and improves soil productivity, thereby providing better plant growth and yields [129].
+                                In addition to helping farmers manage nutrient composition, crop rotation im-
+                          proves physical soil structure and properties. Differing root structures impact soil poros-
+                          ity, aeration, and water-holding capacity [130]. Fibrous-rooted crops such as grasses
+                          hold soil particles together, preventing erosion, whereas crops with tap root systems,
+                          such as carrots and radishes, break compacted soil, boosting drainage and root pene-
+                          tration [8]. Carrots (Daucus carota L.) can be used effectively in crop rotation with crops
+                          such as barley, as their taproots can improve soil structure and provide nutritional and
+                          economic benefits [131–133].
+
+                          4.2. Nutrient Optimisation
+                                Nutrient optimisation is another advantage of crop rotation systems that requires
+                          prioritisation. Legumes effectively fix nitrogen from the atmosphere for use by other crops.
+                          While all plants require nitrogen, cereal crops such as wheat or corn have a higher demand
+                          for nitrogen compared to legumes. In traditional rotations, pea or clover, which are legumes,
+                          are followed by cereal crops. This integration ensures that the nutrient balance is intact,
+                          decreasing the use of synthetic nitrogen fertilisers and preventing soil degradation [21,134].
+                                Crop rotation also enhances the nutrient-cycling ability of soil microbial communi-
+                          ties [135]. The key factor that supports this process is the soil health score, which provides
+                          a comprehensive assessment of soil quality and its capacity to support crop production
+                          without degradation [136,137]. Soil health scores are usually calculated using a combina-
+                          tion of physical, chemical, and biological indicators, such as soil texture, organic matter
+                          content, nutrient level, and microbial composition [138,139]. Cereal crops such as wheat
+                          and corn, for example, are heavy users of nitrogen and can exhaust soil nitrogen reserves
+                          if grown continuously in monocropping systems, thus requiring applications of nitrogen-
+                          rich fertilisers in between seasons. Rotating these crops with legume crops enhances soil
+                          fertility by restoring nitrogen through biological nitrogen fixation. Leguminous plants are
+                          symbionts with nitrogen-fixing bacteria (rhizobia) in their root nodules, which fix atmo-
+                          spheric nitrogen into forms readily available for future crops, obviating the use of synthetic
+                          fertilisers [14,140]. Thus, crop rotation decreases the use of synthetic nitrogen fertilisers
+                          and enhances soil fertility sustainably.
+                                As shown in Figure 1, nitrogen savings are dependant on crop type, rotation structure,
+                          baseline soil fertility, and the inclusion of nitrogen-fixing legumes.
+                                Crop rotation enhances carbon sequestration as different crops make varying contri-
+                          butions to SOM [146]. Stored carbon is essential for sustainable farming as it improves soil
+                          aggregation, stabilises soil structure, and decreases carbon emissions owing to the reduced
+                          amount of applied fertiliser [147]. In addition to nitrogen, crop rotation optimises the avail-
+                          ability of other major nutrients such as phosphorus and potassium. Deep-rooted crops such
+                          as sunflowers and alfalfa bring nutrients from deeper soil to the surface through absorption
+Agronomy 2025, 15, 1966                                                                                                11 of 31
+
+
+
+                          by the roots, depositing them near the surface when the plant undergoes decomposition.
+                          These nutrients are then made available to shallow-rooted crops in subsequent cycles. This
+                          prevents nutrient stratification and improves soil nutrient cycling. Deep root systems also
+                          contribute to enhancing organic matter accumulation by depositing root litter, which is
+                          beneficial to soil microbial activity, enhancing decomposition and nutrient uptake [148,149].
+
+
+
+
+                          Figure 1. Heatmap of reported nitrogen savings from crop rotations compared to monoculture, based
+                          on the field data gathered from different studies [109,115,141–145]. This graph represents a summary
+                          of field-based studies quantifying nitrogen savings achieved through crop rotation. The heatmap
+                          presents a combination of data from eight sources, highlighting the reduction in nitrogen fertiliser
+                          inputs or increases in total soil nitrogen rates across different crop systems.
+
+                               Crop rotation also minimises the risk of nutrient imbalances that are a result of
+                          monoculture practices. Monoculture tends to deplete nutrients used intensively by the main
+                          crop, such as nitrogen when growing grains, while other nutrients, such as phosphorus,
+                          accumulate to levels that can be detrimental to plant growth in some forms [150,151].
+                          Through crop rotation, farmers can achieve a more balanced use and distribution of soil
+                          nutrients. For example, by rotating crops that require high levels of phosphorus and
+                          potassium for growth, such as root crops like carrots and turnips, farmers can improve
+                          bioavailability of phosphorus and potassium [26]. In addition, the use of cover crops
+                          such as clover, vetch, or rye in the rotation cycle enhances nutrient retention by taking
+                          up nutrients that might be lost in the soil and reducing leaching losses through the root
+                          structure, while retaining nutrients within the roots. Cover crops accept excess nutrients
+                          that would otherwise be lost in runoff and make them available for subsequent crops
+                          through decomposition, which releases those nutrients back into the soil. Cover crops also
+                          contribute to SOM, which enhances the nutrient-holding capacity and structure of soil,
+                          thereby decreasing the need for external fertilisers [152–154].
+                               As shown in Figure 2, crop yields in rotation systems comprising soybean and corn
+                          were higher than in continuous cropping, underscoring the advantages of rotational tech-
+                          niques for productivity [155].
+Agronomy 2025, 15, 1966                                                                                               12 of 31
+
+
+
+
+                          Figure 2. Case study example of crop yields using monoculture and crop rotation practices for
+                          2000–2001 (measured in bushels per acre, bu/ac). C-C-C, continuous corn; C-S, corn–soybean, S-S-S,
+                          continuous soybean. Each value above a bar represents the mean. Different letters denote significant
+                          differences between rotation systems (p < 0.05) [155].
+
+                          4.3. Pest and Disease Control
+                                Crop rotation is a key component of integrated pest management (IPM) as it reduces
+                          reliance on chemical pesticides [21,156]. By altering crops, this system disrupts the life cycles
+                          of pests and pathogens [157] and enhances agrobiodiversity, thereby enhancing natural pest
+                          control through beneficial organisms such as predatory insects and soil microbes [158–160].
+                                Disrupting the availability of host plants for pests and conditions for pathogens that
+                          cause disease effectively reduces pest incidence [26]. For instance, reducing pest abundance
+                          can be achieved by intercropping plants that are prone to diseases or attractive to different
+                          insects with less vulnerable plants. Rootworm larvae that feed on corn can be reduced by
+                          interplanting corn with beans. These works well since the larvae usually spend much of
+                          their life cycle on corn roots, which leaves them exposed when corn is switched out for a
+                          non-host crop like beans [21,161].
+                                Additionally, crop rotation can benefit soil health by reducing the incidence of soil-
+                          borne diseases, as crop diversity may decrease soil pathogens through promoting bene-
+                          ficial microorganisms and improving crop disease management [162]. For instance, Kel-
+                          ley et al. [163] demonstrated that crop rotation can reduce the incidence of disease through
+                          suppressing the populations of soybean cyst nematode (SCN) and increasing soybean
+                          yield. In the twenty-year field study in Kansas, they showed that continuous soybean
+                          monoculture resulted in the highest SCN populations and the lowest yields, while crop
+                          rotations incorporating wheat or grain sorghum not only decreased SCN populations but
+                          also increased seed weight and chemical properties of the soil such as nitrogen and total
+                          carbon content. The study illustrates how crop rotation minimises disease incidence and
+                          supports both long-term soil productivity and plant health. This clearly demonstrates that
+                          crop rotation effectively reduces disease pressure caused by the soybean cyst nematode.
+                          When soil quality is improved through crop rotation practices, it can support various
+                          beneficial organisms that control or suppress soil-borne pathogens [164].
+                                In addition to these direct advantages, the cropping system reduces reliance on chemi-
+                          cal pesticides, contributing to more sustainable agriculture [165,166]. As mentioned pre-
+                          viously, low pesticide application reduces the levels that can leach into the environment,
+                          thus protecting all wildlife, including beneficial fauna that act as natural insect repellents
+                          and terrestrial and aquatic species that can be negatively impacted by pesticides [167,168].
+                          Therefore, crop rotation can be a practical component of a broader integrated pest man-
+Agronomy 2025, 15, 1966                                                                                                     13 of 31
+
+
+
+                                agement approach. Crop rotation ensures healthy crop growth and minimises problems
+                                associated with destructive pests in agricultural practices.
+
+                                4.4. Weed Control
+                                      Organic weed control is another benefit of crop rotation, as complex crop systems
+                                do not require herbicides to manage weeds [169,170]. Monoculture systems provide ideal
+                                environments for certain weed species to thrive. However, crop rotation disrupts this,
+                                as the crops have varying growth characteristics, including differences in height, rate of
+                                development, competitive ability, and root and canopy architecture, depriving weeds of a
+                                stable environment [171–173].
+                                      For instance, planting cover crops with high biomass production or with a high tillage
+                                rate can effectively suppress weeds and prevent light-dependent weed seeds, such as lambs-
+                                foot and red pigweed, from germinating or establishing. Clover and alfalfa are legumes that
+                                can fix nitrogen, improve soil health, and promote vigorous crop growth, which increases
+                                competition with weeds for resources such as light and nutrients. Furthermore, some crop
+                                species secrete compounds that affect weed seed germination, such as the allelochemicals
+                                released by rye and sorghum [51].
+                                      Table 3 presents the broader benefits and effectiveness of crop rotations and related
+                                agronomic practices on weed management. The table is based on field studies demonstrat-
+                                ing how rotation, intercropping, and cover cropping contribute to weed control.
+                                      Rotational crops such as rice–wheat and cotton–wheat reduce weeds; however, some
+                                nutrients in the soil may be depleted over time. Like other legumes, mung bean adds
+                                nitrogen to the soil, increasing subsequent wheat yields [174]. Sorghum is efficient in weed
+                                suppression through allelopathy, a phenomenon in which the plant releases biochemicals
+                                that effect the growth, survival, and reproduction of other organisms; however, if sorghum
+                                residues are not managed properly, they can inhibit wheat germination [175,176]. The
+                                choice of rotation depends mainly on the regional conditions and specific objectives, such
+                                as increasing yield, controlling weeds, or improving soil quality [177].
+
+                                Table 3. Effects of different crop rotation systems and related agronomic practices in weed suppres-
+                                sion, based on field study data.
+
+           Crop Rotation or Related Practices                         Effect on Weed Management                      Reference
+                                                         Weed seed density reduced by ~80% (450 seeds/m2 ) vs.
+                 Maize–soybean rotation                                                                                 [100]
+                                                         monoculture (2250 seeds/m2 ).
+   Wheat, maize, cereals with legumes and vegetables
+                                                         Reduced weed density in 75–78% of comparisons.                 [171]
+   Monoculture vs. crop rotation and intercropping.
+    Field pea–barley monoculture vs. intercropping       Suppressed 96% of broadleaf weeds.                             [178]
+                                                         Effective in reducing specific weeds; some pest
+                                                         challenges remain. Suppresses weeds but allows pest
+                                                         carryover. Reduces weed infestation effectively;
+      Multiple systems (rice–wheat, cotton–wheat,
+                                                         suppression is attributed to allelopathy. Moderate weed
+   sorghum–wheat, mung bean–wheat, intensive and                                                                        [179]
+                                                         control reduces herbicide reliance. Significant weed
+                  multiyear rotations)
+                                                         suppression: wheat (−51%), maize (−70%), cotton
+                                                         (−66%). Reduces weeds in cotton by 31–57% through
+                                                         extended cropping cycles.
+         Rice–wheat with residue management
+                                                         Weed biomass reduced by up to 31.3%.                           [174]
+        (mulching/incorporation vs. no residue)
+             Rye, maize, soybean, cotton                 Reduced broadleaf weeds by 96% and grass weeds by
+                                                                                                                         [51]
+       monoculture vs. cover-crop-based rotation         61%.
+Agronomy 2025, 15, 1966                                                                                           14 of 31
+
+
+
+                          4.5. Increased Crop Yields
+                                Crop rotation contributes to food security and better soil health by raising crop yields
+                          and improving agricultural sustainability. Crop rotation is more productive in the long
+                          run because it improves soil fertility and can result in safer agricultural production by
+                          lowering dependency on synthetic pesticides compared to monoculture. It reduces the
+                          need for intensive soil management programmes, disrupts pest and disease life cycles, and
+                          improves general soil health [26,180,181].
+                                Crop rotation can enhance yields by improving nutrient availability in the soil, particu-
+                          larly through nitrogen fixation. The yield impact varies depending on the crop species, soil,
+                          and climate [182,183]. Legumes benefit subsequent cereal crops such as maize and wheat,
+                          although outcomes depend on factors such as nutrient and water management [184,185].
+                          Different crops have different nutrient requirements and effects on soil fertility.
+                                In diversified systems, yield gains also partly resulted from optimised root–shoot
+                          dynamics. In cotton-based intercropping, enhanced root system development further
+                          supports higher photosynthesis activity and nutrient uptake, thereby contributing to
+                          improved biomass and yield stability [84]. Root–shoot signalling further plays a crucial
+                          role in enhancing stress resilience and resource-use efficiency [91,92].
+                                A comparison of crop-by-crop yields indicates that crop rotation systems have higher
+                          yields than those of monoculture systems. For example, rotating maize with soybeans
+                          showed a 13–15% yield increase compared to continuous maize monoculture [186]. Crop-
+                          ping wheat after legumes increased yields by 13–31.71%, depending on the intensity of
+                          the rotation and the legume harvest [187]. Similarly, two-year maize–wheat–soybean rota-
+                          tions boosted soybean yields by 39–44% [188], while annual rotations increased maize and
+                          soybean yields by 20% and 22%, respectively [189].
+                                Maize has shown positive yield responses to rotation. Meta-analyses and long-term
+                          trials have consistently reported an increase in maize yields in rotated systems compared to
+                          continuous monoculture, with crop rotation largely increasing agricultural production [182].
+                          Greater benefits have been observed when legumes are included in the sequence, with
+                          meta-analyses showing yield advantages in succeeding maize of up to 34% when using
+                          legume crops compared to non-legume predecessors [134,190]. A global systematic re-
+                          view with a meta-analysis revealed significant yield advantages of legume-based rotations
+                          for maize [191]. These benefits are linked to improved nitrogen availability from legume
+                          nitrogen contribution [100] and limited pest incidence, as continuous growing of maize
+                          over within several years increases pest pressure compared to well-planned rotation sys-
+                          tems. Crop rotation provides long-term yield and stability benefits for maize production,
+                          according to long-term research [192].
+                                Figure 3 presents findings of 19 field studies reporting the percentage yield outcomes
+                          of crop rotation compared to monoculture. The data indicate that yield improvements
+                          associated with crop rotation range from modest (3%) to substantial (up to 100%), depend-
+                          ing on factors such as crop type, rotation varied, fertiliser rate, agricultural practices, and
+                          geographical region.
+                                These findings demonstrate that, in contrast with continuous cropping under both
+                          no-till and chisel tillage, soybean yields were higher in rotated systems. Compared to
+                          moldboard ploughing, wheat fared better under chisel and ridge tillage. Alfalfa and wheat
+                          straw yields did not significantly differ between treatments [155].
+                                Table 4 lists the effects of tillage and rotational cropping systems on crop yields based
+                          on the findings of [155]. The data indicates the differences in monoculture (monocrop
+                          or continuous cropping) and rotational cropping systems across tillage treatments. The
+                          findings show that crop rotation can promote stability of the yield and reduce the need to
+                          use intensive tillage operations.
+Agronomy 2025, 15, 1966                                                                                                                15 of 31
+
+
+
+
+                                  Figure 3. Reported yield increases from crop rotation compared to monoculture: a chronological review of
+                                  field studies (1989–2024) based on data from [100,109,117,119,135,141,142,145,163,171,183,186,189,193–198].
+                                  Colour categories indicate the percentage range of yield increases: dark purple (0–10%), purple
+                                  (11–20%), blue (21–30%), teal (31–50%), green (51–80%), and yellow (81–100%).
+
+                                  Table 4. Case study example of comparative yield analysis (crop rotation vs. monoculture), based on
+                                  field data gathering from Singer et al. [155].
+
+                          Treatment (Continuous/       Yield (kg/ha,             Treatment              Yield (kg/ha,
+      Crop Type                                                                                                             % Difference
+                               Monoculture)            Monoculture)              (Rotated)                Rotated)
+                             No-till treatment
+   Soybeans (2001)                                           3701            W/S-C-S rotation               3564                −3.6%
+                              (continuous)
+                             Chisel treatment
+   Soybeans (2001)                                           2960            W/S-C-S rotation               3228                9.10%
+                              (continuous)
+                                                                                Chisel/ridge
+    Wheat (2001)           Mouldboard plough            Higher by 8%                                        −8%                    -
+                                                                                   tillage
+                                                        No significant
+ Alfalfa (2000/2001)       Mouldboard plough                                       No-till                   0%                    -
+                                                         difference
+     Wheat straw
+                               Chisel tillage           ~1000 kg/ha                No-till              ~1000 kg/ha                -
+     (2000/2001)
+
+
+                                   5. Environmental Benefits
+                                   5.1. GHG Emissions
+                                        Agricultural CO2 emissions mainly result from soil disturbance (e.g., tillage), crop
+                                   residue decomposition, and fossil fuel use in field operations. Ploughing accelerates
+                                   microbial respiration and CO2 release, while synthetic nitrogen fertilisers add indirect
+                                   emissions via energy-intensive production [8,15,199].
+Agronomy 2025, 15, 1966                                                                                               16 of 31
+
+
+
+                                Crop rotation mitigates CO2 emissions by enhancing SOM and reducing the need for
+                          tillage and fertilisers. Systems including legumes and perennials improve carbon inputs
+                          and sequestration over time [16,200].
+                                Other GHGs are also affected. Legume-based rotations can reduce N2 O emissions
+                          by improving nitrogen efficiency, with reductions up to 39% [23]. In flooded rice systems,
+                          rotating with upland crops such as maize or sorghum lowers CH4 emissions by up to 84%
+                          by disrupting anaerobic soil conditions [201].
+                                Agriculture contributes significantly to GHG emissions, including carbon dioxide,
+                          methane, and nitrous oxide, mainly due to intensive farming, artificial fertilisers, mecha-
+                          nisation, crop residue decomposition, and specific practices such as rice cultivation and
+                          nitrogen fertilisation [202,203]. Hashim et al. [204] highlighted how agricultural practices,
+                          including pest control, tillage, and nitrogen application, affect carbon dioxide emissions.
+                          By having a clearer understanding of these sources of GHG emissions, effective climate
+                          change mitigation strategies can be implemented [205]. The following section explores how
+                          crop rotation can reduce GHG emissions, particularly soil carbon dioxide emissions.
+                                Beyond reducing GHG, crop rotation improves soil health, biodiversity, and nutrient
+                          use while lowering erosion, leaching, and agrochemical dependence.
+
+                          5.2. Carbon Dioxide Emissions
+                                Crop rotation improves water use efficiency by enhancing soil structure, increasing
+                          infiltration, and reducing runoff and evaporation. Systems with legumes or deep-rooted crops
+                          help retain moisture and reduce irrigation needs, supporting drought resilience [14,206].
+                                Crop rotation boosts soil carbon storage, reducing CO2 emissions [207]. Mixed grass–
+                          legume pastures enhance soil organic carbon (SOC) content, while monoculture depletes
+                          it [208]. The use of legumes in cropping systems, particularly as cover crops, can reduce
+                          the need for synthetic fertiliser use, lowering related emissions. Moreover, legume cover
+                          crops are a reliable means to enhance cash crop yields. Legume rotations, such as clover–
+                          wheat, also reduce nitrogen runoff and GHG emissions [115,209,210]. The benefits of
+                          crop rotation compared to monoculture on environmental with regarding the need to
+                          fertilisation, nitrogen runoff, and GHG emissions, are shown in Figure 4.
+
+
+
+
+                          Figure 4. Case study example of environmental and economic gains of crop rotation over monoculture:
+                          cost–benefit comparison of GHG emissions, fertilisation, nitrogen runoff, and social welfare. The
+                          figure contrasts monocultures and legume-based rotations (clover, peas) in terms of environmental
+                          impacts and economic returns. The data derived adopted from [115].
+Agronomy 2025, 15, 1966                                                                                         17 of 31
+
+
+
+                                General principles emphasises that crop rotation benefits agriculture. However, numer-
+                          ous studies have examined the benefits of certain crop rotation systems and management
+                          techniques in terms of GHG emissions. Some of these important findings can be summed
+                          up as follows.
+                                Sainju et al. [15] examined the impact of various crop rotation systems and nitrogen
+                          fertilisation rates on soil CO2 emissions and carbon balance over a 4-year period. Their
+                          study aimed to evaluate the effects of crop rotation and nitrogen levels on soil CO2 and
+                          CH4 emissions. They achieved this by investigating spring wheat monocultures and spring
+                          wheat–pea rotation under different nitrogen levels (0, 50, 100, and 150 kg/ha, respectively).
+                          Soil CO2 emissions were observed to peak following planting, fertilisation, and heavy rains.
+                          It was determined that these emissions were influenced by the treatments, i.e., nitrogen
+                          fertilisation and crop rotation, which were designed to evaluate their impacts on soil
+                          CO2 and CH4 emissions. Crop rotation can influence cumulative yearly CO2 emissions,
+                          depending on the year and nitrogen application rate; this variability is due to factors such
+                          as the effect of the fertiliser rate of N having a differential impact on soil CO2 emissions
+                          under varying conditions and fluctuating weather patterns influencing carbon inputs and
+                          outputs. Yields relative to gas flux, which point to the rate of emission of CO2 among
+                          the soil and atmosphere, did not differ between treatments but varied annually [15,211].
+                          The carbon balance was consistently negative, regardless of treatment. A legume and
+                          non-legume rotation with less nitrogen reduced soil CO2 . Spring wheat systems release
+                          carbon in semiarid regions [15].
+                                Rigon et al. [16] compared the short-term soil CO2 emissions from two no-till exper-
+                          iments with various winter and spring crops, specifically pearl millet, Sunn hemp, and
+                          forage sorghum as spring crops and ruzigrass, sunflower, triticale, and grain sorghum
+                          as winter crops, followed by summer soybean rotations. The average CO2 emission rate
+                          and total CO2 emissions over the growing season were reported for both soil types. One
+                          experiment found that planting Sunn hemp as a spring crop resulted in 12% lower CO2
+                          emissions and a 9% higher soybean yield than pearl millet. The other experiment showed a
+                          17% reduction in CO2 emissions when ruzigrass and sorghum were grown in succession in
+                          winter while maintaining soybean productivity at levels comparable to other treatments.
+                          Soil moisture, crop residue nitrogen, and clay content were identified as factors influencing
+                          CO2 emissions levels.
+                                Yang et al. [212] evaluated and compared the carbon footprints of five cropping
+                          systems in the North China Plain from 2003 to 2010. The crop rotations included different
+                          combinations and lengths; these combinations consisted of various sequences of crops,
+                          including sweet potato, cotton, winter wheat, summer maize, ryegrass, and peanut, rotated
+                          over different year spans. The carbon footprint was analysed based on area, biomass, and
+                          economic output. The system with the lowest annual CO2 emission footprint was sweet
+                          potato–cotton–sweet potato–winter wheat/summer maize, representing 27.9–28.2% of the
+                          highest-emitting winter wheat/summer maize rotation. In order of decreasing carbon
+                          footprint, the five cropping systems, ranked from the lowest to highest, were (1) rotation
+                          of sweet potato and cotton in alternation, followed by winter wheat with summer maize;
+                          (2) cotton monoculture; (3) ryegrass and cotton with peanut, then winter wheat with
+                          summer maize; (4) peanut with winter wheat and summer maize; and (5) continuous
+                          winter wheat with summer maize.
+                                Maas et al. [17] continuously monitored CO2 fluxes over 2 years in fields with newly
+                          established perennial forage crops (mainly alfalfa and timothy grass) with annual spring
+                          wheat and rapeseed crops planted in adjacent areas. The perennial forage absorbed ap-
+                          proximately double the atmospheric CO2 that yearly crops did, at 4480 ± 1840 kg C/ha
+                          compared with 2470 ± 700 kg C/ha, respectively. By factoring in harvested materials
+Agronomy 2025, 15, 1966                                                                                          18 of 31
+
+
+
+                          and calculating total GHG emissions—including both direct CO2 emissions and other
+                          GHGs like N2 O—converted into CO2 equivalents (CO2 eq) based on their global warming
+                          potential, perennial forage had a net sink of 8470 ± 5640 kg CO2 eq/ha, whereas annual
+                          crops released 3760 ± 2450 kg CO2 eq/ha. Continuous CO2 measurements showed that
+                          perennial systems sequestered significantly more atmospheric CO2 and acted as more
+                          robust CO2 sinks than annual rotations [17].
+                                Abagandura et al. [18] measured CO2 fluxes under a spring wheat–cover crops–maize–
+                          pea/barley–sunflower crop rotation system and continuously grown spring wheat over
+                          2 years in North Dakota. The crop rotation system progressed through the following
+                          sequence: spring wheat, followed by cover crops, then maize, followed by either pea
+                          or barley, and concluded with sunflower. They found that CO2 fluxes were generally
+                          lower in 2016 than in 2017 and attributed this difference to high soil temperatures in 2017,
+                          which increased microbial activity and carbon mineralisation. Within each year of the
+                          study, increasing soil temperature positively correlated with higher measured CO2 flux.
+                          Although daily CO2 flux levels varied between crop phases, cumulative annual fluxes did
+                          not differ significantly. This indicates that the rotational diversity of crops has a limited
+                          influence on soil temperature and microbial processes that drive GHG emissions. However,
+                          soil temperature appeared to be the primary factor influencing the variations in CO2 flux
+                          levels between years and crop growth phases. According to this study, rotational diversity,
+                          residues, or SOC content did not significantly affect CO2 emissions.
+                                In South Dakota, Wegner et al. [213] reported several practices that could impact CO2
+                          emissions from soils in a corn–soybean cropping system, such as leaving crop residues
+                          or residual retention in the field after harvest, which resulted in lower cumulative CO2
+                          emissions than residue removal. Additionally, the use of cover crops decreased cumulative
+                          CO2 emissions in over two successive years relative to treatments without cover crops.
+                          When the cover crops were planted in both corn and soybean rotation systems, CO2 fluxes
+                          were significantly lower than in treatments without cover crops. Retaining residues and
+                          incorporating cover crops into the system provided notable benefits for mitigating soil
+                          CO2 emissions.
+                                Behnke et al. [214] revealed that maize is associated with soil conditions and fluxes
+                          more conducive to higher CO2 emissions than soybean. This study was implemented
+                          as a long-term cropping system experiment in Illinois, USA. Moreover, it investigated
+                          how yields, soil characteristics, and GHG emissions relate to different cropping systems,
+                          such as corn monocultures and corn–soybean rotations. The researchers discovered that
+                          while corn in the rotation released more N2 O than soybeans, corn was associated with
+                          soil conditions and fluxes more conducive to higher CO2 emissions than soybeans. This
+                          finding is consistent with other research highlighting the impact of crop rotations on GHG
+                          emissions and soil properties [214].
+                                Alluvione et al. [215] demonstrated that plant species within a rotation in Northeastern
+                          Colorado affected CO2 emissions. Barley (maize–barley rotation) emits a higher annual cu-
+                          mulative CO2 flux than maize (continuous maize) and dry bean (maize–dry bean rotation).
+                          These variations in the cumulative CO2 flux were attributed to the quantity and quality of
+                          the decaying residues from the preceding crops.
+                                In a long-term field study from 2007 to 2019, Wang et al. [216] compared three tillage
+                          methods—no-till, subsoiling tillage, and mouldboard ploughing—in a farming system
+                          in which crop residues were returned to the soil. They measured CO2 fluxes from soils
+                          receiving different tillage treatments. Their principal findings regarding CO2 emissions
+                          showed that no-till and subsoiling tillage had lower fluxes than mouldboard ploughing
+                          over a 2-year average. Specifically, no-till reduced the average CO2 flux by 14.5% when
+Agronomy 2025, 15, 1966                                                                                           19 of 31
+
+
+
+                          compared with mouldboard ploughing, whereas subsoiling tillage reduced the average
+                          flux by 8.5% when compared with mouldboard ploughing.
+                                Nyambo et al. [217] examined the effects of tillage, crop rotation, and residue handling
+                          on the soil’s CO2 flux. Specifically, they assessed conventional tillage versus no-till, maize,
+                          oats, vetch rotations, residue retention, removal, and biochar addition. These factors were
+                          evaluated individually and in combination with each other. For example, zero-tillage with
+                          residue retention, conventional cultivation with residue removal, and zero-tillage with
+                          biochar addition were considered. The CO2 flux was measured under different treatment
+                          combinations. They showed that tilling increased fluxes over no-till by approximately
+                          26.3%. Residue removal yielded lower fluxes than either retention or biochar addition.
+                          Across most of the agricultural methods tested, the CO2 fluxes were generally higher
+                          in summer than in winter [217–219]. No-till maintains more carbon in the topsoil than
+                          conventional tillage. Biochar leads to a lower total carbon content than residue practices.
+                          Thus, no-till and residue removal reduced soil CO2 emissions under most agricultural
+                          methods evaluated [217].
+                                Conservation tillage methods, such as minimum and no-tillage, can help lower GHG
+                          emissions compared to traditional tillage [8]. The System Approach to Land Use Sus-
+                          tainability (SALUS) simulation model showed that compared with conventional tillage,
+                          minimum tillage reduced SOC content losses by 17%, and no-tillage reduced losses by 63%
+                          over 15 years. Implementing conservation tillage techniques decreases carbon emissions
+                          from farming. A synergistic relationship exists between conservation tillage (especially
+                          no-tillage) and precision agriculture strategies that can reduce total CO2 emissions by 56%
+                          compared with the CO2 emission reduction in conventional tillage. It should be noted that
+                          this review does not account for emissions from agricultural machinery, such as fuel use
+                          for tillage and harvesting, which can significantly contribute to the total carbon footprint of
+                          farming systems [23,220].
+
+                          5.3. Methane Emissions
+                               Methane emissions (CH4 ) are particularly significant in rice-based cropping systems
+                          owing to anaerobic conditions that promote methanogenesis, as methanogenic archaea,
+                          which generate methane, thrive in oxygen-deprived conditions. The soil in flooded rice
+                          paddies becomes oxygen-depleted, which creates an ideal environment for these microor-
+                          ganisms to flourish [221]. In addition, alternate wetting and drying irrigation management
+                          lowers CH4 emissions from paddy fields [221–223]. The effectiveness of crop rotation in
+                          reducing CH4 emissions is demonstrated through research comparing different cropping
+                          systems. As shown in Figure 5, replacing continuous rice cultivation (RR) with corn–rice
+                          or sorghum–rice rotations reduce annual methane emissions by approximately 78–84%,
+                          depending on crop type and seasonality, while also impacting nitrous oxide and carbon
+                          dioxide fluxes.
+
+                          5.4. Nitrous Oxide Emissions
+                               Leguminous crop rotations enhance nitrogen fixation, decreasing the reliance on
+                          synthetic fixed nitrogen sources, which contribute to one of the primary sources of N2 O
+                          emissions [224]. However, improper management of leguminous residues can increase
+                          N2 O emissions, making nitrogen management practices essential [225]. Diversified crop
+                          rotations improve soil nitrogen cycling efficiency and reduce nitrogen leaching, thereby
+                          reducing overall N2 O emissions [141]. The impact of different crop rotation on N2 O
+                          emissions is shown in Figure 6, which compares the emissions from different rice-based
+                          rotations over a 2-year period.
+Agronomy 2025, 15, 1966                                                                                                 20 of 31
+
+
+
+
+                          Figure 5. Case study example of annual methane (CH4 ) emissions (kg CH4 ha−1 y−1 ) in different
+                          crop rotation trends for 2010 and 2011. RF, rice–fallow; RR, continuous rice; RC, rice–corn; RS, rice–
+                          sorghum. Based on field data adopted from [201].
+
+
+
+
+                          Figure 6. Case study example of nitrous oxide (N2 O) emissions in different rice-based crop rota-
+                          tions over a 2-year period. The data here concur with the main findings of Cha-un et al. [201] by
+                          emphasising the relative emission from each type of crop rotation. Different letters denote statis-
+                          tically significant differences (p < 0.05) between treatments. RF, rice–fallow; RR, continuous rice;
+                          RC, rice–corn; RS, rice–sorghum. Based on field data adopted from Cha-un et al. [201].
+
+                               The above discussion highlights the potential of crop rotation to decrease GHG emis-
+                          sions, particularly CO2 , through carbon sequestration and reduced fertiliser use. However,
+                          its impact on methane and nitrous oxide differs depending on the rotation type, man-
+                          agement, and environment. Holistic design is essential to reduce overall GHG emissions.
+                          For example, alternating wetting and drying in rice–rice rotations decrease methane emis-
+                          sions, while proper nitrogen management in legume–sorghum rotations helps limit nitrous
+                          oxide emissions.
+
+                          6. Conclusions
+                               Crop rotation is essential in farming systems for improving soil health, pest and weed
+                          control, and nutrient cycling. Optimising crop sequences, including legumes, cereals, and
+                          root crops, can help regulate soil fertility, improve nutrient availability, and control pest
+                          and disease patterns. Furthermore, cover crops and rotational grazing can be practiced
+                          in conjunction with crop rotation to promote practices consistent with organic farming,
+Agronomy 2025, 15, 1966                                                                                           21 of 31
+
+
+
+                          thereby improving soil structure, limiting chemical inputs, and increasing biodiversity in
+                          agricultural production systems.
+                                Beyond its agronomic advantages, crop rotation plays a crucial role in environmental
+                          sustainability. It contributes to soil carbon sequestration, reduces GHG emissions, and
+                          minimises chemical runoff, thereby supporting global efforts to combat climate change. Doc-
+                          umented outcomes include increased crop yields after legume implementation, improved
+                          soil health that led to increased SOC content, and decreased nitrogen input requirements,
+                          as well as reduction of N2 O emissions up to 39%. Crop rotation enhances nitrogen fixation
+                          and nutrient cycling, thus reducing the need for synthetic fertilisers. This enhancement
+                          contributes to environmental protection and reduced production costs. Moreover, crop
+                          rotations increase yields, promotes long-term soil health, improves climate resilience and
+                          water retention, and minimises reliance on chemical inputs. Therefore, crop rotation acts as
+                          a multidimensional solution ensuring enduring soil fertility and food security.
+                                Nevertheless, the study has some limitations. First, most of the research used is focused
+                          on temperate regions such as Europe and North America, which limits the possibility
+                          of generalisability in tropical, arid, and highland regions where climate, soil, and crop
+                          diversity differ significantly. Second, information from case studies and empirical findings
+                          on crop rotation practice adoption and outcomes among smallholder and subsistence
+                          farmers are limited, particularly in low- and middle-income countries. These farmers
+                          often face unique constraints such as limited access to inputs, and extension service could
+                          respond differently to the application of rotation systems. Therefore, future research should
+                          include more studies across different geographies and focus on small farmers to ensure
+                          that crop rotation strategies are more useful for everyone.
+                                Despite its advantages, promoting crop rotation through policy remains challenging.
+                          Monoculture practices continue to be used in many agricultural regimes, with a focus on
+                          their short-term profitability. Their major constraints include the lack of subsidies, limited
+                          extension support, and weak market support for rotational crops. Farmers cannot easily
+                          employ rotation systems without any financial or technical assistance. Addressing such
+                          gaps requires coordinated policies, institutional support, and the convergence of climate
+                          and food security goals.
+                                Future research directions should focus on the following key areas:
+                          •    Region-specific rotation schemes: Developing and testing rotations tailored to arid,
+                               tropical, and mountainous environments, where existing data are limited;
+                          •    Integration into precision agriculture technologies: Examining how remote sensing
+                               and machine learning can be used to optimise rotation schedules, nutrient manage-
+                               ment, and yield productivity;
+                          •    Long-term ecological impact quantification: Conducting multiyear experiments to
+                               assess biodiversity trends, carbon storage, and GHG fluxes under diverse rota-
+                               tion regimes;
+                          •    Economic and policy modelling: Evaluating the cost-effectiveness of rotation strategies
+                               under various policy settings (e.g., carbon pricing, subsides, conservation incentives);
+                          •    Integration of new crop species: Exploring the integration of non-conventional or
+                               climate-resilient crops (i.e., pigeon pea, quinoa, or native legumes) into rotation sys-
+                               tems to enhance system diversity and ecological functionality;
+                          •    Farmer-led innovation and socio-cultural adaptation: Considering social acceptability,
+                               incorporation of indigenous knowledge, and participatory practices when developing
+                               crop rotation systems, especially among smallholder farmers and subsistence farmers.
+                               By acknowledging the above limitations, further research is required to enhance crop
+                          rotation practices, implement emerging technologies, and develop region-specific strategies
+                          that optimise agricultural productivity as well as environment resilience. The evidence
+Agronomy 2025, 15, 1966                                                                                                              22 of 31
+
+
+
+                                   resulting from previous studies confirms that crop rotation is a proven method to promote
+                                   resilience, ecological health, and economic viability in modern agriculture.
+
+                                   7. Policy Recommendations
+                                        Promoting crop rotation as a climate mitigation tool requires coordinated policy action.
+                                   Governments should support diversified cropping through subsidies, carbon credits, or tax
+                                   incentives tied to soil health and emissions goals. Given that farmers cannot easily employ
+                                   rotation systems without financial or technical assistance, strengthening extension services
+                                   and providing region-specific training—especially for smallholders—can improve adoption.
+                                   Integrating crop rotation into national climate plans (NDCs), certification schemes, and
+                                   public procurement can enhance uptake, while public–private partnerships can scale locally
+                                   adapted solutions. These interventions are justified by crop rotation’s ability to reduce N2 O
+                                   emissions by 39% [109] and boost yields by 13–44% [163].
+
+                                   Author Contributions: Conceptualization, Z.K.A.-M., I.M.K. and V.V.; data curation, Z.K.A.-M.,
+                                   I.M.K. and V.V.; formal analysis, Z.K.A.-M. and I.M.K.; investigation, Z.K.A.-M., I.M.K. and V.V.;
+                                   methodology, Z.K.A.-M. and I.M.K.; resources, Z.K.A.-M. and I.M.K.; software, Z.K.A.-M. and I.M.K.,
+                                   supervision, I.M.K. and V.V.; validation, Z.K.A.-M., I.M.K. and V.V.; visualization, Z.K.A.-M., I.M.K.
+                                   and V.V.; writing—original draft, Z.K.A.-M.; writing—review and editing, Z.K.A.-M. and I.M.K. All
+                                   authors have read and agreed to the published version of the manuscript.
+
+                                   Funding: The research was funded and supported by the TechCoach (Project ID: 101182908; NRDI
+                                   ID: 2020-2.1.1-ED-2024-00342) and CSR (Project ID: 101216573; NRDI ID: 2025-3.1.2-KÖA-2025-00020)
+                                   Horizon Europe projects.
+
+                                   Conflicts of Interest: The authors declare no conflicts of interest.
+
+References
+1.    Intergovernmental Panel on Climate Change (IPCC). Climate Change 2007: Impacts, Adaptation and Vulnerability. Contribution
+      of Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change; Parry, M.L., Canziani, O.F.,
+      Palutikof, J.P., van der Linden, P.J., Hanson, C.E., Eds.; Cambridge University Press: Cambridge, UK, 2007. Available online:
+      https://www.ipcc.ch/site/assets/uploads/2018/03/ar4_wg2_full_report.pdf (accessed on 7 October 2024).
+2.    Bisht, I.S. Biodiversity conservation, sustainable agriculture and climate change: A complex interrelationship. In Knowledge
+      Systems of Societies for Adaptation and Mitigation of Impacts of Climate Change; Sharma, V.P., Ed.; Springer: Berlin/Heidelberg,
+      Germany, 2013; pp. 119–142. [CrossRef]
+3.    Robertson, G.P. A sustainable agriculture? Daedalus 2015, 144, 76–89. [CrossRef]
+4.    Tsyhankova, T.; Yatsenko, O.; Zavadska, Y. Global Transformations of International Organic Agrofood Markets. Manag. Theory
+      Stud. Rural. Bus. Infrastruct. Dev. 2014, 36, 425–434. [CrossRef]
+5.    Espolov, T.; Espolov, A.; Satanbekov, N.; Tireuov, K.; Mukash, J.; Suleimenov, Z. Economic trend in developing sustainable
+      agriculture and organic farming. Int. J. Sustain. Dev. Plan. 2023, 18, 1057–1062. [CrossRef]
+6.    Wojciechowska-Solis, J.; Smoluk-Sikorska, J.; Śmiglak-Krajewska, M.; Malinowski, M.; Krnáčová, P.; Jarossová, M.;
+      Györéné Kis, G.; Zámková, M.; Rojík, S. Consumer in the Organic Food Market: Example of the Visegrad Countries; CeDeWu:
+      Warsaw, Poland, 2024; ISBN 978-83-8102-896-7.
+7.    Food and Agriculture Organization of the United Nations (FAO). The State of the World’s Land and Water Resources for Food
+      and Agriculture—Systems at Breaking Point. 2023. Available online: https://www.fao.org/3/cc9005en/cc9005en.pdf (accessed
+      on 28 July 2025).
+8.    Cillis, D.; Maestrini, B.; Pezzuolo, A.; Marinello, F.; Sartori, L. Modelling soil organic carbon and carbon dioxide emissions in
+      different tillage systems supported by precision agriculture technologies under current climatic conditions. Soil Tillage Res. 2018,
+      183, 51. [CrossRef]
+9.    Lika, E.; Sutherland, C.; Gleim, S.; Smyth, S.J. Analyzing shifts in fertilizer use with crop rotation practices in Saskatchewan across
+      distinct periods from 1991–94 to 2016–19. Front. Sustain. Food Syst. 2024, 8, 1412443. [CrossRef]
+10.   Ralls, K.M. Crop Rotations Have Been Around Since Roman Times; Oregon State University Agricultural Sciences: Corvallis, Oregon,
+      2013. Available online: https://agsci.oregonstate.edu/sites/agscid7/files/coarec/attachments/may_2013_article.pdf (accessed
+      on 14 November 2024).
+Agronomy 2025, 15, 1966                                                                                                           23 of 31
+
+
+
+11.   Kollas, C.; Kersebaum, K.C.; Nendel, C.; Manevski, K.; Müller, C.; Palosuo, T.; Wu, L. Crop rotation modelling—A European
+      model intercomparison. Eur. J. Agron. 2015, 70, 98–111. [CrossRef]
+12.   Garland, G.; Edlinger, A.; Banerjee, S.; Degrune, F.; García-Palacios, P.; Pescador, D.S.; van der Heijden, M.G.A. Crop cover is
+      more important than rotational diversity for soil multifunctionality and cereal yields in European cropping systems. Nat. Food
+      2021, 2, 28–37. [CrossRef]
+13.   Smith, M.E.; Vico, G.; Costa, A.; Bowles, T.; Gaudin, A.C.; Hallin, S.; Bommarco, R. Increasing crop rotational diversity can
+      enhance cereal yields. Commun. Earth Environ. 2023, 4, 89. [CrossRef]
+14.   Shah, F.; Wu, W. Soil and crop management strategies to ensure higher crop productivity within sustainable environments.
+      Sustainability 2019, 11, 1485. [CrossRef]
+15.   Sainju, U.M.; Ghimire, R.; Dangi, S. Soil carbon dioxide and methane emissions and carbon balance with crop rotation and
+      nitrogen fertilization. Sci. Total Environ. 2021, 775, 145902. [CrossRef]
+16.   Rigon, J.P.G.; Calonego, J.C.; Rosolem, C.A.; Scala, N.L. Cover crop rotations in no-till system: Shortterm CO2 emissions and
+      soybean yield. Sci. Agric. 2018, 75, 18. [CrossRef]
+17.   Maas, S.E.; Glenn, A.J.; Tenuta, M.; Amiro, B.D. Net CO2 and N2 O exchange during perennial forage establishment in an annual
+      crop rotation in the Red River Valley, Manitoba. Can. J. Soil Sci. 2013, 93, 639. [CrossRef]
+18.   Abagandura, G.O.; Şentürklü, S.; Singh, N.; Kumar, S.; Landblom, D.G.; Ringwall, K. Impacts of crop rotational diversity and
+      grazing under integrated crop-livestock system on soil surface greenhouse gas fluxes. PLoS ONE 2019, 14, e0217069. [CrossRef]
+      [PubMed]
+19.   Della Chiesa, T.; Northrup, D.; Miguez, F.E.; Archontoulis, S.V.; Baum, M.E.; Venterea, R.T.; Emmett, B.D.; Malone, R.W.; Iqbal, J.;
+      Necpalova, M.; et al. Reducing greenhouse gas emissions from North American soybean production. Nat. Sustain. 2024, 7, 1608.
+      [CrossRef]
+20.   Chen, M.; Shen, Y.; Wang, H.; Cheng, X.; Luo, Y. Analysis of the rainfall pattern and rainfall utilization efficiency during the
+      growth period of paddy rice. Agronomy 2024, 14, 1332. [CrossRef]
+21.   Cherlinka, V. Crop Rotation: A Way to Boost Your Yields. EOS Data Analytics. 2024. Available online: https://eos.com/blog/
+      crop-rotation/ (accessed on 8 March 2024).
+22.   Jabeen, H. What Is Crop Rotation: Nurturing Agriculture Through Sustainable Practices. Times Agriculture. 2024. Available
+      online: https://timesagriculture.com/what-is-crop-rotation-nurturing-agriculture-through-sustainable-practices (accessed on
+      7 October 2024).
+23.   Behnke, G.D.; Zuber, S.M.; Pittelkow, C.M.; Nafziger, E.D.; Villamil, M.B. Long-term crop rotation and tillage effects on soil
+      greenhouse gas emissions and crop production in Illinois, USA. Agric. Ecosyst. Environ. 2018, 261, 62. [CrossRef]
+24.   Kurtz, L.T.; Boone, L.V.; Peck, T.R.; Hoeft, R.G. Crop rotations for efficient nitrogen use. In Nitrogen in Crop Production;
+      Hauck, R.D., Ed.; ASA, CSSA, and SSSA: Madison, WI, USA, 1984; pp. 295–306. [CrossRef]
+25.   Witt, C.; Cassman, K.G.; Olk, D.C.; Biker, U.; Liboon, S.P.; Samson, M.I.; Ottow, J.C.G. Crop rotation and residue management
+      effects on carbon sequestration, nitrogen cycling and productivity of irrigated rice systems. Plant Soil 2000, 225, 263–278.
+      [CrossRef]
+26.   Shah, K.K.; Modi, B.; Pandey, H.P.; Subedi, A.; Aryal, G.; Pandey, M.; Shrestha, J. Diversified crop rotation: An approach for
+      sustainable agriculture production. Adv. Agric. 2021, 2021, 8924087. [CrossRef]
+27.   Gaudin, A.C.; Janovicek, K.; Deen, B.; Hooker, D.C. Wheat improves nitrogen use efficiency of maize and soybean-based cropping
+      systems. Agric. Ecosyst. Environ. 2015, 210, 1–10. [CrossRef]
+28.   Karlen, D.L.; Hurley, E.G.; Andrews, S.S.; Cambardella, C.A.; Meek, D.W.; Duffy, M.D.; Mallarino, A.P. Crop rotation effects on
+      soil quality at three northern corn/soybean belt locations. Agron. J. 2006, 98, 484–495. [CrossRef]
+29.   Jalli, M.; Huusela, E.; Jalli, H.; Kauppi, K.; Niemi, M.; Himanen, S.; Jauhiainen, L. Effects of crop rotation on spring wheat yield
+      and pest occurrence in different tillage systems: A multi-year experiment in Finnish growing conditions. Front. Sustain. Food Syst.
+      2021, 5, 647335. [CrossRef]
+30.   Pande, S.; Gowda, C.L.L. Role of legumes in poverty reduction in Asia: A synthesis. In Role of Legumes in Crop Diversification and
+      Poverty Reduction in Asia; ICRISAT: Patancheru, Andhra Pradesh, India, 2004; pp. 204–219.
+31.   Gou, X.; Reich, P.B.; Qiu, L.; Shao, M.; Wei, G.; Wang, J.; Wei, X. Leguminous plants significantly increase soil nitrogen cycling
+      across global climates and ecosystem types. Glob. Change Biol. 2023, 29, 4028. [CrossRef] [PubMed]
+32.   Vance, C.P. Legume Symbiotic Nitrogen Fixation: Agronomic Aspects. In The Rhizobiaceae; Spaink, H.P., Kondorosi, A.,
+      Hooykaas, P.J.J., Eds.; Springer: Dordrecht, The Netherlands, 1998. [CrossRef]
+33.   Halbleib, C.M.; Ludden, P.W. Regulation of biological nitrogen fixation. J. Nutr. 2000, 130, 1081–1084. [CrossRef] [PubMed]
+34.   Stüeken, E.E.; Buick, R.; Guy, B.M.; Koehler, M.C. Isotopic evidence for biological nitrogen fixation by molybdenum-nitrogenase
+      from 3.2 Gyr. Nature 2015, 520, 666–669. [CrossRef]
+35.   Shanuj, V.C.; Thomas, S.; Chettri, R.; Pradhan, P. Proceedings of the Resilient Mountain Solutions Annual Partners’ Workshop,
+      Kathmandu, Nepal, 28–31 January 2020; International Centre for Integrated Mountain Development (ICIMOD): Patan, Nepal, 2020.
+Agronomy 2025, 15, 1966                                                                                                              24 of 31
+
+
+
+36.   Pueppke, S.G. Nitrogen fixation by soybean in North America. In Nitrogen Fixation in Agriculture, Forestry, Ecology, and the
+      Environment; Nitrogen Fixation: Origins, Applications, and Research Progress; Werner, D., Newton, W.E., Eds.; Springer:
+      Dordrecht, The Netherlands, 2005; Volume 4, pp. 39–44. [CrossRef]
+37.   Salvagiotti, F.; Specht, J.E.; Cassman, K.G.; Walters, D.T.; Weiss, A.; Dobermann, A. Growth and nitrogen fixation in high-yielding
+      soybean: Impact of nitrogen fertilization. Agron. J. 2009, 101, 958–970. [CrossRef]
+38.   Heichel, G.H.; Barnes, D.K.; Vance, C.P. Nitrogen fixation of alfalfa in the seeding year. Crop Sci. 1981, 21, 330–335. [CrossRef]
+39.   Kazula, M.J.; Lauer, J.G.; Arriaga, F.J. Crop rotation effect on selected physical and chemical properties of Wisconsin soils. J. Soil
+      Water Conserv. 2017, 72, 553–563. [CrossRef]
+40.   Ouda, S.; Zohry, A.; Noreldin, T. Crop Rotation Maintains Soil Sustainability. In Crop Rotation; Springer: Cham, Switzerland, 2018.
+      [CrossRef]
+41.   Zou, Y.; Liu, Z.; Chen, Y.; Wang, Y.; Feng, S. Crop rotation and diversification in China: Enhancing sustainable agriculture and
+      resilience. Agriculture 2024, 14, 1465. [CrossRef]
+42.   Quintarelli, V.; Radicetti, E.; Allevato, E.; Stazi, S.R.; Haider, G.; Abideen, Z.; Bibi, S.; Jamal, A.; Mancinelli, R. Cover crops for
+      sustainable cropping systems: A review. Agriculture 2022, 12, 2076. [CrossRef]
+43.   USDA Sustainable Agriculture Research and Extension. Cover Crops for Sustainable Crop Rotations: SARE. 2024. Available
+      online: https://www.sare.org/resources/cover-crops/ (accessed on 5 September 2024).
+44.   Rodale Institute. Cover Crops. 2018. Available online: https://rodaleinstitute.org/why-organic/organic-farming-practices/
+      cover-crops/ (accessed on 12 October 2018).
+45.   Myers, R.; Watts, C. Progress and perspectives with cover crops: Interpreting three years of farmer surveys on cover crops. J. Soil
+      Water Conserv. 2015, 70, 125A–129A. [CrossRef]
+46.   Haruna, S.I.; Anderson, S.H.; Udawatta, R.P.; Gantzer, C.J.; Phillips, N.C.; Cui, S.; Gao, Y. Improving soil physical properties
+      through the use of cover crops: A review. Agrosystems Geosci. Environ. 2020, 3, e20105. [CrossRef]
+47.   Koudahe, K.; Allen, S.C.; Djaman, K. Critical review of the impact of cover crops on soil properties. Int. Soil Water Conserv. Res.
+      2022, 10, 343–354. [CrossRef]
+48.   Camargo Silva, G.; Bagavathiannan, M. Mechanisms of weed suppression by cereal rye cover crop: A review. Agron. J. 2023, 115,
+      1571–1585. [CrossRef]
+49.   Haramoto, E.R.; Gallandt, E.R. Brassica cover cropping for weed management: A review. Renew. Agric. Food Syst. 2004, 19,
+      187–198. [CrossRef]
+50.   Björkman, T.; Lowry, C.; Shail, J.W., Jr.; Brainard, D.C.; Anderson, D.S.; Masiunas, J.B. Mustard cover crops for biomass production
+      and weed suppression in the Great Lakes region. Agron. J. 2015, 107, 1235–1249. [CrossRef]
+51.   Fernando, M.; Shrestha, A. The potential of cover crops for weed management: A sole tool or component of an integrated weed
+      management system? Plants 2023, 12, 752. [CrossRef]
+52.   Parr, M.; Grossman, J.M.; Reberg-Horton, S.C.; Brinton, C.; Crozier, C. Nitrogen delivery from legume cover crops in no-till
+      organic corn production. Agron. J. 2011, 103, 1578–1590. [CrossRef]
+53.   Blanco-Canqui, H.; Claassen, M.M.; Presley, D.R. Summer cover crops fix nitrogen, increase crop yield, and improve soil–crop
+      relationships. Agron. J. 2012, 104, 137–147. [CrossRef]
+54.   Fageria, N.K.; Baligar, V.C.; Bailey, B.A. Role of cover crops in improving soil and row crop productivity. Commun. Soil Sci. Plant
+      Anal. 2005, 36, 2733–2757. [CrossRef]
+55.   Bressler, A.; Blesh, J. A grass–legume cover crop maintains nitrogen inputs and nitrous oxide fluxes from an organic agroecosystem.
+      Ecosphere 2023, 14, e4428. [CrossRef]
+56.   Basche, A.D.; Archontoulis, S.V.; Kaspar, T.C.; Jaynes, D.B.; Parkin, T.B.; Miguez, F.E. Simulating long-term impacts of cover crops
+      and climate change on crop production and environmental outcomes in the Midwestern United States. Agric. Ecosyst. Environ.
+      2016, 218, 95–106. [CrossRef]
+57.   Malik, R.K.; Green, T.H.; Brown, G.F.; Mays, D. Use of cover crops in short rotation hardwood plantations to control erosion.
+      Biomass Bioenergy 2000, 18, 479–487. [CrossRef]
+58.   Langdale, G.W.; Blevins, R.L.; Karlen, D.L.; McCool, D.K.; Nearing, M.A.; Skidmore, E.L.; Williams, J.R. Cover crop effects on soil
+      erosion by wind and water. In Cover Crops for Clean Water; Hargrove, W.L., Ed.; Soil and Water Conservation Society: Ankeny, IA,
+      USA, 1991; pp. 15–22. Available online: https://www.researchgate.net/publication/238089979 (accessed on 2 August 2025).
+59.   Olson, K.; Ebelhar, S.A.; Lang, J.M. Long-term effects of cover crops on crop yields, soil organic carbon stocks and sequestration.
+      Open J. Soil Sci. 2014, 4, 284–292. [CrossRef]
+60.   Kaspar, T.C.; Singer, J.W. The use of cover crops to manage soil. In Soil Management: Building a Stable Base for Agriculture;
+      Hatfield, J.L., Sauer, T.J., Eds.; American Society of Agronomy and Soil Science Society of America: Madison, WI, USA, 2011;
+      pp. 321–337. [CrossRef]
+61.   Smith, R.G.; Warren, N.D.; Cordeau, S. Are cover crop mixtures better at suppressing weeds than cover crop monocultures? Weed
+      Sci. 2020, 68, 186–194. [CrossRef]
+Agronomy 2025, 15, 1966                                                                                                                 25 of 31
+
+
+
+62.   Abdalla, M.; Hastings, A.; Cheng, K.; Yue, Q.; Chadwick, D.; Espenberg, M.; Smith, P. A critical review of the impacts of cover
+      crops on nitrogen leaching, net greenhouse gas balance and crop productivity. Glob. Change Biol. 2019, 25, 2530–2543. [CrossRef]
+      [PubMed]
+63.   Aglasan, S.; Rejesus, R.M.; Hagen, S.; Salas, W. Cover crops, crop insurance losses, and resilience to extreme weather events. Am.
+      J. Agric. Econ. 2024, 106, 1410–1434. [CrossRef]
+64.   Miguez, F.E.; Bollero, G.A. Review of corn yield response under winter cover cropping systems using meta-analytic methods.
+      Crop Sci. 2005, 45, 2318–2329. [CrossRef]
+65.   Galindo, F.S.; Delate, K.; Heins, B.; Phillips, H.; Smith, A.; Pagliari, P.H. Cropping system and rotational grazing effects on soil
+      fertility and enzymatic activity in an integrated organic crop-livestock system. Agronomy 2020, 10, 803. [CrossRef]
+66.   Penn State Extension. Integrating Grazing into Cropping Systems: Grazing Cover Crops for Soil Health. 2022. Available
+      online: https://extension.psu.edu/integrating-grazing-into-cropping-systems-grazing-cover-crops-for-soil-health (accessed
+      on 3 January 2025).
+67.   Xu, S.; Jagadamma, S.; Rowntree, J. Response of grazing land soil health to management strategies: A summary review.
+      Sustainability 2018, 10, 4769. [CrossRef]
+68.   de Otálora, X.D.; Epelde, L.; Arranz, J.; Garbisu, C.; Ruiz, R.; Mandaluniz, N. Regenerative rotational grazing management of
+      dairy sheep increases springtime grass production and topsoil carbon storage. Ecol. Indic. 2021, 125, 107484. [CrossRef]
+69.   Byrnes, R.C.; Eastburn, D.J.; Tate, K.W.; Roche, L.M. A global meta-analysis of grazing impacts on soil health indicators. J. Environ.
+      Qual. 2018, 47, 758–765. [CrossRef]
+70.   Teague, R.; Kreuter, U. Managing grazing to restore soil health, ecosystem function, and ecosystem services. Front. Sustain. Food
+      Syst. 2020, 4, 534187. [CrossRef]
+71.   Russell, J.R.; Bisinger, J.J. Forages and Pastures Symposium: Improving soil health and productivity on grasslands using managed
+      grazing of livestock. J. Anim. Sci. 2015, 93, 2626–2640. [CrossRef] [PubMed]
+72.   Smil, V. Crop Residues: Agriculture’s Largest Harvest: Crop residues incorporate more than half of the world’s agricultural
+      phytomass. Bioscience 1999, 49, 299–308. [CrossRef]
+73.   Dunn, M.W. Stocking System Effects on Cattle Performance, Forage, and Soil Properties of Cool-Season Pastures. Master’s Thesis,
+      Iowa State University, Ames, IA, USA, 2013.
+74.   Bisinger, J.J.; Russell, J.R.; Morrical, D.G.; Isenhart, T.M. Pasture size effects on the ability of off-stream water or restricted stream
+      access to alter the spatial/temporal distribution of grazing beef cows. J. Anim. Sci. 2014, 92, 3650–3658. [CrossRef]
+75.   Franzluebbers, A.J.; Stuedemann, J.A. Soil-profile organic carbon and total nitrogen during 12 years of pasture management in
+      the Southern Piedmont USA. Agric. Ecosyst. Environ. 2009, 129, 28–36. [CrossRef]
+76.   Teague, R.; Provenza, F.; Kreuter, U.; Steffens, T.; Barnes, M. Multi-paddock grazing on rangelands: Why the perceptual dichotomy
+      between research results and rancher experience? J. Environ. Manag. 2013, 128, 699–717. [CrossRef]
+77.   Teague, W.R.; Dowhower, S.L.; Baker, S.A.; Haile, N.; DeLaune, P.B.; Conover, D.M. Grazing management impacts on vegetation,
+      soil biota and soil chemical, physical and hydrological properties in tall grass prairie. Agric. Ecosyst. Environ. 2011, 141, 310–322.
+      [CrossRef]
+78.   Hoorman, J.J. Using Cover Crops to Improve Soil and Water Quality. Ohioline—Ohio State University Extension, ANR-57.
+      15 May 2017. Available online: https://ohioline.osu.edu/factsheet/anr-57 (accessed on 27 July 2025).
+79.   Goulding, K.; Jarvis, S.; Whitmore, A. Optimizing nutrient management for farm systems. Philos. Trans. R. Soc. B Biol. Sci. 2008,
+      363, 667–680. [CrossRef]
+80.   Vendramini, J.M.B.; Silveira, M.L.A.; Dubeux, J.C.B., Jr.; Sollenberger, L.E. Environmental impacts and nutrient recycling on
+      pastures grazed by cattle. Rev. Bras. De Zootec. 2007, 36, 139–149. [CrossRef]
+81.   van der Voort, M.; Van Meensel, J.; Lauwers, L.; de Haan, M.H.A.; Evers, A.G.; Van Huylenbroeck, G.; Charlier, J. Economic
+      modelling of grazing management against gastrointestinal nematodes in dairy cattle. Vet. Parasitol. 2017, 236, 68–75. [CrossRef]
+82.   Teague, W.R. Forages and pastures symposium: Cover crops in livestock production: Whole-system approach: Managing grazing
+      to restore soil health and farm livelihoods. J. Anim. Sci. 2018, 96, 1519–1530. [CrossRef] [PubMed]
+83.   Uti, M.J.U. Soil health parameters in sustainable grazing systems. Int. J. Sustain. Livest. Pract. 2023, 1, 43–54.
+84.   Lv, Q.; Chi, B.; He, N.; Zhang, D.; Dai, J.; Zhang, Y.; Dong, H. Cotton-based rotation, intercropping, and alternate intercropping
+      increase yields by improving root–shoot relations. Agronomy 2023, 13, 413. [CrossRef]
+85.   Chi, B.; Liu, J.; Dai, J.; Li, Z.; Zhang, D.; Xu, S.; Dong, H. Alternate intercropping of cotton and peanut increases productivity by
+      increasing canopy photosynthesis and nutrient uptake under the influence of rhizobacteria. Field Crops Res. 2023, 302, 109059.
+      [CrossRef]
+86.   Lv, Q.; Dai, J.; Ding, K.; He, N.; Li, Z.; Zhang, D.; Dong, H. Managing interspecific competition to enhance productivity through
+      selection of soybean varieties and sowing dates in a cotton–soybean intercropping system. Field Crops Res. 2024, 316, 109513.
+      [CrossRef]
+Agronomy 2025, 15, 1966                                                                                                               26 of 31
+
+
+
+87.  Belete, T.; Yadete, E. Effect of mono cropping on soil health and fertility management for sustainable agriculture practices:
+     A review. Plant Sci. 2023, 11, 192–197. [CrossRef]
+88. Gaillard, V.; Chenu, C.; Recous, S.; Richard, G. Carbon, nitrogen and microbial gradients induced by plant residues decomposing
+     in soil. Eur. J. Soil Sci. 1999, 50, 567–578. [CrossRef]
+89. Martens, D.A. Plant residue biochemistry regulates soil carbon cycling and carbon sequestration. Soil Biol. Biochem. 2000, 32,
+     361–369. [CrossRef]
+90. Andreetta, A.; Macci, C.; Giansoldati, V.; Masciandaro, G.; Carnicelli, S. Microbial activity and organic matter composition in
+     Mediterranean humus forms. Geoderma 2013, 209, 198–208. [CrossRef]
+91. Zhang, W.P.; Surigaoge, S.; Yang, H.; Li, X.; Xu, M.; Wang, X. Diversified cropping systems with complementary root growth
+     strategies improve crop adaptation to and remediation of hostile soils. Plant Soil 2024, 502, 7–30. [CrossRef]
+92. Shabala, S.; White, R.G.; Djordjevic, M.A.; Ruan, Y.L.; Mathesius, U. Root-to-shoot signalling: Integration of diverse molecules,
+     pathways and functions. Funct. Plant Biol. 2015, 43, 87–104. [CrossRef]
+93. Hopkins, D.W.; Dungait, J.A.J. Soil microbiology and nutrient cycling. In Soil Microbiology and Sustainable Crop Production;
+     Dixon, G.R., Tilston, E.L., Eds.; Springer: Dordrecht, The Netherlands, 2010; pp. 59–80. [CrossRef]
+94. Yadav, A.N.; Kour, D.; Kaur, T.; Devi, R.; Yadav, A.; Dikilitas, M.; Abdel-Azeem, A.M.; Ahluwalia, A.S.; Saxena, A.K. Biodiversity,
+     and biotechnological contribution of beneficial soil microbiomes for nutrient cycling, plant growth improvement and nutrient
+     uptake. Biocatal. Agric. Biotechnol. 2021, 33, 102009. [CrossRef]
+95. Chiaramonte, J.B.; Mendes, L.W.; Mendes, R. Rhizosphere microbiome and soil-borne diseases. In Rhizosphere Biology: Interactions
+     Between Microbes and Plants; Kumar, V., Prasad, R., Eds.; Springer: Singapore, 2021; pp. 155–168. [CrossRef]
+96. De Corato, U. Governance of soil amendment to enhance suppression to soil-borne plant pathogens from a long-term perspective.
+     Appl. Soil Ecol. 2023, 182, 104721. [CrossRef]
+97. Shen, J.; Li, R.; Zhang, F.; Fan, J.; Tang, C.; Rengel, Z. Crop yields, soil fertility and phosphorus fractions in response to long-term
+     fertilization under the rice monoculture system on a calcareous soil. Field Crops Res. 2004, 86, 225–238. [CrossRef]
+98. Dias, T.; Dukes, A.; Antunes, P.M. Accounting for soil biotic effects on soil health and crop productivity in the design of crop
+     rotations. J. Sci. Food Agric. 2015, 95, 447–454. [CrossRef] [PubMed]
+99. Tong, H.; Man, M.; Wagner-Riddle, C.; Dunfield, K.E.; Deen, B.; Simpson, M.J. Crop rotational diversity alters the composition of
+     stabilized soil organic matter compounds in soil physical fractions. Can. J. Soil Sci. 2022, 103, 213–233. [CrossRef]
+100. Bullock, D.G. Crop rotation. Crit. Rev. Plant Sci. 1992, 11, 309–326. [CrossRef]
+101. Brankatschk, G.; Finkbeiner, M. Modeling crop rotation in agricultural LCAs—Challenges and potential solutions. Agric. Syst.
+     2015, 138, 66–76. [CrossRef]
+102. Selim, M. A review of advantages, disadvantages and challenges of crop rotations. Egypt. J. Agron. 2019, 41, 1–10. [CrossRef]
+103. Keil, A.; D’souza, A.; McDonald, A. Zero-tillage as a pathway for sustainable wheat intensification in the Eastern Indo-Gangetic
+     Plains: Does it work in farmers’ fields? Food Secur. 2015, 7, 983–1001. [CrossRef]
+104. Huo, D.; Frey, T.; Lindsey, L.E.; Benitez, M.S. Yield and soil responses to adding wheat to a corn–soybean rotation. Crop Forage
+     Turfgrass Manag. 2022, 8, e20143. [CrossRef]
+105. Iqbal, N.; Hussain, S.; Ahmed, Z.; Yang, F.; Wang, X.; Liu, W.; Liu, J. Comparative analysis of maize–soybean strip intercropping
+     systems: A review. Plant Prod. Sci. 2019, 22, 131–142. [CrossRef]
+106. Vidigal, P.; Romeiras, M.M.; Monteiro, F. Crops diversification and the role of orphan legumes to improve the Sub-Saharan Africa
+     farming systems. In Sustainable Crop Production; IntechOpen: London, UK, 2019. [CrossRef]
+107. Traore, A.; Falconnier, G.N.; Couedel, A.; Sultan, B.; Chimonyo, V.G.; Adam, M.; Affholder, F. Sustainable intensification of
+     sorghum-based cropping systems in semi-arid sub-Saharan Africa: The role of improved varieties, mineral fertilizer, and legume
+     integration. Field Crops Res. 2023, 304, 109180. [CrossRef]
+108. Salaheen, S.; Biswas, D. Organic farming practices: Integrated culture versus monoculture. In Safety and Practice for Organic Food;
+     Academic Press: Cambridge, MA, USA, 2019; pp. 23–32. [CrossRef]
+109. Yang, X.; Xiong, J.; Pacenka, S.; Siddique, K.H.M.; Kang, S.; Xia, L.; Du, T.; Gan, Y.; Ju, X.; Butterbach-Bahl, K.; et al. Diversifying
+     crop rotation increases food production, reduces net greenhouse gas emissions and improves soil health. Nat. Commun. 2024,
+     15, 198. [CrossRef]
+110. Adhikary, S.; Biswas, B.; Priya, A. Conservation agriculture: An efficient tool to overcome the drawbacks of conventional
+     agricultural system towards sustainable crop production. Int. J. Curr. Microbiol. App. Sci. 2020, 9, 1333–1340. [CrossRef]
+111. Kluger, D.M.; Owen, A.B.; Lobell, D.B. Combining randomized field experiments with observational satellite data to assess the
+     benefits of crop rotations on yields. Environ. Res. Lett. 2022, 17, 044066. [CrossRef]
+112. Zhao, C.; Fu, S.; Mathew, R.P.; Lawrence, K.S.; Feng, Y. Soil microbial community structure and activity in a 100-year-old
+     fertilization and crop rotation experiment. J. Plant Ecol. 2015, 8, 623–632. [CrossRef]
+113. Mayer, Z.; Szentpéteri, V.; Posta, K.; Sasvári, Z.; Pethőné Rétháti, B.; Vajna, B. Effect of long-term cropping systems on the diversity
+     of the soil bacterial communities. Agronomy 2019, 9, 878. [CrossRef]
+Agronomy 2025, 15, 1966                                                                                                               27 of 31
+
+
+
+114. Francaviglia, R.; Álvaro-Fuentes, J.; Di Bene, C.; Gai, L.; Regina, K.; Turtola, E. Diversified arable cropping systems and
+     management schemes in selected European regions have positive effects on soil organic carbon content. Agriculture 2019, 9, 261.
+     [CrossRef]
+115. Lötjönen, S.; Ollikainen, M. Does crop rotation with legumes provide an efficient means to reduce nutrient loads and GHG
+     emissions? Rev. Agric. Food Environ. Stud. 2017, 98, 283–312. [CrossRef]
+116. Simão, L.M.; Cruppe, G.; Michaud, J.P.; Schillinger, W.F.; Diaz, D.R.; Dille, A.J.; Rice, C.W.; Lollato, R.P. Beyond grain: Agronomic,
+     ecological, and economic benefits of diversifying crop rotations with wheat. Adv. Agron. 2024, 186, 51–112. [CrossRef]
+117. Marini, L.; St-Martin, A.; Morari, F.; Blecharczyk, A.; Malecka-Jankowiak, I.; Vico, G.; Bommarco, R.; Sawinska, Z.; Baldoni, G.;
+     Berti, A. Crop rotations sustain cereal yields under a changing climate. Environ. Res. Lett. 2020, 15, 124011. [CrossRef]
+118. Kussul, N.; Nivievskyi, O.; Deininger, K.; Shumilo, L.; Lavreniuk, M.; Ali, D.A. Biophysical impact of sunflower crop rotation on
+     agricultural fields. Sustainability 2022, 14, 3965. [CrossRef]
+119. Yigezu, Y.A.; Boughlala, M.; Niane, A.A.; El-Shater, T.; Aw-Hassan, A.; Wery, J.; Maalouf, F.; Bishaw, Z.; Boutfiras, M.; Degu, W.T.
+     Legume-based rotations have clear economic advantages over cereal monocropping in dry areas. Agron. Sustain. Dev. 2019, 39, 60.
+     [CrossRef]
+120. Ahmed, M.; Rauf, M.; Akhtar, M.; Yaseen, M.; Khurshid, M.; Hussain, S. Hazards of nitrogen fertilizers and ways to reduce nitrate
+     accumulation in crop plants. Environ. Sci. Pollut. Res. 2020, 27, 17661–17670. [CrossRef]
+121. Breza, L.C.; Mooshammer, M.; Bowles, T.M.; Jin, V.L.; Schmer, M.R.; Thompson, B.; Grandy, A.S. Complex crop rotations improve
+     organic nitrogen cycling. Soil Biol. Biochem. 2023, 177, 108911. [CrossRef]
+122. Msimbira, L.A.; Smith, D.L. The roles of plant growth-promoting microbes in enhancing plant tolerance to acidity and alkalinity
+     stresses. Front. Sustain. Food Syst. 2020, 4, 106. [CrossRef]
+123. Yatoo, A.M.; Bhat, R.A.; Hakeem, K.R. Role of soil biota and associated threats. In Bioremediation and Biotechnology, Volume 4;
+     Bhat, R.A., Hakeem, K.R., Eds.; Springer: Cham, Switzerland, 2020; pp. 129–150. [CrossRef]
+124. Yang, X.; Yang, Z.; Warren, M.W.; Chen, J. Mechanical fragmentation enhances the contribution of Collembola to leaf litter
+     decomposition. Eur. J. Soil Biol. 2012, 53, 23–31. [CrossRef]
+125. Bertola, M.; Ferrarini, A.; Visioli, G. Improvement of soil microbial diversity through sustainable agricultural practices and
+     its evaluation by -omics approaches: A perspective for the environment, food quality and human safety. Microorganisms 2021,
+     9, 1400. [CrossRef]
+126. Guo, K.; Yang, J.; Yu, N.; Luo, L.; Wang, E. Biological nitrogen fixation in cereal crops: Progress, strategies, and perspectives. Plant
+     Commun. 2023, 4, 100499. [CrossRef] [PubMed]
+127. Hagh-Doust, N.; Färkkilä, S.M.; Moghaddam, M.S.H.; Tedersoo, L. Symbiotic fungi as biotechnological tools: Methodological
+     challenges and relative benefits in agriculture and forestry. Fungal Biol. Rev. 2022, 42, 34–55. [CrossRef]
+128. Feng, C.; Yi, Z.; Qian, W.; Liu, H.; Jiang, X. Rotations improve the diversity of rhizosphere soil bacterial communities, enzyme
+     activities and tomato yield. PLoS ONE 2023, 18, e0270944. [CrossRef] [PubMed]
+129. Janovicek, K.; Hooker, D.; Weersink, A.; Vyn, R.; Deen, B. Corn and soybean yields and returns are greater in rotations with wheat.
+     Agron. J. 2021, 113, 1691–1711. [CrossRef]
+130. Indoria, A.K.; Sharma, K.L.; Reddy, K.S. Hydraulic properties of soil under warming climate. In Climate Change and Soil Interactions;
+     Elsevier: Amsterdam, The Netherlands, 2020; pp. 473–508. [CrossRef]
+131. da Silva Dias, J.C. Nutritional and health benefits of carrots and their seed extracts. Food Nutr. Sci. 2014, 5, 2147. [CrossRef]
+132. Johansen, T.J.; Thomsen, M.G.; Løes, A.K.; Riley, H. Root development in potato and carrot crops–influences of soil compaction.
+     Acta Agric. Scand. Sect. B—Soil Plant Sci. 2015, 65, 182–192. [CrossRef]
+133. Ahmad, T.; Cawood, M.; Batool, A.; Tariq, R.M.S.; Ghani, M.A.; Azam, M. Phytochemicals in Daucus carota and their importance
+     in nutrition–Review article. PeerJ Prepr. 2017, 5, 424. [CrossRef]
+134. Kakraliya, S.K.; Singh, U.; Bohra, A.; Choudhary, K.K.; Kumar, S.; Meena, R.S.; Jat, M.L. Nitrogen and Legumes: A Meta-analysis.
+     In Legumes for Soil Health and Sustainable Management; Meena, R., Das, A., Yadav, G., Lal, R., Eds.; Springer: Singapore, 2018.
+     [CrossRef]
+135. Sun, L.; Wang, S.; Narsing Rao, M.P.N.; Shi, Y.; Lian, Z.H.; Jin, P.J.; Wang, W.; Li, Y.M.; Wang, K.K.; Banerjee, A.; et al. The shift of
+     soil microbial community induced by cropping sequence affect soil properties and crop yield. Front. Microbiol. 2023, 14, 1095688.
+     [CrossRef]
+136. Maharjan, B.; Das, S.; Acharya, B.S. Soil Health Gap: A concept to establish a benchmark for soil health management. Glob. Ecol.
+     Conserv. 2020, 23, e01116. [CrossRef]
+137. Lehmann, J.; Bossio, D.A.; Kögel-Knabner, I.; Rillig, M.C. The concept and future prospects of soil health. Nat. Rev. Earth Environ.
+     2020, 1, 544–553. [CrossRef]
+138. Romig, D.E.; Garlynd, M.J.; Harris, R.F.; McSweeney, K. How farmers assess soil health and quality. J. Soil Water Conserv. 1995, 50,
+     229–236. [CrossRef]
+Agronomy 2025, 15, 1966                                                                                                               28 of 31
+
+
+
+139. Fine, A.K.; Van Es, H.M.; Schindelbeck, R.R. Statistics, scoring functions, and regional analysis of a comprehensive soil health
+     database. Soil Sci. Soc. Am. J. 2017, 81, 589–601. [CrossRef]
+140. Aggarwal, S.; Srinivas, R.; Puppala, H.; Magner, J. Integrated decision support for promoting crop rotation based sustainable
+     agricultural management using geoinformatics and stochastic optimization. Comput. Electron. Agric. 2022, 200, 107213. [CrossRef]
+141. Omay, A.B.; Rice, C.W.; Maddux, L.D.; Gordon, W.B. Corn yield and nitrogen uptake in monoculture and in rotation with soybean.
+     Soil Sci. Soc. Am. J. 1998, 62, 1596–1603. [CrossRef]
+142. Nevens, F.; Reheul, D. Crop rotation versus monoculture: Yield, N yield and ear fraction of silage maize at different levels of
+     mineral N fertilization. NJAS Wagening. J. Life Sci. 2001, 49, 405–425. [CrossRef]
+143. Varvel, G.E.; Wilhelm, W.W. Soybean nitrogen contribution to corn and sorghum in western Corn Belt rotations. Agron. J. 2003, 95,
+     1220–1225. [CrossRef]
+144. Aziz, I.; Ashraf, M.; Mahmood, T.; Islam, K.R. Crop rotation impact on soil quality. Pak. J. Bot. 2011, 43, 949–960.
+145. Farmaha, B.S.; Yang, H.; Grassini, P.; Cassman, K.G.; Specht, J.E.; Eskridge, K.M. Rotation Impact on On-Farm Yield and Input-Use
+     Efficiency in High-Yield Irrigated Maize–Soybean Systems. Agron. J. 2016, 108, 2313–2321. [CrossRef]
+146. Bot, A.; Benites, J. Chapter 7. The role of conservation agriculture in organic matter deposition and carbon sequestration.
+     In The Importance of Soil Organic Matter. Key to Drought-Resistant Soil and Sustained Food Production; FAO: Rome, Italy, 2005.
+     Available online: https://www.fao.org/4/a0100e/a0100e0a.htm (accessed on 5 March 2025).
+147. Hussain, S.; Hussain, S.; Guo, R.; Sarwar, M.; Ren, X.; Krstic, D.; Aslam, Z.; Zulifqar, U.; Rauf, A.; Hano, C.; et al. Carbon
+     sequestration to avoid soil degradation: A review on the role of conservation tillage. Plants 2021, 10, 2001. [CrossRef] [PubMed]
+148. Pierret, A.; Maeght, J.L.; Clément, C.; Montoroi, J.P.; Hartmann, C.; Gonkhamdee, S. Understanding deep roots and their functions
+     in ecosystems: An advocacy for more unconventional research. Ann. Bot. 2016, 118, 621–635. [CrossRef] [PubMed]
+149. Zhang, W.; Liang, Y.; Wang, W.; Chen, F. Long-term effects of crop rotation on soil fertility and nutrient cycling: Methodology and
+     impact analysis. Geogr. Res. Bull. 2024, 3, 282–285. [CrossRef]
+150. Isaac, M.E.; Kimaro, A.A. Diagnosis of nutrient imbalances with vector analysis in agroforestry systems. J. Environ. Qual. 2011, 40,
+     860–866. [CrossRef] [PubMed]
+151. Yan, L.; Zhang, Z.D.; Zhang, J.J.; Gao, Q.; Feng, G.Z.; Abelrahman, A.M.; Chen, Y. Effects of improving nitrogen management on
+     nitrogen utilization, nitrogen balance, and reactive nitrogen losses in a Mollisol with maize monoculture in Northeast China.
+     Environ. Sci. Pollut. Res. 2016, 23, 4576–4584. [CrossRef] [PubMed]
+152. Prochnow, L.I. Optimizing nutrient use in low fertility soils of the tropics. Better Crops 2008, 92, 19–21.
+153. Johnson, F.E.; Roth, R.T.; Ruffatti, M.D.; Armstrong, S.D. Cover crop impacts on nitrogen losses and environmental damage cost.
+     Agric. Ecosyst. Environ. 2024, 363, 108859. [CrossRef]
+154. U.S. Department of Agriculture, National Agricultural Statistics Service. Agricultural Statistics 2020; U.S. Government Printing
+     Office: Washington, DC, USA, 2020. Available online: https://downloads.usda.library.cornell.edu/usda-esmis/files/j3860694x/
+     z890sn81j/cv43pq78m/Ag_Stats_2020_Complete_Publication.pdf (accessed on 11 June 2024).
+155. Singer, J.W.; Chase, C.A.; Karlen, D.L. Profitability of various corn, soybean, wheat, and alfalfa cropping systems. Crop Manag.
+     2003, 2, 1–10. [CrossRef]
+156. Tariq, M.; Ali, H.; Hussain, N.; Nasim, W.; Mubeen, M.; Ahmad, S.; Hasanuzzaman, M. Fundamentals of Crop Rotation in
+     Agronomic Management. In Agronomic Crops; Hasanuzzaman, M., Ed.; Springer: Singapore, 2019. [CrossRef]
+157. Reddy, P.P. Crop Rotation. In Agro-Ecological Approaches to Pest Management for Sustainable Agriculture; Springer: Singapore, 2017.
+     [CrossRef]
+158. Mailafiya, D.M. Agrobiodiversity for biological pest control in Sub-Saharan Africa. In Sustainable Agriculture Reviews;
+     Lichtfouse, E., Ed.; Springer: Cham, Switzerland, 2015; Volume 18, pp. 107–143. [CrossRef]
+159. Liu, J.L.; Ren, W.; Zhao, W.Z.; Li, F.R. Cropping systems alter the biodiversity of ground- and soil-dwelling herbivorous and
+     predatory arthropods in a desert agroecosystem: Implications for pest biocontrol. Agric. Ecosyst. Environ. 2018, 266, 109–121.
+     [CrossRef]
+160. Altieri, M.A.; Nicholls, C.I.; Dinelli, G.; Negri, L. Towards an agroecological approach to crop health: Reducing pest incidence
+     through synergies between plant diversity and soil microbial ecology. npj Sustain. Agric. 2024, 2, 6. [CrossRef]
+161. Carrière, Y.; Brown, Z.; Aglasan, S.; Dutilleul, P.; Carroll, M.; Head, G.; Tabashnik, B.E.; Jørgensen, P.S.; Carroll, S.P. Crop rotation
+     mitigates impacts of corn rootworm resistance to transgenic Bt corn. Proc. Natl. Acad. Sci. USA 2020, 117, 18385–18392. [CrossRef]
+162. Peralta, A.L.; Sun, Y.; McDaniel, M.D.; Lennon, J.T. Crop rotational diversity increases disease suppressive capacity of soil
+     microbiomes. Ecosphere 2018, 9, e02235. [CrossRef]
+163. Kelley, K.W.; Long, J.H., Jr.; Todd, T.C. Long-term crop rotations affect soybean yield, seed weight, and soil chemical properties.
+     Field Crops Res. 2003, 83, 41–50. [CrossRef]
+164. Mazzola, M. Mechanisms of natural soil suppressiveness to soilborne diseases. Antonie Van Leeuwenhoek 2002, 81, 557–564.
+     [CrossRef] [PubMed]
+Agronomy 2025, 15, 1966                                                                                                                   29 of 31
+
+
+
+165. Kremsa, V.Š. Sustainable management of agricultural resources (agricultural crops and animals). In Sustainable Resource Manage-
+     ment; Elsevier: Amsterdam, The Netherlands, 2021; pp. 99–145. [CrossRef]
+166. Guinet, M.; Adeux, G.; Cordeau, S.; Courson, E.; Nandillon, R.; Zhang, Y.; Munier-Jolain, N. Fostering temporal crop diversification
+     to reduce pesticide use. Nat. Commun. 2023, 14, 7416. [CrossRef] [PubMed]
+167. Köhler, H.R.; Triebskorn, R. Wildlife ecotoxicology of pesticides: Can we track effects to the population level and beyond? Science
+     2013, 341, 759–765. [CrossRef]
+168. Pathak, V.M.; Verma, V.K.; Rawat, B.S.; Kaur, B.; Babu, N.; Sharma, A.; Dewali, S.; Yadav, M.; Kumari, R.; Singh, S.; et al.
+     Current status of pesticide effects on the environment, human health and it’s eco-friendly management as bioremediation:
+     A comprehensive review. Front. Microbiol. 2022, 13, 962619. [CrossRef]
+169. Bond, W.; Grundy, A.C. Non-chemical weed management in organic farming systems. Weed Res. 2001, 41, 383–405. [CrossRef]
+170. SDA Sustainable Agriculture Research and Extension. The Role of Crop Rotation in Weed Management—SARE. 2023. Avail-
+     able online: https://www.sare.org/publications/crop-rotation-on-organic-farms/physical-and-biological-processes-in-crop-
+     production/the-role-of-crop-rotation-in-weed-management/ (accessed on 6 September 2023).
+171. Liebman, M.; Dyck, E. Crop rotation and intercropping strategies for weed management. Ecol. Appl. 1993, 3, 92. [CrossRef]
+172. Maddonni, G.A.; Otegui, M.E.; Cirilo, A.G. Plant population density, row spacing and hybrid effects on maize canopy architecture
+     and light attenuation. Field Crops Res. 2001, 71, 183–193. [CrossRef]
+173. Butkevičienė, L.M.; Skinulienė, L.; Auželienė, I.; Bogužas, V.; Pupalienė, R.; Steponavičienė, V. The influence of long-term different
+     crop rotations and monoculture on weed prevalence and weed seed content in the soil. Agronomy 2021, 11, 1367. [CrossRef]
+174. Kaur, R.; Kaur, S.; Deol, J.S.; Sharma, R.; Kaur, T.; Brar, A.S.; Choudhary, O.P. Soil properties and weed dynamics in wheat as
+     affected by rice residue management in the rice–wheat cropping system in South Asia: A review. Plants 2021, 10, 953. [CrossRef]
+175. Jabran, K. Allelopathy: Introduction and Concepts. In Manipulation of Allelopathic Crops for Weed Control; SpringerBriefs in Plant
+     Science; Springer: Cham, Switzerland, 2017. [CrossRef]
+176. Tibugari, H.; Chiduza, C. Sorghum allelopathy under field conditions may be caused by a combination of allelochemicals. Cogent
+     Food Agric. 2024, 10, 2324528. [CrossRef]
+177. Gorooei, A.; Gaiser, T.; Aynehband, A.; Rahnama, A.; Kamali, B. The effect of farming management and crop rotation systems on
+     chlorophyll content, dry matter translocation, and grain quantity and quality of wheat (Triticum aestivum L.) grown in a semi-arid
+     region of Iran. Agronomy 2023, 13, 1007. [CrossRef]
+178. Poggio, S.L. Structure of weed communities occurring in monoculture and intercropping of field pea and barley. Agric. Ecosyst.
+     Environ. 2005, 109, 48–58. [CrossRef]
+179. Zohry, A.; Ouda, S. Crop rotation defeats pests and weeds. In Crop Rotation: An Approach to Secure Future Food; Springer
+     International Publishing: Cham, Switzerland, 2018; pp. 77–88. [CrossRef]
+180. NACL Industries Ltd. Crop Rotation Benefits for Optimum Crop Yield. 2024. Available online: https://naclind.com/the-benefits-
+     of-crop-rotation-for-soil-health-and-crop-yield/ (accessed on 1 November 2024).
+181. Verdesian Life Sciences. Crop Rotation Benefits. 2024. Available online: https://vlsci.com/blog/crop-rotation-benefits/#:~:
+     text=Crop%20rotation%20is%20useful%20to,spread%20of%20diseases%20and%20pests (accessed on 16 September 2024).
+182. Zhao, J.; Yang, Y.; Zhang, K.; Jeong, J.; Zeng, Z.; Zang, H. Does crop rotation yield more in China? A meta-analysis. Field Crops
+     Res. 2020, 245, 107659. [CrossRef]
+183. Chahal, I.; Hooker, D.C.; Deen, B.; Janovicek, K.; Van Eerd, L.L. Long-term effects of crop rotation, tillage, and fertilizer nitrogen
+     on soil health indicators and crop productivity in a temperate climate. Soil Tillage Res. 2021, 213, 105121. [CrossRef]
+184. Peoples, M.B.; Baldock, J.A. Nitrogen dynamics of pastures: Nitrogen fixation inputs, the impact of legumes on soil nitrogen
+     fertility, and the contributions of fixed nitrogen to Australian farming systems. Aust. J. Exp. Agric. 2001, 41, 327–346. [CrossRef]
+185. Hirzel, J.; Undurraga, P. Nutritional Management of Cereals Cropped under Irrigation Conditions. In Crop Production; IntechOpen:
+     London, UK, 2013. [CrossRef]
+186. Porter, P.M.; Lauer, J.G.; Lueschen, W.E.; Ford, J.H.; Hoverstad, T.R.; Oplinger, E.S.; Crookston, R.K. Environment affects the corn
+     and soybean rotation effect. Agron. J. 1997, 89, 442–448. [CrossRef]
+187. Geng, S.; Tan, J.; Li, L.; Miao, Y.; Wang, Y. Legumes can increase the yield of subsequent wheat with or without grain harvesting
+     compared to Gramineae crops: A meta-analysis. Eur. J. Agron. 2023, 142, 126643. [CrossRef]
+188. Agomoh, I.V.; Drury, C.F.; Yang, X.; Phillips, L.A.; Reynolds, W.D. Crop rotation enhances soybean yields and soil health indicators.
+     Soil Sci. Soc. Am. J. 2021, 85, 1185–1195. [CrossRef]
+189. Mourtzinis, S.; Marburger, D.; Gaska, J.; Diallo, T.; Lauer, J.; Conley, S. Corn and soybean yield response to tillage, rotation, and
+     nematicide seed treatment. Crop Sci. 2017, 57, 1704–1712. [CrossRef]
+190. Yusuf, A.A.; Abaidoo, R.C.; Iwuafor, E.N.O.; Olufajo, O.O.; Sanginga, N. Rotation effects of grain legumes and fallow on maize
+     yield, microbial biomass and chemical properties of an Alfisol in the Nigerian savanna. Agric. Ecosyst. Environ. 2009, 129, 325–331.
+     [CrossRef]
+Agronomy 2025, 15, 1966                                                                                                                 30 of 31
+
+
+
+191. Zhao, J.; Chen, J.; Beillouin, D.; Lambers, H.; Yang, Y.; Smith, P.; Zang, H. Global systematic review with meta-analysis reveals
+     yield advantage of legume-based rotations and its drivers. Nat. Commun. 2022, 13, 4926. [CrossRef]
+192. Meissle, M.; Mouron, P.; Musa, T.; Bigler, F.; Pons, X.; Vasileiadis, V.P.; Oldenburg, E. Pests, pesticide use and alternative options
+     in European maize production: Current status and future prospects. J. Appl. Entomol. 2010, 134, 357–375. [CrossRef]
+193. Peterson, T.A.; Varvel, G.E. Crop yield as affected by rotation and nitrogen rate. III. Corn. Agron. J. 1989, 81, 735–738. [CrossRef]
+194. Crookston, R.K.; Kurle, J.E.; Copeland, P.J.; Ford, J.H.; Lueschen, W.E. Rotational cropping sequence affects yield of corn and
+     soybean. Agron. J. 1991, 83, 108–113. [CrossRef]
+195. Berzsenyi, Z.; Győrffy, B.; Lap, D. Effect of crop rotation and fertilisation on maize and wheat yields and yield stability in a
+     long-term experiment. Eur. J. Agron. 2000, 13, 225–244. [CrossRef]
+196. Smith, R.G.; Gross, K.L.; Robertson, G.P. Effects of crop diversity on agroecosystem function: Crop yield response. Ecosystems
+     2008, 11, 355–366. [CrossRef]
+197. Santos, H.P.D.; Fontaneli, R.S.; Pires, J.; Lampert, E.A.; Vargas, A.M.; Verdi, A.C. Grain yield and agronomic traits in soybean
+     according to crop rotation systems. Bragantia 2014, 73, 263–273. [CrossRef]
+198. Ksi˛eżak, J.; Bojarszczuk, J.; Staniak, M. Comparison of maize yield and soil chemical properties under maize (Zea mays L.) grown
+     in monoculture and crop rotation. J. Elementol. 2018, 23, 531–543. [CrossRef]
+199. Badagliacca, G.; Ruisi, P.; Rees, R.M.; Amato, G.; Giambalvo, D. An assessment of factors controlling N2 O and CO2 emissions
+     from crop residues using different measurement approaches. Biol. Fertil. Soils 2017, 53, 547–561. [CrossRef]
+200. Kong, D.; Liu, N.; Ren, C.; Li, H.; Wang, W.; Li, N.; Yang, G. Effect of nitrogen fertilizer on soil CO2 emission depends on crop
+     rotation strategy. Sustainability 2020, 12, 5271. [CrossRef]
+201. Cha-un, N.; Chidthaisong, A.; Yagi, K.; Sudo, S.; Towprayoon, S. Greenhouse gas emissions, soil carbon sequestration and crop
+     yields in a rain-fed rice field with crop rotation management. Agric. Ecosyst. Environ. 2017, 237, 109–120. [CrossRef]
+202. Li, Y.L.; Yi, F.J.; Yuan, C.J. Influences of large-scale farming on carbon emissions from cropping: Evidence from China. J. Integr.
+     Agric. 2023, 22, 3209–3219. [CrossRef]
+203. Ma, B.; Karimi, M.S.; Mohammed, K.S.; Shahzadi, I.; Dai, J. Nexus between climate change, agricultural output, fertilizer use,
+     agriculture soil emissions: Novel implications in the context of environmental management. J. Clean. Prod. 2024, 450, 141801.
+     [CrossRef]
+204. Hashim, Z.K.; De Silva, A.G.; Hassouni, A.A.; Vona, V.M.; Bede, L.; Stencinger, D.; Horváth, B.; Zsebő, S.; Kulmány, I.M. Effects of
+     Various Herbicide Types and Doses, Tillage Systems, and Nitrogen Rates on CO2 Emissions from Agricultural Land: A Literature
+     Review. Agriculture 2024, 14, 1800. [CrossRef]
+205. Kamyab, H.; SaberiKamarposhti, M.; Hashim, H.; Yusuf, M. Carbon dynamics in agricultural greenhouse gas emissions and
+     removals: A comprehensive review. Carbon Lett. 2024, 34, 265–289. [CrossRef]
+206. Wang, S.; Wang, H.; Zhang, Y.; Wang, R.; Zhang, Y.; Xu, Z.; Li, J. The influence of rotational tillage on soil water storage, water use
+     efficiency and maize yield in semi-arid areas under varied rainfall conditions. Agric. Water Manag. 2018, 203, 376–384. [CrossRef]
+207. Pravia, M.V.; Kemanian, A.R.; Terra, J.A.; Shi, Y.; Macedo, I.; Goslee, S. Soil carbon saturation, productivity, and carbon and
+     nitrogen cycling in crop–pasture rotations. Agric. Syst. 2019, 171, 13–22. [CrossRef]
+208. Feiziene, D.; Feiza, V.; Kadziene, G.; Vaideliene, A.; Povilaitis, V.; Deveikyte, I. CO2 fluxes and drivers as affected by soil type,
+     tillage and fertilization. Acta Agric. Scand. Sect. B-Soil Plant Sci. 2012, 62, 311–328. [CrossRef]
+209. Snapp, S.S.; Swinton, S.M.; Labarta, R.; Mutch, D.; Black, J.R.; Leep, R.; Nyiraneza, J.; O’Neil, K. Evaluating cover crops for
+     benefits, costs and performance within cropping system niches. Agron. J. 2005, 97, 322–332. [CrossRef]
+210. Otto, R.; Pereira, G.L.; Tenelli, S.; Carvalho, J.L.; Lavres, J.; de Castro, S.A.; Lisboa, I.P.; Sermarini, R.A. Planting legume cover crop
+     as a strategy to replace synthetic N fertilizer applied for sugarcane production. Ind. Crops Prod. 2020, 156, 112853. [CrossRef]
+211. Sainju, U.M.; Allen, B.L. Carbon footprint of perennial bioenergy crop production receiving various nitrogen fertilization rates.
+     Sci. Total Environ. 2023, 861, 160663. [CrossRef] [PubMed]
+212. Yang, X.; Gao, W.; Zhang, M.; Chen, Y.; Sui, P. Reducing agricultural carbon footprint through diversified crop rotation systems in
+     the North China Plain. J. Clean. Prod. 2014, 76, 131. [CrossRef]
+213. Wegner, B.R.; Chalise, K.S.; Singh, S.; Lai, L.; Abagandura, G.O.; Kumar, S.; Osborne, S.L.; Lehman, R.M.; Jagadamma, S. Response
+     of soil surface GHG fluxes to crop residue removal and cover crops under a corn–soybean rotation. J. Environ. Qual. 2018,
+     47, 1146. [CrossRef]
+214. Behnke, G.D.; Pittelkow, C.M.; Nafziger, E.D.; Villamil, M.B. Exploring the relationships between greenhouse gas emissions,
+     yields, and soil properties in cropping systems. Agriculture 2018, 8, 62. [CrossRef]
+215. Alluvione, F.; Halvorson, A.D.; Del Grosso, S.J. Nitrogen, tillage, and crop rotation effects on carbon dioxide and methane fluxes
+     from irrigated cropping systems. J. Environ. Qual. 2009, 38, 2023. [CrossRef]
+216. Wang, H.; Wang, S.; Yu, Q.; Zhang, Y.; Wang, R.; Li, J.; Wang, X. No tillage increases soil organic carbon storage and decreases
+     carbon dioxide emission in the crop residue-returned farming system. J. Environ. Manag. 2020, 261, 110261. [CrossRef]
+Agronomy 2025, 15, 1966                                                                                                         31 of 31
+
+
+
+217. Nyambo, P.; Cornelius, C.; Araya, T. Carbon dioxide fluxes and carbon stocks under conservation agricultural practices in South
+     Africa. Agriculture 2020, 10, 374. [CrossRef]
+218. Buivydienė, A.; Deveikytė, I.; Veršulienė, A.; Feiza, V. The Influence of Cropping Systems and Tillage Intensity on Soil CO2
+     Exchange Rate. Sustainability 2024, 16, 3591. [CrossRef]
+219. Lusizi, Z.; Motsi, H.; Nyambo, P.; Elephant, D.E. Black (Acacia mearnsii) and silver wattle (Acacia dealbata) invasive tree species
+     impact on soil physicochemical properties in South Africa: A systematic literature review. Heliyon 2024, 10, e24102. [CrossRef]
+220. Šarauskis, E.; Vaitauskienė, K.; Romaneckas, K.; Jasinskas, A.; Butkus, V.; Kriaučiūnienė, Z. Fuel consumption and CO2 emission
+     analysis in different strip tillage scenarios. Energy 2017, 118, 957–968. [CrossRef]
+221. Kongchum, M.; Harrell, D.L.; Barron, M.A.; Adotey, N.; Li, F.J. Methane and nitrous oxide emission from Louisiana rice fields
+     under three water management practices. J. Rice Res. Dev. 2020, 3, 74–81. [CrossRef]
+222. Kongchum, M.; Bollich, P.K.; Hudnall, W.H.; DeLaune, R.D.; Lindau, C.W. Decreasing methane emission of rice by better crop
+     management. Agron. Sustain. Dev. 2006, 26, 45–54. [CrossRef]
+223. Wu, X.; Wang, W.; Xie, K.; Yin, C.; Hou, H.; Xie, X. Combined effects of straw and water management on CH4 emissions from rice
+     fields. J. Environ. Manag. 2019, 231, 1257–1262. [CrossRef]
+224. Saeed, Q.; Zhang, A.; Mustafa, A.; Sun, B.; Zhang, S.; Yang, X. Effect of long-term fertilization on greenhouse gas emissions and
+     carbon footprints in northwest China: A field scale investigation using wheat-maize-fallow rotation cycles. J. Clean. Prod. 2022,
+     332, 130075. [CrossRef]
+225. Velthof, G.L.; Rietra, R. Nitrous Oxide Emission from Agricultural Soils (Report 2921); Wageningen Environmental Research:
+     Wageningen, The Netherlands, 2018. Available online: https://scispace.com/pdf/nitrous-oxide-emission-from-agricultural-
+     soils-c81a6ephu2.pdf (accessed on 14 March 2024).
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

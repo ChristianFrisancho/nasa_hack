@@ -1,0 +1,221 @@
+zona,anio_lluvias,meses,lluvia_campania_mm,lluvia_dic_abr_mm,tmean_campania_c,et0_campania_mm,campania,enso_costero,evento_icen,magnitud_evento,magnitud_en_campania,icen_max_dic_abr,oni_pacifico_central_max_dic_abr,p20_dic_abr_zona,escenario,chirps_dic_abr_mm,subescenario,zona_contrato
+Ayabaca,1982,12,315.12,250.37,23.51,,1981-1982,neutro,,,,-0.14,0.34,237.38,normal,383.72,normal,sierra_piura
+Ayabaca,1983,12,1364.56,1071.43,23.38,,1982-1983,el_nino,el_nino_costero_198207,extraordinaria,calida_extraordinaria,3.48,2.14,237.38,el_nino,891.3,el_nino_extraordinario,sierra_piura
+Ayabaca,1984,12,723.56,594.52,22.6,,1983-1984,neutro,,,,0.24,-0.38,237.38,normal,689.33,normal,sierra_piura
+Ayabaca,1985,12,278.89,185.06,23.11,1503.16,1984-1985,la_nina,la_nina_costera_198503,moderada,fria_moderada,-0.27,-0.8,237.38,seco,295.3,seco,sierra_piura
+Ayabaca,1986,12,576.95,526.69,22.76,1488.49,1985-1986,neutro,,,,0.0,-0.17,237.38,normal,402.9,normal,sierra_piura
+Ayabaca,1987,12,679.44,558.47,23.53,1487.51,1986-1987,el_nino,el_nino_costero_198612,moderada,calida_moderada,1.63,1.21,237.38,el_nino,529.54,el_nino,sierra_piura
+Ayabaca,1988,12,360.06,282.37,23.76,1576.75,1987-1988,neutro,,,,0.65,1.0,237.38,normal,355.77,normal,sierra_piura
+Ayabaca,1989,12,1025.12,932.1,22.2,1361.61,1988-1989,neutro,,,,0.05,-0.85,237.38,normal,423.08,normal,sierra_piura
+Ayabaca,1990,12,463.01,367.3,23.4,1547.39,1989-1990,neutro,,,,-0.19,0.3,237.38,normal,317.52,normal,sierra_piura
+Ayabaca,1991,12,551.04,449.56,23.44,1525.94,1990-1991,neutro,,,,-0.16,0.35,237.38,normal,462.62,normal,sierra_piura
+Ayabaca,1992,12,625.06,541.82,23.63,1493.53,1991-1992,el_nino,el_nino_costero_199108,moderada,calida_moderada,1.99,1.54,237.38,el_nino,406.86,el_nino,sierra_piura
+Ayabaca,1993,12,843.42,733.21,23.08,1417.58,1992-1993,el_nino,el_nino_costero_199303,debil,calida_debil,1.11,0.73,237.38,el_nino,806.77,el_nino,sierra_piura
+Ayabaca,1994,12,681.35,575.85,23.08,1413.05,1993-1994,la_nina,la_nina_costera_199403,debil,fria_debil,0.03,0.19,237.38,la_nina,578.63,la_nina,sierra_piura
+Ayabaca,1995,12,614.73,511.44,23.25,1473.75,1994-1995,el_nino,el_nino_costero_199411,debil,calida_debil,0.68,0.97,237.38,el_nino,379.94,el_nino,sierra_piura
+Ayabaca,1996,12,445.39,338.94,23.01,1523.23,1995-1996,la_nina,la_nina_costera_199603,fuerte,fria_fuerte,-0.42,-0.36,237.38,la_nina,405.67,la_nina,sierra_piura
+Ayabaca,1997,12,355.39,287.23,23.7,1608.22,1996-1997,la_nina,la_nina_costera_199603,fuerte,fria_debil,1.29,0.3,237.38,la_nina,435.38,la_nina,sierra_piura
+Ayabaca,1998,12,1691.36,1438.72,23.7,1344.98,1997-1998,el_nino,el_nino_costero_199704,extraordinaria,calida_extraordinaria,4.06,2.37,237.38,el_nino,1035.23,el_nino_extraordinario,sierra_piura
+Ayabaca,1999,12,631.55,478.41,22.5,1404.8,1998-1999,neutro,,,,-0.4,-0.8,237.38,normal,936.53,normal,sierra_piura
+Ayabaca,2000,12,566.42,455.3,22.76,1410.75,1999-2000,neutro,,,,-0.21,-0.81,237.38,normal,746.06,normal,sierra_piura
+Ayabaca,2001,12,584.17,511.44,23.31,1451.28,2000-2001,neutro,,,,0.02,-0.29,237.38,normal,650.92,normal,sierra_piura
+Ayabaca,2002,12,516.89,433.05,23.78,1525.42,2001-2002,el_nino,el_nino_costero_200203,debil,calida_debil,0.81,0.15,237.38,el_nino,876.64,el_nino,sierra_piura
+Ayabaca,2003,12,505.16,396.47,24.21,1484.42,2002-2003,neutro,,,,0.74,1.08,237.38,normal,414.1,normal,sierra_piura
+Ayabaca,2004,12,416.91,332.23,24.05,1542.26,2003-2004,neutro,,,,0.1,0.34,237.38,normal,433.36,normal,sierra_piura
+Ayabaca,2005,12,185.85,110.38,24.41,1627.49,2004-2005,neutro,,,,0.36,0.71,237.38,seco,604.07,seco,sierra_piura
+Ayabaca,2006,12,207.99,144.53,24.06,1598.77,2005-2006,neutro,,,,-0.15,-0.45,237.38,seco,817.72,seco,sierra_piura
+Ayabaca,2007,12,73.07,61.51,24.62,1624.83,2006-2007,neutro,,,,0.72,0.88,237.38,seco,581.56,seco,sierra_piura
+Ayabaca,2008,12,600.53,448.32,23.0,1400.54,2007-2008,neutro,,,,0.44,-1.05,237.38,normal,678.96,normal,sierra_piura
+Ayabaca,2009,12,192.16,134.81,24.13,1545.32,2008-2009,neutro,,,,-0.02,-0.35,237.38,seco,521.59,seco,sierra_piura
+Ayabaca,2010,12,251.78,187.12,24.73,1588.52,2009-2010,neutro,,,,0.41,1.5,237.38,seco,507.36,seco,sierra_piura
+Ayabaca,2011,12,379.26,258.51,23.67,1560.8,2010-2011,neutro,,,,-0.31,-0.68,237.38,normal,541.14,normal,sierra_piura
+Ayabaca,2012,12,531.14,372.41,23.63,1479.65,2011-2012,neutro,,,,0.65,-0.35,237.38,normal,513.72,normal,sierra_piura
+Ayabaca,2013,12,416.98,253.59,24.07,1541.5,2012-2013,la_nina,la_nina_costera_201303,fuerte,fria_fuerte,-0.63,-0.03,237.38,la_nina,379.2,la_nina,sierra_piura
+Ayabaca,2014,12,289.75,139.66,24.45,1600.54,2013-2014,neutro,,,,0.25,0.25,237.38,seco,531.44,seco,sierra_piura
+Ayabaca,2015,12,431.32,279.79,24.53,1547.95,2014-2015,neutro,,,,0.88,0.86,237.38,normal,567.64,normal,sierra_piura
+Ayabaca,2016,12,352.08,251.64,25.32,1595.2,2015-2016,el_nino,el_nino_costero_201504,fuerte,calida_fuerte,2.06,2.59,237.38,el_nino,753.02,el_nino,sierra_piura
+Ayabaca,2017,12,666.34,557.78,23.8,1517.37,2016-2017,el_nino,el_nino_costero_201701,moderada,calida_moderada,1.31,0.32,237.38,el_nino,1082.25,el_nino,sierra_piura
+Ayabaca,2018,12,255.45,170.42,24.12,1559.3,2017-2018,la_nina,la_nina_costera_201710,moderada,fria_moderada,-1.07,-0.35,237.38,seco,373.77,seco,sierra_piura
+Ayabaca,2019,12,397.2,264.8,24.5,1566.22,2018-2019,el_nino,el_nino_costero_201811,debil,calida_debil,0.87,1.05,237.38,el_nino,697.77,el_nino,sierra_piura
+Ayabaca,2020,12,376.23,224.09,24.5,1565.3,2019-2020,neutro,,,,0.07,0.75,237.38,seco,448.18,seco,sierra_piura
+Ayabaca,2021,12,338.32,266.86,23.92,1535.29,2020-2021,la_nina,la_nina_costera_202006,moderada,fria_moderada,-0.79,-0.56,237.38,la_nina,473.81,la_nina,sierra_piura
+Ayabaca,2022,12,456.56,262.73,23.47,1503.23,2021-2022,la_nina,la_nina_costera_202110,fuerte,fria_fuerte,-1.14,-0.68,237.38,la_nina,421.21,la_nina,sierra_piura
+Ayabaca,2023,12,415.66,337.43,24.15,1538.72,2022-2023,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,2.11,0.19,237.38,el_nino,1163.92,el_nino,sierra_piura
+Ayabaca,2024,12,327.79,246.24,25.45,1606.73,2023-2024,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,1.67,1.99,237.38,el_nino,373.3,el_nino,sierra_piura
+Ayabaca,2025,12,501.7,323.68,24.28,1518.76,2024-2025,neutro,,,,0.72,0.02,237.38,normal,535.98,normal,sierra_piura
+Bajo Piura,1982,12,34.8,26.52,24.52,,1981-1982,neutro,,,,-0.14,0.34,28.51,seco,6.88,seco,bajo_piura
+Bajo Piura,1983,12,224.01,192.57,27.17,,1982-1983,el_nino,el_nino_costero_198207,extraordinaria,calida_extraordinaria,3.48,2.14,28.51,el_nino,20.16,el_nino_extraordinario,bajo_piura
+Bajo Piura,1984,12,150.04,140.23,25.06,,1983-1984,neutro,,,,0.24,-0.38,28.51,normal,26.13,normal,bajo_piura
+Bajo Piura,1985,12,93.76,87.59,24.41,2113.93,1984-1985,la_nina,la_nina_costera_198503,moderada,fria_moderada,-0.27,-0.8,28.51,la_nina,6.16,la_nina,bajo_piura
+Bajo Piura,1986,12,144.56,141.13,24.35,2067.43,1985-1986,neutro,,,,0.0,-0.17,28.51,normal,8.76,normal,bajo_piura
+Bajo Piura,1987,12,230.71,208.25,25.5,2105.1,1986-1987,el_nino,el_nino_costero_198612,moderada,calida_moderada,1.63,1.21,28.51,el_nino,19.48,el_nino,bajo_piura
+Bajo Piura,1988,12,38.36,29.2,24.99,2148.32,1987-1988,neutro,,,,0.65,1.0,28.51,normal,6.67,normal,bajo_piura
+Bajo Piura,1989,12,133.61,118.57,24.18,2053.3,1988-1989,neutro,,,,0.05,-0.85,28.51,normal,14.02,normal,bajo_piura
+Bajo Piura,1990,12,51.24,35.33,24.81,2187.17,1989-1990,neutro,,,,-0.19,0.3,28.51,normal,6.32,normal,bajo_piura
+Bajo Piura,1991,12,77.3,63.32,24.83,2184.43,1990-1991,neutro,,,,-0.16,0.35,28.51,normal,6.68,normal,bajo_piura
+Bajo Piura,1992,12,139.09,128.12,25.52,2121.99,1991-1992,el_nino,el_nino_costero_199108,moderada,calida_moderada,1.99,1.54,28.51,el_nino,13.74,el_nino,bajo_piura
+Bajo Piura,1993,12,132.25,111.51,25.14,2111.61,1992-1993,el_nino,el_nino_costero_199303,debil,calida_debil,1.11,0.73,28.51,el_nino,30.42,el_nino,bajo_piura
+Bajo Piura,1994,12,76.18,69.13,25.1,2145.27,1993-1994,la_nina,la_nina_costera_199403,debil,fria_debil,0.03,0.19,28.51,la_nina,9.19,la_nina,bajo_piura
+Bajo Piura,1995,12,267.7,258.84,24.79,2110.09,1994-1995,el_nino,el_nino_costero_199411,debil,calida_debil,0.68,0.97,28.51,el_nino,23.02,el_nino,bajo_piura
+Bajo Piura,1996,12,33.15,23.71,24.35,2102.6,1995-1996,la_nina,la_nina_costera_199603,fuerte,fria_fuerte,-0.42,-0.36,28.51,seco,6.12,seco,bajo_piura
+Bajo Piura,1997,12,35.03,30.05,25.39,2192.5,1996-1997,la_nina,la_nina_costera_199603,fuerte,fria_debil,1.29,0.3,28.51,la_nina,9.8,la_nina,bajo_piura
+Bajo Piura,1998,12,1412.04,1394.04,26.21,1865.15,1997-1998,el_nino,el_nino_costero_199704,extraordinaria,calida_extraordinaria,4.06,2.37,28.51,el_nino,155.13,el_nino_extraordinario,bajo_piura
+Bajo Piura,1999,12,113.11,77.91,24.08,1967.45,1998-1999,neutro,,,,-0.4,-0.8,28.51,normal,37.96,normal,bajo_piura
+Bajo Piura,2000,12,72.47,60.92,24.38,2035.85,1999-2000,neutro,,,,-0.21,-0.81,28.51,normal,7.99,normal,bajo_piura
+Bajo Piura,2001,12,200.22,192.26,24.72,2056.2,2000-2001,neutro,,,,0.02,-0.29,28.51,normal,5.95,normal,bajo_piura
+Bajo Piura,2002,12,140.09,127.41,24.85,2105.74,2001-2002,el_nino,el_nino_costero_200203,debil,calida_debil,0.81,0.15,28.51,el_nino,6.6,el_nino,bajo_piura
+Bajo Piura,2003,12,46.24,32.36,25.35,2181.67,2002-2003,neutro,,,,0.74,1.08,28.51,normal,9.2,normal,bajo_piura
+Bajo Piura,2004,12,70.35,61.37,24.95,2180.95,2003-2004,neutro,,,,0.1,0.34,28.51,normal,4.71,normal,bajo_piura
+Bajo Piura,2005,12,36.16,27.06,24.88,2168.52,2004-2005,neutro,,,,0.36,0.71,28.51,seco,4.97,seco,bajo_piura
+Bajo Piura,2006,12,42.32,37.79,24.63,2108.75,2005-2006,neutro,,,,-0.15,-0.45,28.51,normal,19.76,normal,bajo_piura
+Bajo Piura,2007,12,19.01,15.2,25.04,2201.29,2006-2007,neutro,,,,0.72,0.88,28.51,seco,5.52,seco,bajo_piura
+Bajo Piura,2008,12,181.38,169.15,24.24,2013.52,2007-2008,neutro,,,,0.44,-1.05,28.51,normal,29.4,normal,bajo_piura
+Bajo Piura,2009,12,36.25,28.08,25.04,2126.83,2008-2009,neutro,,,,-0.02,-0.35,28.51,seco,23.63,seco,bajo_piura
+Bajo Piura,2010,12,68.8,59.93,25.21,2170.93,2009-2010,neutro,,,,0.41,1.5,28.51,normal,13.23,normal,bajo_piura
+Bajo Piura,2011,12,56.5,28.79,24.44,2149.48,2010-2011,neutro,,,,-0.31,-0.68,28.51,normal,13.3,normal,bajo_piura
+Bajo Piura,2012,12,120.18,105.94,25.15,2151.72,2011-2012,neutro,,,,0.65,-0.35,28.51,normal,28.24,normal,bajo_piura
+Bajo Piura,2013,12,74.07,60.12,24.77,2163.25,2012-2013,la_nina,la_nina_costera_201303,fuerte,fria_fuerte,-0.63,-0.03,28.51,la_nina,9.86,la_nina,bajo_piura
+Bajo Piura,2014,12,37.48,26.79,25.22,2192.98,2013-2014,neutro,,,,0.25,0.25,28.51,seco,9.41,seco,bajo_piura
+Bajo Piura,2015,12,72.42,53.85,25.77,2175.26,2014-2015,neutro,,,,0.88,0.86,28.51,normal,7.16,normal,bajo_piura
+Bajo Piura,2016,12,83.45,74.33,26.29,2225.01,2015-2016,el_nino,el_nino_costero_201504,fuerte,calida_fuerte,2.06,2.59,28.51,el_nino,24.3,el_nino,bajo_piura
+Bajo Piura,2017,12,687.63,674.3,25.22,1986.58,2016-2017,el_nino,el_nino_costero_201701,moderada,calida_moderada,1.31,0.32,28.51,el_nino,37.91,el_nino,bajo_piura
+Bajo Piura,2018,12,27.92,20.14,24.6,2066.22,2017-2018,la_nina,la_nina_costera_201710,moderada,fria_moderada,-1.07,-0.35,28.51,seco,11.23,seco,bajo_piura
+Bajo Piura,2019,12,137.11,129.08,25.48,2117.59,2018-2019,el_nino,el_nino_costero_201811,debil,calida_debil,0.87,1.05,28.51,el_nino,18.2,el_nino,bajo_piura
+Bajo Piura,2020,12,21.55,12.48,25.22,2199.0,2019-2020,neutro,,,,0.07,0.75,28.51,seco,9.88,seco,bajo_piura
+Bajo Piura,2021,12,44.35,35.64,24.5,2103.68,2020-2021,la_nina,la_nina_costera_202006,moderada,fria_moderada,-0.79,-0.56,28.51,la_nina,11.43,la_nina,bajo_piura
+Bajo Piura,2022,12,32.65,20.94,23.92,2130.2,2021-2022,la_nina,la_nina_costera_202110,fuerte,fria_fuerte,-1.14,-0.68,28.51,seco,8.75,seco,bajo_piura
+Bajo Piura,2023,12,483.47,466.52,25.29,2026.8,2022-2023,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,2.11,0.19,28.51,el_nino,17.79,el_nino,bajo_piura
+Bajo Piura,2024,12,99.64,93.34,25.97,2177.45,2023-2024,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,1.67,1.99,28.51,el_nino,17.26,el_nino,bajo_piura
+Bajo Piura,2025,12,234.17,93.81,25.05,2095.88,2024-2025,neutro,,,,0.72,0.02,28.51,normal,10.78,normal,bajo_piura
+Chira Sullana,1982,12,56.39,46.32,25.09,,1981-1982,neutro,,,,-0.14,0.34,52.57,seco,24.76,seco,chira
+Chira Sullana,1983,12,420.27,351.92,26.92,,1982-1983,el_nino,el_nino_costero_198207,extraordinaria,calida_extraordinaria,3.48,2.14,52.57,el_nino,116.16,el_nino_extraordinario,chira
+Chira Sullana,1984,12,223.14,201.5,25.33,,1983-1984,neutro,,,,0.24,-0.38,52.57,normal,110.69,normal,chira
+Chira Sullana,1985,12,112.76,99.69,24.82,2138.66,1984-1985,la_nina,la_nina_costera_198503,moderada,fria_moderada,-0.27,-0.8,52.57,la_nina,13.34,la_nina,chira
+Chira Sullana,1986,12,215.79,209.99,24.7,2095.43,1985-1986,neutro,,,,0.0,-0.17,52.57,normal,27.84,normal,chira
+Chira Sullana,1987,12,289.94,253.98,25.68,2099.59,1986-1987,el_nino,el_nino_costero_198612,moderada,calida_moderada,1.63,1.21,52.57,el_nino,125.1,el_nino,chira
+Chira Sullana,1988,12,66.73,53.35,25.53,2224.99,1987-1988,neutro,,,,0.65,1.0,52.57,normal,16.31,normal,chira
+Chira Sullana,1989,12,254.16,232.84,24.54,2050.6,1988-1989,neutro,,,,0.05,-0.85,52.57,normal,50.67,normal,chira
+Chira Sullana,1990,12,91.49,71.3,25.25,2226.62,1989-1990,neutro,,,,-0.19,0.3,52.57,normal,18.12,normal,chira
+Chira Sullana,1991,12,123.35,104.65,25.3,2209.51,1990-1991,neutro,,,,-0.16,0.35,52.57,normal,18.51,normal,chira
+Chira Sullana,1992,12,219.31,200.78,25.67,2066.69,1991-1992,el_nino,el_nino_costero_199108,moderada,calida_moderada,1.99,1.54,52.57,el_nino,76.94,el_nino,chira
+Chira Sullana,1993,12,204.03,178.34,25.46,2072.77,1992-1993,el_nino,el_nino_costero_199303,debil,calida_debil,1.11,0.73,52.57,el_nino,173.57,el_nino,chira
+Chira Sullana,1994,12,135.6,119.97,25.44,2128.21,1993-1994,la_nina,la_nina_costera_199403,debil,fria_debil,0.03,0.19,52.57,la_nina,52.26,la_nina,chira
+Chira Sullana,1995,12,328.03,308.16,25.09,2099.79,1994-1995,el_nino,el_nino_costero_199411,debil,calida_debil,0.68,0.97,52.57,el_nino,54.04,el_nino,chira
+Chira Sullana,1996,12,74.16,54.85,24.8,2175.83,1995-1996,la_nina,la_nina_costera_199603,fuerte,fria_fuerte,-0.42,-0.36,52.57,la_nina,26.07,la_nina,chira
+Chira Sullana,1997,12,70.24,60.79,25.72,2227.15,1996-1997,la_nina,la_nina_costera_199603,fuerte,fria_debil,1.29,0.3,52.57,la_nina,25.32,la_nina,chira
+Chira Sullana,1998,12,1486.85,1443.19,25.94,1725.29,1997-1998,el_nino,el_nino_costero_199704,extraordinaria,calida_extraordinaria,4.06,2.37,52.57,el_nino,445.14,el_nino_extraordinario,chira
+Chira Sullana,1999,12,177.47,131.25,24.55,1979.09,1998-1999,neutro,,,,-0.4,-0.8,52.57,normal,122.56,normal,chira
+Chira Sullana,2000,12,115.48,97.65,24.83,2063.63,1999-2000,neutro,,,,-0.21,-0.81,52.57,normal,35.26,normal,chira
+Chira Sullana,2001,12,248.72,236.8,25.03,2071.69,2000-2001,neutro,,,,0.02,-0.29,52.57,normal,24.19,normal,chira
+Chira Sullana,2002,12,179.95,162.55,25.21,2123.52,2001-2002,el_nino,el_nino_costero_200203,debil,calida_debil,0.81,0.15,52.57,el_nino,20.73,el_nino,chira
+Chira Sullana,2003,12,99.28,79.14,25.81,2206.21,2002-2003,neutro,,,,0.74,1.08,52.57,normal,23.19,normal,chira
+Chira Sullana,2004,12,108.41,92.55,25.4,2215.95,2003-2004,neutro,,,,0.1,0.34,52.57,normal,13.1,normal,chira
+Chira Sullana,2005,12,53.51,39.1,25.42,2220.22,2004-2005,neutro,,,,0.36,0.71,52.57,seco,13.16,seco,chira
+Chira Sullana,2006,12,59.15,51.41,25.11,2157.36,2005-2006,neutro,,,,-0.15,-0.45,52.57,seco,84.82,seco,chira
+Chira Sullana,2007,12,22.38,18.18,25.66,2246.94,2006-2007,neutro,,,,0.72,0.88,52.57,seco,13.9,seco,chira
+Chira Sullana,2008,12,235.66,210.99,24.67,2029.21,2007-2008,neutro,,,,0.44,-1.05,52.57,normal,86.83,normal,chira
+Chira Sullana,2009,12,54.04,41.56,25.6,2180.65,2008-2009,neutro,,,,-0.02,-0.35,52.57,seco,62.77,seco,chira
+Chira Sullana,2010,12,97.6,83.4,25.84,2228.16,2009-2010,neutro,,,,0.41,1.5,52.57,normal,41.05,normal,chira
+Chira Sullana,2011,12,94.26,62.62,25.0,2191.8,2010-2011,neutro,,,,-0.31,-0.68,52.57,normal,48.92,normal,chira
+Chira Sullana,2012,12,183.21,151.49,25.43,2121.25,2011-2012,neutro,,,,0.65,-0.35,52.57,normal,111.13,normal,chira
+Chira Sullana,2013,12,125.9,98.4,25.26,2197.18,2012-2013,la_nina,la_nina_costera_201303,fuerte,fria_fuerte,-0.63,-0.03,52.57,la_nina,39.51,la_nina,chira
+Chira Sullana,2014,12,67.01,40.3,25.72,2244.54,2013-2014,neutro,,,,0.25,0.25,52.57,seco,31.14,seco,chira
+Chira Sullana,2015,12,111.34,83.42,26.19,2206.23,2014-2015,neutro,,,,0.88,0.86,52.57,normal,30.03,normal,chira
+Chira Sullana,2016,12,116.72,97.48,26.69,2239.25,2015-2016,el_nino,el_nino_costero_201504,fuerte,calida_fuerte,2.06,2.59,52.57,el_nino,69.24,el_nino,chira
+Chira Sullana,2017,12,665.84,640.62,25.27,1948.14,2016-2017,el_nino,el_nino_costero_201701,moderada,calida_moderada,1.31,0.32,52.57,el_nino,157.13,el_nino,chira
+Chira Sullana,2018,12,56.04,40.76,25.17,2156.74,2017-2018,la_nina,la_nina_costera_201710,moderada,fria_moderada,-1.07,-0.35,52.57,seco,35.38,seco,chira
+Chira Sullana,2019,12,161.58,141.64,25.81,2153.23,2018-2019,el_nino,el_nino_costero_201811,debil,calida_debil,0.87,1.05,52.57,el_nino,84.77,el_nino,chira
+Chira Sullana,2020,12,66.88,43.3,25.74,2251.03,2019-2020,neutro,,,,0.07,0.75,52.57,seco,38.35,seco,chira
+Chira Sullana,2021,12,67.59,55.36,25.06,2169.04,2020-2021,la_nina,la_nina_costera_202006,moderada,fria_moderada,-0.79,-0.56,52.57,la_nina,44.96,la_nina,chira
+Chira Sullana,2022,12,70.42,41.73,24.72,2220.08,2021-2022,la_nina,la_nina_costera_202110,fuerte,fria_fuerte,-1.14,-0.68,52.57,seco,24.84,seco,chira
+Chira Sullana,2023,12,427.85,404.91,25.63,2043.88,2022-2023,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,2.11,0.19,52.57,el_nino,58.18,el_nino,chira
+Chira Sullana,2024,12,169.55,157.1,26.66,2249.58,2023-2024,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,1.67,1.99,52.57,el_nino,64.62,el_nino,chira
+Chira Sullana,2025,12,255.97,116.88,25.62,2162.1,2024-2025,neutro,,,,0.72,0.02,52.57,normal,62.75,normal,chira
+Huancabamba,1982,12,467.99,316.31,16.32,,1981-1982,neutro,,,,-0.14,0.34,249.09,normal,336.32,normal,sierra_piura
+Huancabamba,1983,12,1192.32,873.28,16.8,,1982-1983,el_nino,el_nino_costero_198207,extraordinaria,calida_extraordinaria,3.48,2.14,249.09,el_nino,615.68,el_nino_extraordinario,sierra_piura
+Huancabamba,1984,12,913.93,730.4,15.71,,1983-1984,neutro,,,,0.24,-0.38,249.09,normal,462.49,normal,sierra_piura
+Huancabamba,1985,12,399.5,244.01,15.82,1122.96,1984-1985,la_nina,la_nina_costera_198503,moderada,fria_moderada,-0.27,-0.8,249.09,seco,284.26,seco,sierra_piura
+Huancabamba,1986,12,582.26,472.51,16.06,1171.26,1985-1986,neutro,,,,0.0,-0.17,249.09,normal,325.06,normal,sierra_piura
+Huancabamba,1987,12,653.48,492.67,16.63,1168.38,1986-1987,el_nino,el_nino_costero_198612,moderada,calida_moderada,1.63,1.21,249.09,el_nino,385.55,el_nino,sierra_piura
+Huancabamba,1988,12,538.84,388.12,16.84,1214.84,1987-1988,neutro,,,,0.65,1.0,249.09,normal,277.43,normal,sierra_piura
+Huancabamba,1989,12,940.68,790.13,15.95,1101.49,1988-1989,neutro,,,,0.05,-0.85,249.09,normal,359.03,normal,sierra_piura
+Huancabamba,1990,12,668.56,476.03,16.36,1181.58,1989-1990,neutro,,,,-0.19,0.3,249.09,normal,247.85,normal,sierra_piura
+Huancabamba,1991,12,732.02,546.82,16.51,1159.96,1990-1991,neutro,,,,-0.16,0.35,249.09,normal,323.64,normal,sierra_piura
+Huancabamba,1992,12,546.59,428.6,16.92,1163.82,1991-1992,el_nino,el_nino_costero_199108,moderada,calida_moderada,1.99,1.54,249.09,el_nino,302.38,el_nino,sierra_piura
+Huancabamba,1993,12,987.09,784.27,16.48,1091.0,1992-1993,el_nino,el_nino_costero_199303,debil,calida_debil,1.11,0.73,249.09,el_nino,460.84,el_nino,sierra_piura
+Huancabamba,1994,12,932.27,746.06,16.02,1053.26,1993-1994,la_nina,la_nina_costera_199403,debil,fria_debil,0.03,0.19,249.09,la_nina,439.1,la_nina,sierra_piura
+Huancabamba,1995,12,718.66,565.61,16.58,1139.33,1994-1995,el_nino,el_nino_costero_199411,debil,calida_debil,0.68,0.97,249.09,el_nino,290.03,el_nino,sierra_piura
+Huancabamba,1996,12,673.62,501.13,16.32,1165.31,1995-1996,la_nina,la_nina_costera_199603,fuerte,fria_fuerte,-0.42,-0.36,249.09,la_nina,360.63,la_nina,sierra_piura
+Huancabamba,1997,12,458.81,322.91,16.71,1226.19,1996-1997,la_nina,la_nina_costera_199603,fuerte,fria_debil,1.29,0.3,249.09,la_nina,334.52,la_nina,sierra_piura
+Huancabamba,1998,12,1720.22,1408.64,17.14,1074.24,1997-1998,el_nino,el_nino_costero_199704,extraordinaria,calida_extraordinaria,4.06,2.37,249.09,el_nino,559.73,el_nino_extraordinario,sierra_piura
+Huancabamba,1999,12,835.11,591.7,15.7,1084.3,1998-1999,neutro,,,,-0.4,-0.8,249.09,normal,511.2,normal,sierra_piura
+Huancabamba,2000,12,806.64,604.68,15.55,1066.75,1999-2000,neutro,,,,-0.21,-0.81,249.09,normal,497.74,normal,sierra_piura
+Huancabamba,2001,12,677.86,538.5,16.06,1086.58,2000-2001,neutro,,,,0.02,-0.29,249.09,normal,346.01,normal,sierra_piura
+Huancabamba,2002,12,613.63,450.31,16.66,1151.03,2001-2002,el_nino,el_nino_costero_200203,debil,calida_debil,0.81,0.15,249.09,el_nino,390.29,el_nino,sierra_piura
+Huancabamba,2003,12,611.55,421.93,16.68,1128.98,2002-2003,neutro,,,,0.74,1.08,249.09,normal,303.0,normal,sierra_piura
+Huancabamba,2004,12,485.18,341.28,16.99,1204.1,2003-2004,neutro,,,,0.1,0.34,249.09,normal,271.41,normal,sierra_piura
+Huancabamba,2005,12,256.59,124.85,17.5,1252.65,2004-2005,neutro,,,,0.36,0.71,249.09,seco,430.24,seco,sierra_piura
+Huancabamba,2006,12,271.21,154.27,17.41,1259.46,2005-2006,neutro,,,,-0.15,-0.45,249.09,seco,506.74,seco,sierra_piura
+Huancabamba,2007,12,131.94,106.67,17.9,1261.14,2006-2007,neutro,,,,0.72,0.88,249.09,seco,335.49,seco,sierra_piura
+Huancabamba,2008,12,709.69,462.1,16.46,1111.02,2007-2008,neutro,,,,0.44,-1.05,249.09,normal,508.66,normal,sierra_piura
+Huancabamba,2009,12,269.19,169.9,17.04,1163.39,2008-2009,neutro,,,,-0.02,-0.35,249.09,seco,375.71,seco,sierra_piura
+Huancabamba,2010,12,272.77,177.23,18.1,1218.75,2009-2010,neutro,,,,0.41,1.5,249.09,seco,364.4,seco,sierra_piura
+Huancabamba,2011,12,469.89,287.65,16.84,1218.36,2010-2011,neutro,,,,-0.31,-0.68,249.09,normal,368.95,normal,sierra_piura
+Huancabamba,2012,12,632.68,407.33,16.4,1135.1,2011-2012,neutro,,,,0.65,-0.35,249.09,normal,279.92,normal,sierra_piura
+Huancabamba,2013,12,516.03,265.71,16.82,1156.67,2012-2013,la_nina,la_nina_costera_201303,fuerte,fria_fuerte,-0.63,-0.03,249.09,la_nina,249.23,la_nina,sierra_piura
+Huancabamba,2014,12,396.63,197.55,17.18,1184.24,2013-2014,neutro,,,,0.25,0.25,249.09,seco,362.64,seco,sierra_piura
+Huancabamba,2015,12,513.81,290.42,17.09,1153.98,2014-2015,neutro,,,,0.88,0.86,249.09,normal,287.52,normal,sierra_piura
+Huancabamba,2016,12,408.22,252.47,17.91,1199.99,2015-2016,el_nino,el_nino_costero_201504,fuerte,calida_fuerte,2.06,2.59,249.09,el_nino,439.55,el_nino,sierra_piura
+Huancabamba,2017,12,707.5,562.99,16.95,1183.5,2016-2017,el_nino,el_nino_costero_201701,moderada,calida_moderada,1.31,0.32,249.09,el_nino,724.29,el_nino,sierra_piura
+Huancabamba,2018,12,371.22,239.83,17.03,1173.73,2017-2018,la_nina,la_nina_costera_201710,moderada,fria_moderada,-1.07,-0.35,249.09,seco,298.1,seco,sierra_piura
+Huancabamba,2019,12,474.91,266.1,17.34,1182.14,2018-2019,el_nino,el_nino_costero_201811,debil,calida_debil,0.87,1.05,249.09,el_nino,387.66,el_nino,sierra_piura
+Huancabamba,2020,12,456.09,231.9,17.52,1206.14,2019-2020,neutro,,,,0.07,0.75,249.09,seco,268.34,seco,sierra_piura
+Huancabamba,2021,12,456.9,349.9,17.3,1188.28,2020-2021,la_nina,la_nina_costera_202006,moderada,fria_moderada,-0.79,-0.56,249.09,la_nina,312.92,la_nina,sierra_piura
+Huancabamba,2022,12,642.68,359.98,17.0,1158.5,2021-2022,la_nina,la_nina_costera_202110,fuerte,fria_fuerte,-1.14,-0.68,249.09,la_nina,301.76,la_nina,sierra_piura
+Huancabamba,2023,12,498.07,386.68,17.42,1173.72,2022-2023,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,2.11,0.19,249.09,el_nino,757.23,el_nino,sierra_piura
+Huancabamba,2024,12,389.03,259.18,18.57,1216.04,2023-2024,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,1.67,1.99,249.09,el_nino,262.52,el_nino,sierra_piura
+Huancabamba,2025,12,592.81,383.73,17.68,1181.87,2024-2025,neutro,,,,0.72,0.02,249.09,normal,348.98,normal,sierra_piura
+San Lorenzo,1982,12,206.75,156.15,21.98,,1981-1982,neutro,,,,-0.14,0.34,160.06,seco,79.37,seco,san_lorenzo
+San Lorenzo,1983,12,911.68,719.96,22.55,,1982-1983,el_nino,el_nino_costero_198207,extraordinaria,calida_extraordinaria,3.48,2.14,160.06,el_nino,486.08,el_nino_extraordinario,san_lorenzo
+San Lorenzo,1984,12,543.83,454.4,21.38,,1983-1984,neutro,,,,0.24,-0.38,160.06,normal,274.56,normal,san_lorenzo
+San Lorenzo,1985,12,225.25,162.99,21.55,1666.26,1984-1985,la_nina,la_nina_costera_198503,moderada,fria_moderada,-0.27,-0.8,160.06,la_nina,76.81,la_nina,san_lorenzo
+San Lorenzo,1986,12,399.51,365.01,21.49,1659.41,1985-1986,neutro,,,,0.0,-0.17,160.06,normal,103.19,normal,san_lorenzo
+San Lorenzo,1987,12,495.2,413.87,22.23,1632.31,1986-1987,el_nino,el_nino_costero_198612,moderada,calida_moderada,1.63,1.21,160.06,el_nino,303.43,el_nino,san_lorenzo
+San Lorenzo,1988,12,254.71,200.7,22.27,1726.6,1987-1988,neutro,,,,0.65,1.0,160.06,normal,85.32,normal,san_lorenzo
+San Lorenzo,1989,12,636.79,570.58,21.26,1585.0,1988-1989,neutro,,,,0.05,-0.85,160.06,normal,150.03,normal,san_lorenzo
+San Lorenzo,1990,12,333.86,257.04,22.02,1714.85,1989-1990,neutro,,,,-0.19,0.3,160.06,normal,70.51,normal,san_lorenzo
+San Lorenzo,1991,12,403.56,326.42,22.1,1706.92,1990-1991,neutro,,,,-0.16,0.35,160.06,normal,103.67,normal,san_lorenzo
+San Lorenzo,1992,12,391.56,342.19,22.37,1606.3,1991-1992,el_nino,el_nino_costero_199108,moderada,calida_moderada,1.99,1.54,160.06,el_nino,315.13,el_nino,san_lorenzo
+San Lorenzo,1993,12,604.49,510.66,21.9,1559.74,1992-1993,el_nino,el_nino_costero_199303,debil,calida_debil,1.11,0.73,160.06,el_nino,384.39,el_nino,san_lorenzo
+San Lorenzo,1994,12,481.68,406.59,21.87,1606.02,1993-1994,la_nina,la_nina_costera_199403,debil,fria_debil,0.03,0.19,160.06,la_nina,162.43,la_nina,san_lorenzo
+San Lorenzo,1995,12,519.6,445.32,21.88,1637.68,1994-1995,el_nino,el_nino_costero_199411,debil,calida_debil,0.68,0.97,160.06,el_nino,126.59,el_nino,san_lorenzo
+San Lorenzo,1996,12,327.43,247.74,21.64,1713.74,1995-1996,la_nina,la_nina_costera_199603,fuerte,fria_fuerte,-0.42,-0.36,160.06,la_nina,94.05,la_nina,san_lorenzo
+San Lorenzo,1997,12,229.61,180.93,22.27,1744.06,1996-1997,la_nina,la_nina_costera_199603,fuerte,fria_debil,1.29,0.3,160.06,la_nina,115.38,la_nina,san_lorenzo
+San Lorenzo,1998,12,1690.33,1529.58,22.66,1440.27,1997-1998,el_nino,el_nino_costero_199704,extraordinaria,calida_extraordinaria,4.06,2.37,160.06,el_nino,1121.8,el_nino_extraordinario,san_lorenzo
+San Lorenzo,1999,12,448.24,330.46,21.23,1562.19,1998-1999,neutro,,,,-0.4,-0.8,160.06,normal,322.47,normal,san_lorenzo
+San Lorenzo,2000,12,396.64,318.99,21.43,1605.42,1999-2000,neutro,,,,-0.21,-0.81,160.06,normal,215.79,normal,san_lorenzo
+San Lorenzo,2001,12,445.39,393.92,21.99,1636.59,2000-2001,neutro,,,,0.02,-0.29,160.06,normal,340.73,normal,san_lorenzo
+San Lorenzo,2002,12,373.08,310.84,22.41,1703.5,2001-2002,el_nino,el_nino_costero_200203,debil,calida_debil,0.81,0.15,160.06,el_nino,505.07,el_nino,san_lorenzo
+San Lorenzo,2003,12,328.16,246.38,22.84,1720.25,2002-2003,neutro,,,,0.74,1.08,160.06,normal,99.6,normal,san_lorenzo
+San Lorenzo,2004,12,276.17,216.92,22.65,1762.0,2003-2004,neutro,,,,0.1,0.34,160.06,normal,81.95,normal,san_lorenzo
+San Lorenzo,2005,12,129.55,74.27,22.81,1788.74,2004-2005,neutro,,,,0.36,0.71,160.06,seco,140.41,seco,san_lorenzo
+San Lorenzo,2006,12,132.19,90.76,22.52,1763.25,2005-2006,neutro,,,,-0.15,-0.45,160.06,seco,309.5,seco,san_lorenzo
+San Lorenzo,2007,12,46.09,35.87,23.02,1780.04,2006-2007,neutro,,,,0.72,0.88,160.06,seco,139.94,seco,san_lorenzo
+San Lorenzo,2008,12,441.22,328.9,21.77,1596.91,2007-2008,neutro,,,,0.44,-1.05,160.06,normal,253.61,normal,san_lorenzo
+San Lorenzo,2009,12,135.95,91.56,22.54,1702.41,2008-2009,neutro,,,,-0.02,-0.35,160.06,seco,204.59,seco,san_lorenzo
+San Lorenzo,2010,12,171.66,126.0,23.25,1744.3,2009-2010,neutro,,,,0.41,1.5,160.06,seco,177.91,seco,san_lorenzo
+San Lorenzo,2011,12,256.14,162.66,22.19,1754.54,2010-2011,neutro,,,,-0.31,-0.68,160.06,normal,166.54,normal,san_lorenzo
+San Lorenzo,2012,12,366.48,258.79,22.29,1675.94,2011-2012,neutro,,,,0.65,-0.35,160.06,normal,263.65,normal,san_lorenzo
+San Lorenzo,2013,12,280.75,165.73,22.62,1749.83,2012-2013,la_nina,la_nina_costera_201303,fuerte,fria_fuerte,-0.63,-0.03,160.06,la_nina,168.41,la_nina,san_lorenzo
+San Lorenzo,2014,12,198.38,102.25,22.87,1778.66,2013-2014,neutro,,,,0.25,0.25,160.06,seco,241.62,seco,san_lorenzo
+San Lorenzo,2015,12,287.68,179.92,23.03,1723.0,2014-2015,neutro,,,,0.88,0.86,160.06,normal,265.71,normal,san_lorenzo
+San Lorenzo,2016,12,245.69,172.13,23.73,1756.88,2015-2016,el_nino,el_nino_costero_201504,fuerte,calida_fuerte,2.06,2.59,160.06,el_nino,485.06,el_nino,san_lorenzo
+San Lorenzo,2017,12,704.38,629.16,22.34,1633.27,2016-2017,el_nino,el_nino_costero_201701,moderada,calida_moderada,1.31,0.32,160.06,el_nino,853.57,el_nino,san_lorenzo
+San Lorenzo,2018,12,188.25,125.86,22.53,1742.47,2017-2018,la_nina,la_nina_costera_201710,moderada,fria_moderada,-1.07,-0.35,160.06,seco,176.97,seco,san_lorenzo
+San Lorenzo,2019,12,304.36,207.21,22.99,1734.92,2018-2019,el_nino,el_nino_costero_201811,debil,calida_debil,0.87,1.05,160.06,el_nino,398.03,el_nino,san_lorenzo
+San Lorenzo,2020,12,239.56,131.65,23.08,1801.55,2019-2020,neutro,,,,0.07,0.75,160.06,seco,193.2,seco,san_lorenzo
+San Lorenzo,2021,12,239.72,187.76,22.54,1744.84,2020-2021,la_nina,la_nina_costera_202006,moderada,fria_moderada,-0.79,-0.56,160.06,la_nina,309.8,la_nina,san_lorenzo
+San Lorenzo,2022,12,316.05,180.95,22.16,1726.29,2021-2022,la_nina,la_nina_costera_202110,fuerte,fria_fuerte,-1.14,-0.68,160.06,la_nina,180.54,la_nina,san_lorenzo
+San Lorenzo,2023,12,478.2,420.16,22.61,1636.34,2022-2023,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,2.11,0.19,160.06,el_nino,743.93,el_nino,san_lorenzo
+San Lorenzo,2024,12,237.49,179.82,23.85,1746.99,2023-2024,el_nino,el_nino_costero_202303,fuerte,calida_fuerte,1.67,1.99,160.06,el_nino,216.38,el_nino,san_lorenzo
+San Lorenzo,2025,12,426.76,260.79,22.88,1714.95,2024-2025,neutro,,,,0.72,0.02,160.06,normal,316.68,normal,san_lorenzo

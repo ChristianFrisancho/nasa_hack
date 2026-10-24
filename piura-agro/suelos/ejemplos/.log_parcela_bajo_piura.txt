@@ -1,0 +1,1 @@
+parcela_bajo_piura: 71 filas -> /workspace/piura-agro/suelos/ejemplos/parcela_bajo_piura.csv | estimado=52, observado=12, desconocido=7

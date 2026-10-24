@@ -1,0 +1,21 @@
+zona,variante,n_aceptados,top1,top3,sec_viables,sec_total,sec_top,nota
+chira_sullana,a_ignorar,12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,frijol grano+maiz amarillo duro,parche: ECe previa si falta la CEw
+chira_sullana,b_conocida,12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,frijol grano+maiz amarillo duro,CEw 0.868
+chira_sullana,c_motor_actual,12,caupi,caupi|frijol grano|maiz amarillo duro,0,30,ninguna,CEw falta
+chira_sullana,d_sorteo_rango,12,caupi,,30.0,30,frijol grano+maiz amarillo duro (9/9),"9 cuantiles de U(0.514, 4.98); sorteos con alguna secuencia viable 9/9; aceptados min-max 12-12"
+bajo_piura,a_ignorar,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano,parche: ECe previa si falta la CEw
+bajo_piura,b_conocida,12,caupi,caupi|arveja|frijol grano,30,30,arveja+frijol grano,CEw 1.5
+bajo_piura,c_motor_actual,12,caupi,caupi|arveja|frijol grano,0,30,ninguna,CEw falta
+bajo_piura,d_sorteo_rango,12,caupi,,30.0,30,arveja+frijol grano (9/9),"9 cuantiles de U(0.04, 16.83); sorteos con alguna secuencia viable 9/9; aceptados min-max 12-12"
+medio_piura,a_ignorar,12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,maiz amarillo duro+frijol grano,parche: ECe previa si falta la CEw
+medio_piura,b_conocida,12,caupi,caupi|frijol grano|maiz amarillo duro,30,30,maiz amarillo duro+frijol grano,CEw 5.98
+medio_piura,c_motor_actual,12,caupi,caupi|frijol grano|maiz amarillo duro,0,30,ninguna,CEw falta
+medio_piura,d_sorteo_rango,12,caupi,,30.0,30,maiz amarillo duro+frijol grano (9/9),"9 cuantiles de U(0.74, 9.92); sorteos con alguna secuencia viable 9/9; aceptados min-max 12-12"
+alto_piura,a_ignorar,12,caupi,caupi|frijol grano|maiz amarillo duro,28,30,frijol grano+maiz choclo,parche: ECe previa si falta la CEw
+alto_piura,b_conocida,12,caupi,caupi|frijol grano|maiz amarillo duro,28,30,frijol grano+maiz choclo,CEw 0.51
+alto_piura,c_motor_actual,12,caupi,caupi|frijol grano|maiz amarillo duro,0,30,ninguna,CEw falta
+alto_piura,d_sorteo_rango,12,caupi,,28.0,30,frijol grano+maiz choclo (9/9),"9 cuantiles de U(0.345, 0.741); sorteos con alguna secuencia viable 9/9; aceptados min-max 12-12"
+san_lorenzo,a_ignorar,12,frijol grano,frijol grano|maiz amarillo duro|arroz,30,30,frijol grano+maiz amarillo duro,parche: ECe previa si falta la CEw
+san_lorenzo,b_conocida,12,frijol grano,frijol grano|maiz amarillo duro|arroz,30,30,frijol grano+maiz amarillo duro,CEw 0.449
+san_lorenzo,c_motor_actual,12,frijol grano,frijol grano|maiz amarillo duro|arroz,0,30,ninguna,CEw falta
+san_lorenzo,d_sorteo_rango,12,frijol grano,,30.0,30,frijol grano+maiz amarillo duro (9/9),"9 cuantiles de U(0.417, 7.86); sorteos con alguna secuencia viable 9/9; aceptados min-max 12-12"

@@ -1,0 +1,1 @@
+ayabaca: 54 filas -> /workspace/piura-agro/suelos/ejemplos/ayabaca.csv | estimado=42, desconocido=7, observado=5

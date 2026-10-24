@@ -1,0 +1,23 @@
+feature,minimo,central,maximo,unidad,estado,fuente_o_razon
+mes_siembra,1.0,12.0,12.0,mes,medido,se recorren los 12 meses con clima POWER 2000-2025
+zona,0.0,0.0,4.0,indice,medido,5 puntos POWER en scripts/puntos.json
+agua_riego_mm,0.0,0.0,0.0,mm brutos por campaña (rango por zona en modelo.rango),dato_zona+hipotesis,"ronda 2: dotacion anual ANA PGRH por zona (params/zonas.csv) x fraccion por campaña 0.5-1.0 (hipotesis: APEAR dice que la cuota anual cubre dos campañas, Agraria 2016). minimo/central/maximo de esta fila no se usan"
+eficiencia_riego,0.0,0.0,0.0,fraccion (rango por zona en modelo.rango),dato_zona+hipotesis,ronda 2: eficiencia operativa ANA por zona (0.52-0.60) como maximo; minimo = 0.60 x ese valor si la cifra ANA fuera solo conduccion (FAO TM4 Tabla 8 ea superficie 0.60). Interpretacion de la cifra ANA = hipotesis
+ece_ds_m,0.5,2.0,12.0,dS/m,hipotesis,Bajo Piura tiene suelos salinos; falta medicion por parcela (schema field.soil_horizons[].ECe)
+taw_mm_m,60.0,140.0,200.0,mm/m,bibliografico,FAO-56 T19 rango arena a arcilla (FC-WP)
+n_suelo_kg_ha,10.0,40.0,120.0,kg N mineral/ha,hipotesis,sin analisis de suelo local; schema mineral_N
+p_suelo_kg_ha,5.0,20.0,60.0,kg P2O5 disponible/ha,hipotesis,sin analisis local
+k_suelo_kg_ha,50.0,150.0,400.0,kg K2O disponible/ha,hipotesis,sin analisis local
+credito_n_leguminosa,0.0,20.0,60.0,kg N/ha,hipotesis,FAO PNB16 T22 da 60 kg/ha para caupi incorporado como abono verde; con grano cosechado es menor
+precio_fert_n_pen_kg,3.0,5.0,8.0,PEN/kg N,hipotesis,falta precio local de urea; preguntar a Piura Datos
+precio_fert_p_pen_kg,3.0,6.0,10.0,PEN/kg P2O5,hipotesis,falta precio local
+precio_fert_k_pen_kg,2.0,4.0,7.0,PEN/kg K2O,hipotesis,falta precio local
+pendiente_pct,0.0,1.0,5.0,%,hipotesis,suelos_bajo_piura_mapunits_v2.csv da clases de pendiente; rango provisional
+drenaje_malo,0.0,0.0,1.0,binario (se muestrea con P=0.2),hipotesis,P=0.2 supuesta; schema groundwater_depth_cm/flood_duration
+cultivo_previo,0.0,0.0,5.0,indice de cultivo,medido,6 candidatos anuales
+factor_precio,0.7,1.0,1.3,multiplicador,hipotesis,DRAP p10-p90 de precio por cultivo varia; rango provisional comun
+factor_rend,0.6,1.0,1.4,multiplicador,hipotesis,DRAP p10-p90 de rendimiento por cultivo; rango provisional comun
+factor_costo,1.0,1.0,2.11,multiplicador,hipotesis,ronda 2: ENA 2018 Piura es el piso (central); ESCO arroz 2024-2025 Piura costo directo+indirecto 9037 = 1.67x ENA y encuesta LATAM 2025 maiz Bajo Piura S/ 6471.70 = 2.11x ENA (Rodriguez Valdez et al. 2025 doi 10.56712/latam.v6i3.3996). Aplicarlo igual a todos los cultivos es hipotesis
+agua_extra_arroz_mm,150.0,450.0,780.0,mm por campaña,hipotesis_acotada,"max = FAO Irrigation Water Needs (s2022e08) SAT 200 + lamina 100 + percolacion 4 mm/d x 120 d; min = consumo observado arroz Piura ~12000 m3/ha (Agraria.pe 22-dic-2016, dato DRA) menos ETc modelada ~1050 mm en Bajo Piura"
+pen_sanidad,0.0,0.1,0.3,fraccion de rendimiento,hipotesis,solo se aplica si previo y candidato comparten agente en plagas_hospedantes_condiciones_v2.csv (en los 6 anuales: solo arroz-arroz y maiz-maiz); magnitud sin fuente
+agua_arroz_m3_ha,10000.0,14000.0,18000.0,"m3/ha por campaña en parcela, solo arroz",dato_bibliografico_piura,"ESCO arroz Piura 2024 (MIDAGRI, restricciones/fuentes/midagri_esco_arroz_piura.txt): 'demanda entre 10,000 y 18,000 m3 por hectarea' (INIA 2020); su estructura de costos usa 18000 m3. Central = punto medio; Agraria.pe 2016 da consumo promedio 12000 y asignacion DRA 16000"

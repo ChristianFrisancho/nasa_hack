@@ -1,0 +1,6 @@
+variable_territorio,archivo,variable_motor,nivel,nota
+ce_agua_riego,datos/cew_por_zona.csv,ce_agua_riego,punto/resumen/sin_dato,"Desde 24-oct 07:55 todas las filas usan la variable del contrato ce_agua_riego. Origen en fuente_agua (rio, quebrada, canal, dren, reservorio, pozo). Nivel en nivel: el motor debe leer nivel=resumen (rango entre puntos de la zona, no incertidumbre de parcela) o sin_dato (desconocido). Tablazo Sur: lugar empieza por 'Tablazo'. No hay variable aparte para agua subterránea: pozo = fuente_agua"
+zona:ce_agua_riego_<fuente_agua>,ejemplos/*.csv (consulta_parcela),ce_agua_riego,zona,"En la ficha de parcela se añade el sufijo _<fuente_agua> (y _tablazo_sur) para no repetir el nombre; quitar el sufijo y el prefijo zona: para el motor"
+zona:ECe_medida_local,ejemplos/*.csv,ce_suelo,zona,ECe de pasta saturada medida (Piura Datos)
+ECe_0_20cm_HWSD2_contexto,ejemplos/*.csv,,punto,solo contexto: HWSD contradice CE medida; no mapear a ce_suelo
+zona:profundidad_napa_SEV_ANA2015,ejemplos/*.csv y datos/profundidad_ph_por_zona.csv,profundidad_napa_estacional,zona,mediana con IQR (p25-p75); sustituye a profundidad_napa_freatica (eliminada)

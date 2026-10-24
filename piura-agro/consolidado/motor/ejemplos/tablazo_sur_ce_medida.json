@@ -1,0 +1,49 @@
+{
+  "_nota": "Parcela tipo de Tablazo Sur (La Unión, Bajo Piura) con la primera CE y PSI medidos en chacra en Piura (40 predios, 8 puntos, 2024). El punto es aproximado (distrito La Unión), no un predio. Lo demás no está medido y queda desconocido.",
+  "parcela": {
+    "punto": [
+      -5.4,
+      -80.74
+    ],
+    "area_ha": 1.0,
+    "provincia": "Piura",
+    "zona": "bajo_piura"
+  },
+  "suelo": {
+    "ece_ds_m": {
+      "valor_min": 3.44,
+      "valor_max": 8.2,
+      "unidad": "dS/m",
+      "fuente": "Mendoza Flores, E. C. (2025). Tesis UCV 'Análisis de la salinización antropogénica de suelos agrícolas usando tecnología satelital en Tablazo Sur, Piura 2024', tablas 2 y 3 (vía Piura Datos, restricciones/evidencia_observada.csv)",
+      "url_o_doi": "https://hdl.handle.net/20.500.12692/170594",
+      "tipo_evidencia": "medicion_local",
+      "estado": "observado",
+      "metodo": "ce_extracto_no_declarado",
+      "notas": "rango entre 8 puntos (3,44-8,2); la tesis no declara el extracto: no es ECe de pasta saturada confirmada"
+    },
+    "psi_pct": {
+      "valor_min": 7.3,
+      "valor_max": 17.73,
+      "unidad": "%",
+      "fuente": "Mendoza Flores, E. C. (2025). Tesis UCV 'Análisis de la salinización antropogénica de suelos agrícolas usando tecnología satelital en Tablazo Sur, Piura 2024', tablas 2 y 3 (vía Piura Datos, restricciones/evidencia_observada.csv)",
+      "url_o_doi": "https://hdl.handle.net/20.500.12692/170594",
+      "tipo_evidencia": "medicion_local",
+      "estado": "observado",
+      "notas": "PSI por punto 7,30-17,73 %; 7 de 8 puntos ≥ 15 %"
+    },
+    "ph": null,
+    "profundidad_cm": null,
+    "drenaje": null,
+    "pendiente_pct": null,
+    "napa_m": null
+  },
+  "agua": {
+    "m3_por_mes": null,
+    "ecw_ds_m": null
+  },
+  "presupuesto_pen": null,
+  "cultivo_anterior": null,
+  "escenario": "sin_el_nino",
+  "mes_siembra": 8,
+  "horizonte_meses": 6
+}

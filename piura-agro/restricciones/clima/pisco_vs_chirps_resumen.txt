@@ -1,0 +1,65 @@
+PISCOp v2.1 (PISCOp_monthly.nc) y CHIRPS 1981-2000 frente a normales SENAMHI 1971-2000. Razón = producto / estación.
+PISCOp no es independiente de las estaciones (las asimila). 'sin FEN' = sin ninguna campaña El Niño según ICEN oficial (Territorio).
+
+1) Razón mediana por grupo y temporada (n estaciones)
+  costa  anual n=11  PISCOp 1.29  CHIRPS 0.63  | rango PISCOp 0.84-1.82, CHIRPS 0.30-0.96
+  costa  DEF   n=11  PISCOp 1.36  CHIRPS 0.88  | rango PISCOp 1.00-1.61, CHIRPS 0.49-1.80
+  costa  MAM   n=11  PISCOp 1.14  CHIRPS 0.17  | rango PISCOp 0.66-2.25, CHIRPS 0.03-0.74
+  costa  JJA   n=11  PISCOp 1.02  CHIRPS 1.18  | rango PISCOp 0.38-2.21, CHIRPS 0.00-3.59
+  costa  SON   n=11  PISCOp 0.55  CHIRPS 0.10  | rango PISCOp 0.16-1.40, CHIRPS 0.00-4.74
+  sierra anual n= 9  PISCOp 0.94  CHIRPS 0.71  | rango PISCOp 0.73-1.12, CHIRPS 0.40-2.12
+  sierra DEF   n= 9  PISCOp 0.99  CHIRPS 0.83  | rango PISCOp 0.78-1.11, CHIRPS 0.44-2.25
+  sierra MAM   n= 9  PISCOp 0.94  CHIRPS 0.62  | rango PISCOp 0.68-1.21, CHIRPS 0.35-2.10
+  sierra JJA   n= 9  PISCOp 0.73  CHIRPS 0.67  | rango PISCOp 0.38-5.08, CHIRPS 0.09-14.75
+  sierra SON   n= 9  PISCOp 0.84  CHIRPS 0.71  | rango PISCOp 0.58-1.05, CHIRPS 0.46-7.55
+
+2) Razón por zona del CONTRATO (mediana de estaciones), anual y MAM
+  alto_piura    anual n= 3  PISCOp 1.04  CHIRPS 0.67
+  alto_piura    MAM   n= 3  PISCOp 1.03  CHIRPS 0.52
+  bajo_piura    anual n= 3  PISCOp 1.44  CHIRPS 0.32
+  bajo_piura    MAM   n= 3  PISCOp 1.22  CHIRPS 0.03
+  chira         anual n= 4  PISCOp 1.32  CHIRPS 0.74
+  chira         MAM   n= 4  PISCOp 1.19  CHIRPS 0.38
+  medio_piura   anual n= 1  PISCOp 0.84  CHIRPS 0.35
+  medio_piura   MAM   n= 1  PISCOp 0.66  CHIRPS 0.03
+  sierra_piura  anual n= 9  PISCOp 0.94  CHIRPS 0.71
+  sierra_piura  MAM   n= 9  PISCOp 0.94  CHIRPS 0.62
+
+3) Por estación (anual y MAM): SENAMHI | PISCOp media, mediana, sin FEN | CHIRPS media, mediana, sin FEN (mm)
+  Miraflores    anual   177.9 |   149.6    39.3    29.8 |    61.9    27.9    33.5  peso FEN PISCOp 402.0% CHIRPS 85.0%
+  Miraflores    MAM     104.3 |    69.1    11.1    10.0 |     3.3     1.7     1.9  peso FEN PISCOp 591.0% CHIRPS 74.0%
+  Mallares      anual   197.0 |   253.5    54.6    59.3 |    77.0    43.1    39.6  peso FEN PISCOp 327.0% CHIRPS 94.0%
+  Mallares      MAM     116.1 |   131.6    24.1    20.0 |     3.6     2.3     1.9  peso FEN PISCOp 558.0% CHIRPS 89.0%
+  La Esperanza  anual    98.3 |   150.4    42.2    40.6 |    78.9    49.2    47.2  peso FEN PISCOp 270.0% CHIRPS 67.0%
+  La Esperanza  MAM      56.8 |    99.2    19.7    19.9 |     9.9     5.3     5.5  peso FEN PISCOp 398.0% CHIRPS 80.0%
+  Chusis        anual    66.8 |   122.0    38.2    35.5 |    21.7    15.0    15.5  peso FEN PISCOp 244.0% CHIRPS 40.0%
+  Chusis        MAM      34.7 |    78.2    20.7    23.9 |     3.2     2.4     2.5  peso FEN PISCOp 227.0% CHIRPS 28.0%
+  Morropón      anual   397.2 |   515.5   382.6   301.3 |   380.4   326.6   307.9  peso FEN PISCOp 71.0% CHIRPS 24.0%
+  Morropón      MAM     237.7 |   304.9   173.7   158.6 |   175.2   134.2   131.4  peso FEN PISCOp 92.0% CHIRPS 33.0%
+  San Miguel    anual   124.3 |   121.6    27.5    25.2 |    40.0    17.1    21.9  peso FEN PISCOp 383.0% CHIRPS 83.0%
+  San Miguel    MAM      68.1 |    55.5    14.5    10.8 |     2.1     0.9     1.2  peso FEN PISCOp 414.0% CHIRPS 75.0%
+  Chulucanas    anual   425.1 |   417.0   238.1   175.7 |   283.3   205.0   204.0  peso FEN PISCOp 137.0% CHIRPS 39.0%
+  Chulucanas    MAM     238.8 |   233.3    88.8    76.9 |   124.6    83.8    81.2  peso FEN PISCOp 203.0% CHIRPS 53.0%
+  San Pedro     anual   610.0 |   635.2   438.7   336.0 |   386.0   330.3   306.8  peso FEN PISCOp 89.0% CHIRPS 26.0%
+  San Pedro     MAM     354.4 |   365.0   208.1   172.8 |   182.8   141.5   134.0  peso FEN PISCOp 111.0% CHIRPS 36.0%
+  Bernal        anual    58.5 |    84.4    16.1    18.1 |    17.8     9.1    10.3  peso FEN PISCOp 366.0% CHIRPS 73.0%
+  Bernal        MAM      27.4 |    33.5     5.7     5.1 |     0.8     0.4     0.5  peso FEN PISCOp 557.0% CHIRPS 60.0%
+  Pananga       anual   265.9 |   359.8   111.0   123.4 |   187.7   107.1    86.8  peso FEN PISCOp 192.0% CHIRPS 116.0%
+  Pananga       MAM     149.2 |   184.5    66.5    61.0 |    88.1    43.3    37.4  peso FEN PISCOp 202.0% CHIRPS 136.0%
+  Lancones      anual   360.4 |   461.0   163.0   164.4 |   279.8   191.4   152.4  peso FEN PISCOp 180.0% CHIRPS 84.0%
+  Lancones      MAM     216.9 |   248.1    71.1    70.4 |   158.7    91.7    82.0  peso FEN PISCOp 252.0% CHIRPS 94.0%
+
+4) PISCOp frente a CHIRPS mes a mes 1981-2019 (seis estaciones de valle)
+  Mallares    r mensual 0.38 (n=468); total MAM CHIRPS/PISCOp 0.04; mar-2017 PISCOp 421.8 CHIRPS 26.7 mm
+  Miraflores  r mensual 0.55 (n=468); total MAM CHIRPS/PISCOp 0.07; mar-2017 PISCOp 336.6 CHIRPS 21.3 mm
+  Chusis      r mensual 0.27 (n=468); total MAM CHIRPS/PISCOp 0.04; mar-2017 PISCOp 886.7 CHIRPS 4.1 mm
+  San Miguel  r mensual 0.46 (n=468); total MAM CHIRPS/PISCOp 0.05; mar-2017 PISCOp 553.7 CHIRPS 13.8 mm
+  Chulucanas  r mensual 0.84 (n=468); total MAM CHIRPS/PISCOp 0.64; mar-2017 PISCOp 957.5 CHIRPS 543.4 mm
+  Morropón    r mensual 0.86 (n=468); total MAM CHIRPS/PISCOp 0.65; mar-2017 PISCOp 903.7 CHIRPS 539.5 mm
+
+5) Efecto del periodo: media de cada producto por escenario ICEN (1981-2000) reponderada a la frecuencia de escenarios de 1971-2000 (30 campañas: {'sin_el_nino': 22, 'el_nino_debil': 2, 'el_nino_moderado': 2, 'el_nino_fuerte_extraordinario': 4}; en 1981-2000: {'sin_el_nino': 14, 'el_nino_debil': 2, 'el_nino_moderado': 2, 'el_nino_fuerte_extraordinario': 2}). Razón mediana.
+   El grupo fuerte/extraordinario de 1981-2000 sólo tiene 1983 y 1998 (extraordinarios); 1972 y 1973 fueron fuertes. Cota alta: pesan como 1983/1998; cota baja: pesan como los moderados (1987, 1992).
+  costa  anual PISCOp 1.06 a 1.48  CHIRPS 0.60 a 0.66
+  costa  MAM   PISCOp 0.94 a 1.38  CHIRPS 0.16 a 0.19
+  sierra anual PISCOp 0.92 a 0.97  CHIRPS 0.69 a 0.72
+  sierra MAM   PISCOp 0.89 a 0.97  CHIRPS 0.60 a 0.63

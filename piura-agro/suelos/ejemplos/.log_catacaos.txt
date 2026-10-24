@@ -1,0 +1,1 @@
+catacaos: 63 filas -> /workspace/piura-agro/suelos/ejemplos/catacaos.csv | estimado=46, observado=10, desconocido=7

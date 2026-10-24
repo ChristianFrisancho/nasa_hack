@@ -1,0 +1,10 @@
+{
+  "parcela": {"poligono": [[-5.50, -80.80], [-5.50, -80.79], [-5.51, -80.79], [-5.51, -80.80]], "area_ha": 1.5},
+  "suelo": {"ece_ds_m": 8.5, "ph": null, "profundidad_cm": null, "drenaje": null, "pendiente_pct": null},
+  "agua": {"m3_por_mes": null, "ecw_ds_m": null},
+  "presupuesto_pen": null,
+  "cultivo_anterior": null,
+  "escenario": "el_nino_fuerte_extraordinario",
+  "mes_siembra": 1,
+  "horizonte_meses": 6
+}

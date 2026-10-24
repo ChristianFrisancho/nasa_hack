@@ -1,0 +1,175 @@
+MOTOR DE ROTACIÓN v1 · zona climática Chira Sullana (0.0 km) · escenario sin_el_nino (29 años: 1981, 1982, 1984, 1985, 1986, 1988, 1989, 1990…)
+Parcela -4.900, -80.690 · área 1.00 ha · ECe desconocido (dS/m) · ECw 0.59 dS/m · pH desconocido (pH) · drenaje desconocido · anterior maiz amarillo duro · siembra mes 8
+Zona CONTRATO: chira (dada por el usuario) · pendiente usada 0.0–3.0 %
+
+12 de 14 cultivos anuales pasan los filtros duros. Primero en el orden: caupi. 1 de los aceptados son PROBABLEMENTE NO APTOS (no se descartan porque el umbral no se puede aplicar como exacto; van al final del orden): arveja. Sin datos suficientes para decidir (no se recomiendan): frijol de palo.
+AVISOS:
+ * ECw de la parcela desconocida: se usa el valor de zona chira 0.59 dS/m [medicion_local, ANA-AAA Jequetepeque-Zarumilla, Informe Técnico N.° 0074-2024-ANA-AAA.…]. Es agua de reservorio, estiaje medida en un punto, no en su toma: mida la CE de su agua de riego
+ * Pendiente de la parcela desconocida: se usa la de la zona chira (predicción DEM 30 m) 0–3 % (mediana 0.6–1.0 %); mida la pendiente de su parcela
+ * napa freática desconocida: los umbrales de salinidad FAO-29 no se aplican como exactos (exigen ECe medida y napa ≥ 2 m, R4A026); se avisa y se amplía la incertidumbre en vez de descartar
+ * Contexto ICEN (aviso, no regla): Evento en curso 2026-27: el ICEN oficial (met.igp.gob.pe/datos/ICEN.txt, leído el 24-oct-2026) da 3,98 en agosto de 2026, sobre el umbral extraordinario (3,5); ENFEN mantiene la Alerta de El Niño Costero (Comunicado Oficial 18-2026, 16-oct-2026; el PDF no se pudo leer desde la caja). Este escenario no es teórico para la campaña 2026-27. [fuente: notas del escenario el_nino_fuerte_extraordinario en lluvia_zona_pisco.csv de Piura Datos]
+ * [R4A025] ENFEN 2026-10-16: Niño costero extraordinario hasta ene 2027, fuerte hasta inicio de otoño 2027; lluvias sobre lo normal en verano 2027 y caudales sobre lo normal desde noviembre en Chira y Piura. El escenario elegido es 'sin_el_nino': compare con 'el_nino_fuerte_extraordinario' (ESCENARIOS CLIMÁTICOS). El riesgo de inundación ene-abr (R4R003) sí se aplica a parcelas inundables.
+ * Agua de río o quebrada en chira: 11 puntos (10 puntos ANA 2024) con CE 0.373–4.98 dS/m (estación desconocida, estiaje). No es el agua que llega a su parcela; por eso siguen los escenarios de ECw
+ * Costo análogo externo (otra región o especie) en: frijol verde, caupi, papaya. Su rango se amplió a ×1/2–×2 (supuesto del motor) y el margen es más incierto; no es costo de Piura
+
+1. CAUPI (Fabaceae) · advertencias 1 · no evaluables 4
+   Duración: 80–100 días [regional]
+   Riego neto por etapa: inicial 34–48 mm | desarrollo 101–142 mm | media 152–210 mm | final 66–109 mm
+   Riego neto ciclo: 3 536–5 093 m3/ha · bruto: 7 072–10 185 m3/ha
+   Absorción N/P2O5/K2O: 204–295 kg/ha / 38–55 kg/ha / 171–248 kg/ha
+   Exportación N/P2O5/K2O: 66–324 kg/ha / 18–63 kg/ha / 38–265 kg/ha
+   Rendimiento: 2.00–2.90 t/ha [regional] · precio 1.00–3.00 PEN/kg · costo 1 624–6 497 PEN/ha [analogo_externo] · margen -4 497–7 064 PEN/ha [P10 -1 876 · P50 799 · P90 3 631 PEN/ha · P(margen<0) 35 %]
+   Deja en el suelo: residuo N 108.0–228.8 kg/ha; residuo P2O5 12.2–37.2 kg/ha; residuo K2O 115.6–209.5 kg/ha; leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha 0.9 dS/m; balance P2O5 acumulado -63.0–-17.8 kg/ha; balance K2O acumulado -265.1–-38.4 kg/ha
+   [?] salinidad: solo se conoce la ECw del agua y napa freática desconocida: la estimación ECe ≈ 1.5·ECw de FAO-29 exige napa ≥ 2 m y lavado 15-20 %; hay que medir la ECe
+   [?] drenaje: drenaje desconocido
+   [!] sanidad: spodoptera: hospedantes compartidos con algodón, zapallo y leguminosas (guía BPA maíz)
+   [?] pH: pH de la parcela desconocido
+   [?] profundidad: profundidad del suelo y napa desconocidas
+   Datos que pueden cambiar la recomendación: ECe del suelo medida (dS/m); profundidad de la napa freática (m); drenaje de la parcela; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); pH de la parcela; profundidad del suelo; costo local de caupi en Piura (se usó un costo análogo externo 1 624–6 497 PEN/ha: incertidumbre del margen ampliada)
+
+2. FRIJOL GRANO (Fabaceae) · advertencias 2 · no evaluables 4
+   Duración: 90–115 días [analogo_externo]
+   Riego neto por etapa: inicial 32–60 mm | desarrollo 112–154 mm | media 209–308 mm | final 89–98 mm
+   Riego neto ciclo: 4 426–6 192 m3/ha · bruto: 8 852–12 385 m3/ha
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: 25–42 kg/ha / 8–14 kg/ha / 8–14 kg/ha
+   Rendimiento: 0.60–1.00 t/ha [regional] · precio 2.50–4.50 PEN/kg · costo 1 116–1 331 PEN/ha [bibliografico] · margen 169–3 384 PEN/ha [P10 796 · P50 1 538 · P90 2 482 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes)]
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera, elasmopalpus; ECe tras cosecha 0.9 dS/m; balance P2O5 acumulado -13.9–-8.3 kg/ha; balance K2O acumulado -13.9–-8.3 kg/ha
+   [?] salinidad: solo se conoce la ECw del agua y napa freática desconocida: la estimación ECe ≈ 1.5·ECw de FAO-29 exige napa ≥ 2 m y lavado 15-20 %; hay que medir la ECe
+   [?] drenaje: drenaje desconocido
+   [!] sanidad: spodoptera: hospedantes compartidos con algodón, zapallo y leguminosas (guía BPA maíz); elasmopalpus: hospeda frijol/arveja/pallar; mejor establecimiento en suelos arenosos (guía BPA maíz)
+   [!] calendario: sin ventana de siembra observada (DRAP 2016-2024) de frijol grano en chira: no se sabe si el mes 8 es práctica local; mes 8: día más caluroso (POWER Tmax_max_C) 32.9–37.5 °C alcanza límite absoluto EcoCrop TMAX 32.0 °C; media de las máximas PISCOt 27.8–29.6 °C; mes 9: día más caluroso (POWER Tmax_max_C) 33.1–34.6 °C alcanza límite absoluto EcoCrop TMAX 32.0 °C; media de las máximas PISCOt 28.8–30.7 °C; mes 10: día más caluroso (POWER Tmax_max_C) 32.9–35.3 °C alcanza límite absoluto EcoCrop TMAX 32.0 °C; media de las máximas PISCOt 29.4–31.1 °C; mes 11: día más caluroso (POWER Tmax_max_C) 33.6–35.3 °C alcanza límite absoluto EcoCrop TMAX 32.0 °C; media de las máximas PISCOt 30.1–31.4 °C; Tmedia fuera del óptimo EcoCrop 16.0–25.0 °C en meses [11] (solo nota: sin peso en la decisión)
+   [?] pH: pH de la parcela desconocido
+   [?] profundidad: profundidad del suelo y napa desconocidas
+   Datos que pueden cambiar la recomendación: ECe del suelo medida (dS/m); profundidad de la napa freática (m); drenaje de la parcela; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); pH de la parcela; profundidad del suelo
+
+3. CEBOLLA (Amaryllidaceae) · advertencias 2 · no evaluables 4
+   Duración: 150–210 días [analogo_externo]
+   Riego neto por etapa: inicial 57–84 mm | desarrollo 125–198 mm | media 448–766 mm | final 139–255 mm
+   Riego neto ciclo: 8 433–13 034 m3/ha · bruto: 16 866–26 068 m3/ha
+   Absorción N/P2O5/K2O: 36–54 kg/ha / 17–26 kg/ha / 52–78 kg/ha
+   Exportación N/P2O5/K2O: 36–72 kg/ha / 16–34 kg/ha / 32–94 kg/ha
+   Rendimiento: 13.24–20.00 t/ha [regional] · precio 0.60–1.80 PEN/kg · costo 7 279–17 026 PEN/ha [bibliografico] · margen -9 083–28 721 PEN/ha [P10 -1 174 · P50 7 600 · P90 17 159 PEN/ha · P(margen<0) 14 %]
+   Deja en el suelo: residuo N 0.0–18.3 kg/ha; residuo P2O5 0.0–10.1 kg/ha; residuo K2O 3.6–46.2 kg/ha; ECe tras cosecha 0.9 dS/m; balance P2O5 acumulado -34.1–-15.9 kg/ha; balance K2O acumulado -94.2–-31.8 kg/ha
+   [?] salinidad: solo se conoce la ECw del agua y napa freática desconocida: la estimación ECe ≈ 1.5·ECw de FAO-29 exige napa ≥ 2 m y lavado 15-20 %; hay que medir la ECe
+   [?] drenaje: drenaje desconocido
+   [!] calendario: ciclo 150–210 días puede exceder el horizonte de 6 meses; siembra en mes 8 dentro de lo observado en chira (siembra observada abr; jun; ago; cosecha observada jun; ago; nov (cebolla; 2016-2024 (9 campañas calendario); confianza 0.6)); ventana observada, no recomendación; mes 8: día más caluroso (POWER Tmax_max_C) 32.9–37.5 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 27.8–29.6 °C; mes 9: día más caluroso (POWER Tmax_max_C) 33.1–34.6 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 28.8–30.7 °C; mes 10: día más caluroso (POWER Tmax_max_C) 32.9–35.3 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 29.4–31.1 °C; mes 11: día más caluroso (POWER Tmax_max_C) 33.6–35.3 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 30.1–31.4 °C; mes 12: día más caluroso (POWER Tmax_max_C) 34.4–36.4 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 30.6–31.9 °C
+   [?] pH: pH de la parcela desconocido
+   [?] profundidad: profundidad del suelo y napa desconocidas
+   [!] presupuesto: costo 7,279-17,026 PEN puede superar presupuesto 10 000 PEN
+   Datos que pueden cambiar la recomendación: ECe del suelo medida (dS/m); profundidad de la napa freática (m); drenaje de la parcela; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); pH de la parcela; profundidad del suelo
+
+4. PAPA (Solanaceae) · advertencias 2 · no evaluables 4
+   Duración: 105–180 días [analogo_externo]
+   Riego neto por etapa: inicial 67–139 mm | desarrollo 149–195 mm | media 211–536 mm | final 115–181 mm
+   Riego neto ciclo: 5 419–10 512 m3/ha · bruto: 10 838–21 025 m3/ha
+   Absorción N/P2O5/K2O: 20–45 kg/ha / 5–12 kg/ha / 37–84 kg/ha
+   Exportación N/P2O5/K2O: 18–67 kg/ha / 10–24 kg/ha / 32–124 kg/ha
+   Rendimiento: 6.00–13.53 t/ha [regional] · precio 0.70–1.61 PEN/kg · costo 9 325–15 986 PEN/ha [bibliografico] · margen -11 786–12 461 PEN/ha [P10 -6 478 · P50 -1 683 · P90 4 310 PEN/ha · P(margen<0) 65 %]
+   Deja en el suelo: residuo N 0.0–26.7 kg/ha; residuo P2O5 0.0–2.6 kg/ha; residuo K2O 0.0–52.1 kg/ha; ECe tras cosecha 0.9 dS/m; balance P2O5 acumulado -24.2–-9.6 kg/ha; balance K2O acumulado -123.8–-31.8 kg/ha
+   [?] salinidad: solo se conoce la ECw del agua y napa freática desconocida: la estimación ECe ≈ 1.5·ECw de FAO-29 exige napa ≥ 2 m y lavado 15-20 %; hay que medir la ECe
+   [?] drenaje: drenaje desconocido
+   [!] calendario: sin ventana de siembra observada (DRAP 2016-2024) de papa en chira: no se sabe si el mes 8 es práctica local; mes 8: día más caluroso (POWER Tmax_max_C) 32.9–37.5 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 27.8–29.6 °C; mes 9: día más caluroso (POWER Tmax_max_C) 33.1–34.6 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 28.8–30.7 °C; mes 10: día más caluroso (POWER Tmax_max_C) 32.9–35.3 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 29.4–31.1 °C; mes 11: día más caluroso (POWER Tmax_max_C) 33.6–35.3 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 30.1–31.4 °C; mes 12: día más caluroso (POWER Tmax_max_C) 34.4–36.4 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 30.6–31.9 °C; mes 1: día más caluroso (POWER Tmax_max_C) 35.3–36.8 °C alcanza límite absoluto EcoCrop TMAX 30.0 °C; media de las máximas PISCOt 31.7–33.4 °C
+   [?] pH: pH de la parcela desconocido
+   [?] profundidad: profundidad del suelo y napa desconocidas
+   [!] presupuesto: costo 9,325-15,986 PEN puede superar presupuesto 10 000 PEN
+   Datos que pueden cambiar la recomendación: ECe del suelo medida (dS/m); profundidad de la napa freática (m); drenaje de la parcela; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); pH de la parcela; profundidad del suelo
+
+5. PIQUILLO (Solanaceae) · advertencias 2 · no evaluables 4
+   Duración: 120–210 días [analogo_externo]
+   Riego neto por etapa: inicial 81–108 mm | desarrollo 173–219 mm | media 257–762 mm | final 84–184 mm
+   Riego neto ciclo: 6 298–12 730 m3/ha · bruto: 12 596–25 459 m3/ha
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: 48–89 kg/ha / 18–34 kg/ha / 76–141 kg/ha
+   Rendimiento: 7.00–13.03 t/ha [regional] · precio 1.00–4.50 PEN/kg · costo 34 595 PEN/ha [regional] · margen -27 595–24 053 PEN/ha [P10 -21 550 · P50 -8 061 · P90 9 042 PEN/ha · P(margen<0) 73 %]
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); ECe tras cosecha 0.9 dS/m; balance P2O5 acumulado -33.9–-18.2 kg/ha; balance K2O acumulado -140.8–-75.6 kg/ha
+   [?] salinidad: solo se conoce la ECw del agua y napa freática desconocida: la estimación ECe ≈ 1.5·ECw de FAO-29 exige napa ≥ 2 m y lavado 15-20 %; hay que medir la ECe
+   [?] drenaje: drenaje desconocido
+   [!] calendario: ciclo 120–210 días puede exceder el horizonte de 6 meses; siembra en mes 8 a un mes de lo observado en chira (siembra observada may; set; cosecha observada jul; dic (piquillo; 2016-2024 (9 campañas calendario); confianza 0.4)); ventana observada, no recomendación; mes 8: día más caluroso (POWER Tmax_max_C) 32.9–37.5 °C alcanza límite absoluto EcoCrop TMAX 35.0 °C; media de las máximas PISCOt 27.8–29.6 °C; mes 10: día más caluroso (POWER Tmax_max_C) 32.9–35.3 °C alcanza límite absoluto EcoCrop TMAX 35.0 °C; media de las máximas PISCOt 29.4–31.1 °C; mes 11: día más caluroso (POWER Tmax_max_C) 33.6–35.3 °C alcanza límite absoluto EcoCrop TMAX 35.0 °C; media de las máximas PISCOt 30.1–31.4 °C; mes 12: día más caluroso (POWER Tmax_max_C) 34.4–36.4 °C alcanza límite absoluto EcoCrop TMAX 35.0 °C; media de las máximas PISCOt 30.6–31.9 °C; mes 1: día más caluroso (POWER Tmax_max_C) 35.3–36.8 °C alcanza límite absoluto EcoCrop TMAX 35.0 °C; media de las máximas PISCOt 31.7–33.4 °C
+   [?] pH: pH de la parcela desconocido
+   [?] profundidad: profundidad del suelo y napa desconocidas
+   [!] presupuesto: costo 34,595-34,595 PEN (promedio sin dispersión conocida) puede superar presupuesto 10 000 PEN
+   Datos que pueden cambiar la recomendación: ECe del suelo medida (dS/m); profundidad de la napa freática (m); drenaje de la parcela; Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia); pH de la parcela; profundidad del suelo
+
+Otros aceptados: maiz choclo, maiz amarillo duro, algodon, frijol verde, arroz, zapallo, arveja
+
+SIN DATOS SUFICIENTES (no descartados, tampoco recomendados)
+ - frijol de palo: falta ECe del suelo medida (dS/m); profundidad de la napa freática (m); drenaje de la parcela; Kc o duración por etapa de frijol de palo
+
+DESCARTADOS
+ - yuca: calendario: ciclo 210 días > horizonte 6 meses; siembra en mes 8 dentro de lo observado en chira (siembra observada feb; abr; ago; nov; cosecha observada ene-feb; abr; oct (yuca; 2016-2024 (9 campañas calendario); confianza 0.6)); ventana observada, no recomendación; mes 8: Tmedia 22.5–24.0 °C sale del rango óptimo 25.0–29.0 °C; mes 9: Tmedia 22.9–24.3 °C sale del rango óptimo 25.0–29.0 °C; mes 10: Tmedia 23.0–24.6 °C sale del rango óptimo 25.0–29.0 °C; mes 11: Tmedia 23.5–25.1 °C sale del rango óptimo 25.0–29.0 °C; mes 12: Tmedia 24.8–26.4 °C sale del rango óptimo 25.0–29.0 °C
+
+PERENNES (módulo aparte, un año en producción)
+ - papaya: aceptado · riego neto 17 763–24 032 m3/ha/año · costo anual 1 092–9 419 PEN/ha [analogo_externo] · 1.ª producción 0.75 años [bibliografico] · alertas 4
+ - mango: aceptado · riego neto 13 328–21 743 m3/ha/año · costo anual 7 427–9 166 PEN/ha [bibliografico] · 1.ª producción 3.00–4.00 años [regional] · alertas 5
+ - limon: aceptado · riego neto 7 739–14 877 m3/ha/año · costo anual 6 920 PEN/ha [regional] · 1.ª producción 3.00–6.00 años [analogo_externo] · alertas 5
+ - cacao: aceptado · riego neto 19 778–24 032 m3/ha/año · costo anual 3 634–7 097 PEN/ha [bibliografico] · alertas 5
+ - cafe: aceptado · riego neto 17 763–25 176 m3/ha/año · costo anual 1 014–2 252 PEN/ha [bibliografico] · alertas 5
+ - banano: aceptado · riego neto 20 786–27 465 m3/ha/año · costo anual 16 571 PEN/ha [regional] · 1.ª producción 0.85–1.20 años [regional] · alertas 6
+ - uva: aceptado · riego neto 12 724–19 454 m3/ha/año · costo anual 52 821 PEN/ha [regional] · alertas 6
+
+DATOS QUE FALTAN (de más a menos cultivos afectados):
+ - drenaje de la parcela (afecta a 21 cultivos)
+ - profundidad de la napa freática (m) (afecta a 21 cultivos)
+ - ECe del suelo medida (dS/m) (afecta a 19 cultivos)
+ - Tmín mensual (el clima del repo no la trae: el límite inferior EcoCrop se compara con Tmedia) (afecta a 19 cultivos)
+ - pH de la parcela (afecta a 19 cultivos)
+ - profundidad del suelo (afecta a 19 cultivos)
+ - Tmáx media PISCO de la zona (°C): sin ella la regla térmica grave no evalúa calor (afecta a 7 cultivos)
+ - costo de instalación de <cultivo> (7 cultivos: papaya, mango, limon, cacao…)
+ - años hasta primera cosecha de <cultivo> (3 cultivos: cacao, cafe, uva)
+ - profundidad de raíces de <cultivo> (2 cultivos: maiz choclo, frijol verde)
+ - rango de pH de <cultivo> (2 cultivos: maiz choclo, frijol verde)
+ - rango térmico de <cultivo> (no está en los datos) (2 cultivos: maiz choclo, frijol verde)
+
+ESCENARIOS CLIMÁTICOS (clasificación ICEN de la campaña ago-jul; lluvia PISCOp de la zona; ET0 y temperatura NASA POWER en las mismas campañas)
+  sin_el_nino (29 campañas: 1981, 1982, 1984, 1985, 1986, 1988, 1989, 1990, 1991, 1994, 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018; lluvia PISCOp)
+     1. caupi: P10 -1 876 / P50 799 PEN/ha
+     2. frijol grano: P10 796 / P50 1 538 PEN/ha
+     3. cebolla: P10 -1 174 / P50 7 600 PEN/ha
+     4. papa: P10 -6 478 / P50 -1 683 PEN/ha
+     5. piquillo: P10 -21 550 / P50 -8 061 PEN/ha
+     aceptados 12, descartados 1 (yuca), sin datos 1
+  el_nino_moderado (3 campañas: 1987, 1992, 2017; lluvia PISCOp)
+     1. caupi: P10 -1 876 / P50 799 PEN/ha
+     2. frijol grano: P10 796 / P50 1 538 PEN/ha
+     3. cebolla: P10 -1 174 / P50 7 600 PEN/ha
+     4. papa: P10 -6 478 / P50 -1 683 PEN/ha
+     5. piquillo: P10 -21 550 / P50 -8 061 PEN/ha
+     aceptados 12, descartados 1 (yuca), sin datos 1
+  el_nino_fuerte_extraordinario (3 campañas: 1983, 1998, 2016; lluvia PISCOp)
+     1. caupi: P10 -1 876 / P50 799 PEN/ha
+     2. frijol grano: P10 796 / P50 1 538 PEN/ha
+     3. cebolla: P10 -1 174 / P50 7 600 PEN/ha
+     4. papa: P10 -6 478 / P50 -1 683 PEN/ha
+     5. piquillo: P10 -21 550 / P50 -8 061 PEN/ha
+     aceptados 12, descartados 1 (yuca), sin datos 1
+     exceso de agua (lluvia PISCOp mediana > ET0) en el ciclo de: arroz, maiz amarillo duro, maiz choclo, frijol de palo, algodon, papa, piquillo, cebolla, yuca
+  El primer lugar no cambia entre escenarios (sin_el_nino: caupi → el_nino_moderado: caupi → el_nino_fuerte_extraordinario: caupi).
+  Aviso (contexto, no regla): Evento en curso 2026-27: el ICEN oficial (met.igp.gob.pe/datos/ICEN.txt, leído el 24-oct-2026) da 3,98 en agosto de 2026, sobre el umbral extraordinario (3,5); ENFEN mantiene la Alerta de El Niño Costero (Comunicado Oficial 18-2026, 16-oct-2026; el PDF no se pudo leer desde la caja). Este escenario no es teórico para la campaña 2026-27.
+
+SECUENCIAS (30 comparadas; se muestran 5)
+   orden: viables y que caben → sin pasos 'probable no apto' → mayor P10 del margen (Monte Carlo, redondeado a 100 PEN) → menos agua → menor ECe final → mejor balance P+K → menos alertas
+ - maiz choclo → frijol grano: viable · meses 5.4–11.8 meses (cabe: si) · margen 834–10 598 PEN/ha [P10 3 580 · P50 5 237 · P90 6 944 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes)] · agua neta 7 379–20 560 m3/ha · ECe final 0.89 dS/m · balance P2O5 desconocido (kg/ha) · K2O desconocido (kg/ha) · N desconocido (kg/ha)
+ - frijol grano → maiz choclo: viable · meses 5.4–11.8 meses (cabe: si) · margen 529–10 598 PEN/ha [P10 3 400 · P50 4 901 · P90 6 642 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes)] · agua neta 7 255–20 361 m3/ha · ECe final 0.89 dS/m · balance P2O5 desconocido (kg/ha) · K2O desconocido (kg/ha) · N desconocido (kg/ha)
+ - maiz choclo → caupi: viable · meses 5.1–11.3 meses (cabe: si) · margen -3 882–14 278 PEN/ha [P10 1 414 · P50 4 329 · P90 7 323 PEN/ha · P(margen<0) 3 %] · agua neta 6 634–19 653 m3/ha · ECe final 0.89 dS/m · balance P2O5 desconocido (kg/ha) · K2O desconocido (kg/ha) · N desconocido (kg/ha)
+ - caupi → maiz choclo: viable · meses 5.1–11.3 meses (cabe: si) · margen -4 137–14 278 PEN/ha [P10 1 159 · P50 4 191 · P90 7 363 PEN/ha · P(margen<0) 4 %] · agua neta 6 365–19 262 m3/ha · ECe final 0.89 dS/m · balance P2O5 desconocido (kg/ha) · K2O desconocido (kg/ha) · N desconocido (kg/ha)
+ - cebolla → frijol grano: viable · meses 7.9–10.7 meses (cabe: si) · margen -9 063–32 104 PEN/ha [P10 163 · P50 9 009 · P90 18 535 PEN/ha · P(margen<0) 10 %] · agua neta 11 911–18 789 m3/ha · ECe final 0.89 dS/m · balance P2O5 -48–-23 kg/ha · K2O -108–-39 kg/ha · N desconocido (kg/ha)
+
+ESCENARIOS DE AGUA (la ECw de la parcela es DESCONOCIDA; estos valores son ESCENARIOS, no datos)
+   DATO QUE FALTA: CE del agua de riego (ECw, dS/m) de su canal o pozo. Con ese dato el motor usa uno solo.
+   Proyección de ECe tras cada cosecha: envolvente entre la ECe previa y 1,5·ECw (FAO-29, régimen permanente).
+   Sin escenario (ECw desconocida o solo valor de zona): 29 de 30 secuencias viables
+ [ESCENARIO ECw 0.5 dS/m] anuales aceptados 12 · orden: caupi, frijol grano, cebolla, papa, piquillo, maiz choclo · secuencias viables 29 de 30
+     - maiz choclo → frijol grano: P10 3 580 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes) · ECe final 0.75 dS/m
+     - frijol grano → maiz choclo: P10 3 400 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes) · ECe final 0.75 dS/m
+     - maiz choclo → caupi: P10 1 414 PEN/ha · P(margen<0) 3 % · ECe final 0.75 dS/m
+ [ESCENARIO ECw 1.5 dS/m] anuales aceptados 12 · orden: caupi, frijol grano, cebolla, papa, piquillo, maiz choclo · secuencias viables 29 de 30
+     - frijol grano → maiz choclo: P10 3 183 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes) · ECe final 2.25 dS/m
+     - maiz choclo → frijol grano: P10 3 076 PEN/ha · P(margen<0) 0 de 4000 simulaciones (no es imposible: supuesto de factores independientes) · ECe final 2.25 dS/m
+     - maiz choclo → caupi: P10 1 414 PEN/ha · P(margen<0) 3 % · ECe final 2.25 dS/m
+ [ESCENARIO ECw 3 dS/m] anuales aceptados 12 · orden: caupi, frijol grano, cebolla, papa, piquillo, maiz choclo · secuencias viables 29 de 30
+     - maiz choclo → caupi: P10 1 414 PEN/ha · P(margen<0) 3 % · ECe final 4.50 dS/m
+     - frijol grano → maiz choclo: P10 1 192 PEN/ha · P(margen<0) <1 % · ECe final 4.50 dS/m
+     - frijol grano → caupi: P10 -618 PEN/ha · P(margen<0) 16 % · ECe final 4.50 dS/m
+   El orden de los 3 primeros NO cambia entre escenarios; la viabilidad de las secuencias: 0.5→29 / 1.5→29 / 3→29

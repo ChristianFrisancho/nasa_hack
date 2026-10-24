@@ -1,0 +1,3241 @@
+zona,lat,lon,year,month,rain_mm,zona_contrato
+Bajo Piura,-5.42,-80.74,2017,1,1.66,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,1,3.45,chira
+San Lorenzo,-4.85,-80.25,2017,1,55.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,1,43.83,sierra_piura
+Huancabamba,-5.24,-79.45,2017,1,93.84,sierra_piura
+Chulucanas,-5.09,-80.16,2017,1,74.38,alto_piura
+Bajo Piura,-5.42,-80.74,2017,2,28.8,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,2,125.12,chira
+San Lorenzo,-4.85,-80.25,2017,2,113.41,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,2,159.56,sierra_piura
+Huancabamba,-5.24,-79.45,2017,2,79.52,sierra_piura
+Chulucanas,-5.09,-80.16,2017,2,140.92,alto_piura
+Bajo Piura,-5.42,-80.74,2017,3,7.45,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,3,28.56,chira
+San Lorenzo,-4.85,-80.25,2017,3,656.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,3,682.64,sierra_piura
+Huancabamba,-5.24,-79.45,2017,3,433.26,sierra_piura
+Chulucanas,-5.09,-80.16,2017,3,543.37,alto_piura
+Bajo Piura,-5.42,-80.74,2017,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2017,4,26.85,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,4,169.66,sierra_piura
+Huancabamba,-5.24,-79.45,2017,4,91.61,sierra_piura
+Chulucanas,-5.09,-80.16,2017,4,52.24,alto_piura
+Bajo Piura,-5.42,-80.74,2017,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2017,5,15.98,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,5,26.19,sierra_piura
+Huancabamba,-5.24,-79.45,2017,5,40.28,sierra_piura
+Chulucanas,-5.09,-80.16,2017,5,18.24,alto_piura
+Bajo Piura,-5.42,-80.74,2017,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2017,6,0.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,6,0.67,sierra_piura
+Huancabamba,-5.24,-79.45,2017,6,15.55,sierra_piura
+Chulucanas,-5.09,-80.16,2017,6,0.47,alto_piura
+Bajo Piura,-5.42,-80.74,2017,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2017,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,2017,7,5.43,sierra_piura
+Chulucanas,-5.09,-80.16,2017,7,0.34,alto_piura
+Bajo Piura,-5.42,-80.74,2017,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,8,0.64,chira
+San Lorenzo,-4.85,-80.25,2017,8,3.03,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,8,2.68,sierra_piura
+Huancabamba,-5.24,-79.45,2017,8,10.61,sierra_piura
+Chulucanas,-5.09,-80.16,2017,8,4.51,alto_piura
+Bajo Piura,-5.42,-80.74,2017,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2017,9,0.89,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,9,7.62,sierra_piura
+Huancabamba,-5.24,-79.45,2017,9,8.53,sierra_piura
+Chulucanas,-5.09,-80.16,2017,9,4.28,alto_piura
+Bajo Piura,-5.42,-80.74,2017,10,0.03,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2017,10,0.77,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,10,17.05,sierra_piura
+Huancabamba,-5.24,-79.45,2017,10,25.57,sierra_piura
+Chulucanas,-5.09,-80.16,2017,10,2.66,alto_piura
+Bajo Piura,-5.42,-80.74,2017,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2017,11,1.58,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,11,13.24,sierra_piura
+Huancabamba,-5.24,-79.45,2017,11,25.15,sierra_piura
+Chulucanas,-5.09,-80.16,2017,11,1.08,alto_piura
+Bajo Piura,-5.42,-80.74,2017,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2017,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2017,12,1.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2017,12,26.1,sierra_piura
+Huancabamba,-5.24,-79.45,2017,12,29.77,sierra_piura
+Chulucanas,-5.09,-80.16,2017,12,4.02,alto_piura
+Bajo Piura,-5.42,-80.74,1981,1,0.39,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,1,1.09,chira
+San Lorenzo,-4.85,-80.25,1981,1,12.63,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,1,9.39,sierra_piura
+Huancabamba,-5.24,-79.45,1981,1,46.94,sierra_piura
+Chulucanas,-5.09,-80.16,1981,1,15.72,alto_piura
+Bajo Piura,-5.42,-80.74,1981,2,8.82,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,2,24.18,chira
+San Lorenzo,-4.85,-80.25,1981,2,36.3,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,2,138.05,sierra_piura
+Huancabamba,-5.24,-79.45,1981,2,97.32,sierra_piura
+Chulucanas,-5.09,-80.16,1981,2,55.24,alto_piura
+Bajo Piura,-5.42,-80.74,1981,3,0.53,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,3,2.22,chira
+San Lorenzo,-4.85,-80.25,1981,3,147.35,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,3,346.98,sierra_piura
+Huancabamba,-5.24,-79.45,1981,3,173.1,sierra_piura
+Chulucanas,-5.09,-80.16,1981,3,133.54,alto_piura
+Bajo Piura,-5.42,-80.74,1981,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1981,4,5.22,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,4,61.02,sierra_piura
+Huancabamba,-5.24,-79.45,1981,4,46.98,sierra_piura
+Chulucanas,-5.09,-80.16,1981,4,11.58,alto_piura
+Bajo Piura,-5.42,-80.74,1981,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1981,5,1.47,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,5,11.52,sierra_piura
+Huancabamba,-5.24,-79.45,1981,5,23.26,sierra_piura
+Chulucanas,-5.09,-80.16,1981,5,3.33,alto_piura
+Bajo Piura,-5.42,-80.74,1981,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1981,6,0.21,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,6,0.81,sierra_piura
+Huancabamba,-5.24,-79.45,1981,6,13.0,sierra_piura
+Chulucanas,-5.09,-80.16,1981,6,0.36,alto_piura
+Bajo Piura,-5.42,-80.74,1981,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1981,7,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,7,0.15,sierra_piura
+Huancabamba,-5.24,-79.45,1981,7,7.33,sierra_piura
+Chulucanas,-5.09,-80.16,1981,7,0.26,alto_piura
+Bajo Piura,-5.42,-80.74,1981,8,1.24,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,8,0.78,chira
+San Lorenzo,-4.85,-80.25,1981,8,3.12,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,8,3.19,sierra_piura
+Huancabamba,-5.24,-79.45,1981,8,18.63,sierra_piura
+Chulucanas,-5.09,-80.16,1981,8,4.16,alto_piura
+Bajo Piura,-5.42,-80.74,1981,9,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1981,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,9,5.71,sierra_piura
+Huancabamba,-5.24,-79.45,1981,9,5.51,sierra_piura
+Chulucanas,-5.09,-80.16,1981,9,3.3,alto_piura
+Bajo Piura,-5.42,-80.74,1981,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1981,10,0.55,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,10,30.41,sierra_piura
+Huancabamba,-5.24,-79.45,1981,10,42.9,sierra_piura
+Chulucanas,-5.09,-80.16,1981,10,2.3,alto_piura
+Bajo Piura,-5.42,-80.74,1981,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1981,11,0.98,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,11,11.23,sierra_piura
+Huancabamba,-5.24,-79.45,1981,11,28.08,sierra_piura
+Chulucanas,-5.09,-80.16,1981,11,0.91,alto_piura
+Bajo Piura,-5.42,-80.74,1981,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1981,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1981,12,0.85,san_lorenzo
+Ayabaca,-4.64,-79.71,1981,12,45.43,sierra_piura
+Huancabamba,-5.24,-79.45,1981,12,54.4,sierra_piura
+Chulucanas,-5.09,-80.16,1981,12,3.13,alto_piura
+Bajo Piura,-5.42,-80.74,1982,1,0.46,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,1,1.34,chira
+San Lorenzo,-4.85,-80.25,1982,1,14.41,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,1,23.29,sierra_piura
+Huancabamba,-5.24,-79.45,1982,1,51.68,sierra_piura
+Chulucanas,-5.09,-80.16,1982,1,21.51,alto_piura
+Bajo Piura,-5.42,-80.74,1982,2,5.73,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,2,22.6,chira
+San Lorenzo,-4.85,-80.25,1982,2,27.6,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,2,107.95,sierra_piura
+Huancabamba,-5.24,-79.45,1982,2,77.08,sierra_piura
+Chulucanas,-5.09,-80.16,1982,2,43.82,alto_piura
+Bajo Piura,-5.42,-80.74,1982,3,0.69,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,3,0.82,chira
+San Lorenzo,-4.85,-80.25,1982,3,24.48,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,3,97.99,sierra_piura
+Huancabamba,-5.24,-79.45,1982,3,75.0,sierra_piura
+Chulucanas,-5.09,-80.16,1982,3,20.7,alto_piura
+Bajo Piura,-5.42,-80.74,1982,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1982,4,12.03,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,4,109.06,sierra_piura
+Huancabamba,-5.24,-79.45,1982,4,78.16,sierra_piura
+Chulucanas,-5.09,-80.16,1982,4,21.0,alto_piura
+Bajo Piura,-5.42,-80.74,1982,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1982,5,1.71,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,5,11.07,sierra_piura
+Huancabamba,-5.24,-79.45,1982,5,28.6,sierra_piura
+Chulucanas,-5.09,-80.16,1982,5,4.19,alto_piura
+Bajo Piura,-5.42,-80.74,1982,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1982,6,0.19,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,6,0.63,sierra_piura
+Huancabamba,-5.24,-79.45,1982,6,9.42,sierra_piura
+Chulucanas,-5.09,-80.16,1982,6,0.31,alto_piura
+Bajo Piura,-5.42,-80.74,1982,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1982,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,1982,7,5.37,sierra_piura
+Chulucanas,-5.09,-80.16,1982,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,1982,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,8,0.71,chira
+San Lorenzo,-4.85,-80.25,1982,8,2.73,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,8,2.3,sierra_piura
+Huancabamba,-5.24,-79.45,1982,8,9.46,sierra_piura
+Chulucanas,-5.09,-80.16,1982,8,3.75,alto_piura
+Bajo Piura,-5.42,-80.74,1982,9,0.42,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1982,9,1.1,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,9,12.45,sierra_piura
+Huancabamba,-5.24,-79.45,1982,9,13.1,sierra_piura
+Chulucanas,-5.09,-80.16,1982,9,5.42,alto_piura
+Bajo Piura,-5.42,-80.74,1982,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1982,10,0.6,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,10,31.84,sierra_piura
+Huancabamba,-5.24,-79.45,1982,10,44.35,sierra_piura
+Chulucanas,-5.09,-80.16,1982,10,2.0,alto_piura
+Bajo Piura,-5.42,-80.74,1982,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1982,11,1.87,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,11,21.28,sierra_piura
+Huancabamba,-5.24,-79.45,1982,11,32.95,sierra_piura
+Chulucanas,-5.09,-80.16,1982,11,1.47,alto_piura
+Bajo Piura,-5.42,-80.74,1982,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1982,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1982,12,2.31,san_lorenzo
+Ayabaca,-4.64,-79.71,1982,12,68.12,sierra_piura
+Huancabamba,-5.24,-79.45,1982,12,72.4,sierra_piura
+Chulucanas,-5.09,-80.16,1982,12,7.06,alto_piura
+Bajo Piura,-5.42,-80.74,1983,1,1.35,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,1,3.72,chira
+San Lorenzo,-4.85,-80.25,1983,1,63.43,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,1,88.48,sierra_piura
+Huancabamba,-5.24,-79.45,1983,1,146.37,sierra_piura
+Chulucanas,-5.09,-80.16,1983,1,116.69,alto_piura
+Bajo Piura,-5.42,-80.74,1983,2,18.03,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,2,100.45,chira
+San Lorenzo,-4.85,-80.25,1983,2,109.45,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,2,221.0,sierra_piura
+Huancabamba,-5.24,-79.45,1983,2,107.16,sierra_piura
+Chulucanas,-5.09,-80.16,1983,2,91.23,alto_piura
+Bajo Piura,-5.42,-80.74,1983,3,0.78,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,3,11.99,chira
+San Lorenzo,-4.85,-80.25,1983,3,234.96,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,3,360.76,sierra_piura
+Huancabamba,-5.24,-79.45,1983,3,173.41,sierra_piura
+Chulucanas,-5.09,-80.16,1983,3,140.56,alto_piura
+Bajo Piura,-5.42,-80.74,1983,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1983,4,75.93,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,4,152.94,sierra_piura
+Huancabamba,-5.24,-79.45,1983,4,116.34,sierra_piura
+Chulucanas,-5.09,-80.16,1983,4,120.82,alto_piura
+Bajo Piura,-5.42,-80.74,1983,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1983,5,24.69,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,5,61.24,sierra_piura
+Huancabamba,-5.24,-79.45,1983,5,69.24,sierra_piura
+Chulucanas,-5.09,-80.16,1983,5,36.86,alto_piura
+Bajo Piura,-5.42,-80.74,1983,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1983,6,0.77,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,6,1.96,sierra_piura
+Huancabamba,-5.24,-79.45,1983,6,11.45,sierra_piura
+Chulucanas,-5.09,-80.16,1983,6,1.49,alto_piura
+Bajo Piura,-5.42,-80.74,1983,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1983,7,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,7,0.16,sierra_piura
+Huancabamba,-5.24,-79.45,1983,7,6.88,sierra_piura
+Chulucanas,-5.09,-80.16,1983,7,0.28,alto_piura
+Bajo Piura,-5.42,-80.74,1983,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,8,0.72,chira
+San Lorenzo,-4.85,-80.25,1983,8,3.01,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,8,2.67,sierra_piura
+Huancabamba,-5.24,-79.45,1983,8,10.55,sierra_piura
+Chulucanas,-5.09,-80.16,1983,8,4.62,alto_piura
+Bajo Piura,-5.42,-80.74,1983,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1983,9,0.94,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,9,12.76,sierra_piura
+Huancabamba,-5.24,-79.45,1983,9,14.5,sierra_piura
+Chulucanas,-5.09,-80.16,1983,9,5.25,alto_piura
+Bajo Piura,-5.42,-80.74,1983,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1983,10,0.82,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,10,44.97,sierra_piura
+Huancabamba,-5.24,-79.45,1983,10,52.95,sierra_piura
+Chulucanas,-5.09,-80.16,1983,10,4.81,alto_piura
+Bajo Piura,-5.42,-80.74,1983,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1983,11,1.55,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,11,19.24,sierra_piura
+Huancabamba,-5.24,-79.45,1983,11,42.03,sierra_piura
+Chulucanas,-5.09,-80.16,1983,11,1.32,alto_piura
+Bajo Piura,-5.42,-80.74,1983,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1983,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1983,12,0.97,san_lorenzo
+Ayabaca,-4.64,-79.71,1983,12,35.76,sierra_piura
+Huancabamba,-5.24,-79.45,1983,12,44.37,sierra_piura
+Chulucanas,-5.09,-80.16,1983,12,3.86,alto_piura
+Bajo Piura,-5.42,-80.74,1984,1,0.51,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,1,1.19,chira
+San Lorenzo,-4.85,-80.25,1984,1,15.74,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,1,15.82,sierra_piura
+Huancabamba,-5.24,-79.45,1984,1,43.37,sierra_piura
+Chulucanas,-5.09,-80.16,1984,1,25.6,alto_piura
+Bajo Piura,-5.42,-80.74,1984,2,22.36,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,2,105.99,chira
+San Lorenzo,-4.85,-80.25,1984,2,162.42,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,2,301.86,sierra_piura
+Huancabamba,-5.24,-79.45,1984,2,129.84,sierra_piura
+Chulucanas,-5.09,-80.16,1984,2,117.3,alto_piura
+Bajo Piura,-5.42,-80.74,1984,3,3.26,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,3,3.51,chira
+San Lorenzo,-4.85,-80.25,1984,3,87.49,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,3,233.96,sierra_piura
+Huancabamba,-5.24,-79.45,1984,3,155.64,sierra_piura
+Chulucanas,-5.09,-80.16,1984,3,47.5,alto_piura
+Bajo Piura,-5.42,-80.74,1984,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1984,4,7.94,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,4,101.93,sierra_piura
+Huancabamba,-5.24,-79.45,1984,4,89.27,sierra_piura
+Chulucanas,-5.09,-80.16,1984,4,27.41,alto_piura
+Bajo Piura,-5.42,-80.74,1984,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1984,5,3.86,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,5,22.25,sierra_piura
+Huancabamba,-5.24,-79.45,1984,5,31.3,sierra_piura
+Chulucanas,-5.09,-80.16,1984,5,5.14,alto_piura
+Bajo Piura,-5.42,-80.74,1984,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1984,6,0.25,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,6,2.27,sierra_piura
+Huancabamba,-5.24,-79.45,1984,6,15.72,sierra_piura
+Chulucanas,-5.09,-80.16,1984,6,0.44,alto_piura
+Bajo Piura,-5.42,-80.74,1984,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1984,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,7,0.16,sierra_piura
+Huancabamba,-5.24,-79.45,1984,7,6.68,sierra_piura
+Chulucanas,-5.09,-80.16,1984,7,0.26,alto_piura
+Bajo Piura,-5.42,-80.74,1984,8,1.19,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,8,0.82,chira
+San Lorenzo,-4.85,-80.25,1984,8,3.55,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,8,3.01,sierra_piura
+Huancabamba,-5.24,-79.45,1984,8,13.15,sierra_piura
+Chulucanas,-5.09,-80.16,1984,8,5.42,alto_piura
+Bajo Piura,-5.42,-80.74,1984,9,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,9,0.03,chira
+San Lorenzo,-4.85,-80.25,1984,9,1.06,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,9,12.28,sierra_piura
+Huancabamba,-5.24,-79.45,1984,9,16.44,sierra_piura
+Chulucanas,-5.09,-80.16,1984,9,5.82,alto_piura
+Bajo Piura,-5.42,-80.74,1984,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1984,10,0.63,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,10,31.74,sierra_piura
+Huancabamba,-5.24,-79.45,1984,10,36.02,sierra_piura
+Chulucanas,-5.09,-80.16,1984,10,2.56,alto_piura
+Bajo Piura,-5.42,-80.74,1984,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1984,11,1.36,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,11,31.5,sierra_piura
+Huancabamba,-5.24,-79.45,1984,11,48.59,sierra_piura
+Chulucanas,-5.09,-80.16,1984,11,1.22,alto_piura
+Bajo Piura,-5.42,-80.74,1984,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1984,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1984,12,0.9,san_lorenzo
+Ayabaca,-4.64,-79.71,1984,12,42.91,sierra_piura
+Huancabamba,-5.24,-79.45,1984,12,46.61,sierra_piura
+Chulucanas,-5.09,-80.16,1984,12,3.47,alto_piura
+Bajo Piura,-5.42,-80.74,1985,1,0.56,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,1,1.45,chira
+San Lorenzo,-4.85,-80.25,1985,1,16.85,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,1,21.7,sierra_piura
+Huancabamba,-5.24,-79.45,1985,1,76.8,sierra_piura
+Chulucanas,-5.09,-80.16,1985,1,32.74,alto_piura
+Bajo Piura,-5.42,-80.74,1985,2,5.22,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,2,10.57,chira
+San Lorenzo,-4.85,-80.25,1985,2,22.22,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,2,102.26,sierra_piura
+Huancabamba,-5.24,-79.45,1985,2,65.44,sierra_piura
+Chulucanas,-5.09,-80.16,1985,2,37.83,alto_piura
+Bajo Piura,-5.42,-80.74,1985,3,0.38,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,3,1.32,chira
+San Lorenzo,-4.85,-80.25,1985,3,33.56,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,3,97.11,sierra_piura
+Huancabamba,-5.24,-79.45,1985,3,63.14,sierra_piura
+Chulucanas,-5.09,-80.16,1985,3,25.44,alto_piura
+Bajo Piura,-5.42,-80.74,1985,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1985,4,3.28,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,4,31.32,sierra_piura
+Huancabamba,-5.24,-79.45,1985,4,32.27,sierra_piura
+Chulucanas,-5.09,-80.16,1985,4,12.4,alto_piura
+Bajo Piura,-5.42,-80.74,1985,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1985,5,5.48,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,5,11.51,sierra_piura
+Huancabamba,-5.24,-79.45,1985,5,32.02,sierra_piura
+Chulucanas,-5.09,-80.16,1985,5,8.89,alto_piura
+Bajo Piura,-5.42,-80.74,1985,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1985,6,0.23,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,6,0.8,sierra_piura
+Huancabamba,-5.24,-79.45,1985,6,11.84,sierra_piura
+Chulucanas,-5.09,-80.16,1985,6,0.41,alto_piura
+Bajo Piura,-5.42,-80.74,1985,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1985,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,1985,7,5.5,sierra_piura
+Chulucanas,-5.09,-80.16,1985,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,1985,8,1.12,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,8,0.69,chira
+San Lorenzo,-4.85,-80.25,1985,8,2.86,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,8,2.49,sierra_piura
+Huancabamba,-5.24,-79.45,1985,8,12.0,sierra_piura
+Chulucanas,-5.09,-80.16,1985,8,4.47,alto_piura
+Bajo Piura,-5.42,-80.74,1985,9,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1985,9,0.86,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,9,10.05,sierra_piura
+Huancabamba,-5.24,-79.45,1985,9,10.48,sierra_piura
+Chulucanas,-5.09,-80.16,1985,9,4.1,alto_piura
+Bajo Piura,-5.42,-80.74,1985,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1985,10,0.54,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,10,19.68,sierra_piura
+Huancabamba,-5.24,-79.45,1985,10,23.34,sierra_piura
+Chulucanas,-5.09,-80.16,1985,10,1.94,alto_piura
+Bajo Piura,-5.42,-80.74,1985,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1985,11,1.09,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,11,10.16,sierra_piura
+Huancabamba,-5.24,-79.45,1985,11,18.62,sierra_piura
+Chulucanas,-5.09,-80.16,1985,11,0.8,alto_piura
+Bajo Piura,-5.42,-80.74,1985,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1985,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1985,12,1.31,san_lorenzo
+Ayabaca,-4.64,-79.71,1985,12,52.71,sierra_piura
+Huancabamba,-5.24,-79.45,1985,12,58.89,sierra_piura
+Chulucanas,-5.09,-80.16,1985,12,5.31,alto_piura
+Bajo Piura,-5.42,-80.74,1986,1,0.48,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,1,1.59,chira
+San Lorenzo,-4.85,-80.25,1986,1,20.04,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,1,26.25,sierra_piura
+Huancabamba,-5.24,-79.45,1986,1,60.02,sierra_piura
+Chulucanas,-5.09,-80.16,1986,1,29.01,alto_piura
+Bajo Piura,-5.42,-80.74,1986,2,7.98,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,2,25.33,chira
+San Lorenzo,-4.85,-80.25,1986,2,29.34,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,2,103.06,sierra_piura
+Huancabamba,-5.24,-79.45,1986,2,55.32,sierra_piura
+Chulucanas,-5.09,-80.16,1986,2,44.34,alto_piura
+Bajo Piura,-5.42,-80.74,1986,3,0.3,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,3,0.92,chira
+San Lorenzo,-4.85,-80.25,1986,3,35.91,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,3,126.59,sierra_piura
+Huancabamba,-5.24,-79.45,1986,3,74.34,sierra_piura
+Chulucanas,-5.09,-80.16,1986,3,33.84,alto_piura
+Bajo Piura,-5.42,-80.74,1986,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1986,4,16.59,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,4,94.29,sierra_piura
+Huancabamba,-5.24,-79.45,1986,4,76.49,sierra_piura
+Chulucanas,-5.09,-80.16,1986,4,39.2,alto_piura
+Bajo Piura,-5.42,-80.74,1986,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1986,5,1.53,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,5,10.02,sierra_piura
+Huancabamba,-5.24,-79.45,1986,5,23.1,sierra_piura
+Chulucanas,-5.09,-80.16,1986,5,4.09,alto_piura
+Bajo Piura,-5.42,-80.74,1986,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1986,6,0.19,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,6,0.56,sierra_piura
+Huancabamba,-5.24,-79.45,1986,6,7.55,sierra_piura
+Chulucanas,-5.09,-80.16,1986,6,0.34,alto_piura
+Bajo Piura,-5.42,-80.74,1986,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1986,7,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,7,0.17,sierra_piura
+Huancabamba,-5.24,-79.45,1986,7,8.16,sierra_piura
+Chulucanas,-5.09,-80.16,1986,7,0.28,alto_piura
+Bajo Piura,-5.42,-80.74,1986,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,8,0.7,chira
+San Lorenzo,-4.85,-80.25,1986,8,3.09,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,8,3.0,sierra_piura
+Huancabamba,-5.24,-79.45,1986,8,12.68,sierra_piura
+Chulucanas,-5.09,-80.16,1986,8,5.15,alto_piura
+Bajo Piura,-5.42,-80.74,1986,9,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1986,9,1.12,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,9,13.11,sierra_piura
+Huancabamba,-5.24,-79.45,1986,9,13.28,sierra_piura
+Chulucanas,-5.09,-80.16,1986,9,6.35,alto_piura
+Bajo Piura,-5.42,-80.74,1986,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1986,10,0.56,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,10,23.35,sierra_piura
+Huancabamba,-5.24,-79.45,1986,10,29.37,sierra_piura
+Chulucanas,-5.09,-80.16,1986,10,2.6,alto_piura
+Bajo Piura,-5.42,-80.74,1986,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1986,11,1.64,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,11,27.02,sierra_piura
+Huancabamba,-5.24,-79.45,1986,11,42.15,sierra_piura
+Chulucanas,-5.09,-80.16,1986,11,1.47,alto_piura
+Bajo Piura,-5.42,-80.74,1986,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1986,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1986,12,0.94,san_lorenzo
+Ayabaca,-4.64,-79.71,1986,12,48.55,sierra_piura
+Huancabamba,-5.24,-79.45,1986,12,52.99,sierra_piura
+Chulucanas,-5.09,-80.16,1986,12,4.21,alto_piura
+Bajo Piura,-5.42,-80.74,1987,1,0.64,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,1,2.7,chira
+San Lorenzo,-4.85,-80.25,1987,1,34.47,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,1,33.95,sierra_piura
+Huancabamba,-5.24,-79.45,1987,1,66.4,sierra_piura
+Chulucanas,-5.09,-80.16,1987,1,38.68,alto_piura
+Bajo Piura,-5.42,-80.74,1987,2,17.85,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,2,120.14,chira
+San Lorenzo,-4.85,-80.25,1987,2,119.57,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,2,164.7,sierra_piura
+Huancabamba,-5.24,-79.45,1987,2,78.39,sierra_piura
+Chulucanas,-5.09,-80.16,1987,2,130.44,alto_piura
+Bajo Piura,-5.42,-80.74,1987,3,0.99,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,3,2.26,chira
+San Lorenzo,-4.85,-80.25,1987,3,133.36,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,3,214.63,sierra_piura
+Huancabamba,-5.24,-79.45,1987,3,118.36,sierra_piura
+Chulucanas,-5.09,-80.16,1987,3,105.87,alto_piura
+Bajo Piura,-5.42,-80.74,1987,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1987,4,15.09,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,4,67.71,sierra_piura
+Huancabamba,-5.24,-79.45,1987,4,69.41,sierra_piura
+Chulucanas,-5.09,-80.16,1987,4,23.6,alto_piura
+Bajo Piura,-5.42,-80.74,1987,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1987,5,4.85,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,5,20.98,sierra_piura
+Huancabamba,-5.24,-79.45,1987,5,30.5,sierra_piura
+Chulucanas,-5.09,-80.16,1987,5,9.06,alto_piura
+Bajo Piura,-5.42,-80.74,1987,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1987,6,0.2,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,6,0.7,sierra_piura
+Huancabamba,-5.24,-79.45,1987,6,10.53,sierra_piura
+Chulucanas,-5.09,-80.16,1987,6,0.38,alto_piura
+Bajo Piura,-5.42,-80.74,1987,7,0.13,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1987,7,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,7,0.17,sierra_piura
+Huancabamba,-5.24,-79.45,1987,7,9.4,sierra_piura
+Chulucanas,-5.09,-80.16,1987,7,0.28,alto_piura
+Bajo Piura,-5.42,-80.74,1987,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,8,0.7,chira
+San Lorenzo,-4.85,-80.25,1987,8,3.07,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,8,2.58,sierra_piura
+Huancabamba,-5.24,-79.45,1987,8,12.03,sierra_piura
+Chulucanas,-5.09,-80.16,1987,8,5.02,alto_piura
+Bajo Piura,-5.42,-80.74,1987,9,0.48,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,9,0.05,chira
+San Lorenzo,-4.85,-80.25,1987,9,0.93,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,9,11.71,sierra_piura
+Huancabamba,-5.24,-79.45,1987,9,14.32,sierra_piura
+Chulucanas,-5.09,-80.16,1987,9,4.46,alto_piura
+Bajo Piura,-5.42,-80.74,1987,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1987,10,0.61,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,10,30.84,sierra_piura
+Huancabamba,-5.24,-79.45,1987,10,44.94,sierra_piura
+Chulucanas,-5.09,-80.16,1987,10,3.52,alto_piura
+Bajo Piura,-5.42,-80.74,1987,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1987,11,1.11,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,11,13.35,sierra_piura
+Huancabamba,-5.24,-79.45,1987,11,21.82,sierra_piura
+Chulucanas,-5.09,-80.16,1987,11,0.91,alto_piura
+Bajo Piura,-5.42,-80.74,1987,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1987,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1987,12,0.84,san_lorenzo
+Ayabaca,-4.64,-79.71,1987,12,42.52,sierra_piura
+Huancabamba,-5.24,-79.45,1987,12,45.71,sierra_piura
+Chulucanas,-5.09,-80.16,1987,12,3.17,alto_piura
+Bajo Piura,-5.42,-80.74,1988,1,0.57,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,1,1.37,chira
+San Lorenzo,-4.85,-80.25,1988,1,22.21,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,1,37.13,sierra_piura
+Huancabamba,-5.24,-79.45,1988,1,67.23,sierra_piura
+Chulucanas,-5.09,-80.16,1988,1,34.2,alto_piura
+Bajo Piura,-5.42,-80.74,1988,2,5.99,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,2,14.53,chira
+San Lorenzo,-4.85,-80.25,1988,2,23.63,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,2,134.62,sierra_piura
+Huancabamba,-5.24,-79.45,1988,2,77.41,sierra_piura
+Chulucanas,-5.09,-80.16,1988,2,42.43,alto_piura
+Bajo Piura,-5.42,-80.74,1988,3,0.11,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,3,0.41,chira
+San Lorenzo,-4.85,-80.25,1988,3,31.87,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,3,82.78,sierra_piura
+Huancabamba,-5.24,-79.45,1988,3,46.39,sierra_piura
+Chulucanas,-5.09,-80.16,1988,3,27.05,alto_piura
+Bajo Piura,-5.42,-80.74,1988,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1988,4,6.77,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,4,58.72,sierra_piura
+Huancabamba,-5.24,-79.45,1988,4,40.69,sierra_piura
+Chulucanas,-5.09,-80.16,1988,4,11.29,alto_piura
+Bajo Piura,-5.42,-80.74,1988,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1988,5,1.8,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,5,14.3,sierra_piura
+Huancabamba,-5.24,-79.45,1988,5,34.26,sierra_piura
+Chulucanas,-5.09,-80.16,1988,5,5.17,alto_piura
+Bajo Piura,-5.42,-80.74,1988,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1988,6,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,6,0.89,sierra_piura
+Huancabamba,-5.24,-79.45,1988,6,9.54,sierra_piura
+Chulucanas,-5.09,-80.16,1988,6,0.29,alto_piura
+Bajo Piura,-5.42,-80.74,1988,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1988,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,1988,7,5.28,sierra_piura
+Chulucanas,-5.09,-80.16,1988,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,1988,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,8,0.68,chira
+San Lorenzo,-4.85,-80.25,1988,8,2.74,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,8,2.3,sierra_piura
+Huancabamba,-5.24,-79.45,1988,8,14.09,sierra_piura
+Chulucanas,-5.09,-80.16,1988,8,4.22,alto_piura
+Bajo Piura,-5.42,-80.74,1988,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,9,0.05,chira
+San Lorenzo,-4.85,-80.25,1988,9,1.05,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,9,15.09,sierra_piura
+Huancabamba,-5.24,-79.45,1988,9,15.19,sierra_piura
+Chulucanas,-5.09,-80.16,1988,9,5.93,alto_piura
+Bajo Piura,-5.42,-80.74,1988,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1988,10,0.62,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,10,23.53,sierra_piura
+Huancabamba,-5.24,-79.45,1988,10,32.56,sierra_piura
+Chulucanas,-5.09,-80.16,1988,10,2.18,alto_piura
+Bajo Piura,-5.42,-80.74,1988,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1988,11,1.37,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,11,29.14,sierra_piura
+Huancabamba,-5.24,-79.45,1988,11,54.98,sierra_piura
+Chulucanas,-5.09,-80.16,1988,11,1.78,alto_piura
+Bajo Piura,-5.42,-80.74,1988,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1988,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1988,12,1.27,san_lorenzo
+Ayabaca,-4.64,-79.71,1988,12,43.05,sierra_piura
+Huancabamba,-5.24,-79.45,1988,12,55.59,sierra_piura
+Chulucanas,-5.09,-80.16,1988,12,5.62,alto_piura
+Bajo Piura,-5.42,-80.74,1989,1,0.52,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,1,1.57,chira
+San Lorenzo,-4.85,-80.25,1989,1,22.62,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,1,31.98,sierra_piura
+Huancabamba,-5.24,-79.45,1989,1,78.89,sierra_piura
+Chulucanas,-5.09,-80.16,1989,1,36.13,alto_piura
+Bajo Piura,-5.42,-80.74,1989,2,13.18,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,2,46.14,chira
+San Lorenzo,-4.85,-80.25,1989,2,70.12,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,2,131.89,sierra_piura
+Huancabamba,-5.24,-79.45,1989,2,87.17,sierra_piura
+Chulucanas,-5.09,-80.16,1989,2,77.94,alto_piura
+Bajo Piura,-5.42,-80.74,1989,3,0.32,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,3,2.96,chira
+San Lorenzo,-4.85,-80.25,1989,3,51.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,3,135.5,sierra_piura
+Huancabamba,-5.24,-79.45,1989,3,82.3,sierra_piura
+Chulucanas,-5.09,-80.16,1989,3,46.13,alto_piura
+Bajo Piura,-5.42,-80.74,1989,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1989,4,4.84,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,4,80.66,sierra_piura
+Huancabamba,-5.24,-79.45,1989,4,55.08,sierra_piura
+Chulucanas,-5.09,-80.16,1989,4,20.84,alto_piura
+Bajo Piura,-5.42,-80.74,1989,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1989,5,2.05,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,5,15.43,sierra_piura
+Huancabamba,-5.24,-79.45,1989,5,23.15,sierra_piura
+Chulucanas,-5.09,-80.16,1989,5,4.69,alto_piura
+Bajo Piura,-5.42,-80.74,1989,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1989,6,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,6,0.56,sierra_piura
+Huancabamba,-5.24,-79.45,1989,6,7.54,sierra_piura
+Chulucanas,-5.09,-80.16,1989,6,0.3,alto_piura
+Bajo Piura,-5.42,-80.74,1989,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,7,0.04,chira
+San Lorenzo,-4.85,-80.25,1989,7,0.23,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,7,0.37,sierra_piura
+Huancabamba,-5.24,-79.45,1989,7,10.24,sierra_piura
+Chulucanas,-5.09,-80.16,1989,7,0.57,alto_piura
+Bajo Piura,-5.42,-80.74,1989,8,1.04,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,8,0.65,chira
+San Lorenzo,-4.85,-80.25,1989,8,2.71,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,8,2.56,sierra_piura
+Huancabamba,-5.24,-79.45,1989,8,11.55,sierra_piura
+Chulucanas,-5.09,-80.16,1989,8,4.65,alto_piura
+Bajo Piura,-5.42,-80.74,1989,9,0.4,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,9,0.03,chira
+San Lorenzo,-4.85,-80.25,1989,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,9,8.69,sierra_piura
+Huancabamba,-5.24,-79.45,1989,9,10.65,sierra_piura
+Chulucanas,-5.09,-80.16,1989,9,3.79,alto_piura
+Bajo Piura,-5.42,-80.74,1989,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1989,10,0.61,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,10,33.44,sierra_piura
+Huancabamba,-5.24,-79.45,1989,10,53.93,sierra_piura
+Chulucanas,-5.09,-80.16,1989,10,3.05,alto_piura
+Bajo Piura,-5.42,-80.74,1989,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1989,11,0.58,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,11,8.15,sierra_piura
+Huancabamba,-5.24,-79.45,1989,11,13.46,sierra_piura
+Chulucanas,-5.09,-80.16,1989,11,0.56,alto_piura
+Bajo Piura,-5.42,-80.74,1989,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1989,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1989,12,0.16,san_lorenzo
+Ayabaca,-4.64,-79.71,1989,12,9.56,sierra_piura
+Huancabamba,-5.24,-79.45,1989,12,10.76,sierra_piura
+Chulucanas,-5.09,-80.16,1989,12,0.96,alto_piura
+Bajo Piura,-5.42,-80.74,1990,1,0.26,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,1,0.83,chira
+San Lorenzo,-4.85,-80.25,1990,1,13.05,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,1,18.34,sierra_piura
+Huancabamba,-5.24,-79.45,1990,1,46.25,sierra_piura
+Chulucanas,-5.09,-80.16,1990,1,27.34,alto_piura
+Bajo Piura,-5.42,-80.74,1990,2,5.74,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,2,16.1,chira
+San Lorenzo,-4.85,-80.25,1990,2,22.14,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,2,114.87,sierra_piura
+Huancabamba,-5.24,-79.45,1990,2,64.1,sierra_piura
+Chulucanas,-5.09,-80.16,1990,2,37.48,alto_piura
+Bajo Piura,-5.42,-80.74,1990,3,0.32,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,3,1.19,chira
+San Lorenzo,-4.85,-80.25,1990,3,29.81,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,3,85.23,sierra_piura
+Huancabamba,-5.24,-79.45,1990,3,67.88,sierra_piura
+Chulucanas,-5.09,-80.16,1990,3,27.61,alto_piura
+Bajo Piura,-5.42,-80.74,1990,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1990,4,5.35,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,4,89.52,sierra_piura
+Huancabamba,-5.24,-79.45,1990,4,58.86,sierra_piura
+Chulucanas,-5.09,-80.16,1990,4,15.33,alto_piura
+Bajo Piura,-5.42,-80.74,1990,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1990,5,6.93,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,5,17.81,sierra_piura
+Huancabamba,-5.24,-79.45,1990,5,26.36,sierra_piura
+Chulucanas,-5.09,-80.16,1990,5,2.89,alto_piura
+Bajo Piura,-5.42,-80.74,1990,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1990,6,0.21,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,6,0.84,sierra_piura
+Huancabamba,-5.24,-79.45,1990,6,12.53,sierra_piura
+Chulucanas,-5.09,-80.16,1990,6,0.41,alto_piura
+Bajo Piura,-5.42,-80.74,1990,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,7,0.04,chira
+San Lorenzo,-4.85,-80.25,1990,7,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,7,0.11,sierra_piura
+Huancabamba,-5.24,-79.45,1990,7,5.16,sierra_piura
+Chulucanas,-5.09,-80.16,1990,7,0.18,alto_piura
+Bajo Piura,-5.42,-80.74,1990,8,1.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,8,0.67,chira
+San Lorenzo,-4.85,-80.25,1990,8,2.75,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,8,3.27,sierra_piura
+Huancabamba,-5.24,-79.45,1990,8,15.45,sierra_piura
+Chulucanas,-5.09,-80.16,1990,8,4.19,alto_piura
+Bajo Piura,-5.42,-80.74,1990,9,0.38,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,9,0.03,chira
+San Lorenzo,-4.85,-80.25,1990,9,0.83,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,9,7.92,sierra_piura
+Huancabamba,-5.24,-79.45,1990,9,9.59,sierra_piura
+Chulucanas,-5.09,-80.16,1990,9,3.83,alto_piura
+Bajo Piura,-5.42,-80.74,1990,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1990,10,0.9,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,10,51.0,sierra_piura
+Huancabamba,-5.24,-79.45,1990,10,52.77,sierra_piura
+Chulucanas,-5.09,-80.16,1990,10,4.17,alto_piura
+Bajo Piura,-5.42,-80.74,1990,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1990,11,1.61,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,11,19.79,sierra_piura
+Huancabamba,-5.24,-79.45,1990,11,62.18,sierra_piura
+Chulucanas,-5.09,-80.16,1990,11,1.65,alto_piura
+Bajo Piura,-5.42,-80.74,1990,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1990,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1990,12,1.2,san_lorenzo
+Ayabaca,-4.64,-79.71,1990,12,52.48,sierra_piura
+Huancabamba,-5.24,-79.45,1990,12,50.34,sierra_piura
+Chulucanas,-5.09,-80.16,1990,12,4.69,alto_piura
+Bajo Piura,-5.42,-80.74,1991,1,0.2,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,1,0.84,chira
+San Lorenzo,-4.85,-80.25,1991,1,9.24,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,1,13.25,sierra_piura
+Huancabamba,-5.24,-79.45,1991,1,29.18,sierra_piura
+Chulucanas,-5.09,-80.16,1991,1,15.36,alto_piura
+Bajo Piura,-5.42,-80.74,1991,2,6.15,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,2,16.08,chira
+San Lorenzo,-4.85,-80.25,1991,2,29.45,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,2,129.16,sierra_piura
+Huancabamba,-5.24,-79.45,1991,2,79.67,sierra_piura
+Chulucanas,-5.09,-80.16,1991,2,44.47,alto_piura
+Bajo Piura,-5.42,-80.74,1991,3,0.33,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,3,1.59,chira
+San Lorenzo,-4.85,-80.25,1991,3,59.62,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,3,210.37,sierra_piura
+Huancabamba,-5.24,-79.45,1991,3,130.13,sierra_piura
+Chulucanas,-5.09,-80.16,1991,3,54.77,alto_piura
+Bajo Piura,-5.42,-80.74,1991,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1991,4,4.16,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,4,57.36,sierra_piura
+Huancabamba,-5.24,-79.45,1991,4,34.32,sierra_piura
+Chulucanas,-5.09,-80.16,1991,4,10.35,alto_piura
+Bajo Piura,-5.42,-80.74,1991,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1991,5,1.61,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,5,10.62,sierra_piura
+Huancabamba,-5.24,-79.45,1991,5,21.31,sierra_piura
+Chulucanas,-5.09,-80.16,1991,5,5.74,alto_piura
+Bajo Piura,-5.42,-80.74,1991,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1991,6,0.2,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,6,0.59,sierra_piura
+Huancabamba,-5.24,-79.45,1991,6,8.06,sierra_piura
+Chulucanas,-5.09,-80.16,1991,6,0.33,alto_piura
+Bajo Piura,-5.42,-80.74,1991,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,7,0.04,chira
+San Lorenzo,-4.85,-80.25,1991,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,1991,7,4.68,sierra_piura
+Chulucanas,-5.09,-80.16,1991,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,1991,8,1.33,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,8,0.86,chira
+San Lorenzo,-4.85,-80.25,1991,8,3.65,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,8,2.89,sierra_piura
+Huancabamba,-5.24,-79.45,1991,8,12.78,sierra_piura
+Chulucanas,-5.09,-80.16,1991,8,5.82,alto_piura
+Bajo Piura,-5.42,-80.74,1991,9,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1991,9,0.89,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,9,9.96,sierra_piura
+Huancabamba,-5.24,-79.45,1991,9,10.2,sierra_piura
+Chulucanas,-5.09,-80.16,1991,9,4.2,alto_piura
+Bajo Piura,-5.42,-80.74,1991,10,0.03,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1991,10,0.61,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,10,14.71,sierra_piura
+Huancabamba,-5.24,-79.45,1991,10,24.69,sierra_piura
+Chulucanas,-5.09,-80.16,1991,10,2.56,alto_piura
+Bajo Piura,-5.42,-80.74,1991,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1991,11,0.99,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,11,12.23,sierra_piura
+Huancabamba,-5.24,-79.45,1991,11,21.54,sierra_piura
+Chulucanas,-5.09,-80.16,1991,11,0.69,alto_piura
+Bajo Piura,-5.42,-80.74,1991,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1991,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1991,12,0.99,san_lorenzo
+Ayabaca,-4.64,-79.71,1991,12,31.19,sierra_piura
+Huancabamba,-5.24,-79.45,1991,12,35.81,sierra_piura
+Chulucanas,-5.09,-80.16,1991,12,3.89,alto_piura
+Bajo Piura,-5.42,-80.74,1992,1,0.52,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,1,1.75,chira
+San Lorenzo,-4.85,-80.25,1992,1,16.52,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,1,14.03,sierra_piura
+Huancabamba,-5.24,-79.45,1992,1,34.83,sierra_piura
+Chulucanas,-5.09,-80.16,1992,1,23.69,alto_piura
+Bajo Piura,-5.42,-80.74,1992,2,12.87,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,2,72.79,chira
+San Lorenzo,-4.85,-80.25,1992,2,82.96,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,2,125.22,sierra_piura
+Huancabamba,-5.24,-79.45,1992,2,76.55,sierra_piura
+Chulucanas,-5.09,-80.16,1992,2,66.99,alto_piura
+Bajo Piura,-5.42,-80.74,1992,3,0.35,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,3,2.4,chira
+San Lorenzo,-4.85,-80.25,1992,3,186.79,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,3,162.9,sierra_piura
+Huancabamba,-5.24,-79.45,1992,3,106.94,sierra_piura
+Chulucanas,-5.09,-80.16,1992,3,109.94,alto_piura
+Bajo Piura,-5.42,-80.74,1992,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1992,4,27.87,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,4,73.52,sierra_piura
+Huancabamba,-5.24,-79.45,1992,4,48.25,sierra_piura
+Chulucanas,-5.09,-80.16,1992,4,49.68,alto_piura
+Bajo Piura,-5.42,-80.74,1992,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1992,5,9.08,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,5,15.73,sierra_piura
+Huancabamba,-5.24,-79.45,1992,5,30.39,sierra_piura
+Chulucanas,-5.09,-80.16,1992,5,9.13,alto_piura
+Bajo Piura,-5.42,-80.74,1992,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1992,6,0.22,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,6,1.65,sierra_piura
+Huancabamba,-5.24,-79.45,1992,6,12.64,sierra_piura
+Chulucanas,-5.09,-80.16,1992,6,0.42,alto_piura
+Bajo Piura,-5.42,-80.74,1992,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1992,7,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,7,0.16,sierra_piura
+Huancabamba,-5.24,-79.45,1992,7,6.6,sierra_piura
+Chulucanas,-5.09,-80.16,1992,7,0.27,alto_piura
+Bajo Piura,-5.42,-80.74,1992,8,1.2,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,8,0.84,chira
+San Lorenzo,-4.85,-80.25,1992,8,3.56,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,8,2.8,sierra_piura
+Huancabamba,-5.24,-79.45,1992,8,12.08,sierra_piura
+Chulucanas,-5.09,-80.16,1992,8,5.37,alto_piura
+Bajo Piura,-5.42,-80.74,1992,9,0.4,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1992,9,1.11,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,9,12.32,sierra_piura
+Huancabamba,-5.24,-79.45,1992,9,10.08,sierra_piura
+Chulucanas,-5.09,-80.16,1992,9,5.2,alto_piura
+Bajo Piura,-5.42,-80.74,1992,10,0.03,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1992,10,0.69,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,10,31.79,sierra_piura
+Huancabamba,-5.24,-79.45,1992,10,31.99,sierra_piura
+Chulucanas,-5.09,-80.16,1992,10,3.26,alto_piura
+Bajo Piura,-5.42,-80.74,1992,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1992,11,1.54,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,11,21.53,sierra_piura
+Huancabamba,-5.24,-79.45,1992,11,39.15,sierra_piura
+Chulucanas,-5.09,-80.16,1992,11,1.45,alto_piura
+Bajo Piura,-5.42,-80.74,1992,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1992,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1992,12,1.81,san_lorenzo
+Ayabaca,-4.64,-79.71,1992,12,51.55,sierra_piura
+Huancabamba,-5.24,-79.45,1992,12,57.36,sierra_piura
+Chulucanas,-5.09,-80.16,1992,12,6.5,alto_piura
+Bajo Piura,-5.42,-80.74,1993,1,0.45,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,1,1.15,chira
+San Lorenzo,-4.85,-80.25,1993,1,13.53,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,1,18.2,sierra_piura
+Huancabamba,-5.24,-79.45,1993,1,46.48,sierra_piura
+Chulucanas,-5.09,-80.16,1993,1,30.47,alto_piura
+Bajo Piura,-5.42,-80.74,1993,2,26.57,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,2,162.76,chira
+San Lorenzo,-4.85,-80.25,1993,2,144.74,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,2,202.24,sierra_piura
+Huancabamba,-5.24,-79.45,1993,2,127.73,sierra_piura
+Chulucanas,-5.09,-80.16,1993,2,121.45,alto_piura
+Bajo Piura,-5.42,-80.74,1993,3,3.4,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,3,9.66,chira
+San Lorenzo,-4.85,-80.25,1993,3,185.49,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,3,357.68,sierra_piura
+Huancabamba,-5.24,-79.45,1993,3,168.46,sierra_piura
+Chulucanas,-5.09,-80.16,1993,3,129.53,alto_piura
+Bajo Piura,-5.42,-80.74,1993,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1993,4,38.82,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,4,177.1,sierra_piura
+Huancabamba,-5.24,-79.45,1993,4,60.81,sierra_piura
+Chulucanas,-5.09,-80.16,1993,4,47.16,alto_piura
+Bajo Piura,-5.42,-80.74,1993,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1993,5,9.73,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,5,23.3,sierra_piura
+Huancabamba,-5.24,-79.45,1993,5,63.42,sierra_piura
+Chulucanas,-5.09,-80.16,1993,5,12.73,alto_piura
+Bajo Piura,-5.42,-80.74,1993,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1993,6,0.19,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,6,0.62,sierra_piura
+Huancabamba,-5.24,-79.45,1993,6,10.25,sierra_piura
+Chulucanas,-5.09,-80.16,1993,6,0.34,alto_piura
+Bajo Piura,-5.42,-80.74,1993,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,7,0.04,chira
+San Lorenzo,-4.85,-80.25,1993,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,1993,7,6.08,sierra_piura
+Chulucanas,-5.09,-80.16,1993,7,0.21,alto_piura
+Bajo Piura,-5.42,-80.74,1993,8,1.21,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,8,0.76,chira
+San Lorenzo,-4.85,-80.25,1993,8,3.2,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,8,3.61,sierra_piura
+Huancabamba,-5.24,-79.45,1993,8,12.81,sierra_piura
+Chulucanas,-5.09,-80.16,1993,8,5.42,alto_piura
+Bajo Piura,-5.42,-80.74,1993,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1993,9,0.98,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,9,14.9,sierra_piura
+Huancabamba,-5.24,-79.45,1993,9,19.4,sierra_piura
+Chulucanas,-5.09,-80.16,1993,9,5.39,alto_piura
+Bajo Piura,-5.42,-80.74,1993,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1993,10,0.56,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,10,36.84,sierra_piura
+Huancabamba,-5.24,-79.45,1993,10,45.5,sierra_piura
+Chulucanas,-5.09,-80.16,1993,10,2.88,alto_piura
+Bajo Piura,-5.42,-80.74,1993,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1993,11,1.08,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,11,14.75,sierra_piura
+Huancabamba,-5.24,-79.45,1993,11,24.69,sierra_piura
+Chulucanas,-5.09,-80.16,1993,11,0.96,alto_piura
+Bajo Piura,-5.42,-80.74,1993,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1993,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1993,12,0.94,san_lorenzo
+Ayabaca,-4.64,-79.71,1993,12,45.15,sierra_piura
+Huancabamba,-5.24,-79.45,1993,12,75.13,sierra_piura
+Chulucanas,-5.09,-80.16,1993,12,3.82,alto_piura
+Bajo Piura,-5.42,-80.74,1994,1,0.93,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,1,1.56,chira
+San Lorenzo,-4.85,-80.25,1994,1,25.86,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,1,41.95,sierra_piura
+Huancabamba,-5.24,-79.45,1994,1,70.03,sierra_piura
+Chulucanas,-5.09,-80.16,1994,1,36.9,alto_piura
+Bajo Piura,-5.42,-80.74,1994,2,7.78,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,2,47.66,chira
+San Lorenzo,-4.85,-80.25,1994,2,48.81,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,2,207.2,sierra_piura
+Huancabamba,-5.24,-79.45,1994,2,102.04,sierra_piura
+Chulucanas,-5.09,-80.16,1994,2,54.34,alto_piura
+Bajo Piura,-5.42,-80.74,1994,3,0.48,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,3,3.04,chira
+San Lorenzo,-4.85,-80.25,1994,3,62.78,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,3,148.43,sierra_piura
+Huancabamba,-5.24,-79.45,1994,3,104.64,sierra_piura
+Chulucanas,-5.09,-80.16,1994,3,60.47,alto_piura
+Bajo Piura,-5.42,-80.74,1994,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1994,4,24.04,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,4,135.9,sierra_piura
+Huancabamba,-5.24,-79.45,1994,4,87.26,sierra_piura
+Chulucanas,-5.09,-80.16,1994,4,34.93,alto_piura
+Bajo Piura,-5.42,-80.74,1994,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1994,5,4.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,5,22.21,sierra_piura
+Huancabamba,-5.24,-79.45,1994,5,43.68,sierra_piura
+Chulucanas,-5.09,-80.16,1994,5,7.24,alto_piura
+Bajo Piura,-5.42,-80.74,1994,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1994,6,0.19,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,6,0.57,sierra_piura
+Huancabamba,-5.24,-79.45,1994,6,9.88,sierra_piura
+Chulucanas,-5.09,-80.16,1994,6,0.33,alto_piura
+Bajo Piura,-5.42,-80.74,1994,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1994,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,7,0.15,sierra_piura
+Huancabamba,-5.24,-79.45,1994,7,6.46,sierra_piura
+Chulucanas,-5.09,-80.16,1994,7,0.26,alto_piura
+Bajo Piura,-5.42,-80.74,1994,8,1.09,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,8,0.71,chira
+San Lorenzo,-4.85,-80.25,1994,8,2.81,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,8,1.88,sierra_piura
+Huancabamba,-5.24,-79.45,1994,8,7.08,sierra_piura
+Chulucanas,-5.09,-80.16,1994,8,3.81,alto_piura
+Bajo Piura,-5.42,-80.74,1994,9,0.42,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1994,9,0.96,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,9,11.97,sierra_piura
+Huancabamba,-5.24,-79.45,1994,9,12.46,sierra_piura
+Chulucanas,-5.09,-80.16,1994,9,5.28,alto_piura
+Bajo Piura,-5.42,-80.74,1994,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1994,10,0.51,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,10,18.96,sierra_piura
+Huancabamba,-5.24,-79.45,1994,10,19.78,sierra_piura
+Chulucanas,-5.09,-80.16,1994,10,1.79,alto_piura
+Bajo Piura,-5.42,-80.74,1994,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1994,11,1.25,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,11,14.2,sierra_piura
+Huancabamba,-5.24,-79.45,1994,11,30.18,sierra_piura
+Chulucanas,-5.09,-80.16,1994,11,1.01,alto_piura
+Bajo Piura,-5.42,-80.74,1994,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1994,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1994,12,1.05,san_lorenzo
+Ayabaca,-4.64,-79.71,1994,12,42.17,sierra_piura
+Huancabamba,-5.24,-79.45,1994,12,48.17,sierra_piura
+Chulucanas,-5.09,-80.16,1994,12,4.04,alto_piura
+Bajo Piura,-5.42,-80.74,1995,1,0.73,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,1,1.87,chira
+San Lorenzo,-4.85,-80.25,1995,1,18.71,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,1,18.33,sierra_piura
+Huancabamba,-5.24,-79.45,1995,1,42.21,sierra_piura
+Chulucanas,-5.09,-80.16,1995,1,29.33,alto_piura
+Bajo Piura,-5.42,-80.74,1995,2,22.16,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,2,51.77,chira
+San Lorenzo,-4.85,-80.25,1995,2,57.04,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,2,118.56,sierra_piura
+Huancabamba,-5.24,-79.45,1995,2,70.41,sierra_piura
+Chulucanas,-5.09,-80.16,1995,2,80.38,alto_piura
+Bajo Piura,-5.42,-80.74,1995,3,0.13,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,3,0.4,chira
+San Lorenzo,-4.85,-80.25,1995,3,46.57,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,3,136.91,sierra_piura
+Huancabamba,-5.24,-79.45,1995,3,98.88,sierra_piura
+Chulucanas,-5.09,-80.16,1995,3,41.28,alto_piura
+Bajo Piura,-5.42,-80.74,1995,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1995,4,3.22,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,4,63.97,sierra_piura
+Huancabamba,-5.24,-79.45,1995,4,30.36,sierra_piura
+Chulucanas,-5.09,-80.16,1995,4,7.0,alto_piura
+Bajo Piura,-5.42,-80.74,1995,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1995,5,2.08,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,5,20.63,sierra_piura
+Huancabamba,-5.24,-79.45,1995,5,27.87,sierra_piura
+Chulucanas,-5.09,-80.16,1995,5,4.57,alto_piura
+Bajo Piura,-5.42,-80.74,1995,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1995,6,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,6,0.53,sierra_piura
+Huancabamba,-5.24,-79.45,1995,6,7.62,sierra_piura
+Chulucanas,-5.09,-80.16,1995,6,0.3,alto_piura
+Bajo Piura,-5.42,-80.74,1995,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1995,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,7,0.15,sierra_piura
+Huancabamba,-5.24,-79.45,1995,7,7.51,sierra_piura
+Chulucanas,-5.09,-80.16,1995,7,0.26,alto_piura
+Bajo Piura,-5.42,-80.74,1995,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,8,0.7,chira
+San Lorenzo,-4.85,-80.25,1995,8,2.77,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,8,1.78,sierra_piura
+Huancabamba,-5.24,-79.45,1995,8,7.94,sierra_piura
+Chulucanas,-5.09,-80.16,1995,8,3.81,alto_piura
+Bajo Piura,-5.42,-80.74,1995,9,0.42,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1995,9,0.93,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,9,9.95,sierra_piura
+Huancabamba,-5.24,-79.45,1995,9,9.1,sierra_piura
+Chulucanas,-5.09,-80.16,1995,9,4.21,alto_piura
+Bajo Piura,-5.42,-80.74,1995,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1995,10,0.56,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,10,20.85,sierra_piura
+Huancabamba,-5.24,-79.45,1995,10,27.18,sierra_piura
+Chulucanas,-5.09,-80.16,1995,10,2.38,alto_piura
+Bajo Piura,-5.42,-80.74,1995,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1995,11,1.13,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,11,18.73,sierra_piura
+Huancabamba,-5.24,-79.45,1995,11,42.4,sierra_piura
+Chulucanas,-5.09,-80.16,1995,11,0.92,alto_piura
+Bajo Piura,-5.42,-80.74,1995,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1995,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1995,12,1.04,san_lorenzo
+Ayabaca,-4.64,-79.71,1995,12,47.54,sierra_piura
+Huancabamba,-5.24,-79.45,1995,12,67.01,sierra_piura
+Chulucanas,-5.09,-80.16,1995,12,4.48,alto_piura
+Bajo Piura,-5.42,-80.74,1996,1,0.53,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,1,1.24,chira
+San Lorenzo,-4.85,-80.25,1996,1,18.21,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,1,26.23,sierra_piura
+Huancabamba,-5.24,-79.45,1996,1,63.12,sierra_piura
+Chulucanas,-5.09,-80.16,1996,1,34.73,alto_piura
+Bajo Piura,-5.42,-80.74,1996,2,5.26,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,2,22.09,chira
+San Lorenzo,-4.85,-80.25,1996,2,25.29,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,2,124.12,sierra_piura
+Huancabamba,-5.24,-79.45,1996,2,72.06,sierra_piura
+Chulucanas,-5.09,-80.16,1996,2,32.19,alto_piura
+Bajo Piura,-5.42,-80.74,1996,3,0.33,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,3,2.74,chira
+San Lorenzo,-4.85,-80.25,1996,3,41.48,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,3,146.97,sierra_piura
+Huancabamba,-5.24,-79.45,1996,3,107.38,sierra_piura
+Chulucanas,-5.09,-80.16,1996,3,40.85,alto_piura
+Bajo Piura,-5.42,-80.74,1996,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1996,4,8.03,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,4,60.81,sierra_piura
+Huancabamba,-5.24,-79.45,1996,4,51.06,sierra_piura
+Chulucanas,-5.09,-80.16,1996,4,15.74,alto_piura
+Bajo Piura,-5.42,-80.74,1996,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1996,5,1.46,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,5,7.68,sierra_piura
+Huancabamba,-5.24,-79.45,1996,5,17.96,sierra_piura
+Chulucanas,-5.09,-80.16,1996,5,5.88,alto_piura
+Bajo Piura,-5.42,-80.74,1996,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1996,6,0.2,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,6,0.67,sierra_piura
+Huancabamba,-5.24,-79.45,1996,6,10.31,sierra_piura
+Chulucanas,-5.09,-80.16,1996,6,0.37,alto_piura
+Bajo Piura,-5.42,-80.74,1996,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1996,7,0.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,7,0.16,sierra_piura
+Huancabamba,-5.24,-79.45,1996,7,7.4,sierra_piura
+Chulucanas,-5.09,-80.16,1996,7,0.29,alto_piura
+Bajo Piura,-5.42,-80.74,1996,8,1.1,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,8,0.7,chira
+San Lorenzo,-4.85,-80.25,1996,8,3.0,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,8,1.95,sierra_piura
+Huancabamba,-5.24,-79.45,1996,8,10.48,sierra_piura
+Chulucanas,-5.09,-80.16,1996,8,4.0,alto_piura
+Bajo Piura,-5.42,-80.74,1996,9,0.38,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1996,9,1.02,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,9,10.66,sierra_piura
+Huancabamba,-5.24,-79.45,1996,9,10.58,sierra_piura
+Chulucanas,-5.09,-80.16,1996,9,5.63,alto_piura
+Bajo Piura,-5.42,-80.74,1996,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1996,10,0.52,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,10,20.54,sierra_piura
+Huancabamba,-5.24,-79.45,1996,10,24.42,sierra_piura
+Chulucanas,-5.09,-80.16,1996,10,2.08,alto_piura
+Bajo Piura,-5.42,-80.74,1996,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1996,11,1.05,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,11,10.51,sierra_piura
+Huancabamba,-5.24,-79.45,1996,11,19.72,sierra_piura
+Chulucanas,-5.09,-80.16,1996,11,0.82,alto_piura
+Bajo Piura,-5.42,-80.74,1996,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1996,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1996,12,0.8,san_lorenzo
+Ayabaca,-4.64,-79.71,1996,12,25.84,sierra_piura
+Huancabamba,-5.24,-79.45,1996,12,26.48,sierra_piura
+Chulucanas,-5.09,-80.16,1996,12,2.84,alto_piura
+Bajo Piura,-5.42,-80.74,1997,1,0.53,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,1,1.41,chira
+San Lorenzo,-4.85,-80.25,1997,1,20.67,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,1,32.76,sierra_piura
+Huancabamba,-5.24,-79.45,1997,1,70.47,sierra_piura
+Chulucanas,-5.09,-80.16,1997,1,35.4,alto_piura
+Bajo Piura,-5.42,-80.74,1997,2,8.97,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,2,22.67,chira
+San Lorenzo,-4.85,-80.25,1997,2,37.49,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,2,129.3,sierra_piura
+Huancabamba,-5.24,-79.45,1997,2,94.31,sierra_piura
+Chulucanas,-5.09,-80.16,1997,2,48.88,alto_piura
+Bajo Piura,-5.42,-80.74,1997,3,0.3,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,3,1.24,chira
+San Lorenzo,-4.85,-80.25,1997,3,45.84,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,3,122.99,sierra_piura
+Huancabamba,-5.24,-79.45,1997,3,71.77,sierra_piura
+Chulucanas,-5.09,-80.16,1997,3,50.35,alto_piura
+Bajo Piura,-5.42,-80.74,1997,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1997,4,10.58,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,4,124.49,sierra_piura
+Huancabamba,-5.24,-79.45,1997,4,71.49,sierra_piura
+Chulucanas,-5.09,-80.16,1997,4,29.91,alto_piura
+Bajo Piura,-5.42,-80.74,1997,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1997,5,5.7,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,5,21.24,sierra_piura
+Huancabamba,-5.24,-79.45,1997,5,22.97,sierra_piura
+Chulucanas,-5.09,-80.16,1997,5,7.26,alto_piura
+Bajo Piura,-5.42,-80.74,1997,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1997,6,0.21,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,6,0.62,sierra_piura
+Huancabamba,-5.24,-79.45,1997,6,7.27,sierra_piura
+Chulucanas,-5.09,-80.16,1997,6,0.29,alto_piura
+Bajo Piura,-5.42,-80.74,1997,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1997,7,0.21,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,7,0.19,sierra_piura
+Huancabamba,-5.24,-79.45,1997,7,8.9,sierra_piura
+Chulucanas,-5.09,-80.16,1997,7,0.35,alto_piura
+Bajo Piura,-5.42,-80.74,1997,8,1.17,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,8,0.79,chira
+San Lorenzo,-4.85,-80.25,1997,8,3.22,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,8,2.45,sierra_piura
+Huancabamba,-5.24,-79.45,1997,8,10.8,sierra_piura
+Chulucanas,-5.09,-80.16,1997,8,5.02,alto_piura
+Bajo Piura,-5.42,-80.74,1997,9,0.46,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,9,0.05,chira
+San Lorenzo,-4.85,-80.25,1997,9,1.16,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,9,10.54,sierra_piura
+Huancabamba,-5.24,-79.45,1997,9,9.12,sierra_piura
+Chulucanas,-5.09,-80.16,1997,9,5.13,alto_piura
+Bajo Piura,-5.42,-80.74,1997,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1997,10,0.8,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,10,32.71,sierra_piura
+Huancabamba,-5.24,-79.45,1997,10,35.4,sierra_piura
+Chulucanas,-5.09,-80.16,1997,10,3.09,alto_piura
+Bajo Piura,-5.42,-80.74,1997,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1997,11,2.12,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,11,44.09,sierra_piura
+Huancabamba,-5.24,-79.45,1997,11,78.23,sierra_piura
+Chulucanas,-5.09,-80.16,1997,11,2.07,alto_piura
+Bajo Piura,-5.42,-80.74,1997,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1997,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1997,12,4.26,san_lorenzo
+Ayabaca,-4.64,-79.71,1997,12,53.44,sierra_piura
+Huancabamba,-5.24,-79.45,1997,12,51.35,sierra_piura
+Chulucanas,-5.09,-80.16,1997,12,9.54,alto_piura
+Bajo Piura,-5.42,-80.74,1998,1,2.59,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,1,9.35,chira
+San Lorenzo,-4.85,-80.25,1998,1,69.58,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,1,22.18,sierra_piura
+Huancabamba,-5.24,-79.45,1998,1,58.96,sierra_piura
+Chulucanas,-5.09,-80.16,1998,1,116.11,alto_piura
+Bajo Piura,-5.42,-80.74,1998,2,146.72,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,2,415.22,chira
+San Lorenzo,-4.85,-80.25,1998,2,418.99,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,2,349.12,sierra_piura
+Huancabamba,-5.24,-79.45,1998,2,143.26,sierra_piura
+Chulucanas,-5.09,-80.16,1998,2,496.68,alto_piura
+Bajo Piura,-5.42,-80.74,1998,3,5.82,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,3,20.57,chira
+San Lorenzo,-4.85,-80.25,1998,3,496.79,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,3,338.77,sierra_piura
+Huancabamba,-5.24,-79.45,1998,3,176.54,sierra_piura
+Chulucanas,-5.09,-80.16,1998,3,337.38,alto_piura
+Bajo Piura,-5.42,-80.74,1998,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1998,4,132.18,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,4,271.72,sierra_piura
+Huancabamba,-5.24,-79.45,1998,4,129.62,sierra_piura
+Chulucanas,-5.09,-80.16,1998,4,150.94,alto_piura
+Bajo Piura,-5.42,-80.74,1998,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1998,5,6.92,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,5,46.72,sierra_piura
+Huancabamba,-5.24,-79.45,1998,5,49.58,sierra_piura
+Chulucanas,-5.09,-80.16,1998,5,18.59,alto_piura
+Bajo Piura,-5.42,-80.74,1998,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1998,6,0.23,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,6,0.76,sierra_piura
+Huancabamba,-5.24,-79.45,1998,6,9.94,sierra_piura
+Chulucanas,-5.09,-80.16,1998,6,0.37,alto_piura
+Bajo Piura,-5.42,-80.74,1998,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1998,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,7,0.16,sierra_piura
+Huancabamba,-5.24,-79.45,1998,7,8.19,sierra_piura
+Chulucanas,-5.09,-80.16,1998,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,1998,8,1.15,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,8,0.72,chira
+San Lorenzo,-4.85,-80.25,1998,8,2.54,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,8,2.24,sierra_piura
+Huancabamba,-5.24,-79.45,1998,8,9.19,sierra_piura
+Chulucanas,-5.09,-80.16,1998,8,3.56,alto_piura
+Bajo Piura,-5.42,-80.74,1998,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1998,9,1.02,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,9,13.22,sierra_piura
+Huancabamba,-5.24,-79.45,1998,9,12.88,sierra_piura
+Chulucanas,-5.09,-80.16,1998,9,4.25,alto_piura
+Bajo Piura,-5.42,-80.74,1998,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1998,10,0.7,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,10,40.36,sierra_piura
+Huancabamba,-5.24,-79.45,1998,10,64.2,sierra_piura
+Chulucanas,-5.09,-80.16,1998,10,2.33,alto_piura
+Bajo Piura,-5.42,-80.74,1998,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1998,11,1.04,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,11,11.61,sierra_piura
+Huancabamba,-5.24,-79.45,1998,11,37.86,sierra_piura
+Chulucanas,-5.09,-80.16,1998,11,0.79,alto_piura
+Bajo Piura,-5.42,-80.74,1998,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1998,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1998,12,1.16,san_lorenzo
+Ayabaca,-4.64,-79.71,1998,12,35.61,sierra_piura
+Huancabamba,-5.24,-79.45,1998,12,38.62,sierra_piura
+Chulucanas,-5.09,-80.16,1998,12,3.93,alto_piura
+Bajo Piura,-5.42,-80.74,1999,1,0.55,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,1,1.71,chira
+San Lorenzo,-4.85,-80.25,1999,1,19.99,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,1,27.25,sierra_piura
+Huancabamba,-5.24,-79.45,1999,1,70.02,sierra_piura
+Chulucanas,-5.09,-80.16,1999,1,29.82,alto_piura
+Bajo Piura,-5.42,-80.74,1999,2,35.49,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,2,117.05,chira
+San Lorenzo,-4.85,-80.25,1999,2,222.89,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,2,433.97,sierra_piura
+Huancabamba,-5.24,-79.45,1999,2,169.84,sierra_piura
+Chulucanas,-5.09,-80.16,1999,2,307.3,alto_piura
+Bajo Piura,-5.42,-80.74,1999,3,1.92,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,3,3.8,chira
+San Lorenzo,-4.85,-80.25,1999,3,69.56,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,3,352.28,sierra_piura
+Huancabamba,-5.24,-79.45,1999,3,182.52,sierra_piura
+Chulucanas,-5.09,-80.16,1999,3,84.34,alto_piura
+Bajo Piura,-5.42,-80.74,1999,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,4,0.0,chira
+San Lorenzo,-4.85,-80.25,1999,4,8.87,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,4,87.42,sierra_piura
+Huancabamba,-5.24,-79.45,1999,4,50.2,sierra_piura
+Chulucanas,-5.09,-80.16,1999,4,22.79,alto_piura
+Bajo Piura,-5.42,-80.74,1999,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,5,0.0,chira
+San Lorenzo,-4.85,-80.25,1999,5,2.36,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,5,28.36,sierra_piura
+Huancabamba,-5.24,-79.45,1999,5,55.09,sierra_piura
+Chulucanas,-5.09,-80.16,1999,5,7.72,alto_piura
+Bajo Piura,-5.42,-80.74,1999,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,6,0.0,chira
+San Lorenzo,-4.85,-80.25,1999,6,0.22,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,6,0.77,sierra_piura
+Huancabamba,-5.24,-79.45,1999,6,17.21,sierra_piura
+Chulucanas,-5.09,-80.16,1999,6,0.36,alto_piura
+Bajo Piura,-5.42,-80.74,1999,7,0.08,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,7,0.05,chira
+San Lorenzo,-4.85,-80.25,1999,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,1999,7,5.52,sierra_piura
+Chulucanas,-5.09,-80.16,1999,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,1999,8,1.15,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,8,0.74,chira
+San Lorenzo,-4.85,-80.25,1999,8,2.6,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,8,1.91,sierra_piura
+Huancabamba,-5.24,-79.45,1999,8,12.83,sierra_piura
+Chulucanas,-5.09,-80.16,1999,8,3.29,alto_piura
+Bajo Piura,-5.42,-80.74,1999,9,0.53,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,9,0.04,chira
+San Lorenzo,-4.85,-80.25,1999,9,0.93,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,9,17.22,sierra_piura
+Huancabamba,-5.24,-79.45,1999,9,31.37,sierra_piura
+Chulucanas,-5.09,-80.16,1999,9,4.32,alto_piura
+Bajo Piura,-5.42,-80.74,1999,10,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,10,0.0,chira
+San Lorenzo,-4.85,-80.25,1999,10,0.66,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,10,13.98,sierra_piura
+Huancabamba,-5.24,-79.45,1999,10,23.06,sierra_piura
+Chulucanas,-5.09,-80.16,1999,10,1.76,alto_piura
+Bajo Piura,-5.42,-80.74,1999,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,11,0.0,chira
+San Lorenzo,-4.85,-80.25,1999,11,1.42,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,11,12.74,sierra_piura
+Huancabamba,-5.24,-79.45,1999,11,29.35,sierra_piura
+Chulucanas,-5.09,-80.16,1999,11,1.06,alto_piura
+Bajo Piura,-5.42,-80.74,1999,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,1999,12,0.0,chira
+San Lorenzo,-4.85,-80.25,1999,12,1.0,san_lorenzo
+Ayabaca,-4.64,-79.71,1999,12,49.71,sierra_piura
+Huancabamba,-5.24,-79.45,1999,12,55.79,sierra_piura
+Chulucanas,-5.09,-80.16,1999,12,3.47,alto_piura
+Bajo Piura,-5.42,-80.74,2000,1,0.48,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,1,1.64,chira
+San Lorenzo,-4.85,-80.25,2000,1,16.77,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,1,19.91,sierra_piura
+Huancabamba,-5.24,-79.45,2000,1,52.96,sierra_piura
+Chulucanas,-5.09,-80.16,2000,1,22.9,alto_piura
+Bajo Piura,-5.42,-80.74,2000,2,6.94,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,2,31.21,chira
+San Lorenzo,-4.85,-80.25,2000,2,68.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,2,212.06,sierra_piura
+Huancabamba,-5.24,-79.45,2000,2,122.15,sierra_piura
+Chulucanas,-5.09,-80.16,2000,2,128.16,alto_piura
+Bajo Piura,-5.42,-80.74,2000,3,0.57,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,3,2.41,chira
+San Lorenzo,-4.85,-80.25,2000,3,95.05,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,3,256.16,sierra_piura
+Huancabamba,-5.24,-79.45,2000,3,182.35,sierra_piura
+Chulucanas,-5.09,-80.16,2000,3,91.53,alto_piura
+Bajo Piura,-5.42,-80.74,2000,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2000,4,34.53,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,4,208.22,sierra_piura
+Huancabamba,-5.24,-79.45,2000,4,84.49,sierra_piura
+Chulucanas,-5.09,-80.16,2000,4,38.67,alto_piura
+Bajo Piura,-5.42,-80.74,2000,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2000,5,5.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,5,24.37,sierra_piura
+Huancabamba,-5.24,-79.45,2000,5,52.35,sierra_piura
+Chulucanas,-5.09,-80.16,2000,5,8.93,alto_piura
+Bajo Piura,-5.42,-80.74,2000,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2000,6,0.19,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,6,1.04,sierra_piura
+Huancabamba,-5.24,-79.45,2000,6,23.79,sierra_piura
+Chulucanas,-5.09,-80.16,2000,6,0.43,alto_piura
+Bajo Piura,-5.42,-80.74,2000,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2000,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,7,0.15,sierra_piura
+Huancabamba,-5.24,-79.45,2000,7,7.97,sierra_piura
+Chulucanas,-5.09,-80.16,2000,7,0.26,alto_piura
+Bajo Piura,-5.42,-80.74,2000,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,8,0.66,chira
+San Lorenzo,-4.85,-80.25,2000,8,2.04,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,8,1.78,sierra_piura
+Huancabamba,-5.24,-79.45,2000,8,14.37,sierra_piura
+Chulucanas,-5.09,-80.16,2000,8,2.21,alto_piura
+Bajo Piura,-5.42,-80.74,2000,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2000,9,0.75,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,9,15.52,sierra_piura
+Huancabamba,-5.24,-79.45,2000,9,33.78,sierra_piura
+Chulucanas,-5.09,-80.16,2000,9,3.56,alto_piura
+Bajo Piura,-5.42,-80.74,2000,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2000,10,0.38,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,10,9.02,sierra_piura
+Huancabamba,-5.24,-79.45,2000,10,14.31,sierra_piura
+Chulucanas,-5.09,-80.16,2000,10,1.07,alto_piura
+Bajo Piura,-5.42,-80.74,2000,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2000,11,0.74,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,11,8.48,sierra_piura
+Huancabamba,-5.24,-79.45,2000,11,14.71,sierra_piura
+Chulucanas,-5.09,-80.16,2000,11,0.8,alto_piura
+Bajo Piura,-5.42,-80.74,2000,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2000,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2000,12,1.7,san_lorenzo
+Ayabaca,-4.64,-79.71,2000,12,53.64,sierra_piura
+Huancabamba,-5.24,-79.45,2000,12,52.04,sierra_piura
+Chulucanas,-5.09,-80.16,2000,12,6.28,alto_piura
+Bajo Piura,-5.42,-80.74,2001,1,0.37,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,1,2.12,chira
+San Lorenzo,-4.85,-80.25,2001,1,26.07,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,1,26.13,sierra_piura
+Huancabamba,-5.24,-79.45,2001,1,68.17,sierra_piura
+Chulucanas,-5.09,-80.16,2001,1,37.01,alto_piura
+Bajo Piura,-5.42,-80.74,2001,2,4.96,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,2,19.43,chira
+San Lorenzo,-4.85,-80.25,2001,2,49.84,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,2,166.01,sierra_piura
+Huancabamba,-5.24,-79.45,2001,2,72.67,sierra_piura
+Chulucanas,-5.09,-80.16,2001,2,79.9,alto_piura
+Bajo Piura,-5.42,-80.74,2001,3,0.62,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,3,2.64,chira
+San Lorenzo,-4.85,-80.25,2001,3,241.95,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,3,289.48,sierra_piura
+Huancabamba,-5.24,-79.45,2001,3,104.0,sierra_piura
+Chulucanas,-5.09,-80.16,2001,3,152.21,alto_piura
+Bajo Piura,-5.42,-80.74,2001,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2001,4,21.17,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,4,115.66,sierra_piura
+Huancabamba,-5.24,-79.45,2001,4,49.13,sierra_piura
+Chulucanas,-5.09,-80.16,2001,4,38.83,alto_piura
+Bajo Piura,-5.42,-80.74,2001,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2001,5,1.16,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,5,12.48,sierra_piura
+Huancabamba,-5.24,-79.45,2001,5,22.65,sierra_piura
+Chulucanas,-5.09,-80.16,2001,5,3.67,alto_piura
+Bajo Piura,-5.42,-80.74,2001,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2001,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,6,0.74,sierra_piura
+Huancabamba,-5.24,-79.45,2001,6,10.34,sierra_piura
+Chulucanas,-5.09,-80.16,2001,6,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2001,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2001,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,2001,7,8.31,sierra_piura
+Chulucanas,-5.09,-80.16,2001,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,2001,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,8,0.67,chira
+San Lorenzo,-4.85,-80.25,2001,8,2.04,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,8,1.51,sierra_piura
+Huancabamba,-5.24,-79.45,2001,8,10.23,sierra_piura
+Chulucanas,-5.09,-80.16,2001,8,2.16,alto_piura
+Bajo Piura,-5.42,-80.74,2001,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2001,9,0.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,9,8.81,sierra_piura
+Huancabamba,-5.24,-79.45,2001,9,18.89,sierra_piura
+Chulucanas,-5.09,-80.16,2001,9,2.98,alto_piura
+Bajo Piura,-5.42,-80.74,2001,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2001,10,0.39,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,10,15.47,sierra_piura
+Huancabamba,-5.24,-79.45,2001,10,34.97,sierra_piura
+Chulucanas,-5.09,-80.16,2001,10,1.29,alto_piura
+Bajo Piura,-5.42,-80.74,2001,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2001,11,1.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,11,48.12,sierra_piura
+Huancabamba,-5.24,-79.45,2001,11,81.45,sierra_piura
+Chulucanas,-5.09,-80.16,2001,11,1.84,alto_piura
+Bajo Piura,-5.42,-80.74,2001,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2001,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2001,12,1.18,san_lorenzo
+Ayabaca,-4.64,-79.71,2001,12,46.56,sierra_piura
+Huancabamba,-5.24,-79.45,2001,12,43.9,sierra_piura
+Chulucanas,-5.09,-80.16,2001,12,3.47,alto_piura
+Bajo Piura,-5.42,-80.74,2002,1,0.29,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,1,1.19,chira
+San Lorenzo,-4.85,-80.25,2002,1,9.22,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,1,11.95,sierra_piura
+Huancabamba,-5.24,-79.45,2002,1,46.88,sierra_piura
+Chulucanas,-5.09,-80.16,2002,1,12.55,alto_piura
+Bajo Piura,-5.42,-80.74,2002,2,5.36,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,2,15.6,chira
+San Lorenzo,-4.85,-80.25,2002,2,40.94,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,2,233.62,sierra_piura
+Huancabamba,-5.24,-79.45,2002,2,103.86,sierra_piura
+Chulucanas,-5.09,-80.16,2002,2,82.04,alto_piura
+Bajo Piura,-5.42,-80.74,2002,3,0.95,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,3,3.94,chira
+San Lorenzo,-4.85,-80.25,2002,3,389.48,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,3,427.63,sierra_piura
+Huancabamba,-5.24,-79.45,2002,3,92.94,sierra_piura
+Chulucanas,-5.09,-80.16,2002,3,262.4,alto_piura
+Bajo Piura,-5.42,-80.74,2002,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2002,4,64.25,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,4,156.88,sierra_piura
+Huancabamba,-5.24,-79.45,2002,4,102.71,sierra_piura
+Chulucanas,-5.09,-80.16,2002,4,85.57,alto_piura
+Bajo Piura,-5.42,-80.74,2002,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2002,5,1.22,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,5,12.66,sierra_piura
+Huancabamba,-5.24,-79.45,2002,5,29.44,sierra_piura
+Chulucanas,-5.09,-80.16,2002,5,3.59,alto_piura
+Bajo Piura,-5.42,-80.74,2002,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2002,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,6,0.6,sierra_piura
+Huancabamba,-5.24,-79.45,2002,6,9.54,sierra_piura
+Chulucanas,-5.09,-80.16,2002,6,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2002,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2002,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,2002,7,6.91,sierra_piura
+Chulucanas,-5.09,-80.16,2002,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,2002,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,8,0.67,chira
+San Lorenzo,-4.85,-80.25,2002,8,2.04,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,8,1.44,sierra_piura
+Huancabamba,-5.24,-79.45,2002,8,7.77,sierra_piura
+Chulucanas,-5.09,-80.16,2002,8,2.15,alto_piura
+Bajo Piura,-5.42,-80.74,2002,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2002,9,0.71,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,9,5.71,sierra_piura
+Huancabamba,-5.24,-79.45,2002,9,6.18,sierra_piura
+Chulucanas,-5.09,-80.16,2002,9,2.18,alto_piura
+Bajo Piura,-5.42,-80.74,2002,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2002,10,1.02,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,10,41.92,sierra_piura
+Huancabamba,-5.24,-79.45,2002,10,74.55,sierra_piura
+Chulucanas,-5.09,-80.16,2002,10,3.09,alto_piura
+Bajo Piura,-5.42,-80.74,2002,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2002,11,1.52,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,11,37.98,sierra_piura
+Huancabamba,-5.24,-79.45,2002,11,47.09,sierra_piura
+Chulucanas,-5.09,-80.16,2002,11,1.43,alto_piura
+Bajo Piura,-5.42,-80.74,2002,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2002,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2002,12,0.99,san_lorenzo
+Ayabaca,-4.64,-79.71,2002,12,39.94,sierra_piura
+Huancabamba,-5.24,-79.45,2002,12,44.96,sierra_piura
+Chulucanas,-5.09,-80.16,2002,12,2.85,alto_piura
+Bajo Piura,-5.42,-80.74,2003,1,0.39,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,1,1.83,chira
+San Lorenzo,-4.85,-80.25,2003,1,22.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,1,29.39,sierra_piura
+Huancabamba,-5.24,-79.45,2003,1,51.04,sierra_piura
+Chulucanas,-5.09,-80.16,2003,1,33.33,alto_piura
+Bajo Piura,-5.42,-80.74,2003,2,8.37,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,2,19.81,chira
+San Lorenzo,-4.85,-80.25,2003,2,35.96,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,2,128.26,sierra_piura
+Huancabamba,-5.24,-79.45,2003,2,71.3,sierra_piura
+Chulucanas,-5.09,-80.16,2003,2,66.42,alto_piura
+Bajo Piura,-5.42,-80.74,2003,3,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,3,1.55,chira
+San Lorenzo,-4.85,-80.25,2003,3,35.92,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,3,164.05,sierra_piura
+Huancabamba,-5.24,-79.45,2003,3,89.62,sierra_piura
+Chulucanas,-5.09,-80.16,2003,3,29.42,alto_piura
+Bajo Piura,-5.42,-80.74,2003,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2003,4,4.19,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,4,52.46,sierra_piura
+Huancabamba,-5.24,-79.45,2003,4,46.08,sierra_piura
+Chulucanas,-5.09,-80.16,2003,4,10.62,alto_piura
+Bajo Piura,-5.42,-80.74,2003,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2003,5,1.45,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,5,8.95,sierra_piura
+Huancabamba,-5.24,-79.45,2003,5,23.8,sierra_piura
+Chulucanas,-5.09,-80.16,2003,5,3.23,alto_piura
+Bajo Piura,-5.42,-80.74,2003,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2003,6,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,6,0.77,sierra_piura
+Huancabamba,-5.24,-79.45,2003,6,11.29,sierra_piura
+Chulucanas,-5.09,-80.16,2003,6,0.34,alto_piura
+Bajo Piura,-5.42,-80.74,2003,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2003,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,7,0.15,sierra_piura
+Huancabamba,-5.24,-79.45,2003,7,6.93,sierra_piura
+Chulucanas,-5.09,-80.16,2003,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,2003,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,8,0.68,chira
+San Lorenzo,-4.85,-80.25,2003,8,2.03,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,8,1.43,sierra_piura
+Huancabamba,-5.24,-79.45,2003,8,6.64,sierra_piura
+Chulucanas,-5.09,-80.16,2003,8,2.14,alto_piura
+Bajo Piura,-5.42,-80.74,2003,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2003,9,0.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,9,6.13,sierra_piura
+Huancabamba,-5.24,-79.45,2003,9,8.49,sierra_piura
+Chulucanas,-5.09,-80.16,2003,9,2.24,alto_piura
+Bajo Piura,-5.42,-80.74,2003,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2003,10,0.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,10,17.3,sierra_piura
+Huancabamba,-5.24,-79.45,2003,10,27.77,sierra_piura
+Chulucanas,-5.09,-80.16,2003,10,1.22,alto_piura
+Bajo Piura,-5.42,-80.74,2003,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2003,11,0.76,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,11,16.95,sierra_piura
+Huancabamba,-5.24,-79.45,2003,11,38.81,sierra_piura
+Chulucanas,-5.09,-80.16,2003,11,0.91,alto_piura
+Bajo Piura,-5.42,-80.74,2003,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2003,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2003,12,0.68,san_lorenzo
+Ayabaca,-4.64,-79.71,2003,12,35.6,sierra_piura
+Huancabamba,-5.24,-79.45,2003,12,43.45,sierra_piura
+Chulucanas,-5.09,-80.16,2003,12,2.26,alto_piura
+Bajo Piura,-5.42,-80.74,2004,1,0.42,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,1,2.09,chira
+San Lorenzo,-4.85,-80.25,2004,1,21.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,1,17.42,sierra_piura
+Huancabamba,-5.24,-79.45,2004,1,44.43,sierra_piura
+Chulucanas,-5.09,-80.16,2004,1,31.2,alto_piura
+Bajo Piura,-5.42,-80.74,2004,2,4.03,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,2,10.07,chira
+San Lorenzo,-4.85,-80.25,2004,2,28.57,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,2,133.52,sierra_piura
+Huancabamba,-5.24,-79.45,2004,2,36.72,sierra_piura
+Chulucanas,-5.09,-80.16,2004,2,41.67,alto_piura
+Bajo Piura,-5.42,-80.74,2004,3,0.26,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,3,0.94,chira
+San Lorenzo,-4.85,-80.25,2004,3,22.49,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,3,127.44,sierra_piura
+Huancabamba,-5.24,-79.45,2004,3,76.88,sierra_piura
+Chulucanas,-5.09,-80.16,2004,3,23.77,alto_piura
+Bajo Piura,-5.42,-80.74,2004,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2004,4,8.79,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,4,119.38,sierra_piura
+Huancabamba,-5.24,-79.45,2004,4,69.93,sierra_piura
+Chulucanas,-5.09,-80.16,2004,4,28.47,alto_piura
+Bajo Piura,-5.42,-80.74,2004,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2004,5,2.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,5,20.55,sierra_piura
+Huancabamba,-5.24,-79.45,2004,5,30.13,sierra_piura
+Chulucanas,-5.09,-80.16,2004,5,4.97,alto_piura
+Bajo Piura,-5.42,-80.74,2004,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2004,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,6,0.59,sierra_piura
+Huancabamba,-5.24,-79.45,2004,6,8.51,sierra_piura
+Chulucanas,-5.09,-80.16,2004,6,0.31,alto_piura
+Bajo Piura,-5.42,-80.74,2004,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2004,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,2004,7,5.46,sierra_piura
+Chulucanas,-5.09,-80.16,2004,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,2004,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,8,0.67,chira
+San Lorenzo,-4.85,-80.25,2004,8,2.0,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,8,1.6,sierra_piura
+Huancabamba,-5.24,-79.45,2004,8,7.94,sierra_piura
+Chulucanas,-5.09,-80.16,2004,8,2.41,alto_piura
+Bajo Piura,-5.42,-80.74,2004,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2004,9,0.94,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,9,15.27,sierra_piura
+Huancabamba,-5.24,-79.45,2004,9,10.27,sierra_piura
+Chulucanas,-5.09,-80.16,2004,9,3.21,alto_piura
+Bajo Piura,-5.42,-80.74,2004,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2004,10,0.68,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,10,27.28,sierra_piura
+Huancabamba,-5.24,-79.45,2004,10,76.48,sierra_piura
+Chulucanas,-5.09,-80.16,2004,10,3.16,alto_piura
+Bajo Piura,-5.42,-80.74,2004,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2004,11,0.69,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,11,28.69,sierra_piura
+Huancabamba,-5.24,-79.45,2004,11,49.14,sierra_piura
+Chulucanas,-5.09,-80.16,2004,11,0.89,alto_piura
+Bajo Piura,-5.42,-80.74,2004,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2004,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2004,12,1.03,san_lorenzo
+Ayabaca,-4.64,-79.71,2004,12,49.69,sierra_piura
+Huancabamba,-5.24,-79.45,2004,12,65.82,sierra_piura
+Chulucanas,-5.09,-80.16,2004,12,4.33,alto_piura
+Bajo Piura,-5.42,-80.74,2005,1,0.32,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,1,1.34,chira
+San Lorenzo,-4.85,-80.25,2005,1,10.33,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,1,17.36,sierra_piura
+Huancabamba,-5.24,-79.45,2005,1,37.63,sierra_piura
+Chulucanas,-5.09,-80.16,2005,1,18.18,alto_piura
+Bajo Piura,-5.42,-80.74,2005,2,3.78,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,2,9.92,chira
+San Lorenzo,-4.85,-80.25,2005,2,22.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,2,142.43,sierra_piura
+Huancabamba,-5.24,-79.45,2005,2,110.53,sierra_piura
+Chulucanas,-5.09,-80.16,2005,2,50.08,alto_piura
+Bajo Piura,-5.42,-80.74,2005,3,0.87,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,3,1.9,chira
+San Lorenzo,-4.85,-80.25,2005,3,103.23,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,3,333.76,sierra_piura
+Huancabamba,-5.24,-79.45,2005,3,160.66,sierra_piura
+Chulucanas,-5.09,-80.16,2005,3,101.55,alto_piura
+Bajo Piura,-5.42,-80.74,2005,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2005,4,3.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,4,60.83,sierra_piura
+Huancabamba,-5.24,-79.45,2005,4,55.6,sierra_piura
+Chulucanas,-5.09,-80.16,2005,4,9.42,alto_piura
+Bajo Piura,-5.42,-80.74,2005,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2005,5,1.41,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,5,16.78,sierra_piura
+Huancabamba,-5.24,-79.45,2005,5,26.92,sierra_piura
+Chulucanas,-5.09,-80.16,2005,5,3.11,alto_piura
+Bajo Piura,-5.42,-80.74,2005,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2005,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,6,0.71,sierra_piura
+Huancabamba,-5.24,-79.45,2005,6,13.12,sierra_piura
+Chulucanas,-5.09,-80.16,2005,6,0.31,alto_piura
+Bajo Piura,-5.42,-80.74,2005,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2005,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,2005,7,7.08,sierra_piura
+Chulucanas,-5.09,-80.16,2005,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,2005,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,8,0.68,chira
+San Lorenzo,-4.85,-80.25,2005,8,2.03,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,8,1.42,sierra_piura
+Huancabamba,-5.24,-79.45,2005,8,5.99,sierra_piura
+Chulucanas,-5.09,-80.16,2005,8,2.14,alto_piura
+Bajo Piura,-5.42,-80.74,2005,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2005,9,0.71,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,9,6.35,sierra_piura
+Huancabamba,-5.24,-79.45,2005,9,10.94,sierra_piura
+Chulucanas,-5.09,-80.16,2005,9,2.4,alto_piura
+Bajo Piura,-5.42,-80.74,2005,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2005,10,0.38,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,10,23.95,sierra_piura
+Huancabamba,-5.24,-79.45,2005,10,48.47,sierra_piura
+Chulucanas,-5.09,-80.16,2005,10,1.88,alto_piura
+Bajo Piura,-5.42,-80.74,2005,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2005,11,1.2,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,11,13.49,sierra_piura
+Huancabamba,-5.24,-79.45,2005,11,36.04,sierra_piura
+Chulucanas,-5.09,-80.16,2005,11,1.09,alto_piura
+Bajo Piura,-5.42,-80.74,2005,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2005,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2005,12,0.85,san_lorenzo
+Ayabaca,-4.64,-79.71,2005,12,33.54,sierra_piura
+Huancabamba,-5.24,-79.45,2005,12,63.8,sierra_piura
+Chulucanas,-5.09,-80.16,2005,12,3.2,alto_piura
+Bajo Piura,-5.42,-80.74,2006,1,0.3,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,1,1.52,chira
+San Lorenzo,-4.85,-80.25,2006,1,22.06,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,1,33.76,sierra_piura
+Huancabamba,-5.24,-79.45,2006,1,52.49,sierra_piura
+Chulucanas,-5.09,-80.16,2006,1,28.89,alto_piura
+Bajo Piura,-5.42,-80.74,2006,2,18.19,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,2,79.96,chira
+San Lorenzo,-4.85,-80.25,2006,2,164.17,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,2,294.96,sierra_piura
+Huancabamba,-5.24,-79.45,2006,2,135.57,sierra_piura
+Chulucanas,-5.09,-80.16,2006,2,198.04,alto_piura
+Bajo Piura,-5.42,-80.74,2006,3,1.27,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,3,3.34,chira
+San Lorenzo,-4.85,-80.25,2006,3,108.51,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,3,302.18,sierra_piura
+Huancabamba,-5.24,-79.45,2006,3,190.99,sierra_piura
+Chulucanas,-5.09,-80.16,2006,3,97.17,alto_piura
+Bajo Piura,-5.42,-80.74,2006,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2006,4,13.91,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,4,153.28,sierra_piura
+Huancabamba,-5.24,-79.45,2006,4,63.89,sierra_piura
+Chulucanas,-5.09,-80.16,2006,4,32.15,alto_piura
+Bajo Piura,-5.42,-80.74,2006,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2006,5,1.12,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,5,8.79,sierra_piura
+Huancabamba,-5.24,-79.45,2006,5,18.45,sierra_piura
+Chulucanas,-5.09,-80.16,2006,5,3.52,alto_piura
+Bajo Piura,-5.42,-80.74,2006,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2006,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,6,1.1,sierra_piura
+Huancabamba,-5.24,-79.45,2006,6,14.43,sierra_piura
+Chulucanas,-5.09,-80.16,2006,6,0.31,alto_piura
+Bajo Piura,-5.42,-80.74,2006,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2006,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,7,0.2,sierra_piura
+Huancabamba,-5.24,-79.45,2006,7,7.02,sierra_piura
+Chulucanas,-5.09,-80.16,2006,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,2006,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,8,0.67,chira
+San Lorenzo,-4.85,-80.25,2006,8,2.06,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,8,1.52,sierra_piura
+Huancabamba,-5.24,-79.45,2006,8,10.2,sierra_piura
+Chulucanas,-5.09,-80.16,2006,8,2.2,alto_piura
+Bajo Piura,-5.42,-80.74,2006,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2006,9,0.72,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,9,7.53,sierra_piura
+Huancabamba,-5.24,-79.45,2006,9,6.92,sierra_piura
+Chulucanas,-5.09,-80.16,2006,9,2.32,alto_piura
+Bajo Piura,-5.42,-80.74,2006,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2006,10,0.35,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,10,15.28,sierra_piura
+Huancabamba,-5.24,-79.45,2006,10,42.42,sierra_piura
+Chulucanas,-5.09,-80.16,2006,10,1.56,alto_piura
+Bajo Piura,-5.42,-80.74,2006,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2006,11,0.91,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,11,24.43,sierra_piura
+Huancabamba,-5.24,-79.45,2006,11,50.6,sierra_piura
+Chulucanas,-5.09,-80.16,2006,11,1.04,alto_piura
+Bajo Piura,-5.42,-80.74,2006,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2006,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2006,12,0.99,san_lorenzo
+Ayabaca,-4.64,-79.71,2006,12,51.64,sierra_piura
+Huancabamba,-5.24,-79.45,2006,12,55.44,sierra_piura
+Chulucanas,-5.09,-80.16,2006,12,3.25,alto_piura
+Bajo Piura,-5.42,-80.74,2007,1,0.39,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,1,1.92,chira
+San Lorenzo,-4.85,-80.25,2007,1,19.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,1,23.13,sierra_piura
+Huancabamba,-5.24,-79.45,2007,1,48.74,sierra_piura
+Chulucanas,-5.09,-80.16,2007,1,27.04,alto_piura
+Bajo Piura,-5.42,-80.74,2007,2,4.81,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,2,10.68,chira
+San Lorenzo,-4.85,-80.25,2007,2,19.5,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,2,84.74,sierra_piura
+Huancabamba,-5.24,-79.45,2007,2,54.33,sierra_piura
+Chulucanas,-5.09,-80.16,2007,2,28.86,alto_piura
+Bajo Piura,-5.42,-80.74,2007,3,0.32,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,3,1.3,chira
+San Lorenzo,-4.85,-80.25,2007,3,88.64,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,3,296.94,sierra_piura
+Huancabamba,-5.24,-79.45,2007,3,111.71,sierra_piura
+Chulucanas,-5.09,-80.16,2007,3,64.61,alto_piura
+Bajo Piura,-5.42,-80.74,2007,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2007,4,11.08,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,4,125.11,sierra_piura
+Huancabamba,-5.24,-79.45,2007,4,65.27,sierra_piura
+Chulucanas,-5.09,-80.16,2007,4,20.78,alto_piura
+Bajo Piura,-5.42,-80.74,2007,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2007,5,1.39,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,5,19.97,sierra_piura
+Huancabamba,-5.24,-79.45,2007,5,38.72,sierra_piura
+Chulucanas,-5.09,-80.16,2007,5,3.53,alto_piura
+Bajo Piura,-5.42,-80.74,2007,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2007,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,6,0.62,sierra_piura
+Huancabamba,-5.24,-79.45,2007,6,11.63,sierra_piura
+Chulucanas,-5.09,-80.16,2007,6,0.34,alto_piura
+Bajo Piura,-5.42,-80.74,2007,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2007,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,7,0.14,sierra_piura
+Huancabamba,-5.24,-79.45,2007,7,6.74,sierra_piura
+Chulucanas,-5.09,-80.16,2007,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,2007,8,1.14,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,8,0.67,chira
+San Lorenzo,-4.85,-80.25,2007,8,2.01,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,8,1.71,sierra_piura
+Huancabamba,-5.24,-79.45,2007,8,13.75,sierra_piura
+Chulucanas,-5.09,-80.16,2007,8,2.19,alto_piura
+Bajo Piura,-5.42,-80.74,2007,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2007,9,0.69,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,9,5.79,sierra_piura
+Huancabamba,-5.24,-79.45,2007,9,7.28,sierra_piura
+Chulucanas,-5.09,-80.16,2007,9,2.48,alto_piura
+Bajo Piura,-5.42,-80.74,2007,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2007,10,0.65,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,10,28.83,sierra_piura
+Huancabamba,-5.24,-79.45,2007,10,77.28,sierra_piura
+Chulucanas,-5.09,-80.16,2007,10,2.91,alto_piura
+Bajo Piura,-5.42,-80.74,2007,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2007,11,0.87,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,11,16.43,sierra_piura
+Huancabamba,-5.24,-79.45,2007,11,66.21,sierra_piura
+Chulucanas,-5.09,-80.16,2007,11,0.99,alto_piura
+Bajo Piura,-5.42,-80.74,2007,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2007,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2007,12,0.62,san_lorenzo
+Ayabaca,-4.64,-79.71,2007,12,25.53,sierra_piura
+Huancabamba,-5.24,-79.45,2007,12,46.33,sierra_piura
+Chulucanas,-5.09,-80.16,2007,12,1.98,alto_piura
+Bajo Piura,-5.42,-80.74,2008,1,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,1,2.21,chira
+San Lorenzo,-4.85,-80.25,2008,1,23.84,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,1,26.46,sierra_piura
+Huancabamba,-5.24,-79.45,2008,1,56.65,sierra_piura
+Chulucanas,-5.09,-80.16,2008,1,32.18,alto_piura
+Bajo Piura,-5.42,-80.74,2008,2,26.77,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,2,79.13,chira
+San Lorenzo,-4.85,-80.25,2008,2,80.39,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,2,279.83,sierra_piura
+Huancabamba,-5.24,-79.45,2008,2,180.1,sierra_piura
+Chulucanas,-5.09,-80.16,2008,2,121.97,alto_piura
+Bajo Piura,-5.42,-80.74,2008,3,2.19,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,3,5.49,chira
+San Lorenzo,-4.85,-80.25,2008,3,127.08,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,3,225.16,sierra_piura
+Huancabamba,-5.24,-79.45,2008,3,157.6,sierra_piura
+Chulucanas,-5.09,-80.16,2008,3,113.93,alto_piura
+Bajo Piura,-5.42,-80.74,2008,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2008,4,21.68,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,4,121.98,sierra_piura
+Huancabamba,-5.24,-79.45,2008,4,67.98,sierra_piura
+Chulucanas,-5.09,-80.16,2008,4,34.9,alto_piura
+Bajo Piura,-5.42,-80.74,2008,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2008,5,1.69,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,5,24.74,sierra_piura
+Huancabamba,-5.24,-79.45,2008,5,48.93,sierra_piura
+Chulucanas,-5.09,-80.16,2008,5,4.86,alto_piura
+Bajo Piura,-5.42,-80.74,2008,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2008,6,0.27,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,6,1.66,sierra_piura
+Huancabamba,-5.24,-79.45,2008,6,18.36,sierra_piura
+Chulucanas,-5.09,-80.16,2008,6,0.45,alto_piura
+Bajo Piura,-5.42,-80.74,2008,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,7,0.03,chira
+San Lorenzo,-4.85,-80.25,2008,7,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,7,0.16,sierra_piura
+Huancabamba,-5.24,-79.45,2008,7,7.33,sierra_piura
+Chulucanas,-5.09,-80.16,2008,7,0.27,alto_piura
+Bajo Piura,-5.42,-80.74,2008,8,1.13,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,8,0.69,chira
+San Lorenzo,-4.85,-80.25,2008,8,2.46,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,8,4.75,sierra_piura
+Huancabamba,-5.24,-79.45,2008,8,24.6,sierra_piura
+Chulucanas,-5.09,-80.16,2008,8,4.84,alto_piura
+Bajo Piura,-5.42,-80.74,2008,9,0.42,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2008,9,0.94,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,9,10.6,sierra_piura
+Huancabamba,-5.24,-79.45,2008,9,9.13,sierra_piura
+Chulucanas,-5.09,-80.16,2008,9,3.88,alto_piura
+Bajo Piura,-5.42,-80.74,2008,10,0.04,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2008,10,1.03,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,10,51.83,sierra_piura
+Huancabamba,-5.24,-79.45,2008,10,54.13,sierra_piura
+Chulucanas,-5.09,-80.16,2008,10,4.76,alto_piura
+Bajo Piura,-5.42,-80.74,2008,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2008,11,0.97,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,11,32.43,sierra_piura
+Huancabamba,-5.24,-79.45,2008,11,62.08,sierra_piura
+Chulucanas,-5.09,-80.16,2008,11,1.31,alto_piura
+Bajo Piura,-5.42,-80.74,2008,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2008,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2008,12,0.77,san_lorenzo
+Ayabaca,-4.64,-79.71,2008,12,22.78,sierra_piura
+Huancabamba,-5.24,-79.45,2008,12,24.25,sierra_piura
+Chulucanas,-5.09,-80.16,2008,12,2.62,alto_piura
+Bajo Piura,-5.42,-80.74,2009,1,0.53,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,1,3.26,chira
+San Lorenzo,-4.85,-80.25,2009,1,42.81,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,1,45.92,sierra_piura
+Huancabamba,-5.24,-79.45,2009,1,67.84,sierra_piura
+Chulucanas,-5.09,-80.16,2009,1,52.07,alto_piura
+Bajo Piura,-5.42,-80.74,2009,2,22.45,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,2,57.48,chira
+San Lorenzo,-4.85,-80.25,2009,2,74.96,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,2,172.74,sierra_piura
+Huancabamba,-5.24,-79.45,2009,2,111.24,sierra_piura
+Chulucanas,-5.09,-80.16,2009,2,83.82,alto_piura
+Bajo Piura,-5.42,-80.74,2009,3,0.65,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,3,2.03,chira
+San Lorenzo,-4.85,-80.25,2009,3,78.7,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,3,194.15,sierra_piura
+Huancabamba,-5.24,-79.45,2009,3,111.09,sierra_piura
+Chulucanas,-5.09,-80.16,2009,3,51.96,alto_piura
+Bajo Piura,-5.42,-80.74,2009,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2009,4,7.35,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,4,86.0,sierra_piura
+Huancabamba,-5.24,-79.45,2009,4,61.29,sierra_piura
+Chulucanas,-5.09,-80.16,2009,4,18.25,alto_piura
+Bajo Piura,-5.42,-80.74,2009,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2009,5,6.17,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,5,19.96,sierra_piura
+Huancabamba,-5.24,-79.45,2009,5,33.83,sierra_piura
+Chulucanas,-5.09,-80.16,2009,5,8.22,alto_piura
+Bajo Piura,-5.42,-80.74,2009,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2009,6,0.2,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,6,0.86,sierra_piura
+Huancabamba,-5.24,-79.45,2009,6,12.35,sierra_piura
+Chulucanas,-5.09,-80.16,2009,6,0.46,alto_piura
+Bajo Piura,-5.42,-80.74,2009,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2009,7,0.17,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,7,0.26,sierra_piura
+Huancabamba,-5.24,-79.45,2009,7,10.79,sierra_piura
+Chulucanas,-5.09,-80.16,2009,7,0.36,alto_piura
+Bajo Piura,-5.42,-80.74,2009,8,1.13,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,8,0.67,chira
+San Lorenzo,-4.85,-80.25,2009,8,2.84,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,8,3.64,sierra_piura
+Huancabamba,-5.24,-79.45,2009,8,13.6,sierra_piura
+Chulucanas,-5.09,-80.16,2009,8,3.56,alto_piura
+Bajo Piura,-5.42,-80.74,2009,9,0.42,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2009,9,0.8,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,9,13.33,sierra_piura
+Huancabamba,-5.24,-79.45,2009,9,14.05,sierra_piura
+Chulucanas,-5.09,-80.16,2009,9,3.28,alto_piura
+Bajo Piura,-5.42,-80.74,2009,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2009,10,0.41,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,10,16.77,sierra_piura
+Huancabamba,-5.24,-79.45,2009,10,18.45,sierra_piura
+Chulucanas,-5.09,-80.16,2009,10,1.42,alto_piura
+Bajo Piura,-5.42,-80.74,2009,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2009,11,1.26,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,11,33.22,sierra_piura
+Huancabamba,-5.24,-79.45,2009,11,39.94,sierra_piura
+Chulucanas,-5.09,-80.16,2009,11,1.7,alto_piura
+Bajo Piura,-5.42,-80.74,2009,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2009,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2009,12,1.12,san_lorenzo
+Ayabaca,-4.64,-79.71,2009,12,46.11,sierra_piura
+Huancabamba,-5.24,-79.45,2009,12,46.78,sierra_piura
+Chulucanas,-5.09,-80.16,2009,12,4.39,alto_piura
+Bajo Piura,-5.42,-80.74,2010,1,0.47,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,1,1.94,chira
+San Lorenzo,-4.85,-80.25,2010,1,21.52,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,1,28.32,sierra_piura
+Huancabamba,-5.24,-79.45,2010,1,57.06,sierra_piura
+Chulucanas,-5.09,-80.16,2010,1,31.46,alto_piura
+Bajo Piura,-5.42,-80.74,2010,2,12.37,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,2,37.59,chira
+San Lorenzo,-4.85,-80.25,2010,2,70.84,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,2,207.42,sierra_piura
+Huancabamba,-5.24,-79.45,2010,2,122.25,sierra_piura
+Chulucanas,-5.09,-80.16,2010,2,106.09,alto_piura
+Bajo Piura,-5.42,-80.74,2010,3,0.39,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,3,1.52,chira
+San Lorenzo,-4.85,-80.25,2010,3,77.35,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,3,151.15,sierra_piura
+Huancabamba,-5.24,-79.45,2010,3,92.5,sierra_piura
+Chulucanas,-5.09,-80.16,2010,3,63.04,alto_piura
+Bajo Piura,-5.42,-80.74,2010,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2010,4,7.08,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,4,74.36,sierra_piura
+Huancabamba,-5.24,-79.45,2010,4,45.81,sierra_piura
+Chulucanas,-5.09,-80.16,2010,4,17.64,alto_piura
+Bajo Piura,-5.42,-80.74,2010,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2010,5,2.0,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,5,24.98,sierra_piura
+Huancabamba,-5.24,-79.45,2010,5,39.25,sierra_piura
+Chulucanas,-5.09,-80.16,2010,5,6.64,alto_piura
+Bajo Piura,-5.42,-80.74,2010,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2010,6,0.25,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,6,1.84,sierra_piura
+Huancabamba,-5.24,-79.45,2010,6,29.85,sierra_piura
+Chulucanas,-5.09,-80.16,2010,6,0.55,alto_piura
+Bajo Piura,-5.42,-80.74,2010,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2010,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,7,0.11,sierra_piura
+Huancabamba,-5.24,-79.45,2010,7,4.56,sierra_piura
+Chulucanas,-5.09,-80.16,2010,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,2010,8,1.1,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,8,0.63,chira
+San Lorenzo,-4.85,-80.25,2010,8,2.19,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,8,1.76,sierra_piura
+Huancabamba,-5.24,-79.45,2010,8,6.37,sierra_piura
+Chulucanas,-5.09,-80.16,2010,8,2.47,alto_piura
+Bajo Piura,-5.42,-80.74,2010,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,9,0.07,chira
+San Lorenzo,-4.85,-80.25,2010,9,1.32,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,9,13.77,sierra_piura
+Huancabamba,-5.24,-79.45,2010,9,14.59,sierra_piura
+Chulucanas,-5.09,-80.16,2010,9,7.32,alto_piura
+Bajo Piura,-5.42,-80.74,2010,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2010,10,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,10,25.08,sierra_piura
+Huancabamba,-5.24,-79.45,2010,10,29.04,sierra_piura
+Chulucanas,-5.09,-80.16,2010,10,3.57,alto_piura
+Bajo Piura,-5.42,-80.74,2010,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2010,11,1.53,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,11,26.48,sierra_piura
+Huancabamba,-5.24,-79.45,2010,11,40.85,sierra_piura
+Chulucanas,-5.09,-80.16,2010,11,1.37,alto_piura
+Bajo Piura,-5.42,-80.74,2010,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2010,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2010,12,1.0,san_lorenzo
+Ayabaca,-4.64,-79.71,2010,12,39.93,sierra_piura
+Huancabamba,-5.24,-79.45,2010,12,49.09,sierra_piura
+Chulucanas,-5.09,-80.16,2010,12,3.7,alto_piura
+Bajo Piura,-5.42,-80.74,2011,1,0.63,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,1,2.0,chira
+San Lorenzo,-4.85,-80.25,2011,1,24.07,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,1,23.72,sierra_piura
+Huancabamba,-5.24,-79.45,2011,1,46.83,sierra_piura
+Chulucanas,-5.09,-80.16,2011,1,39.12,alto_piura
+Bajo Piura,-5.42,-80.74,2011,2,12.41,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,2,45.76,chira
+San Lorenzo,-4.85,-80.25,2011,2,64.45,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,2,192.42,sierra_piura
+Huancabamba,-5.24,-79.45,2011,2,129.33,sierra_piura
+Chulucanas,-5.09,-80.16,2011,2,83.79,alto_piura
+Bajo Piura,-5.42,-80.74,2011,3,0.26,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,3,1.16,chira
+San Lorenzo,-4.85,-80.25,2011,3,48.62,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,3,152.63,sierra_piura
+Huancabamba,-5.24,-79.45,2011,3,90.99,sierra_piura
+Chulucanas,-5.09,-80.16,2011,3,35.15,alto_piura
+Bajo Piura,-5.42,-80.74,2011,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2011,4,28.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,4,132.44,sierra_piura
+Huancabamba,-5.24,-79.45,2011,4,52.71,sierra_piura
+Chulucanas,-5.09,-80.16,2011,4,24.0,alto_piura
+Bajo Piura,-5.42,-80.74,2011,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2011,5,1.33,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,5,8.15,sierra_piura
+Huancabamba,-5.24,-79.45,2011,5,17.76,sierra_piura
+Chulucanas,-5.09,-80.16,2011,5,4.59,alto_piura
+Bajo Piura,-5.42,-80.74,2011,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2011,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,6,0.58,sierra_piura
+Huancabamba,-5.24,-79.45,2011,6,8.59,sierra_piura
+Chulucanas,-5.09,-80.16,2011,6,0.33,alto_piura
+Bajo Piura,-5.42,-80.74,2011,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2011,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,2011,7,5.88,sierra_piura
+Chulucanas,-5.09,-80.16,2011,7,0.25,alto_piura
+Bajo Piura,-5.42,-80.74,2011,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,8,0.63,chira
+San Lorenzo,-4.85,-80.25,2011,8,2.2,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,8,2.03,sierra_piura
+Huancabamba,-5.24,-79.45,2011,8,8.21,sierra_piura
+Chulucanas,-5.09,-80.16,2011,8,2.59,alto_piura
+Bajo Piura,-5.42,-80.74,2011,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2011,9,0.8,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,9,10.73,sierra_piura
+Huancabamba,-5.24,-79.45,2011,9,9.52,sierra_piura
+Chulucanas,-5.09,-80.16,2011,9,4.0,alto_piura
+Bajo Piura,-5.42,-80.74,2011,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2011,10,0.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,10,16.72,sierra_piura
+Huancabamba,-5.24,-79.45,2011,10,27.55,sierra_piura
+Chulucanas,-5.09,-80.16,2011,10,1.68,alto_piura
+Bajo Piura,-5.42,-80.74,2011,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2011,11,1.36,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,11,25.19,sierra_piura
+Huancabamba,-5.24,-79.45,2011,11,52.01,sierra_piura
+Chulucanas,-5.09,-80.16,2011,11,1.2,alto_piura
+Bajo Piura,-5.42,-80.74,2011,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2011,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2011,12,0.76,san_lorenzo
+Ayabaca,-4.64,-79.71,2011,12,22.59,sierra_piura
+Huancabamba,-5.24,-79.45,2011,12,25.01,sierra_piura
+Chulucanas,-5.09,-80.16,2011,12,2.66,alto_piura
+Bajo Piura,-5.42,-80.74,2012,1,0.34,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,1,1.54,chira
+San Lorenzo,-4.85,-80.25,2012,1,16.12,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,1,15.7,sierra_piura
+Huancabamba,-5.24,-79.45,2012,1,36.31,sierra_piura
+Chulucanas,-5.09,-80.16,2012,1,20.48,alto_piura
+Bajo Piura,-5.42,-80.74,2012,2,27.62,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,2,108.19,chira
+San Lorenzo,-4.85,-80.25,2012,2,120.72,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,2,190.37,sierra_piura
+Huancabamba,-5.24,-79.45,2012,2,85.77,sierra_piura
+Chulucanas,-5.09,-80.16,2012,2,125.38,alto_piura
+Bajo Piura,-5.42,-80.74,2012,3,0.28,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,3,1.4,chira
+San Lorenzo,-4.85,-80.25,2012,3,103.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,3,196.04,sierra_piura
+Huancabamba,-5.24,-79.45,2012,3,71.57,sierra_piura
+Chulucanas,-5.09,-80.16,2012,3,63.46,alto_piura
+Bajo Piura,-5.42,-80.74,2012,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2012,4,22.65,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,4,89.02,sierra_piura
+Huancabamba,-5.24,-79.45,2012,4,61.26,sierra_piura
+Chulucanas,-5.09,-80.16,2012,4,32.47,alto_piura
+Bajo Piura,-5.42,-80.74,2012,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2012,5,1.57,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,5,8.99,sierra_piura
+Huancabamba,-5.24,-79.45,2012,5,17.46,sierra_piura
+Chulucanas,-5.09,-80.16,2012,5,3.54,alto_piura
+Bajo Piura,-5.42,-80.74,2012,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2012,6,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,6,0.56,sierra_piura
+Huancabamba,-5.24,-79.45,2012,6,9.35,sierra_piura
+Chulucanas,-5.09,-80.16,2012,6,0.33,alto_piura
+Bajo Piura,-5.42,-80.74,2012,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2012,7,0.13,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,2012,7,5.34,sierra_piura
+Chulucanas,-5.09,-80.16,2012,7,0.24,alto_piura
+Bajo Piura,-5.42,-80.74,2012,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,8,0.63,chira
+San Lorenzo,-4.85,-80.25,2012,8,2.22,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,8,2.07,sierra_piura
+Huancabamba,-5.24,-79.45,2012,8,8.21,sierra_piura
+Chulucanas,-5.09,-80.16,2012,8,2.61,alto_piura
+Bajo Piura,-5.42,-80.74,2012,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2012,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,9,6.39,sierra_piura
+Huancabamba,-5.24,-79.45,2012,9,7.32,sierra_piura
+Chulucanas,-5.09,-80.16,2012,9,3.0,alto_piura
+Bajo Piura,-5.42,-80.74,2012,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2012,10,0.67,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,10,34.55,sierra_piura
+Huancabamba,-5.24,-79.45,2012,10,49.53,sierra_piura
+Chulucanas,-5.09,-80.16,2012,10,2.95,alto_piura
+Bajo Piura,-5.42,-80.74,2012,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2012,11,1.91,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,11,26.38,sierra_piura
+Huancabamba,-5.24,-79.45,2012,11,28.57,sierra_piura
+Chulucanas,-5.09,-80.16,2012,11,1.32,alto_piura
+Bajo Piura,-5.42,-80.74,2012,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2012,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2012,12,1.36,san_lorenzo
+Ayabaca,-4.64,-79.71,2012,12,24.54,sierra_piura
+Huancabamba,-5.24,-79.45,2012,12,26.2,sierra_piura
+Chulucanas,-5.09,-80.16,2012,12,3.47,alto_piura
+Bajo Piura,-5.42,-80.74,2013,1,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,1,2.05,chira
+San Lorenzo,-4.85,-80.25,2013,1,26.2,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,1,15.29,sierra_piura
+Huancabamba,-5.24,-79.45,2013,1,31.13,sierra_piura
+Chulucanas,-5.09,-80.16,2013,1,31.35,alto_piura
+Bajo Piura,-5.42,-80.74,2013,2,6.91,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,2,28.68,chira
+San Lorenzo,-4.85,-80.25,2013,2,46.34,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,2,106.65,sierra_piura
+Huancabamba,-5.24,-79.45,2013,2,56.44,sierra_piura
+Chulucanas,-5.09,-80.16,2013,2,54.7,alto_piura
+Bajo Piura,-5.42,-80.74,2013,3,2.54,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,3,8.78,chira
+San Lorenzo,-4.85,-80.25,2013,3,83.32,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,3,177.36,sierra_piura
+Huancabamba,-5.24,-79.45,2013,3,105.36,sierra_piura
+Chulucanas,-5.09,-80.16,2013,3,70.83,alto_piura
+Bajo Piura,-5.42,-80.74,2013,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2013,4,11.19,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,4,55.36,sierra_piura
+Huancabamba,-5.24,-79.45,2013,4,30.1,sierra_piura
+Chulucanas,-5.09,-80.16,2013,4,17.21,alto_piura
+Bajo Piura,-5.42,-80.74,2013,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2013,5,10.87,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,5,23.82,sierra_piura
+Huancabamba,-5.24,-79.45,2013,5,36.02,sierra_piura
+Chulucanas,-5.09,-80.16,2013,5,18.5,alto_piura
+Bajo Piura,-5.42,-80.74,2013,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2013,6,0.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,6,0.83,sierra_piura
+Huancabamba,-5.24,-79.45,2013,6,8.21,sierra_piura
+Chulucanas,-5.09,-80.16,2013,6,0.46,alto_piura
+Bajo Piura,-5.42,-80.74,2013,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2013,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2013,7,5.16,sierra_piura
+Chulucanas,-5.09,-80.16,2013,7,0.33,alto_piura
+Bajo Piura,-5.42,-80.74,2013,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,8,0.64,chira
+San Lorenzo,-4.85,-80.25,2013,8,2.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,8,1.77,sierra_piura
+Huancabamba,-5.24,-79.45,2013,8,7.95,sierra_piura
+Chulucanas,-5.09,-80.16,2013,8,3.53,alto_piura
+Bajo Piura,-5.42,-80.74,2013,9,0.44,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2013,9,1.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,9,9.37,sierra_piura
+Huancabamba,-5.24,-79.45,2013,9,8.72,sierra_piura
+Chulucanas,-5.09,-80.16,2013,9,5.74,alto_piura
+Bajo Piura,-5.42,-80.74,2013,10,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2013,10,1.59,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,10,53.06,sierra_piura
+Huancabamba,-5.24,-79.45,2013,10,49.77,sierra_piura
+Chulucanas,-5.09,-80.16,2013,10,5.6,alto_piura
+Bajo Piura,-5.42,-80.74,2013,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2013,11,1.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,11,12.98,sierra_piura
+Huancabamba,-5.24,-79.45,2013,11,31.04,sierra_piura
+Chulucanas,-5.09,-80.16,2013,11,1.12,alto_piura
+Bajo Piura,-5.42,-80.74,2013,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2013,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2013,12,1.27,san_lorenzo
+Ayabaca,-4.64,-79.71,2013,12,19.93,sierra_piura
+Huancabamba,-5.24,-79.45,2013,12,22.62,sierra_piura
+Chulucanas,-5.09,-80.16,2013,12,3.42,alto_piura
+Bajo Piura,-5.42,-80.74,2014,1,0.31,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,1,1.72,chira
+San Lorenzo,-4.85,-80.25,2014,1,27.77,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,1,32.03,sierra_piura
+Huancabamba,-5.24,-79.45,2014,1,42.7,sierra_piura
+Chulucanas,-5.09,-80.16,2014,1,34.87,alto_piura
+Bajo Piura,-5.42,-80.74,2014,2,8.01,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,2,24.76,chira
+San Lorenzo,-4.85,-80.25,2014,2,44.11,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,2,104.35,sierra_piura
+Huancabamba,-5.24,-79.45,2014,2,56.35,sierra_piura
+Chulucanas,-5.09,-80.16,2014,2,54.58,alto_piura
+Bajo Piura,-5.42,-80.74,2014,3,1.09,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,3,4.66,chira
+San Lorenzo,-4.85,-80.25,2014,3,157.08,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,3,333.34,sierra_piura
+Huancabamba,-5.24,-79.45,2014,3,207.97,sierra_piura
+Chulucanas,-5.09,-80.16,2014,3,119.48,alto_piura
+Bajo Piura,-5.42,-80.74,2014,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2014,4,11.39,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,4,41.79,sierra_piura
+Huancabamba,-5.24,-79.45,2014,4,33.0,sierra_piura
+Chulucanas,-5.09,-80.16,2014,4,16.99,alto_piura
+Bajo Piura,-5.42,-80.74,2014,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2014,5,14.67,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,5,50.14,sierra_piura
+Huancabamba,-5.24,-79.45,2014,5,30.11,sierra_piura
+Chulucanas,-5.09,-80.16,2014,5,12.99,alto_piura
+Bajo Piura,-5.42,-80.74,2014,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2014,6,0.51,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,6,0.77,sierra_piura
+Huancabamba,-5.24,-79.45,2014,6,8.97,sierra_piura
+Chulucanas,-5.09,-80.16,2014,6,0.49,alto_piura
+Bajo Piura,-5.42,-80.74,2014,7,0.06,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,7,0.03,chira
+San Lorenzo,-4.85,-80.25,2014,7,0.14,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,2014,7,5.31,sierra_piura
+Chulucanas,-5.09,-80.16,2014,7,0.31,alto_piura
+Bajo Piura,-5.42,-80.74,2014,8,1.15,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,8,0.69,chira
+San Lorenzo,-4.85,-80.25,2014,8,2.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,8,1.81,sierra_piura
+Huancabamba,-5.24,-79.45,2014,8,7.73,sierra_piura
+Chulucanas,-5.09,-80.16,2014,8,3.66,alto_piura
+Bajo Piura,-5.42,-80.74,2014,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2014,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,9,6.66,sierra_piura
+Huancabamba,-5.24,-79.45,2014,9,6.46,sierra_piura
+Chulucanas,-5.09,-80.16,2014,9,3.2,alto_piura
+Bajo Piura,-5.42,-80.74,2014,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2014,10,0.48,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,10,17.89,sierra_piura
+Huancabamba,-5.24,-79.45,2014,10,22.62,sierra_piura
+Chulucanas,-5.09,-80.16,2014,10,1.77,alto_piura
+Bajo Piura,-5.42,-80.74,2014,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2014,11,1.71,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,11,14.5,sierra_piura
+Huancabamba,-5.24,-79.45,2014,11,32.66,sierra_piura
+Chulucanas,-5.09,-80.16,2014,11,1.16,alto_piura
+Bajo Piura,-5.42,-80.74,2014,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2014,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2014,12,1.66,san_lorenzo
+Ayabaca,-4.64,-79.71,2014,12,38.38,sierra_piura
+Huancabamba,-5.24,-79.45,2014,12,32.56,sierra_piura
+Chulucanas,-5.09,-80.16,2014,12,4.02,alto_piura
+Bajo Piura,-5.42,-80.74,2015,1,0.37,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,1,1.84,chira
+San Lorenzo,-4.85,-80.25,2015,1,25.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,1,19.62,sierra_piura
+Huancabamba,-5.24,-79.45,2015,1,38.0,sierra_piura
+Chulucanas,-5.09,-80.16,2015,1,29.11,alto_piura
+Bajo Piura,-5.42,-80.74,2015,2,6.18,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,2,24.46,chira
+San Lorenzo,-4.85,-80.25,2015,2,38.65,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,2,100.93,sierra_piura
+Huancabamba,-5.24,-79.45,2015,2,50.47,sierra_piura
+Chulucanas,-5.09,-80.16,2015,2,41.97,alto_piura
+Bajo Piura,-5.42,-80.74,2015,3,0.61,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,3,3.73,chira
+San Lorenzo,-4.85,-80.25,2015,3,181.93,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,3,329.64,sierra_piura
+Huancabamba,-5.24,-79.45,2015,3,135.98,sierra_piura
+Chulucanas,-5.09,-80.16,2015,3,121.86,alto_piura
+Bajo Piura,-5.42,-80.74,2015,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2015,4,17.74,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,4,79.07,sierra_piura
+Huancabamba,-5.24,-79.45,2015,4,30.51,sierra_piura
+Chulucanas,-5.09,-80.16,2015,4,25.68,alto_piura
+Bajo Piura,-5.42,-80.74,2015,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2015,5,7.66,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,5,20.7,sierra_piura
+Huancabamba,-5.24,-79.45,2015,5,26.22,sierra_piura
+Chulucanas,-5.09,-80.16,2015,5,11.57,alto_piura
+Bajo Piura,-5.42,-80.74,2015,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2015,6,0.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,6,0.66,sierra_piura
+Huancabamba,-5.24,-79.45,2015,6,8.33,sierra_piura
+Chulucanas,-5.09,-80.16,2015,6,0.46,alto_piura
+Bajo Piura,-5.42,-80.74,2015,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2015,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2015,7,5.74,sierra_piura
+Chulucanas,-5.09,-80.16,2015,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2015,8,1.12,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,8,0.66,chira
+San Lorenzo,-4.85,-80.25,2015,8,2.48,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,8,1.78,sierra_piura
+Huancabamba,-5.24,-79.45,2015,8,7.69,sierra_piura
+Chulucanas,-5.09,-80.16,2015,8,3.58,alto_piura
+Bajo Piura,-5.42,-80.74,2015,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2015,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,9,5.86,sierra_piura
+Huancabamba,-5.24,-79.45,2015,9,6.78,sierra_piura
+Chulucanas,-5.09,-80.16,2015,9,3.2,alto_piura
+Bajo Piura,-5.42,-80.74,2015,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2015,10,0.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,10,19.16,sierra_piura
+Huancabamba,-5.24,-79.45,2015,10,17.6,sierra_piura
+Chulucanas,-5.09,-80.16,2015,10,1.54,alto_piura
+Bajo Piura,-5.42,-80.74,2015,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2015,11,1.48,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,11,12.84,sierra_piura
+Huancabamba,-5.24,-79.45,2015,11,18.26,sierra_piura
+Chulucanas,-5.09,-80.16,2015,11,0.91,alto_piura
+Bajo Piura,-5.42,-80.74,2015,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2015,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2015,12,1.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2015,12,24.75,sierra_piura
+Huancabamba,-5.24,-79.45,2015,12,23.21,sierra_piura
+Chulucanas,-5.09,-80.16,2015,12,3.56,alto_piura
+Bajo Piura,-5.42,-80.74,2016,1,0.39,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,1,2.11,chira
+San Lorenzo,-4.85,-80.25,2016,1,28.25,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,1,17.05,sierra_piura
+Huancabamba,-5.24,-79.45,2016,1,30.75,sierra_piura
+Chulucanas,-5.09,-80.16,2016,1,32.31,alto_piura
+Bajo Piura,-5.42,-80.74,2016,2,13.67,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,2,34.46,chira
+San Lorenzo,-4.85,-80.25,2016,2,60.46,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,2,108.24,sierra_piura
+Huancabamba,-5.24,-79.45,2016,2,62.31,sierra_piura
+Chulucanas,-5.09,-80.16,2016,2,75.43,alto_piura
+Bajo Piura,-5.42,-80.74,2016,3,10.24,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,3,32.67,chira
+San Lorenzo,-4.85,-80.25,2016,3,372.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,3,509.82,sierra_piura
+Huancabamba,-5.24,-79.45,2016,3,276.87,sierra_piura
+Chulucanas,-5.09,-80.16,2016,3,237.62,alto_piura
+Bajo Piura,-5.42,-80.74,2016,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2016,4,22.55,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,4,93.16,sierra_piura
+Huancabamba,-5.24,-79.45,2016,4,46.41,sierra_piura
+Chulucanas,-5.09,-80.16,2016,4,28.38,alto_piura
+Bajo Piura,-5.42,-80.74,2016,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2016,5,4.76,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,5,10.04,sierra_piura
+Huancabamba,-5.24,-79.45,2016,5,15.9,sierra_piura
+Chulucanas,-5.09,-80.16,2016,5,5.44,alto_piura
+Bajo Piura,-5.42,-80.74,2016,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2016,6,0.46,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,6,0.76,sierra_piura
+Huancabamba,-5.24,-79.45,2016,6,8.84,sierra_piura
+Chulucanas,-5.09,-80.16,2016,6,0.49,alto_piura
+Bajo Piura,-5.42,-80.74,2016,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2016,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2016,7,6.09,sierra_piura
+Chulucanas,-5.09,-80.16,2016,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2016,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,8,0.68,chira
+San Lorenzo,-4.85,-80.25,2016,8,2.75,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,8,2.41,sierra_piura
+Huancabamba,-5.24,-79.45,2016,8,8.6,sierra_piura
+Chulucanas,-5.09,-80.16,2016,8,3.9,alto_piura
+Bajo Piura,-5.42,-80.74,2016,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2016,9,0.93,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,9,7.74,sierra_piura
+Huancabamba,-5.24,-79.45,2016,9,8.85,sierra_piura
+Chulucanas,-5.09,-80.16,2016,9,4.19,alto_piura
+Bajo Piura,-5.42,-80.74,2016,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2016,10,0.57,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,10,15.54,sierra_piura
+Huancabamba,-5.24,-79.45,2016,10,21.89,sierra_piura
+Chulucanas,-5.09,-80.16,2016,10,2.11,alto_piura
+Bajo Piura,-5.42,-80.74,2016,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2016,11,1.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,11,9.08,sierra_piura
+Huancabamba,-5.24,-79.45,2016,11,15.2,sierra_piura
+Chulucanas,-5.09,-80.16,2016,11,1.0,alto_piura
+Bajo Piura,-5.42,-80.74,2016,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2016,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2016,12,1.45,san_lorenzo
+Ayabaca,-4.64,-79.71,2016,12,26.56,sierra_piura
+Huancabamba,-5.24,-79.45,2016,12,26.06,sierra_piura
+Chulucanas,-5.09,-80.16,2016,12,3.74,alto_piura
+Bajo Piura,-5.42,-80.74,2018,1,0.4,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,1,2.61,chira
+San Lorenzo,-4.85,-80.25,2018,1,41.3,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,1,30.03,sierra_piura
+Huancabamba,-5.24,-79.45,2018,1,48.59,sierra_piura
+Chulucanas,-5.09,-80.16,2018,1,44.11,alto_piura
+Bajo Piura,-5.42,-80.74,2018,2,10.32,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,2,31.2,chira
+San Lorenzo,-4.85,-80.25,2018,2,56.49,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,2,113.92,sierra_piura
+Huancabamba,-5.24,-79.45,2018,2,70.1,sierra_piura
+Chulucanas,-5.09,-80.16,2018,2,65.28,alto_piura
+Bajo Piura,-5.42,-80.74,2018,3,0.51,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,3,1.57,chira
+San Lorenzo,-4.85,-80.25,2018,3,50.06,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,3,99.8,sierra_piura
+Huancabamba,-5.24,-79.45,2018,3,71.16,sierra_piura
+Chulucanas,-5.09,-80.16,2018,3,33.38,alto_piura
+Bajo Piura,-5.42,-80.74,2018,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2018,4,27.68,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,4,103.92,sierra_piura
+Huancabamba,-5.24,-79.45,2018,4,78.48,sierra_piura
+Chulucanas,-5.09,-80.16,2018,4,30.61,alto_piura
+Bajo Piura,-5.42,-80.74,2018,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2018,5,6.48,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,5,19.88,sierra_piura
+Huancabamba,-5.24,-79.45,2018,5,25.57,sierra_piura
+Chulucanas,-5.09,-80.16,2018,5,7.79,alto_piura
+Bajo Piura,-5.42,-80.74,2018,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2018,6,0.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,6,0.6,sierra_piura
+Huancabamba,-5.24,-79.45,2018,6,8.29,sierra_piura
+Chulucanas,-5.09,-80.16,2018,6,0.45,alto_piura
+Bajo Piura,-5.42,-80.74,2018,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2018,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2018,7,5.14,sierra_piura
+Chulucanas,-5.09,-80.16,2018,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2018,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,8,0.65,chira
+San Lorenzo,-4.85,-80.25,2018,8,2.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,8,1.97,sierra_piura
+Huancabamba,-5.24,-79.45,2018,8,8.03,sierra_piura
+Chulucanas,-5.09,-80.16,2018,8,3.65,alto_piura
+Bajo Piura,-5.42,-80.74,2018,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2018,9,0.79,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,9,7.08,sierra_piura
+Huancabamba,-5.24,-79.45,2018,9,6.87,sierra_piura
+Chulucanas,-5.09,-80.16,2018,9,3.23,alto_piura
+Bajo Piura,-5.42,-80.74,2018,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2018,10,0.73,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,10,23.04,sierra_piura
+Huancabamba,-5.24,-79.45,2018,10,31.3,sierra_piura
+Chulucanas,-5.09,-80.16,2018,10,2.59,alto_piura
+Bajo Piura,-5.42,-80.74,2018,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2018,11,1.74,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,11,20.21,sierra_piura
+Huancabamba,-5.24,-79.45,2018,11,33.44,sierra_piura
+Chulucanas,-5.09,-80.16,2018,11,1.29,alto_piura
+Bajo Piura,-5.42,-80.74,2018,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2018,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2018,12,2.98,san_lorenzo
+Ayabaca,-4.64,-79.71,2018,12,47.71,sierra_piura
+Huancabamba,-5.24,-79.45,2018,12,47.29,sierra_piura
+Chulucanas,-5.09,-80.16,2018,12,7.98,alto_piura
+Bajo Piura,-5.42,-80.74,2019,1,0.38,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,1,3.23,chira
+San Lorenzo,-4.85,-80.25,2019,1,47.24,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,1,41.83,sierra_piura
+Huancabamba,-5.24,-79.45,2019,1,39.12,sierra_piura
+Chulucanas,-5.09,-80.16,2019,1,45.05,alto_piura
+Bajo Piura,-5.42,-80.74,2019,2,12.15,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,2,66.09,chira
+San Lorenzo,-4.85,-80.25,2019,2,122.12,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,2,160.9,sierra_piura
+Huancabamba,-5.24,-79.45,2019,2,94.69,sierra_piura
+Chulucanas,-5.09,-80.16,2019,2,123.55,alto_piura
+Bajo Piura,-5.42,-80.74,2019,3,5.67,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,3,15.45,chira
+San Lorenzo,-4.85,-80.25,2019,3,206.86,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,3,370.83,sierra_piura
+Huancabamba,-5.24,-79.45,2019,3,161.85,sierra_piura
+Chulucanas,-5.09,-80.16,2019,3,167.29,alto_piura
+Bajo Piura,-5.42,-80.74,2019,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2019,4,18.83,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,4,76.5,sierra_piura
+Huancabamba,-5.24,-79.45,2019,4,44.71,sierra_piura
+Chulucanas,-5.09,-80.16,2019,4,24.56,alto_piura
+Bajo Piura,-5.42,-80.74,2019,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2019,5,5.02,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,5,11.68,sierra_piura
+Huancabamba,-5.24,-79.45,2019,5,16.45,sierra_piura
+Chulucanas,-5.09,-80.16,2019,5,5.84,alto_piura
+Bajo Piura,-5.42,-80.74,2019,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2019,6,0.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,6,0.7,sierra_piura
+Huancabamba,-5.24,-79.45,2019,6,8.26,sierra_piura
+Chulucanas,-5.09,-80.16,2019,6,0.46,alto_piura
+Bajo Piura,-5.42,-80.74,2019,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2019,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2019,7,5.13,sierra_piura
+Chulucanas,-5.09,-80.16,2019,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2019,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,8,0.65,chira
+San Lorenzo,-4.85,-80.25,2019,8,2.51,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,8,1.91,sierra_piura
+Huancabamba,-5.24,-79.45,2019,8,7.69,sierra_piura
+Chulucanas,-5.09,-80.16,2019,8,3.61,alto_piura
+Bajo Piura,-5.42,-80.74,2019,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2019,9,1.0,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,9,9.62,sierra_piura
+Huancabamba,-5.24,-79.45,2019,9,11.82,sierra_piura
+Chulucanas,-5.09,-80.16,2019,9,5.15,alto_piura
+Bajo Piura,-5.42,-80.74,2019,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2019,10,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,10,34.16,sierra_piura
+Huancabamba,-5.24,-79.45,2019,10,38.59,sierra_piura
+Chulucanas,-5.09,-80.16,2019,10,3.27,alto_piura
+Bajo Piura,-5.42,-80.74,2019,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2019,11,1.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,11,11.12,sierra_piura
+Huancabamba,-5.24,-79.45,2019,11,25.66,sierra_piura
+Chulucanas,-5.09,-80.16,2019,11,1.04,alto_piura
+Bajo Piura,-5.42,-80.74,2019,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2019,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2019,12,2.22,san_lorenzo
+Ayabaca,-4.64,-79.71,2019,12,72.48,sierra_piura
+Huancabamba,-5.24,-79.45,2019,12,48.1,sierra_piura
+Chulucanas,-5.09,-80.16,2019,12,4.84,alto_piura
+Bajo Piura,-5.42,-80.74,2020,1,0.58,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,1,2.29,chira
+San Lorenzo,-4.85,-80.25,2020,1,32.83,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,1,25.74,sierra_piura
+Huancabamba,-5.24,-79.45,2020,1,41.85,sierra_piura
+Chulucanas,-5.09,-80.16,2020,1,35.34,alto_piura
+Bajo Piura,-5.42,-80.74,2020,2,8.85,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,2,33.71,chira
+San Lorenzo,-4.85,-80.25,2020,2,71.24,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,2,155.55,sierra_piura
+Huancabamba,-5.24,-79.45,2020,2,67.72,sierra_piura
+Chulucanas,-5.09,-80.16,2020,2,72.26,alto_piura
+Bajo Piura,-5.42,-80.74,2020,3,0.45,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,3,2.35,chira
+San Lorenzo,-4.85,-80.25,2020,3,60.66,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,3,120.25,sierra_piura
+Huancabamba,-5.24,-79.45,2020,3,72.6,sierra_piura
+Chulucanas,-5.09,-80.16,2020,3,40.03,alto_piura
+Bajo Piura,-5.42,-80.74,2020,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2020,4,26.25,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,4,74.16,sierra_piura
+Huancabamba,-5.24,-79.45,2020,4,38.07,sierra_piura
+Chulucanas,-5.09,-80.16,2020,4,35.13,alto_piura
+Bajo Piura,-5.42,-80.74,2020,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2020,5,5.63,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,5,13.41,sierra_piura
+Huancabamba,-5.24,-79.45,2020,5,21.87,sierra_piura
+Chulucanas,-5.09,-80.16,2020,5,8.05,alto_piura
+Bajo Piura,-5.42,-80.74,2020,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2020,6,0.53,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,6,1.2,sierra_piura
+Huancabamba,-5.24,-79.45,2020,6,8.98,sierra_piura
+Chulucanas,-5.09,-80.16,2020,6,0.53,alto_piura
+Bajo Piura,-5.42,-80.74,2020,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2020,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,7,0.13,sierra_piura
+Huancabamba,-5.24,-79.45,2020,7,5.52,sierra_piura
+Chulucanas,-5.09,-80.16,2020,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2020,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,8,0.64,chira
+San Lorenzo,-4.85,-80.25,2020,8,3.52,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,8,3.2,sierra_piura
+Huancabamba,-5.24,-79.45,2020,8,13.7,sierra_piura
+Chulucanas,-5.09,-80.16,2020,8,4.72,alto_piura
+Bajo Piura,-5.42,-80.74,2020,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2020,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,9,7.33,sierra_piura
+Huancabamba,-5.24,-79.45,2020,9,7.62,sierra_piura
+Chulucanas,-5.09,-80.16,2020,9,3.61,alto_piura
+Bajo Piura,-5.42,-80.74,2020,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2020,10,0.46,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,10,19.79,sierra_piura
+Huancabamba,-5.24,-79.45,2020,10,25.44,sierra_piura
+Chulucanas,-5.09,-80.16,2020,10,1.84,alto_piura
+Bajo Piura,-5.42,-80.74,2020,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2020,11,1.95,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,11,17.44,sierra_piura
+Huancabamba,-5.24,-79.45,2020,11,39.39,sierra_piura
+Chulucanas,-5.09,-80.16,2020,11,1.53,alto_piura
+Bajo Piura,-5.42,-80.74,2020,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2020,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2020,12,2.02,san_lorenzo
+Ayabaca,-4.64,-79.71,2020,12,35.78,sierra_piura
+Huancabamba,-5.24,-79.45,2020,12,41.53,sierra_piura
+Chulucanas,-5.09,-80.16,2020,12,5.97,alto_piura
+Bajo Piura,-5.42,-80.74,2021,1,0.61,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,1,2.01,chira
+San Lorenzo,-4.85,-80.25,2021,1,23.21,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,1,15.04,sierra_piura
+Huancabamba,-5.24,-79.45,2021,1,37.34,sierra_piura
+Chulucanas,-5.09,-80.16,2021,1,27.87,alto_piura
+Bajo Piura,-5.42,-80.74,2021,2,6.36,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,2,20.63,chira
+San Lorenzo,-4.85,-80.25,2021,2,35.56,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,2,79.43,sierra_piura
+Huancabamba,-5.24,-79.45,2021,2,47.1,sierra_piura
+Chulucanas,-5.09,-80.16,2021,2,42.68,alto_piura
+Bajo Piura,-5.42,-80.74,2021,3,4.46,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,3,22.32,chira
+San Lorenzo,-4.85,-80.25,2021,3,235.16,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,3,279.79,sierra_piura
+Huancabamba,-5.24,-79.45,2021,3,157.15,sierra_piura
+Chulucanas,-5.09,-80.16,2021,3,151.86,alto_piura
+Bajo Piura,-5.42,-80.74,2021,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2021,4,13.85,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,4,63.77,sierra_piura
+Huancabamba,-5.24,-79.45,2021,4,29.8,sierra_piura
+Chulucanas,-5.09,-80.16,2021,4,19.16,alto_piura
+Bajo Piura,-5.42,-80.74,2021,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2021,5,4.75,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,5,9.88,sierra_piura
+Huancabamba,-5.24,-79.45,2021,5,26.2,sierra_piura
+Chulucanas,-5.09,-80.16,2021,5,5.68,alto_piura
+Bajo Piura,-5.42,-80.74,2021,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2021,6,0.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,6,0.6,sierra_piura
+Huancabamba,-5.24,-79.45,2021,6,8.52,sierra_piura
+Chulucanas,-5.09,-80.16,2021,6,0.45,alto_piura
+Bajo Piura,-5.42,-80.74,2021,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2021,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2021,7,5.45,sierra_piura
+Chulucanas,-5.09,-80.16,2021,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2021,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,8,0.64,chira
+San Lorenzo,-4.85,-80.25,2021,8,3.52,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,8,3.01,sierra_piura
+Huancabamba,-5.24,-79.45,2021,8,12.73,sierra_piura
+Chulucanas,-5.09,-80.16,2021,8,4.78,alto_piura
+Bajo Piura,-5.42,-80.74,2021,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2021,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,9,7.08,sierra_piura
+Huancabamba,-5.24,-79.45,2021,9,8.77,sierra_piura
+Chulucanas,-5.09,-80.16,2021,9,4.44,alto_piura
+Bajo Piura,-5.42,-80.74,2021,10,0.03,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2021,10,0.93,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,10,31.03,sierra_piura
+Huancabamba,-5.24,-79.45,2021,10,32.9,sierra_piura
+Chulucanas,-5.09,-80.16,2021,10,3.35,alto_piura
+Bajo Piura,-5.42,-80.74,2021,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2021,11,1.74,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,11,16.02,sierra_piura
+Huancabamba,-5.24,-79.45,2021,11,30.03,sierra_piura
+Chulucanas,-5.09,-80.16,2021,11,1.2,alto_piura
+Bajo Piura,-5.42,-80.74,2021,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2021,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2021,12,1.88,san_lorenzo
+Ayabaca,-4.64,-79.71,2021,12,28.77,sierra_piura
+Huancabamba,-5.24,-79.45,2021,12,32.3,sierra_piura
+Chulucanas,-5.09,-80.16,2021,12,5.5,alto_piura
+Bajo Piura,-5.42,-80.74,2022,1,0.59,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,1,1.45,chira
+San Lorenzo,-4.85,-80.25,2022,1,20.83,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,1,23.97,sierra_piura
+Huancabamba,-5.24,-79.45,2022,1,42.76,sierra_piura
+Chulucanas,-5.09,-80.16,2022,1,27.26,alto_piura
+Bajo Piura,-5.42,-80.74,2022,2,6.73,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,2,18.13,chira
+San Lorenzo,-4.85,-80.25,2022,2,32.21,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,2,94.21,sierra_piura
+Huancabamba,-5.24,-79.45,2022,2,67.51,sierra_piura
+Chulucanas,-5.09,-80.16,2022,2,44.02,alto_piura
+Bajo Piura,-5.42,-80.74,2022,3,1.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,3,5.26,chira
+San Lorenzo,-4.85,-80.25,2022,3,108.33,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,3,179.46,sierra_piura
+Huancabamba,-5.24,-79.45,2022,3,94.35,sierra_piura
+Chulucanas,-5.09,-80.16,2022,3,77.19,alto_piura
+Bajo Piura,-5.42,-80.74,2022,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2022,4,17.29,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,4,94.8,sierra_piura
+Huancabamba,-5.24,-79.45,2022,4,64.84,sierra_piura
+Chulucanas,-5.09,-80.16,2022,4,26.07,alto_piura
+Bajo Piura,-5.42,-80.74,2022,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2022,5,5.53,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,5,9.35,sierra_piura
+Huancabamba,-5.24,-79.45,2022,5,17.25,sierra_piura
+Chulucanas,-5.09,-80.16,2022,5,6.04,alto_piura
+Bajo Piura,-5.42,-80.74,2022,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2022,6,0.62,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,6,1.98,sierra_piura
+Huancabamba,-5.24,-79.45,2022,6,15.71,sierra_piura
+Chulucanas,-5.09,-80.16,2022,6,0.65,alto_piura
+Bajo Piura,-5.42,-80.74,2022,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2022,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,7,0.15,sierra_piura
+Huancabamba,-5.24,-79.45,2022,7,6.12,sierra_piura
+Chulucanas,-5.09,-80.16,2022,7,0.33,alto_piura
+Bajo Piura,-5.42,-80.74,2022,8,1.34,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,8,0.87,chira
+San Lorenzo,-4.85,-80.25,2022,8,2.9,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,8,1.98,sierra_piura
+Huancabamba,-5.24,-79.45,2022,8,8.06,sierra_piura
+Chulucanas,-5.09,-80.16,2022,8,4.41,alto_piura
+Bajo Piura,-5.42,-80.74,2022,9,0.9,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,9,0.07,chira
+San Lorenzo,-4.85,-80.25,2022,9,1.49,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,9,13.43,sierra_piura
+Huancabamba,-5.24,-79.45,2022,9,17.68,sierra_piura
+Chulucanas,-5.09,-80.16,2022,9,6.69,alto_piura
+Bajo Piura,-5.42,-80.74,2022,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2022,10,0.45,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,10,18.14,sierra_piura
+Huancabamba,-5.24,-79.45,2022,10,26.63,sierra_piura
+Chulucanas,-5.09,-80.16,2022,10,1.71,alto_piura
+Bajo Piura,-5.42,-80.74,2022,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2022,11,1.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,11,10.0,sierra_piura
+Huancabamba,-5.24,-79.45,2022,11,15.52,sierra_piura
+Chulucanas,-5.09,-80.16,2022,11,0.91,alto_piura
+Bajo Piura,-5.42,-80.74,2022,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2022,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2022,12,2.17,san_lorenzo
+Ayabaca,-4.64,-79.71,2022,12,24.78,sierra_piura
+Huancabamba,-5.24,-79.45,2022,12,28.4,sierra_piura
+Chulucanas,-5.09,-80.16,2022,12,4.89,alto_piura
+Bajo Piura,-5.42,-80.74,2023,1,0.33,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,1,1.51,chira
+San Lorenzo,-4.85,-80.25,2023,1,24.74,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,1,20.59,sierra_piura
+Huancabamba,-5.24,-79.45,2023,1,50.74,sierra_piura
+Chulucanas,-5.09,-80.16,2023,1,32.72,alto_piura
+Bajo Piura,-5.42,-80.74,2023,2,14.96,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,2,47.07,chira
+San Lorenzo,-4.85,-80.25,2023,2,75.55,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,2,122.83,sierra_piura
+Huancabamba,-5.24,-79.45,2023,2,62.67,sierra_piura
+Chulucanas,-5.09,-80.16,2023,2,87.76,alto_piura
+Bajo Piura,-5.42,-80.74,2023,3,2.5,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,3,9.6,chira
+San Lorenzo,-4.85,-80.25,2023,3,514.69,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,3,537.92,sierra_piura
+Huancabamba,-5.24,-79.45,2023,3,362.36,sierra_piura
+Chulucanas,-5.09,-80.16,2023,3,359.7,alto_piura
+Bajo Piura,-5.42,-80.74,2023,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2023,4,126.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,4,457.8,sierra_piura
+Huancabamba,-5.24,-79.45,2023,4,253.06,sierra_piura
+Chulucanas,-5.09,-80.16,2023,4,189.76,alto_piura
+Bajo Piura,-5.42,-80.74,2023,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2023,5,5.8,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,5,12.67,sierra_piura
+Huancabamba,-5.24,-79.45,2023,5,18.46,sierra_piura
+Chulucanas,-5.09,-80.16,2023,5,8.32,alto_piura
+Bajo Piura,-5.42,-80.74,2023,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2023,6,0.42,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,6,0.59,sierra_piura
+Huancabamba,-5.24,-79.45,2023,6,8.21,sierra_piura
+Chulucanas,-5.09,-80.16,2023,6,0.45,alto_piura
+Bajo Piura,-5.42,-80.74,2023,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2023,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2023,7,5.35,sierra_piura
+Chulucanas,-5.09,-80.16,2023,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2023,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,8,0.76,chira
+San Lorenzo,-4.85,-80.25,2023,8,3.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,8,2.48,sierra_piura
+Huancabamba,-5.24,-79.45,2023,8,9.99,sierra_piura
+Chulucanas,-5.09,-80.16,2023,8,4.59,alto_piura
+Bajo Piura,-5.42,-80.74,2023,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2023,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,9,6.11,sierra_piura
+Huancabamba,-5.24,-79.45,2023,9,6.43,sierra_piura
+Chulucanas,-5.09,-80.16,2023,9,3.2,alto_piura
+Bajo Piura,-5.42,-80.74,2023,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2023,10,1.07,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,10,37.34,sierra_piura
+Huancabamba,-5.24,-79.45,2023,10,45.29,sierra_piura
+Chulucanas,-5.09,-80.16,2023,10,3.87,alto_piura
+Bajo Piura,-5.42,-80.74,2023,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2023,11,4.71,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,11,27.9,sierra_piura
+Huancabamba,-5.24,-79.45,2023,11,62.61,sierra_piura
+Chulucanas,-5.09,-80.16,2023,11,3.63,alto_piura
+Bajo Piura,-5.42,-80.74,2023,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2023,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2023,12,3.99,san_lorenzo
+Ayabaca,-4.64,-79.71,2023,12,32.46,sierra_piura
+Huancabamba,-5.24,-79.45,2023,12,37.88,sierra_piura
+Chulucanas,-5.09,-80.16,2023,12,8.56,alto_piura
+Bajo Piura,-5.42,-80.74,2024,1,0.49,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,1,2.49,chira
+San Lorenzo,-4.85,-80.25,2024,1,30.53,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,1,24.74,sierra_piura
+Huancabamba,-5.24,-79.45,2024,1,49.66,sierra_piura
+Chulucanas,-5.09,-80.16,2024,1,38.71,alto_piura
+Bajo Piura,-5.42,-80.74,2024,2,16.36,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,2,60.4,chira
+San Lorenzo,-4.85,-80.25,2024,2,111.72,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,2,149.74,sierra_piura
+Huancabamba,-5.24,-79.45,2024,2,72.07,sierra_piura
+Chulucanas,-5.09,-80.16,2024,2,111.26,alto_piura
+Bajo Piura,-5.42,-80.74,2024,3,0.41,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,3,1.73,chira
+San Lorenzo,-4.85,-80.25,2024,3,61.11,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,3,116.67,sierra_piura
+Huancabamba,-5.24,-79.45,2024,3,69.19,sierra_piura
+Chulucanas,-5.09,-80.16,2024,3,47.91,alto_piura
+Bajo Piura,-5.42,-80.74,2024,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2024,4,9.03,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,4,49.69,sierra_piura
+Huancabamba,-5.24,-79.45,2024,4,33.72,sierra_piura
+Chulucanas,-5.09,-80.16,2024,4,14.18,alto_piura
+Bajo Piura,-5.42,-80.74,2024,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2024,5,6.7,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,5,10.94,sierra_piura
+Huancabamba,-5.24,-79.45,2024,5,17.8,sierra_piura
+Chulucanas,-5.09,-80.16,2024,5,8.65,alto_piura
+Bajo Piura,-5.42,-80.74,2024,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2024,6,0.82,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,6,0.9,sierra_piura
+Huancabamba,-5.24,-79.45,2024,6,17.87,sierra_piura
+Chulucanas,-5.09,-80.16,2024,6,0.97,alto_piura
+Bajo Piura,-5.42,-80.74,2024,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2024,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2024,7,5.36,sierra_piura
+Chulucanas,-5.09,-80.16,2024,7,0.34,alto_piura
+Bajo Piura,-5.42,-80.74,2024,8,1.11,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,8,0.64,chira
+San Lorenzo,-4.85,-80.25,2024,8,2.44,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,8,2.14,sierra_piura
+Huancabamba,-5.24,-79.45,2024,8,9.7,sierra_piura
+Chulucanas,-5.09,-80.16,2024,8,3.53,alto_piura
+Bajo Piura,-5.42,-80.74,2024,9,0.43,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2024,9,0.78,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,9,7.52,sierra_piura
+Huancabamba,-5.24,-79.45,2024,9,10.59,sierra_piura
+Chulucanas,-5.09,-80.16,2024,9,3.63,alto_piura
+Bajo Piura,-5.42,-80.74,2024,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2024,10,0.64,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,10,20.39,sierra_piura
+Huancabamba,-5.24,-79.45,2024,10,20.35,sierra_piura
+Chulucanas,-5.09,-80.16,2024,10,2.12,alto_piura
+Bajo Piura,-5.42,-80.74,2024,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2024,11,2.24,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,11,28.76,sierra_piura
+Huancabamba,-5.24,-79.45,2024,11,49.68,sierra_piura
+Chulucanas,-5.09,-80.16,2024,11,1.62,alto_piura
+Bajo Piura,-5.42,-80.74,2024,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2024,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2024,12,1.9,san_lorenzo
+Ayabaca,-4.64,-79.71,2024,12,27.74,sierra_piura
+Huancabamba,-5.24,-79.45,2024,12,29.39,sierra_piura
+Chulucanas,-5.09,-80.16,2024,12,4.23,alto_piura
+Bajo Piura,-5.42,-80.74,2025,1,0.94,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,1,4.24,chira
+San Lorenzo,-4.85,-80.25,2025,1,62.4,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,1,34.81,sierra_piura
+Huancabamba,-5.24,-79.45,2025,1,87.59,sierra_piura
+Chulucanas,-5.09,-80.16,2025,1,77.78,alto_piura
+Bajo Piura,-5.42,-80.74,2025,2,8.94,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,2,52.27,chira
+San Lorenzo,-4.85,-80.25,2025,2,78.67,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,2,139.31,sierra_piura
+Huancabamba,-5.24,-79.45,2025,2,57.32,sierra_piura
+Chulucanas,-5.09,-80.16,2025,2,68.87,alto_piura
+Bajo Piura,-5.42,-80.74,2025,3,0.9,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,3,6.24,chira
+San Lorenzo,-4.85,-80.25,2025,3,139.17,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,3,212.24,sierra_piura
+Huancabamba,-5.24,-79.45,2025,3,117.38,sierra_piura
+Chulucanas,-5.09,-80.16,2025,3,88.36,alto_piura
+Bajo Piura,-5.42,-80.74,2025,4,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,4,0.0,chira
+San Lorenzo,-4.85,-80.25,2025,4,34.54,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,4,121.88,sierra_piura
+Huancabamba,-5.24,-79.45,2025,4,57.3,sierra_piura
+Chulucanas,-5.09,-80.16,2025,4,40.7,alto_piura
+Bajo Piura,-5.42,-80.74,2025,5,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,5,0.0,chira
+San Lorenzo,-4.85,-80.25,2025,5,6.71,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,5,12.7,sierra_piura
+Huancabamba,-5.24,-79.45,2025,5,18.41,sierra_piura
+Chulucanas,-5.09,-80.16,2025,5,7.31,alto_piura
+Bajo Piura,-5.42,-80.74,2025,6,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,6,0.0,chira
+San Lorenzo,-4.85,-80.25,2025,6,0.43,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,6,0.61,sierra_piura
+Huancabamba,-5.24,-79.45,2025,6,8.36,sierra_piura
+Chulucanas,-5.09,-80.16,2025,6,0.45,alto_piura
+Bajo Piura,-5.42,-80.74,2025,7,0.07,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,7,0.04,chira
+San Lorenzo,-4.85,-80.25,2025,7,0.15,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,7,0.12,sierra_piura
+Huancabamba,-5.24,-79.45,2025,7,5.14,sierra_piura
+Chulucanas,-5.09,-80.16,2025,7,0.32,alto_piura
+Bajo Piura,-5.42,-80.74,2025,8,1.12,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,8,0.65,chira
+San Lorenzo,-4.85,-80.25,2025,8,2.46,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,8,1.78,sierra_piura
+Huancabamba,-5.24,-79.45,2025,8,7.58,sierra_piura
+Chulucanas,-5.09,-80.16,2025,8,3.56,alto_piura
+Bajo Piura,-5.42,-80.74,2025,9,0.49,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,9,0.04,chira
+San Lorenzo,-4.85,-80.25,2025,9,0.89,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,9,7.92,sierra_piura
+Huancabamba,-5.24,-79.45,2025,9,8.89,sierra_piura
+Chulucanas,-5.09,-80.16,2025,9,4.07,alto_piura
+Bajo Piura,-5.42,-80.74,2025,10,0.02,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,10,0.0,chira
+San Lorenzo,-4.85,-80.25,2025,10,1.05,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,10,29.39,sierra_piura
+Huancabamba,-5.24,-79.45,2025,10,29.97,sierra_piura
+Chulucanas,-5.09,-80.16,2025,10,3.69,alto_piura
+Bajo Piura,-5.42,-80.74,2025,11,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,11,0.0,chira
+San Lorenzo,-4.85,-80.25,2025,11,2.74,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,11,16.07,sierra_piura
+Huancabamba,-5.24,-79.45,2025,11,33.8,sierra_piura
+Chulucanas,-5.09,-80.16,2025,11,1.79,alto_piura
+Bajo Piura,-5.42,-80.74,2025,12,0.0,bajo_piura
+Chira Sullana,-4.9,-80.69,2025,12,0.0,chira
+San Lorenzo,-4.85,-80.25,2025,12,1.39,san_lorenzo
+Ayabaca,-4.64,-79.71,2025,12,21.71,sierra_piura
+Huancabamba,-5.24,-79.45,2025,12,21.49,sierra_piura
+Chulucanas,-5.09,-80.16,2025,12,3.62,alto_piura

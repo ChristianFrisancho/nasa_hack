@@ -1,0 +1,127 @@
+etiqueta,escenario,feature,zona,n,cambio_top1_pct,ic95_lo,ic95_hi,rango_semillas,cambio_sec_pct,sec_ic95,riego_top1_mm_mediana,marca
+r6,sin_el_nino,(base),chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1083.1,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,sin_el_nino,(base),bajo_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,439.6,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,sin_el_nino,(base),medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,439.2,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,sin_el_nino,(base),alto_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,393.3,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,sin_el_nino,(base),san_lorenzo,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,441.3,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,sin_el_nino,(base),todas,120,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,441.3,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,sin_el_nino,ece_ds_m,chira_sullana,24,87.5,70.8,100.0,83.3-91.7,95.8,87.5-100.0,478.3,no_informativo_margen
+r6,sin_el_nino,ece_ds_m,bajo_piura,24,75.0,58.3,91.7,75.0-75.0,100.0,100.0-100.0,439.6,no_informativo_margen
+r6,sin_el_nino,ece_ds_m,medio_piura,24,79.2,62.5,91.7,66.7-91.7,100.0,100.0-100.0,439.2,no_informativo_margen
+r6,sin_el_nino,ece_ds_m,alto_piura,24,75.0,54.2,91.7,75.0-75.0,100.0,100.0-100.0,393.3,no_informativo_margen
+r6,sin_el_nino,ece_ds_m,san_lorenzo,24,79.2,62.5,95.8,75.0-83.3,95.8,87.5-100.0,839.8,no_informativo_margen
+r6,sin_el_nino,ece_ds_m,todas,120,79.2,71.7,85.8,76.7-81.7,98.3,95.8-100.0,439.6,no_informativo_margen
+r6,sin_el_nino,ecw_ds_m,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,83.3,66.7-95.8,1083.1,no_informativo_margen
+r6,sin_el_nino,ecw_ds_m,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,87.5,70.8-100.0,439.6,no_informativo_margen
+r6,sin_el_nino,ecw_ds_m,medio_piura,24,4.2,0.0,12.5,0.0-8.3,83.3,66.7-95.8,439.2,no_informativo_margen
+r6,sin_el_nino,ecw_ds_m,alto_piura,24,0.0,0.0,0.0,0.0-0.0,87.5,75.0-100.0,393.3,no_informativo_margen
+r6,sin_el_nino,ecw_ds_m,san_lorenzo,24,16.7,4.2,33.3,8.3-25.0,83.3,66.7-95.8,441.3,no_informativo_margen
+r6,sin_el_nino,ecw_ds_m,todas,120,4.2,0.8,8.3,1.7-6.7,85.0,78.3-90.8,441.3,no_informativo_margen
+r6,sin_el_nino,ph,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1083.1,no_informativo_margen
+r6,sin_el_nino,ph,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,12.5,0.0-25.0,439.6,no_informativo_margen
+r6,sin_el_nino,ph,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,439.2,no_informativo_margen
+r6,sin_el_nino,ph,alto_piura,24,0.0,0.0,0.0,0.0-0.0,4.2,0.0-12.5,393.3,no_informativo_margen
+r6,sin_el_nino,ph,san_lorenzo,24,8.3,0.0,20.8,0.0-16.7,0.0,0.0-0.0,397.4,no_informativo_margen
+r6,sin_el_nino,ph,todas,120,1.7,0.0,4.2,0.0-3.3,3.3,0.8-6.7,439.6,no_informativo_margen
+r6,sin_el_nino,profundidad_cm,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1083.1,no_informativo_margen
+r6,sin_el_nino,profundidad_cm,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,25.0,8.3-41.7,439.6,no_informativo_margen
+r6,sin_el_nino,profundidad_cm,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,439.2,no_informativo_margen
+r6,sin_el_nino,profundidad_cm,alto_piura,24,0.0,0.0,0.0,0.0-0.0,16.7,4.2-33.3,393.3,no_informativo_margen
+r6,sin_el_nino,profundidad_cm,san_lorenzo,24,12.5,0.0,29.2,8.3-16.7,16.7,4.2-33.3,397.4,no_informativo_margen
+r6,sin_el_nino,profundidad_cm,todas,120,2.5,0.0,5.8,1.7-3.3,11.7,5.8-18.3,439.6,no_informativo_margen
+r6,sin_el_nino,pendiente_pct,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1083.1,no_informativo_margen
+r6,sin_el_nino,pendiente_pct,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,439.6,no_informativo_margen
+r6,sin_el_nino,pendiente_pct,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,439.2,no_informativo_margen
+r6,sin_el_nino,pendiente_pct,alto_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,393.3,no_informativo_margen
+r6,sin_el_nino,pendiente_pct,san_lorenzo,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,441.3,no_informativo_margen
+r6,sin_el_nino,pendiente_pct,todas,120,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,441.3,no_informativo_margen
+r6,sin_el_nino,napa_m,chira_sullana,15,0.0,0.0,0.0,0.0-0.0,33.3,13.3-53.3,1083.1,no_informativo_margen
+r6,sin_el_nino,napa_m,bajo_piura,15,0.0,0.0,0.0,0.0-0.0,73.3,46.7-93.3,439.6,no_informativo_margen
+r6,sin_el_nino,napa_m,medio_piura,17,5.9,0.0,17.6,0.0-10.0,52.9,29.4-76.5,439.2,no_informativo_margen
+r6,sin_el_nino,napa_m,alto_piura,17,0.0,0.0,0.0,0.0-0.0,70.6,52.9-94.1,393.3,no_informativo_margen
+r6,sin_el_nino,napa_m,san_lorenzo,16,31.2,12.5,56.2,20.0-50.0,81.2,62.5-100.0,397.4,no_informativo_margen
+r6,sin_el_nino,napa_m,todas,80,7.5,2.5,13.8,4.5-11.1,62.5,52.5-72.5,439.6,no_informativo_margen
+r6,el_nino_moderado,(base),chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1041.3,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_moderado,(base),bajo_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,454.9,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_moderado,(base),medio_piura,24,0.0,0.0,0.0,0.0-0.0,16.7,4.2-33.3,454.8,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_moderado,(base),alto_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,403.2,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_moderado,(base),san_lorenzo,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,451.5,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_moderado,(base),todas,120,0.0,0.0,0.0,0.0-0.0,3.3,0.8-6.7,454.9,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_moderado,ece_ds_m,chira_sullana,24,87.5,70.8,100.0,83.3-91.7,95.8,87.5-100.0,481.2,no_informativo_margen
+r6,el_nino_moderado,ece_ds_m,bajo_piura,24,75.0,58.3,91.7,75.0-75.0,100.0,100.0-100.0,454.9,no_informativo_margen
+r6,el_nino_moderado,ece_ds_m,medio_piura,24,79.2,62.5,91.7,66.7-91.7,100.0,100.0-100.0,454.8,no_informativo_margen
+r6,el_nino_moderado,ece_ds_m,alto_piura,24,75.0,58.3,91.7,75.0-75.0,100.0,100.0-100.0,403.2,no_informativo_margen
+r6,el_nino_moderado,ece_ds_m,san_lorenzo,24,79.2,62.5,95.8,75.0-83.3,95.8,87.5-100.0,789.2,no_informativo_margen
+r6,el_nino_moderado,ece_ds_m,todas,120,79.2,71.7,86.7,76.7-81.7,98.3,95.8-100.0,454.9,no_informativo_margen
+r6,el_nino_moderado,ecw_ds_m,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,83.3,66.7-95.8,1041.3,no_informativo_margen
+r6,el_nino_moderado,ecw_ds_m,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,87.5,70.8-100.0,454.9,no_informativo_margen
+r6,el_nino_moderado,ecw_ds_m,medio_piura,24,4.2,0.0,12.5,0.0-8.3,83.3,66.7-95.8,454.8,no_informativo_margen
+r6,el_nino_moderado,ecw_ds_m,alto_piura,24,0.0,0.0,0.0,0.0-0.0,87.5,75.0-100.0,403.2,no_informativo_margen
+r6,el_nino_moderado,ecw_ds_m,san_lorenzo,24,16.7,4.2,33.3,8.3-25.0,83.3,66.7-95.8,451.5,no_informativo_margen
+r6,el_nino_moderado,ecw_ds_m,todas,120,4.2,0.8,7.5,1.7-6.7,85.0,78.3-90.8,454.9,no_informativo_margen
+r6,el_nino_moderado,ph,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1041.3,no_informativo_margen
+r6,el_nino_moderado,ph,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,12.5,0.0-25.0,454.9,no_informativo_margen
+r6,el_nino_moderado,ph,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,454.8,no_informativo_margen
+r6,el_nino_moderado,ph,alto_piura,24,0.0,0.0,0.0,0.0-0.0,4.2,0.0-12.5,403.2,no_informativo_margen
+r6,el_nino_moderado,ph,san_lorenzo,24,8.3,0.0,20.8,0.0-16.7,0.0,0.0-0.0,405.1,no_informativo_margen
+r6,el_nino_moderado,ph,todas,120,1.7,0.0,4.2,0.0-3.3,3.3,0.8-6.7,454.9,no_informativo_margen
+r6,el_nino_moderado,profundidad_cm,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1041.3,no_informativo_margen
+r6,el_nino_moderado,profundidad_cm,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,25.0,8.3-41.7,454.9,no_informativo_margen
+r6,el_nino_moderado,profundidad_cm,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,454.8,no_informativo_margen
+r6,el_nino_moderado,profundidad_cm,alto_piura,24,0.0,0.0,0.0,0.0-0.0,16.7,4.2-33.3,403.2,no_informativo_margen
+r6,el_nino_moderado,profundidad_cm,san_lorenzo,24,12.5,0.0,25.0,8.3-16.7,16.7,4.2-33.3,405.1,no_informativo_margen
+r6,el_nino_moderado,profundidad_cm,todas,120,2.5,0.0,5.8,1.7-3.3,11.7,6.7-17.5,454.9,no_informativo_margen
+r6,el_nino_moderado,pendiente_pct,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,1041.3,no_informativo_margen
+r6,el_nino_moderado,pendiente_pct,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,454.9,no_informativo_margen
+r6,el_nino_moderado,pendiente_pct,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,454.8,no_informativo_margen
+r6,el_nino_moderado,pendiente_pct,alto_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,403.2,no_informativo_margen
+r6,el_nino_moderado,pendiente_pct,san_lorenzo,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,451.5,no_informativo_margen
+r6,el_nino_moderado,pendiente_pct,todas,120,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,454.9,no_informativo_margen
+r6,el_nino_moderado,napa_m,chira_sullana,15,0.0,0.0,0.0,0.0-0.0,33.3,13.3-60.0,1041.3,no_informativo_margen
+r6,el_nino_moderado,napa_m,bajo_piura,15,0.0,0.0,0.0,0.0-0.0,73.3,46.7-93.3,454.9,no_informativo_margen
+r6,el_nino_moderado,napa_m,medio_piura,17,5.9,0.0,17.6,0.0-10.0,76.5,52.9-94.1,454.8,no_informativo_margen
+r6,el_nino_moderado,napa_m,alto_piura,17,0.0,0.0,0.0,0.0-0.0,70.6,47.1-88.2,403.2,no_informativo_margen
+r6,el_nino_moderado,napa_m,san_lorenzo,16,31.2,12.5,50.0,20.0-50.0,81.2,62.5-100.0,405.1,no_informativo_margen
+r6,el_nino_moderado,napa_m,todas,80,7.5,2.5,15.0,4.5-11.1,67.5,57.5-77.5,454.9,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,(base),chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,926.1,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_fuerte_extraordinario,(base),bajo_piura,24,50.0,29.2,70.8,41.7-58.3,0.0,0.0-0.0,509.1,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_fuerte_extraordinario,(base),medio_piura,24,37.5,16.7,54.2,33.3-41.7,0.0,0.0-0.0,809.4,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_fuerte_extraordinario,(base),alto_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,388.4,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_fuerte_extraordinario,(base),san_lorenzo,24,4.2,0.0,12.5,0.0-8.3,0.0,0.0-0.0,435.7,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_fuerte_extraordinario,(base),todas,120,18.3,11.7,25.0,18.3-18.3,0.0,0.0-0.0,509.1,base: % de parcelas cuyo top-1 difiere de sin_el_nino
+r6,el_nino_fuerte_extraordinario,ece_ds_m,chira_sullana,24,87.5,75.0,100.0,83.3-91.7,95.8,87.5-100.0,497.9,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ece_ds_m,bajo_piura,24,95.8,87.5,100.0,91.7-100.0,100.0,100.0-100.0,530.3,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ece_ds_m,medio_piura,24,83.3,66.7,95.8,66.7-100.0,100.0,100.0-100.0,480.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ece_ds_m,alto_piura,24,75.0,58.3,91.7,75.0-75.0,100.0,100.0-100.0,388.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ece_ds_m,san_lorenzo,24,75.0,54.2,91.7,75.0-75.0,95.8,87.5-100.0,661.2,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ece_ds_m,todas,120,83.3,75.8,89.2,80.0-86.7,98.3,95.8-100.0,497.9,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ecw_ds_m,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,83.3,66.7-95.8,926.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ecw_ds_m,bajo_piura,24,12.5,0.0,25.0,8.3-16.7,87.5,75.0-100.0,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ecw_ds_m,medio_piura,24,20.8,4.2,37.5,8.3-33.3,83.3,66.7-95.8,809.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ecw_ds_m,alto_piura,24,0.0,0.0,0.0,0.0-0.0,87.5,70.8-100.0,388.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ecw_ds_m,san_lorenzo,24,16.7,4.2,33.3,8.3-25.0,83.3,66.7-95.8,435.7,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ecw_ds_m,todas,120,10.0,5.0,15.8,5.0-15.0,85.0,78.3-91.7,529.7,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ph,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,926.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ph,bajo_piura,24,20.8,4.2,37.5,16.7-25.0,12.5,0.0-25.0,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ph,medio_piura,24,20.8,8.3,37.5,8.3-33.3,0.0,0.0-0.0,809.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ph,alto_piura,24,0.0,0.0,0.0,0.0-0.0,4.2,0.0-12.5,388.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ph,san_lorenzo,24,8.3,0.0,20.8,0.0-16.7,0.0,0.0-0.0,393.0,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,ph,todas,120,10.0,5.0,15.8,10.0-10.0,3.3,0.8-7.5,497.9,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,profundidad_cm,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,926.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,profundidad_cm,bajo_piura,24,25.0,8.3,41.7,16.7-33.3,20.8,8.3-37.5,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,profundidad_cm,medio_piura,24,29.2,12.5,50.0,25.0-33.3,0.0,0.0-0.0,809.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,profundidad_cm,alto_piura,24,0.0,0.0,0.0,0.0-0.0,16.7,4.2-33.3,388.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,profundidad_cm,san_lorenzo,24,12.5,0.0,29.2,8.3-16.7,20.8,8.3-37.5,393.0,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,profundidad_cm,todas,120,13.3,7.5,19.2,11.7-15.0,11.7,6.7-17.5,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,pendiente_pct,chira_sullana,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,926.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,pendiente_pct,bajo_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,pendiente_pct,medio_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,809.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,pendiente_pct,alto_piura,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,388.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,pendiente_pct,san_lorenzo,24,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,435.7,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,pendiente_pct,todas,120,0.0,0.0,0.0,0.0-0.0,0.0,0.0-0.0,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,napa_m,chira_sullana,15,0.0,0.0,0.0,0.0-0.0,33.3,13.3-60.0,926.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,napa_m,bajo_piura,15,20.0,0.0,46.7,10.0-40.0,73.3,53.3-93.3,509.1,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,napa_m,medio_piura,17,29.4,11.8,52.9,14.3-40.0,52.9,29.4-76.5,809.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,napa_m,alto_piura,17,0.0,0.0,0.0,0.0-0.0,70.6,47.1-94.1,388.4,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,napa_m,san_lorenzo,16,25.0,6.2,50.0,10.0-50.0,81.2,62.5-100.0,393.0,no_informativo_margen
+r6,el_nino_fuerte_extraordinario,napa_m,todas,80,15.0,7.5,23.8,6.8-25.0,62.5,51.2-72.5,529.7,no_informativo_margen

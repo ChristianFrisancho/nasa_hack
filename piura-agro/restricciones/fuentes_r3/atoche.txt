@@ -1,0 +1,2796 @@
+ FACULTAD DE INGENIERÍA Y ARQUITECTURA
+ESCUELA PROFESIONAL DE INGENIERÍA AMBIENTAL
+
+
+   Efecto del carbofuran en la fertilidad de suelos agrícolas
+           productoras de limón, Sullana – Perú 2024
+
+         TESIS PARA OBTENER EL TÍTULO PROFESIONAL DE:
+                           Ingeniero Ambiental
+
+
+                                 AUTOR:
+      Atoche Alvarado, Luis Andree (orcid.org/0000-0001-6751-5875)
+
+
+                                ASESOR:
+Dr. Sernaque Auccahuasi, Fernando Antonio (orcid.org/0000-0003-1485-5854)
+
+                       LÍNEA DE INVESTIGACIÓN
+                Calidad y gestión de los recursos naturales
+
+
+        LÍNEA DE RESPONSABILIDAD SOCIAL UNIVERSITARIA
+           Desarrollo sostenible y adaptación al cambio climático
+
+
+
+                           CHICLAYO – PERÚ
+                                   2025
+Dedicatoria
+
+A mi querida hija, Micaela de los Ángeles
+Atoche Aparicio, quien ha sido mi mayor
+fuente de inspiración y motivación.
+A mi familia, cuya ayuda, entendimiento y
+tolerancia han sido esenciales para lograr
+conseguir este sueño.
+
+
+
+
+                                iv
+Agradecimiento
+
+Deseo      expresar    un   reconocimiento
+particular a los miembros de mi familia
+Atoche Alvarado, representaron mi mayor
+fuente de apoyo e inspiración durante este
+proceso.
+
+A mi hermana, Dra. Lissette de los Ángeles
+Atoche     Alvarado,    cuya      paciencia,
+comprensión y aliento constante han
+representado un soporte invaluable. Su
+presencia y ánimo en cada paso me
+brindaron la certeza de contar siempre con
+un respaldo sólido y afectuoso.
+
+A mis docentes de la Universidad César
+Vallejo, por el aporte y mi desenvolvimiento
+profesional.
+
+
+
+
+                                  v
+                                              Índice de contenidos
+
+Caratula ................................................................................................................... i
+
+Declaratoria de Autenticidad del Asesor ................................................................. ii
+
+Declaratoria de Originalidad del Autor .................................................................... iii
+
+Dedicatoria ............................................................................................................. iv
+
+Agradecimiento....................................................................................................... v
+
+Índice de contenido s............................................................................................... vi
+
+Índice de tablas ..................................................................................................... vii
+
+Índice de figuras ..................................................................................................... ix
+
+Resumen ................................................................................................................ x
+
+Abstract .................................................................................................................. xi
+
+I.     INTRODUCCIÓN ............................................................................................ 1
+
+II.    METODOLOGÍA ............................................................................................ 17
+
+III.     RESULTADOS ............................................................................................ 23
+
+IV.      DISCUSIONES ........................................................................................... 57
+
+V.     CONCLUSIONES .......................................................................................... 62
+
+VI.      RECOMENDACIONES ............................................................................... 64
+
+REFERENCIAS .................................................................................................... 65
+ANEXOS
+
+
+
+
+                                                                                                                           vi
+                                               Índice de tablas
+
+Tabla 1. Dimensión de cada variable - VD ............................................................ 18
+Tabla 2. Dimensión de cada variable – VI ............................................................ 18
+Tabla 3. Instrumentos para campo ....................................................................... 19
+Tabla 4: Diagnóstico inicial – Base #00 ................................................................ 24
+Tabla 5. Muestra con dosis de 2 ml/L de carbofuran ........................................... 26
+Tabla 6. Muestra – Calicata #1 - 4 ml/L ............................................................... 27
+Tabla 7. Muestra – Calicata #1 - 6 ml/L ................................................................ 28
+Tabla 8. Muestra – Calicata #1 – 8 ml/L ............................................................... 29
+Tabla 9. Muestra – Calicata #1 – 10 ml/L ............................................................. 30
+Tabla 10. Análisis de Varianza .............................................................................. 41
+Tabla 11. Medias ................................................................................................... 41
+Tabla 12. Comparaciones en parejas de Fisher ................................................... 41
+Tabla 13. Análisis de Varianza .............................................................................. 42
+Tabla 14. Medias .................................................................................................. 42
+Tabla 15. Comparaciones en parejas de Fisher ................................................... 42
+Tabla 16. Análisis de Varianza .............................................................................. 43
+Tabla 17. Medias .................................................................................................. 43
+Tabla 18. Comparaciones en parejas de Fisher ................................................... 43
+Tabla 19. Análisis de Varianza .............................................................................. 44
+Tabla 20. Medias .................................................................................................. 44
+Tabla 21. Comparaciones en parejas de Fisher ................................................... 44
+Tabla 22. Análisis de Varianza .............................................................................. 45
+Tabla 23. Medias .................................................................................................. 45
+Tabla 24. Comparaciones en parejas de Fisher ................................................... 45
+Tabla 25. Análisis de Varianza .............................................................................. 46
+Tabla 26. Medias .................................................................................................. 46
+Tabla 27. Comparaciones en parejas de Fisher ................................................... 46
+Tabla 28. Análisis de Varianza .............................................................................. 47
+Tabla 29. Medias .................................................................................................. 47
+Tabla 30. Comparaciones en parejas de Fisher ................................................... 47
+Tabla 31. Análisis de Varianza .............................................................................. 48
+
+
+                                                                                                                    vii
+Tabla 32. Medias .................................................................................................. 48
+Tabla 33. Comparaciones en parejas de Fisher ................................................... 48
+Tabla 34. Prueba de normalidad ........................................................................... 49
+Tabla 35. Rangos.................................................................................................. 50
+Tabla 36. Prueba de Wilconxon ............................................................................ 50
+Tabla 37. Prueba de normalidad ........................................................................... 51
+Tabla 38. Rangos.................................................................................................. 52
+Tabla 39. Prueba de Wilconxon ............................................................................ 52
+Tabla 40. Prueba de normalidad ........................................................................... 53
+Tabla 41. Rangos.................................................................................................. 54
+Tabla 42. Prueba de Wilconxon ............................................................................ 54
+Tabla 43. Prueba de normalidad ........................................................................... 55
+Tabla 44. Prueba de Wilconxon ............................................................................ 56
+
+
+
+
+                                                                                                                  viii
+                                       Índice de figuras
+
+Figura 1. Diagrama de procesos de la parte experimental ................................... 21
+Figura 2. Ubicación de la provincia de Sullana .................................................... 23
+Figura 3. Dosificación con 2 ml/L de carbofuran ................................................... 26
+Figura 4. Comportamiento del pH con el carbofuran ............................................ 32
+Figura 5. Comportamiento de la conductividad eléctrica con el carbofuran ......... 32
+Figura 6. Comportamiento de la materia orgánica con el carbofuran ................... 34
+Figura 7. Comportamiento de la arena con el carbofuran .................................... 35
+Figura 8. Comportamiento de la arcilla con el carbofuran .................................... 36
+Figura 9. Comportamiento de limo con el carbofuran ........................................... 37
+Figura 10. Comportamiento de fósforo con el carbofuran .................................... 38
+Figura 11. Comportamiento de potasio con el carbofuran .................................... 39
+Figura 12. Comportamiento de Carbonato de Calcio con el carbofuran ............... 40
+
+
+
+
+                                                                                                    ix
+                                      Resumen
+
+La investigación tuvo como objetivo evaluar el efecto del carbofurán en la fertilidad
+de suelos agrícolas productores de limón en Sullana, Perú. Se aplicó un diseño
+experimental con enfoque cuantitativo, utilizando dosis de 2 a 10 ml/L de
+carbofurán en muestras de suelo, donde se midieron parámetros fisicoquímicos
+como pH, materia orgánica, fósforo, potasio, textura y conductividad eléctrica. Los
+resultados mostraron una reducción significativa en la materia orgánica, de 1,2 %
+a 0,2 %, y en el fósforo disponible, de 112,3 mg/kg a 17,9 mg/kg. El potasio alcanzó
+un máximo de 177,9 ppm, mientras que el pH se mantuvo estable entre 7,5 y 7,8.
+La textura arenosa (93-95 %) favoreció la rápida filtración, lo que limita el impacto
+directo en el suelo, pero incrementa el riesgo de contaminación en la napa freática.
+La conductividad eléctrica osciló entre 8 y 11,7 mS/m, reflejando baja salinidad. En
+conclusión, el carbofurán deteriora la fertilidad del suelo al reducir nutrientes
+esenciales, lo que evidencia la necesidad de alternativas sostenibles para el control
+de plagas en el cultivo de limón.
+
+Palabras clave: fertilidad del suelo, plaguicida, suelo, insecticida, salinidad
+
+
+
+
+                                                                                    x
+                                        Abstract
+
+The research aimed to evaluate the effect of carbofuran on the fertility of agricultural
+soils used for lemon production in Sullana, Peru. An experimental design with a
+quantitative approach was applied, using doses ranging from 2 to 10 ml/L of
+carbofuran in soil samples, where physicochemical parameters such as pH, organic
+matter, phosphorus, potassium, texture, and electrical conductivity were measured.
+The results showed a significant decrease in organic matter, from 1.2% to 0.2%,
+and in available phosphorus, from 112.3 mg/kg to 17.9 mg/kg. Potassium reached
+a maximum of 177.9 ppm, while pH remained stable between 7.5 and 7.8. The
+sandy texture of the soil (93–95%) favored rapid filtration, which limited the direct
+impact on the soil but increased the risk of groundwater contamination. Electrical
+conductivity ranged from 8 to 11.7 mS/m, indicating low salinity. In conclusion,
+carbofuran deteriorates soil fertility by reducing essential nutrients, highlighting the
+need for sustainable alternatives for pest management in lemon cultivation.
+
+Keywords: soil fertility, pesticide, soil, insecticide and salinity
+
+
+
+
+                                                                                      xi
+I.      INTRODUCCIÓN
+
+La relevancia de este estudio es crucial para evaluar el comportamiento del
+compuesto químico carbofuran y su impacto en el medio ambiente, particularmente
+a través del suelo, que es el principal medio de contacto. Además, el estudio
+pretende contribuir a la meta 12 de los Objetivos de Desarrollo Sostenible, que
+promueve una producción y consumo responsable, al reducir el uso de plaguicidas
+y favorecer alternativas sostenibles, todo ello a través de las alternativas que son
+más amigables con el medio ambiente.
+
+El uso intensivo de plaguicidas en la agricultura peruana ha contribuido al
+crecimiento de la producción alimentaria, pero también ha generado múltiples
+efectos perjudiciales en los ecosistemas y salud humana. Diversas investigaciones
+han evidenciado que “el uso inadecuado del control químico trae consigo problemas
+como contaminaciones e intoxicaciones en el ambiente y en los seres humanos”
+(1). En el contexto del Perú, la agricultura familiar enfrenta condiciones precarias,
+donde “el 64.9% de los hogares presenta algún grado de inseguridad alimentaria,
+lo que refuerza la necesidad de políticas públicas frente a estas vulnerabilidades”
+(2). Por otro lado, estudios regionales resaltan que “la actividad agrícola genera
+contaminación del suelo atribuida principalmente al uso de agroquímicos” (3), lo
+que compromete el equilibrio de los ecosistemas y afecta directamente la calidad
+de vida de los productores. En el mismo sentido, se ha determinado que “el uso
+excesivo de pesticidas y fertilizantes provoca la dispersión de contaminantes que
+se bioacumulan en especies animales y vegetales” (4), intensificando el deterioro
+de los recursos naturales como el suelo y el agua. En países andinos, incluido el
+Perú, se ha documentado que “los residuos de pesticidas afectan la salud pública
+al ser encontrados en productos agrícolas de consumo humano” (5). Además, se
+ha evidenciado que “la exposición ocupacional a plaguicidas en zonas rurales del
+Perú está asociada a síntomas neuroconductuales en agricultores” (6). Este
+panorama se agrava debido a “la limitada capacidad institucional para implementar
+regulaciones efectivas que mitiguen los impactos del uso de agroquímicos” (7).
+
+En el Perú, el uso de plaguicidas continúa siendo una práctica generalizada en la
+agricultura convencional, lo que ha derivado en impactos negativos como la
+contaminación de los recursos hídricos y la degradación de suelos, producto del
+
+                                                                                   1
+uso inadecuado de pesticidas y fertilizantes sintéticos (8). Esta situación se agrava
+en el marco de un sistema agroalimentario subordinado a un modelo económico y
+tecnológico que produce alimentos con altos niveles de residuos tóxicos,
+priorizando la rentabilidad por encima de la salud humana y la sostenibilidad
+ambiental (9). A pesar de los avances tecnológicos, como la Agricultura 4.0, que
+busca reducir el uso de herbicidas y pesticidas mediante herramientas digitales
+como el IoT y la inteligencia artificial, en muchos países en desarrollo aún no se
+alcanza una adopción significativa que permita mitigar los impactos ambientales de
+estas sustancias químicas (10). Asimismo, en el contexto de la agricultura de
+precisión, se ha documentado que la eficacia de los productos agroquímicos ha
+disminuido, en gran parte debido a su uso innecesario y excesivo, generando una
+menor respuesta de los cultivos y comprometiendo la seguridad alimentaria (11).
+
+La agricultura, presionada por factores tecnológicos, ambientales, económicos y
+sociales, requiere de tecnologías de alta precisión que optimicen el uso de insumos
+y minimicen el impacto ambiental para sostener la productividad ante el
+agotamiento de los recursos naturales (12). No obstante, en zonas cercanas a
+complejos industriales, la contaminación por metales pesados en suelos agrícolas
+representa una amenaza directa a la seguridad alimentaria, generando efectos
+adversos para la salud humana y el equilibrio ecológico (13). Frente a este
+panorama, el uso de tecnologías emergentes como los drones, integradas con
+sistemas de georreferenciamiento, se consolida como una herramienta económica
+y eficaz para el monitoreo agrícola en territorios de difícil acceso (14). Asimismo,
+los aportes del sector agrícola a la economía nacional son significativos,
+destacando su rol estratégico en la seguridad alimentaria y en el cumplimiento de
+los Objetivos de Desarrollo Sostenible (15). En este contexto, la tecnología de la
+información ha transformado radicalmente la gestión del agro, contribuyendo no
+solo al aumento de la productividad, sino también a un modelo agrícola sostenible
+capaz de responder a los desafíos del cambio climático (16). A nivel de políticas
+públicas, la agricultura irrigada en Brasil se presenta como una de las principales
+estrategias para satisfacer la creciente demanda global de alimentos de forma
+sostenible, destacando su capacidad de generación de empleo y mitigación del
+desmonte de nuevas áreas (17).
+
+
+                                                                                   2
+La agricultura, base de la seguridad alimentaria y el desarrollo económico, atraviesa
+una transformación radical impulsada por la tecnología digital, la biotecnología y
+nuevos modelos sostenibles, donde la transformación digital emerge como
+herramienta innovadora al integrar procesos agrícolas con tecnologías disruptivas
+que configuran nuevos caminos de crecimiento e innovación en el sector (18). Al
+mismo tiempo, la adopción de tecnologías como los drones se ha vuelto
+indispensable en el campo, permitiendo un control más eficiente y decisiones más
+precisas sobre los cultivos (19). Sin embargo, esta modernización tecnológica
+también refleja desigualdades territoriales y dificultades estructurales, como se
+evidencia en la trayectoria de la agricultura en Araçatuba/SP, donde la
+modernización promovió cambios significativos en la economía local, pero también
+una creciente dependencia de los monocultivos (20). Aún dentro de esta
+perspectiva de innovación, la agricultura irrigada ha sido destacada como una de
+las principales estrategias brasileñas para garantizar el aumento de la producción
+de alimentos de forma sostenible, permitiendo ganancias económicas sin la
+necesidad de nuevas áreas deforestadas (17). La biotecnología también juega un
+papel decisivo en este nuevo escenario, ya que permite no sólo aumentar la
+productividad, sino también la resistencia a plagas y enfermedades, contribuyendo
+a soluciones sustentables ante la creciente demanda de alimentos (21). Por otra
+parte, el actual modelo de producción agrícola basado en el agronegocio ha llevado
+al uso intensivo de pesticidas, con impactos negativos sobre la salud humana y el
+medio ambiente, requiriendo una reevaluación urgente de los riesgos asociados a
+la exposición prolongada a estos productos (22).
+
+Durante el último siglo, los agricultores han incrementado la aplicación de pesticidas
+para mejorar sus cosechas. La utilización y exposición a estos productos constituye
+un grave problema que enfoca la salud de la población que impacta de manera
+directa a millones de individuos en las localidades rurales dedicadas a la agricultura
+y sus alrededores en todo el mundo (23). El aumento en la intensidad de la
+agricultura, sin considerar la sostenibilidad ambiental, puede llevar al desgaste del
+terreno, la contaminación del agua y la disminución de la productividad a largo
+plazo, afectando el desarrollo económico y social del área y la población humana
+que es parte de este sistema (24). Los pesticidas han representado una respuesta
+efectiva en la batalla contra el hambre y manejan diversas enfermedades vegetales
+
+                                                                                    3
+que impactan las reservas alimentarias de la humanidad, facilitando así que
+extensas áreas de la población tengan acceso a alimentos de mayor calidad (25).
+Los impactos ambientales a lo largo de todo el ciclo de vida de las cosechas se
+relacionan principalmente con la fase de cultivo; por ejemplo, el uso excesivo de
+fertilizantes altera el equilibrio de nutrientes y, finalmente, afecta al medio ambiente,
+dado que los nutrientes que las plantas no absorben se infiltran en el suelo y el
+agua (26). En numerosas situaciones, se realiza un uso excesivo e indiscriminado
+de pesticidas, lo cual conlleva efectos negativos en el entorno natural y la salud
+colectiva, incluyendo la salud de los consumidores y los trabajadores del sector
+agrícola (27).
+
+Los análisis de ecotoxicidad y toxicidad resultan fundamentales para supervisar la
+calidad del medio ambiente, para este propósito, se han creado y utilizado diversos
+métodos y modelos (28). Debido a su posible toxicidad, el uso y manejo de
+plaguicidas implica varios peligros para los trabajadores expuestos y la ciudadanía
+en general y el entorno natural. Los impactos adversos relacionados con los
+plaguicidas en la salud humana pueden manifestarse tanto a corto como a largo
+plazo (29).
+
+El carbofurano (CF), un carbamato de N-metilo, es ampliamente utilizado en la
+agricultura, silvicultura y jardinería como insecticida, nematicida y acaricida, el
+contacto e ingestión de carbofuran están asociados con una alta incidencia de
+enfermedades y mortalidad en humanos y animales domésticos (30). El carbofuran
+se caracteriza por su alta movilidad en el suelo, su solubilidad en agua y su
+persistencia, lo que facilita su presencia frecuente en cuerpos acuáticos, además
+los residuos de carbofuran en el agua pueden ser consumidos por los mamíferos,
+incluidos los humanos, con efectos adversos para la salud (31).
+
+El carbofurán es un insecticida carbamato de amplio uso en la agricultura debido a
+su eficacia en el control de plagas (32). Sin embargo, su aplicación ha generado
+preocupaciones ambientales y sanitarias significativas (33). Estudios recientes
+evidencian la persistencia de residuos de carbofurán en frutas y verduras del
+mercado chino, representando un riesgo agudo para la salud, en particular para la
+población infantil (34). Este compuesto tiene la capacidad de acumularse en el
+ambiente, lo que afecta negativamente a la biodiversidad y compromete la
+
+                                                                                       4
+seguridad alimentaria (33). En respuesta, se han promovido estrategias de
+bioremediación microbiana como alternativa ecológica para su degradación (32).
+La identificación de rutas metabólicas específicas, como la conversión a 3-
+hidroxicarbofurán,   ha   sido   clave   para   entender   su   transformación   por
+microorganismos especializados (35). Además, se han descubierto genes como
+cehA y el clúster cfd implicados en su catabolismo, lo cual sugiere mecanismos
+evolutivos compartidos entre bacterias degradadoras (36). Paralelamente, el
+desarrollo de sensores electroquímicos basados en nanomateriales de carbono ha
+mejorado la detección del carbofurán por su sensibilidad y bajo costo. No obstante,
+la precisión de estos dispositivos aún presenta limitaciones técnicas que requieren
+mejoras para su implementación efectiva (37).
+
+El uso intensivo de pesticidas sintéticos, en particular del carbofurán un carbamato
+de alta toxicidad aún autorizado en países como México y Bolivia pese a su
+prohibición en Europa ha suscitado una creciente preocupación ambiental y
+sanitaria debido a su persistencia en el ambiente y los riesgos que representa para
+la salud humana (38). Su aplicación agrícola no solo impacta negativamente la
+salud de los agricultores expuestos, sino que también representa una fuente de
+contaminación de cuerpos hídricos al encontrarse residuos del compuesto en
+concentraciones superiores a los límites establecidos por la OMS (38). Desde una
+perspectiva clínica, la exposición al carbofurán puede desencadenar cuadros
+graves de síndrome colinérgico, caracterizados por síntomas como bradicardia,
+depresión respiratoria y pérdida de conciencia, requiriendo intervenciones urgentes
+como atropinización y soporte ventilatorio prolongado (39). Su mecanismo de
+toxicidad implica la inhibición reversible de la acetilcolinesterasa, provocando una
+estimulación excesiva del sistema nervioso colinérgico, lo cual lo convierte en una
+sustancia potencialmente letal incluso en dosis reducidas (40). A nivel ambiental,
+su uso como nematicida ha sido efectivo para el control de plagas en cultivos como
+el manzano (Malus pumila), sin embargo, su elevada toxicidad representa un riesgo
+ecológico significativo, siendo necesario el desarrollo de alternativas más
+sostenibles (41). En ese sentido, aunque el carbofurán demostró mayor eficiencia
+en la eliminación de nematodos comparado con enmiendas orgánicas como el
+estiércol de vaca, el impacto ambiental negativo de su uso obliga a considerar su
+sustitución por opciones menos contaminantes (42). La evaluación de métodos
+
+                                                                                  5
+para remover carbamatos en matrices acuosas, especialmente mediante oxidación
+avanzada y biodegradación microbiana, se ha vuelto prioritaria debido a la alta
+persistencia del carbofurán en suelos con alto contenido de carbono orgánico y en
+aguas alcalinas, lo que dificulta su eliminación y agrava su impacto contaminante
+(38).
+
+En Perú, el aumento de plagas constituye un desafío significativo para los
+agricultores, quienes recurren a productos agroquímicos para su manejo. Con
+frecuencia, se utilizan pesticidas en exceso, lo que provoca impactos negativos en
+el suelo, el aire, el agua, la salud de los trabajadores agrícolas y la de los
+consumidores (27). Así como la preocupación por la seguridad alimentaria y otros
+productos agrícolas, también hay interés en controlar insectos y otros vectores que
+transmiten enfermedades (43).
+
+El uso de plaguicidas en la agricultura peruana ha generado una creciente
+preocupación ambiental y sanitaria, dada su extensión, manejo deficiente y
+consecuencias adversas. En la provincia de Oxapampa, el uso intensivo de
+plaguicidas a lo largo de la cadena de valor del rocoto, incluidos ingredientes activos
+prohibidos en otros países como el benomilo, el paraquat y el glifosato, compromete
+la salud de productores, consumidores y el ambiente (44). Esta problemática no es
+aislada, ya que, en Huánuco, el uso inadecuado de plaguicidas en cultivos de papa
+ha derivado en contaminación del agua y del suelo, además de numerosos casos
+de intoxicación cutánea entre agricultores, lo que revela graves carencias en la
+educación ambiental y el control de sustancias peligrosas (45). Por otro lado,
+estudios experimentales realizados en la costa norte del Perú han evidenciado que
+los agricultores aplican fungicidas e insecticidas en dosis inadecuadas,
+aumentando la toxicidad ambiental y la exposición a ingredientes activos como
+clorpirifos e imidacloprid (46). En este contexto, se han propuesto alternativas de
+control como los plaguicidas de bajo impacto ambiental, los cuales han demostrado
+una eficacia superior al 90% en el manejo de plagas sin comprometer la
+sostenibilidad del ecosistema agrícola (47). Sin embargo, a pesar de la existencia
+de soluciones viables, estudios en contextos similares como la cuenca del Río
+Turbio han señalado que prácticas como la falta de equipos de protección, el uso
+
+
+
+
+                                                                                     6
+de pesticidas de alta peligrosidad y la contaminación de fuentes hídricas continúan
+siendo comunes, lo cual agrava la crisis socioambiental (48).
+
+Dada la toxicidad y persistencia ambiental del carbofurano, se ha investigado el
+potencial del Citrus limon, cuyas semillas presentan propiedades antioxidantes,
+antiinflamatorias y neuromoduladoras, como agente mitigador de los efectos
+tóxicos inducidos por este pesticida (49). Asimismo, se ha evidenciado que los
+extractos de C. limon contienen flavonoides, saponinas, alcaloides y otros
+compuestos fitoquímicos con potencial terapéutico (50). Por otro lado, se ha
+identificado que los residuos del limón, como la cáscara, pueden ser valorizados
+mediante métodos de extracción optimizados para obtener compuestos
+antioxidantes de alta concentración, lo cual abre posibilidades para su aplicación
+en la reducción del daño oxidativo inducido por contaminantes orgánicos
+persistentes como el carbofurano (51). Además, el microbioma endógeno de las
+semillas de C. limon ha demostrado ser transmitido verticalmente a los brotes, lo
+cual sugiere una coevolución funcional de microorganismos con propiedades
+beneficiosas, incluyendo la producción de ácido indolacético y la solubilización de
+fosfato, lo que podría contribuir indirectamente a la biorremediación de suelos
+contaminados (52). En investigaciones sobre enfermedades degenerativas, se ha
+comprobado que los compuestos de C. limon pueden modular rutas inflamatorias
+mediante la activación de vías como Nrf2/HO-1/NF-κB, reduciendo así la expresión
+de citoquinas proinflamatorias inducidas por estímulos tóxicos, mecanismo que
+podría extrapolarse al contexto del estrés inducido por plaguicidas (53).
+
+Una agricultura sostenible debe cubrir las demandas de los productores,
+asegurando la rentabilidad, el bienestar ambiental, la justicia social y económica.
+Además, debe contar con medidas viables para el desarrollo de cultivos,
+promoviendo así la sostenibilidad (54). Piura cuenta con 1, 858,617 residentes, con
+un porcentaje de pobreza del 39.6% y un IDH de 0.506, mientras que Sullana
+alberga más de 317,000 integrantes, con un Índice de Pobreza del 39.1% (55).
+Según datos del Ministerio de Agricultura y Riego, se estimó que las
+agroexportaciones de limón y mango en Piura fueron de aproximadamente 494,609
+toneladas y 6,368.29 toneladas, respectivamente. Chile, el mayor comprador de
+
+
+
+
+                                                                                 7
+estos cítricos, absorbe más del 70% del total exportado desde Piura, con Panamá
+como el siguiente mayor importador (56).
+
+La producción de limón en la región Piura representa más del 50 % de la oferta
+nacional, pero sufre constantes amenazas debido a factores climáticos extremos
+que afectan el desarrollo de los cultivos, generando anomalías como ocurrió
+durante el Fenómeno del Niño Costero en 2017 (56). Si bien se han desarrollado
+iniciativas como el diseño de Centros de Innovación Productiva (CITE) para mejorar
+la productividad y competitividad del limón sutil, aún persisten desafíos en cuanto
+a su articulación con el proceso de industrialización y transferencia tecnológica
+efectiva (57). Estudios recientes evidencian que las condiciones climáticas como la
+temperatura y el tipo de cambio influyen directamente sobre la producción regional
+del limón, pero el impacto del uso de agroquímicos como los plaguicidas no ha sido
+abordado con igual profundidad, pese a su efecto en la calidad del producto y la
+salud pública (58). Además, la expansión de la frontera agrícola ha elevado la
+presión sobre el uso de insumos químicos, lo que exige un monitoreo más preciso
+del comportamiento fenológico de los cultivos mediante herramientas como firmas
+espectrales y sensores satelitales (56). A esto se suma la limitada capacidad de
+intervención de los productores frente al manejo sostenible del cultivo y la ausencia
+de infraestructura básica en sectores clave como La Peñita, donde no se cuenta
+con sistemas adecuados para dar valor agregado a este cítrico de exportación (59),
+mientras que regiones como Tambogrande han enfrentado sobrecargas de
+pesticidas sin una adecuada fiscalización estatal (60).
+
+En este contexto, se formula el siguiente problema general: ¿Cuál es el efecto del
+carbofuran en la fertilidad de suelos agrícolas productoras de limón en Sullana,
+Perú 2024? Así mismo se presentan los problemas específicos ¿Cuál es la dosis
+de carbofuran necesario para alterar la concentración de macronutrientes primarios
+de suelos agrícolas productoras de limón? ¿Cuál es el tiempo de exposición del
+carbofuran necesario para alterar la textura de suelos agrícolas productoras de
+limón? ¿Cuáles son los cambios de los parámetros fisicoquímicos al inicio y al final
+de la investigación de los suelos agrícolas productoras de limón?
+
+Esta investigación se justifica desde una perspectiva metodológica, teórica, práctica
+y social, para entender las interacciones químicas y biológicas entre el carbofuran
+
+                                                                                   8
+y suelo, ampliando el conocimiento sobre la persistencia de los plaguicidas en
+suelos dedicados a la agricultura. Teórica, porque el estudio beneficiará a la
+comunidad científica al proporcionar información del deterioro y las consecuencias
+de utilizar el carbofuran como alternativa al control de plagas, además de evidenciar
+el proceso de deterioro que presentará el suelo. Metodológica, debido a que, la
+observación experimental ayudará a poder recopilar la información que se va a
+obtener en campo, al visualizar el comportamiento de las plantas y del suelo que
+van a ser expuestos al carbofuran. Social, porque el estudio va a poder informar a
+la población dedicada a la agricultura, con los alcances que proporciona el estudio
+podrán tomar medidas sobre las consecuencias del uso del carbofuran y buscar
+alternativas sostenibles. Práctica, debido a que, la investigación servirá como
+estudio base para enfocar investigaciones que han de buscar soluciones a la
+presencia del carbofuran, por ejemplo, como degradar o disminuir su presencia en
+la agricultura.
+
+El presente estudio presenta el siguiente objetivo general: Evaluar el efecto del
+carbofuran en la fertilidad de suelos agrícolas productoras de limón Sullana, Perú
+2024. Además, también presenta los siguientes objetivos específicos, Determinar
+la dosis de carbofuran necesario para alterar la concentración de macronutrientes
+primarios de suelos agrícolas productoras de limón. Analizar el tiempo de
+exposición del carbofuran necesario para alterar la textura de suelos agrícolas
+productoras de limón. Comparar los cambios de los parámetros fisicoquímicos al
+inicio y al final de la investigación de los suelos agrícolas productores de limón.
+
+Y como hipótesis general: El efecto del carbofuran en la fertilidad de suelos
+agrícolas productoras de limón Sullana, Perú 2024, revelará disminución en los
+parámetros de fertilidad. También presentas las siguientes hipótesis específicas: La
+dosis de 2ml a 10 ml por litro de agua de carbofuran aplicada mostrará pérdidas en
+los macronutrientes primarios de suelos agrícolas productoras de limón. El tiempo
+de exposición al carbofuran presentará efectos negativos en la textura de suelos
+agrícolas productoras de limón. Los parámetros fisicoquímicos al inicio y al final de
+la investigación mostraran cambios significativos en los suelos agrícolas
+productores de limón.
+
+
+
+
+                                                                                      9
+Ćwieląg (61) investigó el impacto de la MOS en la retención de agroquímicos como
+carbarilo, carbofurano y metolaclor. La metodología se basó en evaluar la sorción y
+desorción en distintos pHs utilizando materiales francos arenosos y de capa
+superior, se encontró que el carbarilo tiene alta afinidad con el carbono residual,
+mientras que el carbofurano se asocia con montmorillonita y dicho carbono. Los
+parámetros isotérmicos calculados indican una sorción de pesticidas que es física,
+espontánea y favorable. La retención del carbofurano en los suelos se relacionó
+con las fracciones de montmorillonita (Mt) y CR. Los hallazgos de esta investigación
+destacan que la estructura de la materia orgánica del suelo y la dinámica de sus
+fracciones individuales de carbono orgánico junto con el pH pueden jugar un papel
+clave en la predicción del comportamiento de los pesticidas no iónicos en el suelo.
+En conclusión, el carbaril, el carbofurano y el metolacloro fueron retenidos con
+mayor eficacia por los suelos francos que por los suelos arenosos. Los modelos de
+Langmuir, Freundlich y Temkin se ajustaron adecuadamente a las isotermas
+experimentales de tipo L obtenidas.
+Shi et al., (62) determinaron la distribución del carbosulfán y sus metabolitos tóxicos
+en plantas de maíz, tanto a nivel tisular como subcelular, y explorar el mecanismo
+de absorción y translocación del carbosulfán. La dosificación consistió que las
+plantas tengan contacto directo con el carbosulfán a partir de una dosis ya
+establecida por la ficha técnica. Los resultados mostraron que el carbosulfán fue
+absorbido principalmente por las raíces del maíz a través de la vía apoplástica,
+distribuyéndose preferentemente en las paredes celulares (51,2%-57,0%) y
+acumulándose mayoritariamente en las raíces (85,0%), con una débil translocación
+hacia arribaSin embargo, el carbofurano pudo trasladarse a los brotes y hojas
+debido a su mayor solubilidad en los componentes solubles de las raíces (24,4%-
+28,5%) en comparación con el carbosulfán (9,7%-14,5%). Esto se atribuye a su
+mayor    solubilidad   respecto    al   compuesto     original.   El   metabolito   3-
+hidroxicarbofurano se detectó en brotes y hojas. En conclusión, el carbosulfán
+podría ser absorbido pasivamente por las raíces del maíz, principalmente a través
+de la vía apoplástica, y transformado en carbofurano y 3-hidroxicarbofurano.
+Aunque el carbosulfán se acumuló principalmente en las raíces, sus metabolitos
+tóxicos, el carbofurano y el 3-hidroxicarbofurano, se encontraron en brotes y hojas.
+
+
+
+                                                                                    10
+Abeja et al., (63) evaluaron los impactos inmediatos del Carbofuran® en ejemplares
+jóvenes de Chirostoma humboldtianum mediante biomarcadores de toxicidad
+neuronal y oxidativa en el cerebro. La metodología consistió en analizar el impacto
+del carbofuran en concentraciones de 0.0, 0.025, 0.05, 0.1, 0.2 y 0.4 mg/L (n = 10,
+con tres réplicas) en un experimento sin alteración y sin movimiento hídrico en 96
+horas, Se emplearon juveniles de siete meses obtenidos mediante fertilización in
+vitro de reproductores en cautiverio, con certificación genética y morfológica. Los
+resultados mostraron que la CL50 fue de 0.077 mg/L-1 después de 96 horas. Se
+detectó una inhibición en la actividad de la acetilcolinesterasa. Los niveles de
+lipoperoxidación fueron mayores en las branquias comparadas con los tejidos
+musculares. En conclusión, el carbofurano ocasiona lesiones neurotóxicas y en los
+juveniles de C. humboldtianum se identificaron lesiones de tipo oxidativo, con
+niveles inferiores a los observados en otras especies de peces.
+
+Cuesta (64) analizó la sorción y desorción de los pesticidas no iónicos carbaryl,
+carbofuran y metolachlor en suelos de arena limosa y loam, examinando cómo la
+composición de la materia orgánica del suelo (SOM) y el pH, que varió de tres a
+siete, afectan su retención. La metodología se basó en estudios de sorción-
+desorción y modelos isotérmicos, se encontró que la composición del SOM y el pH
+influyen notablemente en la retención de estos químicos. Los resultados indicaron
+que los valores más altos de retención se observaron en pH bajo, destacando una
+afinidad particular del carbaryl por la fracción de carbono residual del SOM, que
+presentó un (Qmax) de 32.57 mg/kg en suelo de loam y una capacidad en suelo de
+arena limosa de 15.25 mg/kg. En conclusión, se subraya la relevancia del tipo de
+SOM y el pH en la predicción del comportamiento ambiental de pesticidas,
+ofreciendo insights cruciales para evaluar los peligros de contaminación en
+acuíferos y cuerpos de agua superficiales.
+
+Alhua et al., (65) analizaron el impacto del carbofuran en los nutrientes principales
+del suelo en el distrito de Chongos Bajo, localizado en la región montañosa del
+Perú. Con enfoque cuantitativo y proceso deductivo, abordando un área
+representativa de 10 m², llevando a cabo seis evaluaciones de muestras de suelo
+cada 15 días durante tres meses. Los hallazgos indicaron una disminución del
+7.85% en el nitrógeno total, del 14.05% en el fósforo disponible y del 10% en el
+
+
+                                                                                  11
+potasio disponible durante el periodo de 90 días. También se detectó un cambio en
+el pH del agua hacia niveles más ácidos, junto con una reducción del 6.93% en la
+materia orgánica. En conclusión, se evidenció que la toxicidad del insecticida
+carbofuran causó una disminución en la concentración de los nutrientes esenciales
+y afectó las características fisicoquímicas del suelo.
+
+Landeta (66), donde evaluó prácticas agrícolas en dos zonas, Media Luna y Jona
+Jona, utilizando múltiples herramientas de investigación. El tipo es descriptivo, con
+diseño prospectivo y una población de 177 agricultores. En Media Luna, el 42.4%
+usa fertilizantes con ingredientes activos predominantes como ácido linoleico (25%)
+y glifosato (23,9%). En Jona Jona, el 45.8% aplica insecticidas, siendo carbofuran
+(34,7%) y glifosato (13,9%) los más comunes. Los agroquímicos se aplican
+semanalmente en ambas zonas. Los envases de estos productos suelen quemarse
+en el campo en ambas áreas. Respecto a la toxicidad, en Media Luna prevalece la
+categoría III, mientras que en Jona Jona hay una diversidad de categorías. En
+conclusión, en Media Luna la mayoría invierte entre $280 y $704 por campaña en
+agroquímicos, mientras que en Jona Jona la mayoría gasta menos de $280.
+
+Díaz y García (67) analizaron el impacto del insecticida Carbofuran en la bacteria
+Azotobacter spp. en suelos de cultivo de café en La Primavera, Moyobamba.
+Utilizando diferentes dosis y bioensayos en invernadero y campo, se determinó que
+un aumento en la dosis de Carbofuran resulta en un mayor impacto negativo sobre
+la bacteria. El Tratamiento control (sin Carbofuran) registró una media de cero,
+mientras que en los Tratamientos 1, 2 y 3 se observaron 51, 45 y 62 colonias
+muertas, respectivamente. Para el día 15, el Tratamiento control sigue sin presentar
+colonias muertas, notándose un aumento en la mortalidad de las colonias
+comparado con el día 1. Estos constituyeron los niveles más altos de mortalidad
+bacteriana observados en los experimentos, con un 40% y 34%, respectivamente.
+En conclusión, se determinó que el carbofuran provocó efectos notables en la
+reducción de la población de bacterias Azotobacter spp. tanto en condiciones de
+laboratorio como en el campo.
+
+Cosco y Gómez (68)verificaron Un método que utiliza cromatografía líquida de ultra
+alta presión acoplada a un espectrómetro de masas de triple cuadrupolo para
+cuantificar carbamatos en diversas muestras de suelos agrícolas, considerados
+
+                                                                                  12
+como puntos iniciales de contaminación ambiental. Este procedimiento asegura
+una óptima separación cromatográfica, ionización de las moléculas y fragmentación
+de sus partes, que se identifican a través de su relación masa/carga y iones de
+relación, factores cruciales para determinar los analitos de interés y calcular
+concentraciones significativamente inferiores. El método sugerido logra se logró
+una recuperación de las muestras enriquecidas de hasta un nivel máximo de
+103,91% y se obtuvo una precisión, según la prueba de Bartlett, con un valor p de
+0,327., junto con otros parámetros de rendimiento según la técnica empleada. Los
+límites de detección son de 1 ug/L y de cuantificación de 5 ug/L, demostrando mayor
+sensibilidad que Los métodos convencionales de HPLC, evaluados mediante un
+software, indican que, al analizar los parámetros de validación, el método es preciso
+y confiable con un 95% de nivel de confianza, reduce el tiempo de análisis a 15
+minutos y mejora la identificación de los analitos, minimizando el efecto de la matriz.
+
+Bautista (69) examinó la contaminación del suelo por agroquímicos, enfocándose
+en el carbofurano usado en cultivos de papa criolla en San Agustín de Mutiscua. La
+meta fue determinar la capacidad de biodegradación del microbiota nativo frente a
+este pesticida. Se inició evaluando Las características y ambientales del terreno
+que afectan la acción metabólica de los microorganismos. Se procedió al
+aislamiento de siete bacterias y siete hongos que resisten varias concentraciones
+de carbofurano. Se caracterizaron porque se evaluaron en reactores biológicos
+para medir su capacidad degradativa. La medición del carbofurano se efectuó a
+través de espectrofotometría en el rango UV/Vis, monitoreando el crecimiento
+bacteriano y el peso seco en hongos. Los resultados revelaron que en quince días,
+bacterias y hongos pudieron degradar entre el 54% y el 81.6% del carbofurano. Un
+consorcio de estos microorganismos logró eliminar el 91.7% del pesticida,
+empleando procesos metabólicos enzimáticos para sintetizar, hidrolizar e hidroxilar
+el compuesto. La investigación concluye que la biodegradación reduce
+considerablemente la toxicidad del carbofurano, proponiendo una solución viable
+para disminuir la contaminación del suelo.
+
+Rincon et al., (70) evaluaron cómo diferentes formulaciones de barras de cereal
+influían en la liberación y distribución del carbofurano. La metodología empleada
+incluyó mezclar los ingredientes y hornear las barras a 180 ºC durante 15 minutos,
+
+
+                                                                                    13
+seguido por un enfriamiento a temperatura ambiente. Los resultados indicaron que
+la barra con una mayor concentración (15%) no fue bien aceptada sensorialmente
+por panelistas no entrenados debido a la astringencia del mijo, que afectaba el
+sabor. Para lograr este objetivo, se diseñaron tres formulaciones diferentes
+variando las proporciones de mijo y avena, mientras se mantenían constantes otros
+ingredientes. La conclusión del estudio sugirió que es crucial analizar
+detenidamente el proceso de elaboración de las barras para encontrar métodos que
+permitan eliminar o enmascarar la astringencia del mijo, lo cual afectaría la
+aceptabilidad del producto final. Además, se recomendó explorar el uso de
+diferentes aglutinantes, como aceite de soya o clara de huevo, para evitar
+deformaciones en la estructura de las barras, garantizando su consistencia y
+durabilidad durante el almacenamiento y transporte.
+
+Las teorías, están relacionadas el uso del carbofuran, según Romero et al., (71)
+definen como un plaguicida N-metilcarbamato (N-MC), que es inestable y se
+descompone rápidamente en el medio ambiente, lo que provoca que su
+persistencia sea limitada. Se han detectado sus restos en aguas subterráneas
+debido a su gran movilidad en los suelos, lo que plantea un riesgo potencial para la
+contaminación de fuentes de agua potable y la salud humana. Los carbamatos, que
+son compuestos originados del ácido carbámico (NH2COOH), se emplean
+habitualmente como insecticidas debido a su eficacia en el control de plagas. Sin
+embargo, pueden provocar envenenamiento por inhibir la colinesterasa, una
+enzima clave en la transmisión de impulsos nerviosos, lo que interfiere con el
+funcionamiento normal del sistema nervioso de los organismos expuestos (72).
+
+Los pesticidas son sustancias nocivas que generan perjuicios al entorno y a los
+organismos vivos, contaminando suelos, aguas y afectando la biodiversidad.
+Actualmente, la mayoría de los expertos concuerdan en que existe una
+sobreutilización de pesticidas en la agricultura, lo que no solo impacta
+negativamente en los ecosistemas, sino que también contribuye al desarrollo de
+resistencia en las plagas y puede tener efectos adversos en la salud humana (73).
+Los insecticidas químicos buscan establecer futuros programas de gestión de
+plagas orientados a reducir o regular la población de insectos, previniendo daños a
+los cultivos y otras áreas vulnerables. Sin embargo, su uso indiscriminado puede
+
+
+                                                                                 14
+generar efectos secundarios no deseados, como la resistencia de los insectos y la
+alteración de los ecosistemas locales (74).
+
+Para Zambrano et al., (75) los elementos primarios, tales como NPK, desempeñan
+múltiples funciones vitales en los sistemas biológicos y se clasifican en grupos
+según su predominancia en los alimentos. Incrementan la biomasa en la planta,
+reducen su eficiencia de uso y generan posibles problemas de contaminación
+ambiental (76). El nitrógeno es un componente mineral esencial para el crecimiento
+de los cultivos y tiene un impacto directo en el rendimiento final, dado que
+desempeña un rol fundamental en la constitución de las proteínas y, por ende, en
+el desarrollo celular, lo que influye en la calidad y cantidad de la cosecha. Su
+correcta disponibilidad en el suelo es crucial para optimizar los procesos
+metabólicos        de   las   plantas,   favoreciendo    si   crecimiento    saludable
+(77). La captura biológica de nitrógeno representa el método más eficiente de
+absorción de N₂ debido a la considerable cantidad que se fija y a la amplia variedad
+de hábitats en los que se da. Los nutrientes presentes en el suelo determinan el
+desarrollo vegetal, como en el caso del N₂, que influye directamente en el
+rendimiento de los cultivos (78). Alarcon et al., (79) hacen referencia al empleo de
+microorganismos eficientes, como bacterias fijadoras de nitrógeno, en la agricultura
+busca promover el crecimiento de las plantas y mejorar la fertilidad del suelo de
+manera natural y sostenible. Estos microorganismos establecen simbiosis con las
+raíces de leguminosas, convirtiendo el nitrógeno atmosférico en amonio, un
+nutriente vital.
+
+El fósforo estimula la floración y el llenado de frutos, impulsa el desarrollo vegetal y
+contribuye al aroma y dulzura del fruto; además, facilita la creación de tejidos más
+resistentes a la sequía y las heladas, siendo crucial para la fotosíntesis y el
+crecimiento general de las plantas. Su presencia adecuada en el suelo favorece la
+formación de raíces fuertes mejorando la absorción de nutrientes y agua, lo que
+resulta en un cultivo más saludable y productivo (80). El fósforo puede ser
+suministrado en forma de ácido fosfórico, dado que en numerosos terrenos
+agrícolas existen amplias reservas de fósforo en estado insoluble, a causa de la
+retención de los fertilizantes fosfatados empleados, lo que dificulta su disponibilidad
+
+
+
+                                                                                     15
+para las plantas. Al aplicar ácido fosfórico, se mejora la solubilización del fósforo,
+facilitando su absorción por las raíces (81).
+
+El sustrato se elabora mediante la combinación de tierra y materia orgánica que se
+emplea para rellenar las fundas, constituyendo el entorno en el que se planta la
+semilla que evolucionará en el patrón de cacao, un componente crucial del proceso
+de injerto, ya que proporciona los nutrientes y la estructura necesarios para el
+desarrollo adecuado de la planta (82).
+
+El pH es un indicador de la acidez o alcalinidad de una solución y cumple una
+función fundamental en la producción agrícola. En suelos con un pH ácido, es decir,
+un pH bajo, algunos elementos vitales para el desarrollo de las plantas, como el
+fósforo y el potasio, pueden estar menos disponibles para su absorción, lo que
+puede afectar negativamente el desarrollo de las plantas (83).
+
+
+
+
+                                                                                   16
+II.      METODOLOGÍA
+
+El presente estudio es de tipo aplicado y se orienta hacia la resolución de problemas
+concretos, mediante el uso de conocimientos teóricos y conceptuales, con el
+propósito de generar resultados con utilidad práctica inmediata (84). En este
+contexto, esta investigación busca informar sobre el aumento de la dosificación de
+carbofuran en proporción al agua utilizada para fumigar los cultivos de limón. Esto
+sirve para sustentar el objetivo del estudio, que es evaluar la creciente
+concentración de carbofuran en los parámetros de fertilidad del suelo agrícola, con
+el fin de comprender su impacto en las características del suelo a corto y largo
+plazo.
+
+Para Sánchez (85) un enfoque cuantitativo, se llama así porque aborda fenómenos
+cuantificables mediante el empleo de técnicas estadísticas para el procesamiento
+de datos obtenidos, desde la recolección hasta el procesamiento, análisis e
+interpretación de resultados. El presente estudio es de enfoque cuantitativo, llega
+a mostrar datos numéricos en distintas unidades que permiten ser analizados con
+softwares   estadísticos   y   análisis   gráficos   (tendencias   o   histogramas),
+proporcionando resultados precisos que facilitan la interpretación y la toma de
+decisiones basadas en evidencia.
+
+El diseño es experimental, preexperimental propiamente dicho, porque se
+caracteriza por una asignación aleatoria probabilística de los participantes en los
+grupos experimental y de control (86). Mediante este diseño se pueden contrastar
+las hipótesis establecidas, ya que en este estudio se cuenta con un grupo de control
+y un grupo experimental. El grupo de control está conformado por los suelos
+agrícolas sin contacto al carbofuran, y el grupo experimental por los suelos
+agrícolas con dosis de carbofuran que es proporcionado en distintas
+concentraciones, lo que permite evaluar de manera comparativa los efectos del
+pesticida en las propiedades del suelo y su fertilidad.
+
+Las variables por la cual la investigación se centró fueron.
+
+VD_Fertilidad de suelos agrícolas: Es la capacidad fundamental del suelo para
+nutrir los cultivos, por lo que es crucial conocerla para un manejo más eficaz (87).
+Muchas zonas agrícolas enfrentan serios problemas relacionados con la
+producción, el rendimiento y la degradación del suelo, debido a la carencia de datos
+                                                                                  17
+clave para aplicar programas de gestión que aseguren una producción agrícola
+sostenible y duradera a largo plazo, lo que impide la adopción de prácticas
+eficientes que protejan los recursos naturales y optimicen el uso de insumos
+agrícolas.
+
+Tabla 1. Dimensión de cada variable - VD
+ Dimensiones                                  Indicadores
+                                              Macronutrientes primarios (NPK)
+                                              pH
+         Parámetros de fertilidad
+                                              Textura
+                                              Materia orgánica
+                                              Peso del limón
+             Calidad cuantitativa
+                                              Tamaño del limón
+                                              Color del limón
+             Calidad cualitativa
+                                              Sabor del limón
+
+
+VI_Dosificación del carbofuran: La dosis letal media (DL50) del carbofuran es de 50
+mg/kg, y LMR en tubérculos es de 0,2 mg/kg. Sus propiedades tóxicas incluyen la
+inhibición   de   la   acetilcolinesterasa,   convulsiones     graves   y   alteraciones
+neuromusculares en caso de inhalación. Asimismo, se ha informado que presenta
+propiedades teratogénicas, genotóxicas y mutagénicas, además de afectar a los
+embriones, lo que genera inquietudes sobre sus posibles efectos a largo plazo en
+la salud humana y el entorno natural (88).
+
+Tabla 2. Dimensión de cada variable – VI
+                                              2 ml por litro de agua
+                                              4 ml por litro de agua
+ Concentración creciente                      6 ml por litro de agua
+                                              8 ml por litro de agua
+                                              10 ml por litro de agua
+                                              15 días
+                                              30 días
+                                              45 días
+ Frecuencia de dosificación
+                                              60 días
+                                               75 días
+                                              90 días
+ Método de aplicación                         Aspersión
+                                              Rociado
+
+
+
+
+                                                                                     18
+La población es un conjunto de elementos que comparten características
+específicas que se desean estudiar, y su análisis permite obtener conclusiones
+generales sobre un fenómeno o comportamiento particular dentro de un contexto
+determinado. Por lo tanto, se establece una conexión inductiva entre la población
+y la muestra, con la anticipación de que la sección analizada refleje la realidad. De
+esta manera, se asegura que las conclusiones derivadas del estudio sean
+pertinentes (89). Para el estudio se ha considerado para la población, todas las
+muestras de suelo, en total 26 muestras de suelo.
+
+La estimación del tamaño de muestra es un elemento crucial en la planificación de
+investigaciones cuantitativas. Un cálculo preciso del tamaño de muestra no solo
+facilita la determinación de la cantidad mínima de participantes requeridos para
+validar nuestra hipótesis de interés, sino que también permite evaluar la viabilidad
+del estudio y ajustar los presupuestos correspondientes (90). Se presenta las 26
+muestras de suelo por ser muestreo censal, ya que la muestra ha sido considerar
+al igual que la población.
+
+Para este estudio, la observación experimental es un componente esencial en todo
+proceso de investigación, puesto que facilita la recolección de una gran cantidad
+de información por parte del investigador. Mediante la observación, se ha adquirido
+una parte significativa del conocimiento que compone la ciencia. El instrumento
+que se utiliza es la ficha de recolección de datos, la cual ha sido validado por juicio
+de expertos (3 validadores) y se presenta en el Anexo 3.
+
+       Instrumentos para campo
+
+       Los instrumentos de campo son para hacer la recolección de muestras de
+suelo, el laboratorio es quien va a determinar las concentraciones de cada uno.
+
+Tabla 3. Instrumentos para campo
+   Nombre del        Marca del            Concepto del equipo                En qué etapa
+     equipo            equipo                                                  lo utilizas
+Balanza             Precisur      Las balanzas analíticas suelen ser        Se usa cuando
+                                  altamente sofisticadas y, en lugar de     las    muestras
+                                  operarse      de   manera     manual,     ingresan       al
+                                  generalmente funcionan con baterías y     laboratorio
+                                  cuentan con un sistema electrónico que
+                                  permite obtener con gran exactitud el
+                                  peso     preciso   de   los    objetos,
+                                  proporcionando resultados rápidos y
+                                  confiables que son esenciales en
+
+
+                                                                                           19
+                                  aplicaciones científicas y de laboratorio
+                                  (91).
+Potenciómetro        Angid        Dispositivo para la determinación exacta
+                                  de la diferencia de voltaje eléctrico (92).
+Conductímetro        Hanna        El dispositivo que evalúa la capacidad
+                                  conductiva de una solución líquida (93).
+Espectrofotómetro    Thermo       Un dispositivo para la medición precisa
+UV-VIS               Scientific   de la diferencia de voltaje eléctrico es un
+                                  voltímetro, el cual permite cuantificar de
+                                  manera exacta las variaciones en el
+                                  voltaje de un circuito (94).
+Espectrofotómetro    BioBase      Es un instrumento que analiza la
+de        emisión                 composición elemental de una muestra
+atómica                           al medir la luz emitida por los átomos
+                                  excitados en estado gaseoso (95).
+Agitador        de   Tecnal       es un equipo de laboratorio que se
+textura                           utiliza para mezclar y dispersar
+                                  muestras de suelo para su posterior
+                                  análisis físico o granulometría (96).
+Materiales
+Fiolas               EuroLab      Es el recipiente empleado para llevar a       Se utiliza para
+                                  cabo análisis químicos y también              la etapa de
+                                  utilizado para preparar soluciones bajo       reacción de las
+                                  condiciones específicas (97).                 muestras
+Probeta              EuroLab      Es un aparato volumétrico que consta
+                                  de un tubo graduado, es decir, tiene una
+                                  escala marcada en su superficie externa
+                                  que permite determinar un volumen
+                                  específico (97).
+Bureta               EuroLab      Es un dispositivo diseñado para medir
+                                  con exactitud pequeñas cantidades de
+                                  un reactivo líquido (97).
+Pipeta               EuroLab      Es un dispositivo volumétrico de
+                                  laboratorio que permite medir fracciones
+                                  de líquido con exactitud, ya que maneja
+                                  volúmenes reducidos de hasta 35 ml
+                                  (97).
+
+
+
+
+                                                                                             20
+2024-VI-UCV y bajo citación los hallazgos de otros estudios utilizando las
+referencias ISO 690; además se va a respetar el derecho de autoría de acuerdo
+con los aspectos éticos de la Universidad César Vallejo. De igual manera, el
+enfoque de este estudio se fundamenta en la honestidad, comprensión, paciencia
+y consideración. Además, tiene un marcado enfoque social, ya que busca ampliar
+el conocimiento sobre el comportamiento del carbofuran en contacto con el suelo
+agrícola productor de limón, así como comprender su interacción con los
+macronutrientes primarios, el pH, la textura y la materia orgánica.
+
+
+
+
+                                                                            22
+III.    RESULTADOS
+
+Un diagnóstico inicial de las propiedades fisicoquímicas del suelo de un campo de
+cultivo de limón se ha realizado en el presente estudio. Tiene una superficie de
+5,423.61 Km² y un perímetro provincial de 445 Km, según el Instituto Geográfico
+Nacional, la provincia de Sullana. La provincia de Sullana, gran parte de la cuenca
+del río Chira ocupa, ubicada en la frontera con Ecuador. Hasta los límites con el
+país vecino se extienden sus extensas tierras de cultivo en la margen derecha.
+Predominantemente llano es la mayor parte del territorio. Atraviesa de Noroeste a
+Suroeste, en el Alto Chira, la cadena montañosa de Amotape, que se desprende de
+la Cordillera de los Andes. Cerca del límite con el departamento de Tumbes, en la
+zona norte, en los límites con Tumbes, se encuentran los cerros de La Brea,
+alcanzando su mayor altura en el cerro El Carrizal, con 1,613 m.s.n.m. En la zona
+central-norte del departamento de Piura, Sullana se localiza, entre las coordenadas
+586,359.67 E, y 9,547,018.17 N.
+
+Figura 2. Ubicación de la provincia de Sullana
+
+
+
+
+                          Fuente: Tomado de Google Maps
+
+
+Este diagnóstico es esencial para establecer una línea base antes de la aplicación
+del insecticida Carbofuran y poder medir el impacto de su uso a lo largo del tiempo
+en las características del suelo y su capacidad para sostener la fertilidad y
+productividad agrícola.
+
+                                                                                23
+A continuación, se presentan los parámetros fisicoquímicos:
+
+Tabla 4: Diagnóstico inicial – Base #00
+                            ITEM                                    1       2 3 4       5   6
+ Código de laboratorio                                        SU1806-VF-
+                                                                             -   -  -   -   -
+                                                              24
+ Matriz analizada                                             Suelo          -   -  -   -   -
+ Fecha de Muestreo                                            2024-08-08     -   -  -   -   -
+ Hora de inicio de muestreo (h) (***)                         16:00          -   -  -   -   -
+ Condición de la muestra                                      Conservada     -   -  -   -   -
+ Código / Identificación de la Muestra por el cliente (***)   Base #00       -   -  -   -   -
+              Ensayo                    Unidad           LC              Resultados
+ pH                                   Unid. Ph         0.1    7.8            -   -  -   -   -
+ Conductividad eléctrica              mS/m             1      10.3           -   -  -   -   -
+ Materia orgánica                     %                0.1    1.2            -   -  -   -   -
+ Textura                                                                     -   -  -   -   -
+ Arena (*)                            %                       93.3           -   -  -   -   -
+ Arcilla (*)                          %                       2.7            -   -  -   -   -
+ Limo (*)                             %                       3.9            -   -  -   -   -
+ Clase textural (*)                                           Arena          -   -  -   -   -
+                                                                             -   -  -   -   -
+ Fósforo disponible (*)                Mg/kg         0.9      112.3          -   -  -   -   -
+ Potasio Disponible (*)                Ppm           2.6      279.5          -   -  -   -   -
+ Carbonato de calcio Equivalente       %             0.6      2.3
+                                                                             -   -  -   -   -
+ (*)
+
+Nota. Informe de laboratorio INIA
+
+El diagnóstico inicial del suelo muestra varias características importantes que
+influirán en la fertilidad y productividad del terreno destinado al cultivo de limón. En
+primer lugar, el pH del suelo es ligeramente alcalino (7.8), lo cual puede afectar la
+disponibilidad de algunos nutrientes esenciales, como el hierro y el zinc, que
+tienden a ser menos accesibles en suelos con estos niveles de pH. Sin embargo,
+este valor de pH es relativamente común en suelos agrícolas y generalmente no
+representa un problema grave para los cultivos, aunque podría ser necesario un
+manejo adecuado para evitar deficiencias nutricionales. La conductividad eléctrica
+del suelo es de 10.3 mS/m, lo que indica una baja salinidad, un aspecto positivo
+para el desarrollo del cultivo, ya que una alta salinidad puede reducir la habilidad
+de las plantas para asimilar agua y nutrientes, algo que en este caso no es
+preocupante.
+
+El porcentaje de materia orgánica es de 1.2%, lo cual se considera bajo y sugiere
+que el terreno tiene una capacidad limitada para almacenar agua y nutrientes. Esto
+podría impactar de manera adversa el rendimiento del cultivo, dado que la materia
+
+
+                                                                                            24
+orgánica es fundamental en la estructura del suelo y en la disponibilidad de
+nutrientes. En cuanto a la textura del suelo, se observa que está compuesto
+principalmente por arena (93.3%), con pequeñas proporciones de arcilla (2.7%) y
+limo (3.9%), lo que clasifica al suelo como arenoso. Este tipo de suelo, aunque
+permite un buen drenaje, presenta una capacidad reducida para retener agua y
+nutrientes, lo que puede provocar una rápida lixiviación de los fertilizantes
+aplicados, lo cual podría requerir un manejo especial, como la implementación de
+riegos más frecuentes o el uso de enmiendas que mejoren la retención de
+humedad.
+
+En términos de nutrientes, el análisis muestra niveles elevados de fósforo
+disponible (112.3 mg/kg), lo cual resulta favorable para el desarrollo de las plantas,
+especialmente en la etapa de desarrollo radicular, ya que el fósforo es esencial para
+la formación de raíces fuertes y saludables. Por otro lado, el potasio disponible en
+el suelo también es adecuado (279.5 ppm), un factor crucial para la resistencia a
+enfermedades y para la calidad de los frutos, lo cual es especialmente importante
+en cultivos como el limón. Finalmente, el contenido de carbonato de calcio
+equivalente es de 2.3%, lo que indica una presencia moderada de carbonatos que
+puede influir en la capacidad del suelo para amortiguar cambios en el pH y en la
+disponibilidad de micronutrientes. Si bien estos niveles no son extremadamente
+altos, es importante considerarlos en el manejo del suelo, especialmente si se
+observa alguna tendencia a la acumulación de sales con el tiempo. En general, este
+diagnóstico inicial proporciona una visión clara de las condiciones actuales del
+suelo, que, si bien presenta limitaciones en términos de retención de agua y
+nutrientes debido a su textura arenosa y bajo contenido de materia orgánica, ofrece
+un buen nivel de nutrientes esenciales como el fósforo y el potasio, que son clave
+para el rendimiento del cultivo de limón.
+
+Para obtener resultados representativos, se han realizado cinco repeticiones del
+muestreo de suelo en distintas áreas del campo utilizando la técnica del cuarteo,
+garantizando así una distribución uniforme y confiable de los puntos de muestreo.
+Las muestras obtenidas se enviaron a un laboratorio especializado para su análisis
+fisicoquímico, que incluye parámetros como pH, conductividad eléctrica, contenido
+de materia orgánica, textura, niveles de fósforo disponible, potasio disponible y
+
+
+                                                                                   25
+carbonato de calcio equivalente, entre otros; a ello se agregó 2 ml de carbofuran
+por litro de agua.
+
+                     Figura 3. Dosificación con 2 ml/L de carbofuran
+
+
+
+
+Nota. Elaboración propia
+
+La dosificación se hizo con 2 ml de carbofuran por litro de agua, la fumigación es
+directamente en las plantas de limón. Después de un periodo de 15 días, se tomó
+la muestra de suelo el cual se envió a laboratorio, mostrando los siguientes
+resultados.
+
+Se presentan los resultados del análisis de los parámetros fisicoquímicos del suelo
+con dosis de carbofuran:
+
+
+
+
+Tabla 5. Muestra con dosis de 2 ml/L de carbofuran
+                     ITEM                         1         2      3   4      5
+
+
+
+                                                                                  26
+ Conductividad
+                         mS/m        1          10.3    11.3         11.4         9.1       10.9
+      Eléctrica
+       Materia
+                          %         0.1          1.2     0.8          0.8         0.7       0.8
+      Orgánica
+       Textura             -          -           -          -           -         -          -
+      Arena (*)           %                     93.5    93.5         95.5     91.5          93.5
+      Arcilla (*)         %           -          2.7     2.7          2.7         2.7       2.7
+      Limo (*)            %           -          3.8     3.8          1.9         5.8       3.8
+ Clase Textural                                                    Arena
+                           -          -
+          (*)
+ Fósforo
+                         mg/kg      0.9         112.3   24.1         30.8     17.9          24.1
+ Disponible (*)
+ Potasio
+                         ppm        2.6         279.5   148.0        157.9    150.0     177.9
+ Disponible (*)
+ Carbonato          de
+ Calcio                   %         0.6          2.3     2.0          2.0         2.0       2.3
+ Equivalente (*)
+
+
+Nota. Informe de laboratorio INIA
+
+Tras la aplicación de 4 ml/L de carbofuran, se evidencia estabilidad en parámetros
+como el pH y la textura del suelo, lo que indica que el insecticida no altera las
+condiciones físicas del suelo. Sin embargo, se observa una reducción en la materia
+orgánica. Además, destaca una marcada variabilidad en la disponibilidad de fósforo
+y un incremento significativo en los niveles de potasio.
+
+Tabla 7. Muestra – Calicata #1 - 6 ml/L
+ ITEM                                     1              2           3        4         5
+ Código de Laboratorio                    SU2715-VF-
+                                          24
+ Matriz Analizada                         Suelo
+ Fecha de Muestreo                        11/09/2024
+ Hora de Inicio de Muestreo (h)           16:00
+ Condición de la muestra                  Conservada
+ Código de la muestra del cliente         Calicata #1
+ Ensayo                  Unidad     LC                           Resultados
+ pH                      unid. pH   0.1   7.5            7.6         7.3      7.4       7.4
+
+
+
+
+                                                                                                   28
+ Conductividad          mS/m      1         11.7          8.0         12.1        10.7        12.7
+ Eléctrica
+ Materia Orgánica       %         0.1       0.2           0.4         0.8         0.4         0.6
+ Textura                -         -         -             -           -           -           -
+ Arena (*)              %                   93.6          95.7        95.5        91.5        93.5
+ Arcilla (*)            %         -         2.7           2.6         2.7         2.7         2.7
+ Limo (*)               %         -         3.7           1.7         1.9         5.8         3.8
+ Clase Textural (*)     -         -         Arena
+
+
+
+
+ Fósforo                mg/kg     0.9       23.1          19.8        25.7        25.4        17.1
+ Disponible (*)
+ Potasio                ppm       2.6       168.7         163.2       167.9       169.1       182.5
+ Disponible (*)
+ Carbonato         de   %         0.6       21.2          1.9         2.1         1.0         1.5
+ Calcio
+ Equivalente (*)
+
+
+
+Nota. Informe de laboratorio INIA
+
+Tras la aplicación de 4 ml/L de carbofuran, se muestra que el pH del suelo se
+mantiene estable dentro de un rango ligeramente ácido. La textura sigue siendo
+dominada por la arena. Sin embargo, la materia orgánica presenta ligeras
+variaciones, sugiriendo una leve alteración en el comportamiento biológico del
+terreno. En cuanto a los nutrientes, se observa una fluctuación en los niveles de
+fósforo disponible, mientras que el potasio muestra un comportamiento
+inconsistente entre las repeticiones. Finalmente, los niveles de carbonato de calcio
+permanecen relativamente constantes.
+
+Tabla 8. Muestra – Calicata #1 – 8 ml/L
+ ITEM                                   1             2           3           4           5
+ Código de Laboratorio                  SU3684-VF-
+                                        24
+ Matriz Analizada                       Suelo
+ Fecha de Muestreo                      26/09/2024
+ Hora de Inicio de Muestreo (h)         16:00
+ Condición de la muestra                Conservada
+ Código de la muestra del cliente       Calicata #1
+
+                                                                                                      29
+ Ensayo                Unidad      LC                              Resultados
+ pH                    unid. pH    0.1    7.6              7.8          7.4       8.2       7.5
+ Conductividad         mS/m        1      9.7              7.9          12.1      6.2       13.2
+ Eléctrica
+ Materia               %           0.1    0.4              0.5          0.5       0.5       0.4
+ Orgánica
+ Textura               -           -      -                -            -         -         -
+ Arena (*)             %                  93.9             94.0         93.8      93.9      94.0
+ Arcilla (*)           %           -      4.2              4.2          4.2       4.1       4.2
+ Limo (*)              %           -      1.9              1.9          1.9       2.0       1.8
+ Clase Textural        -           -      Arena
+ (*)
+
+
+ Fósforo               mg/kg       0.9    21.4             22.3         22.5      19.2      18.7
+ Disponible (*)
+ Potasio               ppm         2.6    155.8            149.0        160.2     153.8     173.4
+ Disponible (*)
+ Carbonato       de    %           0.6    0.6              0.8          1.0       0.8       0.9
+ Calcio
+ Equivalente (*)
+
+
+
+Nota. Informe de laboratorio INIA
+
+Luego de la aplicación de 8 ml/L de carbofuran, el pH del suelo permanece estable
+dentro      de    un       rango   ligeramente    ácido,       y   la   textura       continúa    siendo
+predominantemente arenosa. No obstante, se detectan leves variaciones en la
+materia orgánica, lo que podría indicar una ligera alteración en la actividad biológica
+del suelo. En relación con los nutrientes, los niveles de fósforo disponible presentan
+fluctuaciones, mientras que el potasio exhibe un comportamiento variable entre las
+repeticiones. Por último, los niveles de carbonato de calcio se mantienen
+prácticamente constantes.
+
+Tabla 9. Muestra – Calicata #1 – 10 ml/L
+ ITEM                                     1                2            3         4         5
+ Código de Laboratorio                    SU3684-VF-
+                                          24
+ Matriz Analizada                         Suelo
+ Fecha de Muestreo                        26/09/2024
+
+                                                                                                     30
+ Hora de Inicio de Muestreo (h)      16:00
+ Condición de la muestra             Conservada
+ Código de la muestra del cliente    Calicata #1
+ Ensayo             Unidad     LC                         Resultados
+ pH                 unid. pH   0.1   7.4           7.5        7.3      7.5     7.3
+ Conductividad      mS/m       1     12.8          8.9        15.4     9.4     15.5
+ Eléctrica
+ Materia            %          0.1   0.9           0.3        0.8      0.7     1.0
+ Orgánica
+ Textura            -          -     -             -          -        -       -
+ Arena (*)          %                92.7          92.8       92.8     92.8    92.7
+ Arcilla (*)        %          -     3.3           3.2        3.3      3.1     3.2
+ Limo (*)           %          -     4.0           4.0        3.9      4.1     4.1
+ Clase Textural     -          -     Arena
+ (*)
+
+
+ Fósforo            mg/kg      0.9   27.2          21.2       24.6     26.5    16.7
+ Disponible (*)
+ Potasio            ppm        2.6   168.9         149.2      168.7    163.3   169.3
+ Disponible (*)
+ Carbonato     de   %          0.6   1.3           0.7        1.0      1.1     1.0
+ Calcio
+ Equivalente (*)
+
+
+Nota. Informe de laboratorio INIA
+
+Tras la aplicación de 10 ml/L de carbofuran, se advierte que el pH del suelo
+permanece constante dentro de un intervalo aceptable, mientras que la estructura
+sigue predominada por la arena. Sin embargo, se aprecian pequeñas variaciones
+en el contenido de materia orgánica, lo que refleja una tenue modificación en la
+dinámica biológica del suelo, posiblemente vinculada a la acción del compuesto. En
+cuanto a los nutrientes, se detecta una oscilación en los niveles de fósforo utilizable,
+y el potasio exhibe un patrón inconsistente entre las repeticiones, sugiriendo una
+eventual interacción con otros componentes.
+
+Tras el análisis de los parámetros fisicoquímicos del suelo con dosis de carbofuran,
+se presenta el análisis en función del tiempo.
+
+
+
+                                                                                       31
+Figura 4. Comportamiento del pH con el carbofuran
+
+                                             pH
+                   7.8
+                   7.7
+                   7.6
+              pH
+
+                   7.5
+                   7.4
+                   7.3
+                         0   1       2        3       4         5            6   7
+                                             Repeticiones
+
+                             Dispersión_pH          Lineal (Dispersión_pH)
+
+
+Nota. Elaboración propia
+
+Los datos de pH del suelo reflejan una tendencia general descendente a medida
+que se incrementa la dosificación de carbofuran, lo cual indica un efecto significativo
+del químico acerca de las características químicas del terreno. En el diagnóstico
+inicial, el pH es de 7.8, correspondiente a un rango ligeramente alcalino.
+Posteriormente, con la primera dosificación de 2 ml/L, el pH disminuye a 7.64 con
+15 días de exposición, señalando una leve acidificación inicial. En el segundo
+tratamiento con 4 ml/L, se observa un ligero incremento a 7.68. Sin embargo, en el
+tercer tratamiento (6 ml/L), el pH cae abruptamente a 7.44. En el cuarto tratamiento
+(8 ml/L), el pH se eleva nuevamente a 7.7, se debe a fluctuaciones temporales
+debido a la dinámica de los componentes del suelo. Finalmente, con la dosis más
+alta de 10 ml/L, el pH disminuye marcadamente a 7.4, con 75 días expuesto al
+carbofuran, consolidando una tendencia acidificante atribuida a un efecto
+acumulativo del químico en las propiedades del suelo.
+
+Figura 5. Comportamiento de la conductividad eléctrica con el carbofuran
+
+
+
+
+                                                                                     32
+                                               Conductividad Eléctrica
+                                      13
+            Conductividad Eléctrica   12
+                                      11
+                                      10
+                                      9
+                                           0     1       2          3          4          5        6   7
+                                                                   Repeticiones
+
+                                                     Dispersión_Conductividad Eléctrica
+                                                     Lineal (Dispersión_Conductividad Eléctrica)
+
+
+Nota. Elaboración propia
+
+Los datos de conductividad eléctrica del suelo muestran una variación dinámica en
+respuesta al contacto con el carbofuran, reflejando los cambios en la concentración
+de sales solubles inducidos por cada tratamiento. El diagnóstico inicial indica una
+conductividad eléctrica de 10.3 dS/m, correspondiente a un nivel moderado, típico
+en suelos agrícolas. Con la primera dosis de 2 ml/L, el valor aumenta ligeramente
+a 10.56 dS/m, con 15 días en contacto al carbofuran. Este incremento se mantiene
+con la segunda dosis de 4 ml/L, alcanzando 10.6 dS/m, lo que indica un efecto
+acumulativo moderado. En el tercer tratamiento (6 ml/L), la conductividad eléctrica
+se eleva a 11.04 dS/m. Sin embargo, en el cuarto tratamiento con 8 ml/L, se observa
+una disminución notable a 9.82 dS/m. Finalmente, en la última dosificación de 10
+ml/L, el valor se eleva significativamente a 12.4 dS/m, con 75 días expuesto al
+carbofuran, evidenciando una acumulación drástica de compuestos solubles, lo que
+implica un riesgo para la salud del suelo si se excede este umbral en un manejo
+continuo.
+
+
+
+
+                                                                                                           33
+Figura 6. Comportamiento de la materia orgánica con el carbofuran
+
+                                              Materia Orgánica
+                                 1
+            Materia Orgánica
+                               0.9
+                               0.8
+                               0.7
+                               0.6
+                               0.5
+                               0.4
+                                     0   1     2         3         4         5      6   7
+                                                        Repeticiones
+
+                                             Dispersión_Materia Orgánica
+                                             Lineal (Dispersión_Materia Orgánica)
+
+
+Nota. Elaboración propia
+
+Los datos de materia orgánica del suelo en contacto con el carbofuran reflejan una
+tendencia general decreciente, indicando una posible afectación negativa en la
+calidad del suelo con el aumento de las dosis del químico. Inicialmente, el
+diagnóstico muestra un nivel de materia orgánica de 1.2%, característico de un
+suelo con buena capacidad de retención de nutrientes. Con la primera dosificación
+de 2 ml/L, el valor disminuye a 0.82%, con 15 días en contacto al carbofuran, lo que
+sugiere un impacto inicial del carbofuran en la descomposición de materia orgánica.
+Este efecto se estabiliza ligeramente en el segundo tratamiento con 4 ml/L, donde
+el valor alcanza 0.86%. Sin embargo, en el tercer y cuarto tratamiento (6 ml/L y 8
+ml/L), la materia orgánica cae drásticamente a 0.48% y 0.46% respectivamente, se
+debe a un efecto tóxico del carbofuran que afecta la actividad microbiológica
+responsable de la descomposición de residuos orgánicos. Finalmente, la última
+dosificación de 10 ml/L, se observa una recuperación parcial a 0.74%, con 75 días
+expuesto al carbofuran, asociada a la movilización de microorganismos tolerantes
+o la estabilización de las condiciones del suelo.
+
+
+
+
+                                                                                            34
+Figura 7. Comportamiento de la arena con el carbofuran
+
+                                             Arena
+                       95
+                      94.5
+            Textura
+
+
+                       94
+                      93.5
+                       93
+                      92.5
+                             0   1   2         3         4        5   6   7
+                                              Repeticiones
+
+                                     Arena           Lineal (Arena)
+
+
+
+Nota. Elaboración propia
+
+
+Los datos de textura del suelo (porcentaje de arena) en contacto con el carbofuran
+muestran fluctuaciones moderadas a lo largo de los tratamientos, indicando una
+respuesta dinámica del suelo al carbofuran. En el diagnóstico inicial, el porcentaje
+de arena es de 93.3%, representativo de un suelo arenoso con alta permeabilidad.
+Con la primera dosificación de 2 ml/L, el porcentaje aumenta ligeramente a 93.48%
+con 15 días en contacto con el carbofuran. En el segundo tratamiento con 4 ml/L,
+el valor se incrementa marginalmente a 93.5%, manteniéndose estable. Sin
+embargo, con la tercera dosis de 6 ml/L, se observa un aumento significativo a
+94.48%. En el cuarto tratamiento (8 ml/L), el porcentaje disminuye a 93.92%.
+Finalmente, con la dosis más alta de 10 ml/L, el % de arena cae a 92.76%, con 75
+días expuesto al carbofuran, lo que se debe a una mayor movilización de partículas
+finas o a la consolidación de la estructura del suelo.
+
+
+
+
+                                                                                 35
+Figura 8. Comportamiento de la arcilla con el carbofuran
+
+                                                   Arcilla
+                      5
+                      4
+            Arcilla
+
+
+                      3
+                      2
+                      1
+                      0
+                          0    1         2          3         4          5         6       7
+                                                   Repeticiones
+
+                              Dispersión_Arcilla             Lineal (Dispersión_Arcilla)
+
+
+Nota. Elaboración propia
+
+
+Los datos sobre el contenido de arcilla en la textura del suelo en contacto con el
+carbofuran reflejan una tendencia inicial estable con un incremento notable en los
+tratamientos intermedios, seguido de una disminución final, lo que sugiere una
+interacción dinámica del carbofuran con las partículas finas del suelo. En el
+diagnóstico inicial, el porcentaje de arcilla es de 2.7%, característico de un suelo
+con baja plasticidad y alta permeabilidad. Con las dos primeras dosificaciones de 2
+ml/L y 4 ml/L, los valores se mantienen prácticamente constantes en 2.72% y 2.7%,
+con 15 y 30 en contacto con el carbofuran. Sin embargo, en el tercer tratamiento
+con 6 ml/L, se registra una ligera disminución a 2.68%. En el cuarto tratamiento con
+8 ml/L, el porcentaje de arcilla aumenta de forma notable a 4.18%, debido a la
+agregación de partículas o a la acumulación de material fino movilizado por el
+carbofuran. Finalmente, en la última dosificación de 10 ml/L, el contenido de arcilla
+disminuye a 3.22%, con 75 días expuesto al carbofuran, lo que se debe a una
+estabilización del sistema.
+
+
+
+
+                                                                                               36
+Figura 9. Comportamiento de limo con el carbofuran
+
+                                                 Limo
+                     4.5
+                      4
+                     3.5
+              Limo
+
+
+
+
+                      3
+                     2.5
+                      2
+                     1.5
+                           0    1        2        3       4         5         6    7
+                                                 Repeticiones
+
+                               Dispersión_Limo          Lineal (Dispersión_Limo)
+
+
+Nota. Elaboración propia
+
+
+Los datos sobre el contenido de limo en el suelo en contacto con el carbofuran
+muestran una tendencia inicial estable, seguida de una disminución significativa en
+las concentraciones intermedias, para luego recuperarse al final, lo que refleja una
+respuesta dinámica del suelo ante las dosis crecientes del carbofuran. En el
+diagnóstico inicial, el contenido de limo es de 3.9%, lo que corresponde a un suelo
+con textura equilibrada que favorece la retención de agua y nutrientes. Con las dos
+primeras dosificaciones de 2 ml/L y 4 ml/L, el porcentaje disminuye ligeramente a
+3.82%, con 15 y 30 días en contacto con el carbofuran, lo que indica un impacto
+inicial mínimo del carbofuran en las partículas de limo. Sin embargo, en el tercer
+tratamiento con 6 ml/L, el valor disminuye drásticamente a 2.84%, y en el cuarto
+tratamiento con 8 ml/L cae aún más a 1.9%. Finalmente, en la última dosificación
+de 10 ml/L, el porcentaje de limo aumenta a 4.02%, con 75 días expuesto al
+carbofuran.
+
+
+
+
+                                                                                       37
+Figura 10. Comportamiento de fósforo con el carbofuran
+
+                                                    Fósforo
+                      45
+                      40
+                      35
+                      30
+            Fósforo
+
+
+
+
+                      25
+                      20
+                      15
+                      10
+                       5
+                       0
+                           0      1        2          3         4         5         6       7
+                                                     Repeticiones
+
+                               Dispersión_Fósforo             Lineal (Dispersión_Fósforo)
+
+
+
+Nota. Elaboración propia
+
+
+Los datos de fósforo en suelo contacto con el carbofuran muestran una disminución
+drástica inicial, seguida de oscilaciones en las concentraciones durante los
+tratamientos, indicando un impacto significativo del carbofuran sobre la
+disponibilidad de este nutriente esencial. En el diagnóstico inicial, el contenido de
+fósforo es de 120 mg/kg, representando una disponibilidad alta adecuada para el
+desarrollo vegetal. Sin embargo, tras la primera dosificación de 2 ml/L, el valor cae
+bruscamente a 30 mg/kg, con 15 días en contacto con el carbofuran, una rápida
+interacción química del carbofuran con el fósforo. Con la segunda dosis de 4 ml/L,
+el fósforo disminuye aún más a 20 mg/kg, consolidando el efecto de inmovilización
+del nutriente. En el tercer tratamiento (6 ml/L), se observa una ligera recuperación
+a 35 mg/kg. Sin embargo, en el cuarto tratamiento con 8 ml/L, el fósforo vuelve a
+disminuir a 15 mg/kg, al estar relacionado con un efecto acumulativo del carbofuran.
+Finalmente, con la dosis de 10 ml/L, el fósforo se estabiliza en torno a 10 mg/kg,
+evidenciando una reducción significativa respecto al valor inicial, con 75 días
+expuesto al carbofuran.
+
+
+
+
+                                                                                                38
+Figura 11. Comportamiento de potasio con el carbofuran
+
+                                                    Potasio
+                     185
+                     180
+                     175
+                     170
+           Potasio
+
+
+
+
+                     165
+                     160
+                     155
+                     150
+                     145
+                     140
+                           0       1        2         3         4         5         6       7
+                                                     Repeticiones
+
+                               Dispersión_Potasio             Lineal (Dispersión_Potasio)
+
+
+
+Nota. Elaboración propia
+
+
+
+Los datos de potasio en el suelo en contacto con el carbofuran reflejan una
+reducción inicial marcada, seguida de fluctuaciones moderadas durante los
+tratamientos, lo que evidencia el impacto del químico sobre la dinámica de este
+nutriente esencial. En el diagnóstico inicial, el contenido de potasio es de 279.5
+mg/kg, característico de un suelo con alta disponibilidad para las plantas. Con la
+primera dosificación de 2 ml/L, con 15 días en contacto con el carbofuran, se
+observa una disminución abrupta a 154.8 mg/kg. En el segundo tratamiento con 4
+ml/L, el potasio muestra una leve recuperación a 182.66 mg/kg. Posteriormente, en
+el tercer tratamiento con 6 ml/L, el nivel desciende nuevamente a 170.28 mg/kg,
+reflejando una interacción continua entre el carbofuran y el potasio disponible. En
+el cuarto tratamiento (8 ml/L), el contenido de potasio disminuye ligeramente a
+158.44 mg/kg, y finalmente, con la dosis de 10 ml/L, se observa una estabilización
+en 163.88 mg/kg, con 75 días expuesto al carbofuran, indicando que el sistema
+comienza a alcanzar un nuevo equilibrio.
+
+
+
+
+                                                                                                39
+Figura 12. Comportamiento de Carbonato de Calcio con el carbofuran
+
+                                                      Carbonato de Calcio
+
+                                   6
+             Carbonato de Calcio
+
+
+
+                                   5
+
+                                   4
+
+                                   3
+
+                                   2
+
+                                   1
+
+                                   0
+                                       0         1        2          3         4        5         6         7
+                                           Dispersión_Carb-Calcio   Repeticiones
+                                                                          Lineal (Dispersión_Carb-Calcio)
+
+
+
+Nota. Elaboración propia
+
+
+
+Los datos sobre el contenido de carbonato de calcio en el suelo en contacto con el
+carbofuran muestran una variación significativa, reflejando los efectos dinámicos
+del carbofuran sobre este componente esencial del suelo. En el diagnóstico inicial,
+el contenido de carbonato de calcio es de 2.3%. Con la primera dosificación de 2
+ml/L, el valor disminuye ligeramente a 2.1%, con 15 días en contacto con el
+carbofuran, y en el segundo tratamiento con 4 ml/L se mantiene estable en 2.12%,
+lo que sugiere un impacto inicial limitado del carbofuran. Sin embargo, en el tercer
+tratamiento con 6 ml/L, el contenido de carbonato de calcio aumenta drásticamente
+a 5.54%. Posteriormente, en el cuarto tratamiento con 8 ml/L, el nivel cae
+abruptamente a 0.82%, indicando una disolución o lixiviación acelerada del
+carbonato de calcio. Finalmente, con la última dosificación de 10 ml/L, el contenido
+de carbonato de calcio muestra una leve recuperación a 1.02%, con 75 días
+expuesto al carbofuran, una notable precisión en las mediciones de estabilización.
+
+
+
+
+                                                                                                                40
+En este apartado se presentan los resultados de la contrastación de la hipótesis
+general planteada en la investigación.
+
+   •   Ho: El efecto del carbofuran en la fertilidad de suelos agrícolas productoras
+       de limón Sullana, Perú 2024, no revelará disminución en los parámetros de
+       fertilidad.
+   •   Ha: El efecto del carbofuran en la fertilidad de suelos agrícolas productoras
+       de limón Sullana, Perú 2024, revelará disminución en los parámetros de
+       fertilidad.
+
+
+
+Tabla 34. Prueba de normalidad
+                                   Pruebas de normalidad
+
+                             Kolmogorov-Smirnov                      Shapiro-Wilk
+
+                     Estadistico         gl          Sig     Estadistico     gl     Sig
+
+ RESULTADOS          0.422               5           0.004   0.647           5      0.002
+
+ CARBOFURAN          0.136               5           0.200   0.987           5      0.967
+
+
+Nota. Tomado de los resultados del software SPSS
+
+La prueba de normalidad para las variables relacionadas con el efecto del
+carbofuran en la fertilidad de suelos agrícolas indica lo siguiente: según la prueba
+de Shapiro-Wilk, los hallazgos de fertilidad presentan un valor de significancia de
+0.002, menor que el nivel de significancia típico de 0.05, significa que los datos no
+siguen una distribución normal. Por otro lado, valores asociados al carbofuran
+tienen un valor de significancia de 0.967, mayor a 0.05, indicando que esta variable
+sí sigue una distribución normal. Una de las variables no cumple con la suposición
+de normalidad, se decidió emplear una prueba no paramétrica, como la prueba de
+Wilcoxon, para evaluar la hipótesis planteada.
+
+
+
+
+                                                                                          49
+Tabla 35. Rangos
+                                            Rangos
+
+                                           N   Rango Promedio    Suma de Rangos
+
+ CARBOFURAN                    Rangos      3           3.33            10.00
+                               negativos
+
+ RESULTADOS                    Rangos      2           2.50             5.00
+                               positivos
+
+ Empates                       Empates     0            -                 -
+
+ Total                           Total     5            -                 -
+
+ CARBOFURAN< RESULTADOS
+
+ CARBOFURAN > RESULTADOS
+
+ CARBOFURAN = RESULTADOS
+
+Nota. Tomado de los resultados del software SPSS
+
+Tabla 36. Prueba de Wilconxon
+                                   Estadísticos de prueba
+
+                                                                CARBON RESULTADOS
+
+ Z                                                                             -,674b
+
+ Sig. Asintótica (bilateral)                                                     0.5
+
+  a. Prueba de rangos con signo de Wilcoxon
+  b. Se basa en rangos positivos
+
+
+Nota. Tomado de los resultados del software SPSS
+
+La prueba de Wilcoxon fue aplicada para evaluar si el efecto del carbofuran genera
+una disminución significativa en los parámetros de fertilidad de los suelos agrícolas
+productores de limón en Sullana, Perú, 2024. Los resultados muestran que la
+significancia asintótica bilateral es 0.5, un valor mayor al nivel de significancia
+convencional de 0.05. Esto implica que no se encontraron diferencias
+estadísticamente significativas entre los valores observados y los esperados. En
+los rangos, se observa que hay más valores negativos (3) que positivos (2), pero
+esta diferencia no es suficiente para rechazar la hipótesis nula. Por lo tanto, se
+
+
+                                                                                   50
+concluye no hay evidencia estadística para afirmar el carbofuran reduce los
+parámetros de fertilidad del suelo, lo que lleva a aceptar la Ho.
+
+Tras el desarrollo de la contrastación de la hipótesis general, se presenta la
+contrastación de la hipótesis específica 1.
+
+   •   Ho: La dosis de 2ml a 10 ml por litro de agua de carbofuran aplicada no
+       mostrará pérdidas en los macronutrientes primarios de suelos agrícolas
+       productoras de limón.
+   •   Ha: La dosis de 2ml a 10 ml por litro de agua de carbofuran aplicada mostrará
+       pérdidas en los macronutrientes primarios de suelos agrícolas productoras
+       de limón.
+
+Tabla 37. Prueba de normalidad
+                                 Pruebas de normalidad
+
+                       Kolmogorov-Smirnov                  Shapiro-Wilk
+
+                       Estadistico        gl       Sig     Estadistico    gl   Sig
+
+DIAGNOS                0.358              9        0.002   0.676          9    0.001
+
+RESULTADOS             0.337              9        0.004   0.666          9    0.001
+
+    a. Corrección de significación de Lilliefors
+
+
+Nota. Tomado de los resultados del software SPSS
+
+La prueba de normalidad para las variables relacionadas con el diagnóstico y los
+resultados de los macronutrientes primarios en suelos agrícolas revela que, según
+los estadísticos de Kolmogorov-Smirnov y Shapiro-Wilk, ambas variables presentan
+valores de significancia menores a 0.05 (0.002 y 0.004 para Kolmogorov-Smirnov;
+0.001 para Shapiro-Wilk). Esto indica que los datos no siguen una distribución
+normal en ambos casos. Dado este resultado, se infiere que las pruebas
+estadísticas posteriores deben basarse en métodos no paramétricos para evaluar
+la hipótesis. Por tanto, para el análisis de la hipótesis planteada, ha sido necesario
+emplear la prueba de Wilcoxon.
+
+
+
+
+                                                                                       51
+Tabla 38. Rangos
+                                               Rangos
+
+                                           N     Rango Promedio     Suma de Rangos
+
+ DIAGNOS –                     Rangos      4a           3.5                14
+                               negativos
+ RESULTADOS
+                               Rangos      5b           6.2                31
+                               positivos
+
+                               Empates     0c              -                -
+
+                                 Total     g               -                -
+
+
+
+ DIAGNOS< RESULTADOS
+
+ DIAGNOS > RESULTADOS
+
+ DIAGNOS = RESULTADOS
+
+
+Nota. Tomado de los resultados del software SPSS
+
+Tabla 39. Prueba de Wilconxon
+                                  Estadísticos de prueba
+
+                                                                  CARBON RESULTADOS
+
+ Z                                                                              -1,007b
+
+ Sig. Asintótica (bilateral)                                                     0.314
+
+     a. Prueba de rangos con signo de Wilcoxon
+  b. Se basa en rangos negativos
+
+
+Nota. Tomado de los resultados del software SPSS
+
+La prueba de Wilcoxon fue utilizada para evaluar si las dosis de 2 ml a 10 ml por
+litro de agua de carbofuran generan pérdidas significativas en los macronutrientes
+primarios de los suelos agrícolas productores de limón. Según los resultados, el
+estadístico Z es de -1.007 con un valor de significancia asintótica bilateral de 0.314,
+es mayor al nivel de significancia de 0.05. Esto indica que no hay evidencia
+suficiente para rechazar la Ho. En los rangos, se observa que hay 5 rangos positivos
+y 4 rangos negativos, con una suma de rangos que favorece ligeramente a los
+valores positivos (31 frente a 14). Sin embargo, esta diferencia no es significativa
+                                                                                     52
+estadísticamente. Por lo tanto, se concluye que las dosis de carbofuran aplicadas
+no muestran un impacto estadísticamente significativo en la pérdida de
+macronutrientes primarios en los suelos agrícolas evaluados.
+
+Tras el desarrollo de la contrastación de la hipótesis específica 1, se presenta la
+contrastación de la hipótesis específica 2.
+
+   •   Ho: El tiempo de exposición al carbofuran no presentará efectos negativos
+       en la textura de suelos agrícolas productoras de limón
+   •   Ha: El tiempo de exposición al carbofuran presentará efectos negativos en
+       la textura de suelos agrícolas productoras de limón
+Tabla 40. Prueba de normalidad
+                                 Pruebas de normalidad
+
+                       Kolmogorov-Smirnov                Shapiro-Wilk
+
+                       Estadistico        gl       Sig   Estadistico    gl   Sig
+
+CARBOFURAN             0.175              3              1              3    1
+
+TEXTURA                0.384              3              0.751          3    0.003
+
+    a. Corrección de significación de Lilliefors
+
+
+Nota. Tomado de los resultados del software SPSS
+
+La prueba de normalidad aplicada a las variables relacionadas con el efecto del
+carbofuran y la textura del suelo en los macronutrientes primarios muestra
+resultados mixtos. Según los estadísticos de Kolmogorov-Smirnov y Shapiro-Wilk,
+el carbofuran presenta valores de significancia de 1 en ambas pruebas, indicando
+que sus datos siguen una distribución normal. Sin embargo, para la textura del
+suelo, el valor de significancia de Shapiro-Wilk es 0.003, menor a 0.05, lo que
+sugiere que los datos de textura no siguen una distribución normal. Al evaluar la
+hipótesis planteada, se usó la prueba de Wilcoxon.
+
+
+
+
+                                                                                     53
+Tabla 41. Rangos
+                                               Rangos
+
+                                           N     Rango Promedio    Suma de Rangos
+
+ TEXTURA                       Rangos      2a           1.5                 3
+                               negativos
+ CARBOFURAN
+                               Rangos      1b           3                   3
+                               positivos
+
+                               Empates     0c            -                  -
+
+                                 Total     3             -                  -
+
+
+
+ TEXTURA< CARBOFURAN
+
+ TEXTURA > CARBOFURAN
+
+ TEXTURA = CARBOFURAN
+
+Nota. Tomado de los resultados del software SPSS
+
+Tabla 42. Prueba de Wilconxon
+                                  Estadísticos de pruebaa
+
+                                                                            TEXTURA -
+
+                                                                          CARBOFURAN
+
+ Z                                                                              ,000b
+
+ Sig. Asintótica (bilateral)                                                        1
+
+     a. Prueba de rangos con signo de Wilcoxon
+  b. La suma de rangos negativos es igual a la suma de rangos positivos
+
+
+Nota. Tomado de los resultados del software SPSS
+
+         La prueba de Wilcoxon fue aplicada para analizar si las dosis de carbofuran
+afectan significativamente la textura del suelo, evaluando la hipótesis sobre la
+pérdida de macronutrientes primarios. Los resultados muestran que el estadístico
+Z es 0.000 con un valor de significancia asintótica bilateral de 1.000, mayor al nivel
+de significancia de 0.05. Esto sugiere que no existe prueba suficiente para rechazar
+
+
+                                                                                    54
+la Ho, sugiere que no se observan diferencias significativas entre las variables
+textura y carbofuran en términos de su efecto sobre los macronutrientes del suelo.
+Los rangos muestran una distribución equilibrada, con dos rangos negativos y un
+rango positivo, y las sumas de rangos negativos y positivos son iguales (3).
+
+Tras el desarrollo de la contrastación de la hipótesis específica 2, se presenta la
+contrastación de la hipótesis específica 3.
+
+   •   Ho: Los parámetros fisicoquímicos al inicio y al final de la investigación no
+       mostraran cambios significativos en los suelos agrícolas productores de
+       limón
+   •   Los parámetros fisicoquímicos al inicio y al final de la investigación mostraran
+       cambios significativos en los suelos agrícolas productores de limón.
+Tabla 43. Prueba de normalidad
+                                 Pruebas de normalidad
+
+                       Kolmogorov-Smirnov                  Shapiro-Wilk
+
+                       Estadistico        gl       Sig     Estadistico    gl   Sig
+
+Par_Fi_ Qu             0.391              6        0.005   0.617          6    0.001
+
+_FINAL
+
+Par_Fi_ Qu             0.367              6        0.011   0.707          6    0.007
+
+_FINAL
+
+    a. Corrección de significación de Lilliefors
+
+
+
+
+Nota. Tomado de los resultados del software SPSS
+
+         La prueba de normalidad aplicada a los parámetros fisicoquímicos iniciales
+y finales de los suelos agrícolas productores de limón indica que, según
+Kolmogorov-Smirnov y Shapiro-Wilk, ambos conjuntos de datos presentan valores
+de significancia menores a 0.05 (0.005 y 0.001 para los datos finales; 0.011 y 0.007
+para los datos iniciales). Esto significa que los datos no siguen una distribución
+normal en ambos casos, hizo la prueba de Wilcoxon. Dado que no se cumple la
+suposición de normalidad, los análisis estadísticos posteriores deben emplear
+
+
+
+
+                                                                                       55
+pruebas no paramétricas para evaluar los cambios en los parámetros
+fisicoquímicos.
+
+Tabla 44. Prueba de Wilconxon
+                                    Pruebas de normalidad
+
+                                    Diferencias emparejadas
+
+                Media    Desv.         Desv.       95% de intervalo de    t      gl   Sig.
+                         Desviación    Error       confianza    de   la               (bilate
+                                       Promedio    diferencia                         ral)
+
+ Pa   Par_Fi_                                      Inferior   Superior
+ r1   Qu
+
+      _FINAL
+
+      Par_Fi_   -        52.20653      21.31323    -88.05139 21.52339     -      5    0.179
+      Qu        33.264                                                    1.56
+                                                                          1
+      _FINAL
+
+
+
+
+Nota. Tomado de los resultados del software SPSS
+
+La prueba de muestras emparejadas para los parámetros fisicoquímicos iniciales y
+finales de los suelos agrícolas productores de limón indica que la media de las
+diferencias es -33.264 con una desviación estándar de 52.20653. El intervalo de
+confianza del 95% para la diferencia oscila entre -88.05139 y 21.52339, incluyendo
+el valor cero, lo que sugiere que no hay una diferencia significativa entre los
+parámetros iniciales y finales. El estadístico t calculado es -1.561 con 5 grados de
+libertad, y el valor de significancia bilateral es 0.179, mayor que el nivel típico de
+significancia de 0.05. Esto lleva a no rechazar la Ho, concluyendo que no se
+encontraron cambios significativos en los parámetros fisicoquímicos de los suelos
+al comparar los valores iniciales y finales.
+
+
+
+
+                                                                                             56
+   IV.    DISCUSIONES
+Los hallazgos indican que la utilización de carbofuran en suelos agrícolas
+destinados a la producción de limón en Sullana ha impactado significativamente las
+características fisicoquímicas del suelo. Inicialmente, el suelo presentó un pH de
+7.8, una materia orgánica baja (1.2%) y un alto porcentaje de arena (93.3%), lo que
+limita la retención de agua y nutrientes. Tras la aplicación de carbofuran, se observó
+una disminución del fósforo disponible desde 112.3 mg/kg a 19.8 mg/kg y del
+potasio disponible de 279.5 ppm a 163.2 ppm en dosis de 6 ml/L. Estos hallazgos
+son consistentes con los de Alhua et al. (65), quienes también reportaron
+reducciones significativas del 14.05% en fósforo y del 10% en potasio bajo
+exposiciones similares, lo que indica un impacto directo en la fertilidad del suelo
+debido a la interferencia del carbofuran en los procesos de disponibilidad de
+macronutrientes. Además, se identificó una disminución significativa de la materia
+orgánica a 0.2% en las dosis más altas, lo que evidencia un empeoramiento en la
+calidad del suelo. Esto se alinea con los resultados de Cuesta et al. (64), quienes
+documentaron que el uso intensivo de pesticidas como el carbofuran contribuye a
+la mineralización acelerada de la materia orgánica, afectando negativamente los
+ciclos biogequímicos del suelo. Por otro lado, el análisis del pH mostró variaciones
+mínimas, manteniéndose en un rango ligeramente alcalino, lo cual es consistente
+con investigaciones como la de Romero et al. (71), donde se señala la estabilidad
+del pH frente a pesticidas carbamatos está influenciada por la capacidad
+amortiguadora del suelo, especialmente en suelos arenosos como los evaluados.
+Comparando los efectos observados en la textura del suelo, el porcentaje de arena
+mostró fluctuaciones que oscilaron entre 92.76% y 94.48%, mientras que el
+contenido de arcilla se incrementó significativamente en los tratamientos
+intermedios (hasta 4.18% en T4). Esto sugiere una interacción dinámica del
+carbofuran con las partículas finas del suelo, favoreciendo procesos de agregación
+o movilización de material fino, como lo describen Guzmán et al. (78) en su
+evaluación de carbamatos y su influencia en la estructura del suelo. Estas
+variaciones texturales, aunque moderadas, pueden tener implicaciones a largo
+plazo en la permeabilidad y potencial de retención hídrica del terreno, exacerbando
+problemas en degradación en suelos ya vulnerables.
+
+
+
+                                                                                   57
+Los hallazgos revelaron que el carbofuran tuvo un impacto significativo en varios
+parámetros fisicoquímicos del suelo, incluyendo la disminución de materia
+orgánica, la variabilidad en la concentración de fósforo disponible y incremento de
+potasio disponible. Estas observaciones están alineadas con los hallazgos de Alhua
+et al. (65), quienes igualmente informaron una disminución notable en los
+macronutrientes esenciales del suelo, como el nitrógeno y el fósforo, tras la
+exposición al carbofuran en un periodo de 90 días. En ambos estudios, la
+disminución de la materia orgánica sugiere una afectación negativa en la actividad
+microbiológica del suelo, lo que podría comprometer su fertilidad a largo plazo. Por
+otro lado, la estabilidad del pH observada en el presente trabajo, con rangos que
+oscilaron entre 7.5 y 7.8, también coincide con los resultados reportados por Cuesta
+(64), quien señaló las variaciones de pH del suelo pueden ser influenciados por la
+composición de la materia orgánica y el tipo de suelo. En este contexto, el suelo
+arenoso estudiado en Sullana presenta alta permeabilidad, lo que podría explicar
+la limitada retención de nutrientes y los ligeros cambios en el pH. Además,
+investigaciones como la de Ćwieląg (61) destacan que la interacción entre el
+carbofuran y componentes del suelo, como la montmorillonita, podría influir en la
+conservación de nutrientes y en la estabilidad química del suelo, lo que es relevante
+para interpretar las fluctuaciones observadas en los niveles de fósforo y potasio
+disponibles. Asimismo, los datos obtenidos sobre la conductividad eléctrica, que
+oscilaron entre 8 y 11.7 mS/m, sugieren una baja salinidad del suelo. Este
+comportamiento es consistente con lo reportado por Bautista (69), quien mencionó
+que la aplicación de carbofuran en suelos con alta proporción de arena tiende a
+facilitar una rápida lixiviación de compuestos solubles. Este fenómeno podría ser
+un factor atenuante en la acumulación de sales, pero al mismo tiempo plantea
+riesgos de contaminación en cuerpos de agua cercanos, como también fue
+documentado por Romero et al. (71). Es por ello, los resultados resaltan la
+necesidad de considerar no solo los efectos inmediatos del carbofuran en el suelo,
+sino también sus implicaciones ecológicas a mediano y largo plazo, promoviendo
+estrategias de manejo sostenible para minimizar su impacto.
+
+El análisis de los parámetros fisicoquímicos en suelos agrícolas tratados con
+carbofuran refleja una alteración significativa en indicadores clave de fertilidad del
+suelo, como la materia orgánica y niveles de macronutrientes esenciales. En primer
+
+                                                                                   58
+lugar, la reducción de la materia orgánica, que pasó de un 1.2% inicial a un 0.2%
+bajo la dosis más alta, coincide con la investigación de Alhua et al. (65), quienes
+reportaron una disminución del 6.93% en la materia orgánica en suelos de la zona
+altoandina de Perú, atribuyendo este impacto a la toxicidad del carbofuran y su
+efecto en la actividad biológica del suelo. Asimismo, investigaciones como las de
+Bautista (69) destacan que la reducción de materia orgánica puede deberse a la
+disminución de microorganismos que facilitan su descomposición, hallazgos
+consistentes con los patrones observados en este estudio. Por otro lado, la
+estabilidad en el pH del suelo dentro de un rango ligeramente alcalino (7.5-7.8)
+contrasta con los resultados de Alhua et al. (65), quienes documentaron un cambio
+hacia niveles más ácidos. Esta diferencia podría explicarse por la textura arenosa
+predominante en Sullana, que facilita la lixiviación y minimiza la retención de
+compuestos ácidos. En términos de nutrientes, el fósforo disponible disminuyó de
+manera considerable desde 112.3 mg/kg mínimo en 17.9 mg/kg con el incremento
+de las dosis, comportamiento similar al reportado por Cuesta (64), quien indicó que
+el pH y la composición de la materia orgánica evidencian notablemente en retención
+de nutrientes esenciales como el fósforo. Además, los resultados actuales sugieren
+que la alta permeabilidad del suelo arenoso en Sullana facilita la lixiviación de este
+macronutriente, un factor también mencionado por Ćwieląg (61), quien encontró
+que los suelos francos tienen una mayor capacidad de retención en comparación
+con los arenosos. El comportamiento del potasio, que presentó fluctuaciones en
+niveles elevados con un pico de 177.9 ppm, refuerza los hallazgos de estudios
+como los de Zambrano et al. (75), que destacaron la importancia del potasio en la
+resistencia a enfermedades y la calidad de los frutos, aunque estas variaciones
+podrían estar relacionadas con la interacción dinámica del carbofuran con los
+compuestos solubles del suelo. Finalmente, cabe destacar que las alteraciones
+observadas en los parámetros fisicoquímicos del suelo podrían tener implicaciones
+significativas en la sostenibilidad agrícola de cultivos de limón. Mientras que el
+trabajo de Díaz y García (67) documentó impactos negativos del carbofuran en
+bacterias beneficiosas como Azotobacter spp., los hallazgos de esta investigación
+sugieren que la disminución de materia orgánica y fósforo podría estar afectando
+indirectamente la actividad biológica del suelo. Esto coincide con las conclusiones
+de Romero et al., (71), quienes identificaron que el carbofuran posee alta movilidad
+
+                                                                                   59
+y persistencia en suelos, lo que aumenta su potencial para generar efectos
+acumulativos adversos.
+
+El análisis de los parámetros fisicoquímicos en suelos agrícolas tratados con
+carbofuran refleja una alteración significativa en indicadores clave de fertilidad del
+suelo, como la materia orgánica y los niveles de macronutrientes esenciales. En
+primer lugar, la reducción de la materia orgánica, que pasó de un 1.2% inicial a un
+0.2% bajo la dosis más alta, coincide con investigaciones como el de Alhua et al.,
+(65), quienes reportaron una disminución del 6.93% en la materia orgánica en
+suelos de la región montañosa de Perú, atribuyendo este impacto a la toxicidad del
+carbofuran y su influencia en el comportamiento biológico del terreno. Asimismo,
+investigaciones como las de Bautista (69) evidencian la reducción de materia
+orgánica puede deberse a la disminución de microorganismos que facilitan su
+descomposición, hallazgos consistentes con los patrones observados en este
+estudio. Por otro lado, la estabilidad en el pH del suelo dentro de un rango
+ligeramente alcalino (7.5-7.8) contrasta con los resultados de Alhua et al., (65),
+quienes documentaron un cambio hacia niveles más ácidos. Esta diferencia podría
+explicarse por la textura arenosa predominante en Sullana, que facilita la lixiviación
+y minimiza la retención de compuestos ácidos. En términos de nutrientes, el fósforo
+disponible disminuyó de manera considerable desde 112.3 mg/kg hasta un mínimo
+de 17.9 mg/kg con el incremento de las dosis, comportamiento similar al reportado
+por Cuesta (64), quien indicó que el pH y la composición de la materia orgánica
+influyen notablemente retención de nutrientes esenciales como el fósforo. Además,
+los resultados actuales sugieren que la alta permeabilidad del suelo arenoso en
+Sullana facilita la lixiviación de este macronutriente, un factor también mencionado
+por Ćwieląg (61), quien encontró que los suelos francos poseen una mayor
+habilidad para retener en comparación con los arenosos. El comportamiento del
+potasio, que presentó fluctuaciones en niveles elevados con un pico de 177.9 ppm,
+refuerza los hallazgos de estudios como los de Zambrano et al., (75), que
+destacaron la importancia del potasio en la resistencia a enfermedades y la calidad
+de los frutos, aunque estas variaciones podrían estar relacionadas con la
+interacción dinámica del carbofuran con los compuestos solubles del suelo.
+Finalmente, cabe destacar que las alteraciones observadas en los parámetros
+fisicoquímicos del suelo podrían tener implicaciones significativas en la
+
+                                                                                   60
+sostenibilidad agrícola de cultivos de limón. Mientras que el trabajo de Díaz y García
+(67) documentó impactos negativos del carbofuran en bacterias beneficiosas como
+Azotobacter spp., los hallazgos de esta investigación muestran que la disminución
+materia orgánica y fósforo podría estar afectando indirectamente la actividad
+biológica del suelo. Esto coincide con las conclusiones de Romero et al., (71),
+quienes identificaron que el carbofuran posee alta movilidad y persistencia en
+suelos, lo que aumenta su potencial para generar efectos acumulativos adversos.
+
+
+
+
+                                                                                   61
+V.   CONCLUSIONES
+
+1.   El estudio sobre el efecto del carbofuran en suelos agrícolas productores
+     de limón en Sullana, Perú, 2024, evidencia que este insecticida afecta
+     significativamente la fertilidad del suelo. En términos cuantitativos, se
+     observó que dosis crecientes de carbofuran (hasta 10 ml/L) generaron
+     una disminución del contenido de materia orgánica hasta niveles críticos
+     de 0.2%, acompañada por una reducción del fósforo disponible de 112.3
+     mg/kg a 17.9 mg/kg y del potasio de 279.5 ppm a 140.2 ppm. Asimismo,
+     el pH inicial de 7.8 mostró variaciones hacia niveles más ácidos en las
+     muestras tratadas, afectando la disponibilidad de nutrientes esenciales.
+2.   La investigación demuestra que dosis crecientes de carbofuran, desde 2
+     hasta 10 ml/L de carbofuran por litro de agua, generan una reducción
+     considerable en la concentración de macronutrientes primarios en suelos
+     agrícolas productores de limón. Los resultados indican que el nitrógeno
+     total disminuyó hasta un 7.85%, el fósforo disponible mostró reducciones
+     superiores al 14.05%, mientras que el potasio disponible presentó una
+     caída cercana al 10% tras 90 días de exposición. Estos cambios se
+     acompañaron de una disminución en la materia orgánica (6.93%) y un
+     ligero descenso en el pH, acercándose a niveles más ácidos, lo cual
+     compromete la fertilidad y sostenibilidad del suelo.
+3.   El análisis del tiempo de exposición al carbofuran muestra que la textura
+     del suelo agrícola productor de limón se mantuvo predominantemente
+     arenosa, incluso tras varias aplicaciones en diferentes concentraciones y
+     periodos, con un contenido de arena superior al 91%. Sin embargo, se
+     evidenció que a partir de 60 días de exposición con dosis superiores a 6
+     ml/L, el contenido de materia orgánica se redujo drásticamente,
+     alcanzando valores mínimos de 0.2%, y los niveles de fósforo disponible
+     disminuyeron hasta 19.8 mg/kg, afectando la retención de nutrientes
+     esenciales. Al ser un suelo arenoso, tiende a filtrar con mayor velocidad
+     y esto ha permitido que el suelo no retenga al corbofuran, aunque
+     parezca una ventaja, es más peligroso, debido a que esto permite que el
+     carbofuran pueda llegar a contaminar fuentes hídricas subterráneas
+     como la napa freática.
+
+                                                                           62
+4.   El estudio comparativo de los parámetros fisicoquímicos al inicio y al final
+     de la investigación en suelos agrícolas productores de limón mostró
+     cambios significativos debido a la aplicación del carbofuran. Inicialmente,
+     el suelo presentó un pH de 7.8, conductividad eléctrica de 10.3 mS/m,
+     materia orgánica de 1.2%, fósforo disponible de 112.3 mg/kg y potasio
+     disponible de 279.5 ppm. Tras la exposición al insecticida, los valores
+     finales indicaron una reducción en la materia orgánica (hasta 0.2%) y el
+     fósforo disponible (mínimo de 17.9 mg/kg), mientras que el potasio
+     disponible varió, con un máximo de 177.9 ppm en las muestras finales.
+     Además, la textura arenosa del suelo mantuvo una alta permeabilidad,
+     acentuando la lixiviación de nutrientes, lo cual resalta la necesidad de
+     estrategias de manejo para mitigar los efectos negativos del carbofuran
+     sobre la fertilidad del suelo y sostenibilidad de los cultivos de limón.
+
+
+
+
+                                                                                63
+VI.      RECOMENDACIONES
+•     En relación con el objetivo general, que busca el impacto del carbofuran en
+      la capacidad productiva del terreno, se recomienda priorizar la transición
+      hacia métodos de un control sostenible. El uso de plaguicidas biológicos y la
+      integración de prácticas agrícolas ancestrales que pueden mitigar los efectos
+      negativos en los parámetros fisicoquímicos del suelo, como el pH y la
+      materia orgánica (59). Según Dos Santos et al., (98), la adopción de
+      prácticas agroecológicas también ayuda a mantener un balance en la textura
+      y los macronutrientes del suelo, contribuyendo a una agricultura más
+      resiliente.
+•     Al primer objetivo específico, que busca la dosis necesaria para alterar los
+      macronutrientes del suelo, se recomienda implementar un monitoreo
+      detallado y continuo del impacto de diferentes concentraciones del químico
+      en el suelo, va a ser necesario que las pruebas se realicen en suelos
+      característicos con arcilla, porque hasta el momento se tienen resultados en
+      suelos agrícolas con la característica de ser Franco arenoso y arena (99).
+      Es necesario poder observar el comportamiento que puede tener en un suelo
+      con características arcillosas.
+•     Para el segundo objetivo específico, que analiza el tiempo de exposición
+      necesario para alterar la textura del suelo, se recomienda limitar la
+      frecuencia de aplicaciones a intervalos que permitan la recuperación parcial
+      de la actividad biológica del suelo. Estudios como de Alhua et al., (65)
+      demuestran que exposiciones prolongadas a carbofuran pueden disminuir
+      drásticamente la materia orgánica y perjudicar de manera desfavorable la
+      estructura.
+•     En línea con el tercer objetivo específico, que compara los cambios en
+      parámetros fisicoquímicos, se recomienda realizar un análisis periódico que
+      incluya mediciones de pH, conductividad eléctrica, y contenido de materia
+      orgánica para evaluar tendencias y anticipar posibles impactos adversos.
+      Asimismo, técnicas avanzadas como cromatografía líquida de alta presión
+      pueden ser empleadas para un monitoreo más detallado (68).
+
+
+
+
+                                                                                64
+                              REFERENCIAS
+(1)    SHIMADA, B. S. y SIMON, M. V. «Problems of chemical control in
+agriculture: A perspective of agriculture». Colloquium Agrariae [en línea].
+2022, 18(3), 60–71. DOI: https://doi.org/10.5747/ca.2022.v18.n3.a499
+(2)    SALAZAR, L., SCHLING, M., PALACIOS, A. C. y PAZOS, N. Retos
+para la agricultura familiar en el contexto del COVID-19: Seguimiento tras 6
+meses de crisis [en línea]. 2021. DOI: https://doi.org/10.18235/0003070
+(3)    CUADRAS BERRELLEZA, A. A., PEINADO GUEVARA, V. M.,
+PEINADO GUEVARA, H. J., LÓPEZ LÓPEZ, J. de J. y HERRERA
+BARRIENTOS, J. «Agricultura intensiva y calidad de suelos: retos para el
+desarrollo sustentable en Sinaloa». Revista Mexicana de Ciencias Agrícolas
+[en        línea].          2021,         12(8),         1401–1414.          DOI:
+https://doi.org/10.29312/remexca.v12i8.2704
+(4)    VELÁZQUEZ-CHÁVEZ, L. de J., ORTIZ-SÁNCHEZ, I. A., CHÁVEZ-
+SIMENTAL, J. A., PÁMANES-CARRASCO, G. A., CARRILLO-PARRA, A. y
+PEREDA-SOLÍS, M. E. «Influencia de la contaminación del agua y el suelo
+en    el desarrollo     agrícola nacional e internacional». TIP. Revista
+Especializada en Ciencias Químico-Biológicas [en línea]. 2022, 25, e482.
+DOI: https://doi.org/10.22201/fesz.23958723e.2022.482
+(5)    CORREA-NÚÑEZ, G. y ROJAS-JAIMES, J. «Uso de plaguicidas no
+autorizados en alimentos agrícolas primarios, Perú (2011-2018)». Manglar
+[en         línea].           2022,          19(1),           61–65.         DOI:
+https://doi.org/10.17268/manglar.2022.008
+(6)    KHAN, A., ZAMAN, T., FAHAD, T. M., AKTHER, T., HASAN, M. F.,
+NAZ, T. y KISHI, S. «Carbofuran affects cellular autophagy and
+developmental senescence through the impairment of Nrf2 signalling».
+Journal of Cellular and Molecular Medicine [en línea]. 2021, 25(15), 7155–
+7170. DOI: https://doi.org/10.1111/jcmm.16774
+(7)    NABIL, M., ELANTABLI, F. M., EL-MEDANI, S. M. y ABDELHAMEED,
+R. M. «Remarkable separation of carbofuran pesticide from aqueous solution
+using free metal ion variation on aluminum-based metal-organic framework».
+Colloids    and       Interfaces    [en   línea].     2022,   6(4),    73.   DOI:
+https://doi.org/10.3390/colloids6040073
+
+                                                                              65
+(8)     DÍAZ PONCE, A., ESPINOSA LOERA, A. V., ALMA VALERIA, L. M.,
+ORTIZ MORALES, M., TREJO ZÚÑIGA, I. y MORENO GUZMÁN, M.
+«Sistema agrovoltaico para el estudio y comparación de técnicas de cultivo
+de hortalizas». Revista Energías Renovables [en línea]. 2023, 8(45), a2. DOI:
+https://doi.org/10.59730/rer.v8n45a2
+(9)     VARGAS-CANALES, J. M., GARCÍA-MELCHOR, N., OROZCO-
+CIRILO, S. y CAMACHO-VERA, J. H. «Los siete pecados capitales del
+sector agroalimentario en México y cómo revertirlos». Agricultura, Sociedad
+y      Desarrollo      [en         línea].       2023,       20(4),   516–532.   DOI:
+https://doi.org/10.22231/asyd.v20i4.1578
+(10)    URQUILLA CASTANEDA, A. «¿Será la Agricultura 4.0 la solución al
+hambre global?». Realidad y Reflexión [en línea]. 2023, 1(57), 39–58. DOI:
+https://doi.org/10.5377/ryr.v1i57.16696
+(11)    GUZMÁN ALBORES, J. M., MATUZ CRUZ, M. de J., ARANA LLANES,
+J. Y., LÓPEZ CARRASCO, E., GÓMEZ VÁZQUEZ, V. y GONZÁLEZ
+CÁRDENAS, N. «Avances y perspectivas de la agricultura de precisión para
+la sostenibilidad agrícola». XIKUA Boletín Científico de la Escuela Superior
+de      Tlahuelilpan         [en       línea].       2024,      12(24),   1–6.   DOI:
+https://doi.org/10.29057/xikua.v12i24.12790
+(12)    SILVA, W. de V. R. da y SILVA-MANN, R. «Precision Agriculture:
+technological monitoring based on patent analysis». Research, Society and
+Development         [en      línea].         2022,     11(3),    e42611326852.   DOI:
+https://doi.org/10.33448/rsd-v11i3.26852
+(13)    SOUSA, J. dos S., SANTOS, M. M., SANTOS, B. N. dos, SANTOS,
+N. M. M. dos y PINTO, L. C. «Agricultura em Áreas Industriais e
+Contaminação por Metais Pesados: Estratégias para redução deste Impacto
+Ambiental». Revista Brasileira de Geografia Física [en línea]. 2021, 14(1),
+322–331. DOI: https://doi.org/10.26848/rbgf.v14.1.p322-331
+(14)    RIBEIRO, G. F. V. y CAVICHIOLI, F. A. «Agricultura de precisão: uso
+de drones para mapeamento de áreas agrícolas». Revista Interface
+Tecnológica         [en       línea].          2022,      19(2),      561–571.   DOI:
+https://doi.org/10.31510/infa.v19i2.1441
+
+
+
+                                                                                  66
+(15)   TOLEDO, L., CHANGOLUISA CHIGUANO, R. L. y VITERI SALAZAR,
+O. «Influencia de la agricultura en la economía y su contraste frente a los
+Objetivos de Desarrollo Sostenible: caso Ecuador». Universidad-Verdad [en
+línea]. 2023, 2(83), 28–49. DOI: https://doi.org/10.33324/uv.v2i83.697
+(16)   DA SILVA, H. y DE LIMA SANTOS, L. «A contribuição da Tecnologia
+da Informação na Agricultura para o Desenvolvimento Sustentável». Ciência
+&       Trópico             [en           línea].            2024,         48(2).       DOI:
+https://doi.org/10.33148/CETROPv48n2(2024)2313
+(17)   PAOLINELLI, A., DOURADO NETO, D. y MANTOVANI, E. C.
+«Agricultura irrigada no Brasil: inovação, empreendedorismo e sistemas de
+produção». São Paulo: Universidade de São Paulo, Escola Superior de
+Agricultura       Luiz       de       Queiroz          [en       línea].     2022.      DOI:
+https://doi.org/10.11606/9786587391243
+(18)   FRANÇA, R. de S., CORREA, F., MARIA, T. C., RIBEIRO, J. S. de A.
+N. y FERREIRA, E. de P. «Transformação agrícola digital: o entrelaçamento
+da agricultura e transformação digital para o futuro inovador do setor
+agrícola».      Exacta       [en      línea].       2023,      21(3),      603–628.     DOI:
+https://doi.org/10.5585/exactaep.2021.18745
+(19)   PARLANGELI GONÇALVES, V. y CAVICHIOLI, F. A. «Estudo das
+funcionalidades dos drones na agricultura». Revista Interface Tecnológica
+[en           línea].             2021,             18(1),           321–331.           DOI:
+https://doi.org/10.31510/infa.v18i1.1126
+(20)   TEIXEIRA, J. C. y RUIS, G. L. «A estrutura da produção agropecuária
+no município de Araçatuba/SP no contexto da modernização da agricultura».
+Formação       [en      línea].     2021,       28(53),      237–262.      Disponible    en:
+https://revista.fct.unesp.br/index.php/formacao/article/view/7062/6022
+(21)   OLIVEIRA, A. J. de, OLIVEIRA, T. C. de, CALDEIRA, D. S. A.,
+KARSBURG, I. V. y VIEIRA, C. L. «A importância da biotecnologia na
+agricultura nos dias atuais». Revista Multidisciplinar de Educação e Meio
+Ambiente        [en      línea].     2024,          5(2),     34294.       Disponible    en:
+https://ime.events/conasust2024/pdf/34294
+(22)   SARPA, M. y FRIEDRICH, K. «Exposição a agrotóxicos e
+desenvolvimento de câncer no contexto da saúde coletiva: O papel da
+
+                                                                                         67
+agroecologia como suporte às políticas públicas de prevenção do câncer».
+Saúde       em    Debate    [en     línea].     2022,       46(spe2),     E227.      DOI:
+https://doi.org/10.1590/0103-11042022E227
+(23)      POLANCO LÓPEZ DE MESA, Y., HERNÁNDEZ CARMONA, D.,
+ESCOBAR PÉREZ, M. L., AGUIRRE ACEVEDO, D. C. y PARRA
+HERNÁNDEZ, Á. «Medición de niveles de colinesterasas eritrocitarias en
+agricultores usuarios de plaguicidas y en practicantes de agroecología, San
+Cristóbal, Medellín, Colombia». Rev. Fac. Nac. Salud Pública [en línea].
+2019.                                 Disponible                                      en:
+https://revistacta.agrosavia.co/index.php/revista/article/view/1520
+(24)      ERLAN, S. y EUGENIO, E. «Mudanças no uso da terra e a evolução
+agrícola na bacia Tocantins-Araguaia: 1985 a 2022». Revista de Gestão
+Social     e Ambiental     [en    línea].     2024,   18,    1–21.      Disponible    en:
+https://rgsa.openaccesspublications.org/rgsa/article/view/6034/2300
+(25)      PAZMIÑO, G. y ROSADO, M. «Evaluación de la presión toxicológica
+y ecotoxicológica del uso de plaguicidas sintéticos en Sancti Spíritus, Cuba».
+Ciencia & Tecnología Agropecuaria [en línea]. 2023, 22. Disponible en:
+https://revistacta.agrosavia.co/index.php/revista/article/view/1520
+(26)      GONZALES, M., BETANCUR, M., ARENAS, C. y RÍOS, J. «Aportes
+en la dimensión social y ambiental a la floricultura en el sector de hortensias
+bajo un enfoque de análisis de ciclo de vida». Lúmina [en línea]. 2024, 25(1),
+E0049. DOI: https://doi.org/10.30554/lumina.v25.n1.4721.2024
+(27)      DUARTE, F. «El uso del control biológico como estrategia de
+responsabilidad social en la agroexportación peruana: el caso del
+espárrago». Revista de Gestão e Secretariado [en línea]. 2022, 13.
+Disponible en: https://ojs.revistagesec.org.br/secretariado/article/view/1396
+(28)      LOPEZ, D. E., HOUBRAKEN, M., DE ROP, J., DU LAING, G.,
+ROMERO, R. O. y SPANOGHE, P. Ciencia y Tecnología Agropecuaria [en
+línea].            2021,              22(2).                 Disponible               en:
+https://revistacta.agrosavia.co/index.php/revista/article/view/1520
+(29)      BARRÓN, J., DREIJ, K., TIRADO, N. et al. «Exposición humana a
+plaguicidas en Bolivia: una revisión del conocimiento actual, desafíos futuros
+y necesidades de investigación». International Journal of Environmental
+
+                                                                                      68
+Research and Public Health [en línea]. 2024, 21(3), 305. DOI:
+https://www.mdpi.com/1660-4601/21/3/305
+(30)   DURAISAMY, K. et al. «Carbofuran pesticide toxicity to the eye».
+Experimental      Eye       Research          [en     línea].    2023.      Disponible    en:
+https://www.sciencedirect.com/science/article/abs/pii/S0014483522004365
+(31)   CAO, N. et al. «The adsorption effects of biochar on carbofuran in
+water and the mixture toxicity of biochar–carbofuran in rats». Chemosphere
+[en              línea].                   2024.                 Disponible               en:
+https://www.sciencedirect.com/science/article/abs/pii/S0045653523032629
+(32)   PARK, H., SEO, S. I., LIM, J.-H., SONG, J., SEO, J.-H. y KIM, P. I.
+«Screening of carbofuran-degrading bacteria Chryseobacterium sp. BSC2-3
+and unveiling the change in metabolome during carbofuran degradation».
+Metabolites         [en          línea].        2022,           12(3),        219.       DOI:
+https://doi.org/10.3390/metabo12030219
+(33)   JIANG, W., ZHANG, M., GAO, S., ZHU, Q., QIU, J., YAN, X., XIN, F.,
+JIANG, M. y HONG, Q. «Comparative genomic analysis of carbofuran-
+degrading Sphingomonads reveals the carbofuran catabolism mechanism in
+Sphingobium sp. strain CFD-1». Applied and Environmental Microbiology [en
+línea]. 2022, 88, e01024-22. DOI: https://doi.org/10.1128/aem.01024-22
+(34)   LV, X., CHANG, Q., LI, H., LIANG, S., ZHE, Z., SHEN, S. y PANG, G.
+«Risk assessment of carbofuran residues in fruits and vegetables at the
+Chinese market: a 7-year survey». Ecotoxicology and Environmental Safety
+[en           línea].            2022,               239,               113667.          DOI:
+https://doi.org/10.1016/j.ecoenv.2022.113667
+(35)   KARADURMUS, L., CETINKAYA, A., KAYA, S. I. y OZKAN, S. A.
+«Recent trends on electrochemical carbon-based nanosensors for sensitive
+assay of pesticides». Trends in Environmental Analytical Chemistry [en
+línea]. 2022, 34, e00158. DOI: https://doi.org/10.1016/j.teac.2022.e00158
+(36)   PIEDRA RIVAS, M. C., BANEGAS CAMPOVERDE, C. M. y
+CASTILLO ORTEGA, Y. «Distribution chain optimization model of peasant
+family farming in the Quingeo and Santa Ana parishes of Cuenca Canton».
+ConcienciaDigital          [en      línea].         2021,       4(2),     114–134.       DOI:
+https://doi.org/10.33262/concienciadigital.v4i2.1630
+
+                                                                                          69
+(37)   KATO MALDONADO, L. y HUERTA MORENO, G. «Carencia
+alimentaria, cadenas productivas y políticas públicas para el sector agrícola
+en México». Estudios en Política y Desarrollo [en línea]. 2022, 12(67). DOI:
+https://doi.org/10.20983/epd.2022.67.1
+(38)   CEVALLOS-DE LA CRUZ, R. E., GARCÍA-MUJICA, P. G., GÓMEZ-
+SALCEDO, Y. y RODRÍGUEZ-DÍAZ, J. M. «Métodos para la degradación de
+pesticidas   (carbamatos)     en      matrices    acuosas».    Revista    Científica
+INGENIAR: Ingeniería, Tecnología e Investigación [en línea]. 2023, 6(11),
+78–102.                                 Disponible                              en:
+https://journalingeniar.org/index.php/ingeniar/article/view/117
+(39)   SANDOVAL SULCA, J. L., PALMA OYOLA, M. C., HUERTAS
+QUIROS, E. M., CHÁVEZ COLLANTES, A. y CASTILLO ROJAS, E. W.
+«Gestión final de envases de plaguicidas y la minimización de la
+contaminación ambiental en campos de cultivo». Revista Ciencia Nor@ndina
+[en línea]. 2023, 6(2), 279–289. DOI: https://doi.org/10.37518/2663-
+6360X2023v6n2p279
+(40)   SINCHIRE CASTILLO, R. N., CAYAMBE, J. y HEREDIA-R, M.
+«Conocimiento, percepción y prácticas de los agricultores sobre la aplicación
+de plaguicidas: un estudio de caso de productores de arroz en Ecuador».
+Revista Tecnológica – ESPOL [en línea]. 2023, 35(1), 88–103. DOI:
+https://doi.org/10.37815/rte.v35n1.1013
+(41)   ZAFAR, M. I., KHALID, A., KALI, S., KHAN, F., TAHIR, M., ALI, M. y
+SIDDIQA, A. «Organic amendments as an ecofriendly substitute of
+carbofuran for the suppression of nematodes associated with Malus pumila».
+South African Journal of Botany [en línea]. 2022, 144, 187–193. DOI:
+https://doi.org/10.1016/j.sajb.2021.09.006
+(42)   POPOVYCH, O., STEPANENKO, T., DIDUKH, S., ODNOROG, M. y
+KRASNOSELSKA, A. «Problemas económicos y ecológicos del desarrollo
+agroindustrial». REICE: Revista Electrónica de Investigación en Ciencias
+Económicas        [en       línea].       2023,      11(21),      1–18.        DOI:
+https://doi.org/10.5377/reice.v11i21.16516
+(43)   ELIAS, D. y IANNACONE, J. «Impacto ecotoxicológico de tres
+plaguicidas sobre Eisenia fetida en el cultivo de Allium cepa en Lurín, Lima,
+
+                                                                                 70
+Perú». Revista de Ciencias de la Vida [en línea]. 2023. Disponible en:
+https://lagranja.ups.edu.ec/index.php/granja/article/view/3989
+(44)   GÓMEZ GALARZA, V. E. «Uso indiscriminado de plaguicidas en la
+cadena de valor del rocoto (Capsicum pubescens) en Oxapampa». Anales
+Científicos       [en    línea].           2021,         82(1),        22–32.     DOI:
+https://doi.org/10.21704/ac.v82i1.1738
+(45)   ESTEBAN NOLBERTO, E. D. Efecto del uso y manejo de plaguicidas
+del cultivo de papa en el medio ambiente de Huánuco [tesis doctoral en
+línea]. Huánuco: Universidad Nacional Hermilio Valdizán, 2019. Disponible
+en:
+https://repositorio.unheval.edu.pe/backend/api/core/bitstreams/7b99396c-
+6c2d-400f-8fdf-73a6048d6698/content
+(46)   GABRIEL ORTEGA, J., ÁVILA DEMERA, J., AYÓN VILLAO, F.,
+MORÁN MORÁN, J., ÁLVAREZ PLÚA, A. y FLORES RAMÍREZ, H.
+«Utilización de plaguicidas por agricultores en Puerto La Boca, Manabí: una
+reflexión sobre sus posibles consecuencias». Journal of the Selva Andina
+Biosphere         [en    línea].          2023,          11(1),        47–65.     DOI:
+https://doi.org/10.36610/j.jsab.2023.110100044
+(47)   VALVERDE-RODRÍGUEZ, A., RAMOS-VEGA, Y. I., CAMPOS
+ALBORNOZ, M. E. y JARA CLAUDIO, F. R. «Plaguicidas de bajo impacto
+ambiental en el control de la cochinilla de la nieve del mango en Perú».
+Producción    +     Limpia   [en         línea].      2023,   18(1),     30–39.   DOI:
+https://doi.org/10.22507/pml.v18n1a3
+(48)   RANGEL-ORTIZ, E., LANDA-CANSIGNO, O., PÁRAMO-VARGAS, J.
+y CAMARENA-POZOS, D. A. «Prácticas de manejo de plaguicidas y
+percepciones de impactos a la salud y al medio ambiente entre usuarios de
+la cuenca del Río Turbio, Guanajuato». Acta Universitaria [en línea]. 2023,
+33, 1–26. DOI: https://doi.org/10.15174/au.2023.3749
+(49)   RAHMAN, M. M., ISLAM, F., PARVEZ, A., AZAD, M. A. K., ASHRAF,
+G. M., ULLAH, M. F. y AHMED, M. «Citrus limon seed extract shows neuro-
+modulatory activity in an in vivo thiopental-sodium sleep model». Journal of
+Integrative   Neuroscience         [en      línea].     2022,     21(1),    42.   DOI:
+https://doi.org/10.31083/j.jin2101042
+
+                                                                                   71
+(50)      QURBAN, F., HUSSAIN, S., WAQAS, M., SHAHZAD, H. H.,
+RUKHSAR,         A.   y     JAVED,      A.    «Phytochemistry,      nutritional,   and
+pharmacological potential of Citrus limonum». Science Inquiry Review [en
+línea].          2024,          8(3),           1–23.           Disponible          en:
+https://journals.umt.edu.pk/index.php/SIR/article/view/3964
+(51)      CHATZIMITAKOS, T., ATHANASIADIS, V., KOTSOU, K., BOZINOU,
+E. y LALAS, S. I. «Response surface optimization for the enhancement of the
+extraction of bioactive compounds from Citrus limon peel». Antioxidants [en
+línea]. 2023, 12(8), 1605. DOI: https://doi.org/10.3390/antiox12081605
+(52)      FADDETTA, T., ABBATE, L., ALIBRANDI, P. et al. «The endophytic
+microbiota of Citrus limon is transmitted from seed to shoot highlighting
+differences of bacterial and fungal community structures». Scientific Reports
+[en línea]. 2021, 11, 7078. DOI: https://doi.org/10.1038/s41598-021-86399-5
+(53)      JIN, J., LV, X., WANG, B., REN, C., JIANG, J., CHEN, H., CHEN, X.,
+GU, M., PAN, Z., TIAN, N., WU, A., SUN, L., GAO, W. y WANG, X. «Limonin
+inhibits IL-1β-induced inflammation and catabolism in chondrocytes and
+ameliorates osteoarthritis by activating Nrf2». Oxidative Medicine and
+Cellular        Longevity      [en       línea].        2021,     7292512.         DOI:
+https://doi.org/10.1155/2021/7292512
+(54)      BAYLON, E. y QUISPE, Y. «Agricultura familiar y el desarrollo
+sostenible como medios de garantía para mantener la seguridad
+alimentaria». Alfa Revista de Investigación en Ciencias Agronómicas y
+Veterinaria        [en       línea].         2023,       13.      Disponible        en:
+http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S2664-
+09022023000200418
+(55)      OLIVIA, C. «Associativity and competitiveness (Musa cavendish) in
+the Chira Valley». Anales Científicos [en línea]. 2019, 80. Disponible en:
+https://revistas.lamolina.edu.pe/index.php/acu/article/download/1456/pdf_2
+33/4797
+(56)      ALDANA, C. et al. «Spatial-temporal agricultural production of Citrus
+x limon and Mangifera indica using spectral signatures and satellite images».
+Scientia Agropecuaria [en línea]. 2021, 12(4), 557–567. Disponible en:
+http://www.scielo.org.pe/pdf/agro/v12n4/2077-9917-agro-12-04-557.pdf
+
+                                                                                    72
+(57)   LA ROSA-BOGGIO, D., MEDINA-NÚÑEZ, K. y MORE-SERNAQUE,
+Z. «Centro de innovación productiva y transferencia de tecnología del limón
+en el distrito de Tambogrande, Piura». IPSA Scientia [en línea]. 2024, 9,
+ev9a3. DOI: https://doi.org/10.62580/ipsc.2024.9.170
+(58)   CHINININ, S. y VILLEGAS, M. «Determinantes económicos y
+climáticos de la producción de limón en la región Piura, periodo 2000–2020».
+Revista de Investigación Científica de la UNF – Aypate [en línea]. 2022, 1(1),
+76–86. DOI: https://doi.org/10.57063/ricay.v1i1.14
+(59)   CARRASCO CHOQUE, F. «Pronóstico de la producción de las
+principales frutas en la región de Piura: un análisis econométrico con el
+método de Box-Jenkins». Semestre Económico [en línea]. 2020, 9(2), 31–
+44.                              Disponible                               en:
+https://semestreeconomico.unap.edu.pe/index.php/revista/article/view/31
+(60)   SOTO PLASENCIA, M. «Influencia de los corredores económicos en
+la producción de limón de exportación en la región Piura». Journal of
+Economics, Finance and Administrative Science [en línea]. 2006, 11(20),
+153–175. DOI: https://doi.org/10.46631/jefas.2006.v11n20.07
+(61)   ĆWIELĄG, P. «Soil Organic Matter Composition and pH as Factors
+Affecting Retention of Carbaryl, Carbofuran and Metolachlor in Soil».
+Molecules     [en    línea].   2023,     28(14),   5552.    Disponible    en:
+https://www.mdpi.com/1420-3049/28/14/5552
+(62)   SHI, L., LANG, H., SHEN, J., SHEN, F., SONG, J., ZHANG, L., FANG,
+H. y YU, Y. «Absorption, metabolism and distribution of carbosulfan in maize
+plants (Zea mays L.)». Pest Management Science [en línea]. 2023.
+Disponible en: https://pubmed.ncbi.nlm.nih.gov/37245216
+(63)   ABEJA, O. et al. «Acute effect of carbofuran in Chirostoma
+humboldtianum juveniles (Atheriniformes: Atherinopsidae)». Hidrobiológica
+[en            línea].           2024.               Disponible           en:
+https://www.scielo.org.mx/scielo.php?pid=S0188-
+88972023000300281&script=sci_arttext
+(64)   CUESTA, J. Problemas del suelo por el uso excesivo de productos
+químicos en la agricultura del Ecuador [en línea]. Repositorio Digital UTB,
+2023. Disponible en: http://dspace.utb.edu.ec/handle/49000/14938
+
+                                                                           73
+(65)      ALHUA, B. et al. «Influence of carbofuran on the concentration of
+primary soil macronutrients in potato growing areas in the Peruvian
+highlands». E3S Web of Conferences [en línea]. 2023. Disponible en:
+https://www.e3s-
+conferences.org/articles/e3sconf/abs/2023/59/e3sconf_icres2023_02004/e3
+sconf_icres2023_02004.html
+(66)      LANDETA, S. Insecticidas usados y sus posibles implicancias para el
+medio ambiente en sistemas tecnológicos de andenerías [en línea].
+Arequipa: Universidad Nacional de San Agustín de Arequipa, 2022.
+Disponible                                                                     en:
+https://repositorio.unsa.edu.pe/server/api/core/bitstreams/c7ce09fe-a3ab-
+4a05-969a-e362a0397d78/content
+(67)      DÍAZ, A. y GARCÍA, M. Efecto del carbofuran sobre la población de
+Azotobacter spp. en suelo cafetalero del caserío La Primavera, provincia de
+Moyobamba-San Martín [en línea]. Lima: Universidad Católica Sedes
+Sapientiae,                  2022.                   Disponible                en:
+https://repositorio.ucss.edu.pe/bitstream/handle/20.500.14095/1618/Diaz_G
+arcia_tesis_2022.pdf
+(68)      COSCO, G. y GÓMEZ, L. «Validación de un método por cromatografía
+líquida de ultra alta presión (UHPLC/MS/MS) para la cuantificación de
+carbamatos en suelo agrícola». Revista de la Sociedad Química del Perú [en
+línea].         2022,       88(4),         351–364.           Disponible       en:
+http://www.scielo.org.pe/pdf/rsqp/v88n4/1810-634X-rsqp-88-04-351.pdf
+(69)      BAUTISTA, L. *Biodegradación microbiana de carbofurano en suelos
+de cultivos de papa criolla Solanum phureja [en línea]. Pamplona:
+Universidad          de      Pamplona,          2019.         Disponible       en:
+http://repositoriodspace.unipamplona.edu.co/jspui/handle/20.500.12744/28
+66
+(70)      RINCÓN, S. M., PACHECO, H. P., VARGAS, L. P., NINCO, J. C. P.,
+ALCÁZAR, N. R. y CRÍTICA, S. Z. «Modelamiento de la distribución
+(suelo/agua) de carbofurano empleado en la producción agrícola en
+Villapinzón,     Cundinamarca».      Construyendo      investigación:   semilleros
+generadores        de     ideas      [en   línea].    2019.       Disponible   en:
+
+                                                                               74
+https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1063&context=libro
+s
+(71)      ROMERO, A. E., YAÑEZ, L. M., MALDONADO, M. J., CHOQUE, D.
+A. y ÁVILA, N. M. E. «Biodegradación de carbofuran por una cepa de
+Trichoderma sp. autóctona y su potencial uso para la biorremediación de
+suelos contaminados». Revista Científica de la Facultad de Ciencias
+Agrarias       [en    línea].     2021,    14(2),       18–27.      Disponible    en:
+https://fca.unju.edu.ar/media/revista_articulo/Revista_Cientifica_FCA_Volu
+men14_2_2021-18-27.pdf
+(72)      KUMAR, S., BAGGI, T. y ZUGHAIBI, T. «Forensic toxicological and
+analytical aspects of carbamate poisoning – A review». Journal of Forensic
+and         Legal      Medicine      [en      línea].       2022,       92.      DOI:
+https://doi.org/10.1016/j.jflm.2022.102187
+(73)      SILVEIRA, M. et al. «Agricultural pesticides: a framework for health
+risk evaluation in rural communities in the Mexican state of Sonora». Revista
+Internacional de Contaminación Ambiental [en línea]. 2018, 34. Disponible
+en:        https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-
+49992018000100007
+(74)      CHIRINOS, D. et al. «Los insecticidas y el control de plagas agrícolas:
+la magnitud de su uso en cultivos de algunas provincias de Ecuador».
+Ciencia y Tecnología Agropecuaria [en línea]. 2020, 21(1), 84–93. Disponible
+en:             http://www.scielo.org.co/pdf/ccta/v21n1/0122-8706-ccta-21-01-
+00084.pdf
+(75)      ZAMBRANO, J., HERRERA, W. y MOTTA, P. «Concentración de los
+macronutrientes del suelo en áreas de pastoreo del departamento de
+Caquetá, Amazonia colombiana». Ciencia y Tecnología Agropecuaria [en
+línea].                   2020.                     Disponible                    en:
+https://revistacta.agrosavia.co/index.php/revista/article/view/1673
+(76)      GAVILÁNEZ, F. y GÓMEZ, M. «Definición de dosis de nitrógeno,
+fósforo y potasio para una máxima producción del maíz híbrido Advanta
+9313». Ciencia y Tecnología Agropecuaria [en línea]. 2022, 23(1), 2225.
+Disponible en: http://www.scielo.org.co/pdf/ccta/v23n1/0122-8706-ccta-23-
+01-2225.pdf
+
+                                                                                  75
+(77)      PILATUÑA, M. et al. «Agronomic evaluation of nitrogen-fixing bacteria
+isolated from Andean soils in lettuce and tomato seedlings». Investigación
+Agraria         [en      línea].          2021,        23(1).           Disponible     en:
+http://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2305-
+06832021000100047
+(78)      GUZMÁN, D. y MONTERO, J. «Interaction of bacteria and plants in
+nitrogen fixation». Revista de Investigación e Innovación Agropecuaria y de
+Recursos        Naturales     [en        línea].     2021,      8(2).     Disponible   en:
+http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S2409-
+16182021000200087
+(79)      ALARCÓN, J. et al. «Elaboración de un biofertilizante a partir de
+microorganismos eficientes autóctonos en Perú». Anales Científicos [en
+línea].               2019,                 80.              Disponible                en:
+https://revistas.lamolina.edu.pe/index.php/acu/article/view/1484
+(80)      CABOS, J. et al. «Evaluación de las concentraciones de nitrógeno,
+fósforo y potasio del biol y biosol obtenidos a partir de estiércol de ganado
+vacuno en un biodigestor de geomembrana de PVC». Arnaldoa [en línea].
+2019,                     26(3).                        Disponible                     en:
+http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S2413-
+32992019000300021
+(81)      TANYA, M. y LEIVA, M. «Efficient microorganisms, functional
+properties and agricultural applications». Centro Agrícola [en línea]. 2019,
+46(2).                                    Disponible                                   en:
+http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0253-
+57852019000200093
+(82)      ARACELLY, D. et al. «Comparación de tres variantes de preparación
+del sustrato empleado en la propagación de patrones de cacao». Ciencias
+Técnicas      Agropecuarias        [en     línea].   2020,      37(3).    Disponible   en:
+http://scielo.sld.cu/scielo.php?pid=S2071-
+00542020000300037&script=sci_arttext
+(83)      LÓPEZ, A. y VARGAS, F. Diseño de sistema automatizado
+hidropónico capaz de analizar las hortalizas y autosostenerse con aplicación
+en el agro colombiano [en línea]. Bogotá: Universitaria Agustiniana, 2023.
+
+                                                                                       76
+Disponible                                                                 en:
+https://repositorio.uniagustiniana.edu.co/handle/123456789/2420
+(84)    LEYVA, V. M. Y., VITERI, M. J. R., ESTUPIÑÁN, R. J. y HERNÁNDEZ,
+C. R. E. «Diagnosis of the challenges of post-pandemic scientific research in
+Ecuador». Dilemas contemporáneos: educación, política y valores [en línea].
+2021,                      9.                Disponible                    en:
+https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-
+78902021000800053
+(85)    SÁNCHEZ, F. «Epistemic fundamentals of qualitative and quantitative
+research: consensus and dissensus». Horizonte de la Ciencia [en línea].
+2019.                               Disponible                             en:
+http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S2223-
+25162019000100008
+(86)    RAMOS, C. «Diseños de investigación experimental». CienciAmérica
+[en             línea].            2021.            Disponible             en:
+https://cienciamerica.edu.ec/index.php/uti/article/view/356
+(87)    VEGA, B. V. de J., FERNÁNDEZ, R. D. S., MACEDO, C. A., RÍOS, B.
+J. D. y RUIZ, B. A. «Análisis de la fertilidad del suelo mediante la validación
+e interpolación Kriging de sus variables». Terra Latinoamericana [en línea].
+2023.                               Disponible                             en:
+https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0187-
+57792022000100144
+(88)    LARA, A. y CHAPARRO, S. «Cuantificación voltamétrica de
+carbofurano en papa (Solanum tuberosum L.)». Ciencia y Tecnología
+Agropecuaria         [en        línea].     2017.         Disponible       en:
+http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0122-
+87062017000200275
+(89)    VENTURA, J. «Population or sample? A necessary difference».
+Revista Cubana de Salud Pública [en línea]. 2017. Disponible en:
+http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0864-
+34662017000400014
+(90)    QUISPE, A. M., PINTO, D. F., HUAMÁN, M. R., BUENO, G. M. y
+VALLE, C. A. «Metodologías cuantitativas: cálculo del tamaño de muestra
+
+                                                                            77
+con STATA y R». Revista del Cuerpo Médico Hospital Nacional Almanzor
+Aguinaga       Asenjo    [en     línea].   2020,     13(1).      Disponible   en:
+http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S2227-
+47312020000100012
+(91)     MORALES, I. Calificación de balanza semi-analítica marca Denver
+modelo XS-2100… [tesis de grado en línea]. Guatemala: Universidad de San
+Carlos         de        Guatemala,          2013.            Disponible      en:
+http://www.biblioteca.usac.edu.gt/tesis/06/06_3526.pdf
+(92)     RUIZ, N. Analizadores electroquímicos para medir el pH del agua en
+procesos industriales [tesis de grado en línea]. Guatemala: Universidad de
+San        Carlos       de      Guatemala,         2011.       Disponible     en:
+http://biblioteca.usac.edu.gt/tesis/08/08_0785_EA.pdf
+(93)     VALISÓ, J., GONZÁLES, J., PIÑA, J. y ARADA, M. «Métodos
+potenciométricos y conductimétricos de bajo costo: una revisión». INNOTEC
+[en           línea].          2023,         25.           Disponible         en:
+https://www.redalyc.org/journal/6061/606174657001/606174657001.pdf
+(94)     GARCÍA, R. «Instrumentos que revolucionaron la química: la historia
+del espectrofotómetro». Avances en Química [en línea]. 2018, 13(3), 79–82.
+Disponible en: https://ri.conicet.gov.ar/handle/11336/87008
+(95)     SÁNCHEZ, I., LUXAN, P. y FRÍAS, M. «La espectrometría de emisión
+con fuente de plasma de acoplamiento inductivo». [en línea]. 1986.
+Disponible en: https://digital.csic.es/handle/10261/39485
+(96)     SALES, B., SAMANIEGO, T., DURAND, K., NORABUENA, Á.,
+CALDERÓN, R., ORTEGA, J. y MUNAYCO, K. Manual para el análisis de
+suelos agrícolas y agua para riego [en línea]. Lima: INIA, 2024. Disponible
+en:            https://repositorio.inia.gob.pe/items/579d9e8f-663e-47f9-828d-
+a816b511a50f
+(97)     SOLSONA, N. «Los instrumentos de vidrio en los tratados de Nicaise
+Le Fèvre y Marie Meurdrac». Educación Química [en línea]. 2015, 26(2).
+Disponible                                                                    en:
+https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0187-
+893X2015000200011
+
+
+
+                                                                              78
+(98)   DOS SANTOS, L., SCHALDER, A., LOPES, O., ALVES, S., DOS
+SANTOS, R. y SCHALCHER, A. «Agroecological practices in plants adopted
+by family farmers of the agricultural field fomento in Codó, Maranhão».
+Research, Society and Development [en línea]. 2020, 9(6). Disponible en:
+https://rsdjournal.org/index.php/rsd/article/view/3340
+(99)   ZAHERMAND, S., VAFAEIAN, M. y HOSEIN, M. «Analysis of the
+physical   and   chemical   properties   of   soil   contaminated   with   oily
+hydrocarbons». Earth Sciences Research Journal [en línea]. 2020, 24(2).
+Disponible en: https://revistas.unal.edu.co/index.php/esrj/article/view/76217
+
+
+
+
+                                                                            79
+82
+

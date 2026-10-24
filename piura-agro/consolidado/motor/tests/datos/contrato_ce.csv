@@ -1,0 +1,3 @@
+variable,valor,valor_min,valor_max,unidad,cultivo,variedad,etapa,zona,lugar,lat,lon,fecha_o_periodo,fuente,url_o_doi,metodo,tipo_evidencia,estado,notas,fuente_primaria,subzona
+ce_suelo,,3.44,8.2,dS/m,todos,,,bajo_piura,Tablazo Sur,,,2024,Mendoza Flores 2025,https://hdl.handle.net/20.500.12692/170594,ce_extracto_no_declarado,medicion_local,observado,x,,Tablazo Sur
+ce_suelo,,3.44,8.2,dS/m,todos,,,bajo_piura,Tablazo Sur,,,2024,Mendoza Flores 2025,https://hdl.handle.net/20.500.12692/170594,ce_extracto_no_declarado,medicion_local,estimado,x,,

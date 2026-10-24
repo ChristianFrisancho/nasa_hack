@@ -1,0 +1,1 @@
+tambogrande: 57 filas -> /workspace/piura-agro/suelos/ejemplos/tambogrande.csv | estimado=41, desconocido=11, observado=5

@@ -1,0 +1,110 @@
+MOTOR DE ROTACIÓN v0 · zona climática Bajo Piura (12.0 km) · escenario normal (16 años: 1991, 1992, 1993, 1994, 1995, 1997, 2001, 2002…)
+Parcela -5.330, -80.680 · área 2.00 ha · ECe 2.00–3.50 dS/m · ECw 0.80 dS/m · pH 7.6 pH · drenaje moderado · anterior arroz · siembra mes 6
+
+12 de 14 cultivos anuales pasan los filtros duros. Primero en el orden: caupi. Sin datos suficientes para decidir (no se recomiendan): frijol de palo.
+
+1. CAUPI (Fabaceae) · advertencias 0 · no evaluables 3
+   Duración: 100 días [analogo_externo]
+   Riego neto por etapa: inicial 38–43 mm | desarrollo 103–116 mm | media 156–172 mm | final 71–94 mm
+   Riego neto ciclo: 3 673–4 244 m3/ha · bruto: 6 122–9 431 m3/ha
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Rendimiento: 1.22–2.85 t/ha [prediccion] · precio 1.73–3.71 PEN/kg · costo desconocido (PEN/ha) [prediccion] · margen desconocido (PEN/ha)
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha 1.2–3.5 dS/m; balance P2O5 acumulado desconocido (kg/ha); balance K2O acumulado desconocido (kg/ha)
+   [?] pH: sin umbral de pH para caupi en los datos
+   [?] profundidad: sin umbral de profundidad para caupi en los datos
+   [?] presupuesto: no evaluable: falta costo de producción de caupi
+   Datos que pueden cambiar la recomendación: rango térmico de caupi (no está en los datos); umbral de pH de caupi; umbral de profundidad de caupi; costo de producción de caupi
+
+2. ALGODON (Malvaceae) · advertencias 1 · no evaluables 2
+   Duración: 170–250 días [analogo_externo]
+   Riego neto por etapa: inicial 49–84 mm | desarrollo 185–419 mm | media 282–464 mm | final 206–342 mm
+   Riego neto ciclo: 7 218–13 081 m3/ha · bruto: 12 030–29 070 m3/ha
+   Absorción N/P2O5/K2O: 37–203 kg/ha / 25–138 kg/ha / 46–251 kg/ha
+   Exportación N/P2O5/K2O: 21–203 kg/ha / 8–70 kg/ha / 10–169 kg/ha
+   Rendimiento: 0.85–4.70 t/ha [prediccion] · precio 2.17–6.31 PEN/kg · costo 3 649–5 132 PEN/ha [bibliografico] · margen -3 279–26 033 PEN/ha
+   Deja en el suelo: residuo N 16.2–89.4 kg/ha; residuo P2O5 4.5–24.9 kg/ha; residuo K2O 20.5–112.9 kg/ha; puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha 1.2–3.5 dS/m; balance P2O5 acumulado -70.1–-8.2 kg/ha; balance K2O acumulado -168.9–-10.2 kg/ha
+   [!] calendario: ciclo 170–250 días puede exceder el horizonte de 7 meses; sin rango térmico; hay producción registrada en la provincia Piura (DRAP, regional)
+   [?] pH: sin umbral de pH para algodon en los datos
+   [?] profundidad: sin umbral de profundidad para algodon en los datos
+   Datos que pueden cambiar la recomendación: rango térmico de algodon (no está en los datos); umbral de pH de algodon; umbral de profundidad de algodon
+
+3. ARVEJA (Fabaceae) · advertencias 1 · no evaluables 3
+   Duración: 85–120 días [analogo_externo]
+   Riego neto por etapa: inicial 28–75 mm | desarrollo 93–125 mm | media 165–230 mm | final 53–87 mm
+   Riego neto ciclo: 3 393–5 163 m3/ha · bruto: 5 654–11 473 m3/ha
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: 35–59 kg/ha / 8–12 kg/ha / 22–38 kg/ha
+   Rendimiento: 0.60–1.00 t/ha [regional] · precio 2.20–3.50 PEN/kg · costo 1 020 PEN/ha [regional] · margen 300–2 480 PEN/ha
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera, elasmopalpus; ECe tras cosecha 1.2–3.5 dS/m; balance P2O5 acumulado -12.5–-7.5 kg/ha; balance K2O acumulado -37.5–-22.5 kg/ha
+   [?] salinidad: umbral de salinidad de arveja desconocido en FAO-29; ECe de la parcela 2.0–3.5 dS/m: tolerancia no verificable
+   [!] calendario: sin rango térmico y sin producción registrada en la provincia Piura (DRAP): adaptación al clima local no verificada
+   [?] pH: sin umbral de pH para arveja en los datos
+   [?] profundidad: sin umbral de profundidad para arveja en los datos
+   Datos que pueden cambiar la recomendación: umbral ECe de arveja; rango térmico de arveja (no está en los datos); umbral de pH de arveja; umbral de profundidad de arveja
+
+4. CEBOLLA (Amaryllidaceae) · advertencias 2 · no evaluables 2
+   Duración: 150–210 días [analogo_externo]
+   Riego neto por etapa: inicial 50–75 mm | desarrollo 104–162 mm | media 374–700 mm | final 199–261 mm
+   Riego neto ciclo: 7 266–11 975 m3/ha · bruto: 12 111–26 611 m3/ha
+   Absorción N/P2O5/K2O: 51–94 kg/ha / 25–45 kg/ha / 74–136 kg/ha
+   Exportación N/P2O5/K2O: 51–137 kg/ha / 23–64 kg/ha / 46–174 kg/ha
+   Rendimiento: 19.00–34.80 t/ha [prediccion] · precio 0.30–1.90 PEN/kg · costo 7 279–17 026 PEN/ha [bibliografico] · margen -11 326–58 841 PEN/ha
+   Deja en el suelo: residuo N 0.0–42.7 kg/ha; residuo P2O5 0.0–22.4 kg/ha; residuo K2O 0.0–90.1 kg/ha; ECe tras cosecha 1.2–3.5 dS/m; balance P2O5 acumulado -64.2–-22.8 kg/ha; balance K2O acumulado -173.6–-45.6 kg/ha
+   [!] salinidad: ECe medida 2.0-3.5 dS/m supera el umbral sin pérdida (1.2 dS/m); rendimiento relativo 0.63–0.87 fracción
+   [?] pH: sin umbral de pH para cebolla en los datos
+   [?] profundidad: sin umbral de profundidad para cebolla en los datos
+   [!] presupuesto: costo 14,558-34,051 PEN puede superar presupuesto 15 000 PEN
+   Datos que pueden cambiar la recomendación: rango térmico de cebolla (no está en los datos); umbral de pH de cebolla; umbral de profundidad de cebolla
+
+5. FRIJOL GRANO (Fabaceae) · advertencias 2 · no evaluables 2
+   Duración: 90–115 días [analogo_externo]
+   Riego neto por etapa: inicial 28–54 mm | desarrollo 93–124 mm | media 165–256 mm | final 74–90 mm
+   Riego neto ciclo: 3 605–5 234 m3/ha · bruto: 6 008–11 631 m3/ha
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: 13–34 kg/ha / 4–11 kg/ha / 4–11 kg/ha
+   Rendimiento: 0.31–0.81 t/ha [prediccion] · precio 2.50–4.50 PEN/kg · costo 1 116–1 331 PEN/ha [bibliografico] · margen -552–2 512 PEN/ha
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera, elasmopalpus; ECe tras cosecha 1.2–3.5 dS/m; balance P2O5 acumulado -11.2–-4.3 kg/ha; balance K2O acumulado -11.2–-4.3 kg/ha
+   [!] salinidad: ECe medida 2.0-3.5 dS/m supera el umbral sin pérdida (1.0 dS/m); rendimiento relativo 0.52–0.81 fracción
+   [!] calendario: sin rango térmico y sin producción registrada en la provincia Piura (DRAP): adaptación al clima local no verificada
+   [?] pH: sin umbral de pH para frijol grano en los datos
+   [?] profundidad: sin umbral de profundidad para frijol grano en los datos
+   Datos que pueden cambiar la recomendación: rango térmico de frijol grano (no está en los datos); umbral de pH de frijol grano; umbral de profundidad de frijol grano
+
+Otros aceptados: zapallo, piquillo, maiz amarillo duro, frijol verde, yuca, maiz choclo, arroz
+
+SIN DATOS SUFICIENTES (no descartados, tampoco recomendados)
+ - frijol de palo: falta umbral ECe de frijol de palo; Kc o duración por etapa de frijol de palo; duración del ciclo de frijol de palo; rango térmico de frijol de palo (no está en los datos)
+
+DESCARTADOS
+ - papa: presupuesto: costo 18,650-31,971 PEN > presupuesto 15 000 PEN
+
+PERENNES (módulo aparte, un año en producción)
+ - limon: aceptado · riego neto 7 056–14 670 m3/ha/año · alertas 3
+ - uva: aceptado · riego neto 12 159–19 184 m3/ha/año · alertas 3
+ - cacao: aceptado · riego neto 19 302–23 698 m3/ha/año · alertas 3
+ - cafe: aceptado · riego neto 17 261–24 826 m3/ha/año · alertas 4
+ - banano: aceptado · riego neto 20 322–27 083 m3/ha/año · alertas 5
+ - mango: descartado · riego neto agua desconocida · alertas 4 · pH: pH 7.6 pH fuera del rango apto 5.5–7.0 pH
+ - papaya: sin_datos · riego neto agua desconocida · alertas 4
+
+DATOS QUE FALTAN (de más a menos cultivos afectados):
+ - umbral de profundidad de <cultivo> (17 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - rango térmico de <cultivo> (no está en los datos) (15 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - umbral de pH de <cultivo> (14 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - umbral ECe de <cultivo> (8 cultivos: arveja, frijol de palo, yuca, cacao…)
+ - años hasta primera cosecha de <cultivo> (7 cultivos: limon, uva, cacao, cafe…)
+ - costo de instalación de <cultivo> (7 cultivos: limon, uva, cacao, cafe…)
+ - costo de producción de <cultivo> (4 cultivos: frijol verde, caupi, frijol de palo, papaya)
+ - Kc o duración por etapa de <cultivo> (3 cultivos: frijol de palo, mango, papaya)
+ - Kc desconocido para <cultivo>: demanda de agua no calculable (1 cultivos: frijol de palo)
+ - duración del ciclo de <cultivo> (1 cultivos: frijol de palo)
+ - precio en chacra de <cultivo> (1 cultivos: frijol verde)
+ - rendimiento de <cultivo> (1 cultivos: frijol verde)
+
+SECUENCIAS (30 comparadas; se muestran 5)
+ - arveja → cebolla: viable · meses 7.7–10.9 meses (cabe: si) · margen -11 026–71 201 PEN/ha · agua neta 10 926–18 332 m3/ha · ECe final 1.20–3.50 dS/m · balance P2O5 -90–-30 kg/ha · K2O -244–-68 kg/ha · N desconocido (kg/ha)
+ - frijol grano → cebolla: viable · meses 7.9–10.7 meses (cabe: si) · margen -11 878–71 233 PEN/ha · agua neta 11 138–18 403 m3/ha · ECe final 1.20–3.50 dS/m · balance P2O5 -88–-27 kg/ha · K2O -218–-50 kg/ha · N desconocido (kg/ha)
+ - zapallo → cebolla: viable · meses 8.2–10.9 meses (cabe: si) · margen -16 157–70 147 PEN/ha · agua neta 11 493–18 573 m3/ha · ECe final 1.20–3.50 dS/m · balance P2O5 desconocido (kg/ha) · K2O desconocido (kg/ha) · N desconocido (kg/ha)
+ - cebolla → arveja: viable · meses 7.7–10.9 meses (cabe: si) · margen -11 026–61 321 PEN/ha · agua neta 10 156–18 080 m3/ha · ECe final 1.20–3.50 dS/m · balance P2O5 -77–-30 kg/ha · K2O -211–-68 kg/ha · N desconocido (kg/ha)
+ - cebolla → frijol grano: viable · meses 7.9–10.7 meses (cabe: si) · margen -11 878–62 044 PEN/ha · agua neta 10 283–18 237 m3/ha · ECe final 1.20–3.50 dS/m · balance P2O5 -78–-27 kg/ha · K2O -187–-50 kg/ha · N desconocido (kg/ha)

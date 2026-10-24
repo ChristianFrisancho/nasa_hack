@@ -1,0 +1,46 @@
+zona,variante,sin_cultivo_pct,top1_modal,top1_modal_pct,cambio_top1_vs_a_pct,regla_aplicada_pct,cew_usada,estacion
+chira_sullana,a,41.1,ninguno,41.1,0.0,0.0,ignorada,estiaje o desconocida; sin avenida
+chira_sullana,b1,41.1,ninguno,41.1,0.0,100.0,central 0.868,estiaje o desconocida; sin avenida
+chira_sullana,b2,41.1,ninguno,41.1,0.0,0.0,central 0.868,estiaje o desconocida; sin avenida
+chira_sullana,d1,41.5,ninguno,41.5,3.5,100.0,"U(0.514, 4.98)",estiaje o desconocida; sin avenida
+chira_sullana,d2,41.1,ninguno,41.1,0.0,0.0,"U(0.514, 4.98)",estiaje o desconocida; sin avenida
+chira_sullana,b3,41.1,ninguno,41.1,0.0,0.0,sin canal: como a,estiaje o desconocida; sin avenida
+chira_sullana,d3,41.1,ninguno,41.1,0.0,0.0,sin pozo de tesis: como a,estiaje o desconocida; sin avenida
+chira_sullana,d1sd,41.4,ninguno,41.4,3.0,100.0,"rio sin lecturas en disputa U(0.373, 4.98)",estiaje o desconocida; sin avenida
+chira_sullana,c,100.0,ninguno,100.0,58.9,100.0,falta: bloqueo,no aplica
+bajo_piura,a,19.2,caupi,25.1,0.0,0.0,ignorada,estiaje o desconocida; sin avenida
+bajo_piura,b1,19.2,caupi,25.1,0.0,0.0,central nan,estiaje o desconocida; sin avenida
+bajo_piura,b2,19.2,caupi,25.1,0.0,0.0,central nan,estiaje o desconocida; sin avenida
+bajo_piura,d1,54.8,ninguno,54.8,50.6,100.0,"U(0.04, 16.83)",estiaje o desconocida; sin avenida
+bajo_piura,d2,32.0,ninguno,32.0,18.0,35.0,"U(0.04, 16.83)",estiaje o desconocida; sin avenida
+bajo_piura,b3,19.2,caupi,25.1,0.0,0.0,sin canal: como a,estiaje o desconocida; sin avenida
+bajo_piura,d3,19.2,caupi,25.1,0.0,35.0,"pozo tesis U(0.13, 1.12)",estiaje o desconocida; sin avenida
+bajo_piura,d1sd,54.8,ninguno,54.8,50.6,100.0,"U(0.04, 16.83)",estiaje o desconocida; sin avenida
+bajo_piura,c,100.0,ninguno,100.0,80.8,100.0,falta: bloqueo,no aplica
+medio_piura,a,35.3,ninguno,35.3,0.0,0.0,ignorada,estiaje o desconocida; sin avenida
+medio_piura,b1,40.4,ninguno,40.4,22.9,100.0,central 5.98,estiaje o desconocida; sin avenida
+medio_piura,b2,39.1,ninguno,39.1,17.4,76.2,central 5.98,estiaje o desconocida; sin avenida
+medio_piura,d1,39.0,ninguno,39.0,23.4,100.0,"U(0.74, 9.92)",estiaje o desconocida; sin avenida
+medio_piura,d2,38.0,ninguno,38.0,17.8,76.2,"U(0.74, 9.92)",estiaje o desconocida; sin avenida
+medio_piura,b3,35.3,ninguno,35.3,0.0,0.0,sin canal: como a,estiaje o desconocida; sin avenida
+medio_piura,d3,35.3,ninguno,35.3,3.2,76.2,"pozo tesis U(0.16, 3.83)",estiaje o desconocida; sin avenida
+medio_piura,d1sd,36.6,ninguno,36.6,10.7,100.0,"rio sin lecturas en disputa U(0.74, 5.98)",estiaje o desconocida; sin avenida
+medio_piura,c,100.0,ninguno,100.0,64.7,100.0,falta: bloqueo,no aplica
+alto_piura,a,22.9,caupi,37.7,0.0,0.0,ignorada,estiaje o desconocida; sin avenida
+alto_piura,b1,22.9,caupi,37.7,0.0,100.0,central 0.51,estiaje o desconocida; sin avenida
+alto_piura,b2,22.9,caupi,37.7,0.0,0.0,central 0.51,estiaje o desconocida; sin avenida
+alto_piura,d1,22.9,caupi,37.7,0.0,100.0,"U(0.345, 0.741)",estiaje o desconocida; sin avenida
+alto_piura,d2,22.9,caupi,37.7,0.0,0.0,"U(0.345, 0.741)",estiaje o desconocida; sin avenida
+alto_piura,b3,22.9,caupi,37.7,0.0,0.0,sin canal: como a,estiaje o desconocida; sin avenida
+alto_piura,d3,22.9,caupi,37.7,0.0,0.0,sin pozo de tesis: como a,estiaje o desconocida; sin avenida
+alto_piura,d1sd,22.9,caupi,37.7,0.0,100.0,"rio sin lecturas en disputa U(0.345, 0.741)",estiaje o desconocida; sin avenida
+alto_piura,c,100.0,ninguno,100.0,77.1,100.0,falta: bloqueo,no aplica
+san_lorenzo,a,30.5,ninguno,30.5,0.0,0.0,ignorada,estiaje o desconocida; sin avenida
+san_lorenzo,b1,30.5,ninguno,30.5,0.0,100.0,central 0.449,estiaje o desconocida; sin avenida
+san_lorenzo,b2,30.5,ninguno,30.5,0.0,0.0,central 0.449,estiaje o desconocida; sin avenida
+san_lorenzo,d1,32.7,algodon,37.2,20.1,100.0,"U(0.417, 7.86)",estiaje o desconocida; sin avenida
+san_lorenzo,d2,30.5,ninguno,30.5,0.0,0.0,"U(0.417, 7.86)",estiaje o desconocida; sin avenida
+san_lorenzo,b3,30.5,ninguno,30.5,0.0,100.0,canal 0.47,estiaje o desconocida; sin avenida
+san_lorenzo,d3,30.5,ninguno,30.5,0.0,0.0,sin pozo de tesis: como a,estiaje o desconocida; sin avenida
+san_lorenzo,d1sd,30.5,ninguno,30.5,0.7,100.0,"rio sin lecturas en disputa U(0.417, 2.32)",estiaje o desconocida; sin avenida
+san_lorenzo,c,100.0,ninguno,100.0,69.5,100.0,falta: bloqueo,no aplica

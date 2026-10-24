@@ -1,0 +1,12 @@
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_08SULLANA_DELINEATION_OVERVIEW_v2_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_08SULLANA_GRADING_OVERVIEW_v1_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_08SULLANA_REFERENCE_OVERVIEW_v1_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_10PIURA_DELINEATION_OVERVIEW-MONIT01_v3_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_10PIURA_DELINEATION_OVERVIEW_v2_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_11PARACHIQUE_DELINEATION_OVERVIEW-MONIT01_v2_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_11PARACHIQUE_DELINEATION_OVERVIEW_v1_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_12PIURANORTH_DELINEATION_OVERVIEW-MONIT01_v1_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_12PIURANORTH_DELINEATION_OVERVIEW_v1_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_12PIURANORTH_REFERENCE_OVERVIEW_v1_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_15PIURAEAST_GRADING_OVERVIEW_v2_vector.zip
+https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR199/EMSR199_16PIURAWEST_GRADING_OVERVIEW_v2_vector.zip

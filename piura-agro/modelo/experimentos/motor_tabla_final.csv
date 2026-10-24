@@ -1,0 +1,1121 @@
+base_ece,zona,cambio,cultivo,celda,sec_viables
+zonal,chira_sullana,base,arroz,sin_datos,0
+zonal,chira_sullana,base,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,base,maiz choclo,sin_datos,0
+zonal,chira_sullana,base,frijol grano,sin_datos,0
+zonal,chira_sullana,base,frijol verde,sin_datos,0
+zonal,chira_sullana,base,caupi,sin_datos,0
+zonal,chira_sullana,base,arveja,sin_datos,0
+zonal,chira_sullana,base,frijol de palo,sin_datos,0
+zonal,chira_sullana,base,algodon,sin_datos,0
+zonal,chira_sullana,base,papa,sin_datos,0
+zonal,chira_sullana,base,piquillo,sin_datos,0
+zonal,chira_sullana,base,zapallo,sin_datos,0
+zonal,chira_sullana,base,cebolla,sin_datos,0
+zonal,chira_sullana,base,yuca,descartado,0
+zonal,chira_sullana,sin_ece,arroz,sin_datos,0
+zonal,chira_sullana,sin_ece,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,sin_ece,maiz choclo,sin_datos,0
+zonal,chira_sullana,sin_ece,frijol grano,sin_datos,0
+zonal,chira_sullana,sin_ece,frijol verde,sin_datos,0
+zonal,chira_sullana,sin_ece,caupi,sin_datos,0
+zonal,chira_sullana,sin_ece,arveja,sin_datos,0
+zonal,chira_sullana,sin_ece,frijol de palo,sin_datos,0
+zonal,chira_sullana,sin_ece,algodon,sin_datos,0
+zonal,chira_sullana,sin_ece,papa,sin_datos,0
+zonal,chira_sullana,sin_ece,piquillo,sin_datos,0
+zonal,chira_sullana,sin_ece,zapallo,sin_datos,0
+zonal,chira_sullana,sin_ece,cebolla,sin_datos,0
+zonal,chira_sullana,sin_ece,yuca,descartado,0
+zonal,chira_sullana,sin_ph,arroz,sin_datos,0
+zonal,chira_sullana,sin_ph,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,sin_ph,maiz choclo,sin_datos,0
+zonal,chira_sullana,sin_ph,frijol grano,sin_datos,0
+zonal,chira_sullana,sin_ph,frijol verde,sin_datos,0
+zonal,chira_sullana,sin_ph,caupi,sin_datos,0
+zonal,chira_sullana,sin_ph,arveja,sin_datos,0
+zonal,chira_sullana,sin_ph,frijol de palo,sin_datos,0
+zonal,chira_sullana,sin_ph,algodon,sin_datos,0
+zonal,chira_sullana,sin_ph,papa,sin_datos,0
+zonal,chira_sullana,sin_ph,piquillo,sin_datos,0
+zonal,chira_sullana,sin_ph,zapallo,sin_datos,0
+zonal,chira_sullana,sin_ph,cebolla,sin_datos,0
+zonal,chira_sullana,sin_ph,yuca,descartado,0
+zonal,chira_sullana,sin_profundidad,arroz,sin_datos,0
+zonal,chira_sullana,sin_profundidad,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,sin_profundidad,maiz choclo,sin_datos,0
+zonal,chira_sullana,sin_profundidad,frijol grano,sin_datos,0
+zonal,chira_sullana,sin_profundidad,frijol verde,sin_datos,0
+zonal,chira_sullana,sin_profundidad,caupi,sin_datos,0
+zonal,chira_sullana,sin_profundidad,arveja,sin_datos,0
+zonal,chira_sullana,sin_profundidad,frijol de palo,sin_datos,0
+zonal,chira_sullana,sin_profundidad,algodon,sin_datos,0
+zonal,chira_sullana,sin_profundidad,papa,sin_datos,0
+zonal,chira_sullana,sin_profundidad,piquillo,sin_datos,0
+zonal,chira_sullana,sin_profundidad,zapallo,sin_datos,0
+zonal,chira_sullana,sin_profundidad,cebolla,sin_datos,0
+zonal,chira_sullana,sin_profundidad,yuca,descartado,0
+zonal,chira_sullana,sin_pendiente,arroz,sin_datos,0
+zonal,chira_sullana,sin_pendiente,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,sin_pendiente,maiz choclo,sin_datos,0
+zonal,chira_sullana,sin_pendiente,frijol grano,sin_datos,0
+zonal,chira_sullana,sin_pendiente,frijol verde,sin_datos,0
+zonal,chira_sullana,sin_pendiente,caupi,sin_datos,0
+zonal,chira_sullana,sin_pendiente,arveja,sin_datos,0
+zonal,chira_sullana,sin_pendiente,frijol de palo,sin_datos,0
+zonal,chira_sullana,sin_pendiente,algodon,sin_datos,0
+zonal,chira_sullana,sin_pendiente,papa,sin_datos,0
+zonal,chira_sullana,sin_pendiente,piquillo,sin_datos,0
+zonal,chira_sullana,sin_pendiente,zapallo,sin_datos,0
+zonal,chira_sullana,sin_pendiente,cebolla,sin_datos,0
+zonal,chira_sullana,sin_pendiente,yuca,descartado,0
+zonal,chira_sullana,sin_cew,arroz,sin_datos,0
+zonal,chira_sullana,sin_cew,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,sin_cew,maiz choclo,sin_datos,0
+zonal,chira_sullana,sin_cew,frijol grano,sin_datos,0
+zonal,chira_sullana,sin_cew,frijol verde,sin_datos,0
+zonal,chira_sullana,sin_cew,caupi,sin_datos,0
+zonal,chira_sullana,sin_cew,arveja,sin_datos,0
+zonal,chira_sullana,sin_cew,frijol de palo,sin_datos,0
+zonal,chira_sullana,sin_cew,algodon,sin_datos,0
+zonal,chira_sullana,sin_cew,papa,sin_datos,0
+zonal,chira_sullana,sin_cew,piquillo,sin_datos,0
+zonal,chira_sullana,sin_cew,zapallo,sin_datos,0
+zonal,chira_sullana,sin_cew,cebolla,sin_datos,0
+zonal,chira_sullana,sin_cew,yuca,descartado,0
+zonal,chira_sullana,napa_1m,arroz,sin_datos,0
+zonal,chira_sullana,napa_1m,maiz amarillo duro,sin_datos,0
+zonal,chira_sullana,napa_1m,maiz choclo,sin_datos,0
+zonal,chira_sullana,napa_1m,frijol grano,sin_datos,0
+zonal,chira_sullana,napa_1m,frijol verde,sin_datos,0
+zonal,chira_sullana,napa_1m,caupi,sin_datos,0
+zonal,chira_sullana,napa_1m,arveja,sin_datos,0
+zonal,chira_sullana,napa_1m,frijol de palo,sin_datos,0
+zonal,chira_sullana,napa_1m,algodon,sin_datos,0
+zonal,chira_sullana,napa_1m,papa,sin_datos,0
+zonal,chira_sullana,napa_1m,piquillo,sin_datos,0
+zonal,chira_sullana,napa_1m,zapallo,sin_datos,0
+zonal,chira_sullana,napa_1m,cebolla,sin_datos,0
+zonal,chira_sullana,napa_1m,yuca,descartado,0
+zonal,chira_sullana,napa_3m,arroz,6/12,10
+zonal,chira_sullana,napa_3m,maiz amarillo duro,3/12,10
+zonal,chira_sullana,napa_3m,maiz choclo,7/12,0
+zonal,chira_sullana,napa_3m,frijol grano,2/12,10
+zonal,chira_sullana,napa_3m,frijol verde,5/12,10
+zonal,chira_sullana,napa_3m,caupi,1/12,10
+zonal,chira_sullana,napa_3m,arveja,12/12,0
+zonal,chira_sullana,napa_3m,frijol de palo,sin_datos,0
+zonal,chira_sullana,napa_3m,algodon,8/12,0
+zonal,chira_sullana,napa_3m,papa,10/12,0
+zonal,chira_sullana,napa_3m,piquillo,11/12,0
+zonal,chira_sullana,napa_3m,zapallo,9/12,0
+zonal,chira_sullana,napa_3m,cebolla,4/12,10
+zonal,chira_sullana,napa_3m,yuca,descartado,0
+zonal,bajo_piura,base,arroz,6/12,10
+zonal,bajo_piura,base,maiz amarillo duro,5/12,10
+zonal,bajo_piura,base,maiz choclo,9/12,0
+zonal,bajo_piura,base,frijol grano,3/12,10
+zonal,bajo_piura,base,frijol verde,4/12,10
+zonal,bajo_piura,base,caupi,1/12,10
+zonal,bajo_piura,base,arveja,2/12,10
+zonal,bajo_piura,base,frijol de palo,sin_datos,0
+zonal,bajo_piura,base,algodon,8/12,0
+zonal,bajo_piura,base,papa,11/12,0
+zonal,bajo_piura,base,piquillo,12/12,0
+zonal,bajo_piura,base,zapallo,10/12,0
+zonal,bajo_piura,base,cebolla,7/12,0
+zonal,bajo_piura,base,yuca,descartado,0
+zonal,bajo_piura,sin_ece,arroz,sin_datos,0
+zonal,bajo_piura,sin_ece,maiz amarillo duro,sin_datos,0
+zonal,bajo_piura,sin_ece,maiz choclo,sin_datos,0
+zonal,bajo_piura,sin_ece,frijol grano,sin_datos,0
+zonal,bajo_piura,sin_ece,frijol verde,sin_datos,0
+zonal,bajo_piura,sin_ece,caupi,sin_datos,0
+zonal,bajo_piura,sin_ece,arveja,sin_datos,0
+zonal,bajo_piura,sin_ece,frijol de palo,sin_datos,0
+zonal,bajo_piura,sin_ece,algodon,sin_datos,0
+zonal,bajo_piura,sin_ece,papa,sin_datos,0
+zonal,bajo_piura,sin_ece,piquillo,sin_datos,0
+zonal,bajo_piura,sin_ece,zapallo,sin_datos,0
+zonal,bajo_piura,sin_ece,cebolla,sin_datos,0
+zonal,bajo_piura,sin_ece,yuca,descartado,0
+zonal,bajo_piura,sin_ph,arroz,6/12,10
+zonal,bajo_piura,sin_ph,maiz amarillo duro,5/12,10
+zonal,bajo_piura,sin_ph,maiz choclo,8/12,0
+zonal,bajo_piura,sin_ph,frijol grano,4/12,10
+zonal,bajo_piura,sin_ph,frijol verde,2/12,10
+zonal,bajo_piura,sin_ph,caupi,1/12,10
+zonal,bajo_piura,sin_ph,arveja,3/12,10
+zonal,bajo_piura,sin_ph,frijol de palo,sin_datos,0
+zonal,bajo_piura,sin_ph,algodon,9/12,0
+zonal,bajo_piura,sin_ph,papa,11/12,0
+zonal,bajo_piura,sin_ph,piquillo,12/12,0
+zonal,bajo_piura,sin_ph,zapallo,10/12,0
+zonal,bajo_piura,sin_ph,cebolla,7/12,0
+zonal,bajo_piura,sin_ph,yuca,descartado,0
+zonal,bajo_piura,sin_profundidad,arroz,7/12,0
+zonal,bajo_piura,sin_profundidad,maiz amarillo duro,6/12,9
+zonal,bajo_piura,sin_profundidad,maiz choclo,9/12,0
+zonal,bajo_piura,sin_profundidad,frijol grano,4/12,10
+zonal,bajo_piura,sin_profundidad,frijol verde,2/12,10
+zonal,bajo_piura,sin_profundidad,caupi,1/12,9
+zonal,bajo_piura,sin_profundidad,arveja,3/12,10
+zonal,bajo_piura,sin_profundidad,frijol de palo,sin_datos,0
+zonal,bajo_piura,sin_profundidad,algodon,5/12,8
+zonal,bajo_piura,sin_profundidad,papa,11/12,0
+zonal,bajo_piura,sin_profundidad,piquillo,12/12,0
+zonal,bajo_piura,sin_profundidad,zapallo,10/12,0
+zonal,bajo_piura,sin_profundidad,cebolla,8/12,0
+zonal,bajo_piura,sin_profundidad,yuca,descartado,0
+zonal,bajo_piura,sin_pendiente,arroz,6/12,10
+zonal,bajo_piura,sin_pendiente,maiz amarillo duro,5/12,10
+zonal,bajo_piura,sin_pendiente,maiz choclo,9/12,0
+zonal,bajo_piura,sin_pendiente,frijol grano,3/12,10
+zonal,bajo_piura,sin_pendiente,frijol verde,4/12,10
+zonal,bajo_piura,sin_pendiente,caupi,1/12,10
+zonal,bajo_piura,sin_pendiente,arveja,2/12,10
+zonal,bajo_piura,sin_pendiente,frijol de palo,sin_datos,0
+zonal,bajo_piura,sin_pendiente,algodon,8/12,0
+zonal,bajo_piura,sin_pendiente,papa,11/12,0
+zonal,bajo_piura,sin_pendiente,piquillo,12/12,0
+zonal,bajo_piura,sin_pendiente,zapallo,10/12,0
+zonal,bajo_piura,sin_pendiente,cebolla,7/12,0
+zonal,bajo_piura,sin_pendiente,yuca,descartado,0
+zonal,bajo_piura,sin_cew,arroz,6/12,0
+zonal,bajo_piura,sin_cew,maiz amarillo duro,5/12,0
+zonal,bajo_piura,sin_cew,maiz choclo,9/12,0
+zonal,bajo_piura,sin_cew,frijol grano,3/12,0
+zonal,bajo_piura,sin_cew,frijol verde,4/12,0
+zonal,bajo_piura,sin_cew,caupi,1/12,0
+zonal,bajo_piura,sin_cew,arveja,2/12,0
+zonal,bajo_piura,sin_cew,frijol de palo,sin_datos,0
+zonal,bajo_piura,sin_cew,algodon,8/12,0
+zonal,bajo_piura,sin_cew,papa,11/12,0
+zonal,bajo_piura,sin_cew,piquillo,12/12,0
+zonal,bajo_piura,sin_cew,zapallo,10/12,0
+zonal,bajo_piura,sin_cew,cebolla,7/12,0
+zonal,bajo_piura,sin_cew,yuca,descartado,0
+zonal,bajo_piura,napa_1m,arroz,6/12,5
+zonal,bajo_piura,napa_1m,maiz amarillo duro,5/12,9
+zonal,bajo_piura,napa_1m,maiz choclo,9/12,0
+zonal,bajo_piura,napa_1m,frijol grano,3/12,9
+zonal,bajo_piura,napa_1m,frijol verde,4/12,9
+zonal,bajo_piura,napa_1m,caupi,1/12,9
+zonal,bajo_piura,napa_1m,arveja,2/12,9
+zonal,bajo_piura,napa_1m,frijol de palo,sin_datos,0
+zonal,bajo_piura,napa_1m,algodon,8/12,0
+zonal,bajo_piura,napa_1m,papa,11/12,0
+zonal,bajo_piura,napa_1m,piquillo,12/12,0
+zonal,bajo_piura,napa_1m,zapallo,10/12,0
+zonal,bajo_piura,napa_1m,cebolla,7/12,0
+zonal,bajo_piura,napa_1m,yuca,descartado,0
+zonal,bajo_piura,napa_3m,arroz,6/12,10
+zonal,bajo_piura,napa_3m,maiz amarillo duro,5/12,10
+zonal,bajo_piura,napa_3m,maiz choclo,9/12,0
+zonal,bajo_piura,napa_3m,frijol grano,3/12,10
+zonal,bajo_piura,napa_3m,frijol verde,4/12,10
+zonal,bajo_piura,napa_3m,caupi,1/12,10
+zonal,bajo_piura,napa_3m,arveja,2/12,10
+zonal,bajo_piura,napa_3m,frijol de palo,sin_datos,0
+zonal,bajo_piura,napa_3m,algodon,8/12,0
+zonal,bajo_piura,napa_3m,papa,11/12,0
+zonal,bajo_piura,napa_3m,piquillo,12/12,0
+zonal,bajo_piura,napa_3m,zapallo,10/12,0
+zonal,bajo_piura,napa_3m,cebolla,7/12,0
+zonal,bajo_piura,napa_3m,yuca,descartado,0
+zonal,medio_piura,base,arroz,sin_datos,0
+zonal,medio_piura,base,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,base,maiz choclo,sin_datos,0
+zonal,medio_piura,base,frijol grano,sin_datos,0
+zonal,medio_piura,base,frijol verde,sin_datos,0
+zonal,medio_piura,base,caupi,sin_datos,0
+zonal,medio_piura,base,arveja,sin_datos,0
+zonal,medio_piura,base,frijol de palo,sin_datos,0
+zonal,medio_piura,base,algodon,sin_datos,0
+zonal,medio_piura,base,papa,sin_datos,0
+zonal,medio_piura,base,piquillo,sin_datos,0
+zonal,medio_piura,base,zapallo,sin_datos,0
+zonal,medio_piura,base,cebolla,sin_datos,0
+zonal,medio_piura,base,yuca,descartado,0
+zonal,medio_piura,sin_ece,arroz,sin_datos,0
+zonal,medio_piura,sin_ece,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,sin_ece,maiz choclo,sin_datos,0
+zonal,medio_piura,sin_ece,frijol grano,sin_datos,0
+zonal,medio_piura,sin_ece,frijol verde,sin_datos,0
+zonal,medio_piura,sin_ece,caupi,sin_datos,0
+zonal,medio_piura,sin_ece,arveja,sin_datos,0
+zonal,medio_piura,sin_ece,frijol de palo,sin_datos,0
+zonal,medio_piura,sin_ece,algodon,sin_datos,0
+zonal,medio_piura,sin_ece,papa,sin_datos,0
+zonal,medio_piura,sin_ece,piquillo,sin_datos,0
+zonal,medio_piura,sin_ece,zapallo,sin_datos,0
+zonal,medio_piura,sin_ece,cebolla,sin_datos,0
+zonal,medio_piura,sin_ece,yuca,descartado,0
+zonal,medio_piura,sin_ph,arroz,sin_datos,0
+zonal,medio_piura,sin_ph,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,sin_ph,maiz choclo,sin_datos,0
+zonal,medio_piura,sin_ph,frijol grano,sin_datos,0
+zonal,medio_piura,sin_ph,frijol verde,sin_datos,0
+zonal,medio_piura,sin_ph,caupi,sin_datos,0
+zonal,medio_piura,sin_ph,arveja,sin_datos,0
+zonal,medio_piura,sin_ph,frijol de palo,sin_datos,0
+zonal,medio_piura,sin_ph,algodon,sin_datos,0
+zonal,medio_piura,sin_ph,papa,sin_datos,0
+zonal,medio_piura,sin_ph,piquillo,sin_datos,0
+zonal,medio_piura,sin_ph,zapallo,sin_datos,0
+zonal,medio_piura,sin_ph,cebolla,sin_datos,0
+zonal,medio_piura,sin_ph,yuca,descartado,0
+zonal,medio_piura,sin_profundidad,arroz,sin_datos,0
+zonal,medio_piura,sin_profundidad,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,sin_profundidad,maiz choclo,sin_datos,0
+zonal,medio_piura,sin_profundidad,frijol grano,sin_datos,0
+zonal,medio_piura,sin_profundidad,frijol verde,sin_datos,0
+zonal,medio_piura,sin_profundidad,caupi,sin_datos,0
+zonal,medio_piura,sin_profundidad,arveja,sin_datos,0
+zonal,medio_piura,sin_profundidad,frijol de palo,sin_datos,0
+zonal,medio_piura,sin_profundidad,algodon,sin_datos,0
+zonal,medio_piura,sin_profundidad,papa,sin_datos,0
+zonal,medio_piura,sin_profundidad,piquillo,sin_datos,0
+zonal,medio_piura,sin_profundidad,zapallo,sin_datos,0
+zonal,medio_piura,sin_profundidad,cebolla,sin_datos,0
+zonal,medio_piura,sin_profundidad,yuca,descartado,0
+zonal,medio_piura,sin_pendiente,arroz,sin_datos,0
+zonal,medio_piura,sin_pendiente,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,sin_pendiente,maiz choclo,sin_datos,0
+zonal,medio_piura,sin_pendiente,frijol grano,sin_datos,0
+zonal,medio_piura,sin_pendiente,frijol verde,sin_datos,0
+zonal,medio_piura,sin_pendiente,caupi,sin_datos,0
+zonal,medio_piura,sin_pendiente,arveja,sin_datos,0
+zonal,medio_piura,sin_pendiente,frijol de palo,sin_datos,0
+zonal,medio_piura,sin_pendiente,algodon,sin_datos,0
+zonal,medio_piura,sin_pendiente,papa,sin_datos,0
+zonal,medio_piura,sin_pendiente,piquillo,sin_datos,0
+zonal,medio_piura,sin_pendiente,zapallo,sin_datos,0
+zonal,medio_piura,sin_pendiente,cebolla,sin_datos,0
+zonal,medio_piura,sin_pendiente,yuca,descartado,0
+zonal,medio_piura,sin_cew,arroz,sin_datos,0
+zonal,medio_piura,sin_cew,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,sin_cew,maiz choclo,sin_datos,0
+zonal,medio_piura,sin_cew,frijol grano,sin_datos,0
+zonal,medio_piura,sin_cew,frijol verde,sin_datos,0
+zonal,medio_piura,sin_cew,caupi,sin_datos,0
+zonal,medio_piura,sin_cew,arveja,sin_datos,0
+zonal,medio_piura,sin_cew,frijol de palo,sin_datos,0
+zonal,medio_piura,sin_cew,algodon,sin_datos,0
+zonal,medio_piura,sin_cew,papa,sin_datos,0
+zonal,medio_piura,sin_cew,piquillo,sin_datos,0
+zonal,medio_piura,sin_cew,zapallo,sin_datos,0
+zonal,medio_piura,sin_cew,cebolla,sin_datos,0
+zonal,medio_piura,sin_cew,yuca,descartado,0
+zonal,medio_piura,napa_1m,arroz,sin_datos,0
+zonal,medio_piura,napa_1m,maiz amarillo duro,sin_datos,0
+zonal,medio_piura,napa_1m,maiz choclo,sin_datos,0
+zonal,medio_piura,napa_1m,frijol grano,sin_datos,0
+zonal,medio_piura,napa_1m,frijol verde,sin_datos,0
+zonal,medio_piura,napa_1m,caupi,sin_datos,0
+zonal,medio_piura,napa_1m,arveja,sin_datos,0
+zonal,medio_piura,napa_1m,frijol de palo,sin_datos,0
+zonal,medio_piura,napa_1m,algodon,sin_datos,0
+zonal,medio_piura,napa_1m,papa,sin_datos,0
+zonal,medio_piura,napa_1m,piquillo,sin_datos,0
+zonal,medio_piura,napa_1m,zapallo,sin_datos,0
+zonal,medio_piura,napa_1m,cebolla,sin_datos,0
+zonal,medio_piura,napa_1m,yuca,descartado,0
+zonal,medio_piura,napa_3m,arroz,6/12,10
+zonal,medio_piura,napa_3m,maiz amarillo duro,3/12,10
+zonal,medio_piura,napa_3m,maiz choclo,7/12,0
+zonal,medio_piura,napa_3m,frijol grano,2/12,10
+zonal,medio_piura,napa_3m,frijol verde,5/12,10
+zonal,medio_piura,napa_3m,caupi,1/12,10
+zonal,medio_piura,napa_3m,arveja,12/12,0
+zonal,medio_piura,napa_3m,frijol de palo,sin_datos,0
+zonal,medio_piura,napa_3m,algodon,8/12,0
+zonal,medio_piura,napa_3m,papa,10/12,0
+zonal,medio_piura,napa_3m,piquillo,11/12,0
+zonal,medio_piura,napa_3m,zapallo,9/12,0
+zonal,medio_piura,napa_3m,cebolla,4/12,10
+zonal,medio_piura,napa_3m,yuca,descartado,0
+zonal,alto_piura,base,arroz,sin_datos,0
+zonal,alto_piura,base,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,base,maiz choclo,sin_datos,0
+zonal,alto_piura,base,frijol grano,sin_datos,0
+zonal,alto_piura,base,frijol verde,sin_datos,0
+zonal,alto_piura,base,caupi,sin_datos,0
+zonal,alto_piura,base,arveja,sin_datos,0
+zonal,alto_piura,base,frijol de palo,sin_datos,0
+zonal,alto_piura,base,algodon,sin_datos,0
+zonal,alto_piura,base,papa,sin_datos,0
+zonal,alto_piura,base,piquillo,sin_datos,0
+zonal,alto_piura,base,zapallo,sin_datos,0
+zonal,alto_piura,base,cebolla,sin_datos,0
+zonal,alto_piura,base,yuca,descartado,0
+zonal,alto_piura,sin_ece,arroz,sin_datos,0
+zonal,alto_piura,sin_ece,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,sin_ece,maiz choclo,sin_datos,0
+zonal,alto_piura,sin_ece,frijol grano,sin_datos,0
+zonal,alto_piura,sin_ece,frijol verde,sin_datos,0
+zonal,alto_piura,sin_ece,caupi,sin_datos,0
+zonal,alto_piura,sin_ece,arveja,sin_datos,0
+zonal,alto_piura,sin_ece,frijol de palo,sin_datos,0
+zonal,alto_piura,sin_ece,algodon,sin_datos,0
+zonal,alto_piura,sin_ece,papa,sin_datos,0
+zonal,alto_piura,sin_ece,piquillo,sin_datos,0
+zonal,alto_piura,sin_ece,zapallo,sin_datos,0
+zonal,alto_piura,sin_ece,cebolla,sin_datos,0
+zonal,alto_piura,sin_ece,yuca,descartado,0
+zonal,alto_piura,sin_ph,arroz,sin_datos,0
+zonal,alto_piura,sin_ph,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,sin_ph,maiz choclo,sin_datos,0
+zonal,alto_piura,sin_ph,frijol grano,sin_datos,0
+zonal,alto_piura,sin_ph,frijol verde,sin_datos,0
+zonal,alto_piura,sin_ph,caupi,sin_datos,0
+zonal,alto_piura,sin_ph,arveja,sin_datos,0
+zonal,alto_piura,sin_ph,frijol de palo,sin_datos,0
+zonal,alto_piura,sin_ph,algodon,sin_datos,0
+zonal,alto_piura,sin_ph,papa,sin_datos,0
+zonal,alto_piura,sin_ph,piquillo,sin_datos,0
+zonal,alto_piura,sin_ph,zapallo,sin_datos,0
+zonal,alto_piura,sin_ph,cebolla,sin_datos,0
+zonal,alto_piura,sin_ph,yuca,descartado,0
+zonal,alto_piura,sin_profundidad,arroz,sin_datos,0
+zonal,alto_piura,sin_profundidad,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,sin_profundidad,maiz choclo,sin_datos,0
+zonal,alto_piura,sin_profundidad,frijol grano,sin_datos,0
+zonal,alto_piura,sin_profundidad,frijol verde,sin_datos,0
+zonal,alto_piura,sin_profundidad,caupi,sin_datos,0
+zonal,alto_piura,sin_profundidad,arveja,sin_datos,0
+zonal,alto_piura,sin_profundidad,frijol de palo,sin_datos,0
+zonal,alto_piura,sin_profundidad,algodon,sin_datos,0
+zonal,alto_piura,sin_profundidad,papa,sin_datos,0
+zonal,alto_piura,sin_profundidad,piquillo,sin_datos,0
+zonal,alto_piura,sin_profundidad,zapallo,sin_datos,0
+zonal,alto_piura,sin_profundidad,cebolla,sin_datos,0
+zonal,alto_piura,sin_profundidad,yuca,descartado,0
+zonal,alto_piura,sin_pendiente,arroz,sin_datos,0
+zonal,alto_piura,sin_pendiente,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,sin_pendiente,maiz choclo,sin_datos,0
+zonal,alto_piura,sin_pendiente,frijol grano,sin_datos,0
+zonal,alto_piura,sin_pendiente,frijol verde,sin_datos,0
+zonal,alto_piura,sin_pendiente,caupi,sin_datos,0
+zonal,alto_piura,sin_pendiente,arveja,sin_datos,0
+zonal,alto_piura,sin_pendiente,frijol de palo,sin_datos,0
+zonal,alto_piura,sin_pendiente,algodon,sin_datos,0
+zonal,alto_piura,sin_pendiente,papa,sin_datos,0
+zonal,alto_piura,sin_pendiente,piquillo,sin_datos,0
+zonal,alto_piura,sin_pendiente,zapallo,sin_datos,0
+zonal,alto_piura,sin_pendiente,cebolla,sin_datos,0
+zonal,alto_piura,sin_pendiente,yuca,descartado,0
+zonal,alto_piura,sin_cew,arroz,sin_datos,0
+zonal,alto_piura,sin_cew,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,sin_cew,maiz choclo,sin_datos,0
+zonal,alto_piura,sin_cew,frijol grano,sin_datos,0
+zonal,alto_piura,sin_cew,frijol verde,sin_datos,0
+zonal,alto_piura,sin_cew,caupi,sin_datos,0
+zonal,alto_piura,sin_cew,arveja,sin_datos,0
+zonal,alto_piura,sin_cew,frijol de palo,sin_datos,0
+zonal,alto_piura,sin_cew,algodon,sin_datos,0
+zonal,alto_piura,sin_cew,papa,sin_datos,0
+zonal,alto_piura,sin_cew,piquillo,sin_datos,0
+zonal,alto_piura,sin_cew,zapallo,sin_datos,0
+zonal,alto_piura,sin_cew,cebolla,sin_datos,0
+zonal,alto_piura,sin_cew,yuca,descartado,0
+zonal,alto_piura,napa_1m,arroz,sin_datos,0
+zonal,alto_piura,napa_1m,maiz amarillo duro,sin_datos,0
+zonal,alto_piura,napa_1m,maiz choclo,sin_datos,0
+zonal,alto_piura,napa_1m,frijol grano,sin_datos,0
+zonal,alto_piura,napa_1m,frijol verde,sin_datos,0
+zonal,alto_piura,napa_1m,caupi,sin_datos,0
+zonal,alto_piura,napa_1m,arveja,sin_datos,0
+zonal,alto_piura,napa_1m,frijol de palo,sin_datos,0
+zonal,alto_piura,napa_1m,algodon,sin_datos,0
+zonal,alto_piura,napa_1m,papa,sin_datos,0
+zonal,alto_piura,napa_1m,piquillo,sin_datos,0
+zonal,alto_piura,napa_1m,zapallo,sin_datos,0
+zonal,alto_piura,napa_1m,cebolla,sin_datos,0
+zonal,alto_piura,napa_1m,yuca,descartado,0
+zonal,alto_piura,napa_3m,arroz,5/12,9
+zonal,alto_piura,napa_3m,maiz amarillo duro,3/12,9
+zonal,alto_piura,napa_3m,maiz choclo,6/12,8
+zonal,alto_piura,napa_3m,frijol grano,2/12,10
+zonal,alto_piura,napa_3m,frijol verde,4/12,10
+zonal,alto_piura,napa_3m,caupi,1/12,10
+zonal,alto_piura,napa_3m,arveja,11/12,0
+zonal,alto_piura,napa_3m,frijol de palo,sin_datos,0
+zonal,alto_piura,napa_3m,algodon,7/12,0
+zonal,alto_piura,napa_3m,papa,12/12,0
+zonal,alto_piura,napa_3m,piquillo,9/12,0
+zonal,alto_piura,napa_3m,zapallo,8/12,0
+zonal,alto_piura,napa_3m,cebolla,10/12,0
+zonal,alto_piura,napa_3m,yuca,descartado,0
+zonal,san_lorenzo,base,arroz,sin_datos,0
+zonal,san_lorenzo,base,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,base,maiz choclo,sin_datos,0
+zonal,san_lorenzo,base,frijol grano,sin_datos,0
+zonal,san_lorenzo,base,frijol verde,sin_datos,0
+zonal,san_lorenzo,base,caupi,sin_datos,0
+zonal,san_lorenzo,base,arveja,sin_datos,0
+zonal,san_lorenzo,base,frijol de palo,sin_datos,0
+zonal,san_lorenzo,base,algodon,sin_datos,0
+zonal,san_lorenzo,base,papa,sin_datos,0
+zonal,san_lorenzo,base,piquillo,sin_datos,0
+zonal,san_lorenzo,base,zapallo,sin_datos,0
+zonal,san_lorenzo,base,cebolla,sin_datos,0
+zonal,san_lorenzo,base,yuca,descartado,0
+zonal,san_lorenzo,sin_ece,arroz,sin_datos,0
+zonal,san_lorenzo,sin_ece,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,sin_ece,maiz choclo,sin_datos,0
+zonal,san_lorenzo,sin_ece,frijol grano,sin_datos,0
+zonal,san_lorenzo,sin_ece,frijol verde,sin_datos,0
+zonal,san_lorenzo,sin_ece,caupi,sin_datos,0
+zonal,san_lorenzo,sin_ece,arveja,sin_datos,0
+zonal,san_lorenzo,sin_ece,frijol de palo,sin_datos,0
+zonal,san_lorenzo,sin_ece,algodon,sin_datos,0
+zonal,san_lorenzo,sin_ece,papa,sin_datos,0
+zonal,san_lorenzo,sin_ece,piquillo,sin_datos,0
+zonal,san_lorenzo,sin_ece,zapallo,sin_datos,0
+zonal,san_lorenzo,sin_ece,cebolla,sin_datos,0
+zonal,san_lorenzo,sin_ece,yuca,descartado,0
+zonal,san_lorenzo,sin_ph,arroz,sin_datos,0
+zonal,san_lorenzo,sin_ph,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,sin_ph,maiz choclo,sin_datos,0
+zonal,san_lorenzo,sin_ph,frijol grano,sin_datos,0
+zonal,san_lorenzo,sin_ph,frijol verde,sin_datos,0
+zonal,san_lorenzo,sin_ph,caupi,sin_datos,0
+zonal,san_lorenzo,sin_ph,arveja,sin_datos,0
+zonal,san_lorenzo,sin_ph,frijol de palo,sin_datos,0
+zonal,san_lorenzo,sin_ph,algodon,sin_datos,0
+zonal,san_lorenzo,sin_ph,papa,sin_datos,0
+zonal,san_lorenzo,sin_ph,piquillo,sin_datos,0
+zonal,san_lorenzo,sin_ph,zapallo,sin_datos,0
+zonal,san_lorenzo,sin_ph,cebolla,sin_datos,0
+zonal,san_lorenzo,sin_ph,yuca,descartado,0
+zonal,san_lorenzo,sin_profundidad,arroz,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,maiz choclo,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,frijol grano,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,frijol verde,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,caupi,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,arveja,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,frijol de palo,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,algodon,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,papa,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,piquillo,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,zapallo,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,cebolla,sin_datos,0
+zonal,san_lorenzo,sin_profundidad,yuca,descartado,0
+zonal,san_lorenzo,sin_pendiente,arroz,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,maiz choclo,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,frijol grano,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,frijol verde,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,caupi,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,arveja,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,frijol de palo,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,algodon,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,papa,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,piquillo,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,zapallo,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,cebolla,sin_datos,0
+zonal,san_lorenzo,sin_pendiente,yuca,descartado,0
+zonal,san_lorenzo,sin_cew,arroz,sin_datos,0
+zonal,san_lorenzo,sin_cew,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,sin_cew,maiz choclo,sin_datos,0
+zonal,san_lorenzo,sin_cew,frijol grano,sin_datos,0
+zonal,san_lorenzo,sin_cew,frijol verde,sin_datos,0
+zonal,san_lorenzo,sin_cew,caupi,sin_datos,0
+zonal,san_lorenzo,sin_cew,arveja,sin_datos,0
+zonal,san_lorenzo,sin_cew,frijol de palo,sin_datos,0
+zonal,san_lorenzo,sin_cew,algodon,sin_datos,0
+zonal,san_lorenzo,sin_cew,papa,sin_datos,0
+zonal,san_lorenzo,sin_cew,piquillo,sin_datos,0
+zonal,san_lorenzo,sin_cew,zapallo,sin_datos,0
+zonal,san_lorenzo,sin_cew,cebolla,sin_datos,0
+zonal,san_lorenzo,sin_cew,yuca,descartado,0
+zonal,san_lorenzo,napa_1m,arroz,sin_datos,0
+zonal,san_lorenzo,napa_1m,maiz amarillo duro,sin_datos,0
+zonal,san_lorenzo,napa_1m,maiz choclo,sin_datos,0
+zonal,san_lorenzo,napa_1m,frijol grano,sin_datos,0
+zonal,san_lorenzo,napa_1m,frijol verde,sin_datos,0
+zonal,san_lorenzo,napa_1m,caupi,sin_datos,0
+zonal,san_lorenzo,napa_1m,arveja,sin_datos,0
+zonal,san_lorenzo,napa_1m,frijol de palo,sin_datos,0
+zonal,san_lorenzo,napa_1m,algodon,sin_datos,0
+zonal,san_lorenzo,napa_1m,papa,sin_datos,0
+zonal,san_lorenzo,napa_1m,piquillo,sin_datos,0
+zonal,san_lorenzo,napa_1m,zapallo,sin_datos,0
+zonal,san_lorenzo,napa_1m,cebolla,sin_datos,0
+zonal,san_lorenzo,napa_1m,yuca,descartado,0
+zonal,san_lorenzo,napa_3m,arroz,3/12,10
+zonal,san_lorenzo,napa_3m,maiz amarillo duro,2/12,10
+zonal,san_lorenzo,napa_3m,maiz choclo,7/12,0
+zonal,san_lorenzo,napa_3m,frijol grano,1/12,10
+zonal,san_lorenzo,napa_3m,frijol verde,6/12,10
+zonal,san_lorenzo,napa_3m,caupi,5/12,10
+zonal,san_lorenzo,napa_3m,arveja,12/12,0
+zonal,san_lorenzo,napa_3m,frijol de palo,sin_datos,0
+zonal,san_lorenzo,napa_3m,algodon,8/12,0
+zonal,san_lorenzo,napa_3m,papa,10/12,0
+zonal,san_lorenzo,napa_3m,piquillo,11/12,0
+zonal,san_lorenzo,napa_3m,zapallo,9/12,0
+zonal,san_lorenzo,napa_3m,cebolla,4/12,10
+zonal,san_lorenzo,napa_3m,yuca,descartado,0
+rango_global,chira_sullana,base,arroz,6/12,10
+rango_global,chira_sullana,base,maiz amarillo duro,3/12,10
+rango_global,chira_sullana,base,maiz choclo,7/12,0
+rango_global,chira_sullana,base,frijol grano,2/12,10
+rango_global,chira_sullana,base,frijol verde,5/12,10
+rango_global,chira_sullana,base,caupi,1/12,10
+rango_global,chira_sullana,base,arveja,12/12,0
+rango_global,chira_sullana,base,frijol de palo,sin_datos,0
+rango_global,chira_sullana,base,algodon,8/12,0
+rango_global,chira_sullana,base,papa,10/12,0
+rango_global,chira_sullana,base,piquillo,11/12,0
+rango_global,chira_sullana,base,zapallo,9/12,0
+rango_global,chira_sullana,base,cebolla,4/12,10
+rango_global,chira_sullana,base,yuca,descartado,0
+rango_global,chira_sullana,sin_ece,arroz,sin_datos,0
+rango_global,chira_sullana,sin_ece,maiz amarillo duro,sin_datos,0
+rango_global,chira_sullana,sin_ece,maiz choclo,sin_datos,0
+rango_global,chira_sullana,sin_ece,frijol grano,sin_datos,0
+rango_global,chira_sullana,sin_ece,frijol verde,sin_datos,0
+rango_global,chira_sullana,sin_ece,caupi,sin_datos,0
+rango_global,chira_sullana,sin_ece,arveja,sin_datos,0
+rango_global,chira_sullana,sin_ece,frijol de palo,sin_datos,0
+rango_global,chira_sullana,sin_ece,algodon,sin_datos,0
+rango_global,chira_sullana,sin_ece,papa,sin_datos,0
+rango_global,chira_sullana,sin_ece,piquillo,sin_datos,0
+rango_global,chira_sullana,sin_ece,zapallo,sin_datos,0
+rango_global,chira_sullana,sin_ece,cebolla,sin_datos,0
+rango_global,chira_sullana,sin_ece,yuca,descartado,0
+rango_global,chira_sullana,sin_ph,arroz,7/12,0
+rango_global,chira_sullana,sin_ph,maiz amarillo duro,4/12,9
+rango_global,chira_sullana,sin_ph,maiz choclo,6/12,8
+rango_global,chira_sullana,sin_ph,frijol grano,3/12,10
+rango_global,chira_sullana,sin_ph,frijol verde,2/12,10
+rango_global,chira_sullana,sin_ph,caupi,1/12,10
+rango_global,chira_sullana,sin_ph,arveja,12/12,0
+rango_global,chira_sullana,sin_ph,frijol de palo,sin_datos,0
+rango_global,chira_sullana,sin_ph,algodon,8/12,0
+rango_global,chira_sullana,sin_ph,papa,10/12,0
+rango_global,chira_sullana,sin_ph,piquillo,11/12,0
+rango_global,chira_sullana,sin_ph,zapallo,9/12,0
+rango_global,chira_sullana,sin_ph,cebolla,5/12,9
+rango_global,chira_sullana,sin_ph,yuca,descartado,0
+rango_global,chira_sullana,sin_profundidad,arroz,8/12,0
+rango_global,chira_sullana,sin_profundidad,maiz amarillo duro,4/12,9
+rango_global,chira_sullana,sin_profundidad,maiz choclo,6/12,8
+rango_global,chira_sullana,sin_profundidad,frijol grano,3/12,10
+rango_global,chira_sullana,sin_profundidad,frijol verde,2/12,10
+rango_global,chira_sullana,sin_profundidad,caupi,1/12,10
+rango_global,chira_sullana,sin_profundidad,arveja,12/12,0
+rango_global,chira_sullana,sin_profundidad,frijol de palo,sin_datos,0
+rango_global,chira_sullana,sin_profundidad,algodon,7/12,0
+rango_global,chira_sullana,sin_profundidad,papa,10/12,0
+rango_global,chira_sullana,sin_profundidad,piquillo,11/12,0
+rango_global,chira_sullana,sin_profundidad,zapallo,9/12,0
+rango_global,chira_sullana,sin_profundidad,cebolla,5/12,9
+rango_global,chira_sullana,sin_profundidad,yuca,descartado,0
+rango_global,chira_sullana,sin_pendiente,arroz,6/12,10
+rango_global,chira_sullana,sin_pendiente,maiz amarillo duro,3/12,10
+rango_global,chira_sullana,sin_pendiente,maiz choclo,7/12,0
+rango_global,chira_sullana,sin_pendiente,frijol grano,2/12,10
+rango_global,chira_sullana,sin_pendiente,frijol verde,5/12,10
+rango_global,chira_sullana,sin_pendiente,caupi,1/12,10
+rango_global,chira_sullana,sin_pendiente,arveja,12/12,0
+rango_global,chira_sullana,sin_pendiente,frijol de palo,sin_datos,0
+rango_global,chira_sullana,sin_pendiente,algodon,8/12,0
+rango_global,chira_sullana,sin_pendiente,papa,10/12,0
+rango_global,chira_sullana,sin_pendiente,piquillo,11/12,0
+rango_global,chira_sullana,sin_pendiente,zapallo,9/12,0
+rango_global,chira_sullana,sin_pendiente,cebolla,4/12,10
+rango_global,chira_sullana,sin_pendiente,yuca,descartado,0
+rango_global,chira_sullana,sin_cew,arroz,6/12,0
+rango_global,chira_sullana,sin_cew,maiz amarillo duro,3/12,0
+rango_global,chira_sullana,sin_cew,maiz choclo,7/12,0
+rango_global,chira_sullana,sin_cew,frijol grano,2/12,0
+rango_global,chira_sullana,sin_cew,frijol verde,5/12,0
+rango_global,chira_sullana,sin_cew,caupi,1/12,0
+rango_global,chira_sullana,sin_cew,arveja,12/12,0
+rango_global,chira_sullana,sin_cew,frijol de palo,sin_datos,0
+rango_global,chira_sullana,sin_cew,algodon,8/12,0
+rango_global,chira_sullana,sin_cew,papa,10/12,0
+rango_global,chira_sullana,sin_cew,piquillo,11/12,0
+rango_global,chira_sullana,sin_cew,zapallo,9/12,0
+rango_global,chira_sullana,sin_cew,cebolla,4/12,0
+rango_global,chira_sullana,sin_cew,yuca,descartado,0
+rango_global,chira_sullana,napa_1m,arroz,6/12,5
+rango_global,chira_sullana,napa_1m,maiz amarillo duro,3/12,9
+rango_global,chira_sullana,napa_1m,maiz choclo,7/12,0
+rango_global,chira_sullana,napa_1m,frijol grano,2/12,9
+rango_global,chira_sullana,napa_1m,frijol verde,5/12,9
+rango_global,chira_sullana,napa_1m,caupi,1/12,9
+rango_global,chira_sullana,napa_1m,arveja,12/12,0
+rango_global,chira_sullana,napa_1m,frijol de palo,sin_datos,0
+rango_global,chira_sullana,napa_1m,algodon,8/12,0
+rango_global,chira_sullana,napa_1m,papa,10/12,0
+rango_global,chira_sullana,napa_1m,piquillo,11/12,0
+rango_global,chira_sullana,napa_1m,zapallo,9/12,0
+rango_global,chira_sullana,napa_1m,cebolla,4/12,9
+rango_global,chira_sullana,napa_1m,yuca,descartado,0
+rango_global,chira_sullana,napa_3m,arroz,6/12,10
+rango_global,chira_sullana,napa_3m,maiz amarillo duro,3/12,10
+rango_global,chira_sullana,napa_3m,maiz choclo,7/12,0
+rango_global,chira_sullana,napa_3m,frijol grano,2/12,10
+rango_global,chira_sullana,napa_3m,frijol verde,5/12,10
+rango_global,chira_sullana,napa_3m,caupi,1/12,10
+rango_global,chira_sullana,napa_3m,arveja,12/12,0
+rango_global,chira_sullana,napa_3m,frijol de palo,sin_datos,0
+rango_global,chira_sullana,napa_3m,algodon,8/12,0
+rango_global,chira_sullana,napa_3m,papa,10/12,0
+rango_global,chira_sullana,napa_3m,piquillo,11/12,0
+rango_global,chira_sullana,napa_3m,zapallo,9/12,0
+rango_global,chira_sullana,napa_3m,cebolla,4/12,10
+rango_global,chira_sullana,napa_3m,yuca,descartado,0
+rango_global,bajo_piura,base,arroz,6/12,10
+rango_global,bajo_piura,base,maiz amarillo duro,5/12,10
+rango_global,bajo_piura,base,maiz choclo,9/12,0
+rango_global,bajo_piura,base,frijol grano,3/12,10
+rango_global,bajo_piura,base,frijol verde,4/12,10
+rango_global,bajo_piura,base,caupi,1/12,10
+rango_global,bajo_piura,base,arveja,2/12,10
+rango_global,bajo_piura,base,frijol de palo,sin_datos,0
+rango_global,bajo_piura,base,algodon,8/12,0
+rango_global,bajo_piura,base,papa,11/12,0
+rango_global,bajo_piura,base,piquillo,12/12,0
+rango_global,bajo_piura,base,zapallo,10/12,0
+rango_global,bajo_piura,base,cebolla,7/12,0
+rango_global,bajo_piura,base,yuca,descartado,0
+rango_global,bajo_piura,sin_ece,arroz,sin_datos,0
+rango_global,bajo_piura,sin_ece,maiz amarillo duro,sin_datos,0
+rango_global,bajo_piura,sin_ece,maiz choclo,sin_datos,0
+rango_global,bajo_piura,sin_ece,frijol grano,sin_datos,0
+rango_global,bajo_piura,sin_ece,frijol verde,sin_datos,0
+rango_global,bajo_piura,sin_ece,caupi,sin_datos,0
+rango_global,bajo_piura,sin_ece,arveja,sin_datos,0
+rango_global,bajo_piura,sin_ece,frijol de palo,sin_datos,0
+rango_global,bajo_piura,sin_ece,algodon,sin_datos,0
+rango_global,bajo_piura,sin_ece,papa,sin_datos,0
+rango_global,bajo_piura,sin_ece,piquillo,sin_datos,0
+rango_global,bajo_piura,sin_ece,zapallo,sin_datos,0
+rango_global,bajo_piura,sin_ece,cebolla,sin_datos,0
+rango_global,bajo_piura,sin_ece,yuca,descartado,0
+rango_global,bajo_piura,sin_ph,arroz,6/12,10
+rango_global,bajo_piura,sin_ph,maiz amarillo duro,5/12,10
+rango_global,bajo_piura,sin_ph,maiz choclo,8/12,0
+rango_global,bajo_piura,sin_ph,frijol grano,4/12,10
+rango_global,bajo_piura,sin_ph,frijol verde,2/12,10
+rango_global,bajo_piura,sin_ph,caupi,1/12,10
+rango_global,bajo_piura,sin_ph,arveja,3/12,10
+rango_global,bajo_piura,sin_ph,frijol de palo,sin_datos,0
+rango_global,bajo_piura,sin_ph,algodon,9/12,0
+rango_global,bajo_piura,sin_ph,papa,11/12,0
+rango_global,bajo_piura,sin_ph,piquillo,12/12,0
+rango_global,bajo_piura,sin_ph,zapallo,10/12,0
+rango_global,bajo_piura,sin_ph,cebolla,7/12,0
+rango_global,bajo_piura,sin_ph,yuca,descartado,0
+rango_global,bajo_piura,sin_profundidad,arroz,7/12,0
+rango_global,bajo_piura,sin_profundidad,maiz amarillo duro,6/12,9
+rango_global,bajo_piura,sin_profundidad,maiz choclo,9/12,0
+rango_global,bajo_piura,sin_profundidad,frijol grano,4/12,10
+rango_global,bajo_piura,sin_profundidad,frijol verde,2/12,10
+rango_global,bajo_piura,sin_profundidad,caupi,1/12,9
+rango_global,bajo_piura,sin_profundidad,arveja,3/12,10
+rango_global,bajo_piura,sin_profundidad,frijol de palo,sin_datos,0
+rango_global,bajo_piura,sin_profundidad,algodon,5/12,8
+rango_global,bajo_piura,sin_profundidad,papa,11/12,0
+rango_global,bajo_piura,sin_profundidad,piquillo,12/12,0
+rango_global,bajo_piura,sin_profundidad,zapallo,10/12,0
+rango_global,bajo_piura,sin_profundidad,cebolla,8/12,0
+rango_global,bajo_piura,sin_profundidad,yuca,descartado,0
+rango_global,bajo_piura,sin_pendiente,arroz,6/12,10
+rango_global,bajo_piura,sin_pendiente,maiz amarillo duro,5/12,10
+rango_global,bajo_piura,sin_pendiente,maiz choclo,9/12,0
+rango_global,bajo_piura,sin_pendiente,frijol grano,3/12,10
+rango_global,bajo_piura,sin_pendiente,frijol verde,4/12,10
+rango_global,bajo_piura,sin_pendiente,caupi,1/12,10
+rango_global,bajo_piura,sin_pendiente,arveja,2/12,10
+rango_global,bajo_piura,sin_pendiente,frijol de palo,sin_datos,0
+rango_global,bajo_piura,sin_pendiente,algodon,8/12,0
+rango_global,bajo_piura,sin_pendiente,papa,11/12,0
+rango_global,bajo_piura,sin_pendiente,piquillo,12/12,0
+rango_global,bajo_piura,sin_pendiente,zapallo,10/12,0
+rango_global,bajo_piura,sin_pendiente,cebolla,7/12,0
+rango_global,bajo_piura,sin_pendiente,yuca,descartado,0
+rango_global,bajo_piura,sin_cew,arroz,6/12,0
+rango_global,bajo_piura,sin_cew,maiz amarillo duro,5/12,0
+rango_global,bajo_piura,sin_cew,maiz choclo,9/12,0
+rango_global,bajo_piura,sin_cew,frijol grano,3/12,0
+rango_global,bajo_piura,sin_cew,frijol verde,4/12,0
+rango_global,bajo_piura,sin_cew,caupi,1/12,0
+rango_global,bajo_piura,sin_cew,arveja,2/12,0
+rango_global,bajo_piura,sin_cew,frijol de palo,sin_datos,0
+rango_global,bajo_piura,sin_cew,algodon,8/12,0
+rango_global,bajo_piura,sin_cew,papa,11/12,0
+rango_global,bajo_piura,sin_cew,piquillo,12/12,0
+rango_global,bajo_piura,sin_cew,zapallo,10/12,0
+rango_global,bajo_piura,sin_cew,cebolla,7/12,0
+rango_global,bajo_piura,sin_cew,yuca,descartado,0
+rango_global,bajo_piura,napa_1m,arroz,6/12,5
+rango_global,bajo_piura,napa_1m,maiz amarillo duro,5/12,9
+rango_global,bajo_piura,napa_1m,maiz choclo,9/12,0
+rango_global,bajo_piura,napa_1m,frijol grano,3/12,9
+rango_global,bajo_piura,napa_1m,frijol verde,4/12,9
+rango_global,bajo_piura,napa_1m,caupi,1/12,9
+rango_global,bajo_piura,napa_1m,arveja,2/12,9
+rango_global,bajo_piura,napa_1m,frijol de palo,sin_datos,0
+rango_global,bajo_piura,napa_1m,algodon,8/12,0
+rango_global,bajo_piura,napa_1m,papa,11/12,0
+rango_global,bajo_piura,napa_1m,piquillo,12/12,0
+rango_global,bajo_piura,napa_1m,zapallo,10/12,0
+rango_global,bajo_piura,napa_1m,cebolla,7/12,0
+rango_global,bajo_piura,napa_1m,yuca,descartado,0
+rango_global,bajo_piura,napa_3m,arroz,6/12,10
+rango_global,bajo_piura,napa_3m,maiz amarillo duro,5/12,10
+rango_global,bajo_piura,napa_3m,maiz choclo,9/12,0
+rango_global,bajo_piura,napa_3m,frijol grano,3/12,10
+rango_global,bajo_piura,napa_3m,frijol verde,4/12,10
+rango_global,bajo_piura,napa_3m,caupi,1/12,10
+rango_global,bajo_piura,napa_3m,arveja,2/12,10
+rango_global,bajo_piura,napa_3m,frijol de palo,sin_datos,0
+rango_global,bajo_piura,napa_3m,algodon,8/12,0
+rango_global,bajo_piura,napa_3m,papa,11/12,0
+rango_global,bajo_piura,napa_3m,piquillo,12/12,0
+rango_global,bajo_piura,napa_3m,zapallo,10/12,0
+rango_global,bajo_piura,napa_3m,cebolla,7/12,0
+rango_global,bajo_piura,napa_3m,yuca,descartado,0
+rango_global,medio_piura,base,arroz,6/12,10
+rango_global,medio_piura,base,maiz amarillo duro,3/12,10
+rango_global,medio_piura,base,maiz choclo,7/12,0
+rango_global,medio_piura,base,frijol grano,2/12,10
+rango_global,medio_piura,base,frijol verde,5/12,10
+rango_global,medio_piura,base,caupi,1/12,10
+rango_global,medio_piura,base,arveja,12/12,0
+rango_global,medio_piura,base,frijol de palo,sin_datos,0
+rango_global,medio_piura,base,algodon,8/12,0
+rango_global,medio_piura,base,papa,10/12,0
+rango_global,medio_piura,base,piquillo,11/12,0
+rango_global,medio_piura,base,zapallo,9/12,0
+rango_global,medio_piura,base,cebolla,4/12,10
+rango_global,medio_piura,base,yuca,descartado,0
+rango_global,medio_piura,sin_ece,arroz,sin_datos,0
+rango_global,medio_piura,sin_ece,maiz amarillo duro,sin_datos,0
+rango_global,medio_piura,sin_ece,maiz choclo,sin_datos,0
+rango_global,medio_piura,sin_ece,frijol grano,sin_datos,0
+rango_global,medio_piura,sin_ece,frijol verde,sin_datos,0
+rango_global,medio_piura,sin_ece,caupi,sin_datos,0
+rango_global,medio_piura,sin_ece,arveja,sin_datos,0
+rango_global,medio_piura,sin_ece,frijol de palo,sin_datos,0
+rango_global,medio_piura,sin_ece,algodon,sin_datos,0
+rango_global,medio_piura,sin_ece,papa,sin_datos,0
+rango_global,medio_piura,sin_ece,piquillo,sin_datos,0
+rango_global,medio_piura,sin_ece,zapallo,sin_datos,0
+rango_global,medio_piura,sin_ece,cebolla,sin_datos,0
+rango_global,medio_piura,sin_ece,yuca,descartado,0
+rango_global,medio_piura,sin_ph,arroz,7/12,0
+rango_global,medio_piura,sin_ph,maiz amarillo duro,4/12,9
+rango_global,medio_piura,sin_ph,maiz choclo,6/12,8
+rango_global,medio_piura,sin_ph,frijol grano,3/12,10
+rango_global,medio_piura,sin_ph,frijol verde,2/12,10
+rango_global,medio_piura,sin_ph,caupi,1/12,10
+rango_global,medio_piura,sin_ph,arveja,12/12,0
+rango_global,medio_piura,sin_ph,frijol de palo,sin_datos,0
+rango_global,medio_piura,sin_ph,algodon,8/12,0
+rango_global,medio_piura,sin_ph,papa,10/12,0
+rango_global,medio_piura,sin_ph,piquillo,11/12,0
+rango_global,medio_piura,sin_ph,zapallo,9/12,0
+rango_global,medio_piura,sin_ph,cebolla,5/12,9
+rango_global,medio_piura,sin_ph,yuca,descartado,0
+rango_global,medio_piura,sin_profundidad,arroz,8/12,0
+rango_global,medio_piura,sin_profundidad,maiz amarillo duro,4/12,9
+rango_global,medio_piura,sin_profundidad,maiz choclo,6/12,8
+rango_global,medio_piura,sin_profundidad,frijol grano,3/12,10
+rango_global,medio_piura,sin_profundidad,frijol verde,2/12,10
+rango_global,medio_piura,sin_profundidad,caupi,1/12,10
+rango_global,medio_piura,sin_profundidad,arveja,12/12,0
+rango_global,medio_piura,sin_profundidad,frijol de palo,sin_datos,0
+rango_global,medio_piura,sin_profundidad,algodon,7/12,0
+rango_global,medio_piura,sin_profundidad,papa,10/12,0
+rango_global,medio_piura,sin_profundidad,piquillo,11/12,0
+rango_global,medio_piura,sin_profundidad,zapallo,9/12,0
+rango_global,medio_piura,sin_profundidad,cebolla,5/12,9
+rango_global,medio_piura,sin_profundidad,yuca,descartado,0
+rango_global,medio_piura,sin_pendiente,arroz,6/12,10
+rango_global,medio_piura,sin_pendiente,maiz amarillo duro,3/12,10
+rango_global,medio_piura,sin_pendiente,maiz choclo,7/12,0
+rango_global,medio_piura,sin_pendiente,frijol grano,2/12,10
+rango_global,medio_piura,sin_pendiente,frijol verde,5/12,10
+rango_global,medio_piura,sin_pendiente,caupi,1/12,10
+rango_global,medio_piura,sin_pendiente,arveja,12/12,0
+rango_global,medio_piura,sin_pendiente,frijol de palo,sin_datos,0
+rango_global,medio_piura,sin_pendiente,algodon,8/12,0
+rango_global,medio_piura,sin_pendiente,papa,10/12,0
+rango_global,medio_piura,sin_pendiente,piquillo,11/12,0
+rango_global,medio_piura,sin_pendiente,zapallo,9/12,0
+rango_global,medio_piura,sin_pendiente,cebolla,4/12,10
+rango_global,medio_piura,sin_pendiente,yuca,descartado,0
+rango_global,medio_piura,sin_cew,arroz,6/12,0
+rango_global,medio_piura,sin_cew,maiz amarillo duro,3/12,0
+rango_global,medio_piura,sin_cew,maiz choclo,7/12,0
+rango_global,medio_piura,sin_cew,frijol grano,2/12,0
+rango_global,medio_piura,sin_cew,frijol verde,5/12,0
+rango_global,medio_piura,sin_cew,caupi,1/12,0
+rango_global,medio_piura,sin_cew,arveja,12/12,0
+rango_global,medio_piura,sin_cew,frijol de palo,sin_datos,0
+rango_global,medio_piura,sin_cew,algodon,8/12,0
+rango_global,medio_piura,sin_cew,papa,10/12,0
+rango_global,medio_piura,sin_cew,piquillo,11/12,0
+rango_global,medio_piura,sin_cew,zapallo,9/12,0
+rango_global,medio_piura,sin_cew,cebolla,4/12,0
+rango_global,medio_piura,sin_cew,yuca,descartado,0
+rango_global,medio_piura,napa_1m,arroz,6/12,5
+rango_global,medio_piura,napa_1m,maiz amarillo duro,3/12,9
+rango_global,medio_piura,napa_1m,maiz choclo,7/12,0
+rango_global,medio_piura,napa_1m,frijol grano,2/12,9
+rango_global,medio_piura,napa_1m,frijol verde,5/12,9
+rango_global,medio_piura,napa_1m,caupi,1/12,9
+rango_global,medio_piura,napa_1m,arveja,12/12,0
+rango_global,medio_piura,napa_1m,frijol de palo,sin_datos,0
+rango_global,medio_piura,napa_1m,algodon,8/12,0
+rango_global,medio_piura,napa_1m,papa,10/12,0
+rango_global,medio_piura,napa_1m,piquillo,11/12,0
+rango_global,medio_piura,napa_1m,zapallo,9/12,0
+rango_global,medio_piura,napa_1m,cebolla,4/12,9
+rango_global,medio_piura,napa_1m,yuca,descartado,0
+rango_global,medio_piura,napa_3m,arroz,6/12,10
+rango_global,medio_piura,napa_3m,maiz amarillo duro,3/12,10
+rango_global,medio_piura,napa_3m,maiz choclo,7/12,0
+rango_global,medio_piura,napa_3m,frijol grano,2/12,10
+rango_global,medio_piura,napa_3m,frijol verde,5/12,10
+rango_global,medio_piura,napa_3m,caupi,1/12,10
+rango_global,medio_piura,napa_3m,arveja,12/12,0
+rango_global,medio_piura,napa_3m,frijol de palo,sin_datos,0
+rango_global,medio_piura,napa_3m,algodon,8/12,0
+rango_global,medio_piura,napa_3m,papa,10/12,0
+rango_global,medio_piura,napa_3m,piquillo,11/12,0
+rango_global,medio_piura,napa_3m,zapallo,9/12,0
+rango_global,medio_piura,napa_3m,cebolla,4/12,10
+rango_global,medio_piura,napa_3m,yuca,descartado,0
+rango_global,alto_piura,base,arroz,5/12,9
+rango_global,alto_piura,base,maiz amarillo duro,3/12,9
+rango_global,alto_piura,base,maiz choclo,6/12,8
+rango_global,alto_piura,base,frijol grano,2/12,10
+rango_global,alto_piura,base,frijol verde,4/12,10
+rango_global,alto_piura,base,caupi,1/12,10
+rango_global,alto_piura,base,arveja,10/12,0
+rango_global,alto_piura,base,frijol de palo,sin_datos,0
+rango_global,alto_piura,base,algodon,7/12,0
+rango_global,alto_piura,base,papa,12/12,0
+rango_global,alto_piura,base,piquillo,9/12,0
+rango_global,alto_piura,base,zapallo,8/12,0
+rango_global,alto_piura,base,cebolla,11/12,0
+rango_global,alto_piura,base,yuca,descartado,0
+rango_global,alto_piura,sin_ece,arroz,sin_datos,0
+rango_global,alto_piura,sin_ece,maiz amarillo duro,sin_datos,0
+rango_global,alto_piura,sin_ece,maiz choclo,sin_datos,0
+rango_global,alto_piura,sin_ece,frijol grano,sin_datos,0
+rango_global,alto_piura,sin_ece,frijol verde,sin_datos,0
+rango_global,alto_piura,sin_ece,caupi,sin_datos,0
+rango_global,alto_piura,sin_ece,arveja,sin_datos,0
+rango_global,alto_piura,sin_ece,frijol de palo,sin_datos,0
+rango_global,alto_piura,sin_ece,algodon,sin_datos,0
+rango_global,alto_piura,sin_ece,papa,sin_datos,0
+rango_global,alto_piura,sin_ece,piquillo,sin_datos,0
+rango_global,alto_piura,sin_ece,zapallo,sin_datos,0
+rango_global,alto_piura,sin_ece,cebolla,sin_datos,0
+rango_global,alto_piura,sin_ece,yuca,descartado,0
+rango_global,alto_piura,sin_ph,arroz,6/12,9
+rango_global,alto_piura,sin_ph,maiz amarillo duro,4/12,9
+rango_global,alto_piura,sin_ph,maiz choclo,5/12,8
+rango_global,alto_piura,sin_ph,frijol grano,3/12,10
+rango_global,alto_piura,sin_ph,frijol verde,2/12,10
+rango_global,alto_piura,sin_ph,caupi,1/12,10
+rango_global,alto_piura,sin_ph,arveja,10/12,0
+rango_global,alto_piura,sin_ph,frijol de palo,sin_datos,0
+rango_global,alto_piura,sin_ph,algodon,7/12,0
+rango_global,alto_piura,sin_ph,papa,12/12,0
+rango_global,alto_piura,sin_ph,piquillo,9/12,0
+rango_global,alto_piura,sin_ph,zapallo,8/12,0
+rango_global,alto_piura,sin_ph,cebolla,11/12,0
+rango_global,alto_piura,sin_ph,yuca,descartado,0
+rango_global,alto_piura,sin_profundidad,arroz,7/12,0
+rango_global,alto_piura,sin_profundidad,maiz amarillo duro,4/12,8
+rango_global,alto_piura,sin_profundidad,maiz choclo,5/12,8
+rango_global,alto_piura,sin_profundidad,frijol grano,3/12,10
+rango_global,alto_piura,sin_profundidad,frijol verde,2/12,10
+rango_global,alto_piura,sin_profundidad,caupi,1/12,9
+rango_global,alto_piura,sin_profundidad,arveja,10/12,0
+rango_global,alto_piura,sin_profundidad,frijol de palo,sin_datos,0
+rango_global,alto_piura,sin_profundidad,algodon,6/12,7
+rango_global,alto_piura,sin_profundidad,papa,12/12,0
+rango_global,alto_piura,sin_profundidad,piquillo,9/12,0
+rango_global,alto_piura,sin_profundidad,zapallo,8/12,0
+rango_global,alto_piura,sin_profundidad,cebolla,11/12,0
+rango_global,alto_piura,sin_profundidad,yuca,descartado,0
+rango_global,alto_piura,sin_pendiente,arroz,5/12,9
+rango_global,alto_piura,sin_pendiente,maiz amarillo duro,3/12,9
+rango_global,alto_piura,sin_pendiente,maiz choclo,6/12,8
+rango_global,alto_piura,sin_pendiente,frijol grano,2/12,10
+rango_global,alto_piura,sin_pendiente,frijol verde,4/12,10
+rango_global,alto_piura,sin_pendiente,caupi,1/12,10
+rango_global,alto_piura,sin_pendiente,arveja,10/12,0
+rango_global,alto_piura,sin_pendiente,frijol de palo,sin_datos,0
+rango_global,alto_piura,sin_pendiente,algodon,7/12,0
+rango_global,alto_piura,sin_pendiente,papa,12/12,0
+rango_global,alto_piura,sin_pendiente,piquillo,9/12,0
+rango_global,alto_piura,sin_pendiente,zapallo,8/12,0
+rango_global,alto_piura,sin_pendiente,cebolla,11/12,0
+rango_global,alto_piura,sin_pendiente,yuca,descartado,0
+rango_global,alto_piura,sin_cew,arroz,5/12,0
+rango_global,alto_piura,sin_cew,maiz amarillo duro,3/12,0
+rango_global,alto_piura,sin_cew,maiz choclo,6/12,0
+rango_global,alto_piura,sin_cew,frijol grano,2/12,0
+rango_global,alto_piura,sin_cew,frijol verde,4/12,0
+rango_global,alto_piura,sin_cew,caupi,1/12,0
+rango_global,alto_piura,sin_cew,arveja,10/12,0
+rango_global,alto_piura,sin_cew,frijol de palo,sin_datos,0
+rango_global,alto_piura,sin_cew,algodon,7/12,0
+rango_global,alto_piura,sin_cew,papa,12/12,0
+rango_global,alto_piura,sin_cew,piquillo,9/12,0
+rango_global,alto_piura,sin_cew,zapallo,8/12,0
+rango_global,alto_piura,sin_cew,cebolla,11/12,0
+rango_global,alto_piura,sin_cew,yuca,descartado,0
+rango_global,alto_piura,napa_1m,arroz,5/12,4
+rango_global,alto_piura,napa_1m,maiz amarillo duro,3/12,8
+rango_global,alto_piura,napa_1m,maiz choclo,6/12,7
+rango_global,alto_piura,napa_1m,frijol grano,2/12,9
+rango_global,alto_piura,napa_1m,frijol verde,4/12,9
+rango_global,alto_piura,napa_1m,caupi,1/12,9
+rango_global,alto_piura,napa_1m,arveja,10/12,0
+rango_global,alto_piura,napa_1m,frijol de palo,sin_datos,0
+rango_global,alto_piura,napa_1m,algodon,7/12,0
+rango_global,alto_piura,napa_1m,papa,12/12,0
+rango_global,alto_piura,napa_1m,piquillo,9/12,0
+rango_global,alto_piura,napa_1m,zapallo,8/12,0
+rango_global,alto_piura,napa_1m,cebolla,11/12,0
+rango_global,alto_piura,napa_1m,yuca,descartado,0
+rango_global,alto_piura,napa_3m,arroz,5/12,9
+rango_global,alto_piura,napa_3m,maiz amarillo duro,3/12,9
+rango_global,alto_piura,napa_3m,maiz choclo,6/12,8
+rango_global,alto_piura,napa_3m,frijol grano,2/12,10
+rango_global,alto_piura,napa_3m,frijol verde,4/12,10
+rango_global,alto_piura,napa_3m,caupi,1/12,10
+rango_global,alto_piura,napa_3m,arveja,10/12,0
+rango_global,alto_piura,napa_3m,frijol de palo,sin_datos,0
+rango_global,alto_piura,napa_3m,algodon,7/12,0
+rango_global,alto_piura,napa_3m,papa,12/12,0
+rango_global,alto_piura,napa_3m,piquillo,9/12,0
+rango_global,alto_piura,napa_3m,zapallo,8/12,0
+rango_global,alto_piura,napa_3m,cebolla,11/12,0
+rango_global,alto_piura,napa_3m,yuca,descartado,0
+rango_global,san_lorenzo,base,arroz,3/12,10
+rango_global,san_lorenzo,base,maiz amarillo duro,2/12,10
+rango_global,san_lorenzo,base,maiz choclo,7/12,0
+rango_global,san_lorenzo,base,frijol grano,1/12,10
+rango_global,san_lorenzo,base,frijol verde,6/12,10
+rango_global,san_lorenzo,base,caupi,5/12,10
+rango_global,san_lorenzo,base,arveja,12/12,0
+rango_global,san_lorenzo,base,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,base,algodon,8/12,0
+rango_global,san_lorenzo,base,papa,10/12,0
+rango_global,san_lorenzo,base,piquillo,11/12,0
+rango_global,san_lorenzo,base,zapallo,9/12,0
+rango_global,san_lorenzo,base,cebolla,4/12,10
+rango_global,san_lorenzo,base,yuca,descartado,0
+rango_global,san_lorenzo,sin_ece,arroz,sin_datos,0
+rango_global,san_lorenzo,sin_ece,maiz amarillo duro,sin_datos,0
+rango_global,san_lorenzo,sin_ece,maiz choclo,sin_datos,0
+rango_global,san_lorenzo,sin_ece,frijol grano,sin_datos,0
+rango_global,san_lorenzo,sin_ece,frijol verde,sin_datos,0
+rango_global,san_lorenzo,sin_ece,caupi,sin_datos,0
+rango_global,san_lorenzo,sin_ece,arveja,sin_datos,0
+rango_global,san_lorenzo,sin_ece,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,sin_ece,algodon,sin_datos,0
+rango_global,san_lorenzo,sin_ece,papa,sin_datos,0
+rango_global,san_lorenzo,sin_ece,piquillo,sin_datos,0
+rango_global,san_lorenzo,sin_ece,zapallo,sin_datos,0
+rango_global,san_lorenzo,sin_ece,cebolla,sin_datos,0
+rango_global,san_lorenzo,sin_ece,yuca,descartado,0
+rango_global,san_lorenzo,sin_ph,arroz,4/12,10
+rango_global,san_lorenzo,sin_ph,maiz amarillo duro,3/12,10
+rango_global,san_lorenzo,sin_ph,maiz choclo,7/12,0
+rango_global,san_lorenzo,sin_ph,frijol grano,2/12,10
+rango_global,san_lorenzo,sin_ph,frijol verde,1/12,10
+rango_global,san_lorenzo,sin_ph,caupi,6/12,10
+rango_global,san_lorenzo,sin_ph,arveja,12/12,0
+rango_global,san_lorenzo,sin_ph,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,sin_ph,algodon,8/12,0
+rango_global,san_lorenzo,sin_ph,papa,10/12,0
+rango_global,san_lorenzo,sin_ph,piquillo,11/12,0
+rango_global,san_lorenzo,sin_ph,zapallo,9/12,0
+rango_global,san_lorenzo,sin_ph,cebolla,5/12,10
+rango_global,san_lorenzo,sin_ph,yuca,descartado,0
+rango_global,san_lorenzo,sin_profundidad,arroz,4/12,10
+rango_global,san_lorenzo,sin_profundidad,maiz amarillo duro,3/12,10
+rango_global,san_lorenzo,sin_profundidad,maiz choclo,7/12,0
+rango_global,san_lorenzo,sin_profundidad,frijol grano,2/12,10
+rango_global,san_lorenzo,sin_profundidad,frijol verde,1/12,10
+rango_global,san_lorenzo,sin_profundidad,caupi,6/12,10
+rango_global,san_lorenzo,sin_profundidad,arveja,12/12,0
+rango_global,san_lorenzo,sin_profundidad,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,sin_profundidad,algodon,8/12,0
+rango_global,san_lorenzo,sin_profundidad,papa,10/12,0
+rango_global,san_lorenzo,sin_profundidad,piquillo,11/12,0
+rango_global,san_lorenzo,sin_profundidad,zapallo,9/12,0
+rango_global,san_lorenzo,sin_profundidad,cebolla,5/12,10
+rango_global,san_lorenzo,sin_profundidad,yuca,descartado,0
+rango_global,san_lorenzo,sin_pendiente,arroz,3/12,10
+rango_global,san_lorenzo,sin_pendiente,maiz amarillo duro,2/12,10
+rango_global,san_lorenzo,sin_pendiente,maiz choclo,7/12,0
+rango_global,san_lorenzo,sin_pendiente,frijol grano,1/12,10
+rango_global,san_lorenzo,sin_pendiente,frijol verde,6/12,10
+rango_global,san_lorenzo,sin_pendiente,caupi,5/12,10
+rango_global,san_lorenzo,sin_pendiente,arveja,12/12,0
+rango_global,san_lorenzo,sin_pendiente,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,sin_pendiente,algodon,8/12,0
+rango_global,san_lorenzo,sin_pendiente,papa,10/12,0
+rango_global,san_lorenzo,sin_pendiente,piquillo,11/12,0
+rango_global,san_lorenzo,sin_pendiente,zapallo,9/12,0
+rango_global,san_lorenzo,sin_pendiente,cebolla,4/12,10
+rango_global,san_lorenzo,sin_pendiente,yuca,descartado,0
+rango_global,san_lorenzo,sin_cew,arroz,3/12,0
+rango_global,san_lorenzo,sin_cew,maiz amarillo duro,2/12,0
+rango_global,san_lorenzo,sin_cew,maiz choclo,7/12,0
+rango_global,san_lorenzo,sin_cew,frijol grano,1/12,0
+rango_global,san_lorenzo,sin_cew,frijol verde,6/12,0
+rango_global,san_lorenzo,sin_cew,caupi,5/12,0
+rango_global,san_lorenzo,sin_cew,arveja,12/12,0
+rango_global,san_lorenzo,sin_cew,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,sin_cew,algodon,8/12,0
+rango_global,san_lorenzo,sin_cew,papa,10/12,0
+rango_global,san_lorenzo,sin_cew,piquillo,11/12,0
+rango_global,san_lorenzo,sin_cew,zapallo,9/12,0
+rango_global,san_lorenzo,sin_cew,cebolla,4/12,0
+rango_global,san_lorenzo,sin_cew,yuca,descartado,0
+rango_global,san_lorenzo,napa_1m,arroz,3/12,5
+rango_global,san_lorenzo,napa_1m,maiz amarillo duro,2/12,9
+rango_global,san_lorenzo,napa_1m,maiz choclo,7/12,0
+rango_global,san_lorenzo,napa_1m,frijol grano,1/12,9
+rango_global,san_lorenzo,napa_1m,frijol verde,6/12,9
+rango_global,san_lorenzo,napa_1m,caupi,5/12,9
+rango_global,san_lorenzo,napa_1m,arveja,12/12,0
+rango_global,san_lorenzo,napa_1m,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,napa_1m,algodon,8/12,0
+rango_global,san_lorenzo,napa_1m,papa,10/12,0
+rango_global,san_lorenzo,napa_1m,piquillo,11/12,0
+rango_global,san_lorenzo,napa_1m,zapallo,9/12,0
+rango_global,san_lorenzo,napa_1m,cebolla,4/12,9
+rango_global,san_lorenzo,napa_1m,yuca,descartado,0
+rango_global,san_lorenzo,napa_3m,arroz,3/12,10
+rango_global,san_lorenzo,napa_3m,maiz amarillo duro,2/12,10
+rango_global,san_lorenzo,napa_3m,maiz choclo,7/12,0
+rango_global,san_lorenzo,napa_3m,frijol grano,1/12,10
+rango_global,san_lorenzo,napa_3m,frijol verde,6/12,10
+rango_global,san_lorenzo,napa_3m,caupi,5/12,10
+rango_global,san_lorenzo,napa_3m,arveja,12/12,0
+rango_global,san_lorenzo,napa_3m,frijol de palo,sin_datos,0
+rango_global,san_lorenzo,napa_3m,algodon,8/12,0
+rango_global,san_lorenzo,napa_3m,papa,10/12,0
+rango_global,san_lorenzo,napa_3m,piquillo,11/12,0
+rango_global,san_lorenzo,napa_3m,zapallo,9/12,0
+rango_global,san_lorenzo,napa_3m,cebolla,4/12,10
+rango_global,san_lorenzo,napa_3m,yuca,descartado,0

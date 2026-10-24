@@ -1,0 +1,31 @@
+zona,base_ecw,feature,top1_base,top1_sin,cambia_top1,aceptados_base,aceptados_sin,sec_viables_base,sec_viables_sin,sec_top_base,sec_top_sin
+chira_sullana,"[0.514, 4.98]",ece_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+chira_sullana,"[0.514, 4.98]",ph,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+chira_sullana,"[0.514, 4.98]",profundidad_cm,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+chira_sullana,"[0.514, 4.98]",pendiente_pct,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+chira_sullana,"[0.514, 4.98]",ecw_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+bajo_piura,1.5,ece_ds_m,caupi,ninguno,1,12,0,30,0,arveja+frijol grano,ninguna
+bajo_piura,1.5,ph,caupi,caupi,0,12,12,30,30,arveja+frijol grano,arveja+frijol grano
+bajo_piura,1.5,profundidad_cm,caupi,caupi,0,12,12,30,28,arveja+frijol grano,arveja+frijol grano
+bajo_piura,1.5,pendiente_pct,caupi,caupi,0,12,12,30,30,arveja+frijol grano,arveja+frijol grano
+bajo_piura,1.5,ecw_ds_m,caupi,caupi,0,12,12,30,0,arveja+frijol grano,ninguna
+medio_piura,"[0.74, 9.92]",ece_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+medio_piura,"[0.74, 9.92]",ph,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+medio_piura,"[0.74, 9.92]",profundidad_cm,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+medio_piura,"[0.74, 9.92]",pendiente_pct,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+medio_piura,"[0.74, 9.92]",ecw_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+alto_piura,"[0.345, 0.741]",ece_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+alto_piura,"[0.345, 0.741]",ph,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+alto_piura,"[0.345, 0.741]",profundidad_cm,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+alto_piura,"[0.345, 0.741]",pendiente_pct,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+alto_piura,"[0.345, 0.741]",ecw_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+san_lorenzo,"[0.417, 7.86]",ece_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+san_lorenzo,"[0.417, 7.86]",ph,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+san_lorenzo,"[0.417, 7.86]",profundidad_cm,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+san_lorenzo,"[0.417, 7.86]",pendiente_pct,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+san_lorenzo,"[0.417, 7.86]",ecw_ds_m,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+chira_sullana,"[0.514, 4.98]",agregar_dotacion_uniforme,ninguno,maiz choclo,1,0,2,0,2,ninguna,maiz choclo+arveja
+bajo_piura,1.5,agregar_dotacion_uniforme,caupi,ninguno,1,12,0,30,0,arveja+frijol grano,ninguna
+medio_piura,"[0.74, 9.92]",agregar_dotacion_uniforme,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna
+alto_piura,"[0.345, 0.741]",agregar_dotacion_uniforme,ninguno,maiz choclo,1,0,1,0,0,ninguna,ninguna
+san_lorenzo,"[0.417, 7.86]",agregar_dotacion_uniforme,ninguno,ninguno,0,0,0,0,0,ninguna,ninguna

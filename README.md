@@ -1,4 +1,28 @@
-# Piura: datos para decisiones de rotación de cultivos
+# Piura: apoyo a la rotación de cultivos
+
+Entrada del equipo al reto «Field Shift: Adapting Farms with NASA Data» (NASA Space Apps 2026). Dada una parcela en Piura, el sistema dice cuál es el mejor cultivo siguiente, por qué, qué recursos pide, qué le deja al suelo y qué dato podría cambiar la recomendación.
+
+El repositorio tiene dos capas:
+
+- [`piura-agro/`](piura-agro/) es la versión más nueva (24 de octubre de 2026). Trae un contrato de datos común, datos por zona y un motor de rotación que se puede correr y que tiene tests. Empieza por aquí.
+- [`piura-data/`](piura-data/) es el paquete de referencia v2. Ahí están la capa de plagas, los nutrientes FAO, el clima diario NASA POWER en cinco puntos, las exportaciones de n8n y el informe agronómico. Sigue valiendo para lo que `piura-agro/` todavía no cubre.
+
+## Lo principal
+
+- **[`piura-agro/consolidado/piura_super_dataset.csv`](piura-agro/consolidado/piura_super_dataset.csv)**: un solo CSV con 17 199 filas sin duplicados, unidas desde 18 tablas del contrato. Abarca clima PISCO por zona y por escenario de El Niño, evidencia regional, fichas de cultivos anuales y perennes, reglas de rotación, recuperación del suelo, el calendario DRAP, suelos, salinidad del agua de riego, pendiente, costos y rendimientos. Cada fila dice su unidad, fuente, método, `tipo_evidencia` (medicion_local, regional, bibliografico, analogo_externo o prediccion), `estado` (observado, estimado o desconocido) y de qué archivo viene (`capa`, `archivo_origen`).
+- **[El motor](piura-agro/consolidado/motor/)**: `python3 -m motor_rotacion ejemplos/bajo_piura_tras_arroz.json` da, por parcela, los cultivos aceptados y descartados con su motivo, el margen P10/P50/P90 en PEN/ha, la ECe proyectada, las secuencias viables y la recomendación en tres escenarios ICEN. Los perennes van aparte. Los tests se corren con `python3 -m pytest consolidado/motor/tests`.
+- **[El contrato de datos](piura-agro/CONTRATO.md)** y las **[reglas](piura-agro/REGLAS.md)**.
+- **Registros de decisiones**: cada carpeta tiene un `decisions.tsv` con una fila por decisión (qué, por qué, evidencia, resultado).
+
+## Estado
+
+- La ronda 6 del motor está completa y probada (62 tests). La ronda 7 (necesidad de riego por escenario, costo del agua y el «dato que cambiaría la recomendación») quedó a medias: sus 6 tests nuevos fallan porque se escribieron antes que el código.
+- Hallazgos: el drenaje, la pendiente, el costo y la ECe del suelo son los factores que más pesan. Lo que cambia la recomendación es si se conoce o no la salinidad del agua de riego, más que su valor. CHIRPS subestima la lluvia en la costa, así que el motor usa PISCOp. HWSD falla contra los datos de chacra.
+- Faltan la salinidad del agua de canal en Medio y Bajo Piura, la ECe medida en pasta saturada y el costo del agua.
+
+Los datos crudos pesados (NetCDF de PISCO, HWSD) y los PDF de las fuentes no están en el repo: se citan por URL en cada fila. Ningún valor reemplaza un análisis de suelo, un derecho de riego ni un ensayo en la parcela.
+
+## Referencia v2 (`piura-data/`)
 
 Este repositorio contiene la investigación y los datos de referencia para evaluar cultivos según clima, suelo, agua, nutrientes, plagas, restricciones de la parcela y prioridades del agricultor. Empieza por el [informe agronómico](piura-data/informe_piura_v2.md) y las [reglas del modelo](piura-data/criterios_modelo.md). El [inventario de factores](piura-data/inventario_features.csv) y el [esquema de entradas](piura-data/model_inputs_v2.schema.json) muestran qué debe medir o proporcionar el agricultor.
 

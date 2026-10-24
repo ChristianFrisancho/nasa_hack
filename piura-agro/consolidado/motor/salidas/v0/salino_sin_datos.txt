@@ -1,0 +1,85 @@
+MOTOR DE ROTACIÓN v0 · zona climática Bajo Piura (11.2 km) · escenario el_nino (4 años: 1983, 1998, 2017, 2023)
+Parcela -5.505, -80.795 · área 1.50 ha · ECe 8.50 dS/m · ECw desconocido (dS/m) · pH desconocido (pH) · drenaje desconocido · anterior desconocido · siembra mes 1
+
+2 de 14 cultivos anuales pasan los filtros duros. Primero en el orden: algodon. Sin datos suficientes para decidir (no se recomiendan): arveja, frijol de palo.
+
+1. ALGODON (Malvaceae) · advertencias 2 · no evaluables 7
+   Duración: 170–250 días [analogo_externo]
+   Riego neto por etapa: inicial 0–102 mm | desarrollo 0–384 mm | media 21–356 mm | final 133–265 mm
+   Riego neto ciclo: 1 538–11 073 m3/ha · bruto: desconocido (m3/ha)
+   Absorción N/P2O5/K2O: 39–207 kg/ha / 26–140 kg/ha / 48–255 kg/ha
+   Exportación N/P2O5/K2O: 22–207 kg/ha / 9–71 kg/ha / 11–172 kg/ha
+   Rendimiento: 0.90–4.79 t/ha [prediccion] · precio 2.61–6.31 PEN/kg · costo 3 649–5 132 PEN/ha [bibliografico] · margen -2 779–26 573 PEN/ha
+   Deja en el suelo: residuo N 17.1–91.0 kg/ha; residuo P2O5 4.8–25.4 kg/ha; residuo K2O 21.6–114.9 kg/ha; puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha desconocido (dS/m); balance P2O5 acumulado -71.4–-8.7 kg/ha; balance K2O acumulado -171.9–-10.7 kg/ha
+   [!] salinidad: ECe medida 8.5 dS/m supera el umbral sin pérdida (7.7 dS/m); rendimiento relativo 0.96 fracción
+   [?] drenaje: drenaje desconocido
+   [?] pendiente: pendiente desconocida
+   [?] agua: agua disponible por mes desconocida
+   [?] sanidad: cultivo anterior y plagas presentes desconocidos
+   [!] calendario: ciclo 170–250 días puede exceder el horizonte de 6 meses; El Niño: días con lluvia ≥20 mm en meses [1, 2, 3, 4] y drenaje desconocido: riesgo de anegamiento
+   [?] pH: sin umbral de pH para algodon en los datos
+   [?] profundidad: sin umbral de profundidad para algodon en los datos
+   [?] presupuesto: no evaluable: falta presupuesto
+   Datos que pueden cambiar la recomendación: ECw del agua de riego; drenaje de la parcela; pendiente (%); agua de riego disponible por mes (m3); cultivo anterior; rango térmico de algodon (no está en los datos); umbral de pH de algodon; umbral de profundidad de algodon
+
+2. CAUPI (Fabaceae) · advertencias 2 · no evaluables 7
+   Duración: 100 días [analogo_externo]
+   Riego neto por etapa: inicial 0–53 mm | desarrollo 0–141 mm | media 0–178 mm | final 0–88 mm
+   Riego neto ciclo: 0–4 595 m3/ha · bruto: desconocido (m3/ha)
+   Absorción N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Exportación N/P2O5/K2O: desconocido (kg/ha) / desconocido (kg/ha) / desconocido (kg/ha)
+   Rendimiento: 0.72–1.68 t/ha [prediccion] · precio 1.60–3.69 PEN/kg · costo desconocido (PEN/ha) [prediccion] · margen desconocido (PEN/ha)
+   Deja en el suelo: residuo N desconocido (kg/ha); residuo P2O5 desconocido (kg/ha); residuo K2O desconocido (kg/ha); leguminosa: posible aporte de N por fijación, cantidad desconocida; no reemplaza N mineral; puede dejar inóculo/plaga para hospedantes: spodoptera; ECe tras cosecha desconocido (dS/m); balance P2O5 acumulado desconocido (kg/ha); balance K2O acumulado desconocido (kg/ha)
+   [!] salinidad: ECe medida 8.5 dS/m supera el umbral sin pérdida (4.9 dS/m); rendimiento relativo 0.57 fracción
+   [?] drenaje: drenaje desconocido
+   [?] pendiente: pendiente desconocida
+   [?] agua: agua disponible por mes desconocida
+   [?] sanidad: cultivo anterior y plagas presentes desconocidos
+   [!] calendario: El Niño: días con lluvia ≥20 mm en meses [1, 2, 3, 4] y drenaje desconocido: riesgo de anegamiento
+   [?] pH: sin umbral de pH para caupi en los datos
+   [?] profundidad: sin umbral de profundidad para caupi en los datos
+   [?] presupuesto: no evaluable: falta costo de producción de caupi, presupuesto
+   Datos que pueden cambiar la recomendación: ECw del agua de riego; drenaje de la parcela; pendiente (%); agua de riego disponible por mes (m3); cultivo anterior; rango térmico de caupi (no está en los datos); umbral de pH de caupi; umbral de profundidad de caupi
+
+SIN DATOS SUFICIENTES (no descartados, tampoco recomendados)
+ - arveja: falta umbral ECe de arveja; drenaje de la parcela; pendiente (%); agua de riego disponible por mes (m3)
+ - frijol de palo: falta umbral ECe de frijol de palo; drenaje de la parcela; pendiente (%); Kc o duración por etapa de frijol de palo
+
+DESCARTADOS
+ - arroz: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (7.2 dS/m)
+ - maiz amarillo duro: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.9 dS/m)
+ - maiz choclo: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.9 dS/m)
+ - frijol grano: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (3.6 dS/m)
+ - frijol verde: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (3.6 dS/m)
+ - papa: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.9 dS/m)
+ - piquillo: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (5.1 dS/m)
+ - zapallo: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (6.3 dS/m)
+ - cebolla: salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (4.3 dS/m)
+ - yuca: calendario: ciclo 210 días > horizonte 6 meses; mes 1: Tmedia 26.6–29.1 °C sale del rango óptimo 25.0–29.0 °C; mes 2: Tmedia 27.6–29.7 °C sale del rango óptimo 25.0–29.0 °C; mes 3: Tmedia 27.1–29.7 °C sale del rango óptimo 25.0–29.0 °C; mes 5: Tmedia 25.5–29.2 °C sale del rango óptimo 25.0–29.0 °C; mes 6: Tmedia 23.5–28.4 °C sale del rango óptimo 25.0–29.0 °C
+
+PERENNES (módulo aparte, un año en producción)
+ - limon: descartado · riego neto 4 717–13 509 m3/ha/año · alertas 8 · salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (4.8 dS/m)
+ - uva: descartado · riego neto 7 667–17 666 m3/ha/año · alertas 8 · salinidad: ECe medida 8.5 dS/m ≥ ECe al 50 % de rendimiento (6.7 dS/m)
+ - mango: sin_datos · riego neto agua desconocida · alertas 9
+ - banano: sin_datos · riego neto 12 386–24 940 m3/ha/año · alertas 9
+ - cacao: sin_datos · riego neto 11 796–21 822 m3/ha/año · alertas 9
+ - cafe: sin_datos · riego neto 10 616–22 862 m3/ha/año · alertas 9
+ - papaya: sin_datos · riego neto agua desconocida · alertas 9
+
+DATOS QUE FALTAN (de más a menos cultivos afectados):
+ - cultivo anterior (afecta a 21 cultivos)
+ - drenaje de la parcela (afecta a 21 cultivos)
+ - pendiente (%) (afecta a 21 cultivos)
+ - presupuesto (afecta a 21 cultivos)
+ - agua de riego disponible por mes (m3) (afecta a 18 cultivos)
+ - umbral de profundidad de <cultivo> (17 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - rango térmico de <cultivo> (no está en los datos) (15 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - umbral de pH de <cultivo> (14 cultivos: arroz, maiz choclo, frijol grano, frijol verde…)
+ - ECw del agua de riego (afecta a 13 cultivos)
+ - umbral ECe de <cultivo> (8 cultivos: arveja, frijol de palo, yuca, mango…)
+ - años hasta primera cosecha de <cultivo> (7 cultivos: limon, uva, mango, banano…)
+ - costo de instalación de <cultivo> (7 cultivos: limon, uva, mango, banano…)
+
+SECUENCIAS (2 comparadas; se muestran 2)
+ - algodon → caupi: NO viable · meses 5.6–8.2 meses (cabe: si) · margen -2 779–26 573 PEN/ha · agua neta 1 538–11 073 m3/ha · ECe final desconocido (dS/m) · balance P2O5 -71–-9 kg/ha · K2O -172–-11 kg/ha · N -207–-22 kg/ha · caupi (siembra mes 10): calendario: ciclo 100 días > horizonte 3 meses; El Niño: días con lluvia ≥20 mm en meses [1] y drenaje desconocido: riesgo de anegamiento
+ - caupi → algodon: NO viable · meses 3.3 meses (cabe: si) · margen desconocido (PEN/ha) · agua neta 0–4 595 m3/ha · ECe final desconocido (dS/m) · balance P2O5 desconocido (kg/ha) · K2O desconocido (kg/ha) · N desconocido (kg/ha) · algodon (siembra mes 5): datos insuficientes en filtros críticos

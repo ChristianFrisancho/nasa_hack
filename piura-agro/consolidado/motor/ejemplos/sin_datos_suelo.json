@@ -1,0 +1,21 @@
+{
+  "parcela": {
+    "punto": [
+      -4.9,
+      -80.69
+    ],
+    "area_ha": 1.0,
+    "provincia": "Sullana",
+    "zona": "chira"
+  },
+  "suelo": {},
+  "agua": {
+    "m3_por_mes": 8000,
+    "eficiencia": 0.5
+  },
+  "presupuesto_pen": 10000,
+  "cultivo_anterior": "maiz amarillo duro",
+  "escenario": "sin_el_nino",
+  "mes_siembra": 8,
+  "horizonte_meses": 6
+}

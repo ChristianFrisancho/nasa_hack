@@ -1,0 +1,22 @@
+cultivo,familia,modulo,leguminosa,notas
+arroz,Poaceae,anual,0,
+maiz amarillo duro,Poaceae,anual,0,
+maiz choclo,Poaceae,anual,0,
+frijol grano,Fabaceae,anual,1,
+frijol verde,Fabaceae,anual,1,
+caupi,Fabaceae,anual,1,
+arveja,Fabaceae,anual,1,
+frijol de palo,Fabaceae,anual,1,semiperenne; se evalúa como anual de un ciclo; sin duración ni Kc en datos
+algodon,Malvaceae,anual,0,
+papa,Solanaceae,anual,0,
+piquillo,Solanaceae,anual,0,
+zapallo,Cucurbitaceae,anual,0,
+cebolla,Amaryllidaceae,anual,0,
+yuca,Euphorbiaceae,anual,0,ciclo largo (FAO-56 año 1 = 210 días); se evalúa como anual con advertencia
+mango,Anacardiaceae,perenne,0,
+limon,Rutaceae,perenne,0,
+banano,Musaceae,perenne,0,
+uva,Vitaceae,perenne,0,
+cacao,Malvaceae,perenne,0,
+cafe,Rubiaceae,perenne,0,
+papaya,Caricaceae,perenne,0,semiperenne; va al módulo de perennes

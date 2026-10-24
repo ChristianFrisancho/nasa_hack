@@ -1,0 +1,1 @@
+chulucanas: 52 filas -> /workspace/piura-agro/suelos/ejemplos/chulucanas.csv | estimado=38, desconocido=9, observado=5

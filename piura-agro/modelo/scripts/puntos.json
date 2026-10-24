@@ -1,0 +1,7 @@
+{
+  "chira_sullana":   {"lat": -4.90, "lon": -80.68, "nota": "valle del Chira, Sullana"},
+  "bajo_piura":      {"lat": -5.40, "lon": -80.72, "nota": "Bajo Piura, Catacaos-La Union"},
+  "medio_piura":     {"lat": -5.18, "lon": -80.62, "nota": "Medio Piura, Piura-Castilla"},
+  "alto_piura":      {"lat": -5.10, "lon": -80.16, "nota": "Alto Piura, Chulucanas-Morropon"},
+  "san_lorenzo":     {"lat": -4.93, "lon": -80.35, "nota": "San Lorenzo, Tambogrande"}
+}

@@ -1,0 +1,32 @@
+# Fuentes de datos: suelos y territorio (Piura)
+
+Todas las fuentes son públicas y gratuitas. La columna "Acceso" dice cómo se lee desde los scripts y qué falló.
+
+| Variable | Fuente | Resolución / fecha | Acceso | Tipo de evidencia | Incertidumbre / límite |
+|---|---|---|---|---|---|
+| Zona del CONTRATO | Límites distritales INEI 2024 (oficio 006099-2024-INEI/DNCE) vía INGEMMET GEOCATMIN, capa `SERV_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/2`; cruce con `datos/distrito_zona.csv` | polígono de distrito; 65 distritos | caché `datos/limites/distritos_piura_inei.geojson` (simplificado 0.0005°, ~50 m); `curl -k` (certificado no válido) | regional | 24 distritos ambiguos con `zona_alternativa`; las estadísticas por zona se calculan por cajas (80-97 % del área de cada caja cae en distritos de su misma zona) |
+| Lluvia (referencia) | PISCOp v2.1 mensual, SENAMHI, doi 10.6084/m9.figshare.21127423 (CC-BY 4.0) | 0.1°, 1981-2019 | figshare (la IRI Data Library pide login; iridl.senamhi.gob.pe no responde) | regional | sin 2023; interpolación de estaciones + CHIRP |
+| Temperatura (referencia) | PISCOt v1.2 diaria Tmax/Tmin, doi 10.6084/m9.figshare.22712365 | 0.1°, 1981-2020 | figshare | regional | sin 2023 |
+| Lluvia (satélite) | CHIRPS v2.0 mensual, UCSB CHC | 0.05°, 1981-2024 | COG por `/vsicurl/`; el servidor devuelve 403 con pedidos en paralelo | prediccion | subestima picos de Niño en la costa |
+| Lluvia y T2M (punto) | NASA POWER `PRECTOTCORR_SUM`, `T2M` | 0.5°×0.625° | API pública | prediccion | 3 zonas (Chira, San Lorenzo, Medio Piura) caen en la misma celda; Alto Piura en una celda de 1051 m |
+| ENSO costero | ICEN oficial IGP/ENFEN (NT ENFEN 01-2024) | mensual | `http://met.igp.gob.pe/datos/ICEN.txt` | observado (índice) | umbrales 0.5 / 1.3 / 2.1 / >3.5 |
+| Textura, pH, CO del suelo | ISRIC SoilGrids 2.0 | 250 m | REST + VRT | prediccion | huecos en desierto/urbano: se busca el píxel válido más cercano (≤2 km) y se avisa |
+| Unidad de suelo, profundidad, drenaje | HWSD v2.0 (FAO/IIASA) | 30″ (~1 km) | descarga ZIP | regional | ECe de HWSD solo como contexto: contradice la CE medida en chacra en las 4 zonas (Piura Datos) |
+| ECe medida en chacra | Recopilado por Piura Datos (`/workspace/piura-agro/restricciones/evidencia_observada.csv`): tesis Atoche 2025 (Chira), Vite 2015 (Medio), Mendoza 2025 (Tablazo Sur) y La Rosa 2021 (Alto) | predios / ensayos 2013-2024 | archivo local | medicion_local | extracto no declarado (si fuera 1:1, la ECe sería 1.8–3 veces mayor) |
+| ECe / salinidad Bajo Piura | ANA 2015, ERH Piura (tomos I-II), págs. 102, 118; FAO/UNALM 1990 (OCR del índice, sin páginas) | puntos de muestreo | `fuentes/` | medicion_local / regional | la cifra de 13 300 ha de FAO/UNALM 1990 se descartó por no poder verificarse |
+| Napa freática | ANA 2015 SEV (págs. 75-83, 41 sondeos: mediana 2.3 m; 20/41 <2 m; 11 <1 m), pozos pág. 110 | puntos | `fuentes/ANA_2015_ERH_Piura_extracto.md` | medicion_local | estacional; varía con el riego y con El Niño |
+| Tolerancia sal mango | Durán Zuazo et al. 2003 (SJAR abierto, págs. 68-69) | experimento | `fuentes/` | analogo_externo | portainjertos en España |
+| Pendiente | Copernicus GLO-30 DEM, Horn; máscara ESA WorldCover 2021 clase 40 | 30 m; adquisición 2011-2015 | S3 público | prediccion | el ruido del DEM infla la pendiente en terreno plano; se da también con DEM suavizado 5×5 |
+| Inundación | CENEPRED SIGRID (riesgo por distrito); Copernicus EMS EMSR199 (Niño 2017) | distrito / ~10 m | ArcGIS REST | regional | el riesgo es por distrito, no por parcela |
+| Peligros geológicos | INGEMMET GEOCATMIN | variable | ArcGIS REST | regional | cobertura incompleta |
+| El Niño 2026-27 | Comunicado oficial ENFEN N.° 18-2026 (ICEN 3.98 en ago-2026) | — | https://enfen.imarpe.gob.pe/download/comunicado-oficial-enfen-n-18-2026/?wpdmdl=2165 | regional | pronóstico, no observación |
+| CEw superficial | ANA IT 0076-2024 (UH Piura, 21–25 oct 2024) e IT 0074-2024 (UH Chira, 9–17 oct 2024); ANA nov-2015 (cuenca Piura) | 40 estaciones puntuales, una muestra en estiaje | PDF del SIAR Piura (`fuentes/cew/`); el repositorio ANA da error TLS | medicion_local | sin serie temporal; cuatro lecturas de 2024 con la unidad mal puesta: cifra de Piura Datos, estimada |
+| CEw de pozos | ANA, ERH Piura, cap. 9 (18 pozos IRHS, sep-2014) | rango Medio y Bajo | texto local (las tablas son imágenes) | medicion_local | sin valores pozo por pozo ni por zona |
+| CEw reservorio San Lorenzo | Perfil PSI-MINAG nov-2011 (GGE Jesús es mi Salvador, Tambogrande), Cuadro 13, laboratorio de suelos UNP | 1 muestra | https://dokumen.site/download/proyecto-de-riego-tecnifiacado-tambo-grande-piura-a5b39f03bcba0a (copia de terceros) | medicion_local | sin fecha de muestreo; no es muestra dentro de canal |
+| CEw pozos (tesis UNP) | Flores Huancas 2019 (Cura Mori, UNP/2009); tesis 2018 Progreso Bajo, Castilla (UNP/1806) | 5 y 7 pozos | http://repositorio.unp.edu.pe/handle/UNP/2009 ; http://repositorio.unp.edu.pe/handle/UNP/1806 | medicion_local | solo resumen vía buscador; repositorio UNP con timeout, ALICIA 403 |
+| Franja capilar | Lohman 1972, Ground-Water Hydraulics, USGS PP 708, Tabla 1, p. 3 (Atterberg) | laboratorio por tamaño de grano | https://doi.org/10.3133/pp708 | bibliografico | no es de Piura; en limos finos el ascenso supera 2 m |
+| FEN 2017 por distrito | INDECI, Informe de Emergencia N.º 607 (05/06/2017), cultivos afectados y perdidos por distrito | distrito → zona | `datos/fen/indeci_cultivos_distrito_zona.csv` | regional | provincia de Piura en 0 (falta de registro) |
+| FEN 2023 por distrito | INDECI, Informe de Emergencia N.º 2186 (27/07/2023) | distrito → zona | `datos/fen/indeci_cultivos_distrito_zona.csv` | regional | Sechura en 0 y 5 distritos ausentes; Talara en 0 |
+| Inundación 2023 | UNOSAT (Yaku/Niño costero 2023), área inundada por provincia (km² × 100 = ha) | provincia | `datos/fen_por_zona.csv` | regional | imagen satelital puntual, no el máximo del evento |
+| Huaicos | INGEMMET GEOCATMIN, inventario de peligros (TIP_PELIGRO 1000/1500 = flujos) | punto → zona | `datos/fen/ingemmet_flujos_por_zona.csv` | regional | la fecha es la del registro, no la del evento |
+| CEw de los 4 puntos ambiguos | ANA IT 0076-2024, Cuadro 6.3 (iones) + cifra de Piura Datos (precisión 08:12, metodo balance_ionico; Gráfico 6.7 en µS/cm no sostiene la unidad) | punto | `datos/balance_ionico_ana2024.csv`; `restricciones/aviso_territorio_cew.md` | medicion_local → estimado | error de balance de −11,7 % a +24 % |

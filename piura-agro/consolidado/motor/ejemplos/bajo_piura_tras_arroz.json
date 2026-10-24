@@ -1,0 +1,11 @@
+{
+  "parcela": {"punto": [-5.33, -80.68], "area_ha": 2.0, "provincia": "Piura", "zona": "bajo_piura"},
+  "suelo": {"ece_ds_m": [2.0, 3.5], "ph": 7.6, "profundidad_cm": 120, "drenaje": "moderado", "pendiente_pct": 1},
+  "agua": {"m3_por_mes": 12000, "ecw_ds_m": 0.8, "eficiencia": [0.45, 0.6], "intervalo_turno_dias": 10},
+  "presupuesto_pen": 15000,
+  "cultivo_anterior": "arroz",
+  "escenario": "sin_el_nino",
+  "mes_siembra": 6,
+  "horizonte_meses": 7,
+  "incorporar_residuos": null
+}

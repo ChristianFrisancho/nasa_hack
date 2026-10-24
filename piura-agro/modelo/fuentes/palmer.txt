@@ -1,0 +1,544 @@
+                                                            Engenharia Agrícola
+
+                                                            ISSN: 1809-4430 (on-line)
+                                                      www.engenhariaagricola.org.br
+
+
+Scientific Paper
+Doi: http://dx.doi.org/10.1590/1809-4430-Eng.Agric.v43n3e20220189/2023
+
+ WATER DEMAND AND WATER USE EFFICIENCY IN ‘PALMER’ MANGO CULTIVATION
+               IN THE LOW-MIDDLE SÃO FRANCISCO VALLEY
+
+                          Francisco B. da Silva Junior1*, Marcelo J. da Silva2,
+           Herica F. de S. Carvalho3, Cloves Vilas Boas dos Santos3, Thieres G. F. da Silva4,
+         Luciana S. B. de Souza4, Mario de M. Vilas Boas R. Leitão1, Magna S. B. de Moura1, 5
+1*
+ Corresponding author. Mestre em Engenharia Agrícola, Universidade Federal do Vale do São Francisco/Juazeiro - BA, Brasil.
+E-mail: franciscobento787@gmail.com | ORCID ID: https://orcid.org/0000-0002-8856-8543
+
+
+ KEYWORDS                     ABSTRACT
+ Mangifera indica L.,         The study aimed to determine the evapotranspiration (ETc) of the mango cv. ‘Palmer’
+ irrigation,                  over two productive cycles, analyzing water-use efficiency (WUE) and crop water
+ evapotranspiration.          productivity (CWP) to propose average crop coefficient (Kc) values for improving
+                              irrigation management under cultivation conditions in the Low-Middle São Francisco
+                              Valley. The study was conducted from July 2019 to May 2021 in a commercial ‘Palmer’
+                              mango orchard in Petrolina, State of Pernambuco, Brazil. Micrometeorological data was
+                              collected throughout the experimental period. The crop evapotranspiration (ETc) was
+                              determined using Bowen ratio energy balance (BREB), and then the Kc, WUE, and CWP
+                              were determined. The highest ETc values occurred during the floral induction phase (5.14
+                              ± 0.85 mm day-1), with a Kc of 0.85; however, the lowest values were observed during
+                              the fruit maturation phase (3.60 ± 0.73 mm day-1), with a Kc of 0.91. Average water
+                              consumption per cycle was 1445 mm, with a daily average of 4.39 mm day-1. WUE and
+                              CWP were 16.9 and 24.5 kg ha-1 mm-1, respectively. Average Kc values of 0.81, 0.76,
+                              0.85, 0.90, 0.95, and 0.91 are recommended for the vegetative growth, rest period and
+                              shoot maturation, floral induction, flowering, fruit development, and fruit maturation
+                              phases, respectively.
+
+
+INTRODUCTION                                                                     Annual rainfall in the Low-Middle of the São
+                                                                         Francisco Valley is below 500 mm year-1, which is
+        Mango (Mangifera indica L.) is among the main                    associated with a negative water balance for most of the
+fruits produced (around 1.5 million tons in 2020) and                    year, making irrigation essential for mango cultivation (Wei
+exported (over 243,000 tons and revenue of nearly US$ 247                et al., 2017; Medeiros et al., 2018). With the current high
+million) by Brazil (IBGE, 2020). About 90% of the exported               and increasing demand for water in agriculture, often
+volume comes from the Northeastern Semi-Arid Region,                     applied inefficiently, determining water demand
+especially the São Francisco River Valley, particularly the              parameters, such as crop evapotranspiration (ETc), is
+Low-Middle region where the fruit farming hubs of                        essential to improve irrigation management, aiming for
+Petrolina, State of Pernambuco, and Juazeiro, State of                   more precise and efficient water use, while maintaining
+Bahia, are located. This area covers about 30,000 hectares               high yields and ensuring sustainable development under
+cultivated with mango, accounting for approximately 40%                  conditions of low water availability (Alves et al., 2018;
+of the national production (Lima et al., 2018; IBGE, 2020).              Simões et al., 2021).
+
+1 Departamento de Engenharia Agrícola, Universidade Federal do Vale do São Francisco/Juazeiro - BA, Brasil.
+2 Universidade Federal Rural de Pernambuco/Recife - PE, Brasil.
+3 Universidade Federal de Pernambuco/Recife - PE, Brasil.
+4 Unidade Acadêmica de Serra Talhada, Universidade Federal Rural de Pernambuco/Serra Talhada - PE, Brasil.
+5 Departamento de Agrometeorologia, Empresa Brasileira de Pesquisa Agropecuária, EMBRAPA Semiárido/Petrolina - PE, Brasil.
+
+Area Editor: Fernando França da Cunha
+Received in: 10-19-2022
+Accepted in: 7-30-2023
+                                                                            Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+                                                                                                                          Edited by SBEA
+Francisco B. da Silva Junior, Marcelo J. da Silva, Herica F. de S. Carvalho, et al.
+
+         Water consumption of mango trees in the Low-                               Therefore, detailing the water consumption and the
+Middle region has been studied by several authors (Lopes et                  water use throughout the entire phenological cycle of the
+al., 2001; Azevedo et al., 2003; Teixeira et al., 2008; Silva,               ‘Palmer’ mango grown in the Low-Middle of the São
+2019). In these studies, micrometeorological methods were                    Francisco Valley can provide new reference parameters to
+especially applied, focusing on the Bowen Ratio method.                      improve irrigation management of the crop in the region.
+Mainly the Tommy Atkins and Kent varieties were studied,                     Hence, the objective of this study was to determine the
+which showed an average crop evapotranspiration ranging                      evapotranspiration of the mango cv. ‘Palmer’ over two
+between 2.3 and 5.9 mm day-1, with the most intense                          productive cycles, analyzing water use efficiency and crop
+consumption during the fruiting phase, for which the                         water productivity to propose average crop coefficient
+highest crop coefficient (Kc) values, close to 1.0, were                     values aiming to improve irrigation management under the
+obtained (Lopes et al., 2001; Azevedo et al., 2003; Teixeira                 cultivation conditions of the Low-Middle of the São
+et al., 2008; Silva et al., 2015; Silva, 2019). However, some                Francisco Valley.
+aspects remain unclear in these studies, such as potential
+effects of morphophysiological differences between                           MATERIAL AND METHODS
+cultivars and detailed variations throughout a complete
+                                                                             Description of the area and experimental period
+cultivation cycle, as most studies focus on post-flowering
+phases, neglecting the vegetative phase, which spans a                               The study was conducted in a commercial orchard at
+significant period of the productive cycle.                                  Andorinhas Farm (9°27’24” S; 40°36’86” W at an altitude
+         In this context, considering the commercial                         of 380 m above mean sea level), located in the municipality
+importance of mango varieties like ‘Tommy Atkins’,                           of Petrolina, Pernambuco State (Figure 1a), in the Low-
+‘Kent’, and ‘Palmer’, it is crucial to explore research more                 Middle São Francisco River Valley, a semi-arid region in
+extensively to determine water use by these varieties,                       Northeast Brazil. The climate is classified as Bswh’,
+especially for the ‘Palmer’, which lacks dedicated studies                   according to the Köppen’s classification, with a rainy
+even though being one of the predominant planted                             season concentrated between January and April (Álvares et
+variety in the Low-Middle of the São Francisco Valley                        al., 2013). Climatic normals for the site are shown in Figures
+(Lima et al., 2018).                                                         1b and 1c.
+
+
+
+
+                                                                                 Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Water demand and water use efficiency in ‘Palmer’ mango cultivation in the low-middle São Francisco Valley
+
+
+
+
+ FIGURE 1. Location and climatological conditions of the ‘Palmer’ mango orchard in Petrolina, State of Pernambuco, Brazil.
+
+                                                                           Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Francisco B. da Silva Junior, Marcelo J. da Silva, Herica F. de S. Carvalho, et al.
+
+       The experimental area of the orchard covers 5.08 ha,                  Adjustments were made based on farm water needs and the
+cultivated with ‘Palmer’ mangoe, grafted onto cv. ‘Espada’,                  crop’s phenological stages. Non-irrigation only occurred
+planted in November 2002, oriented East-West, spaced at 4                    when rainfall exceeded 5 mm per day or due to irrigation
+m x 7 m (357 plants ha-1). The soil at the studied area is of                system issues. The total water applied in the mango system
+the Quartzipsamment type (Mouco, 2008), at least 2 m deep,                   is shown in Figure 2d.
+sandy textured, and well-drained. In soil management, with                           The first evaluation cycle (cycle I) started on
+the orchard well established, soil coverage was                              03/07/2019; no production pruning occurred in this cycle as
+accomplished through the deposition of vegetative residues                   the farm adjusted its phytotechnical management to
+from pruning, which were shredded and kept in the planting                   establish a new harvest season. The beginning of the cycle
+line. Additionally, each cycle had 30 liters of goat manure                  was marked by cleaning pruning after the previous harvest,
+added per plant. These practices are crucial for improving soil              where only the remains of inflorescence structures, fruiting,
+water retention and availability under such texture conditions.              and some branches were removed; the end of this productive
+       A micro-sprinkler irrigation system was employed,                     cycle was on 29/06/2020, with the harvest. This was
+with field tests showing a flow rate of 21 L h-1 (input                      followed by a resting period and the start of the second
+pressure of 4.5 kgf cm-2 and output of 3.9 kgf cm-2),                        cycle (cycle II) happened with production pruning on
+achieving a water application efficiency of 85%. The crop                    14/07/2020, ending with the harvest on 04/05/2021. The
+was irrigated daily, split into two sessions, one in the                     phenological stages are highlighted in Table 1, with their
+morning (around 09h00) and other at dawn (around 01h00).                     respective durations.
+
+TABLE 1. Duration of the phenological stages of the ‘Palmer’ mango variety grown in the Low-Middle São Francisco River Valley.
+                                                                               No. of                                                No. of
+   Phenological stages                           Cycle I                                                  Cycle I
+                                                                               Days                                                  Days
+Vegetative growth              03 July 2019 to 28 August 2019                    57        14 July 2020 to 12 September 2020          61
+Vegetative rest and branch
+                            29 August 2019 to 15 November 2019                   79     13 September 2020 to 01 December 2020         80
+maturation
+Floral induction           16 November 2019 to 25 December 2019                  40               02-12 December 2020                 11
+Flowering                       26 December 2019 to 12 January 2020              18               13- 27 December 2020                 15
+Fruit development                  13 January 2020 to 01 May 2020               110       28 December 2020 to 31 March 2021           94
+Fruit maturation                     02 May 2020 to 29 June 2020                 59           01 April 2021 to 04 May 2021            34
+Total                                                                           363                                                   295
+
+
+        Fertilization was performed at the beginning of each                       Figure 2 describes the environmental conditions
+cycle, applying nitrogen (30 kg), phosphorus (20 kg), and                    observed in the orchard throughout the experimental period.
+potassium (30%). Nutritional needs were determined by
+farm technicians based on soil analyses (Supplementary                       Micrometeorological monitoring
+Material). At 100 days, counted from the beginning of the                            A seven meter tall micrometeorological tower was
+cycle, potassium, sulfur, boron, and zinc were applied weekly
+                                                                             installed inside the orchard. It was equipped with sensors to
+for about 40 days. At 140 days, dormancy was broken using
+                                                                             monitor daily micrometeorological variables (Table 2). All
+calcium and potassium-based products. After full flowering,
+potassium and nitrogen were applied, repeating potassium                     sensors were connected to a CR5000 data acquisition
+application 20 days before harvest. After two leaf flushes,                  system (Campbell Scientific Inc., Logan, Utah, USA),
+Paclobutrazol (PBZ) was applied to the soil as growth                        which was programmed to take measurements every 30
+regulator at dosages of 35.0 ml plant-1 and 4.0 L ha-1.                      seconds and store averages every 10 minutes.
+
+
+
+
+                                                                                 Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Water demand and water use efficiency in ‘Palmer’ mango cultivation in the low-middle São Francisco Valley
+
+
+
+
+FIGURE 2. Environmental variables observed in the ‘Palmer’ mango orchard under irrigation throughout the 2019-2020 (cycle I)
+and 2020-2021 (cycle II) in Petrolina-PE (Brazil), considering the phenological phases: VG - Vegetative growth; RM - Vegetative
+Rest and Branch Maturation; FI - Floral Induction; FL - Flowering; FD - Fruit Development; and FM - Fruit Maturation.
+
+TABLE 2. Sensors used for micrometeorological monitoring of ‘Palmer’ mango orchard in Petrolina, state of Pernambuco, Brazil.
+                 Parameter                        Instrument              Modelo / Manufacturer / Location                  Height (m)
+                                                                    CNR1 Net radiometer, Kipp &amp; Zonen B.V.,
+    Radiation balance components (Rn)           Net Radiometer                                                                   7.0
+                                                                                 Delft, Netherlands
+Dry bulb and wet bulb temperature (ts e tu)     Thermocouples                  Type T, Copper-Constantan                      3.6 e 5.6
+                                                                     HFT3-REBS, Campbell Scientific, Inc, Logan,
+              Soil heat flux (G)                Heat flux plates                                                                -0.02
+                                                                                  Utah, USA
+              Soil moisture (Us)                  FDR Sensor                   CS615, Campbell Scientific                    -0.4 e -0.7
+                                                                      03002 Wind Sentry, R. M. Young Company,
+              Wind speed (W)                     Anemometer                                                                      3.6
+                                                                            Traverse City, Michigan, USA
+                                                                       CS700-L Hydrological Services Rain Gage,
+              Precipitation (P)                   Pluviometer                                                                    8.0
+                                                                                Liverpool, Australian
+
+Bowen Ratio Method
+       Net radiation (Rn) and soil heat flux (G) were
+                                                                                The values of β were calculated from the equation:
+measured respectively by the net radiometer and the soil
+heat flux sensor. The latent heat flux (LE) was estimated                             Δ + γ (tu1 - tu2 )
+using Bowen ratio energy balance (BREB) as already used                         β=                       -1                                (2)
+                                                                                        γ (ts1 - ts2 )
+for mango trees (Silva, 2019; Souza et al., 2018), using the
+following expression:                                                   in which:
+              Rn - G                                                            ∆ - slope of the saturated vapour pressure curve, kPa
+       LE =                                                 (1)                 °C-1;
+              1+β
+                                                                                γ - psychrometric constant, kPa °C-1;
+in which:
+                                                                                tu1 e tu2 - wet bulb temperatures at two levels (levels 1
+       Rn - net radiation, W m-2;
+                                                                                and 2) of measurement above the crop canopy, °C, and
+       G - soil heat flux, W m-2,
+                                                                                ts1 e ts2 - dry bulb temperature at two levels (levels 1 and
+       β - Bowen ratio, dimensionless.                                          2) of measurement above the crop canopy, °C.
+
+
+                                                                           Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Francisco B. da Silva Junior, Marcelo J. da Silva, Herica F. de S. Carvalho, et al.
+
+         Potential inconsistencies in the BREB method were                                     CP
+                                                                                      WUE =                                              (6)
+assessed by examining the errors that resulted in invalid β                                     I
+and LE values, as defined by Perez et al. (1999). This
+                                                                             in which:
+assessment was based on measurements of vapor pressure
+profiles at various times, the precision of temperature and                           CP - crop productivity, kg ha-1, and
+vapor pressure sensors, and a consistent signal conversion                            I - irrigation, mm.
+in accordance with the flow-gradient relation. Besides these
+criteria, values of β < - 0.75 were deemed to cause                                 For productivity determination, all fruits from 10
+inconsistencies in determining energy flows (Ortega-Farias                   selected plants were harvested, counted, and weighed.
+et al., 1996).                                                               Productivity computation was performed considering the
+         To fill in invalid values, correlations were proposed               average fruit weight multiplied by the average fruit quantity
+using valid LE data obtained by traditional BERB from both                   per plant and the number of plants in one hectare (357
+cycles and LE data calculated using the modification                         plants ha-1).
+proposed by Lin et al. (2016) (Equation 3), or with Rn                              Crop water productivity (CWP, kg ha-1 mm-1) was
+measured at the micrometeorological tower when conditions                    determined for each evaluated cycle using the relationship:
+did not allow using the method of Lin et al. (2016).
+                                                                                              CP
+                                                                                      CWP =                                              (7)
+                  1         T 2               273                                             ETc
+        β = 1,46                exp -19,83 1-                   (3)
+                 RH        273                 T                             in which:
+in which:                                                                             CP - crop productivity, kg ha-1, and
+        T - absolute temperature, K, and                                              ETc - crop evapotranspiration, mm.
+        RH - relative humidity, decimal of %.
+                                                                             RESULTS AND DISCUSSION
+Evapotranspiration and Crop Coefficient                                      Crop Evapotranspiration
+       Crop evapotranspiration (ETc) was determined for                              Figure 3 shows the daily variation of crop
+10-minute intervals, based on consistent LE data, according                  evapotranspiration (ETc) for the ‘Palmer’ mango orchard
+to Expression 4. These ETc10min values were later integrated                 across two evaluated productive cycles, along with
+into daily average ETc data (mm day-1), considering the                      reference evapotranspiration (ETo). ETc ranged between
+period when Rn – G > 0.                                                      0.94 and 7.48 mm day-1 and it was lower at the beginning
+                      LE t ftime                                             and end of each cycle, which corresponded to the months of
+        ETc 10min =                                             (4)          May and July. These periods encompass the vegetative
+                         λ
+                                                                             growth and fruit maturation phases. On the other hand, ETc
+in which:                                                                    was higher during floral induction and flowering phases,
+        t - time interval for storing the average values of                  which coincided mostly with the last quarter of each year.
+        measurements (10 minutes),                                                   ETc is proportional to ETo, which is higher for most
+                                                                             of the period, indicating that the crop water demand is below
+        ftime - time scale adjustment factor (60 seconds); e,                the atmospheric demand. However, in the final phase of
+        λ - latent heat of vaporization, W m-2.                              cycle I, ETc exceeded ETo on certain days during fruit
+                                                                             development. This occurred when ETo dropped because of
+       Daily crop coefficients (Kc) were obtained during                     reduced incoming radiation in the orchard, which continued
+the two evaluated productive cycles, according to the                        into the fruit maturation phase. On average, the incoming
+following relationship:                                                      radiation during this time was 16.8 MJ m-2 day-1 (Figure 2b).
+               ETc                                                           During the same period, soil moisture levels were higher
+        Kc =                                                    (5)          than in other phases (Figure 2d). This increase in soil
+               ETo
+                                                                             moisture resulted from an increased rainfall (Figure 2d),
+in which:                                                                    allowing ETc to approach ETo values. In contrast, during
+        ETc - crop evapotranspiration, mm day-1, and                         the same phase in the following cycle, ETo was higher due
+                                                                             to increased incoming radiation, while ETc remained like
+        ETo - reference evapotranspiration, mm day-1.                        the previous cycle.
+                                                                                     After rainfall events, ETc rises and approaches ETo
+        Daily ETo was estimated by the Penman-Monteith-                      values. The micro-sprinkler irrigation system used allows a
+FAO 56 method (Allen et al., 1998). To do so, we used data                   wetted area concentrated beneath the canopy (Simões et al.,
+collected at the agrometeorological station located 500 m                    2018). As a result, on days without rain, values calculated
+from the orchard on the study farm.                                          using the Bowen ratio method typically reflect low
+        For results presentation, all daily data were                        transpiration and evaporation levels beneath the canopy. In
+converted to averages per phenological phase of each cycle                   contrast, after rain, the entire surface is moistened,
+(Table 1), considering the mango management under                            including the inter-row spaces, resulting in increased LE,
+irrigated tropical conditions.                                               likely due to increased soil evaporation. As a
+Water-Use Efficiency and Crop Water Productivity                             micrometeorological method, the Bowen ratio energy
+                                                                             balance (BREB) accounts for all surface fluxes, including
+       Water-use efficiency (WUE, kg ha-1 mm-1) was                          evapotranspiration, without distinguishing between
+obtained for each production cycle through the expression:                   transpiration and evaporation.
+
+                                                                                 Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Water demand and water use efficiency in ‘Palmer’ mango cultivation in the low-middle São Francisco Valley
+
+
+
+
+FIGURE 3. Reference evapotranspiration (ETo) and crop evapotranspiration (ETc) of irrigated mango cv. ‘Palmer’ throughout
+the 2019-2020 (I) and 2020-2021 (II) productive cycles, in Petrolina municipality, state of Pernambuco, Brazil, considering the
+phenological phases: VG - Vegetative growth; RM - Vegetative Rest and Branch Maturation; FI - Floral Induction; FL -
+Flowering; FD - Fruit Development; and FM - Fruit Maturation.
+
+Crop Coefficient                                                        fruit maturation, there was a decrease in Kc from the
+                                                                        previous phase in both cycles.
+        The crop coefficient (Kc) in Figure 4 highlights the
+                                                                                According to Wei et al. (2017), fruiting requires
+impact of crop development on water demand. Average Kc
+rises from the vegetative growth phase to the vegetative rest           more water, especially during the first six weeks of fruit
+and branch maturation phases in both cycles. The Kc varies              formation. During this time, water scarcity can lead to fruit
+between the two cycles during vegetative rest and branch                falling off the trees prematurely, as well as a decrease in
+maturation to fruit development, with lower values during               fruit size and weight in the final phase. On the other hand,
+floral induction and flowering in cycle I than those in cycle           adequate water supply ensures optimal physiological
+II, wherein Kc values remain close to 0.9. Finally, during              processes and productive success.
+
+
+
+
+FIGURE 4. Cultivation coefficient (Kc) of mango cv. ‘Palmer’ irrigated throughout the 2019-2020 (I) and 2020-2021 (II) cycles,
+in Petrolina municipality, state of Pernambuco, Brazil, considering the phenological phases: VG - Vegetative growth; RM -
+Vegetative Rest and Branch Maturation; FI - Floral Induction; FL - Flowering; FD - Fruit Development; and FM - Fruit Maturation.
+
+
+
+                                                                           Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Francisco B. da Silva Junior, Marcelo J. da Silva, Herica F. de S. Carvalho, et al.
+
+       This study presented Kc curve similar to previous                     the plants consume less water than atmospheric conditions
+studies in the region with other mango varieties. For                        allow and requires more water during new leaf growth
+example, Teixeira et al. (2008) studied the Tommy Atkins                     compared to the vegetative rest and branch maturation
+cultivar and found Kc values between 0.6 and 1.2 over two                    stages. Higher water consumption during rest and branch
+production cycles.                                                           maturation, when ETc was 4.69 mm day-1, was conditioned
+       Table 3 presents the mean of ETc per phenological                     by atmospheric conditions that enhanced ETc, confirmed by
+phase for each cycle, along with ETo and Kc values. ETc                      higher ETo at this stage. Kc increased in the followed
+increased during Cycle I and Kc decreased in average from                    phases when it reaches 1.0 in average during the fruit
+vegetative growth (Kc = 0.82) to vegetative rest and branch                  development and maturation, reflecting as well the crop
+maturation (Kc = 0.72). This suggests that during this phase,                water needs that approaches the atmospheric demand.
+
+TABLE 3. Crop evapotranspiration (ETc), reference evapotranspiration (ETo), and crop coefficient (Kc) of irrigated mango
+‘Palmer’ in Petrolina municipality, state of Pernambuco, Brazil, throughout the 2019-2020 (I) and 2020-2021 (II) productive cycles.
+
+                                                                             Cycle I                 Cycle II                 Average
+                      Phenological stages                             ETc     ETo             ETc      ETo             ETc      ETo
+                                                                                 -1
+                                                                                       Kc                -1
+                                                                                                                Kc                      Kc
+                                                                       mm day                  mm day                   mm day-1
+Vegetative growth                                                     3.85     4.19    0.82   3.92     4.31     0.80   3.89     4.25    0.81
+Vegetative rest and branch maturation                                 4.69     5.93    0.72   4.73     5.43     0.80   4.71     5.68    0.76
+Floral induction                                                      4.87     5.79    0.78   5.40     5.36     0.91   5.14     5.58    0.85
+Flowering                                                             4.51     4.63    0.91   5.48     5.69     0.89   5.00     5.16    0.90
+Fruit development                                                     4.44     4.35    1.00   4.75     4.91     0.90   4.60     4.63    0.95
+Fruit maturation                                                      3.41     3.24    1.00   3.79     4.32     0.82   3.60     3.78    0.91
+Average                                                               4.22     4.97    0.88   4.46     5.35     0.84   4.49     4.85    0.86
+
+        In cycle II, Kc values followed a similar pattern to                 practices between cycles. Cycle I started with a cleaning
+the previous period, but the value of 0.80 was maintained                    pruning conducted after the previous harvest to align the
+during vegetative growth and rest, followed by an increase                   production cycle with buyer demands, whereas Cycle II
+during floral induction, higher than the previous cycle (Kc                  involved a production pruning with an already standardized
+= 0.91). One reason was that the soil water availability was                 production system. These conditions led to a higher
+higher because of the rainfall events, despite the reduced                   production of inflorescences in cycle II, which may be
+irrigation, being higher in this period than the previous one                linked to higher temperatures during floral induction in this
+mainly in the inter row parts of the orchard. Another                        cycle (Figure 2a), resulting in more fruits per plant.
+difference was the decrease in Kc during maturation (Kc =                    Additionally, these factors likely contributed to enhanced
+0.82) compared to the previous cycle, which may be related                   leaf development, thereby increasing the resources
+to changes in crop management, reducing the duration of                      available for photosynthetic processes, biomass
+this phase and distinct environmental conditions like                        accumulation, and fruit production.
+radiation and soil water availability.                                               Irrigation-based WUE was equivalent to 11.5 kg ha-1
+                                                                             mm in cycle I and 22.3 kg ha-1 mm-1 in cycle II. The
+                                                                                  -1
+Water Use Efficiency and Crop Water Productivity
+                                                                             difference in WUE between cycles is due to the
+        Figure 5 shows that irrigation applied 2,393.1 mm in                 management practices adopted, as the crop has better
+cycle I and 1,918.3 mm in cycle II. Accumulated rainfall                     productivity in cycle II compared to cycle I. Simões et al.
+was 448.5 mm in cycle I and 377.7 mm in cycle II. In both                    (2021) obtained values of 22.7 and 36.6 kg ha-1 mm-1 for
+cycles, water inputs were excessive compared to                              two cycles of mango cv. ‘Kent’ grown in Petrolina-PE,
+accumulated crop evapotranspiration of 1,554.4 mm in                         using an irrigation depth of 100% of the recommended ETc.
+cycle I and 1,439.4 mm in cycle II.                                          In a study conducted in Spain under a subtropical
+        In Cycle I, the total orchard productivity was 27.53 t               Mediterranean climate, Zuazo et al. (2019) obtained a WUE
+ha-1, equivalent to 134 fruits per plant. In contrast, Cycle II              of 21.2 kg ha-1 mm-1 for cv. ‘Tommy Atkins’. Therefore,
+saw an increase to 42.77 t ha-1, or 218 fruits per plant. The                irrigation can be managed more efficiently by developing
+average productivity in the first cycle was close to the                     strategies to reduce water application under similar
+regional average for mangoes in the Low-Middle of the São                    conditions to the evaluated orchard, while maintaining or
+Francisco Valley, which is 28.7 t ha-1, as reported by IBGE                  even increasing productivity, as highlighted by Simões et al.
+(2020); this value was exceeded in the second cycle. This                    (2021). This would reduce costs associated with irrigation
+difference emphasizes the impact of varying management                       and increase WUE (Hahn et al., 2022).
+
+
+
+
+                                                                                 Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Water demand and water use efficiency in ‘Palmer’ mango cultivation in the low-middle São Francisco Valley
+
+
+
+
+FIGURE 5. Accumulation of precipitation (P), irrigation (I), precipitation + irrigation (P+I), reference evapotranspiration (ETo),
+and crop evapotranspiration (ETc) water depths in an irrigated ‘Palmer’ mango orchard over the 2019-2020 (I) and 2020-2021
+(II) cycles, in Petrolina, state od Pernambuco, Brazil, considering the phenological phases: VG - Vegetative growth; RM -
+Vegetative Rest and Branch Maturation; FI - Floral Induction; FL - Flowering; FD - Fruit Development; and FM - Fruit Maturation.
+
+        CWP was 17.7 kg ha-1 mm-1 in cycle I and 32.1 kg                          Brazilian semi-arid areas. As recommended by
+ha mm-1 in cycle II. The difference between cycles again
+  -1                                                                              irrigation management, soil, plant, and atmospheric
+arises due to the distinct management practices employed in                       conditions should be monitored on the property for
+each cycle. The higher value for cycle II is closer to the                        optimal vegetative and productive performance of
+value obtained by Teixeira & Bastiaanssen (2009), for the                         the plants, and necessary adjustments should be
+same region, on the cv. ‘Tommy Atkins’, with a CWP of                             made according to the orchard’s needs.
+40.0 kg ha-1 mm-1.                                                      (4)       The water use efficiency of the orchard evaluated
+                                                                                  was low, as the irrigation applied significantly
+CONCLUSIONS                                                                       exceeded the water consumption of plants. Thus, in
+                                                                                  ‘Palmer’ mango production systems under similar
+(1)    Average water consumption during a complete                                conditions, strategies to reduce water application in
+       productive cycle of irrigated ‘Palmer’ mango                               irrigation management should be considered.
+       growing in the Low-Middle São Francisco Valley
+       was 1,445 mm.
+                                                                        ACKNOWLEDGEMENTS
+(2)    The prevailing environmental conditions in each
+       phase influenced crop evapotranspiration (ETc)                          The authors express their gratitude to the Federal
+       changes throughout the cycle. The highest ETc                    University of the São Francisco Valley (UNIVASF),
+       occurred during the Floral Induction phase,                      especially to the Graduate Program in Agricultural
+       averaging 5.14 mm day-1 (Kc = 0.85) due to a greater             Engineering, and to the Brazilian Agricultural Research
+       soil water availability caused by frequent rainfall              Corporation (EMBRAPA) for their collaborative
+       events. It was lower during the Fruit Maturation                 contributions to this research. We also thank Fazenda
+       phase, averaging 3.60 mm day-1 (Kc = 0.91), when                 Andorinhas for their partnership, provision of the study
+       there was less intense incident radiation in the                 area, and sharing of crop management information. This
+       orchard.                                                         work was supported by the Coordination for the
+                                                                        Improvement of Higher Education Personnel - Brazil
+(3)    Based on the two cycles evaluated, we recommend
+                                                                        (CAPES), Funding Code 001.
+       average crop coefficient (Kc) values of 0.81, 0.76,
+       0.85, 0.90, 0.95, and 0.91 for the respective phases
+                                                                        SUPPLEMENTARY MATERIAL
+       of vegetative growth, rest and maturation, floral
+       induction, flowering, fruit development, and                             Chemical properties of soil from the 0-30 cm depth
+       maturation. These values can be used as a reference              layer, in two periods over two productive cycles of ‘Palmer’
+       for better water application in irrigated ‘Palmer’               mango orchard, in Petrolina municipality, state of
+       mango cultivation under similar conditions in                    Pernambuco, Brazil.
+
+
+                                                                              Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Francisco B. da Silva Junior, Marcelo J. da Silva, Herica F. de S. Carvalho, et al.
+
+
+                                                          Soil Chemical Analysis
+   Locality: Andorinhas farm                                              Crop: ‘Palmer’ Mango
+   Municipality/State: Petrolina/PE                                       Depth: 0 – 30 cm
+                                              M.O.         pH       pH      P-rem.      P-M-1                         P-res.          S-SO42-
+                                              g kg-1      (H2O)        (KCl)        mg L-1         ---------------- mg dm-3 ----------------
+   05 December 2019                            8.1          **          6.6             **              19.8           5.1             12.5
+   19 November 2020                            7.3          **          5.8             **              44.8           4.8              3.1
+                                              Ca2+        Mg2+          K+             Na+         Al3-        H+Al            SB         T
+                                                                                                   -3
+                                            ------------------------------------------- cmolc dm --------------------------------------------
+   05 December 2019                            6.15        0.54        0.09            0.04        6.81         0.0            0.34      7.15
+   19 November 2020                            2.40        0.52        0.07            0.20        3.19         0.0            0.31      3.50
+                                                M           V          C.E.            Fe2+       Mn2+         Cu2+            Zn2+       B
+                                                                              -1                                      -3
+                                                ------ % ------       dS m            ------------------------ mg dm ------------------------
+   05 December 2019                            0.0        95.27        0.50            10.8        14.5         1.5            32.4      2.10
+   19 November 2020                            0.0        91.04        0.39            29.2        26.6         2.0            34.0      0.27
+                                                  Relationship between bases                                   Saturation (%)
+                                                                         (Ca+Mg)/
+                                             Ca/Mg     Ca/K      Mg/K                              Ca          Mg               K        Na
+                                                                             K
+   05 December 2019                           11.4      71.8      6.3      78.1                    86.0         7.5            1.2       0.5
+   19 November 2020                         4.6       34.6       7.5                   42.0        68.4        14.8            2.0       5.8
+   M.O.: Soil organic matter (muffle method)
+   P-rem.: Remaining phosphorus
+   P-M-1: Phosphorus - mehlich-1 extractor
+   P-res.: Phosphorous resin method
+   SB: Sum of exchangeable bases
+   T: Cation exchange capacity
+   m: Aluminum saturation index
+   V: Base saturation index
+   C.E.: Electrical conductivity in the saturation paste extract
+
+REFERENCES                                                                     IBGE - Instituto Brasileiro de Geografia e Estatística
+                                                                               (2020) PAM - Produção agrícola Municipal. Available:
+Allen RG, Pereira LS, Raes D, Smith M (1998) Crop                              https://sidra.ibge.gov.br/pesquisa/pam/tabelas. Accessed
+evapotranspiration - Guidelines for computing crop water                       Feb 16, 2022.
+requirements. Rome, FAO (Irrigation and drainage paper 56).
+                                                                               Lima JRF, Almeida GVB, Pereira A, Araújo Júnior JN
+Álvares CA, Stape JL, Sentelhas PC, Gonçalves JDM,                             (2018) Análise do mercado de manga produzida no Vale do
+Sparovek G (2013) Köppen's climate classification map                          São Francisco: cenário atual e perspectivas para o curto
+for Brazil. Meteorologische Zeitschrift 22(6): 711-728.                        prazo. In: Congresso da Sociedade Brasileira de Economia,
+http://doi.org/10.1127/0941-2948/2013/0507                                     Administração e Sociologia Rural do Regional Nordeste.
+                                                                               Juazeiro, UNIVASF: SOBER-NE, Anais... Available:
+Alves ES, Lima DF, Barreto JAS, Santos DP, Santos MAL                          http://www.alice.cnptia.embrapa.br/alice/handle/doc/1099
+(2018) Determinação do coeficiente de cultivo para a                           656. Accessed Jun 20, 2022.
+cultura do rabanete através de lisimetria de
+                                                                               Lin KM, Juang JY, Shiu YW, Chang LFW (2016)
+drenagem. Irriga 22(1): 194-203.
+                                                                               Estimating the bowen ratio for application in air quality
+http://doi.org/10.15809/irriga.2017v22n1p194-203                               models by integrating a simplified analytical expression
+Azevedo PV, Silva BB, Silva VPR (2003) Water                                   with measurement data. Journal of Applied Meteorology
+requirements of irrigated mango orchards in northeast                          and Climatology 55(4): 1041-1048.
+Brazil. Agricultural water management 58(3): 241-254.                          http://doi.org/10.1175/JAMC-D-15-0080.1
+DOI: http://doi.org/10.1016/S0378-3774(02)00083-5                              Lopes PMO, Silva BB, Azevedo PV, Silva VPR, Teixeira
+                                                                               ADC, Soares JM, Espínola Sobrinho J (2001) Balanço de
+Hahn F, Valle S, Navarro-Gómez C (2022) Pruning and                            energia num pomar de mangueiras irrigado. Revista
+water saving management effects on mango high-density                          Brasileira de Agrometeorologia 9(1): 1-8. Available:
+and mature orchards. Agronomy 12: 2623.                                        http://www.alice.cnptia.embrapa.br/alice/handle/doc/1343
+https://doi.org/10.3390/agronomy12112623                                       36. Accessed Aug 08, 2022.
+
+                                                                                   Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+Water demand and water use efficiency in ‘Palmer’ mango cultivation in the low-middle São Francisco Valley
+
+Medeiros RM, Holanda RM, Viana MA, Silva VP (2018)                      Simões WL, Ferreira PPB, Mouco MAC, Lima MAC,
+Climate classification in Köppen model for the state of                 Guimarães MJM, Silva JAB (2018) Produção e respostas
+Pernambuco – Brazil. Revista de Geografia (Recife) 35(3):               fisiológicas da mangueira cv. Keitt sob diferentes sistemas
+219-234. Available:                                                     de irrigação no Submédio do São Francisco. Irriga 23(1):
+https://periodicos.ufpe.br/revistas/revistageografia/article/v          34-43. http://doi.org/10.15809/irriga.2018v23n1p34
+iew/229388. Accessed Aug 02, 2022.
+                                                                        Souza PJOP, Rodrigues JC, Sousa AML, Souza EB (2018)
+Mouco MAC (2008) Manejo da floração de mangueiras no
+semi-árido do nordeste brasileiro com inibidores da síntese             Diurnal energy balance in a mango orchard in the
+de giberelinas. Phd Thesis, Universidade Estadual Paulista              northeast of Pará, Brazil. Revista Brasileira de
+“Júlio de Mesquita Filho”.                                              Meteorologia 33(3): 537-546. http://doi.org/10.1590/0102-
+                                                                        7786333012
+Ortega-Farias SO, Cuenca RH, Ek M (1996) Daytime
+variation of sensible heat flux estimated by the bulk                   Teixeira AHC, Bastiaanssen WGM (2009) Uso do
+aerodynamic method over a grass canopy. Agricultural and                sensoriamento remoto para a determinação da
+Forest Meteorology 81(1-2): 131-143.                                    produtividade de água no Submédio São Francisco. In:
+https://doi.org/10.1016/0168-1923(95)02278-3                            Simpósio Brasileiro de Sensoriamento Remoto. Natal,
+Perez PJ, Castellvi F, Ibanez M, Rosell JI (1999)                       INPE, Anais... Available:
+Assessment of reliability of Bowen ratio method for                     http://www.alice.cnptia.embrapa.br/alice/handle/doc/1619
+partitioning fluxes. Agricultural and Forest Meteorology                96. Accessed Jul 29, 2022.
+97(3): 141-150. https://doi.org/10.1016/S0168-
+                                                                        Teixeira AHC, Bastiaanssen WGM, Moura MSB, Soares
+1923(99)00080-5
+                                                                        JM, Ahmad MUD, Bos MG (2008) Energy and water
+Silva JS, Campeche LFDSM, Barbosa DF, Lira RM,                          balance measurements for water productivity analysis in
+Barnabé JMC, Souza DHS (2015) Estimation of the                         irrigated mango trees, Northeast Brazil. Agricultural and
+mango crop evapotranspiration in the São Francisco                      Forest Meteorology 148(10): 1524-1537.
+Valley. Revista Geama 1(2): 128-140. Available:
+                                                                        http://doi.org/10.1016/j.agrformet.2008.05.004
+https://www.journals.ufrpe.br/index.php/geama/article/vie
+w/489                                                                   Wei J, Liu G, Liu D, Chen Y (2017) Influence of irrigation
+Silva MJ (2019) Evapotranspiração e coeficiente da                      during the growth stage on yield and quality in mango
+cultura da mangueira ‘Kent’ cultivada no Submédio do                    (Mangifera indica L). PLoS ONE 12(4): e0174498.
+Vale do São Francisco. Master Thesis, Universidade                      https://doi.org/10.1371/journal.pone.0174498
+Federal do Vale do São Francisco.                                       Zuazo VHD, Pleguezuelo CRR, Ruiz BG, Gordillo SG,
+Simões WL, Andrade VP, Mouco MA, Silva JS (2021)                        García-Tejero IF (2019) Water use and fruit yield of
+Produção e qualidade da mangueira ‘Kent’ (Mangifera                     mango (Mangifera indica L.) grown in a subtropical
+indica L.) submetida a diferentes lâminas de irrigação no               Mediterranean climate. International Journal of Fruit
+semiárido nordestino. Revista em Agronegócio e Meio                     Science 19(2): 136-150.
+Ambiente 14(2): 1-11. http://doi.org/10.17765/2176-                     https://doi.org/10.1080/15538362.2018.1493960
+9168.2021v14n2e7832
+
+
+
+
+                                                                           Engenharia Agrícola, Jaboticabal, v.43, n.3, e20220189, 2023
+

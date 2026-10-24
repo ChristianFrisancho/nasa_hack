@@ -1,0 +1,175 @@
+"""Motor de rotacion: filtros duros primero, luego margen esperado por cultivo. Vectorizado sobre escenarios.
+
+Entrada: DataFrame de escenarios (una fila por parcela-campaña) con las columnas de params/escenario_rangos.csv.
+Salida: margen (PEN/ha) por cultivo, mascara de viabilidad y motivo del primer filtro que falla.
+"""
+import pathlib
+import numpy as np
+import pandas as pd
+
+BASE = pathlib.Path(__file__).resolve().parents[1]
+CULT = pd.read_csv(BASE / "params/cultivos.csv")
+CROPS = list(CULT.cultivo)
+ZONAS = ["chira_sullana", "bajo_piura", "medio_piura", "alto_piura", "san_lorenzo"]
+RANGOS = pd.read_csv(BASE / "params/escenario_rangos.csv").set_index("feature")
+DEM = pd.read_csv(BASE / "data/demanda_agua.csv")
+ZPAR = pd.read_csv(BASE / "params/zonas.csv").set_index("zona").loc[ZONAS]
+REND_Z = pd.read_csv(BASE / "params/rend_zona.csv").pivot(index="zona", columns="cultivo", values="rend_ref_t_ha").loc[ZONAS, CROPS]
+EA_SUPERFICIE = 0.60  # FAO Training Manual 4 (t7202e08) Tabla 8: eficiencia de aplicacion en parcela, riego por superficie
+_PL = pd.read_csv(BASE / "data/fuentes/plagas_hospedantes_condiciones_v2.csv")  # copia de nasa_hack/piura-data (ronda 4)
+_ALIAS = {"arroz": ["arroz"], "maiz_amarillo_duro": ["maiz", "maíz"], "algodon": ["algod"], "frijol": ["frijol"],
+          "caupi": ["caup"], "camote": ["camote"]}
+def _agentes(c):
+    m = _PL["crop"].astype(str).str.lower().apply(lambda v: any(a in v for a in _ALIAS[c]))
+    return set(_PL.loc[m, "agent_as_source"].astype(str).str.strip().str.lower())
+AGENTES = {c: _agentes(c) for c in CROPS}
+# comparte[i, j] = el previo i y el candidato j comparten al menos un agente segun plagas_hospedantes_condiciones_v2.csv
+COMPARTE = np.array([[len(AGENTES[a] & AGENTES[b]) > 0 for b in CROPS] for a in CROPS])
+# hipotesis declaradas (estado=hipotesis en ranking_features.csv)
+SW0_FRAC = 0.5          # fraccion de TAW llena al sembrar
+REC_N, REC_P, REC_K = 0.5, 0.25, 0.6  # eficiencia de recuperacion del fertilizante
+UMBRAL_PERDIDA = 0.5    # filtro duro: perdida esperada >50% por agua o sal = no viable
+P_DREN = list(ZPAR.p_drenaje_malo)  # ronda 4: P por zona, DelaTorre/ILRI evaluacion 1986 (params/zonas.csv)
+# ronda 4: rangos por zona con fuente (params/zonas.csv); NaN = se usa el rango global de escenario_rangos.csv
+ZR = {"ece_ds_m": [tuple(r) for r in ZPAR[["ece_min", "ece_central", "ece_max"]].to_numpy(float)],
+      "pendiente_pct": [tuple(r) for r in ZPAR[["pend_min", "pend_central", "pend_max"]].to_numpy(float)]}
+
+def usar_demanda(dem: pd.DataFrame):
+    """Ronda 4: cambia la demanda de agua activa (data/demanda_agua_<clima>.csv) para alternativas de clima."""
+    global _etc, _pef
+    _etc = dem.pivot_table(index=["zona", "anio", "mes_siembra"], columns="cultivo", values="etc_mm")[CROPS]
+    _pef = dem.pivot_table(index=["zona", "anio", "mes_siembra"], columns="cultivo", values="peff_mm")[CROPS]
+
+
+usar_demanda(DEM)
+ANIOS = sorted(DEM.anio.unique())
+# ronda 3: el FEN es ESCENARIO, no feature. Campaña agricola C = siembras de ago(C-1) a jul(C); anio de siembra =
+# C-1 si mes>=8, si no C. 'normal' sortea campañas 2001-2024 sin 2017 ni 2023 (FEN costero 2017 y 2023);
+# 'fen_2017' y 'fen_2023' fijan esa campaña (clima real de esos años; ronda 4: daño por inundacion solo en fen_2017, ver P_INUND).
+ESCENARIOS = {"normal": [c for c in range(2001, 2025) if c not in (2017, 2023)], "fen_2017": [2017], "fen_2023": [2023]}
+MES_CORTE = 8
+# ronda 4: dano por inundacion solo en fen_2017. P de perder la campaña entera = fraccion del cultivo de la zona inundada
+# en EMSR199 (Copernicus EMS, 23-30 mar 2017, x ESA WorldCover 2021; suelos/datos/zonas_ece_drenaje_fen.csv filas
+# cultivo_inundado_FEN2017): Chira 0.4 %, Bajo 2.1 %, Medio 4.6 %. Son cotas inferiores (instantanea, AOI parcial).
+# Alto y San Lorenzo: desconocido (sin mapeo), queda 0 = NO MODELADO. fen_2023: sin dato por zona, NO MODELADO.
+# El dano es igual para los 6 cultivos (no hay fuente de tolerancia diferencial), asi que no reordena el ranking.
+P_INUND = {"fen_2017": [0.004, 0.021, 0.046, 0.0, 0.0]}
+
+
+def evaluar(esc: pd.DataFrame):
+    n = len(esc)
+    z = np.asarray(esc.zona).astype(int).clip(0, 4)
+    ms = np.asarray(esc.mes_siembra).astype(int).clip(1, 12)
+    camp = np.asarray(esc.campania).astype(int)
+    an = np.where(ms >= MES_CORTE, camp - 1, camp)
+    idx = pd.MultiIndex.from_arrays([np.array(ZONAS)[z], an, ms])
+    etc = _etc.reindex(idx).values
+    pef = _pef.reindex(idx).values
+    c = {k: CULT[k].to_numpy(dtype=object if CULT[k].dtype.kind not in "fi" else float)[None, :] for k in CULT.columns}
+    col = lambda k: np.asarray(esc[k], float)[:, None]
+    # agua (FAO-56 + Ky FAO-33)
+    sw0 = SW0_FRAC * col("taw_mm_m") * c["Zr_m"]  # agua almacenada util al sembrar
+    # ronda 2: el arroz inundado ya cuenta percolacion y lamina en agua_extra_arroz_mm (FAO Manual 3), asi que no se le
+    # aplica la eficiencia de aplicacion en parcela (0.60); el resto de cultivos usa la eficiencia completa
+    es_arroz = (c["cultivo"] == "arroz")
+    # ronda 2b: el arroz no usa la dotacion promedio ANA (promedio de todos los cultivos, el modelo lo daba inviable en las
+    # 5 zonas aunque es el cultivo dominante). Usa el volumen en parcela de ESCO arroz Piura 2024 (10000-18000 m3/ha,
+    # INIA 2020; la estructura de costos ESCO usa 18000 m3). Ese volumen ya esta en parcela: sin eficiencia de conduccion
+    # ni de aplicacion; las perdidas en parcela van en agua_extra_arroz_mm.
+    extra = np.where(es_arroz, col("agua_extra_arroz_mm"), c["agua_extra_mm"])
+    riego = np.where(es_arroz, col("agua_arroz_m3_ha") / 10, col("agua_riego_mm") * col("eficiencia_riego"))
+    oferta = pef + riego + sw0 - extra
+    eta = np.clip(oferta, 0, etc)
+    yw = np.clip(1 - c["Ky"] * (1 - eta / etc), 0, 1)
+    # salinidad Maas-Hoffman
+    ys = np.clip(1 - c["b_pct"] / 100 * np.clip(col("ece_ds_m") - c["ECe_umbral"], 0, None), 0, 1)
+    # sanidad (ronda 2): penaliza solo si previo y candidato comparten un agente listado en plagas v2
+    prev = np.asarray(esc.cultivo_previo).astype(int).clip(0, len(CROPS) - 1)
+    fam_prev = CULT.familia.to_numpy(dtype=object)[prev][:, None]
+    yh = np.where(COMPARTE[prev], 1 - col("pen_sanidad"), 1.0)
+    rend = REND_Z.to_numpy()[z] * col("factor_rend") * yw * ys * yh
+    if "inundado" in esc:  # ronda 4: FEN 2017, perdida total de la campaña con P EMSR199
+        rend = rend * (1 - col("inundado"))
+    if "mrend_" + CROPS[0] in esc:  # ronda 4: error del rendimiento de referencia por celda (solo intervalo.py)
+        rend = rend * np.column_stack([np.asarray(esc["mrend_" + k], float) for k in CROPS])
+    # NPK
+    leg_prev = (fam_prev == "Fabaceae")
+    n_ofer = col("n_suelo_kg_ha") + np.where(leg_prev, col("credito_n_leguminosa"), 0)
+    def_n = np.clip(rend * c["N_kg_t"] * np.where(c["familia"] == "Fabaceae", 0.0, 1.0) - n_ofer, 0, None) / REC_N
+    def_p = np.clip(rend * c["P2O5_kg_t"] - col("p_suelo_kg_ha"), 0, None) / REC_P
+    def_k = np.clip(rend * c["K2O_kg_t"] - col("k_suelo_kg_ha"), 0, None) / REC_K
+    costo_f = def_n * col("precio_fert_n_pen_kg") + def_p * col("precio_fert_p_pen_kg") + def_k * col("precio_fert_k_pen_kg")
+    ingreso = rend * 1000 * c["precio_pen_kg"] * col("factor_precio")
+    # el costo ENA ya incluye fertilizacion tipica: solo se suma la diferencia frente al suelo central
+    costo_f0 = _costo_fert_central(c, rend, z)
+    margen = ingreso - c["costo_pen_ha"] * col("factor_costo") - (costo_f - costo_f0)
+    # filtros duros (antes del puntaje)
+    f_sal = ys < UMBRAL_PERDIDA
+    f_agua = yw < UMBRAL_PERDIDA
+    f_dren = (col("drenaje_malo") > 0.5) & (c["drena_mal_tolera"] == "no")
+    f_pend = col("pendiente_pct") > c["pend_max_pct"]
+    viable = ~(f_sal | f_agua | f_dren | f_pend)
+    return dict(margen=margen, viable=viable, yw=yw, ys=ys, rend=rend, costo_f=costo_f,
+                f_sal=f_sal, f_agua=f_agua, f_dren=f_dren, f_pend=f_pend)
+
+
+def _costo_fert_central(c, rend, z):
+    R = RANGOS.central
+    dn = np.clip(rend * c["N_kg_t"] * np.where(c["familia"] == "Fabaceae", 0.0, 1.0) - R.n_suelo_kg_ha, 0, None) / REC_N
+    dp = np.clip(rend * c["P2O5_kg_t"] - R.p_suelo_kg_ha, 0, None) / REC_P
+    dk = np.clip(rend * c["K2O_kg_t"] - R.k_suelo_kg_ha, 0, None) / REC_K
+    return dn * R.precio_fert_n_pen_kg + dp * R.precio_fert_p_pen_kg + dk * R.precio_fert_k_pen_kg
+
+
+def ranking(res, k=3):
+    m = np.where(res["viable"], res["margen"], -np.inf)
+    orden = np.argsort(-m, axis=1)
+    top1 = np.where(np.isfinite(m.max(1)), orden[:, 0], -1)  # -1 = ningun cultivo evaluado es viable
+    topk = [set(o[:k][np.isfinite(mm[o[:k]])]) for o, mm in zip(orden, m)]
+    return top1, topk, np.where(np.isfinite(m.max(1)), m.max(1), 0.0)
+
+
+FEATURES = [f for f in RANGOS.index if f not in ("zona",)]  # ronda 3: sin 'anio' (el FEN va como escenario)
+CATEG = {"mes_siembra", "cultivo_previo", "drenaje_malo", "campania"}
+DECISION = {"mes_siembra", "cultivo_previo"}  # variables de decision: no son datos a buscar
+
+
+def rango(f, zona):
+    """(minimo, central, maximo) del feature en la zona. Agua y eficiencia dependen de la zona (ANA PGRH)."""
+    if f == "agua_riego_mm":  # dotacion anual (m3/ha) / 10 = mm; fraccion por campaña 0.5-1.0 es hipotesis
+        lo, hi = ZPAR.dotacion_m3_ha_anio.iloc[zona] / 10, ZPAR.dotacion_max_m3_ha_anio.iloc[zona] / 10
+        return 0.5 * lo, 0.75 * (lo + hi) / 2, 1.0 * hi  # ronda 3: San Lorenzo 9528-15191
+    if f == "eficiencia_riego":  # 0.6*ef_op (ef_op = solo conduccion) a ef_op (ef_op = total)
+        e = ZPAR.eficiencia_operativa.iloc[zona]
+        return EA_SUPERFICIE * e, 0.5 * (1 + EA_SUPERFICIE) * e, e
+    if f in ZR and not np.isnan(ZR[f][zona][0]):
+        return ZR[f][zona]
+    R = RANGOS.loc[f]
+    return R.minimo, R.central, R.maximo
+
+
+def muestrear(n, zona, rng, escenario="normal"):
+    d = {}
+    for f in RANGOS.index:
+        lo, _, hi = rango(f, zona)
+        if f == "zona":
+            d[f] = np.full(n, zona)
+        elif f == "drenaje_malo":
+            d[f] = (rng.random(n) < P_DREN[zona]).astype(int)  # ronda 3: P por zona en zonas.csv (0.341 Santayana 2012)
+        elif f in CATEG:
+            d[f] = rng.integers(int(lo), int(hi) + 1, n)
+        else:
+            d[f] = rng.uniform(lo, hi, n)
+    d["campania"] = rng.choice(ESCENARIOS[escenario], n)
+    if escenario in P_INUND:  # ronda 4; se sortea al final para no mover los demas sorteos
+        d["inundado"] = (rng.random(n) < P_INUND[escenario][zona]).astype(float)
+    return pd.DataFrame(d)
+
+
+def central(n, zona, escenario="normal"):
+    d = {f: np.full(n, rango(f, zona)[1]) for f in RANGOS.index}
+    d["zona"] = np.full(n, zona)
+    d["campania"] = np.full(n, int(np.median(ESCENARIOS[escenario])))
+    if escenario in P_INUND:  # ronda 4: perdida esperada
+        d["inundado"] = np.full(n, P_INUND[escenario][zona])
+    return pd.DataFrame(d)

@@ -1,0 +1,3188 @@
+      UNIVERSIDAD NACIONAL DE TUMBES
+        FACULTAD DE CIENCIAS ECONÓMICAS
+
+
+
+
+Control interno y recaudación de tarifa de agua en comisión de
+   usuarios subsector hidráulico Muñuela Margen Derecha,
+                   Provincia Sechura, 2022
+
+
+
+
+  Tesis para optar el Título Profesional de Contador Público
+
+
+
+                   Línea de investigación:
+
+             Políticas y gestión pública y privada
+
+
+
+                            Autor:
+
+                Br. Galecio Purizaca, Williams
+
+
+
+
+                        Tumbes, 2023
+       UNIVERSIDAD NACIONAL DE TUMBES
+         FACULTAD DE CIENCIAS ECONÓMICAS
+
+
+
+
+ Control interno y recaudación de tarifa de agua en comisión de
+    usuarios subsector hidráulico Muñuela Margen Derecha,
+                    Provincia Sechura, 2022
+
+
+
+
+             Tesis aprobada en forma y estilo por:
+
+
+
+
+Mg. Chiquinta Alcalde Juan Antonio (presidente)      __________
+
+
+
+Dr. Suclupe Chaname Juan Francisco (secretario)      __________
+
+
+
+Mg. Mimbela Sánchez Rosa Yessenia (vocal)            __________
+
+
+
+
+                         Tumbes, 2023
+
+                               ii
+          UNIVERSIDAD NACIONAL DE TUMBES
+           FACULTAD DE CIENCIAS ECONÓMICAS
+
+
+
+
+ Control interno y recaudación de tarifa de agua en comisión de
+    usuarios subsector hidráulico Muñuela Margen Derecha,
+                    Provincia Sechura, 2022
+
+
+
+     Los suscritos declaramos que la Tesis es original en su
+                       contenido y forma:
+
+
+
+Br. Galecio Purizaca, Williams              ___________________
+
+(Autor)
+
+
+
+Dr. Garay Canales, Henry Bernardo           ___________________
+
+(Asesor) Código ORCID 0000-0003-2323-1103
+
+
+
+                          Tumbes, 2023
+
+
+
+
+                                 iii
+iv
+v
+vi
+vii
+viii
+DEDICATORIA
+
+
+Este trabajo de investigación se lo dedico con
+mucho cariño a mi esposa Lizz Jazmín, a mis hijos
+Williams Jesús y Liam Aarón que son el motivo e
+inspiración para seguir esforzándome y crecer
+profesionalmente, a mis padres Tomás y Eulalia,
+mis hermanos que me demuestran admiración y
+respeto, a mis sobrinos que les sirva de inspiración
+y motivación para lograr sus metas trazadas.
+
+
+
+
+        ix
+AGRADECIMIENTO
+
+
+A Dios que con su bendición me otorga sabiduría y
+salud para seguir adelante y alcanzar este objetivo; a
+mis padres que con valores me formaron para ser una
+persona de bien, sirviendo con humildad, honestidad
+y respeto a la sociedad; a mi esposa e hijos que
+comprendieron en aquellos momentos que no estuve
+con ellos para compartir, por dedicarlo a mis estudios.
+
+
+A los docentes de la Escuela de Contabilidad,
+Facultad de Ciencias Económicas de la Universidad
+Nacional de Tumbes, que con sus conocimientos y
+enseñanzas       han   contribuido   a   mi     formación
+profesional, en especial al Dr. Henry Bernardo Garay
+Canales que con su apoyo y asesoramiento ha sido
+posible la elaboración del presente trabajo de
+investigación y poder obtener el título de Contador
+Público.
+
+
+A la Comisión de Usuarios del Subsector Hidráulico
+Muñuela    Margen      Derecha,      personal    técnico,
+administrativo, Consejo Directivo y delegados de
+canal, que han tenido la disposición para aplicar los
+instrumentos y ejecutar el presente trabajo de
+investigación.
+
+
+
+
+           x
+                                           ÍNDICE GENERAL
+
+
+RESUMEN             xvii
+
+ABSTRACT            xviii
+
+I.                  INTRODUCCIÓN .......................................................................... 19
+
+II. REVISIÓN DE LITERATURA (Estado del arte)................................................ 22
+
+     2.1.      ANTECEDENTES .................................................................................22
+
+       2.1.1. ANTECEDENTES INTERNACIONALES ...........................................22
+
+       2.1.2. ANTECEDENTES NACIONALES .....................................................23
+
+       2.1.3. ANTECEDENTES LOCALES ............................................................26
+
+     2.2.      BASES TEÓRICAS - CIENTÍFICAS .....................................................26
+
+       2.2.1. CONTROL INTERNO ........................................................................26
+
+       2.2.2. RECAUDACIÓN DE TARIFA DE AGUA ...........................................30
+
+     2.3.      DEFINICIÓN DE TÉRMINOS BÁSICOS ..............................................32
+
+III.                MATERIALES Y MÉTODOS ......................................................... 34
+
+     3.1.      HIPÓTESIS ...........................................................................................34
+
+       3.1.1     HIPÓTESIS ALTERNATIVA ..............................................................34
+
+       3.1.2. HIPÓTESIS NULA .............................................................................34
+
+     3.2.      VARIABLES Y OPERACIONALIZACIÓN .............................................34
+
+     3.3.      LUGAR DE EJECUCIÓN ......................................................................35
+
+     3.4.      TIPO Y DISEÑO DE INVESTIGACIÓN ................................................36
+
+       3.4.1. TIPO DE ESTUDIO ...........................................................................36
+
+       3.4.2. DISEÑO DE INVESTIGACIÓN ..........................................................36
+
+     3.5.      POBLACIÓN, MUESTRA Y MUESTREO .............................................36
+
+       3.5.1. POBLACIÓN Y MUESTRA ................................................................36
+
+            3.6. MÉTODOS, TÉCNICAS E INSTRUMENTOS DE RECOLECCIÓN Y
+     PROCESAMIENTO DE DATOS ........................................................................37
+                                     xi
+      3.6.1. MÉTODO .............................................................................................37
+
+      3.6.2. TÉCNICA – ENCUESTA ......................................................................37
+
+      3.6.3. INSTRUMENTO – CUESTIONARIO ....................................................38
+
+      3.6.4. PROCESAMIENTO DE DATOS ..........................................................38
+
+      3.6.5. CONFIABILIDAD Y VALIDACIÓN DEL INSTRUMENTO ....................39
+
+      3.6.6. ASPECTOS ÉTICOS ...........................................................................39
+
+IV. RESULTADOS Y DISCUSIÓN ....................................................................... 40
+
+   4.1. PRESENTACIÓN DE RESULTADOS ........................................................40
+
+      4.1.1. ANÁLISIS DESCRIPTIVO ....................................................................40
+
+      4.1.2. ANÁLISIS CORRELACIONAL .............................................................60
+
+   4.2. DISCUSIÓN DE RESULTADOS.................................................................67
+
+V. CONCLUSIONES ............................................................................................ 70
+
+VI. RECOMENDACIONES ................................................................................... 72
+
+VII. REFERENCIAS BIBLIOGRÁFICAS ............................................................... 74
+
+VIII. ANEXOS …………………………………………………………………………78
+
+ANEXO 1: MATRIZ DE OPERACIONALIZACIÓN DE LAS VARIABLES ............. 78
+
+ANEXO 2: MATRIZ DE CONSISTENCIA ............................................................. 80
+
+ANEXO 3: INSTRUMENTO DE RECOLECCIÓN DE DATOS ............................. 82
+
+CUESTIONARIO SOBRE CONTROL INTERNO ................................................. 82
+
+CUESTIONARIO SOBRE RECAUDACIÓN DE TARIFA DE AGUA .................... 84
+
+ANEXO 4: AUTORIZACIÓN PARA EJECUCIÓN DE INVESTIGACIÓN ............. 89
+
+
+
+
+                                                       xii
+                                           ÍNDICE DE TABLAS
+
+Tabla 1: ¿Los directivos y personal de la comisión demuestran un comportamiento
+ético, poniendo en práctica los lineamientos de conducta? ................................. 40
+
+Tabla 2: ¿Los procesos de selección de personal han sido desarrollados de acuerdo
+con los lineamientos de la comisión, reclutando a personal competente? ........... 41
+
+Tabla 3: ¿La comisión brinda seguridad a los usuarios que se acercan a cancelar
+su tarifa de agua?................................................................................................. 42
+
+Tabla 4: ¿De suceder una ocurrencia (asalto o robo) la comisión tiene los
+mecanismos para afrontarlo? ............................................................................... 43
+
+Tabla 5: ¿En la comisión existe rotación de personal? ........................................ 44
+
+Tabla 6: ¿La comisión informa sobre la recaudación de tarifa de agua y en que se
+invierte?...................... .......................................................................................... 45
+
+Tabla 7: ¿La comisión publicita a través radios, emisoras locales, redes sociales
+para que los usuarios cancelen la tarifa de agua? ............................................... 46
+
+Tabla 8: ¿Usted ha realizado algún reclamo con respecto al cobro de la tarifa de
+agua, y lo resuelto le fue comunicado oportunamente? ....................................... 47
+
+Tabla 9: ¿En la comisión se realizan supervisiones por concepto de la recaudación
+de la tarifa de agua, por parte de entidades superiores? ..................................... 48
+
+Tabla 10: ¿Los usuarios monitorean el gasto que ejecuta la comisión con el dinero
+de la cobranza de la tarifa de agua? .................................................................... 49
+
+Tabla 11: ¿La comisión realiza acciones de empadronamiento y registro de
+usuarios de agua? ................................................................................................ 50
+
+Tabla 12: ¿Los usuarios empadronados han registrado todos sus predios
+agrícolas?....... ...................................................................................................... 51
+
+Tabla 13: ¿La comisión realiza talleres a los usuarios sobre el procedimiento de
+cálculo para determinar el valor por m3 de la tarifa de agua? .............................. 52
+
+Tabla 14: ¿Le informan a usted el valor por m3 de agua y en qué actividades se
+proyecta invertir? .................................................................................................. 53
+
+Tabla 15: ¿La oficina de cobranza de la comisión, se encuentra debidamente
+                                                            xiii
+implementada para realizar dicha labor? ............................................................. 54
+
+Tabla 16: ¿El personal que labora en la oficina de cobranza de la comisión, brinda
+una buena atención? ............................................................................................ 55
+
+Tabla 17: ¿Para qué se le otorgue la orden de riego al usuario, es un requisito
+cancelar previamente la tarifa de agua? .............................................................. 56
+
+Tabla 18: ¿La impuntualidad en sus pagos le ha generado interés en su tarifa de
+agua?.............. ..................................................................................................... 57
+
+Tabla 19: ¿La comisión ha realizado el corte del servicio a los usuarios que no
+pagan su tarifa de agua? ...................................................................................... 58
+
+Tabla 20: ¿Usted ha sido informado a las centrales de riesgo (Infocorp), debido a
+no cancelar oportunamente su tarifa de agua? .................................................... 59
+
+Tabla 21: Correlación entre las variables control interno y recaudación de tarifa de
+agua de la comisión de usuarios subsector hidráulico Muñuela Margen Derecha,
+provincia de Sechura 2022 ................................................................................... 61
+
+Tabla 22: Correlación entre la dimensión ambiente de control y la variable
+recaudación de tarifa de agua de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de Sechura 2022 ....................................... 62
+
+Tabla 23: Correlación entre la dimensión evaluación de riesgos y la variable
+recaudación de tarifa de agua de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de Sechura 2022 ....................................... 63
+
+Tabla 24: Correlación entre la dimensión actividades de control y la variable
+recaudación de tarifa de agua de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de Sechura 2022 ....................................... 64
+
+Tabla 25: Correlación entre la dimensión información y comunicación y la variable
+recaudación de tarifa de agua de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de Sechura 2022 ....................................... 65
+
+Tabla 26: Correlación entre la dimensión actividades de supervisión y la variable
+recaudación de tarifa de agua de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de Sechura 2022 ....................................... 66
+
+
+                                                            xiv
+                            ÍNDICE DE FIGURAS
+
+
+Figura 1:   DIAGRAMA DE DISPERSIÓN ...................................................... 60
+
+
+
+
+                                          xv
+                                 ÍNDICE DE ANEXOS
+
+
+
+ANEXO 1: MATRIZ DE OPERACIONALIZACIÓN DE LAS VARIABLES ............. 78
+
+ANEXO 2: MATRIZ DE CONSISTENCIA ............................................................. 80
+
+ANEXO 3: INSTRUMENTO DE RECOLECCIÓN DE DATOS ............................. 82
+
+CUESTIONARIO SOBRE CONTROL INTERNO ................................................. 82
+
+CUESTIONARIO SOBRE RECAUDACIÓN DE TARIFA DE AGUA .................... 84
+
+ANEXO 4: AUTORIZACIÓN PARA EJECUCIÓN DE INVESTIGACIÓN ............. 89
+
+
+
+
+                                              xvi
+                                    RESUMEN
+
+La presente investigación, se denomina control interno y recaudación de tarifa de
+agua en comisión de usuarios subsector hidráulico Muñuela Margen Derecha,
+Provincia Sechura, 2022, la cual indica como objetivo general determinar la relación
+que existe entre el control interno y recaudación de tarifa de agua en comisión de
+usuarios subsector hidráulico Muñuela Margen Derecha, Provincia Sechura, 2022,
+se estableció como hipótesis alternativa que, el control interno se relaciona
+significativamente con la recaudación de tarifa de agua en comisión de usuarios
+subsector hidráulico Muñuela Margen Derecha, Provincia Sechura, 2022; el
+presente estudio ha sido de tipo descriptivo – correlacional de corte transversal, de
+acuerdo con información confiable y consistente al haber investigado los aspectos
+de control interno y la recaudación de tarifa de agua para poder alcanzar los
+objetivos planteados, cuyos resultados obtenidos son relevantes en la variable
+independiente y dependiente; se aplicó el diseño de investigación no experimental,
+cuyos resultados más relevantes se reflejan en que el p valor es menor a 0,01 (alfa),
+por lo tanto aceptamos la hipótesis alternativa, por lo consiguiente, existe suficiente
+evidencia estadística para afirmar que el control interno se relaciona
+significativamente con la recaudación de tarifa de agua en comisión de usuarios
+subsector hidráulico Muñuela Margen Derecha, Provincia Sechura, 2022; con
+respecto al coeficiente de correlación R de Spearman, resultó 0,983, lo cual nos
+indica una relación positiva, muy fuerte y además significativa de las variables en
+estudio; concluyendo en que el control interno se relaciona significativamente con
+la recaudación de tarifa de agua en comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, Provincia Sechura, 2022.
+
+
+
+Palabras clave: control interno, recaudación, usuarios.
+
+
+
+
+                                         xvii
+                                     ABSTRACT
+
+The present investigation is called internal control and collection of water tariff in
+commission of users hydraulic subsector Muñuela Margen Derecha, Sechura
+Province, 2022, which indicates as a general objective to determine the relationship
+that exists between internal control and collection of water tariff in the Muñuela
+Margen Derecha hydraulic subsector user commission, Sechura Province, 2022, it
+was established as a general hypothesis that internal control is significantly related
+to the collection of water tariffs in the Muñuela Margen Derecha hydraulic subsector
+user commission, Sechura Province, 2022; The present study has been of a
+descriptive - correlational cross-sectional type, according to reliable and consistent
+information, having investigated the aspects of internal control and the collection of
+water tariffs in order to achieve the proposed objectives, whose results obtained are
+relevant in the independent and dependent variable; The non-experimental
+research design was applied, whose most relevant results are reflected in the fact
+that the p value is less than 0.01 (alpha), therefore we accept the alternative
+hypothesis, therefore, there is sufficient statistical evidence to affirm that the internal
+control is significantly related to the collection of water tariffs in commission from
+users of the hydraulic subsector Muñuela Margen Derecha, Sechura Province,
+2022; Regarding Spearman's R correlation coefficient, it was 0.983, which indicates
+a positive, very strong and also significant relationship of the variables under study;
+concluding that internal control is significantly related to the collection of water tariffs
+in commission from users of the hydraulic subsector Muñuela Margen Derecha,
+Sechura Province, 2022.
+
+
+
+Keywords: internal control, collection, users.
+
+
+
+
+                                           xviii
+                            I.     INTRODUCCIÓN
+
+
+En nuestro país, mediante la jurisprudencia de recursos hídricos Ley Nº 29338, las
+organizaciones encargadas de la cobranza y administración de las tarifas de agua
+de uso agrario son las Juntas de Usuarios y estas a su vez delegan la función del
+cobro de tarifas, obtención de retribuciones económicas y la recaudación de aportes
+económicos, a las comisiones de usuarios debidamente implementadas y
+legalmente constituidas. Las juntas de usuarios al ejecutar funciones de
+administración de un recurso de carácter público, estas deben ser evaluadas en
+función a la normativa del sistema nacional de control, siendo la Autoridad Nacional
+del Agua, la entidad facultada a supervisar, fiscalizar y sancionar a las juntas de
+usuarios en el ámbito nacional.
+
+En el valle de Sechura, la entidad encargada de las acciones de cobro por tarifa de
+agua es la Junta de Usuarios del Sector Hidráulico Menor Sechura – clase A,
+conformada por las organizaciones de usuarios en los subsectores hidráulicos en
+un número de cuatro: Parte Alta, San Andrés, Muñuela Margen Izquierda y Muñuela
+Margen Derecha. La comisión de usuarios del subsector hidráulico Muñuela
+Margen Derecha, abarca los distritos de: La Unión, Vice, Rinconada Llicuar y
+Sechura, en la provincia de Piura y Sechura en el departamento de Piura (en
+adelante, la comisión). Fue constituida el 09 de febrero del año 1995, con un área
+de influencia de 3,663.46 hectáreas bajo riego, 2,000 usuarios registrados en el
+padrón, inscrita en el registro de personas jurídicas, asiento Nº C00002, partida
+electrónica Nº 00115282 de la superintendencia nacional de los registros públicos
+– zona registral número I – sede Piura; con domicilio legal y real en avenida Miguel
+F. Cerro sin número, asentamiento humano las Mercedes, del distrito de Vice,
+provincia de Sechura.
+
+Actualmente la problemática que presenta la comisión, es en el sistema para
+recaudar los fondos por concepto del servicio de agua, ya que se evidencia una
+morosidad desde el año 1996, ello a pasar que el reglamento de organización de
+usuarios establece que no haya morosidad en el pago de la tarifa de agua. Su
+principal fuente de financiamiento son los ingresos por la recaudación de la tarifa
+de agua la misma que le permiten financiar sus actividades de operación,
+
+                                        19
+mantenimiento y desarrollo de la infraestructura hidráulica y de esta manera lograr
+los objetivos previstos en el instrumento de planificación de la operatividad,
+mantenimiento y sostenibilidad de la infraestructura en el aspecto hidráulico.
+
+La problemática descrita, ha permitido priorizar la presente investigación para poder
+determinar la relación que existe entre el control interno y recaudación de tarifa de
+agua en la comisión de usuarios subsector hidráulico Muñuela Margen Derecha, en
+el distrito Vice provincia de Sechura, año 2022, aplicando los procedimientos que
+corresponden para tal fin. Se planteó el siguiente problema general ¿Cuál es la
+relación que existe entre el control interno y la recaudación de tarifa de agua en la
+comisión de usuarios subsector hidráulico Muñuela Margen Derecha, provincia de
+Sechura 2022? En efecto la justificación, sostuvo que, el presente estudio ha sido
+de mucha importancia por la relevancia que permitió establecer la relación que
+existe a nivel de dimensiones y variables consideradas en este trabajo. Resultados
+fueron de conocimiento a los integrantes del consejo directivo, personal técnico y
+administrativo, para mejorar e implementar medidas con el fin de alcanzar un
+eficiente sistema de control en recaudación de tarifa de agua, en la unidad de
+análisis precisada. Asimismo, se justificó por su implicancia práctica, por cuanto, la
+obtención de resultados, fue de gran utilidad para el presidente, consejo directivo,
+personal técnico y administrativo de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de Sechura ya que proporcionará información
+si están cumpliendo con lineamientos establecidos en los manuales, directivas y
+planes de gestión para el desarrollo de sus funciones; lo cual permitió concientizar
+al usuario en el pago oportuno de su tarifa de agua. Consecuentemente se justificó
+por su valor teórico, al haber obtenido resultados previstos para nuevas
+investigaciones; así como ser aplicados en las demás comisiones de usuarios,
+inherentes con este tipo de estudio relacionado con el sistema de control en la
+unidad de análisis respectiva. En tanto, se justificó por su unidad metodológica, por
+desarrollar un procedimiento que permitió medir las variables en estudio, en tal
+sentido, se aplicó un coeficiente de correlación a nivel de las variables y
+dimensiones en el contexto de la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha – provincia Sechura, procedimiento que sirvió para ser
+aplicado en otras comisiones de usuarios. Por su parte, se justificó en el ámbito
+social, debido a que los resultados han sido de beneficio para la comisión de
+                                         20
+usuarios subsector hidráulico Muñuela Margen Derecha, provincia de Sechura, al
+haber permitido conocer las deficiencias en la falta de un sistema de control
+apropiado y las dificultades relacionadas en mantener personal competente para
+tal fin, aspectos que se presentan en la recaudación de la tarifa de agua, y de esta
+manera mejorar el control interno para obtener mayores recursos que han servido
+para operar eficientemente el sistema de riego y por ende prestar un mejor servicio
+del suministro de agua. Finalmente, se justificó en el contexto político, dado en que
+los datos obtenidos a nivel de resultados, permitieron al concejo directivo, proponer
+políticas orientadas en la ley 27785 ley del sistema nacional de control, ley 29338
+ley de recursos hídricos y su reglamento, ley 30157 ley de organizaciones de
+usuarios de agua y su reglamento. En tal sentido la investigación benefició al sector
+de la presente unidad de análisis para mantener decisiones acertadas mediante un
+eficiente sistema de control en los usuarios subsector hidráulico Muñuela Margen
+Derecha, provincia de Sechura.
+
+El objetivo del presente estudio estableció, determinar la relación que existe entre
+el control interno y la recaudación de tarifa de agua de la comisión de usuarios
+subsector hidráulico Muñuela Margen Derecha, provincia de Sechura 2022.
+
+
+
+
+                                         21
+            II. REVISIÓN DE LITERATURA (Estado del arte)
+
+
+2.1.   ANTECEDENTES
+
+2.1.1. ANTECEDENTES INTERNACIONALES
+
+Masaquiza (2004) en su tesis titulada “Transferencia del sistema de riego público
+al sector privado, caso: sistema de riego Ambato – Huachi – Pelileo” indica:
+
+       Estudio desarrollado en Ecuador, demostrando que cuando el sistema de
+       riego Ambato – Huachi – Pelileo era administrado por el INERHI (sector
+       público), la tasa de riego era mínima y casi nunca los usuarios la pagaban,
+       sin embargo gracias a la transferencia del sistema de riego al sector privado
+       se establecieron tasas fijas que han ayudado a concientizar a los usuarios al
+       uso racional y eficiente del agua, cuidar los canales de riego, mejorar la
+       distribución del agua, mejorar el rendimiento de su producción, extender las
+       áreas agrícolas, y además las organizaciones de usuarios se fortalecieron
+       notablemente, gracias a la participación democrática de todos los
+       involucrados.
+
+
+Ojeda (2015) en su tesis “Políticas y procedimientos de control interno y la toma de
+decisiones en la junta administradora de agua potable de Cotaló” establece:
+
+       Investigación desarrollada en Cotaló - Ecuador, demostró que la entidad no
+       cuenta con instrumentos de gestión de control provocando caos y desorden
+       al realizar sus operaciones y actividades en la Junta, no hay información
+       oportuna y fehaciente para la toma de decisiones, por ello recomienda
+       diseñar e implementar un sistema de control interno para salvaguardar los
+       recursos, tomar decisiones acertadas, mejorar el servicio, realizar
+       actividades en forma ordena y justificada.
+
+
+Posso y Barrios (2014) en su tesis titulada “Diseño de un modelo de control interno
+en la empresa prestadora de servicios hoteleros eco turísticos nativos activos de
+eco hotel la Cocotera, que permitirá el mejoramiento de la información financiera”,
+precisa:
+
+                                        22
+      Investigación aplicada en Cartagena de Indias – Colombia, demostrando que
+      producto de una mala práctica contable – financiera, y a un deficiente control
+      interno; la empresa no cuenta con la información financiera adecuada que le
+      permita conocer la razonabilidad de su saldo de cuentas plasmados en sus
+      estados financieros.
+
+2.1.2. ANTECEDENTES NACIONALES
+
+Esteves (2018) en su tesis titulada “Adopción del Sistema de Control Interno –
+enfoque COSO- para fortalecer las organizaciones de usuarios de agua del valle
+de Chancay – Lambayeque” establece:
+
+      La junta de usuarios de Chancay – Lambayeque, tiene un sistema de control
+      interno débil para el control, evaluación y seguimiento de las actividades
+      técnicas y administrativas que se desarrolla dentro de la institución, debido
+      que sus instrumentos de gestión, manual de organización y funciones, y el
+      reglamento de organización y funciones, se encuentran desactualizados,
+      además de la insuficiente capacidad técnica-administrativa de los
+      funcionarios y dirigentes, que han conllevado a que no se apliquen
+      evaluaciones financieras para la toma de decisiones acertadas en beneficio
+      de la institución.
+
+
+Albornoz (2018) en su tesis titulada “El sistema de control interno en la gestión
+comunal de la junta administradora de servicios de saneamiento (JASS) colpa alta
+– Amarilis 2018” precisa:
+
+      Al aplicar la correlación de rho de spearman se demuestra que existe
+      relación directa entre las variables estudiadas, es decir, en la medida que el
+      control interno se ejecute en la gestión de la junta administradora de
+      servicios de saneamiento JASS, se obtendrán resultados positivos en
+      beneficio de la gestión de la JASS, para brindar un servicio de calidad, lograr
+      la satisfacción del usuario, y el cumplimiento de los objetivos de la institución
+      que permitan atender la demanda de necesidades básicas en la operatividad
+      del servicio en mención.
+
+
+
+
+                                         23
+Araníbar (2018) en su tesis titulada “El control interno y su influencia en la gestión
+administrativa de las entidades sin fines de lucro del Perú, caso comisión de
+usuarios de agua del subsector hidráulico de Huayto periodo 2015 – 2016” indica:
+
+      Al encontrar e interpretar los resultados del presente estudio, se demostró
+       que existen riesgos en la marcha de la institución, deficiencias en el control
+       y conservación de sus bienes, debido a la falta de un sistema de control
+       interno, sin embargo, menciona que el control interno no influye en la gestión
+       administrativa.
+
+Ochoa (2018) en su tesis “El valor del agua y el sistema tarifario peruano” establece:
+
+      Se concluye que existe un deficiente sistema tarifario de agua, por la
+       inadecuada asignación del precio del recurso hídrico lo que genera el
+       consumo irresponsable de este líquido, reflejando la escasa inversión en
+       infraestructura de riego y la aplicación de tecnología, al mismo tiempo
+       recomienda implementar estrategias para establecer tarifas que ayuden a
+       sensibilizar el uso eficiente de este recurso.
+
+Espinoza (2017) en su tesis titulada “Recaudación y distribución por uso de agua
+       con fines agrarios en la organización de la junta de usuarios del distrito de
+       riego Sicuani – Cusco, periodo 2016” demostró que los usuarios no cancelan
+       la tarifa de agua afectando la distribución de los componentes señalados en
+       el recibo único de tarifa de agua.
+
+Huamán (2017) en su tesis titulada “El presupuesto de tarifas de agua de uso
+agrario y su incidencia en la gestión financiera y económica de la comisión de
+regantes de Jequetepeque – 2016”, señala:
+
+       En el año 2016 la comisión de regantes de Jequetepeque elaboró y ejecutó
+       su plan de trabajo y presupuesto conforme a los lineamientos normativos, y
+       en consecuencia realizó una buena gestión mediante el presupuesto de
+       tarifa de agua el cual influenció en la gestión financiera y económica 2016.
+       Pero también evidenció que no cuentan con instrumentos internos de gestión
+       como el MOF, directiva de cobranza de tarifa de agua y otros aportes, etc.
+
+
+
+                                            24
+Linares (2017) en su tesis titulada “Diagnóstico y propuesta de control interno para
+la comisión de usuarios de agua – Huancaquito Bajo, Virú, 2017” indica:
+
+       En la comisión de usuarios existen manuales, directivas que no se
+       encuentran aprobados por la autoridad competente, por lo tanto, no han sido
+       difundidos a todo el consejo directivo, personal técnico y administrativo de
+       esta comisión de usuarios, sin embargo, existe un adecuado nivel de
+       comunicación entre el personal en el desarrollo de sus funciones. Asimismo,
+       recomienda mejorar el sistema de control Interno para ello elaboró y
+       presentó una propuesta de los instrumentos de gestión que ayudarían a
+       mejorar el desempeño de sus operaciones y funciones.
+
+
+Valcárcel (2017) en su tesis titulada “Mecanismos innovadores para una buena
+       gestión de control interno en cuentas por pagar en la empresa GMI S.A
+       ingenieros consultores, Lima 2016” demostró que existen deficiencias en la
+       gestión de control interno en las cuentas por pagar de la empresa GMI S.A
+       ingenieros consultores, generando pérdidas económicas, rupturas de las
+       relaciones con los proveedores, contingencias tributarias, etc.
+
+
+Herrera (2016) en su tesis titulada “Caracterización del control interno en la gestión
+administrativa de las juntas de usuarios de riego de la región La Libertad: caso junta
+de usuarios del sub distrito de riego chao. Virú, 2016” establece:
+
+       La junta de usuarios del sub distrito de riego chao – Virú no cuenta con un
+       adecuado control interno evidenciándose adquisiciones no necesarias para
+       la institución, proponiendo que se implementen lineamientos de control
+       interno en la planificación de la gestión administrativa y regular los ingresos
+       y egresos de las áreas administrativas de la Junta de usuarios del Sub distrito
+       de riego chao – Virú.
+
+
+Cotrina (2016) en su tesis titulada “La recaudación de la tarifa de agua y su
+incidencia en el cumplimiento del presupuesto de la de la junta usuarios de agua
+de la cuenca del río moche, 2015” establece:
+
+
+
+
+                                         25
+       Durante los tres últimos años al 2015 existió un incremento en la recaudación
+       de la tarifa de agua influenciando positivamente en el cumplimiento del
+       presupuesto de la junta de usuarios de la cuenca del río moche, pero a su
+       vez hace mención que se recaudó un 89% de la tarifa la tarifa vigente o que
+       corresponde al periodo 2015, evidenciándose la falta de políticas de
+       cobranza.
+
+2.1.3. ANTECEDENTES LOCALES
+
+Mendoza y Porras (2019) en su tesis titulada “El impacto de la morosidad de la tarifa
+de agua en el mantenimiento y operación del sistema hidráulico menor de riego en
+la comisión de usuarios del sub sector hidráulico margen izquierda del río Tumbes
+– 2018”, indica:
+
+       El promedio de morosidad de la tarifa de aguas equivale al 10.93% cuyas
+       medidas para disminuirla es: contratar más técnicos recaudadores que
+       cumplan eficientemente sus labores, entregar incentivos a los usuarios que
+       cancelan oportunamente su tarifa de agua, además de permitir que los
+       usuarios paguen su tarifa de agua con productos de su cosecha.
+
+
+
+2.2.   BASES TEÓRICAS - CIENTÍFICAS
+
+2.2.1. CONTROL INTERNO
+
+El Control Interno como prioridad para el fortalecimiento institucional, presenta las
+siguientes bases teóricas y científicas:
+
+       “Es un proceso integral efectuado por el titular, funcionario y servidores de
+       una entidad, diseñado para enfrentar los riesgos y para dar seguridad
+       razonable de que, en la consecución de la misión de la entidad, se
+       alcanzaran los objetivos de la misma, es decir, es la gestión misma orientada
+       a minimizar los riesgos (C.G.R. 2014, p. 9). Es un proceso integrado y
+       dinámico llevado a cabo por la administración, la dirección y demás personal
+       de una entidad, diseñado con el propósito de proporcionar un grado de
+       seguridad razonable en cuanto la consecución de los objetivos relacionados
+       con las operaciones, la información y el cumplimiento (COSO 2013, p. 3).”
+                                           26
+Objetivos del control interno. - COSO III, establece tres categorías de objetivos:
+
+      Objetivos operativos. – “Hacen referencia a la efectividad y eficiencia de las
+      operaciones de la entidad, incluidos sus objetivos de rendimiento financiero
+      y operacional, y la protección de sus activos frente a posibles pérdidas”
+      (COSO 2013, p. 3).
+      Objetivos de información. – “Hacen referencia a la información financiera y
+      no financiera interna y externa y pueden abarcar aspectos de confiabilidad,
+      oportunidad, transparencia, u otros conceptos establecidos por los
+      reguladores, organismos reconocidos o políticas de la propia entidad”
+      (COSO 2013, p. 3).
+      Objetivos de cumplimiento. – “Hacen referencia al cumplimiento de las leyes
+      y regulaciones a las que está sujeta la entidad para el cumplimiento de sus
+      metas” (COSO 2013, p. 3).
+
+Componentes de control interno. - Comprendidos en el siguiente orden:
+componente 1 ambiente de control. – Conjunto de normas, procesos y
+      estructuras que sirven de base para llevar a cabo el adecuado Control
+      Interno en la entidad. Los funcionarios, partiendo del más alto nivel de la
+      entidad, deben destacar la importancia del Control Interno, incluidas las
+      normas de conducta que se espera. Un buen ambiente de control tiene un
+      impacto sustantivo en todo el sistema general de Control Interno. El
+      ambiente de control comprende los principios de integridad y valores éticos
+      que deben regir en la entidad, los parámetros que permitan las tareas de
+      supervisión, la estructura organizativa alineada a objetivos, el proceso para
+      atraer, desarrollar y retener a personal competente y el rigor en torno a las
+      medidas de desempeño, incentivos y recompensas. (CGR 2014, p. 35)
+
+Integridad y valores éticos. Al respecto, Auditool (2013) indica:
+
+      La comisión treadway establece que un clima ético vigoroso dentro de la
+      empresa y en todos sus niveles es esencial para el bienestar de la
+      organización, de todos los componentes y del público en general. Esto
+      contribuye en forma significativa a la eficiencia de las políticas y los sistemas
+      de control de las empresas (p.31).
+
+
+                                         27
+Competencia profesional. – La competencia hace referencia a la capacidad para
+      llevar a cabo las responsabilidades asignadas, y requiere de habilidades
+      relevantes y pericia, las cuales se obtienen a lo largo de una experiencia
+      profesional, capacitación y certificaciones. Esta es expresada en las
+      actitudes, conocimientos y comportamiento de los individuos cuando llevan
+      a cabo sus responsabilidades. (Auditool, 2013, p. 38)
+
+
+Componente 2 evaluación de riesgos. – El riesgo es la posibilidad que un evento
+      ocurra u afecte adversamente el cumplimiento de objetivos. La evaluación
+      del riesgo se refiere a un proceso permanente a fin de que la entidad pueda
+      prepararse para enfrentar dichos eventos. La evaluación del riesgo
+      comprende los principios de definición de los objetivos e identificación y
+      evaluación de los riesgos, determinación de la gestión de riesgos, evaluación
+      de la probabilidad de fraude y evaluación de sucesos o cambios que afecten
+      al sistema de control interno. (CGR 2014, p. 37)
+
+
+Identificación de riesgos. – El proceso de identificación de riesgos debe ser
+      integral y completo y considerar todas las interacciones significativas de
+      bienes, servicios e información, internamente y entre la entidad y sus
+      principales socios y proveedores de servicios externos. Los riesgos pueden
+      surgir en todos los niveles de la entidad y debido a factores tanto internos
+      como externos. Una vez identificados estos factores se puede considerar su
+      relevancia e importancia, y si es posible relacionarla con riesgos y
+      actividades específicas. (Auditool, 2013, p. 43)
+
+Respuesta al riesgo. – Finalmente, luego de evaluar los riesgos significativos, la
+      administración debe considerar cómo van a ser manejados. Esto implica el
+      uso del juicio y un análisis razonable de costos asociados con la reducción
+      de los niveles de riesgo. (Auditool, 2013, p. 45)
+
+Componente 3 actividades de control. – Las actividades de control se refieren a
+      aquellas políticas y procedimientos establecidos para disminuir los riesgos
+      que pueden afectar el logro de objetivos de la entidad. Para ser efectivas
+      deben ser apropiadas, funcionar consistentemente de acuerdo a un plan a
+      lo largo de un periodo determinado y tener un costo adecuado, que sea
+                                        28
+      razonable y relacionado directamente con los objetivos del control. Las
+      actividades de control se dan en todos los procesos, operaciones, niveles y
+      funciones de la entidad (y pueden ser preventivas o detectivas). Se debe
+      buscar un balance adecuado entre la prevención y la detección en las
+      actividades de control. Las acciones correctivas son un complemento
+      necesario para las actividades de control. (CGR 2014, p. 38)
+
+Segregación de funciones. – Es uno de los controles internos más importantes y
+      efectivos. Todas las actividades de autorizar, ejecutar, registrar y comprobar
+      una transacción deben ser claramente segregadas y diferenciadas. La
+      segregación de responsabilidades es fundamental para mitigar el riesgo de
+      fraude, debido a que lo reduce a niveles aceptables. (Auditool, 2013, p. 50)
+
+Rendición de cuentas. – Es la obligación que tiene toda autoridad, funcionario o
+      servidor público, de dar información oportuna y veraz sobre su gestión, tanto
+      en términos de ejecución presupuestal como en el logro de los objetivos
+      institucionales. (Ramírez, 2017, p. 92)
+
+Componente 4 información y comunicación. – La información y comunicación
+      para mejorar el control interno se refiere a la información necesaria para que
+      la entidad pueda llevar a cabo las responsabilidades de Control Interno que
+      apoyen el logro de sus objetivos. La administración obtiene/genera y utiliza
+      la información relevante y de calidad a partir de fuentes internas y externas
+      para apoyar el funcionamiento de los otros componentes del Control Interno.
+      (CGR 2014, p. 40)
+
+“Comunicación externa. – La organización se comunica con los grupos de interés
+      externos en relación con los aspectos que afectan el funcionamiento del
+      control interno. La organización debe desarrollar e implementar controles
+      que faciliten la comunicación externa. Este proceso debe incluir las políticas
+      y procedimientos para obtener y recibir información de partes externas, y
+      compartir dicha información internamente. La comunicación con terceras
+      partes permite que estas entiendan eventos, actividades y circunstancias
+      que puedan afectar su interacción con la entidad. Al mismo tiempo, la
+      información que la entidad pueda recibir de terceras partes puede ser
+      relevante en su contexto (Auditool, 2013, p. 59,60).”
+
+                                        29
+Componente 5 actividades de supervisión. – El presente componente está
+       referido al conjunto de transacciones de autocontrol establecidas a los
+       procesos y acciones de supervisión (o seguimiento) de la entidad con fines
+       de mejora y evaluación. En tal sentido el sistema de control interno debe ser
+       objeto de supervisión para valorar la eficacia y calidad de su funcionamiento
+       en el tiempo y permitir su retroalimentación. Las continuas e independientes
+       evaluaciones o una combinación de ambas son aplicadas para establecer si
+       los componentes y sus lineamientos se encuentran en funcionamiento (CGR
+       2014, p. 41).
+
+
+Monitoreo. – Actividades establecidas por la administración para la revisión y
+       supervisión de la ejecución de las operaciones de la organización en relación
+       con el plan estratégico general, incluyendo un nivel aceptable de riesgo. Las
+       actividades de monitoreo consideran tanto las medidas de rendimiento que
+       demuestran el progreso hacia el logro de los objetivos del negocio como las
+       metas estratégicas a largo plazo; así como las métricas de riesgo para
+       asegurar que el riesgo se mantiene en niveles aceptables (Auditool, 2013, p.
+       66).
+
+
+2.2.2. RECAUDACIÓN DE TARIFA DE AGUA
+
+
+Determinación del valor de la tarifa de agua. - Las tarifas se determinan mediante
+       la aplicación de la metodología aprobada por la Autoridad Nacional de Agua,
+       utilizando la herramienta informática denominada SICTA, Sistema de
+       Cálculo de Tarifas por Utilización de la Infraestructura Hidráulica Mayor y
+       Menor, y por Monitoreo y Gestión de Aguas Subterráneas. (Resolución
+       Jefatural N° 307-2015-ANA, Art° 3, numeral 3.1)
+
+La obligación de pago de la tarifa de agua nace por la utilización de las instalaciones
+       de las obras públicas desde la conducción del agua hasta llegar al terreno a
+       beneficiarse a la vez el pago se efectúa de forma periódica y anual.
+       (Universidad del Pacifico y su centro de investigación, 2010, p. 2)
+
+
+
+
+                                          30
+Todos los usuarios del agua están obligados a contribuir económicamente para
+      lograr el uso sostenible y eficiente del recurso hídrico, mediante el pago de
+      las retribuciones económicas y las tarifas que le correspondan conforme a
+      Ley (Reglamento de la Ley de Recursos Hídricos 29338, Art. 175, p. 50).
+
+Toda la Tarifa se sustenta y debe estar reflejada en el Plan de Operación,
+      Mantenimiento y Desarrollo de la Infraestructura Hidráulica o el Plan de
+      Monitoreo y Gestión de Aguas Subterráneas, según corresponda, que deben
+      elaborar los operadores conforme a las disposiciones aprobadas por la
+      Autoridad Nacional del Agua (R. J. N° 307-2015-ANA, Art° 3, numeral 3.2).
+
+
+Tarifa por Utilización de la Infraestructura Hidráulica Menor - TUIHME:
+
+Sector Hidráulico Menor. – “Comprende aquella infraestructura hidráulica que, a
+partir del sector hidráulico mayor, permite el suministro de agua hasta los usuarios
+de agua, así como la infraestructura de drenaje secundario” (D.S N°005-2015-
+MINAGRI, Art. 9, b).
+
+La tarifa por la utilización de la infraestructura hidráulica menor es el pago que
+      efectúan los usuarios de agua para cubrir los costos de los servicios de
+      operación y mantenimiento, así como el desarrollo de dicha infraestructura
+      en los aspectos inherentes para tal fin. (D.S N°001-2010-AG, reglamento de
+      ley recursos hídricos, Art° 187, numeral 187.2)
+
+Tarifa por Utilización de la Infraestructura Hidráulica Mayor - TUIHMA:
+
+Sector Hidráulico Mayor. – “Comprende aquella infraestructura hidráulica que
+permite el suministro de agua hasta los sectores hidráulicos menores, así como la
+infraestructura de drenaje principal” (D.S N°005-2015-MINAGRI, Art. 9, a).
+
+La tarifa por la utilización de la infraestructura hidráulica mayor es el pago que
+      efectúan los usuarios de agua u operadores de infraestructura hidráulica
+      menor para cubrir los costos de los servicios de operación y mantenimiento,
+      así como el desarrollo de infraestructura hidráulica mayor que efectúan los
+      operadores de dicha infraestructura. (D.S N°001-2010-AG, reglamento de
+      ley recursos hídricos, Art° 187, numeral 187.1)
+
+                                        31
+2.3.   DEFINICIÓN DE TÉRMINOS BÁSICOS
+
+Cobranza: Según EcuRed (2020) lo define como el “proceso mediante el cual se
+       hace efectiva la percepción de un pago en concepto de una compra, de la
+       prestación de un servicio, de la cancelación de una deuda”.
+
+Centrales de Riesgo: Según se indica en el artículo 108, inciso c), D.S 005-2015-
+       MINAGRI, reglamento de organizaciones de usuarios de agua, que las juntas
+       de usuarios incurren en infracciones relacionadas a las tarifas de agua, al
+       permitir adeudos con antigüedad mayor a los doce meses, sin reportarlos a
+       las centrales de riesgo; de ello se desprende que los usuarios de agua que
+       incumplan con el pago de sus tarifas de agua deberán ser informados a las
+       centrales de riesgo.
+
+
+Interés Moratorio: Según la Resolución Jefatural 083-2019-ANA en su artículo 5
+       indica que el incumplimiento del pago genera un interés moratorio y
+       compensatorio mensual del 1% del monto total, de la retribución económica,
+       aplicable por mes o fracción del mes.
+
+
+Modalidad de Pago: Las modalidades de cobranza que pueden emplear las juntas
+       de usuarios son: a) Pago previo, el pago del recibo único es requisito para la
+       entrega del agua; o, b) Pago posterior, el pago del recibo único se efectúa
+       dentro los siete (07) primeros días del mes siguiente a aquel en el que se
+       hizo uso del agua. (R.J N° 307-2015-ANA, Art° 5, numeral 5.2)
+
+
+Padrón de usuarios de agua: Es la relación de usuarios de agua ubicados en el
+       sector hidráulico que reciben el servicio de suministro de agua del operador,
+       elaborado únicamente con la información del registro administrativo de
+       derechos de uso de agua. (Resolución jefatural 230-2019-ANA, modificación
+       del reglamento de operadores de infraestructura hidráulica, art. 17)
+
+
+Usuario de agua: “Es toda persona natural o jurídica que posee un derecho de
+       uso de agua otorgado por la autoridad nacional del agua. Se incluyen a
+       quienes cuentan con certificados nominativos que derivan de una licencia en
+       bloque (Resolución Jefatural N° 230-2019-ANA, Art° 7).”
+                                        32
+Personal asignado y capacitado: Para realizar una cobranza efectiva es
+      responsabilidad de quienes dirigen la Junta de Usuarios es decir del Consejo
+      Directivo, de buscar los medios y mecanismos para instalar la oficina de
+      tarifas y seleccionar al personal calificado asignándole y autorizándoles las
+      funciones y atribuciones para realizar dicha actividad, además de este
+      personal es importante involucrar permanentemente en esta actividad al
+      presidente y tesorero de cada organización quienes deben tener claro el
+      papel que desempeñan en cuanto a la fiscalización de esta importante
+      actividad contando para ello con el debido asesoramiento de la gerencia
+      técnica. (Programa subsectorial de irrigaciones psi-sierra, 2014. P. 8)
+
+Retribución económica: Es la contraprestación económica, que los usuarios
+      deben pagar por el uso consuntivo y no consuntivo del agua, por ser dicho
+      recurso natural patrimonio de la Nación. No constituye tributo. La autoridad
+      nacional del agua establece la metodología para determinar el valor de las
+      retribuciones económicas por el uso del agua superficial y subterránea. La
+      metodología se aprueba por Resolución Jefatural de la Autoridad Nacional
+      del Agua y se publica en el portal electrónico de dicha Autoridad. Los
+      estudios técnico económicos establecerán el valor de las retribuciones
+      económicos aplicables durante un periodo determinado. Dicho valor se
+      aplicará progresivamente por etapas. El valor de la retribución económica es
+      aportado por los usuarios de agua en forma diferenciada según el tipo de
+      uso de agua, tomando en cuenta criterios sociales, económicos y
+      ambientales. (D.S N°001-2010-AG, Reglamento de Ley Recursos Hídricos,
+      Art° 187, numeral 176)
+
+Corte del Servicio: Ante incumplimiento del pago de la tarifa de agua, las juntas
+      de usuario procederán a aplicar el corte de servicio de suministro de agua, a
+      los usuarios de agua; así mismo comunicará a la alta dirección, para que
+      imponga las sanciones respectivas.
+
+
+
+
+                                       33
+                       III.    MATERIALES Y MÉTODOS
+
+
+3.1.   HIPÓTESIS
+
+3.1.1 HIPÓTESIS ALTERNATIVA
+
+       El control interno se relaciona significativamente con la recaudación de tarifa
+       de agua de la comisión de usuarios subsector hidráulico Muñuela Margen
+       Derecha, provincia de Sechura 2022.
+
+3.1.2. HIPÓTESIS NULA
+
+       No existe relación significativa entre el control interno y la recaudación de
+       tarifa de agua en la comisión de usuarios subsector hidráulico Muñuela
+       Margen Derecha, provincia de Sechura 2022.
+
+3.2.   VARIABLES Y OPERACIONALIZACIÓN
+
+       El estudio, presenta sus variables y operacionalización en función del
+       dimensionamiento establecido con sus indicadores inherentes al tema de
+       estudio, de acuerdo al orden siguiente:
+
+
+
+            Variable              Dimensiones                  Indicadores
+
+
+                              Ambiente de Control.      Integridad y Valores Éticos.
+                                                        Competencia profesional.
+
+                                                        Identificación de riesgos.
+            Variable          Evaluación de Riesgos
+                                                        Respuesta al riesgo.
+         Independiente:
+                                                        Segregación de Funciones
+                              Actividades de Control.
+         Control Interno                                Rendición de cuentas.
+
+                                                        Comunicación Externa.
+                              Información y
+                              Comunicación.
+
+                                                        Actividades de prevención y
+                              Actividades de
+                                                        monitoreo.
+                              Supervisión.
+
+
+
+                                               34
+                                                    Registro del Usuario
+                           Padrón de Usuarios de
+                                   Agua.
+                                                    Registro del Predio.
+
+
+                                                    Tarifa por Utilización de la
+                                                    Infraestructura Hidráulica
+                                                    Menor – TUIHME.
+
+                             Determinación del
+                            Valor de la Tarifa de   Tarifa por Utilización de la
+                                   Agua.            Infraestructura Hidráulica
+                                                    Mayor – TUIHMA.
+           Variable
+         Dependiente:                               Retribución Económica.
+
+       Recaudación de la
+         Tarifa de agua                             Oficina de Tarifas.
+
+
+                                                    Personal    asignado      y
+                                 Cobranza.
+                                                    Capacitado.
+
+                                                    Modalidad de Pago.
+
+
+                                                    Interés Moratorio.
+
+
+                                 Sanciones          Corte de Servicio.
+
+
+                                                    Centrales de Riesgo.
+
+
+
+
+3.3.   LUGAR DE EJECUCIÓN
+
+       La presente investigación ha sido ejecutada en la Comisión de usuarios del
+       subsector hidráulico Muñuela Margen Derecha, en el ámbito del distrito de
+       Vice, de la provincia de Sechura, en la región Piura.
+
+       Precisando que para aplicar la metodología de investigación se contó con la
+       autorización del representante legal de la mencionada institución.
+
+
+
+
+                                          35
+3.4.     TIPO Y DISEÑO DE INVESTIGACIÓN
+
+3.4.1. TIPO DE ESTUDIO
+
+         La investigación, ha sido aplicada mediante estudio descriptivo correlacional
+         con corte transversal; de enfoque cuantitativo, utilizando los procedimientos
+         de datos confiables, precisos y oportunos, que permitieron determinar la
+         relación del control interno y la recaudación de tarifa de agua en el sistema
+         de control de la comisión de usuarios subsector hidráulico Muñuela Margen
+         Derecha, en la provincia de Sechura 2022.
+
+3.4.2. DISEÑO DE INVESTIGACIÓN
+
+         En la investigación se aplicó un diseño no experimental:
+
+                                                    Ox
+
+
+
+                                         M          r
+
+
+
+                                                    Oy
+
+         Donde
+
+         M:      Muestra de estudio
+
+         Ox:     Control interno
+
+         Oy:     Recaudación de tarifa de agua
+
+         r:      Relación entre control interno y recaudación de tarifa de agua
+
+3.5. POBLACIÓN, MUESTRA Y MUESTREO
+
+3.5.1.        POBLACIÓN Y MUESTRA
+
+         La población y muestra estuvo constituida por 45 trabajadores de la comisión
+         de usuarios, entre personal administrativo, personal técnico (de campo),
+         directivos y delegados de canal de agua registrados en el padrón de usuarios
+         de agua del sistema de control de la comisión de usuarios subsector
+         hidráulico Muñuela Margen Derecha, provincia de Sechura 2022.
+
+                                             36
+3.6. MÉTODOS, TÉCNICAS E INSTRUMENTOS DE RECOLECCIÓN Y
+    PROCESAMIENTO DE DATOS
+
+3.6.1. MÉTODO
+
+     Se detallan los siguientes métodos de investigación aplicados:
+
+MÉTODO INDUCTIVO:
+
+      Permitió interpretar las encuestas, mediante la recolección de información,
+      asimismo la aplicación de la observación en el desarrollo del estudio, con el
+      fin de obtener la relevancia en el control interno y la recaudación de tarifa
+      de agua en el sistema de control de la comisión de usuarios subsector
+      hidráulico Muñuela Margen Derecha, provincia de Sechura 2022, aspectos
+      que permitieron encontrar la relación de ambas variables en el presente
+      estudio.
+
+MÉTODO DESCRIPTIVO:
+
+      Se aplicó un sistema de actividades que permitió recopilar, organizar,
+      presentar analizar y resumir los resultados de las observaciones,
+      mostrando con detalle la información sistematizada al encontrar la
+      información por cada variable a nivel del control interno en sus respectivos
+      ítems y a la vez de la tarifa de agua en el sistema de control de la comisión
+      de usuarios subsector hidráulico Muñuela Margen Derecha, provincia de
+      Sechura 2022.
+
+3.6.2. TÉCNICA – ENCUESTA
+
+     En el presente estudio se utilizó la encuesta como técnica, lo cual permitió la
+     aplicación del cuestionario de forma personalizada a los trabajadores del
+     sistema de control de la comisión de usuarios subsector hidráulico Muñuela
+     Margen Derecha, provincia de Sechura 2022, donde se consignaron las
+     interrogantes que mantienen relación con lo que se persigue por cada
+     variable de estudio.
+
+
+
+
+                                       37
+3.6.3. INSTRUMENTO – CUESTIONARIO
+
+     Se aplicó el cuestionario como instrumento para medir las variables de
+     investigación a los 45 trabajadores del sistema de control de la comisión de
+     usuarios, que permitió medir la relación del control interno en la recaudación
+     de tarifa de agua durante el ejercicio fiscal 2022. En el cuestionario 1, las
+     preguntas con ítems del 1 al 10 hacen referencia a la variable independiente
+     control interno y en el cuestionario 2, las preguntas con ítems del 1 al 10 se
+     relacionan con la variable dependiente recaudación de la tarifa de agua.
+
+3.6.4. PROCESAMIENTO DE DATOS
+
+     En la presente investigación se utilizaron métodos descriptivos para
+     organizar, recopilar, resumir, analizar y presentar los datos obtenidos de las
+     observaciones, indicando que a nivel de este método se generó la
+     recopilación y presentación de información sistemática para mostrar
+     objetivamente los indicadores alcanzados.
+
+     Al respecto, mediante la información obtenida de la recolección de datos, se
+     analizó estadísticamente mediante gráficos que reflejen los resultados
+     necesarios en la determinación de la información relevante, mediante las
+     actividades relacionadas y así se consiguió identificar y evaluar la relación
+     entre el control interno y la recaudación de tarifa de agua en la comisión de
+     usuarios subsector hidráulico Muñuela Margen Derecha, provincia de
+     Sechura 2022.
+
+     La información obtenida con la aplicación de los instrumentos establecidos,
+     se procesó en la hoja de cálculo Microsoft Excel. En la presentación de los
+     resultados se establecieron tablas y figuras utilizando el procedimiento de
+     estadística descriptiva. En la comprobación de las hipótesis se aplicó al
+     programa estadístico SPSS versión 26.0, mediante el uso de la prueba
+     estadística denominada coeficiente de correlación de Spearman, que
+     permite determinar el tipo de correlación entre las variables consideradas en
+     el presente estudio.
+
+
+
+                                       38
+3.6.5. CONFIABILIDAD Y VALIDACIÓN DEL INSTRUMENTO
+
+     CONFIABILIDAD:
+
+     Se aplicó el coeficiente de alfa de cronbach para encontrar la confiablidad
+     de los instrumentos establecidos en el presente estudio:
+
+
+                                  Control Interno
+                              Estadísticas de fiabilidad
+                                    Alfa de Cronbach
+                            0.890                      10
+
+
+
+                           Recaudación de tarifa de agua
+                             Estadísticas de fiabilidad
+                                    Alfa de Cronbach
+                            0.943                      10
+
+
+     VALIDACIÓN:
+
+     Los instrumentos aplicados en la investigación, fueron validados por
+     especialistas, expertos en el ámbito de estudio, quienes han emitido
+     constancias de validación en la cual expresaron la objetividad en cada
+     variables, dimensionamiento, indicadores y opciones de respuestas,
+     indicando la pertinencia de cada ítem consignado.
+
+
+3.6.6. ASPECTOS ÉTICOS
+
+     En el trabajo, se respetó los derechos de autor, indicando para cada cita los
+     parámetros y requisitos consignados en normas APA y el reglamento de
+     tesis aprobado para pregrado y posgrado en la Universidad Nacional de
+     Tumbes; priorizando los principios éticos de confidencialidad, confiablidad,
+     objetividad y privacidad tomando en cuenta la participación de los
+     trabajadores en la técnica de encuesta; de la misma forma se respetaron los
+     criterios de libertad y autonomía para los resultados obtenidos.
+
+
+
+
+                                         39
+                         IV. RESULTADOS Y DISCUSIÓN
+
+4.1. PRESENTACIÓN DE RESULTADOS
+
+4.1.1. ANÁLISIS DESCRIPTIVO
+
+Tabla 1:      ¿Los directivos y personal de la comisión demuestran un
+              comportamiento ético, poniendo en práctica los lineamientos de
+              conducta?
+
+
+             Escala                         Frecuencia           %
+
+   Nunca                                            0            0
+
+   Casi nunca                                       0            0
+
+   Algunas veces                                    5            12
+
+   Casi siempre                                     11           24
+
+   Siempre                                          29           64
+
+              Total                                 45          100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La presente figura muestra que; para 05 trabajadores precisaron algunas
+veces los directivos y personal de la comisión demuestran un comportamiento ético,
+poniendo en práctica los lineamientos de conducta, lo cual representó un 12%; 11
+encuestados establecieron casi siempre demuestran comportamiento ético que
+significó el 24% y 29 encuestados indicaron la opción siempre demuestran
+comportamiento ético equivalente al 64% de representatividad.
+
+
+
+
+                                                    40
+Tabla 2:      ¿Los procesos de selección de personal han sido desarrollados
+              de acuerdo con los lineamientos de la comisión, reclutando a
+              personal competente?
+
+
+
+
+             Escala                         Frecuencia         %
+
+   Nunca                                            0          0
+
+   Casi nunca                                       0          0
+
+   Algunas veces                                    10        22
+
+   Casi siempre                                     15        33
+
+   Siempre                                          20        45
+
+              Total                                 45        100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+
+Nota: La presente figura refleja que; para 10 trabajadores manifestaron algunas
+veces los procesos de selección de personal han sido desarrollados de acuerdo
+con los lineamientos de la comisión, reclutando a personal competente, lo cual
+representó un 22%; 15 encuestados determinaron casi siempre los procesos de
+selección de personal han sido desarrollados de acuerdo con los lineamientos de
+la comisión que significó el 33% y 20 encuestados mencionaron la opción siempre
+los procesos de selección de personal han sido desarrollados de acuerdo con los
+lineamientos de la comisión que representa el 45%.
+
+
+
+
+                                                    41
+Tabla 3:      ¿La comisión brinda seguridad a los usuarios que se acercan a
+              cancelar su tarifa de agua?
+
+
+
+
+             Escala                         Frecuencia           %
+
+   Nunca                                            4            9
+
+   Casi nunca                                       3            7
+
+   Algunas veces                                    16           35
+
+   Casi siempre                                     10           22
+
+   Siempre                                          12           27
+
+              Total                                 45          100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+
+Nota: La presente figura indica que; para 04 trabajadores establecieron nunca la
+comisión brinda seguridad a los usuarios que se acercan a cancelar su tarifa de
+agua, lo cual significó un 9%; 03 encuestados indicaron casi nunca la comisión
+brinda seguridad a los usuarios que se acercan a cancelar su tarifa de agua que
+representó un 7%; 16 encuestados respondieron algunas veces la comisión brinda
+seguridad a los usuarios que se acercan a cancelar su tarifa de agua que simbolizó
+el 35%; 10 encuestados manifestaron casi siempre la comisión brinda seguridad a
+los usuarios que se acercan a cancelar su tarifa de agua que representa el 22% y
+12 encuestados señalaron la opción siempre la comisión brinda seguridad a los
+usuarios que se acercan a cancelar su tarifa de agua que equivale al 27%.
+
+
+
+
+                                                    42
+Tabla 4:      ¿De suceder una ocurrencia (asalto o robo) la comisión tiene los
+              mecanismos para afrontarlo?
+
+
+
+
+             Escala                         Frecuencia          %
+
+   Nunca                                            23          51
+
+   Casi nunca                                       12          27
+
+   Algunas veces                                    9           20
+
+   Casi siempre                                     1            2
+
+   Siempre                                          0            0
+
+              Total                                 45         100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La presente figura denota que; para 23 trabajadores nunca la comisión tiene
+los mecanismos para afrontar una ocurrencia (asalto o robo) lo cual representó un
+51%; 12 encuestados precisaron casi nunca la comisión tiene los mecanismos para
+afrontar una ocurrencia (asalto o robo) que equivale un 27%; 09 encuestados
+respondieron algunas veces la comisión tiene los mecanismos para afrontar una
+ocurrencia (asalto o robo) que significó el 20% y 01 encuestado manifestó casi
+siempre la comisión tiene los mecanismos para afrontar una ocurrencia (asalto o
+robo) que representa el 2%.
+
+
+
+
+                                                    43
+Tabla 5:      ¿En la comisión existe rotación de personal?
+
+
+
+
+             Escala                         Frecuencia         %
+
+   Nunca                                            7          15
+
+   Casi nunca                                       13         29
+
+   Algunas veces                                    22         49
+
+   Casi siempre                                     3           7
+
+   Siempre                                          0           0
+
+              Total                                 45         100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: En la presente figura se indica que; para 07 trabajadores nunca en la
+comisión de usuarios existe rotación de personal, lo cual representa un 15%; 13
+encuestados señalaron casi nunca en la comisión de usuarios existe rotación de
+personal equivalente al 29%; 22 encuestados precisaron algunas veces en la
+comisión de usuarios existe rotación de personal que representó el 49% y 03
+encuestados indicaron casi siempre en la comisión de usuarios existe rotación de
+personal que equivale al 7%.
+
+
+
+
+                                                    44
+Tabla 6:      ¿La comisión informa sobre la recaudación de tarifa de agua y
+              en que se invierte?
+
+
+
+
+             Escala                         Frecuencia            %
+
+   Nunca                                            0             0
+
+   Casi nunca                                       0             0
+
+   Algunas veces                                    3             7
+
+   Casi siempre                                     20            44
+
+   Siempre                                          22            49
+
+              Total                                 45           100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura manifiesta que; para 03 encuestados algunas veces la comisión
+informa sobre la recaudación de tarifa de agua y en que se invierte, lo cual
+representó un 7%; 20 encuestados indicaron casi siempre la comisión informa
+sobre la recaudación de tarifa de agua y en que se invierte lo cual corresponde al
+44% y 22 encuestados precisaron siempre la comisión informa sobre la recaudación
+de tarifa de agua y en que se invierte equivalente al 49% de representatividad.
+
+
+
+
+                                                    45
+Tabla 7:      ¿La comisión publicita a través radios, emisoras locales, redes
+              sociales para que los usuarios cancelen la tarifa de agua?
+
+
+
+
+             Escala                         Frecuencia             %
+
+   Nunca                                            0              0
+
+   Casi nunca                                       0              0
+
+   Algunas veces                                    6             13
+
+   Casi siempre                                     9             20
+
+   Siempre                                          30            67
+
+              Total                                 45            100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura revela que; para 06 encuestados algunas veces la comisión
+publicita a través radios, emisoras locales, redes sociales para que los usuarios
+cancelen la tarifa de agua, lo cual representa un 13%; 09 encuestados contestaron
+casi siempre la comisión publicita a través radios, emisoras locales, redes sociales
+para que los usuarios cancelen la tarifa de agua lo cual significó el 20% y 30
+encuestados señalaron siempre la comisión publicita a través radios, emisoras
+locales, redes sociales para que los usuarios cancelen la tarifa de agua el cual
+equivale al 67% de representatividad.
+
+
+
+
+                                                    46
+Tabla 8:      ¿Usted ha realizado algún reclamo con respecto al cobro de la
+              tarifa de agua, y lo resuelto le fue comunicado oportunamente?
+
+
+
+
+             Escala                         Frecuencia             %
+
+   Nunca                                            5              11
+
+   Casi nunca                                       4               9
+
+   Algunas veces                                    18             40
+
+   Casi siempre                                     5              11
+
+   Siempre                                          13             29
+
+              Total                                 45            100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura denota que; para 05 encuestados nunca han realizado algún
+reclamo con respecto al cobro de la tarifa de agua, y lo resuelto le fue comunicado
+oportunamente, lo cual equivale al 11%; 04 encuestados respondieron casi nunca
+han realizado algún reclamo con respecto al cobro de la tarifa de agua, y lo resuelto
+le fue comunicado oportunamente que representa al 9%; 18 encuestados
+establecieron algunas veces han realizado algún reclamo con respecto al cobro de
+la tarifa de agua, y lo resuelto le fue comunicado oportunamente que significa el
+40%; 05 encuestados indicaron casi siempre han realizado algún reclamo con
+respecto al cobro de la tarifa de agua, y lo resuelto le fue comunicado
+oportunamente que corresponde al 11% y 13 encuestados contestaron la opción
+siempre han realizado algún reclamo con respecto al cobro de la tarifa de agua, y
+lo resuelto le fue comunicado oportunamente equivalente al 29%.
+
+
+
+
+                                                    47
+Tabla 9:      ¿En la comisión se realizan supervisiones por concepto de la
+              recaudación de la tarifa de agua, por parte de entidades
+              superiores?
+
+
+
+
+             Escala                         Frecuencia           %
+
+   Nunca                                            0            0
+
+   Casi nunca                                       0            0
+
+   Algunas veces                                    7            16
+
+   Casi siempre                                     19           42
+
+   Siempre                                          19           42
+
+              Total                                 45          100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura señala que; para 07 encuestados algunas veces en la comisión se
+realizan supervisiones por concepto de la recaudación de la tarifa de agua, por
+parte de entidades superiores, lo cual significó un 16%; 19 encuestados precisaron
+casi siempre en la comisión se realizan supervisiones por concepto de la
+recaudación de la tarifa de agua lo cual representó un 42% y 19 encuestados
+manifestaron siempre en la comisión se realizan supervisiones por concepto de la
+recaudación de la tarifa de agua que corresponde al 42% de representatividad.
+
+
+
+
+                                                    48
+Tabla 10:     ¿Los usuarios monitorean el gasto que ejecuta la comisión con
+              el dinero de la cobranza de la tarifa de agua?
+
+
+
+
+             Escala                         Frecuencia             %
+
+   Nunca                                            0               0
+
+   Casi nunca                                       0               0
+
+   Algunas veces                                    17             38
+
+   Casi siempre                                     19             42
+
+   Siempre                                          9              20
+
+              Total                                 45             100
+      Fuente: Cuestionario sobre Control Interno.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura expresa que; para 17 encuestados algunas veces los usuarios
+monitorean el gasto que ejecuta la comisión con el dinero de la cobranza de la tarifa
+de agua, lo cual representa un 38%; 19 encuestados concluyeron casi siempre los
+usuarios monitorean el gasto que ejecuta la comisión con el dinero de la cobranza
+de la tarifa de agua lo cual significa un 42% y 09 encuestados determinaron siempre
+los usuarios monitorean el gasto que ejecuta la comisión con el dinero de la
+cobranza de la tarifa de agua equivalente al 20%.
+
+
+
+
+                                                    49
+Tabla 11:     ¿La comisión realiza acciones de empadronamiento y registro de
+              usuarios de agua?
+
+
+
+
+             Escala                       Frecuencia                            %
+
+   Nunca                                        5                               11
+
+   Casi nunca                                   0                               0
+
+   Algunas veces                                19                              42
+
+   Casi siempre                                 9                               20
+
+   Siempre                                      12                              27
+
+              Total                             45                          100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura determina qué; para 05 encuestados nunca la comisión realiza
+acciones de empadronamiento y registro de usuarios de agua, lo cual corresponde
+un 11%; 19 encuestados precisaron algunas veces la comisión realiza acciones de
+empadronamiento y registro de usuarios de agua lo cual equivale un 42%; 09
+encuestados     indicaron      casi    siempre       la    comisión   realiza        acciones   de
+empadronamiento y registro de usuarios de agua lo cual representa un 20% y 12
+encuestados      manifestaron         siempre       la    comisión    realiza        acciones   de
+empadronamiento y registro de usuarios de agua que significa un 27% de
+representatividad.
+
+
+
+
+                                                50
+Tabla 12:     ¿Los usuarios empadronados han registrado todos sus predios
+              agrícolas?
+
+
+
+
+             Escala                       Frecuencia              %
+
+   Nunca                                        1                  2
+
+   Casi nunca                                   6                 13
+
+   Algunas veces                                17                38
+
+   Casi siempre                                 6                 13
+
+   Siempre                                      15                34
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La presente figura refleja que; para 01 encuestado nunca los usuarios
+empadronados han registrado todos sus predios agrícolas, lo cual representó un
+2%; 06 encuestados contestaron casi nunca los usuarios empadronados han
+registrado todos sus predios agrícolas lo cual significó un 13%; 17 encuestados
+establecieron algunas veces los usuarios empadronados han registrado todos sus
+predios agrícolas lo cual representa un 38%; 06 encuestados denotaron casi
+siempre los usuarios empadronados han registrado todos sus predios agrícolas lo
+cual equivale un 13% y 15 encuestados indicaron la opción siempre los usuarios
+empadronados han registrado todos sus predios agrícolas equivalente a un 34%.
+
+
+
+
+                                                51
+Tabla 13:     ¿La     comisión       realiza     talleres     a   los   usuarios   sobre   el
+              procedimiento de cálculo para determinar el valor por m3 de la
+              tarifa de agua?
+
+
+
+
+             Escala                       Frecuencia                        %
+
+   Nunca                                        5                           11
+
+   Casi nunca                                   9                           20
+
+   Algunas veces                                10                          22
+
+   Casi siempre                                 12                          27
+
+   Siempre                                      9                           20
+
+              Total                             45                         100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura muestra que; para 05 encuestado nunca la comisión realiza talleres
+a los usuarios sobre el procedimiento de cálculo para determinar el valor por m3 de
+la tarifa de agua, lo cual equivale un 11%; 09 encuestados precisaron casi nunca la
+comisión realiza talleres a los usuarios sobre el procedimiento de cálculo para
+determinar el valor por m3 de la tarifa de agua lo cual representa un 20%; 10
+encuestados expresaron algunas veces la comisión realiza talleres a los usuarios
+sobre el procedimiento de cálculo para determinar el valor por m3 de la tarifa de
+agua lo cual significa un 22%; 12 encuestados manifestaron casi siempre la
+comisión realiza talleres a los usuarios sobre el procedimiento de cálculo para
+determinar el valor por m3 de la tarifa de agua lo cual corresponde un 27% y 09
+encuestados revelaron siempre la comisión realiza talleres a los usuarios sobre el
+procedimiento de cálculo para determinar el valor por m3 de la tarifa de agua lo cual
+representó un 20%.
+
+
+
+
+                                                52
+Tabla 14:     ¿Le informan a usted el valor por m3 de agua y en qué actividades
+              se proyecta invertir?
+
+
+
+
+             Escala                       Frecuencia              %
+
+   Nunca                                        1                  2
+
+   Casi nunca                                   18                40
+
+   Algunas veces                                14                31
+
+   Casi siempre                                 3                  7
+
+   Siempre                                      9                 20
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura indica que, para 01 encuestado nunca le informan el valor por m3
+de agua y en qué actividades se proyecta invertir, lo cual significó un 2%; 18
+encuestados alegaron casi nunca le informan el valor por m3 de agua y en qué
+actividades se proyecta invertir lo cual representó un 40%; 14 encuestados
+indicaron algunas veces le informan el valor por m3 de agua y en qué actividades
+se proyecta invertir lo cual equivale un 31%; 03 encuestados determinaron casi
+siempre le informan el valor por m3 de agua y en qué actividades se proyecta
+invertir lo cual corresponde un 7% y 09 encuestados expresaron siempre le
+informan el valor por m3 de agua y en qué actividades se proyecta invertir lo cual
+determinó un 20%.
+
+
+
+
+                                                53
+Tabla 15:     ¿La oficina de cobranza de la comisión, se encuentra
+              debidamente implementada para realizar dicha labor?
+
+
+
+
+             Escala                       Frecuencia                  %
+
+   Nunca                                        0                     0
+
+   Casi nunca                                   0                     0
+
+   Algunas veces                                5                     11
+
+   Casi siempre                                 19                    42
+
+   Siempre                                      21                    47
+
+              Total                             45                   100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura señala que; para 05 encuestado algunas veces la oficina de
+cobranza de la comisión, se encuentra debidamente implementada para realizar
+dicha labor, lo cual equivale un 11%; 19 encuestados establecieron casi siempre la
+oficina de cobranza de la comisión, se encuentra debidamente implementada para
+realizar dicha labor lo cual representa un 42% y 21 encuestados precisaron la
+opción siempre la oficina de cobranza de la comisión, se encuentra debidamente
+implementada para realizar dicha labor                   lo cual equivale un 47% de
+representatividad.
+
+
+
+
+                                                54
+Tabla 16:     ¿El personal que labora en la oficina de cobranza de la comisión,
+              brinda una buena atención?
+
+
+
+
+             Escala                       Frecuencia              %
+
+   Nunca                                        0                  0
+
+   Casi nunca                                   0                  0
+
+   Algunas veces                                11                24
+
+   Casi siempre                                 18                40
+
+   Siempre                                      16                36
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La presente figura sostiene que; para 11 encuestado algunas veces el
+personal que labora en la oficina de cobranza de la comisión, brinda una buena
+atención, lo cual representa un 24%; 18 encuestados indicaron casi siempre el
+personal que labora en la oficina de cobranza de la comisión, brinda una buena
+atención, lo cual corresponde un 40% y 16 encuestados manifestaron la opción
+siempre el personal que labora en la oficina de cobranza de la comisión, brinda una
+buena atención, lo cual significó un 36% de representatividad.
+
+
+
+
+                                                55
+Tabla 17:     ¿Para qué se le otorgue la orden de riego al usuario, es un
+              requisito cancelar previamente la tarifa de agua?
+
+
+
+
+             Escala                       Frecuencia               %
+
+   Nunca                                        0                   0
+
+   Casi nunca                                   0                   0
+
+   Algunas veces                                8                  18
+
+   Casi siempre                                 6                  13
+
+   Siempre                                      31                 69
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura establece que; para 08 encuestado algunas veces para que se le
+otorgue la orden de riego al usuario, es un requisito cancelar previamente la tarifa
+de agua, lo cual significa un 18%; 06 encuestados expresaron casi siempre para
+que se le otorgue la orden de riego al usuario, es un requisito cancelar previamente
+la tarifa de agua, lo cual representa un 13% y 31 encuestados indicaron la opción
+siempre para que se le otorgue la orden de riego al usuario, es un requisito cancelar
+previamente la tarifa de agua, lo cual equivale un 69% de representatividad.
+
+
+
+
+                                                56
+Tabla 18:     ¿La impuntualidad en sus pagos le ha generado interés en su
+              tarifa de agua?
+
+
+
+
+             Escala                       Frecuencia              %
+
+   Nunca                                        7                 15
+
+   Casi nunca                                   3                  7
+
+   Algunas veces                                12                27
+
+   Casi siempre                                 9                 20
+
+   Siempre                                      14                31
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura precisa que; para 07 encuestado nunca la impuntualidad en sus
+pagos le ha generado interés en su tarifa de agua, lo cual representó un 15% de
+encuestados; 03 encuestados indicaron casi nunca la impuntualidad en sus pagos
+le ha generado interés en su tarifa de agua, lo cual equivale un 7% de encuestados;
+12 encuestados manifestaron algunas veces la impuntualidad en sus pagos le ha
+generado interés en su tarifa de agua, lo cual determinó un 27% de encuestados;
+09 encuestados precisaron casi siempre la impuntualidad en sus pagos le ha
+generado interés en su tarifa de agua, lo cual representa un 20% de encuestados
+y 14 encuestados alegaron siempre la impuntualidad en sus pagos le ha generado
+interés en su tarifa de agua, equivalente al 31% de representatividad.
+
+
+
+
+                                                57
+Tabla 19:     ¿La comisión ha realizado el corte del servicio a los usuarios que
+              no pagan su tarifa de agua?
+
+
+
+
+             Escala                       Frecuencia               %
+
+   Nunca                                        16                36
+
+   Casi nunca                                   5                 11
+
+   Algunas veces                                19                42
+
+   Casi siempre                                 1                  2
+
+   Siempre                                      4                  9
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: La figura expresa que; para 16 encuestado nunca la comisión ha realizado el
+corte del servicio a los usuarios que no pagan su tarifa de agua, lo cual representa
+un 36%; 05 encuestados respondieron casi nunca la comisión ha realizado el corte
+del servicio a los usuarios que no pagan su tarifa de agua, equivalente al 11%; 19
+encuestados establecieron algunas veces la comisión ha realizado el corte del
+servicio a los usuarios que no pagan su tarifa de agua, lo cual refleja un 42%; 01
+encuestado precisó casi siempre la comisión ha realizado el corte del servicio a los
+usuarios que no pagan su tarifa de agua, lo cual equivale un 2% y 04 encuestados
+eligieron la opción siempre la comisión ha realizado el corte del servicio a los
+usuarios que no pagan su tarifa de agua, ascendente al 9%.
+
+
+
+
+                                                58
+Tabla 20:     ¿Usted ha sido informado a las centrales de riesgo (Infocorp),
+              debido a no cancelar oportunamente su tarifa de agua?
+
+
+
+
+             Escala                       Frecuencia              %
+
+   Nunca                                        45                100
+
+   Casi nunca                                   0                  0
+
+   Algunas veces                                0                  0
+
+   Casi siempre                                 0                  0
+
+   Siempre                                      0                  0
+
+              Total                             45                100
+      Fuente: Cuestionario sobre Recaudación de Tarifa de Agua.
+      Elaborado: Por el tesista.
+
+
+
+Nota: En la figura se observa que; para 45 encuestados nunca ha sido informado
+a las centrales de riesgo (Infocorp), debido a no cancelar oportunamente su tarifa
+de agua, equivalente al 100% de representatividad.
+
+
+
+
+                                                59
+4.1.2. ANÁLISIS CORRELACIONAL
+
+Figura 1:                                   DIAGRAMA DE DISPERSIÓN
+
+
+
+                                                        Diagrama de Dispersión
+                                  120
+
+
+
+                                  100
+  Recaudación de tarifa de agua
+
+
+
+
+                                   80
+
+
+
+                                   60
+
+
+
+                                   40
+
+
+
+                                   20
+
+
+
+                                    0
+                                        0   5      10      15     20        25   30     35     40     45      50
+                                                                   Control interno
+
+
+
+
+Nota:
+
+                                   En la presente figura se refleja que, la dispersión indicada en el diagrama
+                                   establece la aplicación que evidencia la relación que existe entre las dos
+                                   variables de estudio. Al respecto, se precisa el estudio de la relación a nivel
+                                   de dos factores, problemas o causas, que establecen criterios efectuados
+                                   con lineamientos de calidad, así como un origen probable del problema.
+
+
+
+
+                                                                       60
+OBJETIVO GENERAL:
+
+        Determinar la relación que existe entre el control interno y la recaudación de
+        tarifa de agua de la comisión de usuarios subsector hidráulico Muñuela
+        Margen Derecha, provincia de Sechura 2022.
+
+Tabla 21:        Correlación entre las variables control interno y recaudación de
+                 tarifa de agua de la comisión de usuarios subsector hidráulico
+                 Muñuela Margen Derecha, provincia de Sechura 2022.
+
+                                            Correlaciones
+
+                                                                                      Recaudación de
+                                                                    Control interno
+                                                                                       tarifa de agua
+
+                             Correlación de Spearman                      1               ,983**
+
+    Control interno                 Sig. (bilateral)                                      0.000
+
+                                           N                              45                45
+
+                             Correlación de Spearman                    ,983**              1
+
+Recaudación de tarifa
+                                    Sig. (bilateral)                    0.000
+     de agua
+
+                                           N                              45                45
+
+**. La correlación es significativa en el nivel 0,01 (bilateral).
+
+
+
+
+Descripción:
+
+        Dado que “el p valor es menor a 0,01 (alfa), rechazamos la hipótesis nula,
+        por lo tanto, existe suficiente evidencia estadística para afirmar que el control
+        interno está relacionado significativamente con la recaudación de tarifa de
+        agua. Por otro lado, el coeficiente de correlación de Spearman es de 0.983
+        lo cual nos indica una relación positiva, muy fuerte y además significativa.
+
+
+
+
+                                                       61
+OBJETIVO ESPECÍFICO 01:
+
+        Determinar la relación que existe entre el ambiente de control y la
+        recaudación de tarifa de agua de la comisión de usuarios subsector
+        hidráulico Muñuela Margen Derecha, provincia de Sechura 2022
+
+Tabla 22:        Correlación entre la dimensión ambiente de control y la variable
+                 recaudación de tarifa de agua de la comisión de usuarios
+                 subsector hidráulico Muñuela Margen Derecha, provincia de
+                 Sechura 2022.
+
+                                            Correlaciones
+
+                                                                    Ambiente de   Recaudación de
+                                                                      control      tarifa de agua
+
+                             Correlación de Spearman                     1            ,925**
+
+ Ambiente de control                Sig. (bilateral)                                  0.000
+
+                                           N                            45              45
+
+                             Correlación de Spearman                   ,925**           1
+
+Recaudación de tarifa
+                                    Sig. (bilateral)                   0.000
+     de agua
+
+                                           N                            45              45
+
+**. La correlación es significativa en el nivel 0,01 (bilateral).
+
+
+
+
+Descripción:
+
+        Dado que el “p valor es menor a 0,01 (alfa), rechazamos la hipótesis nula,
+        por lo tanto, existe suficiente evidencia estadística para afirmar que el
+        ambiente de control está relacionado significativamente con la recaudación
+        de tarifa de agua. Por otro lado, el coeficiente de correlación de Spearman
+        es de 0.925 lo cual nos indica una relación positiva, muy fuerte y además
+        significativa.”
+
+
+
+
+                                                       62
+OBJETIVO ESPECÍFICO 02:
+
+          Determinar la relación que existe entre la evaluación de riegos y la
+          recaudación de tarifa de agua de la comisión de usuarios subsector
+          hidráulico Muñuela Margen Derecha, provincia de Sechura 2022.
+
+Tabla 23:         Correlación entre la dimensión evaluación de riesgos y la
+                  variable recaudación de tarifa de agua de la comisión de usuarios
+                  subsector hidráulico Muñuela Margen Derecha, provincia de
+                  Sechura 2022.
+
+                                              Correlaciones
+
+                                                                    Evaluación de   Recaudación de
+                                                                       riesgos       tarifa de agua
+
+                                 Correlación de Spearman                 1              ,934**
+
+    Evaluación de riesgos             Sig. (bilateral)                                  0.000
+
+                                             N                           45                  45
+
+                                 Correlación de Spearman               ,934**                1
+
+    Recaudación de tarifa
+                                      Sig. (bilateral)                 0.000
+         de agua
+
+                                             N                           45                  45
+
+**. La correlación es significativa en el nivel 0,01 (bilateral).
+
+
+
+
+Descripción:
+
+          Dado que el “p valor es menor a 0,01 (alfa), rechazamos la hipótesis nula,
+          por lo tanto, existe suficiente evidencia estadística para afirmar que la
+          evaluación        de    riesgos     está       relacionada    significativamente       con   la
+          recaudación de tarifa de agua. Por otro lado, el coeficiente de correlación de
+          Spearman es de 0.934 lo cual nos indica una relación positiva, muy fuerte y
+          además significativa.
+
+”
+
+
+                                                         63
+OBJETIVO ESPECÍFICO 03:
+
+        Determinar la relación que existe entre las actividades de control y la
+        recaudación de tarifa de agua en la comisión de usuarios subsector
+        hidráulico Muñuela Margen Derecha, provincia de Sechura 2022.
+
+Tabla 24:        Correlación entre la dimensión actividades de control y la
+                 variable recaudación de tarifa de agua de la comisión de usuarios
+                 subsector hidráulico Muñuela Margen Derecha, provincia de
+                 Sechura 2022.
+
+                                            Correlaciones
+
+                                                                    Actividades de   Recaudación de
+                                                                        control       tarifa de agua
+
+                             Correlación de Spearman                      1              ,951**
+
+Actividades de control              Sig. (bilateral)                                     0.000
+
+                                           N                             45                45
+
+                             Correlación de Spearman                    ,951**             1
+
+Recaudación de tarifa
+                                    Sig. (bilateral)                    0.000
+     de agua
+
+                                           N                             45                45
+
+**. La correlación es significativa en el nivel 0,01 (bilateral).
+
+
+
+
+Descripción:
+
+        Dado que el “p valor es menor a 0,01 (alfa), rechazamos la hipótesis nula,
+        por lo tanto, existe suficiente evidencia estadística para afirmar que las
+        actividades de control están relacionadas significativamente con la
+        recaudación de tarifa de agua. Por otro lado, el coeficiente de correlación de
+        Spearman es de 0.951 lo cual nos indica una relación positiva, muy fuerte y
+        además significativa.”
+
+
+
+
+                                                       64
+OBJETIVO ESPECÍFICO 04:
+
+        Determinar la relación que existe entre la información y comunicación y la
+        recaudación de tarifa de agua de la comisión de usuarios subsector
+        hidráulico Muñuela Margen Derecha, provincia de Sechura 2022.
+
+Tabla 25:        Correlación entre la dimensión información y comunicación y la
+                 variable recaudación de tarifa de agua de la comisión de usuarios
+                 subsector hidráulico Muñuela Margen Derecha, provincia de
+                 Sechura 2022.
+
+                                            Correlaciones
+
+                                                                    Información y   Recaudación de
+                                                                    comunicación     tarifa de agua
+
+                             Correlación de Spearman                     1              ,956**
+
+    Información y
+                                    Sig. (bilateral)                                    0.000
+    comunicación
+
+                                           N                             45               45
+
+                             Correlación de Spearman                   ,956**             1
+
+Recaudación de tarifa
+                                    Sig. (bilateral)                   0.000
+     de agua
+
+                                           N                             45               45
+
+**. La correlación es significativa en el nivel 0,01 (bilateral).
+
+
+
+
+Descripción:
+
+        Dado que el “p valor es menor a 0,01 (alfa), rechazamos la hipótesis nula,
+        por lo tanto, existe suficiente evidencia estadística para afirmar que la
+        información y comunicación está relacionada significativamente con la
+        recaudación de tarifa de agua. Por otro lado, el coeficiente de correlación de
+        Spearman es de 0.956 lo cual nos indica una relación positiva, muy fuerte y
+        además significativa.”
+
+
+
+
+                                                       65
+OBJETIVO ESPECÍFICO 05:
+
+        Determinar la relación que existe entre las actividades de supervisión y la
+        recaudación de tarifa de agua de la comisión de usuarios subsector
+        hidráulico Muñuela Margen Derecha, provincia de Sechura 2022.
+
+Tabla 26:        Correlación entre la dimensión actividades de supervisión y la
+                 variable recaudación de tarifa de agua de la comisión de usuarios
+                 subsector hidráulico Muñuela Margen Derecha, provincia de
+                 Sechura 2022.
+
+                                            Correlaciones
+
+                                                                    Actividades de   Recaudación de
+                                                                     supervisión      tarifa de agua
+
+                             Correlación de Spearman                      1              ,979**
+
+    Actividades de
+                                    Sig. (bilateral)                                     0.000
+     supervisión
+
+                                           N                             45                45
+
+                             Correlación de Spearman                    ,979**             1
+
+Recaudación de tarifa
+                                    Sig. (bilateral)                    0.000
+     de agua
+
+                                           N                             45                45
+
+**. La correlación es significativa en el nivel 0,01 (bilateral).
+
+
+
+
+Descripción:
+
+        Dado que el “p valor es menor a 0,01 (alfa), rechazamos la hipótesis nula,
+        por lo tanto, existe suficiente evidencia estadística para afirmar que las
+        actividades de supervisión están relacionadas significativamente con la
+        recaudación de tarifa de agua. Por otro lado, el coeficiente de correlación de
+        Spearman es de 0.979 lo cual nos indica una relación positiva, muy fuerte y
+        además significativa.”
+
+
+
+
+                                                       66
+4.2. DISCUSIÓN DE RESULTADOS
+
+La investigación encontró resultados que, al compararlos con otros estudios,
+reflejaron lo siguiente:
+
+En la tesis de Esteves (2019) sobre adopción del sistema de control interno enfoque
+COSO para fortalecer las organizaciones de usuarios de agua del valle Chancay –
+Lambayeque, se sostiene:
+
+       “El 70 % del área tiene problemas en la parte organizacional de la empresa:
+       no cuentan con Políticas de Control, Manual de Procedimientos por área,
+       Manual de Organización y Funciones, Flujograma, Reglamento Interno de
+       Trabajo actualizado, cuentan con un organigrama desactualizado y con
+       áreas que no coordinan las actividades técnicas y administrativas. No se
+       planifica reuniones con el personal para fines de evaluación administrativo,
+       de evaluación y mejoras de los procesos internos, de evaluación del
+       cumplimiento de metas Técnicas administrativas establecidos en el Plan
+       Anual de Operación y Mantenimiento de la Infraestructura Hidráulica Menor
+       (POMDIHME) y el Plan Multianual de Inversiones (PMI) que representa la
+       Visión de lo que quiere lograr la organización en un periodo de cinco años,
+       entre otros. El 60 % del área de contabilidad tiene problemas que se deben
+       mejorar. En la evaluación del cuestionario de control interno se observa que
+       no se tiene diseñado un control interno de las diferentes actividades que
+       ejecuta el área contable, como por ejemplo en la aseveraciones de los saldos
+       contables, que permita brindar confiabilidad a la información que emite como
+       por ejemplo para otorgar créditos por la venta del recurso hídrico, en la toma
+       de inventarios, en conciliar los saldos de las cuentas bancarias, en las
+       cuentas por cobrar y por pagar atrasadas, en los registros y auxiliares de
+       control contable. El cuestionario fue aplicado a la cajera encargada del
+       manejo del efectivo en la asociación, observando que, el 60% del área tiene
+       problemas de control que deben resolver. El manejo y control del efectivo se
+       determinó que la cajera no realiza cierre diario de caja, no lleva un control y
+       registro de los gastos pues no se han fijado límites de dinero en caja, Muchas
+       veces no se comprueba la validez de los comprobantes de pago tributarios.”
+
+
+
+                                         67
+Albornoz (2018) sostiene:
+
+      En su tesis “El sistema de control interno en la gestión comunal de la junta
+      administradora de servicios de saneamiento (JASS) Colpa Alta – Amarilis
+      2018” que, el 73.33 % mencionaron que NO existe una segregación de
+      funciones y responsabilidades del personal en la Gestión Comunal de la
+      JASS Colpa Alta, mientras que el 26.67% manifestaron que SI existe dichas
+      funciones. Asimismo, el 83.70 % mencionaron que, SI se realiza
+      evaluaciones o monitoreos a las funciones y responsabilidades del consejo
+      directivo de la JASS Colpa Alta, mientras que el 16.30% manifestaron que
+      NO se realiza dichas evaluaciones. Por su parte, El 83,70% mencionaron
+      que NO existe transparencia al comunicar el Informe Económico y temas de
+      relevancia a la asamblea general en las reuniones establecidas por el C.D.
+      de la JASS Colpa Alta, mientras que el 16,30% indican lo contrario. Además,
+      el 58,52% mencionaron que SI existe sanciones a aquellos usuarios que no
+      cumplan con sus obligaciones, mientras que el 41,48% manifestaron lo
+      contrario.
+
+
+Linares (2017) expresa:
+
+      En su trabajo “Diagnóstico y propuesta de control interno para la comisión
+      de usuarios de agua – Huancaquito Bajo, Virú, 2017” que, el 25% de los
+      usuarios califica de buena la atención que recibe del personal administrativo,
+      mientras que el 75% califica como regular la atención recibida. El 75%
+      califica la gestión actual como buena, así mismo el 25% de usuarios califica
+      como regular. El 100% de los usuarios opinan que la Comisión no cuenta
+      con las instalaciones e infraestructura adecuadas. De acuerdo al
+      cuestionario aplicado a la presidenta y vicepresidente de la Junta Directiva
+      de la Comisión de Usuarios de Agua-Huancaquito Bajo, Virú, el 100%
+      considera que implementar un Control Interno en una Organización es
+      importante.
+
+
+
+
+                                        68
+Se determinaron resultados en su análisis descriptivo, en el presente estudio
+reflejando los siguientes datos:
+
+      Para 05 encuestados precisaron algunas veces los directivos y personal de
+      la comisión demuestran un comportamiento ético, poniendo en práctica los
+      lineamientos de conducta, lo cual representó un 12%; 11 encuestados
+      establecieron casi siempre que significó el 24% y 29 encuestados indicaron
+      la opción siempre equivalente al 64% de representatividad. Para 04
+      encuestados establecieron nunca la comisión brinda seguridad a los
+      usuarios que se acercan a cancelar su tarifa de agua, lo cual significó un 9%;
+      03 encuestados indicaron casi nunca que representó un 7%; 16 encuestados
+      respondieron algunas veces que simbolizó el 35%; 10 encuestados
+      manifestaron casi siempre que representa el 22% y 12 encuestados
+      señalaron la opción siempre que equivale al 27%. Para 06 encuestados
+      algunas veces la comisión publicita a través radios, emisoras locales, redes
+      sociales para que los usuarios cancelen la tarifa de agua, lo cual representa
+      un 13%; 09 encuestados contestaron casi siempre lo cual significó el 20% y
+      30 encuestados señalaron siempre el cual equivale al 67% de
+      representatividad. Para 05 encuestados nunca la comisión realiza acciones
+      de empadronamiento y registro de usuarios de agua, lo cual corresponde un
+      11%; 19 encuestados precisaron algunas veces lo cual equivale un 42%; 09
+      encuestados indicaron casi siempre lo cual representa un 20% y 12
+      encuestados      manifestaron   siempre    que    significa   un   27%     de
+      representatividad. Para 11 encuestado algunas veces el personal que labora
+      en la oficina de cobranza de la comisión, brinda una buena atención, lo cual
+      representa un 24%; 18 encuestados indicaron casi siempre lo cual
+      corresponde un 40% y 16 encuestados manifestaron la opción siempre lo
+      cual significó un 36% de representatividad.
+
+
+
+
+                                        69
+                            V. CONCLUSIONES
+
+1.   El control interno se relaciona significativamente con la recaudación de tarifa
+     de agua en la comisión de usuarios subsector hidráulico Muñuela Margen
+     Derecha, Vice; debido a que el coeficiente de Spearman es de 0,983, lo que
+     evidencia una correlación positiva, muy fuerte y además significativa con un
+     Pvalor de 0.00 menor a 0.01, aceptado la hipótesis alternativa. En tal sentido
+     se afirma que, en la medida que se aplique un adecuado control interno,
+     mejorará la recaudación de tarifa de agua.
+
+2.   El componente ambiente de control se relaciona significativamente con la
+     recaudación de tarifa de agua en la comisión de usuarios subsector
+     hidráulico Muñuela Margen Derecha, Vice; debido a que el coeficiente de
+     Spearman es de 0,925, lo que evidencia una correlación positiva, muy fuerte
+     y además significativa con un Pvalor de 0.00 menor a 0.01, aceptado la
+     hipótesis alternativa. Al respecto se refleja que, mejorará la recaudación de
+     tarifa de agua, en la medida que se implemente el componente ambiente de
+     control en sus dependencias administrativas.
+
+3.   El componente evaluación de riesgos se relaciona significativamente con la
+     recaudación de tarifa de agua en la comisión de usuarios subsector
+     hidráulico Muñuela Margen Derecha, Vice; debido a que el coeficiente de
+     Spearman es de 0,934, lo que evidencia una correlación positiva, muy fuerte
+     y además significativa con un Pvalor de 0.00 menor a 0.01, aceptado la
+     hipótesis alternativa. Se demuestra que, en la medida que se fortalezca el
+     componente evaluación de riesgo, mejorará la recaudación de tarifa de agua.
+
+4.   El componente actividades de control se relaciona significativamente con la
+     recaudación de tarifa de agua en la comisión de usuarios subsector
+     hidráulico Muñuela Margen Derecha, Vice; debido a que el coeficiente de
+     Spearman es de 0,951, lo que evidencia una correlación positiva, muy fuerte
+     y además significativa con un Pvalor de 0.00 menor a 0.01, aceptado la
+     hipótesis alternativa. Por cuanto se demuestra que, en la medida que se
+     implemente el componente actividades de control, mejorará la recaudación
+     de tarifa de agua.
+                                       70
+5.   El componente información y comunicación se relaciona significativamente
+     con la recaudación de tarifa de agua en la comisión de usuarios subsector
+     hidráulico Muñuela Margen Derecha, Vice; debido a que el coeficiente de
+     Spearman es de 0,956, lo que evidencia una correlación positiva, muy fuerte
+     y además significativa con un Pvalor de 0.00 menor a 0.01, aceptado la
+     hipótesis alternativa. En consecuencia, se demuestra que, mejorará la
+     recaudación de tarifa de agua en la medida que se aplique el componente
+     información y comunicación de manera planificada en la alta dirección.
+
+6.   El componente actividades de supervisión se relaciona significativamente
+     con la recaudación de tarifa de agua en la comisión de usuarios subsector
+     hidráulico Muñuela Margen Derecha, Vice; debido a que el coeficiente de
+     Spearman es de 0,979, lo que evidencia una correlación positiva, muy fuerte
+     y además significativa con un Pvalor de 0.00 menor a 0.01, aceptado la
+     hipótesis alternativa. Por tanto, se demuestra que, en la medida que se
+     consolide el componente supervisión, mejorará la recaudación de tarifa de
+     agua en sus lineamientos previstos organizacionalmente.
+
+
+
+
+                                     71
+                           VI. RECOMENDACIONES
+
+1.   Promover el cumplimiento de la implementación de los componentes de
+     control interno a través del consejo directivo de la comisión de usuarios
+     subsector hidráulico Muñuela Margen Derecha de Vice, mediante un plan de
+     actividades con la debida planificación, que incluya la socialización de los
+     lineamientos establecidos para mejorar la recaudación de tarifa de agua que
+     permita alcanzar las metas previstas a nivel de ingresos.
+
+2.   Mejorar el ambiente de control a través de la unidad administrativa de la
+     comisión de usuarios subsector hidráulico Muñuela Margen Derecha de Vice,
+     mediante las disposiciones establecidas para la operatividad institucional, de
+     manera que se logre la participación del consejo directivo en sus
+     competencias estatutarias, para alcanzar una óptima recaudación de tarifa de
+     agua.
+
+3.   Promover eventos de sensibilización a través de la unidad de recursos
+     humanos de la comisión de usuarios subsector hidráulico Muñuela Margen
+     Derecha de Vice, sobre los riesgos de gestión y sus aplicaciones en los
+     sistemas y aplicativos, de manera que permita obtener medidas correctivas
+     en la organización que aseguren el manejo, la custodia y salvaguardo de los
+     recursos obtenidos.
+
+4.   Establecer un sistema de actividades de control a través de la alta dirección
+     de la comisión de usuarios subsector hidráulico Muñuela Margen Derecha de
+     Vice, de conformidad con los procedimientos de su consejo directivo, para
+     cumplir los objetivos institucionales establecidos en los instrumentos de
+     gestión, para mejorar la recaudación de tarifa de agua.
+
+5.   Promover los procedimientos internos de control con información fehaciente y
+     confiable, a través de la oficina de comunicaciones de la comisión de usuarios
+     subsector hidráulico Muñuela Margen Derecha de Vice, ampliando los canales
+     de comunicación para cumplir con el principio de transparencia de gestión
+     descentralizada, que permitirá mejorar la recaudación de tarifa de agua y la
+     entrega oportuna de información a los usuarios.
+
+                                        72
+6.   Disponer la participación de manera interrelacionada sobre las acciones de
+     supervisión, monitoreo y control a través de la administración de la comisión
+     de usuarios subsector hidráulico Muñuela Margen Derecha de Vice, para
+     fortalecer la gestión de recaudación de tarifa de agua en cumplimiento con las
+     disposiciones establecidas institucionalmente.
+
+
+
+
+                                        73
+                      VII. REFERENCIAS BIBLIOGRÁFICAS
+
+
+Albornoz, Y. (2018). El sistema de control interno en la gestión comunal de la Junta
+      Administra de servicios de saneamiento (JASS) Colpa Alta – Amarilis 2018
+      (tesis     de   grado).   Universidad   de   Huánuco,    Huánuco     –      Perú.
+      http://repositorio.udh.edu.pe/handle/123456789/1580
+
+Autoridad Nacional del Agua (2010). Reglamento de la Ley de Recursos Hídricos
+      D.S 001-2010-AG.
+
+https://www.ana.gob.pe/sites/default/files/publication/files/reglamento_lrh_-
+      _no_29338_0.pdf
+
+Autoridad Nacional del Agua (2015). Decreto Supremo N°005-2015-MINAGRI.
+      Reglamento de la Ley N°30157, Ley de las Organizaciones de Usuarios de
+      Agua.
+      https://www.ana.gob.pe/sites/default/files/normatividad/files/d.s._ndeg005-
+      2015-minagri_0_2.pdf 4
+
+Autoridad Nacional del Agua (2015). Resolución Jefatural N°307-2015-ANA.
+      Formular y aprobar las tarifas por utilización de la infraestructura hidráulica
+      mayor y/o menor y por monitoreo y gestión de aguas subterráneas.
+
+https://www.ana.gob.pe/sites/default/files/normatividad/files/r.j._307-2015-
+      ana_0.pdf
+
+Autoridad Nacional del Agua (2019). Resolución Jefatural N°083-2019-ANA,
+      Regula la forma y los plazos en que los usuarios de agua deben pagar la
+      retribución económica por el uso del agua y por el vertimiento de agua
+      residual                                                                  tratada.
+      https://www.ana.gob.pe/sites/default/files/normatividad/files/RJ%20%20083
+      -2019-ANA.pdf
+
+Autoridad Nacional del Agua (2019). Resolución Jefatural N°230-2019-ANA
+      Modificación del reglamento de Operadores de Infraestructura Hidráulica.
+
+https://www.ana.gob.pe/sites/default/files/normatividad/files/Reglamento%20de%2
+      0Operadores.pdf
+
+                                         74
+Araníbar, C. (2018). El control interno y su influencia en la gestión administrativa de
+       las entidades sin fines de lucro del Perú, caso Comisión de Usuarios de agua
+       del Subsector Hidráulico de Huayto periodo 2015-2016 (tesis de grado).
+       Universidad Católica Los Ángeles de Chimbote, Chimbote – Perú.
+       https://repositorio.uladech.edu.pe/handle/20.500.13032/3340
+
+Auditool. Modelo COSO III - Marco Integrado de Control Interno.
+
+       https://www.academia.edu/33382235/MODELO_COSO_III_-
+       _MARCO_INTEGRADO_DE_CONTROL_INTERNO
+
+
+Contraloría General de la República (2014). Marco conceptual de Control Interno.
+
+https://apps.contraloria.gob.pe/wcm/control_interno/documentos/Pubicaciones/Ma
+       rco_Conceptual_Control_Interno_CGR.pdf
+
+COSO (2013). Control Interno – Marco Integrado – Resumen Ejecutivo.
+
+       HTTPS://WWW.PJ.GOB.PE/WPS/WCM/CONNECT/8BA7CC8040809738A
+       C41ED9515C1560A/3.-
+       COSO+2013+RESUMEN+EJECUTIVO.PDF?MOD=AJPERES&CACHEID=
+       8BA7CC8040809738AC41ED9515C1560A
+
+Cotrina, L. (2016). La recaudación de la tarifa de agua y su incidencia en el
+       cumplimiento del presupuesto de la Junta Usuarios de Agua de la Cuenca
+       del Río Moche, 2015 (tesis de grado). Universidad César Vallejo, Trujillo –
+       Perú. https://renati.sunedu.gob.pe/handle/sunedu/2961215
+
+EcuRed. - Definición de cobranza - https://www.ecured.cu/Cobranza
+
+Espinoza, K. (2017). Recaudación y distribución por uso de agua con fines agrarios
+       en la organización de la Junta de Usuarios del distrito de riego Sicuani –
+       Cusco, periodo 2016 (tesis de grado). Universidad Andina del Cusco, Cusco
+       – Perú. https://repositorio.uandina.edu.pe/handle/20.500.12557/2654
+
+Esteves, J. (2018). Adopción del sistema de control interno – enfoque COSO – para
+       fortalecer las organizaciones de usuarios de agua del valle Chancay –
+       Lambayeque. Universidad Nacional Pedro Ruiz Gallo, Lambayeque – Perú.
+       https://repositorio.unprg.edu.pe/handle/20.500.12893/5957
+                                          75
+Hernández Sampieri, Roberto, Fernández Collado, Carlos y Baptista Lucio, María
+       (2010) Metodología de la Investigación. (5ªed.). México: Mc Graw-Hill.
+
+Herrera, R. (2016). Caracterización del control interno en la gestión administrativa
+       de las Juntas de Usuarios de riego de la región La Libertad: Caso Junta de
+       Usuarios del Sub Distrito de Riego Chao. Virú, 2016 (tesis de grado).
+       Universidad    Católica   los    Ángeles   de       Chimbote,   Trujillo   –   Perú.
+       http://repositorio.uladech.edu.pe/handle/20.500.13032/508
+
+Huamán, J. (2017). El presupuesto de tarifas de agua de uso agrario y su incidencia
+       en la gestión financiera y económica de la Comisión de Regantes de
+       Jequetepeque – 2016 (tesis de grado). Universidad Nacional de Trujillo,
+       Trujillo – Perú. https://renati.sunedu.gob.pe/handle/sunedu/2697183
+
+Linares, I. (2017). Diagnóstico y propuesta de control interno para la Comisión de
+       Usuarios de agua. Huancaquito Bajo, Virú, 2017. Universidad César Vallejo,
+       Chimbote – Perú. https://repositorio.ucv.edu.pe/handle/20.500.12692/12356
+
+Marchan, Y. (2019). Control Interno y recaudación del Impuesto predial en la
+       Municipalidad Distrital de la Cruz – Tumbes, periodo 2017. Universidad
+       Nacional          de            Tumbes,         Tumbes              –          Perú.
+       https://repositorio.untumbes.edu.pe/handle/20.500.12874/315
+
+Masaquiza, K. (2004). Transferencia del sistema de riego público al sector privado,
+       caso: sistema de riego Ambato – Huachi - Pelileo (tesis de grado). Pontificia
+       de         Universidad      Católica          del        Ecuador,          Ecuador.
+       http://repositorio.puce.edu.ec/handle/22000/17824
+
+Mendoza, F., & Porras, J. (2019). El impacto de la morosidad de la tarifa de agua
+       en el mantenimiento y operación del sistema hidráulico menor de riego en la
+       Comisión de Usuarios del Sub Sector Hidráulico Margen Izquierda del río
+       Tumbes – 2018 (tesis de grado). Universidad Nacional de Tumbes, Tumbes
+       – Perú. https://repositorio.untumbes.edu.pe/handle/20.500.12874/386
+
+Ochoa, L. (2018). El valor del agua y el sistema tarifario peruano (tesis de Maestría).
+       Universidad     Peruana     de     Ciencias     Aplicadas,      Lima       –   Perú.
+       https://repositorioacademico.upc.edu.pe/handle/10757/625236
+
+
+                                           76
+Ojeda, M. (2015). Políticas y procedimientos de control interno y la toma de
+      decisiones en la Junta Administradora de agua potable de Cotaló (tesis de
+      grado).      Universidad       Técnica       de       Ambato,      Ecuador.
+      https://repositorio.uta.edu.ec/handle/123456789/17262
+
+Programa Subsectorial de Irrigaciones, PSI-Sierra (2014). Lineamientos para
+      orientar a las Juntas de Usuarios en establecer un procedimiento ordenado
+      y eficiente de cobranza y recaudación de la tarifa.
+
+      http://www.psi.gob.pe/wp-content/uploads/2017/01/GUIA-Recaudacion-
+      Tarifa.pdf
+
+Posso, J., & Barrios, M. (2014). Diseño de un modelo de control interno en la
+      empresa prestadora de servicios hoteleros Eco Turísticos Nativos Activos
+      Eco Hotel la Cocotera, que permitirá el mejoramiento de la información
+      financiera (tesis de grado). Universidad de Cartagena, Cartagena de Indias
+      Colombia. https://repositorio.unicartagena.edu.co/handle/11227/2130
+
+Universidad del Pacífico Centro de Investigación (2010). Desarrollo del estudio que
+      determine la metodología de cálculo de las tarifas por utilización de la
+      infraestructura hidráulica menor y mayor y por el servicio de monitoreo y
+      gestión de agua subterráneas. Recuperado el 22 de mayo del 2016 .
+      http://www.ana.gob.pe/media/533252/completo.pdf
+
+Valcárcel, G. (2017). Mecanismos innovadores para una buena gestión de control
+      interno en cuentas por pagar en la empresa GMI S.A Ingenieros Consultores,
+      Lima 2016 (tesis de grado). Universidad Privada Norbert Wiener, Lima –
+      Perú. https://repositorio.uwiener.edu.pe/handle/20.500.13053/702
+
+
+
+
+                                        77
+VIII. ANEXOS
+
+ANEXO 1: MATRIZ DE OPERACIONALIZACIÓN DE LAS VARIABLES
+
+
+
+       Variable                                          Definición Conceptual                 Definición Operacional          Dimensiones                  Indicadores            Ítems
+
+
+
+                                                   El Control Interno es un proceso       El Control Interno es un            Ambiente       de   • Integridad y Valores Éticos.    1
+                                                                                                                                                  • Competencia profesional.        2
+                                                   integral efectuado por el titular,     conjunto acciones, planes y         Control.
+                                                   funcionario y servidores de una        procedimientos         que    se
+                                                   entidad, diseñado para enfrentar       ejecutan en forma continua                              • Identificación de riesgos.      3
+                                                                                                                              Evaluación de
+                                                   los riesgos y para dar seguridad       en    una   entidad     de    tal                       • Respuesta al riesgo.            4
+                                                                                                                              Riesgos
+                                                   razonable    de    que,     en    la   manera           que         sus
+       Variable Independiente:
+
+
+
+
+                                                                                                                                                  • Segregación de Funciones        5
+                                                   consecución de la misión de la         operaciones se realicen de          Actividades de
+                                                                                                                                                  • Rendición de cuentas.
+                                 Control Interno
+
+
+
+
+                                                   entidad,    se    alcanzaran     los   forma eficiente, eficaz y           Control.
+                                                                                                                                                                                    6
+                                                   objetivos de la misma, es decir, es    económica,       maximizando
+                                                   la gestión misma orientada a           sus recursos, previniendo                               • Comunicación Externa.           7
+                                                                                                                              Información y
+                                                   minimizar   los   riesgos   (Marco     posibles fraudes y riesgos                                                                8
+                                                                                                                              Comunicación.
+                                                   conceptual de Control Interno,         en la entidad.
+                                                   CGR 2014, p 9).                                                                                • Actividades de prevención y     9
+                                                                                                                              Actividades de
+                                                                                                                                                    monitoreo.                      10
+                                                                                                                              Supervisión.
+
+
+
+
+                                                                                                                 78
+                                                                                                                                                   • Registro   del   Usuario   y    1
+                                                                                                                                   Padrón de
+                                                                                                Todos los usuarios del agua                          Predio.
+                                                           La obligación de pago de la tarifa                                     Usuarios de                                        2
+                                                                                                están obligados a contribuir         Agua.
+                                                           de agua nace por la utilización de
+                                                                                                económicamente           para
+                                                           las instalaciones de las obras
+                                                                                                lograr el uso sostenible y                         • Tarifa por Utilización de la
+                        Recaudación de la Tarifa de agua   públicas desde la Conducción del                                                          Infraestructura    Hidráulica
+                                                                                                eficiente del recurso hídrico,                                                       3
+                                                           agua hasta llegar al terreno a                                        Determinación       Menor – TUIHME.
+                                                                                                mediante el pago de las
+Variable Dependiente:
+
+
+
+
+                                                           beneficiarse a la vez el pago se                                      del Valor de la   • Tarifa por Utilización de la    4
+                                                                                                retribuciones económicas y          Tarifa de
+                                                           efectúa de forma periódica y                                              Agua.           Infraestructura    Hidráulica
+                                                                                                las    tarifas     que      le                      Mayor – TUIHMA.
+                                                           anual” (Universidad del Pacifico y
+                                                                                                correspondan conforme a                            • Retribución Económica.
+                                                           su centro de investigación, 2010
+                                                                                                Ley. (Reglamento de la Ley
+                                                           p. 2).                                                                                  • Oficina de Tarifas.             5
+                                                                                                de    Recursos       Hídricos
+                                                                                                                                                   • Personal    asignado       y
+                                                                                                29338, Art. 175 p 50).             Cobranza.                                         6
+                                                                                                                                                     Capacitado.
+                                                                                                                                                   • Modalidad de Pago.              7
+
+
+                                                                                                                                                   • Interés Moratorio.              8
+                                                                                                                                   Sanciones       • Corte de Servicio.              9
+                                                                                                                                                   • Centrales de Riesgo.            10
+
+
+
+
+                                                                                                                    79
+ANEXO 2: MATRIZ DE CONSISTENCIA
+
+   TÍTULO: Control interno y recaudación de tarifa de agua en comisión de usuarios subsector hidráulico Muñuela Margen Derecha, Provincia
+                                                                          Sechura, 2022
+
+   PROBLEMA                              OBJETIVOS                                      HIPÓTESIS                        VARIABLE             METODOLOGÍA
+
+General:               General:                                           Hipótesis Alternativa:                      Variable          Diseño:
+                       Determinar la relación que existe entre el         El control interno se relaciona             independiente:    Esta investigación     es   no
+¿Cuál      es     la
+                       control interno y la recaudación de tarifa de      significativamente con la recaudación                         experimental
+relación       que
+                       agua de la comisión de usuarios subsector          de tarifa de agua de la comisión de         Control Interno   Tipo de estudio:
+existe entre el
+                       hidráulico Muñuela Margen Derecha, provincia       usuarios subsector hidráulico Muñuela
+control interno y la                                                                                                                    El tipo de investigación es
+                       de Sechura 2022.                                   Margen Derecha, provincia de
+recaudación de                                                                                                                          Descriptivo correlacional
+                                                                          Sechura 2022.
+tarifa de agua en
+la comisión de                                                                                                                          Población y Muestra:
+                       Específicos:
+usuarios
+                                                                          Hipótesis Nula:                                               La población está constituida
+subsector              OE1.- Determinar la relación que existe entre el
+hidráulico             ambiente de control y la recaudación de tarifa                                                                   por 45 trabajadores del
+                                                                          No existe relación significativa entre el                     sistema de control de la
+Muñuela Margen         de agua de la comisión de usuarios subsector
+                                                                          control interno y la recaudación de                           comisión     de      usuarios
+Derecha,               hidráulico Muñuela Margen Derecha, provincia
+                                                                          tarifa de agua en la comisión de                              subsector hidráulico Muñuela
+provincia        de    de Sechura 2022.
+                                                                          usuarios subsector hidráulico Muñuela                         Margen Derecha, provincia de
+Sechura 2022?
+                       OE2.- Determinar la relación que existe entre la   Margen Derecha, provincia de                Variable          Sechura 2022.
+                       evaluación de riegos y la recaudación de tarifa    Sechura 2022.
+                                                                                                                      dependiente:
+                       de agua de la comisión de usuarios subsector                                                                     Métodos de investigación:
+                       hidráulico Muñuela Margen Derecha, provincia
+                       de Sechura 2022.                                                                               Recaudación de    Los métodos utilizados son el
+                                                                                                                                        inductivo y descriptivo.
+                       OE3.- Determinar la relación que existe entre                                                  tarifa de agua
+                       las actividades de control y la recaudación de                                                                   Técnica: Encuesta
+                       tarifa de agua en la comisión de usuarios
+                                                                                                                                        Instrumento: Cuestionario
+
+
+                                                                                 80
+subsector hidráulico Muñuela Margen Derecha,
+                                                        Plan de procesamiento y
+provincia de Sechura 2022.
+                                                        análisis de datos:
+OE4.- Determinar la relación que existe entre la
+información y comunicación y la recaudación             Software SPSS 23.0
+de tarifa de agua en la comisión de usuarios
+subsector hidráulico Muñuela Margen Derecha,
+provincia de Sechura 2022.
+
+OE5.- Determinar la relación que existe entre la
+supervisión y la recaudación de tarifa de agua
+en la comisión de usuarios subsector hidráulico
+Muñuela Margen Derecha, provincia de
+Sechura 2022.
+
+
+
+
+                                                   81
+                   ANEXO 3: INSTRUMENTO DE RECOLECCIÓN DE DATOS
+
+                         CUESTIONARIO SOBRE CONTROL INTERNO
+
+Estimado Colaborador:
+
+Agradecemos su colaboración en la investigación de título “Control interno y recaudación de tarifa
+de agua en comisión de usuarios subsector hidráulico Muñuela Margen Derecha, Provincia Sechura,
+2022”. A continuación, se presenta un conjunto de enunciados para recoger información desde su
+percepción sobre el control interno. Por favor, siga usted las siguientes instrucciones:
+
+1.       Lea cuidadosamente y de forma clara los enunciados de las preguntas.
+2.       No deje preguntas sin contestar.
+3.       Marque con un aspa en sólo uno de los cuadros de cada pregunta de acuerdo a la siguiente
+         escala.
+
+                          1               2           3            4              5
+                        Nunca        Casi Nunca   A Veces    Casi Siempre     Siempre
+                         (N)            (CN)        (AV)         (CS)            (S)
+
+
+
+                                                                                        ESCALA
+
+ N°                DIMENSIONES (D) / INDICADORES (I) / ÍTEMS                  N   CN      AV     CS   S
+
+                                                                              1    2      3      4    5
+
+     D                      AMBIENTE DE CONTROL
+
+     I                               Valores Éticos
+
+     1    ¿Los Directivos y personal de la comisión demuestran un
+          comportamiento ético, poniendo en práctica los lineamientos
+          de conducta?
+
+     I                      Competencia Profesional
+
+     2    ¿Los      procesos    de    selección   de   personal   ha   sido
+          desarrollados de acuerdo a los lineamientos de la Comisión,
+          reclutando a personal competente?
+
+     D                     EVALUACIÓN DE RIESGOS
+
+     I                     Identificación de Riesgos.
+
+     3    ¿La Comisión brinda seguridad a los usuarios que se
+          acercan a cancelar su tarifa de agua?
+
+
+
+                                                        82
+I                      Respuesta al Riesgo.
+
+4    ¿De suceder una ocurrencia (asalto o robo) la Comisión
+     tiene los mecanismos para afrontarlo?
+
+D                   ACTIVIDADES DE CONTROL
+
+I    Segregación de Funciones
+
+5    ¿En la comisión existe rotación de personal?
+
+I                      Rendición de Cuentas
+
+6    ¿La Comisión informa sobre la recaudación de tarifa de agua
+     y en que se invierte?
+
+D               INFORMACIÓN Y COMUNICACIÓN.
+
+I                      Comunicación Externa
+
+7    ¿La Comisión publicita a través radios, emisoras locales,
+     redes sociales para que los usuarios cancelen la tarifa de
+     agua?
+
+8    ¿Usted ha realizado algún reclamo con respecto al cobro de
+     la tarifa de agua, y lo resuelto le fue comunicado
+     oportunamente?
+
+D                  ACTIVIDADES DE SUPERVISIÓN.
+
+I            Actividades de prevención y monitoreo.
+
+9    ¿En la comisión se realizan supervisiones por concepto de
+     la recaudación de la tarifa de agua, por parte de entidades
+     superiores?
+
+10   ¿Los usuarios monitorean el gasto que ejecuta la Comisión
+     con el dinero de la cobranza de la tarifa de agua?
+
+
+
+
+                                              83
+             CUESTIONARIO SOBRE RECAUDACIÓN DE TARIFA DE AGUA
+
+Estimado Colaborador:
+
+Agradecemos su colaboración en la investigación de título “Control interno y recaudación de tarifa
+de agua en comisión de usuarios subsector hidráulico Muñuela Margen Derecha, Provincia Sechura,
+2022”. A continuación, se presenta un conjunto de enunciados para recoger información desde su
+percepción sobre la recaudación de la tarifa de agua. Por favor, siga usted las siguientes
+instrucciones:
+
+1.       Lea cuidadosamente y de forma clara los enunciados de las preguntas.
+2.       No deje preguntas sin contestar.
+3.       Marque con un aspa en sólo uno de los cuadros de cada pregunta de acuerdo a la siguiente
+         escala.
+
+                          1          2           3             4            5
+                        Nunca   Casi Nunca   A Veces     Casi Siempre   Siempre
+                         (N)       (CN)        (AV)          (CS)          (S)
+
+
+
+                                                                                    ESCALA
+
+ N°                DIMENSIONES (D) / INDICADORES (I) / ÍTEMS            N   CN        AV     CS   S
+
+                                                                        1       2     3      4    5
+
+     D                 PADRÓN DE USUARIOS DE AGUA.
+
+     I                    Registro del Usuario y Agua.
+
+     1    ¿La Comisión realiza acciones de empadronamiento y
+          registro de usuarios de agua?
+
+     2    ¿Los usuarios empadronados han registrado todos sus
+          predios agrícolas?
+
+     D        DETERMINACIÓN DEL VALOR DE LA TARIFA DE
+                                     AGUA
+
+     I      Tarifa por Utilización de la Infraestructura Hidráulica
+                   (TUIHME – TUIHMA – Retribución Económica)
+
+     3    ¿La Comisión realiza talleres a los usuarios sobre el
+          procedimiento de cálculo para determinar el valor por m3 de
+          la tarifa de agua?
+
+
+
+
+                                                  84
+4    ¿Le informan a usted el valor por m3 de agua y en qué
+     actividades se proyecta invertir?
+
+D                            COBRANZA
+
+I                          Oficina de Tarifas
+
+5    ¿La oficina de cobranza de la Comisión, se encuentra
+     debidamente implementada para realizar dicha labor?
+
+I                 Personal asignado y capacitado
+
+6    ¿El personal que labora en la oficina de cobranza de la
+     Comisión, brinda una buena atención?
+
+I                         Modalidad de Pago
+
+7    ¿Para que se le otorgue la Orden de Riego al usuario, es un
+     requisito cancelar previamente la tarifa de agua?
+
+D                            SANCIONES
+
+I                          Interés Moratorio
+
+8    ¿La impuntualidad en sus pagos le ha generado interés en
+     su tarifa de agua?
+
+I                          Corte de Servicio
+
+9    ¿La Comisión ha realizado el Corte del Servicio a los
+     usuarios que no pagan su tarifa de agua?
+
+I                         Centrales de Riesgo
+
+10   ¿Usted ha sido informado a las centrales de riesgo
+     (Infocorp), debido a no cancelar oportunamente su tarifa de
+     agua?
+
+
+
+
+                                                85
+CONSTANCIA DE VALIDACIÓN DE INSTRUMENTO
+
+Yo CPC. Carlos Máximo Espinoza Salas, con DNI N° 44333882, ejerciendo la
+carrera de contador público; por medio de la presente, dejo constancia de haber
+revisado con fines de validación, los ítems del instrumento (cuestionario), que el
+investigador Br. Galecio Purizaca, Williams usará para su trabajo de investigación
+titulado: Control interno y recaudación de tarifa de agua en comisión de
+usuarios subsector hidráulico Muñuela Margen Derecha, Provincia Sechura,
+2022. Al respecto, el mencionado instrumento previsto para el estudio en mención,
+guarda coherencia con las variables, dimensiones, indicadores e ítems; además
+muestra un dominio específico de contenidos en lo que se busca medir y es
+consecuente con mediciones previas que han surgido en investigaciones
+precedentes.
+
+Por lo tanto, garantizo la validez de dicho instrumento presentado por el referido
+investigador para su aplicación.
+
+
+
+
+                                               Tumbes, 30 de diciembre de 2022.
+
+
+
+
+                       _______________________________
+                       CPC. Carlos Máximo Espinoza Salas
+                                   Mat. 15 - 0760
+
+
+
+
+                                        86
+CONSTANCIA DE VALIDACIÓN DE INSTRUMENTO
+
+Yo CPC. Wilmer Anthony Vilela Mena, con DNI N° 42766310, ejerciendo la carrera
+de contador público; por medio de la presente, dejo constancia de haber revisado
+con fines de validación, los ítems del instrumento (cuestionario), que el investigador
+Br. Galecio Purizaca, Williams usará para su trabajo de investigación titulado:
+Control interno y recaudación de tarifa de agua en comisión de usuarios
+subsector hidráulico Muñuela Margen Derecha, Provincia Sechura, 2022. Al
+respecto, el mencionado instrumento previsto para el estudio en mención, guarda
+coherencia con las variables, dimensiones, indicadores e ítems; además muestra
+un dominio específico de contenidos en lo que se busca medir y es consecuente
+con mediciones previas que han surgido en investigaciones precedentes.
+
+Por lo tanto, garantizo la validez de dicho instrumento presentado por el referido
+investigador para su aplicación.
+
+
+
+
+                                                  Tumbes, 30 de diciembre de 2022
+
+
+
+
+                       _______________________________
+                        CPC. Wilmer Anthony Vilela Mena
+                                 Mat. 15 - 0692
+
+
+
+
+                                         87
+CONSTANCIA DE VALIDACIÓN DE INSTRUMENTO
+
+Yo Dr. CPCC. Henry Bernardo Garay Canales, con DNI N° 00373867, ejerciendo
+la carrera de contador público y docente universitario; por medio de la presente,
+dejo constancia de haber revisado con fines de validación, los ítems del instrumento
+(cuestionario), que el investigador Br. Galecio Purizaca, Williams usará para su
+trabajo de investigación titulado: Control interno y recaudación de tarifa de agua
+en comisión de usuarios subsector hidráulico Muñuela Margen Derecha,
+Provincia Sechura, 2022. Al respecto, el mencionado instrumento previsto para el
+estudio en mención, guarda coherencia con las variables, dimensiones, indicadores
+e ítems; además muestra un dominio específico de contenidos en lo que se busca
+medir y es consecuente con mediciones previas que han surgido en investigaciones
+precedentes.
+
+Por lo tanto, garantizo la validez de dicho instrumento presentado por el referido
+investigador para su aplicación.
+
+
+
+
+                                                 Tumbes, 30 de diciembre de 2022
+
+
+
+
+                       _______________________________
+                       Dr. Henry Bernardo Garay Canales
+                             Docente Universitario
+                                DNI 00373867
+
+
+
+
+                                        88
+ANEXO 4: AUTORIZACIÓN PARA EJECUCIÓN DE INVESTIGACIÓN
+
+
+
+
+                         89
+
