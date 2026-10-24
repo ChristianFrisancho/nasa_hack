@@ -51,11 +51,17 @@
         <div class="decision-grid">
           <aside class="setup-card">
             <div class="setup-top"><span class="setup-step">1</span><h3>Elige una situación</h3></div>
-            <label for="previous-select">Cultivo anterior</label>
+            <label for="previous-select">Cultivo anterior · 80 registros DRAP</label>
             <select id="previous-select"><option>Cargando…</option></select>
-            <p class="field-help">Cada opción muestra una parcela de ejemplo disponible.</p>
+            <p class="field-help">Incluye los cultivos registrados por DRAP. Si no hay un escenario calculado, verás su ficha y datos locales sin una recomendación inventada.</p>
+            <label for="soil-unit-select">Tipo / unidad de suelo</label>
+            <select id="soil-unit-select"><option value="">Elige una unidad edáfica</option></select>
+            <label for="soil-condition-select">Condición dominante del terreno</label>
+            <select id="soil-condition-select"><option value="">Elige una condición (opcional)</option></select>
+            <div id="soil-selection-summary" class="soil-selection-summary" aria-live="polite">Elige una unidad para consultar su clasificación, textura y limitaciones documentadas.</div>
             <label for="parcel-select">Parcela de ejemplo</label>
             <select id="parcel-select"><option>Cargando…</option></select>
+            <p class="field-help">El ranking solo cambia al elegir una parcela con cálculo del motor. La unidad de suelo se muestra como contexto y no altera esos ejemplos precalculados.</p>
             <div class="parcel-facts"><div><span>Zona</span><strong id="parcel-zone">—</strong></div><div><span>Ubicación de referencia</span><strong id="parcel-coords">—</strong></div></div>
             <p class="setup-note">¿Tu parcela es diferente? Revisa las razones y los datos faltantes antes de trasladar esta respuesta a tu terreno.</p>
           </aside>
@@ -65,7 +71,7 @@
         </div>
       </section>
 
-      <section class="section section-tight" aria-labelledby="numbers-title">
+      <section id="metrics-section" class="section section-tight" aria-labelledby="numbers-title">
         <div class="section-heading compact"><div><p class="eyebrow">EN NÚMEROS</p><h2 id="numbers-title">Lo que implica esta opción</h2></div><span class="soft-label">Por hectárea, salvo que se indique otra unidad</span></div>
         <div class="metric-grid" id="metric-grid"></div>
       </section>
@@ -78,12 +84,12 @@
         </div>
       </section>
 
-      <section class="section" aria-labelledby="reasons-title">
+      <section id="filters-section" class="section" aria-labelledby="reasons-title">
         <div class="section-heading"><div><p class="eyebrow">03 / LAS RAZONES</p><h2 id="reasons-title">La decisión, filtro por filtro</h2><p>“Sin evaluar” significa que falta un dato; no significa que el cultivo pase el filtro.</p></div><div id="verdict-summary" class="verdict-summary"></div></div>
         <div id="filter-list" class="filter-list"></div>
       </section>
 
-      <section class="section resources-section" aria-labelledby="resources-title">
+      <section id="resources-section" class="section resources-section" aria-labelledby="resources-title">
         <div class="section-heading"><div><p class="eyebrow">04 / RECURSOS Y SUELO</p><h2 id="resources-title">Lo que usa y lo que deja</h2><p>Agua por etapa, nutrientes que salen con la cosecha y balance proyectado del suelo.</p></div></div>
         <div class="resources-grid">
           <div class="panel water-panel"><div class="panel-head"><div><h3>Demanda de agua durante el ciclo</h3><p>Evapotranspiración estimada (ETc) por etapa, en mm.</p></div></div><div id="water-chart" class="chart-holder"></div><div id="water-note" class="panel-note"></div></div>
@@ -92,7 +98,7 @@
         <div id="recovery-note" class="recovery-note"></div>
       </section>
 
-      <section class="section scenarios-section" aria-labelledby="scenarios-title">
+      <section id="scenarios-section" class="section scenarios-section" aria-labelledby="scenarios-title">
         <div class="section-heading"><div><p class="eyebrow">05 / SI CAMBIA EL CLIMA</p><h2 id="scenarios-title">Tres escenarios, una decisión más consciente</h2><p>Compara el margen mediano de la opción seleccionada y quién queda primero bajo cada escenario de El Niño.</p></div></div>
         <div id="scenario-grid" class="scenario-grid"></div>
         <div id="sequence-panel" class="sequence-panel"></div>

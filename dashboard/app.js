@@ -9,6 +9,14 @@
     'frijol grano':'Frijol grano', 'frijol verde':'Frijol verde',
     'frijol de palo':'Frijol de palo', cebolla:'Cebolla', papa:'Papa', piquillo:'Piquillo', zapallo:'Zapallo' };
   const soilVariables={ECe_medida_local:'Salinidad medida del suelo',clase_drenaje_local:'Drenaje',pH_rango_zona:'Rango de pH cartográfico',profundidad_efectiva_enraizamiento:'Profundidad de raíces estimada',pendiente_media_cultivo:'Pendiente media de cultivo'};
+  const soilConditions={
+    aluvial:{label:'Aluvial · textura media/fina',description:'Sedimentos aluviales descritos en Palo Verde y Piura; la textura y profundidad varían dentro de cada unidad.',units:['Palo Verde','Piura']},
+    arenoso:{label:'Arenoso · baja retención',description:'Cerezal: textura arenosa, fertilidad descrita como muy baja y menor retención de agua y nutrientes.',units:['Cerezal']},
+    salino:{label:'Salino · drenaje pobre',description:'Pajarito y Ramón están descritos como salinos y con drenaje pobre; hace falta ECe medida del lote.',units:['Pajarito','Ramón']},
+    yesoso:{label:'Yeso / carbonatos',description:'Curumuy se asocia a terraza marina con yeso/carbonatos; confirmar química y agua en el perfil.',units:['Curumuy']},
+    arido:{label:'Clima árido / superárido',description:'Es una condición climática descrita en sectores del Bajo Piura, no un tipo taxonómico de suelo. El agua disponible debe medirse.',units:[]},
+    agrietado:{label:'Agrietado / expansivo · por confirmar',description:'No se verificó una serie Vertisol/vertic en los mapas consultados. Observar grietas y medir arcilla/expansividad antes de clasificar.',units:[]}
+  };
   const zones = {bajo_piura:'Bajo Piura', medio_piura:'Medio Piura', alto_piura:'Alto Piura',
     chira:'Chira', san_lorenzo:'San Lorenzo', sierra_piura:'Sierra de Piura', piura_region:'Región Piura'};
   const filterNames = {salinidad:'Sales en el suelo', drenaje:'Drenaje', pendiente:'Pendiente', agua:'Agua disponible',
@@ -17,7 +25,7 @@
   const scenarioNames = {sin_el_nino:'Sin El Niño', el_nino_moderado:'El Niño moderado',
     el_nino_fuerte_extraordinario:'El Niño fuerte / extraordinario'};
   const resultNames = {pasa:'Pasa', advierte:'Alerta', no_evaluable:'Sin evaluar', descarta:'Descarta'};
-  const state = {data:null, example:null, crop:null, evidence:null, evidenceFiltered:[], evidenceLimit:12};
+  const state = {data:null, example:null, crop:null, customPrior:null, selectedSoil:'', evidence:null, evidenceFiltered:[], evidenceLimit:12};
 
   function elem(tag, cls, value) {
     const node = document.createElement(tag);
@@ -63,14 +71,20 @@
     for (const v of candidate?.verdicts || []) if (v.result in tally) tally[v.result]++;
     return tally;
   }
-  function getProfile(crop) { return state.data?.profiles.find(p => p.cultivo === crop); }
+  function getProfile(crop) { return state.data?.profiles.find(p => p.cultivo === crop || canonicalCrop(p.cultivo) === canonicalCrop(crop)); }
   function option(select, value, label) { const o = elem('option','',label); o.value=value; select.append(o); }
 
   function populateControls() {
     const prior = clear(byId('previous-select'));
-    const values = [...new Set(state.data.examples.map(e => e.previousCrop))];
-    for (const crop of values) option(prior, crop, crop ? pretty(crop) : 'No registrado en el ejemplo');
+    option(prior,'__unregistered__','No especificado · sin historial previo');
+    state.data.drapCrops.forEach((crop,index)=>{
+      const modeled=state.data.examples.some(e=>e.previousCrop===crop.profileCrop&&e.id!=='inviable');
+      const profile=crop.profileCrop&&getProfile(crop.profileCrop);
+      const detail=modeled?' · escenario calculado':profile?' · ficha, sin escenario calculado':' · registro DRAP';
+      option(prior,`drap:${index}`,`${pretty(crop.name)}${detail}`);
+    });
     const parcels = clear(byId('parcel-select'));
+    option(parcels,'','Selecciona una parcela de ejemplo');
     for (const e of state.data.examples) option(parcels,e.id,e.label);
     const profiles = clear(byId('profile-select'));
     for (const p of state.data.profiles) option(profiles,p.cultivo,pretty(p.cultivo));
@@ -78,11 +92,35 @@
     for(const p of state.data.profiles)option(soilCrops,p.cultivo,pretty(p.cultivo));
     soilCrops.addEventListener('change',renderSoils);
     byId('soil-region-select').addEventListener('change',renderSoils);
-    prior.addEventListener('change', () => {
-      const example = state.data.examples.find(e => e.previousCrop === prior.value);
-      if (example) chooseExample(example.id);
+    const soilSelect=clear(byId('soil-unit-select'));
+    option(soilSelect,'','Elige una unidad edáfica');
+    for(const soil of state.data.soilUnits)option(soilSelect,soil.soil_unit,`${soil.soil_unit} · ${soil.soil_taxonomy_order_1999}`);
+    soilSelect.addEventListener('change',()=>{
+      state.selectedSoil=soilSelect.value;
+      if(state.selectedSoil)byId('soil-region-select').value='bajo';
+      renderSoilSelection();renderSoils();
     });
-    parcels.addEventListener('change', () => chooseExample(parcels.value));
+    const conditionSelect=clear(byId('soil-condition-select'));
+    option(conditionSelect,'','Elige una condición (opcional)');
+    for(const [key,condition] of Object.entries(soilConditions))option(conditionSelect,key,condition.label);
+    conditionSelect.addEventListener('change',()=>{
+      state.selectedCondition=conditionSelect.value;
+      if(state.selectedCondition)byId('soil-region-select').value='bajo';
+      renderSoilSelection();renderSoils();
+    });
+    prior.addEventListener('change', () => {
+      if(prior.value==='__unregistered__'){
+        const example=state.data.examples.find(e=>!e.previousCrop&&e.id!=='inviable');
+        if(example)chooseExample(example.id);
+        return;
+      }
+      const crop=state.data.drapCrops[Number(prior.value.split(':')[1])];
+      if(!crop)return;
+      const example=state.data.examples.find(e=>e.previousCrop&&e.previousCrop===crop.profileCrop&&e.id!=='inviable');
+      if(example)chooseExample(example.id);
+      else chooseCustomPrior(crop);
+    });
+    parcels.addEventListener('change', () => {if(parcels.value)chooseExample(parcels.value);});
     profiles.addEventListener('change', renderProfiles);
     byId('data-stamp').textContent = `${state.data.counts.drapCrops} cultivos con cosecha DRAP · ${state.data.counts.annualChoices} anuales comparables + ${state.data.counts.motorPerennials} sistemas perennes · ${state.data.counts.soilUnits} unidades edáficas`;
     byId('drap-crop-search').addEventListener('input',renderDrapCrops);
@@ -90,12 +128,50 @@
     renderDrapCrops();
   }
 
+  function priorValue(crop){
+    if(!crop)return '__unregistered__';
+    const index=state.data.drapCrops.findIndex(item=>item.profileCrop===crop);
+    return index<0?'__unregistered__':`drap:${index}`;
+  }
+
+  function chooseCustomPrior(crop){
+    state.customPrior=crop;state.crop=null;
+    byId('previous-select').value=`drap:${state.data.drapCrops.indexOf(crop)}`;
+    byId('parcel-select').value='';
+    if(crop.profileCrop&&getProfile(crop.profileCrop)){
+      byId('profile-select').value=crop.profileCrop;
+      byId('soil-crop-select').value=crop.profileCrop;
+    }
+    byId('parcel-zone').textContent='Escenario no calculado';
+    byId('parcel-coords').textContent='Selecciona una parcela de ejemplo para ver un ranking';
+    renderCustomPrior(crop);renderSoilSelection();renderSoils();updateUrl();
+  }
+
+  function renderCustomPrior(crop){
+    for(const id of ['metrics-section','comparar','filters-section','resources-section','scenarios-section'])byId(id).hidden=true;
+    const card=clear(byId('recommendation-card'));
+    const top=elem('div','rec-topline');top.append(elem('span','','EXPLORACIÓN DE CULTIVO · SIN RANKING'),elem('span','pill unknown','No hay escenario calculado'));card.append(top);
+    card.append(elem('h2','custom-crop-title',pretty(crop.name)));
+    card.append(elem('p','rec-message','Este cultivo aparece en registros de cosecha de Piura, pero el motor no tiene una parcela precalculada para evaluarlo como cultivo anterior. No muestro un siguiente cultivo ni copio el ranking de otro escenario.'));
+    const stats=elem('div','custom-crop-stats');
+    for(const [label,value] of [['Área cosechada media',`${num(crop.harvestAreaMeanHa,0)} ha/año`],['Producción media',`${num(crop.productionMeanT,0)} t/año`],['Rendimiento mediano',crop.yieldP50==null?'Sin rendimiento calculable':`${num(crop.yieldP50,1)} t/ha`],['Años con cosecha',`${crop.years} (${crop.fromYear}–${crop.toYear})`]]){
+      const item=elem('div','custom-crop-stat');item.append(elem('span','',label),elem('strong','',value));stats.append(item);
+    }
+    card.append(stats);
+    const note=elem('p','custom-crop-note','Para ver un ranking calculado, elige una parcela de ejemplo. La unidad de suelo seleccionada permite consultar su ficha, pero no sustituye ECe, pH, drenaje, profundidad, agua y presupuesto medidos.');card.append(note);
+    const profile=crop.profileCrop&&getProfile(crop.profileCrop);
+    if(profile){const button=elem('button','outline-button','Abrir ficha agronómica');button.type='button';button.addEventListener('click',()=>{byId('profile-select').value=profile.cultivo;renderProfiles();byId('cultivos').scrollIntoView({behavior:'smooth'});});card.append(button);}
+    renderProfiles();
+  }
+
   function chooseExample(id, crop) {
+    state.customPrior=null;
+    for(const section of ['metrics-section','comparar','filters-section','resources-section','scenarios-section'])byId(section).hidden=false;
     state.example = state.data.examples.find(e => e.id === id) || state.data.examples[0];
     state.crop = crop && state.example.candidates.some(c => c.crop === crop) ? crop :
       (state.example.candidates.find(c => c.rank === 1) || state.example.candidates[0]).crop;
     byId('parcel-select').value = state.example.id;
-    byId('previous-select').value = state.example.previousCrop;
+    byId('previous-select').value = priorValue(state.example.previousCrop);
     byId('parcel-zone').textContent = zones[state.example.zone] || 'Zona sin identificar';
     byId('parcel-coords').textContent = state.example.lat != null && state.example.lon != null ?
       `${num(state.example.lat, 2)}, ${num(state.example.lon, 2)}` : 'No precisada';
@@ -110,6 +186,8 @@
   function updateUrl() {
     if (location.protocol === 'file:' || location.protocol === 'data:') return;
     const url = new URL(location.href);
+    if(state.customPrior){url.searchParams.delete('parcela');url.searchParams.delete('cultivo');url.searchParams.set('cultivo_anterior',state.customPrior.name);history.replaceState(null,'',url);return;}
+    url.searchParams.delete('cultivo_anterior');
     url.searchParams.set('parcela',state.example.id);
     url.searchParams.set('cultivo',state.crop);
     history.replaceState(null,'',url);
@@ -361,7 +439,8 @@
   }
   function renderProfiles() {
     const grid=clear(byId('crop-profiles'));
-    grid.append(profileCard(state.example.previousCrop,'Cultivo anterior'),profileCard(byId('profile-select').value,'Cultivo que exploras'));
+    const previous=state.customPrior?(state.customPrior.profileCrop||canonicalCrop(state.customPrior.name)):state.example?.previousCrop;
+    grid.append(profileCard(previous,'Cultivo anterior'),profileCard(byId('profile-select').value,'Cultivo que exploras'));
   }
   function renderDrapCrops(){
     const query=byId('drap-crop-search').value.trim().toLowerCase();
@@ -396,6 +475,21 @@
     if(unit.soil_unit==='Curumuy')return 'Yeso y carbonatos posibles. La química del perfil y el acceso al agua deben medirse antes de escoger el cultivo.';
     return 'Suelo aluvial sin limitación específica cuantificada en esta ficha. La compatibilidad queda pendiente de medir ECe, pH, drenaje y profundidad en el lote.';
   }
+  function renderSoilSelection(){
+    const box=clear(byId('soil-selection-summary'));
+    const soil=state.data.soilUnits.find(item=>item.soil_unit===state.selectedSoil);
+    const condition=soilConditions[state.selectedCondition];
+    if(!soil&&!condition){box.append(elem('p','','Elige una unidad edáfica y, si la conoces, una condición dominante del terreno.'));return;}
+    if(soil){
+      box.append(elem('strong','soil-selection-title',soil.soil_unit));
+      box.append(elem('p','',`${soil.soil_taxonomy_order_1999} · ${soil.soil_taxonomy_group_1999} · ${soil.fao_1990_map_label}`));
+      box.append(elem('p','',`Textura: ${soil.texture_evidence||'sin descripción'} · Relieve: ${soil.geomorphic_setting||'no consignado'}`));
+      box.append(elem('p','',`Limitación documentada: ${soil.known_constraints||'no consignada'}`));
+      const source=elem('div','soil-source');addLink(source,'Fuente SIAR Piura ↗',soil.source_url);box.append(source);
+    }
+    if(condition){box.append(elem('strong','soil-selection-title',condition.label),elem('p','',condition.description));}
+    box.append(elem('p','soil-selection-caveat','Clasificación/cartografía de referencia; no representa mediciones de tu parcela ni recalcula el ranking del ejemplo.'));
+  }
   function renderSoils(){
     const mode=byId('soil-region-select').value,crop=byId('soil-crop-select').value;
     const box=clear(byId('soil-cards')),summary=clear(byId('soil-summary')),mapBox=clear(byId('soil-map-units')),conditions=clear(byId('soil-conditions'));
@@ -410,7 +504,12 @@
         ['Agrietado / expansivo','La cartografía verificada no clasifica una serie Vertisol/vertic. Las grietas estacionales deben observarse en campo y confirmarse con arcilla/expansividad; no se infieren solo por zona.']
       ];
       for(const [title,description] of conditionsList){const card=elem('article','soil-condition-card');card.append(elem('strong','',title),elem('p','',description));conditions.append(card);}
-      for(const soil of state.data.soilUnits){
+      let selectedUnits=state.selectedSoil?state.data.soilUnits.filter(soil=>soil.soil_unit===state.selectedSoil):state.data.soilUnits;
+      const condition=soilConditions[state.selectedCondition];
+      if(condition?.units.length)selectedUnits=selectedUnits.filter(soil=>condition.units.includes(soil.soil_unit));
+      if(state.selectedSoil||condition?.units.length)summary.append(elem('p','soil-selection-active',`Filtro activo: ${[state.selectedSoil,condition?.label].filter(Boolean).join(' · ')}. Usa “Elige una unidad edáfica” y borra la condición para volver a todas.`));
+      if(state.selectedSoil&&condition?.units.length&&!selectedUnits.length)summary.append(elem('p','soil-selection-active','La unidad y la condición seleccionadas no coinciden en el mapa consultado. Revisa los dos selectores.'));
+      for(const soil of selectedUnits){
         const card=elem('article','soil-card');card.append(elem('span','soil-kicker','BAJO PIURA · UNIDAD DE SUELO'),elem('h3','',soil.soil_unit));
         card.append(elem('div','soil-taxonomy',`${soil.soil_taxonomy_order_1999} · ${soil.soil_taxonomy_group_1999} · ${soil.fao_1990_map_label}`));
         const facts=elem('div','soil-facts');
@@ -462,10 +561,11 @@
     }
   }
   function render() {
+    if(state.customPrior){renderCustomPrior(state.customPrior);renderSoils();return;}
     const candidate=currentCandidate();if(!candidate)return;
     renderRecommendation(candidate);renderMetrics(candidate);renderAlternatives();renderMarginChart();renderFilters(candidate);renderWater(candidate);renderNutrients(candidate);renderRecovery(candidate);renderScenarios(candidate);
     byId('profile-select').value=getProfile(candidate.crop)?candidate.crop:state.data.profiles[0].cultivo;
-    renderProfiles();renderSoils();
+    renderProfiles();renderSoilSelection();renderSoils();
   }
 
   async function loadEvidence() {
@@ -532,7 +632,10 @@
       if(!state.data.examples?.length||!state.data.profiles?.length)throw new Error('Snapshot incompleto');
       populateControls();
       const query=new URL(location.href).searchParams;
-      chooseExample(query.get('parcela')||state.data.examples[0].id,query.get('cultivo'));
+      if(query.has('cultivo_anterior')){
+        const crop=state.data.drapCrops.find(item=>item.name===query.get('cultivo_anterior'));
+        if(crop)chooseCustomPrior(crop);else chooseExample(query.get('parcela')||state.data.examples[0].id,query.get('cultivo'));
+      }else chooseExample(query.get('parcela')||state.data.examples[0].id,query.get('cultivo'));
     }catch(error){
       console.error(error);
       byId('data-stamp').textContent='No se pudieron cargar los datos';

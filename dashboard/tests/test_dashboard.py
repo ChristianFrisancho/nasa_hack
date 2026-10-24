@@ -92,6 +92,24 @@ class DashboardBrowserTest(unittest.TestCase):
         self.assertEqual(self.page.locator('#soil-cards .soil-card').count(), 3)
         self.assertEqual(self.page.locator('#soil-cards tbody tr').count(), 22)
 
+    def test_all_drap_crops_are_selectable_without_reusing_an_unrelated_ranking(self):
+        self.assertEqual(self.page.locator('#previous-select option').count(), 81)
+        mango = self.page.locator('#previous-select option').filter(has_text='Mango · ficha, sin escenario calculado')
+        self.page.select_option('#previous-select', mango.get_attribute('value'))
+        card = self.page.locator('#recommendation-card').inner_text()
+        self.assertIn('Mango', card)
+        self.assertIn('No hay escenario calculado', card)
+        self.assertNotIn('Caupí', card)
+        self.assertTrue(self.page.locator('#comparar').is_hidden())
+
+    def test_soil_unit_can_be_selected_from_the_starting_panel(self):
+        self.page.select_option('#soil-unit-select', 'Cerezal')
+        self.assertIn('Cerezal', self.page.locator('#soil-selection-summary').inner_text())
+        self.assertIn('Regosol', self.page.locator('#soil-selection-summary').inner_text())
+        self.assertEqual(self.page.locator('#soil-cards .soil-card').count(), 1)
+        self.page.select_option('#soil-condition-select', 'agrietado')
+        self.assertIn('por confirmar', self.page.locator('#soil-selection-summary').inner_text())
+
     def test_evidence_loaded_on_demand(self):
         self.assertTrue(self.page.locator('#evidence-content').is_hidden())
         self.page.locator('#load-evidence').click()
