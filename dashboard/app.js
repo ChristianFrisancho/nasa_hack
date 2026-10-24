@@ -8,7 +8,7 @@
     limon:'Limón', platano:'Plátano', papaya:'Papaya', yuca:'Yuca',
     'frijol grano':'Frijol grano', 'frijol verde':'Frijol verde',
     'frijol de palo':'Frijol de palo', cebolla:'Cebolla', papa:'Papa', piquillo:'Piquillo', zapallo:'Zapallo' };
-  const soilVariables={ECe_medida_local:'Salinidad medida del suelo',clase_drenaje_local:'Drenaje',pH_rango_zona:'Rango de pH cartográfico',profundidad_efectiva_enraizamiento:'Profundidad de raíces estimada',pendiente_media_cultivo:'Pendiente media de cultivo'};
+  const soilVariables={ECe_medida_local:'Salinidad medida del suelo',clase_drenaje_local:'Drenaje',pH_rango_zona:'Rango de pH cartográfico',profundidad_fisica_suelo_HWSD2:'Profundidad física cartográfica',profundidad_efectiva_enraizamiento:'Profundidad de raíces estimada',pendiente_media_cultivo:'Pendiente media de cultivo'};
   const soilConditions={
     aluvial:{label:'Aluvial · textura media/fina',description:'Sedimentos aluviales descritos en Palo Verde y Piura; la textura y profundidad varían dentro de cada unidad.',units:['Palo Verde','Piura']},
     arenoso:{label:'Arenoso · baja retención',description:'Cerezal: textura arenosa, fertilidad descrita como muy baja y menor retención de agua y nutrientes.',units:['Cerezal']},
@@ -386,7 +386,6 @@
       renderRegionalFilterContext(box,verdict,result);
       parent.append(box);
     }
-    renderRegionalSoilContext(parent,result);
     const water=item.agua||{},waterBox=elem('section','candidate-resource-evidence');waterBox.append(elem('h5','','Agua durante el ciclo'));
     for(const key of ['riego_neto_mm','riego_neto_m3_ha','riego_bruto_m3_ha'])if(water[key])renderCifraTree(waterBox,pretty(key),water[key]);
     for(const [stage,data] of Object.entries(water.etapas||{})){
@@ -449,46 +448,46 @@
     if(item.datos_faltantes?.length)parent.append(elem('p','candidate-warning',`Datos que podrían cambiar el puesto: ${item.datos_faltantes.join('; ')}`));
   }
 
-  function renderRegionalSoilContext(parent,result){
-    const zone=state.data.soilZones?.find(item=>item.zone===(result?.zone||'bajo_piura'));
-    const records=zone?.measurements||[];
-    const keys=['pH_rango_zona','profundidad_efectiva_enraizamiento','profundidad_napa_estacional'];
-    const selected=keys.map(key=>records.find(record=>record.variable===key)).filter(Boolean);
-    if(!selected.length)return;
-    const section=elem('section','candidate-resource-evidence regional-soil-context');
-    section.append(elem('h5','','Referencias de la zona · no sustituyen el análisis de tu parcela'));
-    for(const record of selected){
-      const row=elem('article','regional-reference');
-      const heading=elem('strong','',record.variable==='pH_rango_zona'?'pH estimado de la zona':record.variable==='profundidad_napa_estacional'?'Nivel freático regional (campaña/estación no especificada)':'Profundidad efectiva cartográfica');
-      row.append(heading);
-      let estimate='';
-      if(record.variable==='pH_rango_zona')estimate=`${record.min||'s/d'}–${record.max||'s/d'} ${record.unit||'pH'}`;
-      else if(record.variable==='profundidad_napa_estacional')estimate=`mediana ${record.value||'s/d'} m · intervalo intercuartílico ${record.min||'s/d'}–${record.max||'s/d'} m`;
-      else estimate=record.max?`${record.min||record.value}–${record.max} m`:`sin valor típico único · rango regional desde ${record.min||record.value||'s/d'} m, sin cota superior`;
-      row.append(elem('p','regional-estimate',estimate));
-      if(record.source){
-        const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean),source=elem('p','candidate-source');
-        if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});
-        else source.textContent=record.source;
-        row.append(source);
-      }
-      if(record.method)row.append(elem('small','candidate-evidence-note',`Método: ${record.method}`));
-      if(record.notes)row.append(elem('small','candidate-evidence-note',record.notes));
-      row.append(elem('small','candidate-evidence-note','Es un valor de referencia espacial, no una medición del lote ni un pase automático del filtro.'));
-      section.append(row);
-    }
-    parent.append(section);
-  }
-
   function renderRegionalFilterContext(parent,verdict,result){
     const filter=verdict?.filtro;
-    if(!['drenaje','pendiente'].includes(filter))return;
+    if(!['drenaje','pendiente','pH','profundidad'].includes(filter))return;
     const zone=state.data.soilZones?.find(item=>item.zone===(result?.zone||'bajo_piura'));
     const records=zone?.measurements||[];
     const find=variable=>records.find(record=>record.variable===variable&&record.status!=='desconocido');
     const box=elem('aside','regional-filter-context');
     box.append(elem('strong','','Referencia regional disponible'));
-    if(filter==='pendiente'){
+    if(filter==='pH'){
+      const recordsForPH=records.filter(record=>record.variable==='pH_rango_zona'&&record.status!=='desconocido');
+      if(!recordsForPH.length){box.append(elem('p','','No hay una estimación regional de pH para esta zona en los datos cargados.'));parent.append(box);return;}
+      for(const record of recordsForPH){
+        box.append(elem('p','',`${record.place||'La zona'}: pH estimado entre ${num(record.min,2)} y ${num(record.max,2)}.`));
+        if(record.method)box.append(elem('small','candidate-evidence-note',`Método: ${record.method}.`));
+        if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+        if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+      }
+      box.append(elem('small','candidate-evidence-note','Rango regional de modelos de suelo para 0–30 cm, no resultado de laboratorio de tu parcela. No tiene valor central confiable porque las fuentes difieren.'));
+    }else if(filter==='profundidad'){
+      const physical=records.filter(record=>record.variable==='profundidad_fisica_suelo_HWSD2'&&record.status!=='desconocido');
+      const effective=records.filter(record=>record.variable==='profundidad_efectiva_enraizamiento'&&record.status!=='desconocido');
+      const waterTable=records.filter(record=>record.variable==='profundidad_napa_estacional'&&record.status!=='desconocido');
+      if(physical.length){
+        for(const record of physical){
+          box.append(elem('p','',`${record.place||'La zona'}: la clase cartográfica típica de profundidad física es >${num(record.value)} m; no establece una profundidad exacta para cada parcela.`));
+          if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+          if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+        }
+      }else box.append(elem('p','',`No hay clase regional de profundidad física para ${zone?.zone||'esta zona'}.`));
+      for(const record of effective){
+        box.append(elem('p','',`La profundidad efectiva de raíces es una derivación, no una medición: ${record.notes||'depende de profundidad física y nivel freático.'}`));
+        if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+      }
+      for(const record of waterTable){
+        box.append(elem('p','',`${record.place||'Referencia regional'}: napa mediana ${num(record.value)} m; intervalo intercuartílico ${num(record.min)}–${num(record.max)} m.`));
+        if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+        if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+      }
+      box.append(elem('small','candidate-evidence-note','Estas capas cartográficas y sondeos no están ubicados dentro de tu lote. La profundidad efectiva cambia si aparece una napa somera, una capa endurecida o roca; confirma con calicata y medición de napa.'));
+    }else if(filter==='pendiente'){
       const means=records.filter(record=>record.variable==='pendiente_media_cultivo'&&record.status!=='desconocido');
       if(!means.length){box.append(elem('p','','No hay una estimación de pendiente para esta zona en el conjunto cargado.'));parent.append(box);return;}
       for(const mean of means){
