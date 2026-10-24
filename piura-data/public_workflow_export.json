@@ -1,0 +1,677 @@
+{
+  "id": "FZuImrDNKPsFj306",
+  "name": "Piura | Fuentes oficiales y clima NASA",
+  "active": true,
+  "versionId": "1bac625e-2b8e-43b7-9b31-36b8a81b769c",
+  "activeVersionId": "1bac625e-2b8e-43b7-9b31-36b8a81b769c",
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": true,
+    "timezone": "America/Lima",
+    "saveManualExecutions": true,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionTimeout": 1800,
+    "saveExecutionProgress": true
+  },
+  "description": "Clima NASA POWER y archivo oficial SENASA de Piura con unidades, procedencia y upsert. Los puntos regionales no son parcelas.",
+  "connections": {
+    "Descarga inicial": {
+      "main": [
+        [
+          {
+            "node": "Puntos y periodo",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "SENASA archivo paginado",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "SIAR catalogo de mapas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Puntos y periodo": {
+      "main": [
+        [
+          {
+            "node": "NASA POWER diario",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "NASA POWER diario": {
+      "main": [
+        [
+          {
+            "node": "Normalizar clima con unidades",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar clima con unidades": {
+      "main": [
+        [
+          {
+            "node": "Guardar clima sin duplicados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Actualizar diario 06 Lima": {
+      "main": [
+        [
+          {
+            "node": "Puntos y periodo",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "SENASA archivo paginado",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "SIAR catalogo de mapas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SENASA archivo paginado": {
+      "main": [
+        [
+          {
+            "node": "Normalizar documentos SENASA",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar documentos SENASA": {
+      "main": [
+        [
+          {
+            "node": "Guardar fuentes sin duplicados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SIAR catalogo de mapas": {
+      "main": [
+        [
+          {
+            "node": "Extraer mapas de suelo y uso mayor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer mapas de suelo y uso mayor": {
+      "main": [
+        [
+          {
+            "node": "Guardar catalogo SIAR sin duplicados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "58cda183-5dab-4a35-940c-2d30dc10ecc7",
+      "name": "Descarga inicial",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "5bc30be4-20fa-4ed4-9852-212787fcde46",
+      "name": "Puntos y periodo",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        272,
+        176
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "language": "javaScript",
+        "jsCode": "const points = [\n {label:'Bajo Piura - referencia regional',lat:-5.42,lon:-80.74},\n {label:'Chira Sullana - referencia regional',lat:-4.90,lon:-80.69},\n {label:'San Lorenzo - referencia regional',lat:-4.85,lon:-80.25},\n {label:'Ayabaca - referencia regional',lat:-4.64,lon:-79.71},\n {label:'Huancabamba - referencia regional',lat:-5.24,lon:-79.45}\n];\nconst manual = ['manual','test'].includes($execution.mode);\nconst fmt = d => d.toISOString().slice(0,10).replace(/-/g,'');\nconst now = new Date();\nconst start = manual ? '20250101' : fmt(new Date(now.getTime()-35*86400000));\nconst end = manual ? '20251231' : fmt(new Date(now.getTime()-7*86400000));\nreturn points.map(p=>({json:{...p,start,end,period_kind:manual?'historico_2025':'ventana_reciente_con_latencia',url:'https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MIN,T2M_MAX,T2M,PRECTOTCORR,ALLSKY_SFC_SW_DWN,RH2M,WS2M,PS&community=AG&longitude='+p.lon+'&latitude='+p.lat+'&start='+start+'&end='+end+'&format=JSON'}}));"
+      }
+    },
+    {
+      "id": "304b72b5-1030-4d14-9bd6-2cdd8b03b0e3",
+      "name": "NASA POWER diario",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        496,
+        176
+      ],
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "options": {
+          "timeout": 120000,
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 1500
+            }
+          },
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "d8cb1d3f-d4a7-4c87-a25e-528fe5d131f2",
+      "name": "Normalizar clima con unidades",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        176
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "language": "javaScript",
+        "jsCode": "const rows=[];\nconst seed=$('Puntos y periodo').all();\nfor (let i=0;i<$input.all().length;i++) {\n const body=$input.all()[i].json;\n if (!body.properties?.parameter || !body.header) throw new Error('NASA POWER: respuesta sin parametros');\n const cfg=seed[i].json;\n const series=body.properties.parameter;\n const dates=Object.keys(series.T2M||{});\n if(!dates.length)throw new Error('NASA POWER sin dias');\n const fill=body.header.fill_value ?? -999;\n const units=Object.fromEntries(Object.entries(body.parameters||{}).map(([k,v])=>[k,v.units]));\n for(const d of dates){\n  const values={};const missing=[];\n  for(const [k,v] of Object.entries(series)){const x=v[d];values[k]=(x===fill||x===undefined)?null:x;if(values[k]===null)missing.push(k);}\n  rows.push({json:{record_key:'power:'+cfg.lat+':'+cfg.lon+':'+d,record_type:'clima_diario',topic:'clima_agua',location_label:cfg.label,source_url:cfg.url,source_date:d.slice(0,4)+'-'+d.slice(4,6)+'-'+d.slice(6,8),retrieved_at:new Date().toISOString(),quality_status:missing.length?'modelado_con_faltantes':'modelado_regional_no_medicion_parcela',payload_json:JSON.stringify({lat:cfg.lat,lon:cfg.lon,values,units,missing,period_kind:cfg.period_kind,source_header:body.header})}});\n }\n}\nreturn rows;"
+      }
+    },
+    {
+      "id": "2107cd6a-5485-4038-ab17-84ff570ddbc6",
+      "name": "Guardar clima sin duplicados",
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        944,
+        176
+      ],
+      "parameters": {
+        "resource": "row",
+        "operation": "upsert",
+        "dataTableId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "SW9ZbPKCuDmDufK4"
+        },
+        "matchType": "allConditions",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "record_key",
+              "condition": "eq",
+              "keyValue": "={{ $json.record_key }}"
+            }
+          ]
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "schema": [
+            {
+              "id": "record_key",
+              "displayName": "record_key",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "record_type",
+              "displayName": "record_type",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "topic",
+              "displayName": "topic",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "location_label",
+              "displayName": "location_label",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_url",
+              "displayName": "source_url",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_date",
+              "displayName": "source_date",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "retrieved_at",
+              "displayName": "retrieved_at",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "quality_status",
+              "displayName": "quality_status",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "payload_json",
+              "displayName": "payload_json",
+              "type": "string",
+              "required": false,
+              "display": true
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "d954848d-5bf6-4f14-9078-12bf828dd66b",
+      "name": "Actualizar diario 06 Lima",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        288
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1,
+              "triggerAtHour": 6,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6d80329f-ea46-4633-9bc0-6fa118192080",
+      "name": "SENASA archivo paginado",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        272,
+        368
+      ],
+      "parameters": {
+        "url": "https://www.senasa.gob.pe/senasacontigo/wp-json/wp/v2/posts",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "search",
+              "value": "Piura"
+            },
+            {
+              "name": "per_page",
+              "value": "100"
+            },
+            {
+              "name": "page",
+              "value": "1"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 60000,
+          "response": {
+            "response": {
+              "responseFormat": "json",
+              "fullResponse": true
+            }
+          },
+          "pagination": {
+            "pagination": {
+              "paginationMode": "updateAParameterInEachRequest",
+              "parameters": {
+                "parameters": [
+                  {
+                    "type": "qs",
+                    "name": "page",
+                    "value": "={{ $pageCount + 1 }}"
+                  }
+                ]
+              },
+              "paginationCompleteWhen": "other",
+              "completeExpression": "={{ $pageCount >= Number($response.headers[\"x-wp-totalpages\"] || 1) }}",
+              "limitPagesFetched": true,
+              "maxRequests": 10,
+              "requestInterval": 1500
+            }
+          }
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "03174206-b4af-4ada-af48-cc833e1686c2",
+      "name": "Normalizar documentos SENASA",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        496,
+        368
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "language": "javaScript",
+        "jsCode": "const rows=[];const seen=new Set();\nconst text=s=>String(s||'').replace(/<script[\\s\\S]*?<\\/script>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&amp;/g,'&').replace(/\\s+/g,' ').trim();\nfor(const item of $input.all()){\n const docs=item.json.body;\n if(!Array.isArray(docs))throw new Error('SENASA no devolvio lista WordPress');\n for(const p of docs){\n  if(!p.id||!p.link)continue;if(seen.has(p.id))continue;seen.add(p.id);\n  const title=text(p.title?.rendered),content=text(p.content?.rendered);\n  const topics=[];for(const [topic,rx] of [['plagas',/plaga|mosca|fusarium|huanglongbing|nematod|picudo|langosta/i],['cultivos',/arroz|mango|banano|platano|limon|limón|maíz|maiz|uva|algodon|algodón|cacao|café|cafe/i],['sanidad_animal',/ántrax|antrax|aviar|ganado|porcin|vacunac/i]])if(rx.test(title+' '+content))topics.push(topic);\n  rows.push({json:{record_key:'senasa:'+p.id,record_type:'documento_oficial',topic:topics.join(',')||'contexto_regional',location_label:'Piura - mencion en archivo SENASA; verificar ambito exacto',source_url:p.link,source_date:p.date||'',retrieved_at:new Date().toISOString(),quality_status:'fuente_oficial_archivo_no_alerta_vigente',payload_json:JSON.stringify({title,content:content.slice(0,20000),modified:p.modified,tags:p.tags,categories:p.categories,screening_only:true})}});\n }\n}\nreturn rows;"
+      }
+    },
+    {
+      "id": "46d7d599-ada2-4877-a7e7-fb1b78ff6a89",
+      "name": "Guardar fuentes sin duplicados",
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        720,
+        368
+      ],
+      "parameters": {
+        "resource": "row",
+        "operation": "upsert",
+        "dataTableId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "SW9ZbPKCuDmDufK4"
+        },
+        "matchType": "allConditions",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "record_key",
+              "condition": "eq",
+              "keyValue": "={{ $json.record_key }}"
+            }
+          ]
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "schema": [
+            {
+              "id": "record_key",
+              "displayName": "record_key",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "record_type",
+              "displayName": "record_type",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "topic",
+              "displayName": "topic",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "location_label",
+              "displayName": "location_label",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_url",
+              "displayName": "source_url",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_date",
+              "displayName": "source_date",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "retrieved_at",
+              "displayName": "retrieved_at",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "quality_status",
+              "displayName": "quality_status",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "payload_json",
+              "displayName": "payload_json",
+              "type": "string",
+              "required": false,
+              "display": true
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "d4d4c8a8-dbb2-4574-b1cd-7c528eff7e86",
+      "name": "SIAR catalogo de mapas",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        300,
+        600
+      ],
+      "parameters": {
+        "url": "https://siar.regionpiura.gob.pe/mapas",
+        "options": {
+          "timeout": 60000,
+          "response": {
+            "response": {
+              "responseFormat": "text",
+              "outputPropertyName": "data"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "a2323c11-53bd-4198-a0b6-aeda3f1c3951",
+      "name": "Extraer mapas de suelo y uso mayor",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        550,
+        600
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "language": "javaScript",
+        "jsCode": "const text=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\\s+/g,' ').trim();\nconst out=[];const seen=new Set();\nfor(const input of $input.all()){\n const html=input.json.data;\n if(typeof html!=='string'||!html.includes('<td'))throw new Error('SIAR: catalogo HTML no reconocido');\n const trs=html.match(/<tr\\b[^>]*>[\\s\\S]*?<\\/tr>/gi)||[];\n for(const tr of trs){\n  const td=[...tr.matchAll(/<td\\b[^>]*>([\\s\\S]*?)<\\/td>/gi)].map(x=>text(x[1]));\n  if(td.length<5)continue;\n  const title=td[3];if(!/suelos?|capacidad de uso|zonificaci[oó]n|fisiograf|geomorfol|pendiente/i.test(title))continue;\n  const m=tr.match(/href=['\\\"]([^'\\\"]+\\.pdf)['\\\"]/i);if(!m)continue;\n  let url=m[1];if(url.startsWith('../'))url='https://siar.regionpiura.gob.pe/'+url.slice(3);\n  if(!url.startsWith('https://siar.regionpiura.gob.pe/'))continue;\n  if(seen.has(url))continue;seen.add(url);\n  const date=td[0].match(/^(\\d{2})\\/(\\d{2})\\/(\\d{4})$/);const iso=date?date[3]+'-'+date[2]+'-'+date[1]:'';\n  out.push({json:{record_key:'siar-map:'+url,record_type:'catalogo_mapa_oficial',topic:'suelo_territorio',location_label:title,source_url:url,source_date:iso,retrieved_at:new Date().toISOString(),quality_status:'catalogo_historico_no_analitica_parcela',payload_json:JSON.stringify({title,institution:td[4],index_url:'https://siar.regionpiura.gob.pe/mapas',date_raw:td[0],pdf_content_extracted:false})}});\n }\n}\nif(!out.length)throw new Error('SIAR: no se encontraron mapas relevantes; revisar estructura');\nreturn out;"
+      }
+    },
+    {
+      "id": "61022a76-f7d8-4fc1-904d-2e3d426ecf91",
+      "name": "Guardar catalogo SIAR sin duplicados",
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        800,
+        600
+      ],
+      "parameters": {
+        "resource": "row",
+        "operation": "upsert",
+        "dataTableId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "SW9ZbPKCuDmDufK4"
+        },
+        "matchType": "allConditions",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "record_key",
+              "condition": "eq",
+              "keyValue": "={{ $json.record_key }}"
+            }
+          ]
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "schema": [
+            {
+              "id": "record_key",
+              "displayName": "record_key",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "record_type",
+              "displayName": "record_type",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "topic",
+              "displayName": "topic",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "location_label",
+              "displayName": "location_label",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_url",
+              "displayName": "source_url",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_date",
+              "displayName": "source_date",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "retrieved_at",
+              "displayName": "retrieved_at",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "quality_status",
+              "displayName": "quality_status",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "payload_json",
+              "displayName": "payload_json",
+              "type": "string",
+              "required": false,
+              "display": true
+            }
+          ]
+        },
+        "options": {}
+      }
+    }
+  ],
+  "nodeGroups": [
+    {
+      "id": "eeb444c3-15b5-4a74-b701-baab2d6725a7",
+      "name": "Clima regional",
+      "nodeNames": [
+        "Puntos y periodo",
+        "NASA POWER diario",
+        "Normalizar clima con unidades",
+        "Guardar clima sin duplicados"
+      ],
+      "description": "Cinco puntos de referencia. Historico 2025 manual; ultimos dias al programarse. No representa un analisis de parcela."
+    },
+    {
+      "id": "13e09d93-87b3-40dc-9269-1210f7a8690b",
+      "name": "Sanidad y cultivos",
+      "nodeNames": [
+        "SENASA archivo paginado",
+        "Normalizar documentos SENASA",
+        "Guardar fuentes sin duplicados"
+      ],
+      "description": "Archivo SENASA paginado con fecha y fuente. No confundir noticias historicas con alertas actuales."
+    },
+    {
+      "id": "d7afe064-605b-4909-84b8-3748a3963290",
+      "name": "Suelo y territorio - SIAR",
+      "nodeNames": [
+        "SIAR catalogo de mapas",
+        "Extraer mapas de suelo y uso mayor",
+        "Guardar catalogo SIAR sin duplicados"
+      ],
+      "description": "Catalogo oficial de mapas de suelo y capacidad de uso. No sustituye un perfil medido de parcela."
+    }
+  ]
+}

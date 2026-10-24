@@ -1,0 +1,71 @@
+{
+  "n8n_rows_exported": 3232,
+  "n8n_count_at_start": 3232,
+  "unique_keys": 3232,
+  "types": {
+    "clima_diario": 1970,
+    "documento_oficial": 657,
+    "evidencia_curada_historica": 27,
+    "catalogo_mapa_oficial": 8,
+    "fuente_descubierta": 568,
+    "consulta_sin_resultados": 2
+  },
+  "source_dates_min_max": {
+    "clima_diario": [
+      "2025-01-01",
+      "2026-10-17"
+    ],
+    "documento_oficial": [
+      "2016-05-17T17:30:48",
+      "2023-12-02T11:43:38"
+    ],
+    "evidencia_curada_historica": [
+      "2002-10-16",
+      "2023-10-18T12:21:35"
+    ],
+    "catalogo_mapa_oficial": [
+      "2002-08-16",
+      "2012-11-15"
+    ],
+    "fuente_descubierta": null,
+    "consulta_sin_resultados": null
+  },
+  "climate_non_null_values": 15755,
+  "annual_2025_by_point": {
+    "Ayabaca - referencia regional": {
+      "days": 365,
+      "T2M_mean_C": 24.14,
+      "T2M_MAX_max_C": 36.82,
+      "precipitation_sum_mm": 464.1,
+      "null_cells": 0
+    },
+    "Bajo Piura - referencia regional": {
+      "days": 365,
+      "T2M_mean_C": 25.05,
+      "T2M_MAX_max_C": 37.47,
+      "precipitation_sum_mm": 238.32,
+      "null_cells": 0
+    },
+    "Chira Sullana - referencia regional": {
+      "days": 365,
+      "T2M_mean_C": 25.63,
+      "T2M_MAX_max_C": 37.72,
+      "precipitation_sum_mm": 255.35,
+      "null_cells": 0
+    },
+    "Huancabamba - referencia regional": {
+      "days": 365,
+      "T2M_mean_C": 17.39,
+      "T2M_MAX_max_C": 28.48,
+      "precipitation_sum_mm": 554.48,
+      "null_cells": 0
+    },
+    "San Lorenzo - referencia regional": {
+      "days": 365,
+      "T2M_mean_C": 22.71,
+      "T2M_MAX_max_C": 34.65,
+      "precipitation_sum_mm": 402.9,
+      "null_cells": 0
+    }
+  }
+}

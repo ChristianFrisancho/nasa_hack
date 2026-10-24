@@ -1,0 +1,2 @@
+# Snippets from external pages retain their original whitespace inside CSV fields.
+piura-data/fuentes_tavily.csv -whitespace

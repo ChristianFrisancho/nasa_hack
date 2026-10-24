@@ -1,0 +1,326 @@
+{
+  "id": "4TeSMeSTACXljaBk",
+  "name": "Piura | Investigacion Tavily automatizada",
+  "active": true,
+  "isArchived": false,
+  "versionId": "323ed9d6-b2f6-44a9-9858-106115183d07",
+  "activeVersionId": "323ed9d6-b2f6-44a9-9858-106115183d07",
+  "triggerCount": 1,
+  "nodeCount": 6,
+  "createdAt": "2026-10-24T02:30:58.752Z",
+  "updatedAt": "2026-10-24T03:17:27.750Z",
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": true,
+    "timezone": "America/Lima",
+    "saveManualExecutions": true,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionTimeout": 1800,
+    "binaryMode": "separate"
+  },
+  "tags": [],
+  "parentFolderId": null,
+  "description": "Busqueda y extraccion Tavily: cultivos, plagas, suelos, agua, costos, requisitos y restricciones de Piura. Requiere credencial Tavily.",
+  "scopes": [
+    "execution:delete",
+    "execution:list",
+    "execution:read",
+    "execution:reveal",
+    "workflow:create",
+    "workflow:delete",
+    "workflow:disableRedaction",
+    "workflow:enableRedaction",
+    "workflow:execute",
+    "workflow:execute-chat",
+    "workflow:export",
+    "workflow:import",
+    "workflow:list",
+    "workflow:move",
+    "workflow:publish",
+    "workflow:read",
+    "workflow:share",
+    "workflow:unpublish",
+    "workflow:unshare",
+    "workflow:update"
+  ],
+  "canExecute": true,
+  "connections": {
+    "Investigar Piura ahora": {
+      "main": [
+        [
+          {
+            "node": "Plan de busquedas Piura",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Plan de busquedas Piura": {
+      "main": [
+        [
+          {
+            "node": "Tavily buscar y extraer fuentes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tavily buscar y extraer fuentes": {
+      "main": [
+        [
+          {
+            "node": "Normalizar evidencias sin inventar valores",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar evidencias sin inventar valores": {
+      "main": [
+        [
+          {
+            "node": "Guardar investigacion sin duplicados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Actualizar lunes 07 Lima": {
+      "main": [
+        [
+          {
+            "node": "Plan de busquedas Piura",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c7b7ccbf-2342-43ae-a197-7f8a55a76f7e",
+      "name": "Investigar Piura ahora",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const plan = [{\"topic\": \"cultivos\", \"query\": \"Piura estadistica agraria cultivos superficie cosechada produccion arroz mango limon banano 2025 MIDAGRI\", \"depth\": \"basic\"}, {\"topic\": \"cultivos\", \"query\": \"Piura calendario siembras cosechas cultivos campaña agricola direccion regional agricultura\", \"depth\": \"basic\"}, {\"topic\": \"cultivos\", \"query\": \"Piura principales cultivos valle Chira Bajo Piura San Lorenzo Alto Piura Huancabamba Ayabaca\", \"depth\": \"basic\"}, {\"topic\": \"agua\", \"query\": \"Piura ANA disponibilidad hidrica Chira Piura San Lorenzo Poechos restricciones riego\", \"depth\": \"basic\"}, {\"topic\": \"suelo\", \"query\": \"Piura ZEE suelos capacidad uso mayor salinidad textura profundidad pendiente\", \"depth\": \"basic\"}, {\"topic\": \"suelo\", \"query\": \"Piura suelo salino sodico Bajo Piura Sechura drenaje agricultura\", \"depth\": \"basic\"}, {\"topic\": \"suelo\", \"query\": \"Ayabaca Huancabamba suelos acidez pendiente profundidad agricultura\", \"depth\": \"basic\"}, {\"topic\": \"suelo\", \"query\": \"Piura INIA analisis fertilidad suelo nitrogeno fosforo potasio laboratorio\", \"depth\": \"basic\"}, {\"topic\": \"plagas\", \"query\": \"Piura SENASA plagas arroz sogata añublo hoja blanca\", \"depth\": \"basic\"}, {\"topic\": \"plagas\", \"query\": \"Piura SENASA banano Fusarium raza 4 tropical zonas cuarentena\", \"depth\": \"basic\"}, {\"topic\": \"plagas\", \"query\": \"Piura SENASA mango mosca fruta antracnosis\", \"depth\": \"basic\"}, {\"topic\": \"plagas\", \"query\": \"Piura SENASA limon citricos plagas HLB Diaphorina citri\", \"depth\": \"basic\"}, {\"topic\": \"plagas\", \"query\": \"Piura SENASA maiz gusano cogollero plagas\", \"depth\": \"basic\"}, {\"topic\": \"clima\", \"query\": \"Piura SENAMHI boletin agroclimatico riesgo agroclimatico arroz mango limon\", \"depth\": \"basic\"}, {\"topic\": \"clima\", \"query\": \"Piura ENFEN inundacion sequia cultivos El Niño\", \"depth\": \"basic\"}, {\"topic\": \"economia\", \"query\": \"Piura MIDAGRI costos produccion cultivo arroz maiz frejol presupuesto hectarea\", \"depth\": \"basic\"}, {\"topic\": \"economia\", \"query\": \"Piura precios chacra cultivos arroz mango limon banano SISAP MIDAGRI\", \"depth\": \"basic\"}, {\"topic\": \"rotacion\", \"query\": \"Piura rotacion cultivos arroz maiz leguminosas frejol suelos agua\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_arroz\", \"query\": \"INIA Peru arroz requerimiento hidrico fertilizacion N P K suelo calendario\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_maiz\", \"query\": \"INIA Peru maiz amarillo duro extraccion nutrientes requerimiento hidrico suelo\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_frejol\", \"query\": \"INIA Peru frejol caupi requerimiento hidrico fertilizacion rotacion\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_banano\", \"query\": \"INIA Piura banano requerimiento agua nutrientes potasio suelo\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_mango\", \"query\": \"INIA Piura mango requerimiento agua nutrientes suelo floracion\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_limon\", \"query\": \"INIA Piura limon sutil requerimiento hidrico nutrientes suelo\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_algodon\", \"query\": \"INIA Piura algodon pima requerimiento agua suelo nutrientes\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_papa\", \"query\": \"INIA Peru papa requerimiento agua suelo nutrientes sierra Piura\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_yuca\", \"query\": \"INIA Peru yuca requerimiento suelo agua nutrientes extraccion\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_cafe\", \"query\": \"INIA Piura cafe requerimiento suelo clima nutrientes altitud\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_cacao\", \"query\": \"INIA Piura cacao requerimiento agua suelo nutrientes\", \"depth\": \"basic\"}, {\"topic\": \"requerimiento_uva\", \"query\": \"INIA Piura uva requerimiento hidrico suelo nutrientes\", \"depth\": \"basic\"}, {\"topic\": \"restricciones\", \"query\": \"Piura SENASA cuarentena restricciones movimiento material vegetal Fusarium banano\", \"depth\": \"basic\"}, {\"topic\": \"datos\", \"query\": \"Piura datos abiertos mapa suelos pendiente profundidad ZEE geoservicio\", \"depth\": \"basic\"}, {\"topic\": \"agua_fenologia_arroz\", \"query\": \"rice arroz cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_arroz\", \"query\": \"rice arroz INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_maiz\", \"query\": \"maize maíz amarillo duro cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_maiz\", \"query\": \"maize maíz amarillo duro INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_frejol_caupi\", \"query\": \"cowpea caupí frijol cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_frejol_caupi\", \"query\": \"cowpea caupí frijol INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_mango\", \"query\": \"mango cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_mango\", \"query\": \"mango INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_limon\", \"query\": \"lime limón sutil cítricos cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_limon\", \"query\": \"lime limón sutil cítricos INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_banano\", \"query\": \"banana banano plátano cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_banano\", \"query\": \"banana banano plátano INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_algodon\", \"query\": \"cotton algodón Pima cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_algodon\", \"query\": \"cotton algodón Pima INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_uva\", \"query\": \"grape vid uva cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_uva\", \"query\": \"grape vid uva INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_cacao\", \"query\": \"cocoa cacao cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_cacao\", \"query\": \"cocoa cacao INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_papa\", \"query\": \"potato papa cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_papa\", \"query\": \"potato papa INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_yuca\", \"query\": \"cassava yuca cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_yuca\", \"query\": \"cassava yuca INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_cafe\", \"query\": \"coffee café cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_cafe\", \"query\": \"coffee café INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_zapallo\", \"query\": \"squash pumpkin zapallo cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_zapallo\", \"query\": \"squash pumpkin zapallo INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_papaya\", \"query\": \"papaya cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_papaya\", \"query\": \"papaya INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_cebolla\", \"query\": \"onion cebolla cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_cebolla\", \"query\": \"onion cebolla INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"agua_fenologia_piquillo\", \"query\": \"pepper Capsicum piquillo pimiento cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF\", \"depth\": \"advanced\"}, {\"topic\": \"nutrientes_sanidad_piquillo\", \"query\": \"pepper Capsicum piquillo pimiento INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF\", \"depth\": \"advanced\"}, {\"topic\": \"suelo_detalle\", \"query\": \"Piura Bajo Piura perfiles suelos Palo Verde Cerezal Pajarito Ramón Curumuy Piura conductividad eléctrica textura pH profundidad calicatas\", \"depth\": \"advanced\"}, {\"topic\": \"suelo_detalle\", \"query\": \"Piura valle San Lorenzo suelos salinidad conductividad textura pH análisis INIA ANA\", \"depth\": \"advanced\"}, {\"topic\": \"suelo_detalle\", \"query\": \"Alto Piura suelos fertilidad textura salinidad profundidad mapa calicatas estudio\", \"depth\": \"advanced\"}, {\"topic\": \"suelo_detalle\", \"query\": \"Ayabaca Huancabamba suelos pH pendiente profundidad fertilidad clases capacidad uso mayor cultivo\", \"depth\": \"advanced\"}, {\"topic\": \"suelo_espacial\", \"query\": \"Piura geoservicio WMS WFS suelos capacidad uso mayor ZEE descargar shapefile geodatos\", \"depth\": \"advanced\"}, {\"topic\": \"suelo_espacial\", \"query\": \"Piura SoilGrids OpenLandMap soil properties sand clay pH SOC nitrogen depth grid coordinates data\", \"depth\": \"advanced\"}, {\"topic\": \"riesgo\", \"query\": \"Piura SIGRID CENEPRED mapa peligro inundación huaicos deslizamiento agricultura Bajo Piura Alto Piura Ayabaca\", \"depth\": \"advanced\"}, {\"topic\": \"riesgo\", \"query\": \"Piura SENAMHI lluvia extrema umbral inundación deslizamiento El Niño 2017 2023 zonas agrícolas\", \"depth\": \"advanced\"}, {\"topic\": \"riesgo\", \"query\": \"Piura ENFEN Niño Costero temperatura precipitación anomalía cultivos rendimiento plagas\", \"depth\": \"advanced\"}, {\"topic\": \"plagas_vigencia\", \"query\": \"Piura SENASA 2024 2025 2026 vigilancia plagas arroz mango limon banano maiz papa mosca fruta Fusarium\", \"depth\": \"advanced\"}];return plan.map(q=>({json:{topic:q.topic,query:q.query,region:\"Piura\",request:{query:q.query,search_depth:q.depth,max_results:q.depth===\"advanced\"?5:8,include_answer:false,include_raw_content:\"text\",include_domains:[\"gob.pe\", \"senasa.gob.pe\", \"inia.gob.pe\", \"senamhi.gob.pe\", \"ana.gob.pe\", \"bcrp.gob.pe\", \"siar.regionpiura.gob.pe\", \"regionpiura.gob.pe\", \"repositorio.midagri.gob.pe\", \"repositorio.inia.gob.pe\", \"fao.org\", \"irri.org\", \"cgiar.org\", \"agris.fao.org\", \"sigrid.cenepred.gob.pe\", \"minam.gob.pe\"]}}}));"
+      },
+      "id": "55803d7d-5b1f-48c4-9159-39763f045ff2",
+      "name": "Plan de busquedas Piura",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        272,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.tavily.com/search",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.request) }}",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 1500
+            }
+          },
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          },
+          "timeout": 90000
+        }
+      },
+      "id": "36000758-ad00-4e78-919b-fd177d03ba19",
+      "name": "Tavily buscar y extraer fuentes",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        496,
+        224
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "vzWfGaXe0kPCRJSP",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const rows=[];const seen=new Set();const plan=$('Plan de busquedas Piura').all();\nfor(let i=0;i<$input.all().length;i++){\n const r=$input.all()[i].json;\n if(!Array.isArray(r.results))throw new Error('Tavily sin results: revisar credencial, cuota o respuesta');\n const q=plan[i]?.json;if(!q)throw new Error('Consulta sin procedencia');\n if(r.results.length===0){rows.push({json:{record_key:'tavily-empty:'+q.topic+':'+q.query,record_type:'consulta_sin_resultados',topic:q.topic,location_label:'Piura - alcance de busqueda',source_url:'https://api.tavily.com/search',source_date:'',retrieved_at:new Date().toISOString(),quality_status:'sin_resultados_no_equivale_a_ausencia',payload_json:JSON.stringify({query:q.query,request_id:r.request_id})}});continue;}\n for(const hit of r.results){\n  if(!hit.url||!hit.url.startsWith('https://'))continue;\n  const url=hit.url.split('#')[0];const key=q.topic+'|'+url;if(seen.has(key))continue;seen.add(key);\n  rows.push({json:{record_key:'tavily:'+key,record_type:'fuente_descubierta',topic:q.topic,location_label:'Piura - pertinencia espacial pendiente de revision',source_url:url,source_date:hit.published_date||'',retrieved_at:new Date().toISOString(),quality_status:hit.raw_content?'texto_extraido_pendiente_validacion':'fragmento_busqueda_no_hecho_verificado',payload_json:JSON.stringify({title:hit.title,query:q.query,score:hit.score,content:hit.content||'',raw_content:(hit.raw_content||'').slice(0,24000),truncated:(hit.raw_content||'').length>24000,request_id:r.request_id})}});\n }\n}\nreturn rows;"
+      },
+      "id": "cf00a2cf-e99a-425c-954d-841b5e327e5a",
+      "name": "Normalizar evidencias sin inventar valores",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "upsert",
+        "dataTableId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "SW9ZbPKCuDmDufK4"
+        },
+        "matchType": "allConditions",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "record_key",
+              "keyValue": "={{ $json.record_key }}"
+            }
+          ]
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "schema": [
+            {
+              "id": "record_key",
+              "displayName": "record_key",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "record_type",
+              "displayName": "record_type",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "topic",
+              "displayName": "topic",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "location_label",
+              "displayName": "location_label",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_url",
+              "displayName": "source_url",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "source_date",
+              "displayName": "source_date",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "retrieved_at",
+              "displayName": "retrieved_at",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "quality_status",
+              "displayName": "quality_status",
+              "type": "string",
+              "required": false,
+              "display": true
+            },
+            {
+              "id": "payload_json",
+              "displayName": "payload_json",
+              "type": "string",
+              "required": false,
+              "display": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "08996bb4-e867-4160-b1dd-e55b29e0b5fc",
+      "name": "Guardar investigacion sin duplicados",
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        944,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ],
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "id": "92b79a82-3ab0-40e1-a284-863c617e904e",
+      "name": "Actualizar lunes 07 Lima",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        192
+      ]
+    }
+  ],
+  "nodeGroups": [
+    {
+      "id": "6e9e642d-a135-4f9f-9177-ac66be052216",
+      "name": "Busqueda y evidencia",
+      "nodeNames": [
+        "Plan de busquedas Piura",
+        "Tavily buscar y extraer fuentes",
+        "Normalizar evidencias sin inventar valores",
+        "Guardar investigacion sin duplicados"
+      ],
+      "description": "32 consultas oficiales, hasta 8 resultados cada una. Textos candidatos con fuente; no transforma fragmentos en dosis agronomicas."
+    }
+  ],
+  "activeVersion": {
+    "sameAsDraft": true
+  },
+  "meta": {
+    "aiBuilderAssisted": true,
+    "builderVariant": "mcp"
+  }
+}

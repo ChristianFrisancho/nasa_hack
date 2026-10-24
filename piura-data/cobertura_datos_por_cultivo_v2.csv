@@ -1,0 +1,21 @@
+crop,Kc_records,nutrient_uptake_records,nutrient_export_records,Ky_records,soil_or_climate_threshold_records,external_duration_analog_records,Piura_specific_nutrient_coefficients,Piura_specific_soil_profile,status
+arroz,3,3,0,0,0,2,0,0,fuentes externas pendientes de calibración; perfil local faltante
+maiz amarillo duro,3,3,6,1,9,6,0,0,fuentes externas pendientes de calibración; perfil local faltante
+maiz choclo,3,0,0,0,0,5,0,0,fuentes externas pendientes de calibración; perfil local faltante
+frijol grano,3,0,3,1,0,3,0,0,fuentes externas pendientes de calibración; perfil local faltante
+frijol de palo,0,3,0,0,0,0,0,0,fuentes externas pendientes de calibración; perfil local faltante
+caupi,3,0,0,0,0,1,0,0,fuentes externas pendientes de calibración; perfil local faltante
+mango,0,3,0,0,4,0,0,0,fuentes externas pendientes de calibración; perfil local faltante
+limon,9,3,0,0,4,1,0,0,fuentes externas pendientes de calibración; perfil local faltante
+banano,6,3,0,1,4,2,0,0,fuentes externas pendientes de calibración; perfil local faltante
+algodon,3,3,6,1,0,4,0,0,fuentes externas pendientes de calibración; perfil local faltante
+uva,6,3,0,0,6,4,0,0,fuentes externas pendientes de calibración; perfil local faltante
+cacao,3,3,0,0,0,0,0,0,fuentes externas pendientes de calibración; perfil local faltante
+papa,3,3,3,1,0,5,0,0,fuentes externas pendientes de calibración; perfil local faltante
+yuca,6,3,0,0,4,1,0,0,fuentes externas pendientes de calibración; perfil local faltante
+cafe,6,3,0,0,0,0,0,0,fuentes externas pendientes de calibración; perfil local faltante
+zapallo,3,0,0,0,0,2,0,0,fuentes externas pendientes de calibración; perfil local faltante
+papaya,0,3,0,0,4,0,0,0,fuentes externas pendientes de calibración; perfil local faltante
+cebolla,3,3,3,1,0,2,0,0,fuentes externas pendientes de calibración; perfil local faltante
+piquillo,3,0,3,1,0,2,0,0,fuentes externas pendientes de calibración; perfil local faltante
+arveja,3,0,3,1,0,3,0,0,fuentes externas pendientes de calibración; perfil local faltante

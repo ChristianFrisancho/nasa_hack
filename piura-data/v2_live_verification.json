@@ -1,0 +1,68 @@
+{
+  "evidence": {
+    "error": false,
+    "count": 3232
+  },
+  "requirements": {
+    "error": false,
+    "count": 186
+  },
+  "pests": {
+    "error": false,
+    "count": 42
+  },
+  "soils": {
+    "error": false,
+    "count": 12
+  },
+  "analogs": {
+    "error": false,
+    "count": 68
+  },
+  "tavily": {
+    "error": false,
+    "id": "4TeSMeSTACXljaBk",
+    "active": true,
+    "versionId": "323ed9d6-b2f6-44a9-9858-106115183d07",
+    "meta_keys": [
+      "workflow",
+      "triggerInfo"
+    ],
+    "recent_executions": [
+      {
+        "id": "8",
+        "status": "success",
+        "startedAt": "2026-10-24T03:17:34.865Z"
+      },
+      {
+        "id": "7",
+        "status": "success",
+        "startedAt": "2026-10-24T02:55:42.434Z"
+      }
+    ],
+    "triggerInfo": "This workflow has the following trigger(s):\n\n\nSchedule trigger(s):\n\n\n\t\t\t\t<trigger 1>\n\t\t\t\t\t - Node name: Actualizar lunes 07 Lima\n\t\t\t\t</trigger 1>\n\nScheduled workflows do not take inputs. To execute a specific schedule trigger, pass triggerNodeName only: { triggerNodeName: \"<node name>\" }."
+  },
+  "public": {
+    "error": false,
+    "id": "FZuImrDNKPsFj306",
+    "active": true,
+    "versionId": "1bac625e-2b8e-43b7-9b31-36b8a81b769c",
+    "meta_keys": [
+      "workflow",
+      "triggerInfo"
+    ],
+    "recent_executions": [
+      {
+        "id": "6",
+        "status": "success",
+        "startedAt": "2026-10-24T02:42:10.126Z"
+      },
+      {
+        "id": "5",
+        "status": "success",
+        "startedAt": "2026-10-24T02:40:18.520Z"
+      }
+    ],
+    "triggerInfo": "This workflow has the following trigger(s):\n\n\nSchedule trigger(s):\n\n\n\t\t\t\t<trigger 1>\n\t\t\t\t\t - Node name: Actualizar diario 06 Lima\n\t\t\t\t</trigger 1>\n\nScheduled workflows do not take inputs. To execute a specific schedule trigger, pass triggerNodeName only: { triggerNodeName: \"<node name>\" }."
+  }
+}

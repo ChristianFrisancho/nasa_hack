@@ -1,0 +1,16 @@
+feature,unit,candidate_rule_for_review,rule_type
+crop_taxon,categorical,same species or documented biological proxy,hard
+harvest_use,categorical,same harvested part and moisture basis,hard
+cultivar_or_maturity_group,categorical,same or locally calibrated maturity group,hard
+planting_date,days,within seasonal window after local phenology review,hard
+irrigation_method,categorical,same method and comparable efficiency,hard
+soil_sand_clay_silt,percentage points,each fraction difference <=5 if lab methods comparable,soft
+soil_pH,pH,"difference <=0.3, same extraction method",soft
+soil_ECe,dS/m,"difference <=1, same saturation extract method",soft
+effective_root_depth,m,difference <=0.2 after field pit,soft
+soil_available_water,mm/root_zone,difference <=15%,soft
+monthly_precipitation,mm,"difference <=10% or 20mm, whichever greater; distribution also compare",soft
+monthly_Tmean,°C,difference <=1; count heat/cold extremes separately,soft
+ET0_and_radiation,mm and MJ/m²,ET0 difference <=10%; same calculation method,soft
+pest_status,categorical,same diagnosed pathogen/host pressure,hard
+yield_or_consumption_measure,categorical,"same measurement protocol, yield target and crop phase",hard

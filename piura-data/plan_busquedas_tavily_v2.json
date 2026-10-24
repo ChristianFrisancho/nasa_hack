@@ -1,0 +1,372 @@
+[
+  {
+    "topic": "cultivos",
+    "query": "Piura estadistica agraria cultivos superficie cosechada produccion arroz mango limon banano 2025 MIDAGRI",
+    "depth": "basic"
+  },
+  {
+    "topic": "cultivos",
+    "query": "Piura calendario siembras cosechas cultivos campaña agricola direccion regional agricultura",
+    "depth": "basic"
+  },
+  {
+    "topic": "cultivos",
+    "query": "Piura principales cultivos valle Chira Bajo Piura San Lorenzo Alto Piura Huancabamba Ayabaca",
+    "depth": "basic"
+  },
+  {
+    "topic": "agua",
+    "query": "Piura ANA disponibilidad hidrica Chira Piura San Lorenzo Poechos restricciones riego",
+    "depth": "basic"
+  },
+  {
+    "topic": "suelo",
+    "query": "Piura ZEE suelos capacidad uso mayor salinidad textura profundidad pendiente",
+    "depth": "basic"
+  },
+  {
+    "topic": "suelo",
+    "query": "Piura suelo salino sodico Bajo Piura Sechura drenaje agricultura",
+    "depth": "basic"
+  },
+  {
+    "topic": "suelo",
+    "query": "Ayabaca Huancabamba suelos acidez pendiente profundidad agricultura",
+    "depth": "basic"
+  },
+  {
+    "topic": "suelo",
+    "query": "Piura INIA analisis fertilidad suelo nitrogeno fosforo potasio laboratorio",
+    "depth": "basic"
+  },
+  {
+    "topic": "plagas",
+    "query": "Piura SENASA plagas arroz sogata añublo hoja blanca",
+    "depth": "basic"
+  },
+  {
+    "topic": "plagas",
+    "query": "Piura SENASA banano Fusarium raza 4 tropical zonas cuarentena",
+    "depth": "basic"
+  },
+  {
+    "topic": "plagas",
+    "query": "Piura SENASA mango mosca fruta antracnosis",
+    "depth": "basic"
+  },
+  {
+    "topic": "plagas",
+    "query": "Piura SENASA limon citricos plagas HLB Diaphorina citri",
+    "depth": "basic"
+  },
+  {
+    "topic": "plagas",
+    "query": "Piura SENASA maiz gusano cogollero plagas",
+    "depth": "basic"
+  },
+  {
+    "topic": "clima",
+    "query": "Piura SENAMHI boletin agroclimatico riesgo agroclimatico arroz mango limon",
+    "depth": "basic"
+  },
+  {
+    "topic": "clima",
+    "query": "Piura ENFEN inundacion sequia cultivos El Niño",
+    "depth": "basic"
+  },
+  {
+    "topic": "economia",
+    "query": "Piura MIDAGRI costos produccion cultivo arroz maiz frejol presupuesto hectarea",
+    "depth": "basic"
+  },
+  {
+    "topic": "economia",
+    "query": "Piura precios chacra cultivos arroz mango limon banano SISAP MIDAGRI",
+    "depth": "basic"
+  },
+  {
+    "topic": "rotacion",
+    "query": "Piura rotacion cultivos arroz maiz leguminosas frejol suelos agua",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_arroz",
+    "query": "INIA Peru arroz requerimiento hidrico fertilizacion N P K suelo calendario",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_maiz",
+    "query": "INIA Peru maiz amarillo duro extraccion nutrientes requerimiento hidrico suelo",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_frejol",
+    "query": "INIA Peru frejol caupi requerimiento hidrico fertilizacion rotacion",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_banano",
+    "query": "INIA Piura banano requerimiento agua nutrientes potasio suelo",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_mango",
+    "query": "INIA Piura mango requerimiento agua nutrientes suelo floracion",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_limon",
+    "query": "INIA Piura limon sutil requerimiento hidrico nutrientes suelo",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_algodon",
+    "query": "INIA Piura algodon pima requerimiento agua suelo nutrientes",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_papa",
+    "query": "INIA Peru papa requerimiento agua suelo nutrientes sierra Piura",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_yuca",
+    "query": "INIA Peru yuca requerimiento suelo agua nutrientes extraccion",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_cafe",
+    "query": "INIA Piura cafe requerimiento suelo clima nutrientes altitud",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_cacao",
+    "query": "INIA Piura cacao requerimiento agua suelo nutrientes",
+    "depth": "basic"
+  },
+  {
+    "topic": "requerimiento_uva",
+    "query": "INIA Piura uva requerimiento hidrico suelo nutrientes",
+    "depth": "basic"
+  },
+  {
+    "topic": "restricciones",
+    "query": "Piura SENASA cuarentena restricciones movimiento material vegetal Fusarium banano",
+    "depth": "basic"
+  },
+  {
+    "topic": "datos",
+    "query": "Piura datos abiertos mapa suelos pendiente profundidad ZEE geoservicio",
+    "depth": "basic"
+  },
+  {
+    "topic": "agua_fenologia_arroz",
+    "query": "rice arroz cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_arroz",
+    "query": "rice arroz INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_maiz",
+    "query": "maize maíz amarillo duro cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_maiz",
+    "query": "maize maíz amarillo duro INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_frejol_caupi",
+    "query": "cowpea caupí frijol cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_frejol_caupi",
+    "query": "cowpea caupí frijol INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_mango",
+    "query": "mango cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_mango",
+    "query": "mango INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_limon",
+    "query": "lime limón sutil cítricos cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_limon",
+    "query": "lime limón sutil cítricos INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_banano",
+    "query": "banana banano plátano cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_banano",
+    "query": "banana banano plátano INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_algodon",
+    "query": "cotton algodón Pima cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_algodon",
+    "query": "cotton algodón Pima INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_uva",
+    "query": "grape vid uva cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_uva",
+    "query": "grape vid uva INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_cacao",
+    "query": "cocoa cacao cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_cacao",
+    "query": "cocoa cacao INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_papa",
+    "query": "potato papa cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_papa",
+    "query": "potato papa INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_yuca",
+    "query": "cassava yuca cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_yuca",
+    "query": "cassava yuca INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_cafe",
+    "query": "coffee café cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_cafe",
+    "query": "coffee café INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_zapallo",
+    "query": "squash pumpkin zapallo cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_zapallo",
+    "query": "squash pumpkin zapallo INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_papaya",
+    "query": "papaya cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_papaya",
+    "query": "papaya INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_cebolla",
+    "query": "onion cebolla cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_cebolla",
+    "query": "onion cebolla INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "agua_fenologia_piquillo",
+    "query": "pepper Capsicum piquillo pimiento cultivo FAO INIA crop water requirement Kc etapas profundidad raiz duración temperatura lluvia salinidad PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "nutrientes_sanidad_piquillo",
+    "query": "pepper Capsicum piquillo pimiento INIA SENASA Perú exportación absorción nutrientes N P K por tonelada rendimiento plagas enfermedades hospedantes guía cultivo PDF",
+    "depth": "advanced"
+  },
+  {
+    "topic": "suelo_detalle",
+    "query": "Piura Bajo Piura perfiles suelos Palo Verde Cerezal Pajarito Ramón Curumuy Piura conductividad eléctrica textura pH profundidad calicatas",
+    "depth": "advanced"
+  },
+  {
+    "topic": "suelo_detalle",
+    "query": "Piura valle San Lorenzo suelos salinidad conductividad textura pH análisis INIA ANA",
+    "depth": "advanced"
+  },
+  {
+    "topic": "suelo_detalle",
+    "query": "Alto Piura suelos fertilidad textura salinidad profundidad mapa calicatas estudio",
+    "depth": "advanced"
+  },
+  {
+    "topic": "suelo_detalle",
+    "query": "Ayabaca Huancabamba suelos pH pendiente profundidad fertilidad clases capacidad uso mayor cultivo",
+    "depth": "advanced"
+  },
+  {
+    "topic": "suelo_espacial",
+    "query": "Piura geoservicio WMS WFS suelos capacidad uso mayor ZEE descargar shapefile geodatos",
+    "depth": "advanced"
+  },
+  {
+    "topic": "suelo_espacial",
+    "query": "Piura SoilGrids OpenLandMap soil properties sand clay pH SOC nitrogen depth grid coordinates data",
+    "depth": "advanced"
+  },
+  {
+    "topic": "riesgo",
+    "query": "Piura SIGRID CENEPRED mapa peligro inundación huaicos deslizamiento agricultura Bajo Piura Alto Piura Ayabaca",
+    "depth": "advanced"
+  },
+  {
+    "topic": "riesgo",
+    "query": "Piura SENAMHI lluvia extrema umbral inundación deslizamiento El Niño 2017 2023 zonas agrícolas",
+    "depth": "advanced"
+  },
+  {
+    "topic": "riesgo",
+    "query": "Piura ENFEN Niño Costero temperatura precipitación anomalía cultivos rendimiento plagas",
+    "depth": "advanced"
+  },
+  {
+    "topic": "plagas_vigencia",
+    "query": "Piura SENASA 2024 2025 2026 vigilancia plagas arroz mango limon banano maiz papa mosca fruta Fusarium",
+    "depth": "advanced"
+  }
+]

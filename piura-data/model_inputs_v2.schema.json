@@ -1,0 +1,742 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Entradas de rotación Piura v2: parcela, horizontes, agua, riesgo y economía",
+  "type": "object",
+  "required": [
+    "field",
+    "farmer",
+    "candidate_crops",
+    "history"
+  ],
+  "properties": {
+    "field": {
+      "type": "object",
+      "required": [
+        "geometry",
+        "area_ha"
+      ],
+      "properties": {
+        "geometry": {
+          "description": "Poligono GeoJSON WGS84 real de la parcela; validar geometria y pertenencia espacial antes de consultar datos",
+          "type": "object",
+          "required": [
+            "type",
+            "coordinates"
+          ],
+          "properties": {
+            "type": {
+              "enum": [
+                "Polygon",
+                "MultiPolygon"
+              ]
+            },
+            "coordinates": {
+              "type": "array"
+            }
+          }
+        },
+        "area_ha": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "district_ubigeo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "slope_percent": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "effective_soil_depth_cm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "soil_analysis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "variable",
+              "value",
+              "unit",
+              "method",
+              "sample_date",
+              "depth_top_cm",
+              "depth_bottom_cm"
+            ],
+            "properties": {
+              "variable": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": "string"
+              },
+              "method": {
+                "type": "string"
+              },
+              "sample_date": {
+                "type": "string",
+                "format": "date"
+              },
+              "depth_top_cm": {
+                "type": "number",
+                "minimum": 0
+              },
+              "depth_bottom_cm": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          }
+        },
+        "irrigation": {
+          "type": "object",
+          "properties": {
+            "system": {
+              "type": "string"
+            },
+            "available_m3_by_month": {
+              "type": "object",
+              "additionalProperties": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            },
+            "water_ec_ds_m": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "water_sar": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "water_right_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "conveyance_efficiency": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            },
+            "application_efficiency": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            },
+            "soil_infiltration_limit_mm_h": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "water_sodium_mg_L": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "water_chloride_mg_L": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "water_boron_mg_L": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "canal_turns_by_week": {
+              "type": "object",
+              "additionalProperties": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "phytosanitary_restrictions": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "herbicide_history": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "soil_horizons": {
+          "type": "array",
+          "description": "Muestras o calicatas por horizonte con método/fecha; no rellenar con promedios regionales",
+          "items": {
+            "type": "object",
+            "required": [
+              "top_cm",
+              "bottom_cm",
+              "sample_date",
+              "method"
+            ],
+            "properties": {
+              "top_cm": {
+                "type": "number",
+                "minimum": 0
+              },
+              "bottom_cm": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "sample_date": {
+                "type": "string",
+                "format": "date"
+              },
+              "method": {
+                "type": "string"
+              },
+              "sand_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "silt_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "clay_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "bulk_density_g_cm3": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "exclusiveMinimum": 0
+              },
+              "field_capacity_m3_m3": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "wilting_point_m3_m3": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "Ksat_mm_h": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "pH": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 14
+              },
+              "ECe_dS_m": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "ESP_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "CEC_cmolc_kg": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "organic_carbon_g_kg": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "mineral_N_mg_kg": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "available_P_mg_kg": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "exchangeable_K_cmolc_kg": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "carbonates_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "gypsum_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "root_restricting_layer_cm": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "groundwater_depth_cm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "flood_duration_days_history": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "land_use_capability_verified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hazard_layers": {
+          "type": "array",
+          "description": "Intersección de polígono con capas oficiales, con fecha/escala, no solo distrito",
+          "items": {
+            "type": "object",
+            "properties": {
+              "hazard_type": {
+                "enum": [
+                  "flood",
+                  "debris_flow",
+                  "landslide",
+                  "drought",
+                  "heat",
+                  "wind",
+                  "erosion"
+                ]
+              },
+              "exposure_fraction": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "return_period_years": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "exclusiveMinimum": 0
+              },
+              "map_scale": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "map_date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_url": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer": {
+      "type": "object",
+      "required": [
+        "budget_pen"
+      ],
+      "properties": {
+        "budget_pen": {
+          "type": "number",
+          "minimum": 0
+        },
+        "labor_hours_by_month": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "machinery_available": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "priority": {
+          "enum": [
+            "water",
+            "profit",
+            "soil",
+            "risk",
+            "balanced"
+          ]
+        },
+        "minimum_income_pen": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "land_tenure_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "cash_available_pen_by_month": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          }
+        },
+        "credit_limit_pen": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "risk_tolerance": {
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            null
+          ]
+        },
+        "buyer_contracts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "storage_capacity_t": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "candidate_crops": {
+      "description": "Solo cultivos que el usuario permite; pertenecer a esta lista no elimina restricciones duras",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "crop",
+          "use"
+        ],
+        "properties": {
+          "crop": {
+            "type": "string"
+          },
+          "cultivar": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "use": {
+            "enum": [
+              "grain",
+              "fruit",
+              "forage",
+              "root",
+              "cover",
+              "fallow"
+            ]
+          },
+          "target_yield_t_ha": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "earliest_sowing_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "latest_sowing_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "seed_source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "existing_perennial_plantation": {
+            "type": "boolean"
+          },
+          "residue_management": {
+            "enum": [
+              "retained",
+              "removed",
+              "grazed",
+              "mixed",
+              null
+            ]
+          }
+        }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "crop",
+          "sowing_date",
+          "harvest_date"
+        ],
+        "properties": {
+          "crop": {
+            "type": "string"
+          },
+          "sowing_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "harvest_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "yield_t_ha": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "residues_removed_fraction": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "observed_pests": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cultivar": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "irrigation_m3_ha": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "fertilizer_N_kg_ha": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "fertilizer_P2O5_kg_ha": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "fertilizer_K2O_kg_ha": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "diagnosed_pests": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "agent": {
+                  "type": "string"
+                },
+                "diagnosis_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "method": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "crop_failure_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "planning_horizon_months": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "allow_reconversion_perennials": {
+          "type": "boolean",
+          "default": false
+        },
+        "allow_covers_outside_candidate_list": {
+          "type": "boolean",
+          "default": false
+        },
+        "allow_fallow": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "required_confidence": {
+      "enum": [
+        "observed_local_only",
+        "regional_plus_calibrated_analog",
+        "exploratory"
+      ]
+    }
+  },
+  "$comment": "Inventario de 342 features complementario. Variables faltantes se conservan como null; validar suma de textura, horizontes, fechas, unidades y geometría. Huaico/inundación se modela como riesgo de daño/pérdida, no como ajuste arbitrario de días."
+}
