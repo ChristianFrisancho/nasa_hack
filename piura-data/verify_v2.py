@@ -23,7 +23,7 @@ EXPECTED = {
     'matriz_cultivo_suelo_regional_v2.csv': 240,
     'analogos_comparacion_v2.csv': 68,
     'escenarios_ETc_2025_referencia.csv': 210,
-    'fuentes_tavily.csv': 568,
+    'fuentes_tavily.csv': 659,
 }
 
 

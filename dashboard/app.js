@@ -366,6 +366,7 @@
     for(const verdict of item.veredictos||[]){
       const box=elem('article','candidate-filter-evidence');let status=resultNames[verdict.resultado]||verdict.resultado;
       if(verdict.resultado==='no_evaluable'&&['pH','profundidad'].includes(verdict.filtro))status='Sin medición de parcela';
+      if(verdict.resultado==='no_evaluable'&&['drenaje','pendiente'].includes(verdict.filtro))status='Parcela sin medir';
       if(verdict.resultado==='no_evaluable'&&verdict.filtro==='presupuesto'){
         const missing=(verdict.faltantes||[]).join(' ').toLowerCase();
         status=missing.includes('presupuesto')?'Dato del agricultor':missing.includes('costo')?'Costo sin referencia':'Dato económico pendiente';
@@ -382,6 +383,7 @@
       if(verdict.probable_no_apto)box.append(elem('p','candidate-warning','El motor detecta posible no aptitud; no compensa esta alerta con un margen económico alto.'));
       for(const [key,value] of Object.entries(verdict.cifras||{}))renderCifraTree(box,pretty(key),value);
       if(verdict.faltantes?.length)box.append(elem('small','candidate-evidence-note',`Pendiente: ${verdict.faltantes.join('; ')}`));
+      renderRegionalFilterContext(box,verdict,result);
       parent.append(box);
     }
     renderRegionalSoilContext(parent,result);
@@ -476,6 +478,47 @@
       section.append(row);
     }
     parent.append(section);
+  }
+
+  function renderRegionalFilterContext(parent,verdict,result){
+    const filter=verdict?.filtro;
+    if(!['drenaje','pendiente'].includes(filter))return;
+    const zone=state.data.soilZones?.find(item=>item.zone===(result?.zone||'bajo_piura'));
+    const records=zone?.measurements||[];
+    const find=variable=>records.find(record=>record.variable===variable&&record.status!=='desconocido');
+    const box=elem('aside','regional-filter-context');
+    box.append(elem('strong','','Referencia regional disponible'));
+    if(filter==='pendiente'){
+      const means=records.filter(record=>record.variable==='pendiente_media_cultivo'&&record.status!=='desconocido');
+      if(!means.length){box.append(elem('p','','No hay una estimación de pendiente para esta zona en el conjunto cargado.'));parent.append(box);return;}
+      for(const mean of means){
+        const atPlace=variable=>records.find(record=>record.variable===variable&&record.place===mean.place&&record.status!=='desconocido')||find(variable);
+        const p90=atPlace('pendiente_p90_cultivo'),above2=atPlace('area_cultivo_pendiente_mayor_2pct'),above5=atPlace('area_cultivo_pendiente_mayor_5pct');
+        box.append(elem('p','',`En ${mean.place||'esta zona'}, la pendiente media estimada de píxeles agrícolas es ${num(mean.value)} % (rango de sensibilidad ${num(mean.min)}–${num(mean.max)} %).`));
+        if(p90)box.append(elem('p','',`El percentil 90 es ${num(p90.value)} % (${num(p90.min)}–${num(p90.max)} %): 9 de cada 10 píxeles analizados quedan por debajo de esa cifra.`));
+        if(above2)box.append(elem('p','',`Se estima que ${num(above2.value)} % del área agrícola cartografiada supera 2 % de pendiente${above2.min!=null&&above2.max!=null?` (rango ${num(above2.min)}–${num(above2.max)} %)` : ''}.`));
+        if(above5)box.append(elem('p','',`${num(above5.value)} % supera 5 % en esa estimación.`));
+        if(mean.source){const source=elem('div','candidate-source');const urls=(mean.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${mean.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=mean.source;box.append(source);}
+        if(mean.notes)box.append(elem('small','candidate-evidence-note',mean.notes));
+      }
+      box.append(elem('small','candidate-evidence-note','La pendiente (%) es desnivel dividido entre distancia horizontal: 1 % equivale a subir 1 m en 100 m. Esta es una estimación DEM de ~30 m sobre cobertura agrícola, no la pendiente de tu parcela. En terreno casi plano el ruido vertical puede inflar el resultado; para decidir riego/nivelación hace falta el polígono y un levantamiento topográfico.'));
+    }else{
+      const drainage=find('clase_drenaje_local');
+      const unit=state.data.soilUnits?.find(item=>item.soil_unit===(result?.soilUnit||''));
+      const specific=(unit?.known_constraints||'').toLowerCase();
+      if(unit&&/drenaje pobre|mal drenaje|drenaje deficiente/.test(specific)){
+        box.append(elem('p','',`${unit.soil_unit}: la descripción cartográfica registra salinidad y drenaje pobre. Es evidencia de la unidad de suelo, no una medición uniforme de cada lote.`));
+        const source=elem('div','candidate-source');addLink(source,'Ficha cartográfica SIAR Piura ↗',unit.source_url);box.append(source);
+      }
+      if(drainage){
+        box.append(elem('p','',`${drainage.place||'La zona'}: referencia regional de drenaje “${drainage.value}”.`));
+        if(drainage.source){const source=elem('div','candidate-source');const urls=(drainage.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${drainage.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=drainage.source;box.append(source);}
+        if(drainage.notes)box.append(elem('small','candidate-evidence-note',drainage.notes));
+      }
+      if(!drainage&&!(unit&&/drenaje pobre|mal drenaje|drenaje deficiente/.test(specific))){box.append(elem('p','',`No hay una clase de drenaje regional verificada para ${zone?.zone||'esta zona'}; la selección de suelo no sustituye la observación del lote.`));}
+      box.append(elem('small','candidate-evidence-note','El drenaje indica qué tan rápido sale el exceso de agua del perfil. Si es lento, los poros quedan saturados, falta oxígeno a las raíces y pueden aumentar enfermedades; en zonas salinas también dificulta lavar sales. Para evaluarlo en parcela se observan encharcamiento, moteados del perfil y profundidad de napa; el dato regional no equivale a esa inspección.'));
+    }
+    parent.append(box);
   }
 
   function renderCompactStatus(item,status){

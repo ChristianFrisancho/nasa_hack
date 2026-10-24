@@ -285,7 +285,26 @@ class Catalogo:
             self._cargar_agronomia()
         self._cargar_tmax_pisco()
         self._cargar_lluvia_pisco()
+        self._cargar_contexto_pendiente()
         self._armar_rampas()
+
+    def _cargar_contexto_pendiente(self):
+        """Carga solo p50/p90 de pendiente del DEM como contexto de zona, nunca como medición de parcela."""
+        ruta = self.dir_repo / "evidencia_observada.csv"
+        if not ruta.exists():
+            return
+        destinos = {"pendiente_p50_cultivo": "pendiente_p50", "pendiente_p90_cultivo": "pendiente_p90"}
+        for i, r in enumerate(leer_csv(ruta), start=2):
+            destino = destinos.get(r.get("variable", ""))
+            if destino is None:
+                continue
+            fila_id = r.get("id") or r.get("id_registro") or f"línea {i}"
+            problemas = validar_fila_contrato(r)
+            if problemas:
+                self._anotar(ruta, fila_id, r.get("cultivo", ""), r["variable"], RECHAZADA,
+                             "; ".join(problemas))
+                continue
+            self._integrar_zona(ruta, fila_id, r, destino)
 
     def _cargar_tmax_pisco(self):
         """Media mensual de las máximas diarias por zona (PISCOt 1981-2020, de Piura Datos). Si una zona trae varias

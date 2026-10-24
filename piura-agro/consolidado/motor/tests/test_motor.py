@@ -81,9 +81,12 @@ def test_sin_datos_de_suelo_devuelve_desconocido():
     r = evaluar(consulta(suelo={"ece_ds_m": None, "ph": None, "profundidad_cm": None, "drenaje": None,
                                 "pendiente_pct": None}, agua={"ecw_ds_m": None}))
     d = r.a_dict()
+    assert r.consulta.suelo.pendiente_pct.tipo_evidencia == "prediccion"
+    assert "VALOR DE ZONA" in r.consulta.suelo.pendiente_pct.notas
     for e in r.evaluaciones:
         res = {v.filtro: v.resultado for v in e.veredictos}
-        assert res["drenaje"] == res["pendiente"] == res["pH"] == res["profundidad"] == "no_evaluable"
+        assert res["drenaje"] == res["pH"] == res["profundidad"] == "no_evaluable"
+        assert res["pendiente"] != "no_evaluable"
         if e.cultivo in SENSIBLES:
             assert res["salinidad"] == "no_evaluable"
         # la ECe tras cosecha no se inventa
@@ -452,6 +455,18 @@ def test_pendiente_de_zona_es_prediccion_con_rango():
     c = Consulta.desde_dict(json.loads((BASE / "ejemplos/tablazo_sur_ce_medida.json").read_text()))
     p = evaluar(c, cat).consulta.suelo.pendiente_pct
     assert p.tipo_evidencia == "prediccion" and p.lo == 0.0 and p.hi == 2.6 and "VALOR DE ZONA" in p.notas
+
+
+def test_catalogo_predeterminado_carga_pendiente_regional_sin_marcarla_como_medida():
+    cat = catalogo_por_defecto()
+    c = consulta(suelo={"pendiente_pct": None})
+    resultado = evaluar(c, cat)
+    pendiente = resultado.consulta.suelo.pendiente_pct
+    assert pendiente is not None and pendiente.tipo_evidencia == "prediccion"
+    assert pendiente.lo == 0.0 and pendiente.hi == 2.6
+    assert "VALOR DE ZONA" in pendiente.notas and "no de su parcela" in pendiente.notas
+    veredicto = next(v for v in por_cultivo(resultado)["caupi"].veredictos if v.filtro == "pendiente")
+    assert veredicto.resultado != "no_evaluable"
 
 
 def test_costo_analogo_externo_amplia_incertidumbre_y_avisa():
