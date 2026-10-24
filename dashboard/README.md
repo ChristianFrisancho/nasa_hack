@@ -2,7 +2,9 @@
 
 El tablero usa **D3.js 7.9** para comparar márgenes P10–P50, demanda de agua por etapa y exportación estimada de nutrientes. Está escrito en HTML, CSS y JavaScript estáticos: no requiere cuentas, API ni compilación.
 
-Desde la **raíz del repositorio**:
+**Sin instalar nada:** descarga [`standalone.html`](standalone.html) desde GitHub (botón «Download raw file») y ábrelo con doble clic. Incluye D3, estilos, los seis ejemplos y el CSV completo comprimido dentro del mismo archivo. La fuente GitHub debe descargarse: la página `blob` muestra el código, no ejecuta HTML.
+
+Para usar la versión modular desde la **raíz del repositorio**:
 
 ```bash
 python -m http.server 8000
@@ -26,5 +28,7 @@ python dashboard/build_data.py
 ```
 
 El script falla si las 84 alternativas del CSV dejan de coincidir con las salidas del motor. D3 se guarda localmente en `vendor/` bajo licencia ISC (véase `vendor/LICENSE`).
+
+Tras modificar el dashboard o actualizar las tablas, regenera el archivo autónomo con `python dashboard/build_standalone.py`. Este archivo no pide recursos locales ni acceso a los CSV externos cuando se abre; las fuentes web enlazadas solo se consultan si la persona hace clic en ellas.
 
 Las pruebas de navegador comprueban arveja tras arroz, margen negativo en Tablazo, ausencia de cultivo viable, carga de evidencia y ancho móvil. Para ejecutarlas instala `dashboard/requirements-test.txt`, ejecuta `python -m playwright install chromium` si falta el navegador y corre `python -m unittest discover -s dashboard/tests`.

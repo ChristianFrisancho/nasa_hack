@@ -95,6 +95,7 @@
     render(); updateUrl();
   }
   function updateUrl() {
+    if (location.protocol === 'file:' || location.protocol === 'data:') return;
     const url = new URL(location.href);
     url.searchParams.set('parcela',state.example.id);
     url.searchParams.set('cultivo',state.crop);
@@ -325,10 +326,19 @@
     const button=byId('load-evidence');button.disabled=true;button.textContent='Cargando datos…';
     try {
       if(!state.evidence){
-        state.evidence=await d3.csv('../piura-agro/consolidado/piura_super_dataset.csv', row=>{
+        const embedded=byId('evidence-inline-data');
+        const normalizeRow=row=>{
           const normalized={};for(const [key,value] of Object.entries(row))normalized[key.replace(/^\uFEFF/,'')]=value;
           return normalized;
-        });
+        };
+        if(embedded){
+          if(!('DecompressionStream' in window))throw new Error('Este navegador no permite abrir los datos comprimidos; usa la versión servida del dashboard.');
+          const base64=embedded.textContent.trim();
+          const binary=atob(base64);
+          const bytes=Uint8Array.from(binary,char=>char.charCodeAt(0));
+          const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+          state.evidence=d3.csvParse(await new Response(stream).text(),normalizeRow);
+        }else state.evidence=await d3.csv('../piura-agro/consolidado/piura_super_dataset.csv',normalizeRow);
       }
       byId('evidence-content').hidden=false;button.textContent='Base completa abierta';button.hidden=true;
       if(!byId('evidence-query').value)byId('evidence-query').value=state.crop;
@@ -370,8 +380,9 @@
   async function init() {
     setupEvidence();
     try {
-      const response=await fetch('./data/dashboard.json');if(!response.ok)throw new Error(`HTTP ${response.status}`);
-      state.data=await response.json();
+      const inline=byId('dashboard-inline-data');
+      if(inline)state.data=JSON.parse(inline.textContent);
+      else {const response=await fetch('./data/dashboard.json');if(!response.ok)throw new Error(`HTTP ${response.status}`);state.data=await response.json();}
       if(!state.data.examples?.length||!state.data.profiles?.length)throw new Error('Snapshot incompleto');
       populateControls();
       const query=new URL(location.href).searchParams;
@@ -382,5 +393,6 @@
       byId('recommendation-card').replaceChildren(elem('div','error-state','No se pudo abrir el dashboard. Inicia un servidor desde la raíz del repositorio: python -m http.server 8000; luego entra a /dashboard/.'));
     }
   }
-  init();
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});
+  else init();
 })();

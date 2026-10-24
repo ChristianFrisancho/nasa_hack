@@ -87,6 +87,17 @@ class DashboardBrowserTest(unittest.TestCase):
         self.page.wait_for_timeout(300)
         self.assertGreater(self.page.locator('#evidence-table tr').count(), 0)
 
+    def test_standalone_bundles_charts_and_evidence(self):
+        requests = []
+        self.page.on('request', lambda request: requests.append(request.url))
+        self.page.goto(f'http://127.0.0.1:{self.port}/dashboard/standalone.html')
+        self.page.wait_for_selector('#margin-chart svg')
+        self.page.locator('#load-evidence').click()
+        self.page.wait_for_function("document.querySelector('#evidence-count')?.textContent.includes('filas encontradas')", timeout=30000)
+        local_requests = [url for url in requests if url.startswith(f'http://127.0.0.1:{self.port}/')]
+        self.assertEqual(local_requests, [f'http://127.0.0.1:{self.port}/dashboard/standalone.html'])
+        self.assertIn('17,150', self.page.locator('#evidence-count').inner_text())
+
 
 if __name__ == '__main__':
     unittest.main()
