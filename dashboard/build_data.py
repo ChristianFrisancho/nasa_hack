@@ -252,7 +252,8 @@ def build():
     soil_cum_basins = read_csv('../../piura-data/suelos_cum_cuencas_v1.csv')
     soil_map_catalog = read_csv('../../piura-data/mapas_suelo_piura_catalogo.csv')
     soil_zone_rows = read_csv('../suelos/suelos_piura.csv')
-    zone_vars = ['ECe_medida_local','clase_drenaje_local','pH_rango_zona','profundidad_efectiva_enraizamiento','pendiente_media_cultivo']
+    zone_vars = ['ECe_medida_local','clase_drenaje_local','pH_rango_zona','profundidad_efectiva_enraizamiento',
+                 'profundidad_napa_estacional','pendiente_media_cultivo']
     soil_zones = []
     zone_names = sorted({r['zona'] for r in soil_zone_rows if r.get('zona')})
     evidence_priority = {'medicion_local':0,'observado':0,'regional':1,'bibliografico':2,'prediccion':3,'analogo_externo':4}

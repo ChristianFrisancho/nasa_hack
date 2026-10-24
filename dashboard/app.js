@@ -314,10 +314,10 @@
     }
     const cards=clear(byId('live-ranking'));
     if(accepted.length){
-      accepted.slice(0,result.quickMode?3:5).forEach(item=>cards.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,result.ranking.indexOf(item.cultivo)===0)));
+      accepted.slice(0,result.quickMode?3:5).forEach(item=>cards.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,result.ranking.indexOf(item.cultivo)===0,result)));
     }else cards.append(elem('p','live-empty','No hay una opción anual aceptada para estas entradas. Revisa los datos esenciales pendientes y los motivos de descarte que aparecen abajo.'));
     const other=clear(byId('live-alternatives'));
-    for(const item of result.accepted.slice(result.quickMode?3:5))other.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,false));
+    for(const item of result.accepted.slice(result.quickMode?3:5))other.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,false,result));
     for(const item of result.withoutData||[])other.append(renderCompactStatus(item,'Sin datos suficientes'));
     for(const item of result.rejected||[])other.append(renderCompactStatus(item,'Descartado'));
     const perennials=clear(byId('live-perennials'));
@@ -331,7 +331,7 @@
     for(const id of ['metrics-section','comparar','filters-section','resources-section','scenarios-section'])byId(id).hidden=true;
   }
 
-  function renderLiveCandidate(item,rank,featured){
+  function renderLiveCandidate(item,rank,featured,result){
     const card=elem('article',`live-candidate${featured?' featured':''}`),head=elem('div','live-candidate-head');
     head.append(elem('span','rank-bubble',String(rank)),elem('div','',null));
     head.lastChild.append(elem('h4','',pretty(item.cultivo)),elem('small','',`${item.familia} · ${item.decision}`));
@@ -339,8 +339,8 @@
     const metrics=elem('div','live-candidate-metrics');
     const margin=item.margen_mc?.p50==null?'Pendiente':`S/ ${num(item.margen_mc.p50,0)}/ha · P10 ${num(item.margen_mc.p10,0)}`;
     for(const [label,value] of [['Margen simulado',margin],['Ciclo',measureText(item.duracion,'días')],['Riego bruto',measureText(item.agua?.riego_bruto_m3_ha,'m³/ha')],['Rendimiento',measureText(item.rendimiento,'t/ha')]]){const m=elem('div','');m.append(elem('span','',label),elem('strong','',value));metrics.append(m);}card.append(metrics);
-    const explanation=elem('details','live-reasons');explanation.append(elem('summary','',`${(item.veredictos||[]).length} filtros · ver por qué ocupa este puesto`));
-    explanation.addEventListener('toggle',()=>{if(explanation.open&&!explanation.dataset.rendered){renderCandidateEvidence(explanation,item,rank);explanation.dataset.rendered='true';}});
+    const explanation=elem('details','live-reasons');explanation.append(elem('summary','',`${(item.veredictos||[]).length||'Más'} filtros · ver por qué ocupa este puesto`));
+    explanation.addEventListener('toggle',()=>{if(explanation.open&&!explanation.dataset.rendered){renderCandidateEvidence(explanation,item,rank,result);explanation.dataset.rendered='true';}});
     card.append(explanation);return card;
   }
 
@@ -360,19 +360,31 @@
     }else parent.append(elem('p','candidate-evidence-note',`${label}: ${String(value)}`));
   }
 
-  function renderCandidateEvidence(parent,item,rank){
+  function renderCandidateEvidence(parent,item,rank,result){
     const why=elem('p','rank-explanation',item.explicacion_puesto||'El motor ordena primero seguridad agronómica y luego margen, aptitud y agua.');parent.append(why);
     const counts=elem('p','candidate-filter-counts',`${item.alertas??'—'} alertas / datos sin evaluar · ${item.alertas_directas??'—'} advertencias explícitas · aptitud de suelo ${item.aptitud_suelo==null?'sin evaluar':num(item.aptitud_suelo,2)}.`);parent.append(counts);
     for(const verdict of item.veredictos||[]){
-      const box=elem('article','candidate-filter-evidence'),status=resultNames[verdict.resultado]||verdict.resultado;
+      const box=elem('article','candidate-filter-evidence');let status=resultNames[verdict.resultado]||verdict.resultado;
+      if(verdict.resultado==='no_evaluable'&&['pH','profundidad'].includes(verdict.filtro))status='Sin medición de parcela';
+      if(verdict.resultado==='no_evaluable'&&verdict.filtro==='presupuesto'){
+        const missing=(verdict.faltantes||[]).join(' ').toLowerCase();
+        status=missing.includes('presupuesto')?'Dato del agricultor':missing.includes('costo')?'Costo sin referencia':'Dato económico pendiente';
+      }
       const header=elem('div','candidate-filter-head');header.append(elem('strong','',filterNames[verdict.filtro]||pretty(verdict.filtro)),elem('span',`pill ${verdict.resultado==='pasa'?'good':verdict.resultado==='advierte'?'warning':verdict.resultado==='descarta'?'danger':'unknown'}`,status));box.append(header);
       if(verdict.motivo)box.append(elem('p','',verdict.motivo));
+      if(verdict.filtro==='presupuesto'&&verdict.resultado==='no_evaluable'){
+        const missing=(verdict.faltantes||[]).join(' ').toLowerCase();
+        if(missing.includes('presupuesto'))box.append(elem('p','candidate-evidence-note','El presupuesto disponible es propio de cada agricultor y no se puede deducir de un scraping regional. En el cálculo detallado, ingresa presupuesto y área para comprobar si alcanza; sin esos datos, este filtro no debe leerse como rechazo del cultivo.'));
+        if(missing.includes('costo'))box.append(elem('p','candidate-evidence-note','Falta un costo de producción local comparable para esta combinación de cultivo, zona, tecnología y campaña. No lo reemplazo con costos viejos de otra región; las fichas disponibles se muestran abajo cuando aplican.'));
+        if(item.costo_ha)renderCifraTree(box,'Costo regional estimado por hectárea',item.costo_ha);
+      }
       if(verdict.fuente){const source=elem('div','candidate-source');if(verdict.cifras&&Object.values(verdict.cifras).some(c=>c?.url_o_doi))addLink(source,verdict.fuente,Object.values(verdict.cifras).find(c=>c?.url_o_doi).url_o_doi);else source.textContent=verdict.fuente;box.append(source);}
       if(verdict.probable_no_apto)box.append(elem('p','candidate-warning','El motor detecta posible no aptitud; no compensa esta alerta con un margen económico alto.'));
       for(const [key,value] of Object.entries(verdict.cifras||{}))renderCifraTree(box,pretty(key),value);
       if(verdict.faltantes?.length)box.append(elem('small','candidate-evidence-note',`Pendiente: ${verdict.faltantes.join('; ')}`));
       parent.append(box);
     }
+    renderRegionalSoilContext(parent,result);
     const water=item.agua||{},waterBox=elem('section','candidate-resource-evidence');waterBox.append(elem('h5','','Agua durante el ciclo'));
     for(const key of ['riego_neto_mm','riego_neto_m3_ha','riego_bruto_m3_ha'])if(water[key])renderCifraTree(waterBox,pretty(key),water[key]);
     for(const [stage,data] of Object.entries(water.etapas||{})){
@@ -433,6 +445,37 @@
       parent.append(ficha);
     }
     if(item.datos_faltantes?.length)parent.append(elem('p','candidate-warning',`Datos que podrían cambiar el puesto: ${item.datos_faltantes.join('; ')}`));
+  }
+
+  function renderRegionalSoilContext(parent,result){
+    const zone=state.data.soilZones?.find(item=>item.zone===(result?.zone||'bajo_piura'));
+    const records=zone?.measurements||[];
+    const keys=['pH_rango_zona','profundidad_efectiva_enraizamiento','profundidad_napa_estacional'];
+    const selected=keys.map(key=>records.find(record=>record.variable===key)).filter(Boolean);
+    if(!selected.length)return;
+    const section=elem('section','candidate-resource-evidence regional-soil-context');
+    section.append(elem('h5','','Referencias de la zona · no sustituyen el análisis de tu parcela'));
+    for(const record of selected){
+      const row=elem('article','regional-reference');
+      const heading=elem('strong','',record.variable==='pH_rango_zona'?'pH estimado de la zona':record.variable==='profundidad_napa_estacional'?'Nivel freático regional (campaña/estación no especificada)':'Profundidad efectiva cartográfica');
+      row.append(heading);
+      let estimate='';
+      if(record.variable==='pH_rango_zona')estimate=`${record.min||'s/d'}–${record.max||'s/d'} ${record.unit||'pH'}`;
+      else if(record.variable==='profundidad_napa_estacional')estimate=`mediana ${record.value||'s/d'} m · intervalo intercuartílico ${record.min||'s/d'}–${record.max||'s/d'} m`;
+      else estimate=record.max?`${record.min||record.value}–${record.max} m`:`sin valor típico único · rango regional desde ${record.min||record.value||'s/d'} m, sin cota superior`;
+      row.append(elem('p','regional-estimate',estimate));
+      if(record.source){
+        const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean),source=elem('p','candidate-source');
+        if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});
+        else source.textContent=record.source;
+        row.append(source);
+      }
+      if(record.method)row.append(elem('small','candidate-evidence-note',`Método: ${record.method}`));
+      if(record.notes)row.append(elem('small','candidate-evidence-note',record.notes));
+      row.append(elem('small','candidate-evidence-note','Es un valor de referencia espacial, no una medición del lote ni un pase automático del filtro.'));
+      section.append(row);
+    }
+    parent.append(section);
   }
 
   function renderCompactStatus(item,status){

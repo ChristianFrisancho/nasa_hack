@@ -161,6 +161,11 @@ class DashboardBrowserTest(unittest.TestCase):
         self.page.locator('#live-ranking .live-reasons').first.locator('summary').click()
         self.assertIn('Queda delante de', self.page.locator('#live-ranking .rank-explanation').first.inner_text())
         self.assertIn('Abrir', self.page.locator('#live-ranking .crop-source-details summary').first.inner_text())
+        regional = self.page.locator('#live-ranking .regional-soil-context').first.inner_text()
+        self.assertIn('6.7–7.98 pH', regional)
+        self.assertIn('0.6–6.0 m', regional)
+        self.assertIn('Dato del agricultor', self.page.locator('#live-ranking').inner_text())
+        self.assertIn('no se puede deducir de un scraping regional', self.page.locator('#live-ranking').inner_text())
         self.assertFalse(any('/api/evaluate' in url for url in requests))
 
     def test_evidence_loaded_on_demand(self):
