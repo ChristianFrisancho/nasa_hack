@@ -365,7 +365,7 @@
     const counts=elem('p','candidate-filter-counts',`${item.alertas??'—'} alertas / datos sin evaluar · ${item.alertas_directas??'—'} advertencias explícitas · aptitud de suelo ${item.aptitud_suelo==null?'sin evaluar':num(item.aptitud_suelo,2)}.`);parent.append(counts);
     for(const verdict of item.veredictos||[]){
       const box=elem('article','candidate-filter-evidence');let status=resultNames[verdict.resultado]||verdict.resultado;
-      if(verdict.resultado==='no_evaluable'&&['pH','profundidad'].includes(verdict.filtro))status='Sin medición de parcela';
+      if(verdict.resultado==='no_evaluable'&&['salinidad','pH','profundidad'].includes(verdict.filtro))status='Sin medición de parcela';
       if(verdict.resultado==='no_evaluable'&&['drenaje','pendiente'].includes(verdict.filtro))status='Parcela sin medir';
       if(verdict.resultado==='no_evaluable'&&verdict.filtro==='presupuesto'){
         const missing=(verdict.faltantes||[]).join(' ').toLowerCase();
@@ -450,22 +450,66 @@
 
   function renderRegionalFilterContext(parent,verdict,result){
     const filter=verdict?.filtro;
-    if(!['drenaje','pendiente','pH','profundidad'].includes(filter))return;
+    if(!['salinidad','drenaje','pendiente','pH','profundidad'].includes(filter))return;
     const zone=state.data.soilZones?.find(item=>item.zone===(result?.zone||'bajo_piura'));
     const records=zone?.measurements||[];
     const find=variable=>records.find(record=>record.variable===variable&&record.status!=='desconocido');
     const box=elem('aside','regional-filter-context');
     box.append(elem('strong','','Referencia regional disponible'));
-    if(filter==='pH'){
-      const recordsForPH=records.filter(record=>record.variable==='pH_rango_zona'&&record.status!=='desconocido');
-      if(!recordsForPH.length){box.append(elem('p','','No hay una estimación regional de pH para esta zona en los datos cargados.'));parent.append(box);return;}
-      for(const record of recordsForPH){
-        box.append(elem('p','',`${record.place||'La zona'}: pH estimado entre ${num(record.min,2)} y ${num(record.max,2)}.`));
-        if(record.method)box.append(elem('small','candidate-evidence-note',`Método: ${record.method}.`));
+    if(filter==='salinidad'){
+      const soilCE=records.filter(record=>record.variable==='ECe_medida_local'&&record.status!=='desconocido');
+      const waterRecords=records.filter(record=>record.variable==='ce_agua_riego'&&record.status!=='desconocido');
+      const seenWaterRanges=new Set();
+      const waterCE=waterRecords.filter(record=>{const key=[record.min||record.value,record.max||record.value,record.unit].join('|');if(seenWaterRanges.has(key))return false;seenWaterRanges.add(key);return true;});
+      const channelNoValue=records.filter(record=>record.variable==='ce_agua_riego'&&record.status==='desconocido'&&/canal|toma|dren/i.test(record.place||''))
+        .sort((a,b)=>Number(/canal|toma/i.test(b.place||''))-Number(/canal|toma/i.test(a.place||'')));
+      box.append(elem('p','','La conductividad eléctrica del suelo (CEe) y la del agua de riego (CEw) son mediciones distintas. Las referencias siguientes son de otros puntos, no de tu parcela ni necesariamente de tu toma.'));
+      if(soilCE.length){
+        for(const record of soilCE){
+          const lo=record.min||record.value,hi=record.max||record.value;
+          box.append(elem('p','',`Suelo · ${record.place||'muestra regional'} (${record.period||'periodo no indicado'}): CE reportada ${num(lo,2)}–${num(hi,2)} dS/m.`));
+          if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+          if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+        }
+      }else box.append(elem('p','',`No hay una muestra de CE de suelo regional para ${zone?.zone||'esta zona'} en los datos cargados.`));
+      if(waterCE.length){
+        for(const record of waterCE.slice(0,4)){
+          const lo=record.min||record.value,hi=record.max||record.value;
+          const label=record.level==='resumen'?'Resumen de muestras':record.level==='punto'?'Dato de punto/grupo publicado':'Referencia de agua';
+          box.append(elem('p','',`${label} · ${record.place||'ubicación no especificada'} (${record.period||'fecha no indicada'}): CE ${num(lo,2)}–${num(hi,2)} dS/m.`));
+          if(record.method)box.append(elem('small','candidate-evidence-note',record.method));
+          if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+          if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+        }
+        if(waterCE.length>4)box.append(elem('small','candidate-evidence-note',`${waterCE.length-4} referencias adicionales de agua aparecen en la ficha de datos de la zona.`));
+      }else box.append(elem('p','',`No hay muestras numéricas de CEw para ${zone?.zone||'esta zona'} en los datos cargados.`));
+      for(const record of channelNoValue.slice(0,2)){
+        box.append(elem('p','',`${record.place}: la fuente consultada no publica la cifra de conductividad.`));
+        if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+        if(record.source){const source=elem('div','candidate-source');if(record.url)addLink(source,record.source,record.url);else source.textContent=record.source;box.append(source);}
+      }
+      box.append(elem('small','candidate-evidence-note','No uses el rango de distintos pozos como CEw de tu toma: cambia según acuífero, profundidad, estación y captación. Para comparar con tolerancias de cultivo se necesita CEe de pasta saturada y CEw de la fuente que realmente riega el lote.'));
+    }else if(filter==='pH'){
+      const modelVars=['pH_agua_0_20cm_HWSD2','pH_agua_0_30cm_SoilGrids'];
+      const modelRecords=records.filter(record=>modelVars.includes(record.variable)&&record.status!=='desconocido');
+      const pointRecords=records.filter(record=>record.variable==='pH_medida_local'&&record.status!=='desconocido');
+      const envelope=records.find(record=>record.variable==='pH_rango_zona'&&record.status!=='desconocido');
+      if(!modelRecords.length&&!pointRecords.length&&!envelope){box.append(elem('p','','No hay una estimación regional de pH para esta zona en los datos cargados.'));parent.append(box);return;}
+      for(const record of pointRecords){
+        const lo=record.min||record.value,hi=record.max||record.value;
+        box.append(elem('p','',`Muestra local publicada · ${record.place||'punto de la zona'} (${record.period||'fecha no indicada'}): pH ${num(lo,2)}–${num(hi,2)}.`));
+        if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
+        if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
+      }
+      for(const record of modelRecords){
+        const label=record.variable==='pH_agua_0_30cm_SoilGrids'?'ISRIC SoilGrids 2.0 (0–30 cm)':'FAO/IIASA HWSD v2 (capa superficial)';
+        box.append(elem('p','',`${label}: valor zonal estimado ${num(record.value,2)} pH; rango espacial ${num(record.min,2)}–${num(record.max,2)}.`));
+        if(record.method)box.append(elem('small','candidate-evidence-note',`Cómo se obtuvo: ${record.method}.`));
         if(record.source){const source=elem('div','candidate-source');const urls=(record.url||'').split(/\s*;\s*/).filter(Boolean);if(urls.length)urls.forEach((url,index)=>{if(index)source.append(document.createTextNode(' · '));addLink(source,`${record.source}${urls.length>1?` (${index+1})`:''}`,url);});else source.textContent=record.source;box.append(source);}
         if(record.notes)box.append(elem('small','candidate-evidence-note',record.notes));
       }
-      box.append(elem('small','candidate-evidence-note','Rango regional de modelos de suelo para 0–30 cm, no resultado de laboratorio de tu parcela. No tiene valor central confiable porque las fuentes difieren.'));
+      if(envelope)box.append(elem('p','',`Envolvente entre fuentes: ${num(envelope.min,2)}–${num(envelope.max,2)} pH; resume su desacuerdo y no es un intervalo de confianza único.`));
+      box.append(elem('small','candidate-evidence-note','Las muestras publicadas corresponden a puntos concretos y no representan toda la zona. Los modelos son predicciones espaciales, no análisis del lote. Mide el pH de tu parcela antes de ajustar fertilización o encalado.'));
     }else if(filter==='profundidad'){
       const physical=records.filter(record=>record.variable==='profundidad_fisica_suelo_HWSD2'&&record.status!=='desconocido');
       const effective=records.filter(record=>record.variable==='profundidad_efectiva_enraizamiento'&&record.status!=='desconocido');

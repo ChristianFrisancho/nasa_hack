@@ -252,7 +252,8 @@ def build():
     soil_cum_basins = read_csv('../../piura-data/suelos_cum_cuencas_v1.csv')
     soil_map_catalog = read_csv('../../piura-data/mapas_suelo_piura_catalogo.csv')
     soil_zone_rows = read_csv('../suelos/suelos_piura.csv')
-    zone_vars = ['ECe_medida_local','clase_drenaje_local','pH_rango_zona','profundidad_efectiva_enraizamiento',
+    zone_vars = ['ECe_medida_local','ce_agua_riego','clase_drenaje_local','pH_rango_zona','pH_medida_local','pH_agua_0_20cm_HWSD2',
+                 'pH_agua_0_30cm_SoilGrids','profundidad_efectiva_enraizamiento',
                  'profundidad_fisica_suelo_HWSD2','profundidad_napa_estacional','pendiente_media_cultivo','pendiente_p90_cultivo',
                  'area_cultivo_pendiente_mayor_2pct','area_cultivo_pendiente_mayor_5pct']
     soil_zones = []
@@ -267,7 +268,8 @@ def build():
                 items.append({'variable':variable,'value':r.get('valor',''),'min':r.get('valor_min',''),'max':r.get('valor_max',''),
                     'unit':r.get('unidad',''),'status':r.get('estado',''),'evidence':r.get('tipo_evidencia',''),
                     'source':r.get('fuente',''),'url':r.get('url_o_doi',''),'notes':r.get('notas',''),
-                    'place':r.get('lugar',''),'method':r.get('metodo','')})
+                    'place':r.get('lugar',''),'period':r.get('fecha_o_periodo',''),'method':r.get('metodo',''),'level':r.get('nivel',''),
+                    'point':r.get('punto',''),'subzone':r.get('subzona','')})
         soil_zones.append({'zone':zone,'measurements':items})
     parcel_names = {
         'bajo_piura_tras_arroz': 'Bajo Piura después de arroz',
