@@ -1,6 +1,8 @@
 """Build the compact, static dashboard snapshot from the motor's published outputs."""
 import csv
 import json
+import math
+import statistics
 import subprocess
 import unicodedata
 from pathlib import Path
@@ -47,6 +49,84 @@ def crop_record(row):
         'confidence': row.get('confianza',''), 'source': row.get('fuente',''),
         'url': row.get('url_o_doi',''), 'notes': row.get('notas',''),
     }
+
+
+def normalized_text(value):
+    return ''.join(c for c in unicodedata.normalize('NFKD', value.lower()) if not unicodedata.combining(c)).strip()
+
+
+DRAP_CROP_ALIASES = {
+    # These are explicit species/common-name matches used only to open an
+    # existing agronomic profile. The DRAP labels and their statistics remain
+    # separate records so variety/product differences are not silently merged.
+    'algodon':'algodon', 'algodon pima':'algodon', 'arroz':'arroz',
+    'arveja grano seco':'arveja', 'arveja grano verde':'arveja',
+    'banano (musa acuminata)':'banano', 'frijol caupi chiclayo castilla chileno grano seco':'caupi',
+    'frijol caupi chiclayo castilla chileno grano verde':'caupi', 'frijol de palo grano seco (t.)':'frijol de palo',
+    'frijol grano seco':'frijol grano', 'haba grano seco':'haba', 'haba grano verde':'haba',
+    'cacao':'cacao', 'cafeto':'cafe', 'camote':'camote', 'cana de azucar (para alcohol)':'cana de azucar',
+    'cebolla':'cebolla', 'limon sutil':'limon', 'limon tahiti':'limon', 'maiz amarillo duro':'maiz amarillo duro',
+    'maiz amilaceo':'maiz amilaceo', 'maiz choclo':'maiz choclo', 'mani para fruta':'mani',
+    'mango':'mango', 'maracuya':'maracuya', 'naranjo':'naranja', 'palto':'palta',
+    'papa (agrupa mejoradas y nativas)':'papa', 'papaya':'papaya', 'paprika':'pimiento/paprika',
+    'pimiento':'pimiento/paprika', 'pina':'pina', 'piquillo (t.)':'piquillo', 'soya':'soya',
+    'trigo blando':'trigo', 'vid':'uva', 'zapallo':'zapallo', 'zarandaja grano seco':'zarandaja',
+    'yuca':'yuca',
+}
+
+
+def drap_crop_stats():
+    """Resumir el registro oficial DRAP por etiqueta literal, sin unir cultivos de nombre parecido."""
+    source = read_csv('../cultivos/raw/drap_dataset.csv')
+    groups = {}
+    for row in source:
+        crop = row.get('CULTIVO','').strip()
+        year = int(number(row.get('ANO')) or 0)
+        if not crop or year < 2015 or year > 2024:
+            continue
+        item = groups.setdefault((crop, year), {'rows':0,'sown':0.0,'harvested':0.0,'production':0.0,'price_value':0.0,'price_weight':0.0})
+        item['rows'] += 1
+        item['sown'] += number(row.get('SIEMBRA')) or 0
+        item['harvested'] += number(row.get('COSECHA')) or 0
+        produced = number(row.get('PRODUCCION')) or 0
+        item['production'] += produced
+        price = number(row.get('PRECIO_CHACRA'))
+        if price is not None and produced > 0:
+            item['price_value'] += price * produced
+            item['price_weight'] += produced
+    by_crop = {}
+    for (crop,year), stats in groups.items():
+        annual = by_crop.setdefault(crop, [])
+        annual.append({'year':year, **stats})
+    results=[]
+    for crop, years in sorted(by_crop.items()):
+        valid=[r for r in years if r['harvested'] > 0 and r['production'] > 0]
+        if not valid:
+            continue
+        yields=[r['production']/r['harvested'] for r in valid if r['harvested'] >= 5]
+        prices=[r['price_value']/r['price_weight'] for r in years if r['price_weight'] > 0]
+        latest=max(valid,key=lambda r:r['year'])
+        canonical=DRAP_CROP_ALIASES.get(normalized_text(crop))
+        results.append({
+            'name':crop, 'profileCrop':canonical or '', 'years':len(valid),
+            'fromYear':min(r['year'] for r in valid), 'toYear':max(r['year'] for r in valid),
+            'harvestAreaMeanHa':statistics.mean(r['harvested'] for r in valid),
+            'productionMeanT':statistics.mean(r['production'] for r in valid),
+            'yieldP10':quantile(yields,.1), 'yieldP50':statistics.median(yields) if yields else None,
+            'yieldP90':quantile(yields,.9), 'priceMedianNominal':statistics.median(prices) if prices else None,
+            'latestYear':latest['year'], 'latestHarvestAreaHa':latest['harvested'],
+            'latestProductionT':latest['production'],
+            'recordMonths':sum(r['rows'] for r in years),
+        })
+    return results
+
+
+def quantile(values, q):
+    if not values:
+        return None
+    s=sorted(values)
+    pos=(len(s)-1)*q; lo=math.floor(pos); hi=math.ceil(pos)
+    return s[lo] + (s[hi]-s[lo])*(pos-lo)
 
 
 def number(value):
@@ -115,6 +195,16 @@ def candidate(raw, row, rank):
 def build():
     rows = read_csv('recomendaciones_por_parcela.csv')
     profiles = read_csv('cultivos_resumen.csv')
+    drap_crops = drap_crop_stats()
+    motor_crop_catalog = read_csv('../consolidado/motor/datos_motor/catalogo_cultivos.csv')
+    motor_crops = {canonical_crop(r['cultivo']):r for r in motor_crop_catalog}
+    annual_choices = {canonical_crop(r['cultivo_siguiente']) for r in rows}
+    for crop in drap_crops:
+        key = crop['profileCrop'] or canonical_crop(crop['name'])
+        motor = motor_crops.get(key)
+        crop['motorCrop'] = motor.get('cultivo','') if motor else ''
+        crop['motorRole'] = ('rotacion_anual' if motor.get('modulo')=='anual' else 'perenne') if motor else 'registro_drap'
+        crop['rankedAsAnnual'] = key in annual_choices
     crop_rows = []
     for filename, kind in [('../cultivos/fichas_anuales.csv','anual'),('../cultivos/perennes.csv','perenne')]:
         crop_rows.extend((canonical_crop(row.get('cultivo','')), kind, row)
@@ -122,9 +212,23 @@ def build():
     crop_details = {}
     for canonical, kind, row in crop_rows:
         crop_details.setdefault(canonical, []).append({**crop_record(row), 'kind':kind, 'originalCrop':row['cultivo']})
+    family_by_crop = {
+        'algodon':'Malvaceae','arroz':'Poaceae','arveja':'Fabaceae','banano':'Musaceae','cacao':'Malvaceae',
+        'cafe':'Rubiaceae','camote':'Convolvulaceae','cana de azucar':'Poaceae','cebolla':'Amaryllidaceae',
+        'frijol grano':'Fabaceae','caupi':'Fabaceae','frijol de palo':'Fabaceae','haba':'Fabaceae','limon':'Rutaceae',
+        'maiz amarillo duro':'Poaceae','maiz amilaceo':'Poaceae','mango':'Anacardiaceae','mani':'Fabaceae',
+        'maracuya':'Passifloraceae','naranja':'Rutaceae','palta':'Lauraceae','papa':'Solanaceae','papaya':'Caricaceae',
+        'pimiento/paprika':'Solanaceae','pina':'Bromeliaceae','piquillo':'Solanaceae','sorgo':'Poaceae',
+        'soya':'Fabaceae','trigo':'Poaceae','uva':'Vitaceae','yuca':'Euphorbiaceae','zapallo':'Cucurbitaceae',
+        'zarandaja':'Fabaceae'
+    }
+    for profile in profiles:
+        profile['familia_botanica'] = family_by_crop.get(canonical_crop(profile['cultivo']), '')
     soil_units = read_csv('../../piura-data/suelos_bajo_piura_unidades_v2.csv')
     soil_cum = read_csv('../../piura-data/suelos_montero_ayabaca_cum_v2.csv')
     soil_map_units = read_csv('../../piura-data/suelos_bajo_piura_mapunits_v2.csv')
+    soil_cum_basins = read_csv('../../piura-data/suelos_cum_cuencas_v1.csv')
+    soil_map_catalog = read_csv('../../piura-data/mapas_suelo_piura_catalogo.csv')
     soil_zone_rows = read_csv('../suelos/suelos_piura.csv')
     zone_vars = ['ECe_medida_local','clase_drenaje_local','pH_rango_zona','profundidad_efectiva_enraizamiento','pendiente_media_cultivo']
     soil_zones = []
@@ -196,12 +300,17 @@ def build():
     payload = {
         'sourceCommit': source_commit, 'examples': examples, 'profiles': profiles,
         'cropDetails': crop_details,
+        'drapCrops': drap_crops, 'soilCumBasins': soil_cum_basins, 'soilMapCatalog': soil_map_catalog,
         'soilUnits': soil_units, 'soilCum': soil_cum, 'soilMapUnits': soil_map_units,
         'soilZones': soil_zones,
         'counts': {'examples': len(examples), 'candidates': len(rows), 'profiles': len(profiles),
                    'cropSpeciesWithDetails': len(crop_details), 'cropFichaRows': len(crop_rows),
+                   'drapCrops': len(drap_crops), 'annualChoices': len(annual_choices),
+                   'motorAnnuals': sum(r.get('modulo')=='anual' for r in motor_crop_catalog),
+                   'motorPerennials': sum(r.get('modulo')=='perenne' for r in motor_crop_catalog),
                    'soilUnits': len(soil_units), 'soilMapUnits': len(soil_map_units),
-                   'soilCumClasses': len(soil_cum), 'evidence': evidence_count},
+                   'soilCumClasses': len(soil_cum), 'soilCumBasinRows': len(soil_cum_basins),
+                   'soilMapSources': len(soil_map_catalog), 'evidence': evidence_count},
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')

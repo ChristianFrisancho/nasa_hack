@@ -78,6 +78,20 @@ class DashboardBrowserTest(unittest.TestCase):
         self.page.set_viewport_size({'width': 390, 'height': 844})
         self.assertEqual(self.page.evaluate('document.documentElement.scrollWidth - document.documentElement.clientWidth'), 0)
 
+    def test_unranked_semiperennial_is_never_shown_as_next_recommendation(self):
+        self.page.locator('#alternatives-list .alternative').filter(has_text='Frijol de palo').click()
+        card = self.page.locator('#recommendation-card').inner_text().lower()
+        self.assertIn('cultivo explorado · sin puesto', card)
+        self.assertIn('fuera del ranking', card)
+        self.assertIn('semiperenne', card)
+        self.assertNotIn('podría seguir', card)
+
+    def test_local_crop_catalog_and_basin_soil_classes_render(self):
+        self.assertIn('80 de 80 cultivos registrados', self.page.locator('#drap-crop-count').inner_text())
+        self.page.select_option('#soil-region-select', 'cuencas')
+        self.assertEqual(self.page.locator('#soil-cards .soil-card').count(), 3)
+        self.assertEqual(self.page.locator('#soil-cards tbody tr').count(), 22)
+
     def test_evidence_loaded_on_demand(self):
         self.assertTrue(self.page.locator('#evidence-content').is_hidden())
         self.page.locator('#load-evidence').click()

@@ -4,7 +4,7 @@ Entrada del equipo al reto «Field Shift: Adapting Farms with NASA Data» (NASA 
 
 El repositorio tiene tres capas:
 
-- **[`dashboard/`](dashboard/)** es el tablero interactivo «Raíz» con D3.js. [Descarga el HTML autónomo](dashboard/standalone.html) y ábrelo directamente, o ejecuta `python -m http.server 8000` desde la raíz y visita `http://localhost:8000/dashboard/`. Muestra los seis ejemplos del motor, sus filtros, márgenes, recursos y fuentes en lenguaje claro.
+- **[`dashboard/`](dashboard/)** es el tablero interactivo «Raíz» con D3.js. [Descarga el HTML autónomo](dashboard/standalone.html) y ábrelo directamente, o ejecuta `python -m http.server 8000` desde la raíz y visita `http://localhost:8000/dashboard/`. Además de las 84 alternativas de seis ejemplos, muestra 80 etiquetas DRAP con cosecha registrada (2015–2024), 36 fichas agronómicas y cartografía de suelo: seis unidades edáficas del Bajo Piura y clases CUM de las cuencas Chira, Piura y Huancabamba. Las 80 etiquetas no son 80 especies distintas; las estadísticas DRAP siguen separadas y solo se enlazan a fichas cuando el nombre es inequívoco.
 
 - [`piura-agro/`](piura-agro/) es la versión más nueva (24 de octubre de 2026). Trae un contrato de datos común, datos por zona y un motor de rotación que se puede correr y que tiene tests. Empieza por aquí.
 - [`piura-data/`](piura-data/) es el paquete de referencia v2. Ahí están la capa de plagas, los nutrientes FAO, el clima diario NASA POWER en cinco puntos, las exportaciones de n8n y el informe agronómico. Sigue valiendo para lo que `piura-agro/` todavía no cubre.

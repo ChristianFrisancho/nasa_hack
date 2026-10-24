@@ -24,9 +24,10 @@ def cifra(q, unidad=True):
     if a != '' and b != '' and v and (a != v or b != v): s += f' ({a}–{b})'
     return s
 
-def guardar(ruta, filas, cols):
+def guardar(ruta, filas, cols, lineas_lf=False):
     with open(ruta, 'w', newline='', encoding='utf-8-sig') as fh:
-        w = csv.DictWriter(fh, fieldnames=cols); w.writeheader(); w.writerows(filas)
+        options = {'lineterminator': '\n'} if lineas_lf else {}
+        w = csv.DictWriter(fh, fieldnames=cols, **options); w.writeheader(); w.writerows(filas)
     print(ruta, len(filas), 'filas', len(cols), 'columnas')
 
 # ---------- 1) recomendaciones por parcela (salidas del motor) ----------
@@ -89,6 +90,7 @@ guardar('consolidado/recomendaciones_por_parcela.csv', rec, list(rec[0].keys()))
 fichas = list(csv.DictReader(open('cultivos/fichas_anuales.csv', encoding='utf-8'))) + list(csv.DictReader(open('cultivos/perennes.csv', encoding='utf-8')))
 tipo = {r['cultivo']: 'anual' for r in csv.DictReader(open('cultivos/fichas_anuales.csv', encoding='utf-8'))}
 tipo.update({r['cultivo']: 'perenne' for r in csv.DictReader(open('cultivos/perennes.csv', encoding='utf-8'))})
+LEGUMINOSAS = {'arveja','caupi','frijol castilla/grano seco','frijol caupi','frijol de palo','haba','mani','soya','zarandaja'}
 por = defaultdict(lambda: defaultdict(list))
 for r in fichas:
     if r['cultivo'] in ('', 'todos'): continue
@@ -121,6 +123,8 @@ for c in sorted(por):
         txt += ')'
         (despues_no if (r.get('tipo_efecto') == 'plaga_compartida' or not POS.search(r.get('efecto', ''))) else despues_si).append(txt)
     deja = g('fbn_total_fijado_kg_N_ha') or g('fbn_kg_N_ha')
+    if not deja:
+        deja = 'fijación no cuantificada' if c in LEGUMINOSAS else ('no aplica (no leguminosa)' if c in tipo else '')
     res.append({
         'cultivo': c, 'tipo': tipo.get(c, ''),
         'ciclo': g('periodo_vegetativo') or g('anos_a_primera_produccion'),
@@ -134,7 +138,7 @@ for c in sorted(por):
         'saca_del_suelo_P2O5': g('exportacion_P2O5', organo_principal) or g('absorcion_total_P2O5'),
         'saca_del_suelo_K2O': g('exportacion_K2O', organo_principal) or g('absorcion_total_K2O'),
         'absorcion_total_N': g('absorcion_total_N'),
-        'deja_N_fijado_por_campana': deja or ('no fija N (no es leguminosa)' if tipo.get(c) else ''),
+        'deja_N_fijado_por_campana': deja,
         'plaga_clave': '; '.join(sorted({r['valor'] or r.get('notas', '')[:60] for r in por[c].get('plaga_clave', []) if r['valor']}))[:200],
         'conviene_despues': '; '.join(despues_si[:6]),
         'evitar_o_cuidar_despues': '; '.join(despues_no[:6]),
@@ -142,7 +146,7 @@ for c in sorted(por):
     })
 cols = list(res[0].keys())
 cols = [k for k in cols if any(r[k] for r in res)]
-guardar('consolidado/cultivos_resumen.csv', [{k: r[k] for k in cols} for r in res], cols)
+guardar('consolidado/cultivos_resumen.csv', [{k: r[k] for k in cols} for r in res], cols, lineas_lf=True)
 
 # ---------- 3) super dataset compacto ----------
 SRC = [('clima_lluvia','restricciones/lluvia_zona_pisco.csv'),('clima_temperatura','restricciones/temperatura_pisco_zona.csv'),('clima_temperatura_enso','restricciones/temperatura_pisco_zona_enso.csv'),

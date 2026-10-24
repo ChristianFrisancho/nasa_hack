@@ -26,7 +26,7 @@
     return node;
   }
   function clear(node) { node.replaceChildren(); return node; }
-  function pretty(value) { return names[value] || (value ? value[0].toUpperCase() + value.slice(1).replaceAll('_',' ') : 'No registrado'); }
+  function pretty(value) { return names[value] || (value ? value[0].toUpperCase() + value.slice(1).toLowerCase().replaceAll('_',' ') : 'No registrado'); }
   function canonicalCrop(value){
     const text=(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
     const alias={'frijol castilla/grano seco':'frijol grano','frijol caupi':'caupi','uva de mesa':'uva','banano (ano 1)':'banano','banano (ano 2)':'banano','naranja (referencia citricos)':'naranja','cana de azucar (planta)':'cana de azucar','cana de azucar (soca)':'cana de azucar'};
@@ -84,7 +84,10 @@
     });
     parcels.addEventListener('change', () => chooseExample(parcels.value));
     profiles.addEventListener('change', renderProfiles);
-    byId('data-stamp').textContent = `${state.data.counts.profiles} cultivos · ${state.data.counts.cropSpeciesWithDetails} con fichas (${nf.format(state.data.counts.cropFichaRows)} registros) · ${state.data.counts.soilUnits} unidades de suelo`;
+    byId('data-stamp').textContent = `${state.data.counts.drapCrops} cultivos con cosecha DRAP · ${state.data.counts.annualChoices} anuales comparables + ${state.data.counts.motorPerennials} sistemas perennes · ${state.data.counts.soilUnits} unidades edáficas`;
+    byId('drap-crop-search').addEventListener('input',renderDrapCrops);
+    byId('drap-crop-role').addEventListener('change',renderDrapCrops);
+    renderDrapCrops();
   }
 
   function chooseExample(id, crop) {
@@ -113,17 +116,26 @@
   }
   function recommendationLevel(candidate, top) {
     if (!top) return {label:'Ninguna opción viable', css:'danger'};
+    if (candidate.decision === 'sin datos') return {label:'No recomendada · fuera del ranking', css:'unknown'};
     if (candidate.decision === 'descartado') return {label:'Cultivo descartado', css:'danger'};
-    if (candidate.decision === 'sin datos') return {label:'Faltan datos esenciales', css:'unknown'};
     if (candidate.p50 != null && candidate.p50 < 0) return {label:'Pérdida estimada', css:'danger'};
     const tally = counts(candidate);
     if (tally.advierte || tally.no_evaluable || (candidate.p10 != null && candidate.p10 < 0)) return {label:'Opción con reservas',css:'warning'};
     return {label:'Opción evaluada',css:'good'};
   }
   function editorialMessage(example, candidate, top) {
-    if (!top) return 'Con el agua, presupuesto y suelo de este ejemplo, ninguna alternativa evaluada supera los filtros. La siguiente decisión es corregir esas restricciones o buscar otro escenario.';
+    if (!top) {
+      const missing=candidate.verdicts.filter(v=>v.result==='no_evaluable').map(v=>filterNames[v.filter]||pretty(v.filter));
+      const detail=candidate.decision==='sin datos'?` ${pretty(candidate.crop)} también está fuera del ranking porque faltan datos para evaluar ${missing.join(', ')||'filtros críticos'}.`:'';
+      return `En este ejemplo no hay ninguno viable entre los cultivos evaluados.${detail} La siguiente decisión es corregir las restricciones o buscar otro escenario.`;
+    }
+    if (candidate.decision === 'sin datos') {
+      const missing=candidate.verdicts.filter(v=>v.result==='no_evaluable').map(v=>filterNames[v.filter]||pretty(v.filter));
+      const p=getProfile(candidate.crop),months=Number.parseFloat(p?.ciclo||'');
+      const cycleNote=Number.isFinite(months)&&months>=12?` Su ficha reporta un ciclo de ${p.ciclo}; se clasifica mejor como semiperenne que como rotación anual.`:'';
+      return `${pretty(candidate.crop)} no es una recomendación ni tiene puesto: el motor la dejó fuera porque no pudo evaluar ${missing.join(', ')||'filtros críticos'}.${cycleNote}`;
+    }
     if (candidate.decision === 'descartado') return `${pretty(candidate.crop)} quedó fuera por una o más restricciones que no se deben compensar con un margen alto.`;
-    if (candidate.decision === 'sin datos') return `Faltan mediciones esenciales antes de evaluar ${pretty(candidate.crop)} en esta parcela.`;
     if (candidate.p50 != null && candidate.p50 < 0) return `Es la primera opción del ranking, pero su margen mediano es negativo (${sole(candidate.p50)}/ha). No conviene sembrarla sin revisar agua y costos.`;
     if (example.id === 'bajo_piura_tras_arroz' && candidate.crop === 'arveja') return 'Arveja ocupa el primer lugar, pero el calor durante la floración y la ausencia de siembras registradas en el llano de Bajo Piura hacen que sea una opción exploratoria.';
     if (counts(candidate).no_evaluable > 0) return 'Esta opción supera los filtros que pudieron evaluarse. Faltan datos de campo que todavía podrían cambiar la decisión.';
@@ -132,17 +144,18 @@
   function renderRecommendation(candidate) {
     const box = clear(byId('recommendation-card'));
     const top = topCandidate();
+    const ranked=candidate.rank!=null;
     const level = recommendationLevel(candidate,top);
     const head = elem('div','rec-topline');
-    head.append(elem('span','',top && top.crop === candidate.crop ? 'LA PRIMERA EN EL RANKING' : 'OPCIÓN QUE ESTÁS EXPLORANDO'));
+    head.append(elem('span','',ranked&&top?.crop===candidate.crop?'PRIMERA OPCIÓN DEL RANKING':ranked?`PUESTO ${candidate.rank} · OPCIÓN EVALUADA`:'CULTIVO EXPLORADO · SIN PUESTO'));
     head.append(elem('span','pill '+level.css,level.label)); box.append(head);
     const journey = elem('div','crop-journey');
     const previous = elem('div','crop-node'); previous.append(elem('span','','Venimos de'),elem('strong','',pretty(state.example.previousCrop)));
     const arrow = elem('span','journey-arrow','→'); arrow.setAttribute('aria-hidden','true');
-    const next = elem('div','crop-node next'); next.append(elem('span','',top ? 'Podría seguir' : 'Por ahora'),elem('strong','',top ? pretty(candidate.crop) : 'Ninguno viable'));
+    const next = elem('div','crop-node next'); next.append(elem('span','',ranked?'Opción evaluada':'No recomendada'),elem('strong','',ranked?pretty(candidate.crop):'Fuera del ranking'));
     journey.append(previous,arrow,next); box.append(journey);
     box.append(elem('p','rec-message',editorialMessage(state.example,candidate,top)));
-    if (top || candidate.decision === 'descartado') {
+    if (ranked || candidate.decision === 'descartado' || candidate.decision === 'sin datos') {
       const tally = counts(candidate);
       const chips = elem('div','rec-bottom');
       for (const [n,label,cls] of [[tally.pasa,'Pasan',''],[tally.advierte,'Alertas','alert'],[tally.no_evaluable,'Sin evaluar','missing'],[tally.descarta,'Descartan','alert']])
@@ -311,14 +324,23 @@
   function profileCard(crop,title) {
     const p=getProfile(crop);const card=elem('article','profile-card');card.append(elem('div','profile-kicker',title));
     if(!p){card.append(elem('h3','',pretty(crop)),elem('p','',crop?'No hay ficha resumida para este cultivo.':'El cultivo anterior no está registrado en este ejemplo.'));return card;}
-    card.append(elem('h3','',pretty(p.cultivo)),elem('span','profile-type',p.tipo||'Tipo no especificado'));
+    const cycleMonths=Number.parseFloat(p.ciclo||'');
+    const cropType=p.cultivo==='frijol de palo'&&cycleMonths>=12?'Semiperenne · cosecha escalonada':(p.tipo||'Tipo no especificado');
+    card.append(elem('h3','',pretty(p.cultivo)),elem('span','profile-type',cropType));
     const facts=elem('div','profile-facts');
-    for(const [label,key] of [['Ciclo / primera cosecha','ciclo'],['Kc de mitad de ciclo','kc_mitad_ciclo'],['Salinidad sin pérdida','ECe_sin_perdida_dS_m'],['Temperatura óptima','temperatura_optima'],['pH óptimo','pH_optimo'],['Raíz máxima','raiz_max'],['N por tonelada','saca_del_suelo_N'],['P₂O₅ / K₂O por tonelada','saca_del_suelo_P2O5']]){
-      let value=p[key];if(key==='saca_del_suelo_P2O5')value=(p.saca_del_suelo_P2O5||'Sin dato')+' / '+(p.saca_del_suelo_K2O||'Sin dato');
+    for(const [label,key] of [['Ciclo / primera cosecha','ciclo'],['Kc de mitad de ciclo','kc_mitad_ciclo'],['Salinidad sin pérdida','ECe_sin_perdida_dS_m'],['Temperatura óptima','temperatura_optima'],['pH óptimo','pH_optimo'],['Raíz máxima','raiz_max'],['N por tonelada','saca_del_suelo_N'],['P₂O₅ / K₂O por tonelada','saca_del_suelo_P2O5'],['N fijado por campaña','deja_N_fijado_por_campana']]){
+      let value=p[key];
+      if(key==='deja_N_fijado_por_campana'&&p.familia_botanica==='Fabaceae'&&String(value||'').startsWith('no fija N'))value='Leguminosa; fijación de N no cuantificada';
+      if(key==='saca_del_suelo_P2O5')value=(p.saca_del_suelo_P2O5||'Sin dato')+' / '+(p.saca_del_suelo_K2O||'Sin dato');
       const node=elem('div','profile-fact');node.append(elem('span','',label),elem('strong','',value||'Sin dato'));facts.append(node);
     }
     card.append(facts);
-    const rotation=elem('div','profile-rotation');rotation.append(elem('p','',`Después conviene estudiar: ${p.conviene_despues||'Sin regla específica verificada.'}`),elem('p','',`Evitar o vigilar: ${p.evitar_o_cuidar_despues||'Sin regla específica verificada.'}`));card.append(rotation);
+    const rotation=elem('div','profile-rotation');
+    const family=p.familia_botanica;
+    const alternateFamilies=[...new Set(state.data.profiles.map(x=>x.familia_botanica).filter(x=>x&&x!==family))].slice(0,5);
+    const rotationText=p.conviene_despues||`Guía general: alternar ${family||'la familia botánica de este cultivo'} con otra familia. En el catálogo aparecen ${alternateFamilies.join(', ')||'otras familias'}; esta regla orienta la secuencia, no sustituye el filtro de suelo, agua, clima y mercado.`;
+    const watchText=p.evitar_o_cuidar_despues||`Evita repetir ${family||'la misma familia'} en campañas seguidas cuando haya presión de plagas o enfermedades compartidas; confirma el historial sanitario del lote.`;
+    rotation.append(elem('p','',`Rotación y relevo: ${rotationText}`),elem('p','',`Vigilancia: ${watchText}`));card.append(rotation);
     card.append(elem('p','profile-sources',`Referencias: ${p.fuentes_principales||'Consultar el dataset detallado.'}`));
     const detailRows=state.data.cropDetails[canonicalCrop(p.cultivo)]||[];
     const details=elem('details','crop-data-details');details.append(elem('summary','',detailRows.length?`Ver ${detailRows.length} registros agronómicos con evidencia y fuente`:'Sin ficha agronómica detallada para este cultivo en las tablas cargadas'));
@@ -341,6 +363,30 @@
     const grid=clear(byId('crop-profiles'));
     grid.append(profileCard(state.example.previousCrop,'Cultivo anterior'),profileCard(byId('profile-select').value,'Cultivo que exploras'));
   }
+  function renderDrapCrops(){
+    const query=byId('drap-crop-search').value.trim().toLowerCase();
+    const role=byId('drap-crop-role').value;
+    const rows=state.data.drapCrops.filter(c=>(role==='todos'||c.motorRole===role)&&(!query||pretty(c.name).toLowerCase().includes(query)));
+    const body=clear(byId('drap-crop-table'));
+    for(const c of rows){
+      const tr=elem('tr','');
+      const label=elem('td','');label.append(elem('strong','',pretty(c.name)),elem('small','crop-note',`DRAP ${c.fromYear}–${c.toYear}`));
+      const cropProfile=c.profileCrop&&state.data.profiles.find(p=>canonicalCrop(p.cultivo)===c.profileCrop);
+      if(cropProfile){const button=elem('button','crop-profile-link','Abrir ficha agronómica');button.type='button';button.addEventListener('click',()=>{byId('profile-select').value=cropProfile.cultivo;renderProfiles();byId('crop-profiles').scrollIntoView({behavior:'smooth',block:'start'});});label.append(button);}
+      tr.append(label,elem('td','',`${num(c.harvestAreaMeanHa,0)} ha/año`),elem('td','',`${num(c.productionMeanT,0)} t/año`),elem('td','',c.yieldP50==null?'Sin rendimiento calculable':`${num(c.yieldP50,1)} t/ha (${num(c.yieldP10,1)}–${num(c.yieldP90,1)})`),elem('td','',c.priceMedianNominal==null?'Sin precio':`S/ ${num(c.priceMedianNominal,2)}/kg`),elem('td','',`${c.years} (${c.fromYear}–${c.toYear})`));
+      const status=c.motorRole==='rotacion_anual'?'Motor · anual':c.motorRole==='perenne'?'Motor · perenne':'DRAP · producción local';tr.append(elem('td','',status));body.append(tr);
+    }
+    byId('drap-crop-count').textContent=`${rows.length} de ${state.data.drapCrops.length} cultivos registrados. Las áreas y producción son promedios por año con cosecha reportada; el precio es nominal, no ajustado por inflación.`;
+    const chart=clear(byId('crop-production-chart'));
+    const top=state.data.drapCrops.slice().sort((a,b)=>(b.latestProductionT||0)-(a.latestProductionT||0)).slice(0,12);
+    const w=850,left=185,right=85,rowH=27,topPad=15,bottom=25,h=topPad+top.length*rowH+bottom;
+    const max=d3.max(top,c=>c.latestProductionT)||1,x=d3.scaleLinear().domain([0,max]).range([left,w-right]);
+    const svg=d3.select(chart).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('role','img').attr('aria-label','Producción reportada por cultivo en el último año disponible de la DRAP');
+    const g=svg.selectAll('g').data(top).join('g').attr('transform',(_,i)=>`translate(0,${topPad+i*rowH})`).attr('tabindex',0).attr('role','button').attr('aria-label',c=>`${pretty(c.name)}, ${num(c.latestProductionT,0)} toneladas en ${c.latestYear}`).on('click',(_,c)=>{byId('drap-crop-search').value=pretty(c.name);renderDrapCrops();byId('drap-crop-table').scrollIntoView({behavior:'smooth',block:'start'});});
+    g.append('text').attr('class','crop-label').attr('x',left-10).attr('y',16).attr('text-anchor','end').text(c=>pretty(c.name));
+    g.append('rect').attr('x',left).attr('y',2).attr('width',c=>x(c.latestProductionT)-left).attr('height',19).attr('rx',5).attr('fill','#76a77b');
+    g.append('text').attr('class','bar-label').attr('x',c=>x(c.latestProductionT)+6).attr('y',16).text(c=>`${num(c.latestProductionT,0)} t · ${c.latestYear}`);
+  }
   function soilCropGuidance(unit,crop){
     const threshold=getProfile(crop)?.ECe_sin_perdida_dS_m;
     if(unit.soil_unit==='Pajarito'||unit.soil_unit==='Ramón')return threshold?
@@ -352,9 +398,18 @@
   }
   function renderSoils(){
     const mode=byId('soil-region-select').value,crop=byId('soil-crop-select').value;
-    const box=clear(byId('soil-cards')),summary=clear(byId('soil-summary')),mapBox=clear(byId('soil-map-units'));
+    const box=clear(byId('soil-cards')),summary=clear(byId('soil-summary')),mapBox=clear(byId('soil-map-units')),conditions=clear(byId('soil-conditions'));
     if(mode==='bajo'){
-      summary.append(elem('p','',`El mapa histórico del Bajo Piura registra ${state.data.soilUnits.length} unidades edáficas —seis series o unidades, clasificadas en Entisoles y Aridisoles— y ${state.data.soilMapUnits.length} asociaciones cartográficas con clases de pendiente. El mapa no da análisis de pH, salinidad, nutrientes o profundidad por unidad; estas descripciones no reemplazan una calicata.`));
+      summary.append(elem('p','',`El mapa histórico del Bajo Piura registra ${state.data.soilUnits.length} unidades edáficas —seis series/subgrupos de Entisoles y Aridisoles— y ${state.data.soilMapUnits.length} asociaciones cartográficas con pendientes. “Árido”, “húmedo/mal drenado”, “arenoso” y “agrietado” describen clima o propiedades del suelo; no son intercambiables con el nombre taxonómico.`));
+      const conditionsList=[
+        ['Aluvial, textura media a fina','Palo Verde y Piura. Sedimentos aluviales; baja a media fertilidad descrita. La textura y profundidad cambian entre perfiles.'],
+        ['Arenoso, retención baja','Cerezal. Arena/arena franca, muy baja fertilidad y menor retención de agua y nutrientes.'],
+        ['Salino y con drenaje pobre','Pajarito y Ramón. El estudio describe salinidad y mal drenaje; su rango de CE cubre el área y no asigna el mismo valor a cada parcela.'],
+        ['Yeso/carbonatos','Curumuy. Terraza marina; la química y el acceso al agua son condicionantes que deben confirmarse en el lote.'],
+        ['Árido / superárido','El estudio SIAR describe zonas de vida desecadas y superáridas en sectores del Bajo Piura. Es clasificación climática y el agua limita el cultivo; no equivale a un orden de suelo.'],
+        ['Agrietado / expansivo','La cartografía verificada no clasifica una serie Vertisol/vertic. Las grietas estacionales deben observarse en campo y confirmarse con arcilla/expansividad; no se infieren solo por zona.']
+      ];
+      for(const [title,description] of conditionsList){const card=elem('article','soil-condition-card');card.append(elem('strong','',title),elem('p','',description));conditions.append(card);}
       for(const soil of state.data.soilUnits){
         const card=elem('article','soil-card');card.append(elem('span','soil-kicker','BAJO PIURA · UNIDAD DE SUELO'),elem('h3','',soil.soil_unit));
         card.append(elem('div','soil-taxonomy',`${soil.soil_taxonomy_order_1999} · ${soil.soil_taxonomy_group_1999} · ${soil.fao_1990_map_label}`));
@@ -370,6 +425,18 @@
       const tbody=elem('tbody','');
       for(const unit of state.data.soilMapUnits){const tr=elem('tr','');tr.append(elem('td','',unit.map_unit),elem('td','',unit.slope_class||'No indicada'),elem('td','',unit.slope_range||'No indicado'),elem('td','',unit.area_ha?`${num(unit.area_ha)} ha`:'Sin dato'),elem('td','',unit.status));const source=elem('td','');addLink(source,'SIAR ↗',unit.source_url);tr.append(source);tbody.append(tr);}
       table.append(tbody);scroller.append(table);mapBox.append(scroller);
+    }else if(mode==='cuencas'){
+      const basins=[...new Set(state.data.soilCumBasins.map(x=>x.basin))];
+      summary.append(elem('p','','Extracto de tres mapas oficiales de capacidad de uso mayor del suelo (CUM), publicados en 2008. La CUM clasifica usos, limitaciones y calidad agrológica; no es taxonomía edáfica. En Huancabamba el mapa destaca pastoreo de páramo, forestal y protección; no se debe leer como recomendación de un cultivo anual.'));
+      for(const basin of basins){
+        const records=state.data.soilCumBasins.filter(x=>x.basin===basin),card=elem('article','soil-card');
+        card.append(elem('span','soil-kicker','CUM · CARTOGRAFÍA DE CUENCA'),elem('h3','',`Río ${basin}`),elem('div','soil-taxonomy',`${records.length} combinaciones de capacidad de uso`));
+        const scroll=elem('div','soil-table-scroll'),table=elem('table',''),thead=elem('thead',''),trh=elem('tr','');
+        for(const title of ['Código CUM','Uso y limitaciones','Área publicada'])trh.append(elem('th','',title));thead.append(trh);table.append(thead);
+        const tbody=elem('tbody','');for(const r of records){const tr=elem('tr','');tr.append(elem('td','',r.map_code),elem('td','',r.description),elem('td','',`${num(r.area_ha,0)} ha`));tbody.append(tr);}table.append(tbody);scroll.append(table);card.append(scroll);
+        const source=elem('div','soil-source');source.append(document.createTextNode('Gobierno Regional de Piura · mapa histórico 2008. '));addLink(source,'Abrir mapa ↗',records[0].source_url);card.append(source);box.append(card);
+      }
+      mapBox.append(elem('p','soil-summary','Claves habituales de la leyenda: A = cultivo en limpio; C = cultivo permanente; P = pastoreo; F = forestal; X = protección. Los sufijos describen calidad agrológica, limitaciones y riego según la leyenda de cada mapa.'));
     }else if(mode==='montero'){
       summary.append(elem('p','','Seis clases de capacidad de uso de la microzonificación de Montero, Ayabaca (circa 2016). Son clases de uso y pendiente, no seis tipos taxonómicos de suelo ni toda la sierra piurana.'));
       for(const soil of state.data.soilCum){
