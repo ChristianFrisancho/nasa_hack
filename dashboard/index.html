@@ -59,8 +59,17 @@
             <label for="soil-condition-select">Condición dominante del terreno</label>
             <select id="soil-condition-select"><option value="">Elige una condición (opcional)</option></select>
             <div id="soil-selection-summary" class="soil-selection-summary" aria-live="polite">Elige una unidad para consultar su clasificación, textura y limitaciones documentadas.</div>
-            <details class="calculator-inputs" open>
-              <summary>Datos de parcela para calcular el siguiente cultivo</summary>
+            <div class="quick-calculator">
+              <h4>Cálculo rápido</h4>
+              <p>Solo eliges el mes. Estima con el escenario de referencia de Bajo Piura guardado en el proyecto; no hace falta llenar agua, presupuesto o análisis de laboratorio.</p>
+              <label for="quick-month">Mes de siembra
+                <select id="quick-month"><option value="1">Enero</option><option value="2">Febrero</option><option value="3">Marzo</option><option value="4">Abril</option><option value="5">Mayo</option><option value="6" selected>Junio</option><option value="7">Julio</option><option value="8">Agosto</option><option value="9">Septiembre</option><option value="10">Octubre</option><option value="11">Noviembre</option><option value="12">Diciembre</option></select>
+              </label>
+              <button id="run-quick-model" class="primary-button" type="button">Ver mejores opciones</button>
+              <p id="quick-model-status" class="live-model-status" aria-live="polite">Resultados rápidos listos sin conectar a un servidor. Puedes abrir el cálculo detallado si tienes mediciones de campo.</p>
+            </div>
+            <details class="calculator-inputs">
+              <summary>Cálculo detallado (opcional) · ingresar mediciones propias</summary>
               <p>El motor compara agua, suelo, calendario, costos, sanidad y reglas. Completa lo que conozcas; cada dato vacío se identifica como pendiente.</p>
               <div class="calculator-grid">
                 <label>Zona agrícola

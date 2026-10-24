@@ -115,6 +115,7 @@ class DashboardBrowserTest(unittest.TestCase):
         self.page.select_option('#previous-select', mango.get_attribute('value'))
         self.page.select_option('#soil-unit-select', 'Cerezal')
         self.page.select_option('#soil-condition-select', 'arenoso')
+        self.page.locator('.calculator-inputs > summary').click()
         self.page.fill('#live-water', '20000')
         self.page.fill('#live-budget', '50000')
         self.page.locator('.advanced-inputs > summary').click()
@@ -133,10 +134,26 @@ class DashboardBrowserTest(unittest.TestCase):
         self.page.select_option('#previous-select', '__unregistered__')
         self.assertIn('Sin cultivo anterior especificado', self.page.locator('#recommendation-card').inner_text())
         self.assertTrue(self.page.locator('#example-picker').is_hidden())
+        self.page.locator('.calculator-inputs > summary').click()
         self.page.fill('#live-water', '20000')
         self.page.locator('#run-live-model').click()
         self.page.wait_for_function("!document.querySelector('#live-results').hidden")
         self.assertIn('sin historial', self.page.locator('#live-results-summary').inner_text().lower())
+
+    def test_quick_calculator_uses_selected_soil_and_needs_no_api(self):
+        requests = []
+        self.page.on('request', lambda request: requests.append(request.url))
+        mango = self.page.locator('#previous-select option').filter(has_text='Mango · ficha agronómica')
+        self.page.select_option('#previous-select', mango.get_attribute('value'))
+        self.page.select_option('#soil-unit-select', 'Cerezal')
+        self.page.select_option('#soil-condition-select', 'arenoso')
+        self.page.select_option('#quick-month', '8')
+        self.page.locator('#run-quick-model').click()
+        self.page.wait_for_function("!document.querySelector('#live-results').hidden")
+        self.assertEqual(self.page.locator('#live-ranking .rank-bubble').all_text_contents(), ['1', '2', '3'])
+        self.assertIn('Cerezal', self.page.locator('#live-results-summary').inner_text())
+        self.assertIn('Escenario de referencia Bajo Piura', self.page.locator('#live-notes').inner_text())
+        self.assertFalse(any('/api/evaluate' in url for url in requests))
 
     def test_evidence_loaded_on_demand(self):
         self.assertTrue(self.page.locator('#evidence-content').is_hidden())
@@ -152,6 +169,9 @@ class DashboardBrowserTest(unittest.TestCase):
         self.page.on('request', lambda request: requests.append(request.url))
         self.page.goto(f'http://127.0.0.1:{self.port}/dashboard/standalone.html')
         self.page.wait_for_selector('#margin-chart svg')
+        self.page.locator('#run-quick-model').click()
+        self.page.wait_for_function("!document.querySelector('#live-results').hidden")
+        self.assertEqual(self.page.locator('#live-ranking .rank-bubble').all_text_contents(), ['1', '2', '3'])
         self.page.locator('#load-evidence').click()
         self.page.wait_for_function("document.querySelector('#evidence-count')?.textContent.includes('filas encontradas')", timeout=30000)
         local_requests = [url for url in requests if url.startswith(f'http://127.0.0.1:{self.port}/')]

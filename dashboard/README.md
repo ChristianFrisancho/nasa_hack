@@ -4,13 +4,15 @@ El tablero usa **D3.js 7.9** para comparar márgenes P10–P50, demanda de agua 
 
 **Sin instalar nada:** descarga [`standalone.html`](standalone.html) desde GitHub (botón «Download raw file») y ábrelo con doble clic. Incluye D3, estilos, los seis ejemplos y el CSV completo comprimido dentro del mismo archivo. La fuente GitHub debe descargarse: la página `blob` muestra el código, no ejecuta HTML.
 
-Para usar el **cálculo en vivo** (cualquier cultivo anterior, zona, suelo y agua) desde la **raíz del repositorio**:
+El **cálculo rápido** funciona también en la página estática: elige cultivo anterior, unidad/condición de suelo y mes. Ejecuta el mismo motor y muestra un ranking con el escenario de referencia de Bajo Piura guardado y comprimido en `data/quick_rotation.json.gz`. Ese escenario usa 6 000 m³/ha/mes (normalizado del ejemplo del proyecto) y 57 % de eficiencia (línea base ANA para Medio/Bajo Piura); no los presenta como mediciones de la parcela. ECe, pH, profundidad, pendiente, presupuesto y plagas quedan desconocidos cuando no hay datos.
+
+Para usar el **cálculo detallado** (cualquier zona, agua y mediciones propias) desde la **raíz del repositorio**:
 
 ```bash
 python dashboard/server.py
 ```
 
-Abre `http://localhost:8000/dashboard/`. Este servidor local ejecuta el mismo motor Python del proyecto por `POST /api/evaluate`; sirve los archivos desde la raíz para que «Datos y fuentes» lea `piura-agro/consolidado/piura_super_dataset.csv`. La vista autónoma permite explorar ejemplos y datos, pero no recalcula entradas arbitrarias. Abrir `index.html` directamente con `file://` tampoco activa el motor.
+Abre `http://localhost:8000/dashboard/`. Este servidor local ejecuta el mismo motor Python del proyecto por `POST /api/evaluate`; sirve los archivos desde la raíz para que «Datos y fuentes» lea `piura-agro/consolidado/piura_super_dataset.csv`. El cálculo rápido está incluido en la página estática y en `standalone.html`; solo el cálculo detallado necesita el servidor.
 
 ## Qué muestra
 
@@ -18,6 +20,7 @@ Abre `http://localhost:8000/dashboard/`. Este servidor local ejecuta el mismo mo
 - El selector inicial de cultivo anterior incluye las 80 etiquetas DRAP y cada una puede alimentar un cálculo nuevo del motor, aunque nunca haya aparecido en una parcela de ejemplo. Las 80 etiquetas conservan sus cifras DRAP; las familias botánicas están asignadas para las 80. Cuando el usuario elige una, se oculta el ranking de ejemplo y se muestra el cálculo propio al pulsar «Calcular y comparar».
 - El formulario inicial permite elegir una unidad edáfica de Bajo Piura y una condición del terreno (aluvial, arenoso, salino/mal drenado, yesoso, árido o agrietado por confirmar). La selección filtra la cartografía y se envía al motor: tras seguridad y rotación familiar, prioriza tolerancia a sales en condición salina y menor riego neto en condición árida/arenosa. Esto no reemplaza ECe, drenaje, textura o química medidos en el lote.
 - Con el servidor activo, «Calcular y comparar» vuelve a ejecutar el motor para las entradas actuales y muestra puestos numerados, incluidos segundo y tercer puesto, ciclo/agua/margen, motivos de alertas, descartes y sistemas perennes aparte. Se pueden ingresar ECe, pH, profundidad, pendiente, drenaje, napa, PSI, eficiencia e intervalo de riego, dotación constante o mensual, ECw, fertilizantes previstos, plagas, presupuesto, mes, zona y escenario ICEN. Una medición vacía sigue como desconocida; si faltan a la vez dos filtros críticos, el motor se abstiene de recomendar.
+- El modo rápido usa referencias regionales precargadas y no llama a una API. La salida rotula esas hipótesis y mantiene visibles faltantes de campo; no debe leerse como una medición real del lote.
 - El catálogo DRAP muestra 80 etiquetas de cultivos con cosecha registrada durante 2015–2024, rendimiento, área cosechada, producción y precio en chacra cuando están disponibles. Son etiquetas literales del registro, no 80 especies únicas: las filas se mantienen separadas y solo se enlazan con perfiles cuando el nombre común identifica el cultivo con suficiente certeza. De los cultivos del motor, 14 se comparan como rotaciones anuales y 7 como sistemas perennes; los demás registros DRAP se presentan como producción local y no como recomendaciones automáticas.
 - La sección **Suelos** lista las seis unidades del mapa histórico de Bajo Piura (Entisoles y Aridisoles), las 27 asociaciones cartográficas unidad-pendiente, seis clases de capacidad de uso de Montero y datos regionales disponibles por zona. Añade 22 combinaciones CUM de tres mapas de cuenca (Chira, Piura y Huancabamba, 2008). La CUM describe usos y limitaciones; no es una clase taxonómica ni un análisis de parcela. Las clases de Montero tampoco son tipos taxonómicos ni cubren toda la sierra. El cruce con cultivos muestra límites y vacíos de evidencia; no declara aptitud cuando falta medición de campo.
 - “Árido” describe el clima; “arenoso”, “salino”, “mal drenado” o “agrietado” describen propiedades distintas del suelo. El tablero separa estas condiciones de los nombres taxonómicos. Las grietas no se atribuyen a una parcela sin identificar arcillas expansivas y observar el perfil en campo.
@@ -31,10 +34,11 @@ La arveja tras arroz en Bajo Piura aparece con sus alertas térmicas y su ausenc
 
 ```bash
 python dashboard/build_data.py
+python dashboard/build_quick_data.py
 ```
 
 El script falla si las 84 alternativas del CSV dejan de coincidir con las salidas del motor. D3 se guarda localmente en `vendor/` bajo licencia ISC (véase `vendor/LICENSE`).
 
-Tras modificar el dashboard o actualizar las tablas, regenera el archivo autónomo con `python dashboard/build_standalone.py`. Este archivo no pide recursos locales ni acceso a los CSV externos cuando se abre; las fuentes web enlazadas solo se consultan si la persona hace clic en ellas.
+Tras modificar el dashboard o actualizar las tablas, regenera el archivo autónomo con `python dashboard/build_standalone.py`. Este archivo incluye las referencias del cálculo rápido y no pide recursos locales ni acceso a los CSV externos cuando se abre; las fuentes web enlazadas solo se consultan si la persona hace clic en ellas.
 
 Las pruebas de navegador comprueban ejemplos previos, selección de las 80 etiquetas, elección de suelo y una solicitud real al motor. Para ejecutarlas instala `dashboard/requirements-test.txt`, ejecuta `python -m playwright install chromium` si falta el navegador y corre `python -m unittest discover -s dashboard/tests`. Las pruebas del motor se corren en `piura-agro/consolidado/motor` con `python -m pytest tests`.

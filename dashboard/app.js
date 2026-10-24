@@ -25,7 +25,7 @@
   const scenarioNames = {sin_el_nino:'Sin El Niño', el_nino_moderado:'El Niño moderado',
     el_nino_fuerte_extraordinario:'El Niño fuerte / extraordinario'};
   const resultNames = {pasa:'Pasa', advierte:'Alerta', no_evaluable:'Sin evaluar', descarta:'Descarta'};
-  const state = {data:null, example:null, crop:null, customPrior:null, customMode:false, selectedSoil:'', selectedCondition:'', liveResponseActive:false, evidence:null, evidenceFiltered:[], evidenceLimit:12};
+  const state = {data:null, quick:null, example:null, crop:null, customPrior:null, customMode:false, selectedSoil:'', selectedCondition:'', liveResponseActive:false, evidence:null, evidenceFiltered:[], evidenceLimit:12};
 
   function elem(tag, cls, value) {
     const node = document.createElement(tag);
@@ -122,6 +122,7 @@
     byId('drap-crop-search').addEventListener('input',renderDrapCrops);
     byId('drap-crop-role').addEventListener('change',renderDrapCrops);
     byId('run-live-model').addEventListener('click',evaluateLiveRotation);
+    byId('run-quick-model').addEventListener('click',evaluateQuickRotation);
     for(const id of ['live-zone','live-month','live-scenario','live-area','live-water-mode','live-water','live-budget','live-ece','live-ph','live-depth','live-slope','live-drainage','live-ecw','live-water-table','live-psi','live-efficiency','live-irrigation-interval','live-fertilizer-n','live-fertilizer-p','live-fertilizer-k','live-pests']){
       byId(id).addEventListener('change',markLiveDirty);byId(id).addEventListener('input',markLiveDirty);
     }
@@ -217,6 +218,39 @@
     return value.startsWith('drap:')?state.data.drapCrops[Number(value.split(':')[1])]:null;
   }
 
+  function quickKey(crop,month){
+    const unit=state.selectedSoil,condition=state.selectedCondition||({Palo:'aluvial','Palo Verde':'aluvial',Piura:'aluvial',Cerezal:'arenoso',Pajarito:'salino',Ramón:'salino',Curumuy:'yesoso'}[unit]||'');
+    const mode=condition==='salino'?'salino':['arido','arenoso'].includes(condition)?'agua':'normal';
+    const poor=['Pajarito','Ramón'].includes(unit)||condition==='salino';
+    return [crop?.motorCrop||'',crop?.family||'',month,mode,poor?'pobre':'sin_drenaje_pobre'].join('|');
+  }
+
+  function quickReferenceNotes(result){
+    result.notes=[
+      'Escenario de referencia Bajo Piura: 6 000 m³/ha/mes (derivado del ejemplo del repositorio) y eficiencia 57 % (ANA, línea base del sistema Medio/Bajo Piura). No son mediciones de tu parcela.',
+      'El motor sí usa mes, familia del cultivo anterior, drenaje inferido del mapa y condición seleccionada.',
+      'ECe, pH, profundidad, pendiente, presupuesto y plagas no se inventan; sus alertas siguen visibles en cada alternativa.'
+    ];
+    result.globalMissing=[];
+    result.quickMode=true;
+    result.summary=`Se aceptan ${result.ranking.length} de 14 cultivos anuales en este escenario; se muestran sus tres primeros puestos.`;
+    return result;
+  }
+
+  function evaluateQuickRotation(){
+    const status=byId('quick-model-status'),crop=selectedPriorRecord(),month=Number(byId('quick-month').value);
+    const key=quickKey(crop,month),result=state.quick?.[key];
+    if(!result){status.textContent='No encuentro esta combinación en el paquete rápido. Actualiza los datos del dashboard y vuelve a abrirlo.';return;}
+    const output=quickReferenceNotes(structuredClone(result));
+    output.previousCrop=crop?.name||'sin historial';
+    output.soilUnit=state.selectedSoil||'sin unidad seleccionada';
+    output.soilCondition=state.selectedCondition||'según unidad de suelo';
+    output.zone='bajo_piura';
+    renderLiveResults(output);
+    status.textContent=`Referencia calculada · ${output.ranking.length} opciones anuales aceptadas. Revisa las alertas antes de trasladarla a una parcela.`;
+    byId('live-results').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+
   async function evaluateLiveRotation(){
     const button=byId('run-live-model'),status=byId('live-model-status'),crop=selectedPriorRecord();
     const payload={
@@ -237,7 +271,12 @@
     button.disabled=true;button.textContent='Calculando…';status.textContent='Ejecutando el motor agronómico con estas entradas…';
     try{
       const response=await fetch('/api/evaluate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
-      const body=await response.json();
+      const raw=await response.text();
+      let body;
+      try{body=JSON.parse(raw);}catch{
+        if(raw.trimStart().startsWith('<'))throw new Error('este alojamiento está sirviendo una página estática y no tiene conectado el motor en vivo. Usa «Cálculo rápido» o ejecuta dashboard/server.py para el cálculo detallado.');
+        throw new Error('el servidor devolvió una respuesta que no es JSON');
+      }
       if(!response.ok)throw new Error(body.error||`El motor respondió ${response.status}`);
       renderLiveResults(body);
       status.textContent=body.ranking.length?`Cálculo terminado · ${body.ranking.length} cultivos anuales aceptados, ordenados por el motor.`:'Cálculo terminado · no hay recomendación suficiente; revisa los datos esenciales que faltan.';
@@ -262,17 +301,21 @@
     const topline=elem('div','rec-topline');topline.append(elem('span','','ORDEN CALCULADO POR EL MOTOR · '+(result.climateZone||'clima regional')),
       elem('span','pill '+(best?'good':'unknown'),topStatus));card.append(topline);
     card.append(elem('h2','custom-crop-title',best?`${previous} → ${pretty(best.cultivo)}`:`No hay una siguiente opción recomendada todavía`));
-    card.append(elem('p','rec-message',best?`Primera opción calculada con tus entradas. ${result.summary}`:`El motor no encontró un cultivo anual que pueda recomendar con seguridad. ${result.summary}`));
+    card.append(elem('p','rec-message',best?`${result.quickMode?'Primera opción del escenario rápido.':'Primera opción calculada con tus entradas.'} ${result.summary}`:`El motor no encontró un cultivo anual que pueda recomendar con seguridad. ${result.summary}`));
     if(best){
       const margin=best.margen_mc?.p50!=null?`S/ ${num(best.margen_mc.p50,0)}/ha (P10 ${num(best.margen_mc.p10,0)})`:'Margen: faltan datos';
       card.append(elem('p','custom-crop-note',`Puesto 1 de ${result.ranking.length} aceptados · ${best.familia} · ciclo ${measureText(best.duracion,'días')} · agua bruta ${measureText(best.agua?.riego_bruto_m3_ha,'m³/ha')} · ${margin}.`));
     }
     const cards=clear(byId('live-ranking'));
     if(accepted.length){
-      accepted.slice(0,5).forEach(item=>cards.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,result.ranking.indexOf(item.cultivo)===0)));
+      accepted.slice(0,result.quickMode?3:5).forEach(item=>cards.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,result.ranking.indexOf(item.cultivo)===0)));
     }else cards.append(elem('p','live-empty','No hay una opción anual aceptada para estas entradas. Revisa los datos esenciales pendientes y los motivos de descarte que aparecen abajo.'));
     const other=clear(byId('live-alternatives'));
-    for(const item of result.accepted.slice(5))other.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,false));
+    for(const item of result.accepted.slice(result.quickMode?3:5))other.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,false));
+    if(result.quickMode)for(const crop of result.ranking.slice(3)){
+      const row=elem('article','live-status-row');row.append(elem('strong','',pretty(crop)),elem('span','pill good',`Aceptado · puesto ${result.ranking.indexOf(crop)+1}`));
+      row.append(elem('p','', 'Alternativa aceptada por el escenario de referencia; usa el cálculo detallado para abrir todos sus filtros.'));other.append(row);
+    }
     for(const item of result.withoutData||[])other.append(renderCompactStatus(item,'Sin datos suficientes'));
     for(const item of result.rejected||[])other.append(renderCompactStatus(item,'Descartado'));
     const perennials=clear(byId('live-perennials'));
@@ -745,6 +788,14 @@
       const inline=byId('dashboard-inline-data');
       if(inline)state.data=JSON.parse(inline.textContent);
       else {const response=await fetch('./data/dashboard.json');if(!response.ok)throw new Error(`HTTP ${response.status}`);state.data=await response.json();}
+      const quickInline=byId('quick-rotation-inline-data');
+      let compressed;
+      if(quickInline)compressed=Uint8Array.from(atob(quickInline.textContent.trim()),character=>character.charCodeAt(0));
+      else {const response=await fetch('./data/quick_rotation.json.gz');if(!response.ok)throw new Error(`HTTP ${response.status}`);compressed=new Uint8Array(await response.arrayBuffer());}
+      let quickText;
+      try{const decoded=new Blob([compressed]).stream().pipeThrough(new DecompressionStream('gzip'));quickText=await new Response(decoded).text();}
+      catch{quickText=new TextDecoder().decode(compressed);}
+      state.quick=JSON.parse(quickText);
       if(!state.data.examples?.length||!state.data.profiles?.length)throw new Error('Snapshot incompleto');
       populateControls();
       const query=new URL(location.href).searchParams;

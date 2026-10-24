@@ -4,7 +4,7 @@ Entrada del equipo al reto «Field Shift: Adapting Farms with NASA Data» (NASA 
 
 El repositorio tiene tres capas:
 
-- **[`dashboard/`](dashboard/)** es el tablero interactivo «Raíz» con D3.js. Ejecuta `python dashboard/server.py` desde la raíz y visita `http://localhost:8000/dashboard/` para recalcular con el motor real; [descarga el HTML autónomo](dashboard/standalone.html) para consultar ejemplos sin cálculo en vivo. El formulario permite elegir entre 80 etiquetas DRAP, unidad de suelo/condición y datos de parcela. Las 80 etiquetas no son 80 especies distintas: sus estadísticas se mantienen separadas y solo se enlazan a fichas cuando el nombre es inequívoco. El motor ordena los siguientes cultivos para entradas nuevas y muestra puestos, márgenes, agua, alertas, descartes y faltantes.
+- **[`dashboard/`](dashboard/)** es el tablero interactivo «Raíz» con D3.js. El modo rápido funciona sin servidor con las 80 etiquetas DRAP, unidad/condición de suelo y mes; el [HTML autónomo](dashboard/standalone.html) también lo incluye. Para recalcular con zona y mediciones propias, ejecuta `python dashboard/server.py` y visita `http://localhost:8000/dashboard/`. El ranking muestra puestos, márgenes, agua, alertas, descartes y faltantes.
 
 - [`piura-agro/`](piura-agro/) es la versión más nueva (24 de octubre de 2026). Trae un contrato de datos común, datos por zona y un motor de rotación que se puede correr y que tiene tests. Empieza por aquí.
 - [`piura-data/`](piura-data/) es el paquete de referencia v2. Ahí están la capa de plagas, los nutrientes FAO, el clima diario NASA POWER en cinco puntos, las exportaciones de n8n y el informe agronómico. Sigue valiendo para lo que `piura-agro/` todavía no cubre.
