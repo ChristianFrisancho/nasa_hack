@@ -180,7 +180,8 @@ def evaluar_cultivo(ficha: Ficha, consulta: Consulta, estado: EstadoSuelo, clima
         dur = ficha.duracion or Cifra.desconocido("días", "duración ciclo", f"duración de {ficha.cultivo} no está "
                                                   "en los datos")
     costo = ficha.costo or Cifra.desconocido("PEN/ha", "costo de producción", f"sin costo para {ficha.cultivo}")
-    fam_ant = cat.fichas[cultivo_anterior].familia if cultivo_anterior in cat.fichas else None
+    fam_ant = (cat.fichas[cultivo_anterior].familia if cultivo_anterior in cat.fichas
+               else consulta.familia_anterior)
     zona, _ = zona_parcela(consulta, clima)
     ficha = cat.ficha(ficha.cultivo, zona)
     alerta, _ = alerta_fen(consulta, cat)
@@ -263,16 +264,29 @@ def _deja_en_suelo(ficha: Ficha, nut: Nutrientes, post: EstadoSuelo, cat: Catalo
     return deja
 
 
-def _clave_ranking(e: EvaluacionCultivo, fam_ant: str | None):
+def _clave_ranking(e: EvaluacionCultivo, fam_ant: str | None, condicion_suelo: str | None = None,
+                   catalogo: Catalogo | None = None):
     """Primero sin 'probable no apto', luego sin pérdida casi segura (P90 < 0); menos alertas; luego margen conservador (P10 de Monte Carlo, redondeado a 100 PEN), aptitud de suelo
     y agua. El punto medio del intervalo ya no se usa: favorecía rangos muy anchos."""
     riego = e.agua.riego_neto_m3_ha.hi if (e.agua and e.agua.disponible) else float("inf")
     p10 = e.margen_mc["p10"] if e.margen_mc else None
     # pérdida casi segura (P90 del margen < 0): detrás de los que pueden ganar, aunque tengan menos alertas
     pierde = bool(e.margen_mc) and e.margen_mc["p90"] < 0
-    return (e.n_graves, pierde, e.n_alertas, e.n_advierte, e.familia == fam_ant, 0 if p10 is not None else 1,
-            -round(p10 / 100) if p10 is not None else 0, -(e.aptitud_suelo if e.aptitud_suelo is not None else 0),
-            riego)
+    filtros = (e.n_graves, pierde, e.n_alertas, e.n_advierte, e.familia == fam_ant)
+    # The selected soil condition only breaks ties after safety/alert counts and rotation family.
+    # It cannot turn an unknown soil measurement into a passing filter.
+    if condicion_suelo == "salino":
+        ficha = catalogo.fichas.get(e.cultivo) if catalogo else None
+        tolerance = (ficha.salinidad or {}).get("ECe_100") if ficha else None
+        return (*filtros, 0 if tolerance is not None else 1, -tolerance if tolerance is not None else 0,
+                0 if p10 is not None else 1, -round(p10 / 100) if p10 is not None else 0,
+                -(e.aptitud_suelo if e.aptitud_suelo is not None else 0), riego)
+    if condicion_suelo in ("arido", "arenoso"):
+        return (*filtros, riego, 0 if p10 is not None else 1,
+                -round(p10 / 100) if p10 is not None else 0,
+                -(e.aptitud_suelo if e.aptitud_suelo is not None else 0))
+    return (*filtros, 0 if p10 is not None else 1, -round(p10 / 100) if p10 is not None else 0,
+            -(e.aptitud_suelo if e.aptitud_suelo is not None else 0), riego)
 
 
 def _contexto(cat: Catalogo, variable: str, zona: str | None) -> Cifra | None:
@@ -381,8 +395,10 @@ def evaluar(consulta: Consulta, catalogo: Catalogo | None = None, estado: Estado
     anuales = [cat.fichas[n] for n in nombres if cat.fichas[n].modulo == "anual"]
     perennes = [cat.fichas[n] for n in nombres if cat.fichas[n].modulo == "perenne"]
     evals = [evaluar_cultivo(f, consulta, estado, clima, cat, consulta.cultivo_anterior) for f in anuales]
-    fam_ant = cat.fichas[consulta.cultivo_anterior].familia if consulta.cultivo_anterior in cat.fichas else None
-    aceptados = sorted((e for e in evals if e.decision == "aceptado"), key=lambda e: _clave_ranking(e, fam_ant))
+    fam_ant = (cat.fichas[consulta.cultivo_anterior].familia if consulta.cultivo_anterior in cat.fichas
+               else consulta.familia_anterior)
+    aceptados = sorted((e for e in evals if e.decision == "aceptado"),
+                       key=lambda e: _clave_ranking(e, fam_ant, consulta.condicion_suelo, cat))
     pers = [evaluar_perenne(f, consulta, estado, clima, cat) for f in perennes]
     pers.sort(key=lambda e: (e.decision != "aceptado", e.n_alertas))
     sin_datos = [e.cultivo for e in evals if e.decision == "sin_datos"]

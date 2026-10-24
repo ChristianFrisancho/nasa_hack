@@ -40,6 +40,10 @@ def evaluacion_a_dict(e) -> dict:
                            "residuo_devuelto": _c(e.nutrientes.residuo_devuelto), "notas": e.nutrientes.notas},
             "rendimiento": _c(e.rendimiento), "precio_chacra": _c(e.precio), "costo_ha": _c(e.costo_ha),
             "margen_ha": _c(e.margen_ha),
+            "margen_mc": _c(e.margen_mc),
+            "aptitud_suelo": e.aptitud_suelo,
+            "alertas": e.n_alertas,
+            "alertas_directas": e.n_advierte,
             "deja_en_suelo": [{"concepto": k, "valor": _c(v)} for k, v in e.deja_en_suelo],
             "datos_faltantes": e.faltantes,
             "estado_tras_cosecha": estado_a_dict(e.estado_tras_cosecha) if e.estado_tras_cosecha else None}

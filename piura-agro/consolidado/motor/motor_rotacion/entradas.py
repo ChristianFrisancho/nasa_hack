@@ -75,6 +75,8 @@ class Consulta:
     zona: str | None = None  # zona CONTRATO.md dada por el usuario (alto_piura, medio_piura, bajo_piura, ...)
     distrito: str | None = None  # si no hay zona, la zona se deduce de datos_repo/distrito_zona.csv
     alerta_enfen: bool | None = None  # None = se usa el comunicado ENFEN cargado (R4A025) si está vigente
+    familia_anterior: str | None = None  # familia botánica si el cultivo previo no está en el catálogo
+    condicion_suelo: str | None = None  # modificador de desempate: salino | arido | arenoso | otro
 
     @staticmethod
     def desde_dict(d: dict) -> "Consulta":
@@ -119,6 +121,9 @@ class Consulta:
         zona = par.get("zona")
         if zona is not None and zona not in ZONAS:
             raise ValueError(f"parcela.zona debe ser una de {[z for z in ZONAS if z]} o null")
+        condition = d.get("condicion_suelo")
+        if condition not in (None, "", "salino", "arido", "arenoso", "yesoso", "agrietado", "aluvial"):
+            raise ValueError("condicion_suelo no reconocida")
         return Consulta(lat=float(lat), lon=float(lon),
                         area_ha=cifra_entrada(par.get("area_ha"), "ha", "área"),
                         provincia=par.get("provincia"), suelo=suelo, agua=agua,
@@ -129,4 +134,6 @@ class Consulta:
                         candidatos=d.get("candidatos"), incorporar_residuos=d.get("incorporar_residuos"),
                         fertilizacion_prevista=d.get("fertilizacion_prevista", {}) or {},
                         zona=zona or None, distrito=par.get("distrito") or None,
-                        alerta_enfen=d.get("alerta_enfen"))
+                        alerta_enfen=d.get("alerta_enfen"),
+                        familia_anterior=d.get("familia_anterior") or d.get("cultivo_anterior_familia"),
+                        condicion_suelo=condition or None)

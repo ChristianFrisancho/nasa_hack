@@ -43,7 +43,8 @@ secs = comparar_secuencias(consulta, largo=2)
 | `suelo.drenaje` | `bueno` / `moderado` / `pobre` | `no_evaluable` |
 | `agua.m3_por_mes` | número o {mes: m3} (agua de turno disponible para la parcela) | `no_evaluable` |
 | `agua.ecw_ds_m`, `agua.eficiencia`, `agua.intervalo_turno_dias` | salinidad del agua, eficiencia de riego (0–1) | sin eficiencia se compara con riego neto y se advierte |
-| `presupuesto_pen`, `cultivo_anterior`, `plagas_presentes` | | `no_evaluable` |
+| `presupuesto_pen`, `cultivo_anterior`, `familia_anterior`, `plagas_presentes` | `familia_anterior` permite aplicar el desempate de rotación a nombres agrícolas registrados localmente que no estén en el catálogo del motor | `no_evaluable` |
+| `condicion_suelo` | `salino`, `arido`, `arenoso`, `yesoso`, `agrietado`, `aluvial` | `salino` usa la tolerancia FAO como desempate después de alertas y familia; `arido`/`arenoso` priorizan menos riego neto. No convierte la descripción del mapa en una medición ni altera filtros críticos. |
 | `escenario` | `sin_el_nino`, `el_nino_moderado`, `el_nino_fuerte_extraordinario` (clasificación ICEN de la campaña). Otro nombre da error con la lista | sin_el_nino. La salida trae además los 3 escenarios (ESCENARIOS CLIMÁTICOS) |
 | `mes_siembra`, `horizonte_meses`, `candidatos`, `incorporar_residuos`, `fertilizacion_prevista` {N, P2O5, K2O kg/ha} | | |
 
@@ -100,6 +101,7 @@ Hay ejemplos en `ejemplos/` y sus salidas reales en `salidas/`:
    5. mayor P10;
    6. aptitud de suelo;
    7. menos agua.
+   Si se informa `condicion_suelo=salino`, el motor desempata por tolerancia ECe 100 % (más tolerante primero) antes del margen; en `arido` o `arenoso`, desempata por menor riego neto antes del margen. Estos modificadores operan después de los filtros duros, número de alertas y cambio de familia; la ECe ausente continúa como no evaluable.
 9. **Secuencias.** Cada paso se reevalúa con el suelo actualizado, el cultivo anterior real y el mes siguiente a la cosecha. El orden es:
    1. viables y que caben en el horizonte;
    2. sin pasos «probable no apto»;

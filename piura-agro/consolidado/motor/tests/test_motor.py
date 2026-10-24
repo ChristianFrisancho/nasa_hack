@@ -34,6 +34,30 @@ def por_cultivo(r):
     return {e.cultivo: e for e in r.evaluaciones}
 
 
+def test_rotacion_acepta_familia_botanica_para_anterior_fuera_del_catalogo():
+    q_sin_familia = consulta(cultivo_anterior="maiz criollo", familia_anterior=None)
+    q_con_familia = consulta(cultivo_anterior="maiz criollo", familia_anterior="Poaceae")
+    assert q_con_familia.familia_anterior == "Poaceae"
+    assert evaluar(q_sin_familia).ranking != evaluar(q_con_familia).ranking
+
+
+def test_condicion_suelo_modifica_desempate_sin_ocultar_filtros_criticos():
+    base = consulta(cultivo_anterior="mango", familia_anterior="Anacardiaceae",
+                    suelo={"ece_ds_m": None}, agua={"m3_por_mes": 20000})
+    normal = evaluar(base).ranking
+    salino = evaluar(consulta(cultivo_anterior="mango", familia_anterior="Anacardiaceae",
+                              suelo={"ece_ds_m": None}, agua={"m3_por_mes": 20000}, condicion_suelo="salino")).ranking
+    arido = evaluar(consulta(cultivo_anterior="mango", familia_anterior="Anacardiaceae",
+                             suelo={"ece_ds_m": None}, agua={"m3_por_mes": 20000}, condicion_suelo="arido")).ranking
+    assert salino != normal
+    assert arido != normal
+    # La ECe sigue siendo no evaluable: el desempate no convierte una medición ausente en un pase.
+    assert any(v.filtro == "salinidad" and v.resultado == "no_evaluable"
+               for v in por_cultivo(evaluar(consulta(cultivo_anterior="mango", familia_anterior="Anacardiaceae",
+                                                    suelo={"ece_ds_m": None}, agua={"m3_por_mes": 20000},
+                                                    condicion_suelo="salino")))['arroz'].veredictos)
+
+
 def test_salinidad_alta_descarta_cultivos_sensibles():
     # FAO-29 (R4A026): el umbral se aplica como exacto solo con ECe medida y napa ≥ 2 m; aquí la napa está medida a 2.5 m
     r = evaluar(consulta(suelo={"ece_ds_m": [9.0, 10.0], "napa_m": 2.5}))

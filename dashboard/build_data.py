@@ -52,7 +52,7 @@ def crop_record(row):
 
 
 def normalized_text(value):
-    return ''.join(c for c in unicodedata.normalize('NFKD', value.lower()) if not unicodedata.combining(c)).strip()
+    return ' '.join(''.join(c for c in unicodedata.normalize('NFKD', value.lower()) if not unicodedata.combining(c)).split())
 
 
 DRAP_CROP_ALIASES = {
@@ -216,7 +216,7 @@ def build():
         'algodon':'Malvaceae','arroz':'Poaceae','arveja':'Fabaceae','banano':'Musaceae','cacao':'Malvaceae',
         'cafe':'Rubiaceae','camote':'Convolvulaceae','cana de azucar':'Poaceae','cebolla':'Amaryllidaceae',
         'frijol grano':'Fabaceae','caupi':'Fabaceae','frijol de palo':'Fabaceae','haba':'Fabaceae','limon':'Rutaceae',
-        'maiz amarillo duro':'Poaceae','maiz amilaceo':'Poaceae','mango':'Anacardiaceae','mani':'Fabaceae',
+        'maiz amarillo duro':'Poaceae','maiz amilaceo':'Poaceae','maiz choclo':'Poaceae','mango':'Anacardiaceae','mani':'Fabaceae',
         'maracuya':'Passifloraceae','naranja':'Rutaceae','palta':'Lauraceae','papa':'Solanaceae','papaya':'Caricaceae',
         'pimiento/paprika':'Solanaceae','pina':'Bromeliaceae','piquillo':'Solanaceae','sorgo':'Poaceae',
         'soya':'Fabaceae','trigo':'Poaceae','uva':'Vitaceae','yuca':'Euphorbiaceae','zapallo':'Cucurbitaceae',
@@ -224,6 +224,28 @@ def build():
     }
     for profile in profiles:
         profile['familia_botanica'] = family_by_crop.get(canonical_crop(profile['cultivo']), '')
+    drap_families = {
+        'aji':'Solanaceae','ajo':'Amaryllidaceae','alfalfa':'Fabaceae','algodon':'Malvaceae','arroz':'Poaceae',
+        'betarraga':'Amaranthaceae','cana de azucar (para alcohol)':'Poaceae','ca a de azucar (para alcohol)':'Poaceae','cacao':'Malvaceae','cafeto':'Rubiaceae',
+        'camote':'Convolvulaceae','capuli (prunus serotina ssp. capuli)':'Rosaceae','cebada grano':'Poaceae',
+        'cebolla':'Amaryllidaceae','chirimoyo':'Annonaceae','ciruelo (ciruela spondias)':'Anacardiaceae',
+        'cocotero':'Arecaceae','col o repollo':'Brassicaceae','granadilla':'Passifloraceae','guanabano':'Annonaceae',
+        'guayabo':'Myrtaceae','higuera':'Moraceae','lechuga':'Asteraceae','lima':'Rutaceae','limon dulce':'Rutaceae',
+        'lucuma (producto)':'Sapotaceae','lucumo':'Sapotaceae','mamey':'Sapotaceae','mango':'Anacardiaceae',
+        'mani para fruta':'Fabaceae','mani fruta':'Fabaceae','maiz choclo':'Poaceae','maracuya':'Passifloraceae','marigold':'Asteraceae',
+        'melon':'Cucurbitaceae','nispero':'Rosaceae','oca':'Oxalidaceae','olluco':'Basellaceae','otros pastos':'Poaceae',
+        'pacae o guabo':'Fabaceae','papaya':'Caricaceae','pasto elefante':'Poaceae','pasto sudan':'Poaceae',
+        'pimiento':'Solanaceae','pitahaya':'Cactaceae','quinua':'Amaranthaceae','rabano':'Brassicaceae',
+        'sandia':'Cucurbitaceae','sorgo escobero':'Poaceae','sorgo grano':'Poaceae','soya':'Fabaceae',
+        'tamarindo':'Fabaceae','taperiba':'Anacardiaceae','tomate':'Solanaceae','tumbo':'Passifloraceae',
+        'platanos y bananas para coccion (m x paradisiaca)':'Musaceae',
+        'platanos y bananas para cocci n (m x paradisiaca)':'Musaceae',
+        'zanahoria':'Apiaceae',
+    }
+    profiles_by_canonical = {canonical_crop(row['cultivo']): row for row in profiles}
+    for crop in drap_crops:
+        profile = profiles_by_canonical.get(crop['profileCrop']) if crop['profileCrop'] else None
+        crop['family'] = (profile or {}).get('familia_botanica') or drap_families.get(normalized_text(crop['name']), '')
     soil_units = read_csv('../../piura-data/suelos_bajo_piura_unidades_v2.csv')
     soil_cum = read_csv('../../piura-data/suelos_montero_ayabaca_cum_v2.csv')
     soil_map_units = read_csv('../../piura-data/suelos_bajo_piura_mapunits_v2.csv')

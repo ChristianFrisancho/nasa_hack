@@ -1,4 +1,4 @@
-/* Raíz: an explanatory view over published, precomputed Piura examples. */
+/* Raíz: live rotation calculations plus transparent published Piura examples. */
 (() => {
   'use strict';
   const byId = id => document.getElementById(id);
@@ -25,7 +25,7 @@
   const scenarioNames = {sin_el_nino:'Sin El Niño', el_nino_moderado:'El Niño moderado',
     el_nino_fuerte_extraordinario:'El Niño fuerte / extraordinario'};
   const resultNames = {pasa:'Pasa', advierte:'Alerta', no_evaluable:'Sin evaluar', descarta:'Descarta'};
-  const state = {data:null, example:null, crop:null, customPrior:null, selectedSoil:'', evidence:null, evidenceFiltered:[], evidenceLimit:12};
+  const state = {data:null, example:null, crop:null, customPrior:null, customMode:false, selectedSoil:'', selectedCondition:'', liveResponseActive:false, evidence:null, evidenceFiltered:[], evidenceLimit:12};
 
   function elem(tag, cls, value) {
     const node = document.createElement(tag);
@@ -78,9 +78,8 @@
     const prior = clear(byId('previous-select'));
     option(prior,'__unregistered__','No especificado · sin historial previo');
     state.data.drapCrops.forEach((crop,index)=>{
-      const modeled=state.data.examples.some(e=>e.previousCrop===crop.profileCrop&&e.id!=='inviable');
       const profile=crop.profileCrop&&getProfile(crop.profileCrop);
-      const detail=modeled?' · escenario calculado':profile?' · ficha, sin escenario calculado':' · registro DRAP';
+      const detail=profile?' · ficha agronómica':' · registro DRAP';
       option(prior,`drap:${index}`,`${pretty(crop.name)}${detail}`);
     });
     const parcels = clear(byId('parcel-select'));
@@ -98,7 +97,7 @@
     soilSelect.addEventListener('change',()=>{
       state.selectedSoil=soilSelect.value;
       if(state.selectedSoil)byId('soil-region-select').value='bajo';
-      renderSoilSelection();renderSoils();
+      renderSoilSelection();renderSoils();markLiveDirty();
     });
     const conditionSelect=clear(byId('soil-condition-select'));
     option(conditionSelect,'','Elige una condición (opcional)');
@@ -106,25 +105,29 @@
     conditionSelect.addEventListener('change',()=>{
       state.selectedCondition=conditionSelect.value;
       if(state.selectedCondition)byId('soil-region-select').value='bajo';
-      renderSoilSelection();renderSoils();
+      renderSoilSelection();renderSoils();markLiveDirty();
     });
     prior.addEventListener('change', () => {
       if(prior.value==='__unregistered__'){
-        const example=state.data.examples.find(e=>!e.previousCrop&&e.id!=='inviable');
-        if(example)chooseExample(example.id);
+        chooseCustomPrior(null);
         return;
       }
       const crop=state.data.drapCrops[Number(prior.value.split(':')[1])];
       if(!crop)return;
-      const example=state.data.examples.find(e=>e.previousCrop&&e.previousCrop===crop.profileCrop&&e.id!=='inviable');
-      if(example)chooseExample(example.id);
-      else chooseCustomPrior(crop);
+      chooseCustomPrior(crop);
     });
     parcels.addEventListener('change', () => {if(parcels.value)chooseExample(parcels.value);});
     profiles.addEventListener('change', renderProfiles);
     byId('data-stamp').textContent = `${state.data.counts.drapCrops} cultivos con cosecha DRAP · ${state.data.counts.annualChoices} anuales comparables + ${state.data.counts.motorPerennials} sistemas perennes · ${state.data.counts.soilUnits} unidades edáficas`;
     byId('drap-crop-search').addEventListener('input',renderDrapCrops);
     byId('drap-crop-role').addEventListener('change',renderDrapCrops);
+    byId('run-live-model').addEventListener('click',evaluateLiveRotation);
+    for(const id of ['live-zone','live-month','live-scenario','live-area','live-water-mode','live-water','live-budget','live-ece','live-ph','live-depth','live-slope','live-drainage','live-ecw','live-water-table','live-psi','live-efficiency','live-irrigation-interval','live-fertilizer-n','live-fertilizer-p','live-fertilizer-k','live-pests']){
+      byId(id).addEventListener('change',markLiveDirty);byId(id).addEventListener('input',markLiveDirty);
+    }
+    const monthWater=clear(byId('month-water-grid'));
+    const monthLabels=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+    monthLabels.forEach((month,index)=>{const label=elem('label','',month),input=elem('input','');input.type='number';input.min='0';input.step='100';input.id=`live-water-month-${index+1}`;input.setAttribute('aria-label',`Agua disponible en ${month}`);label.append(input);input.addEventListener('input',markLiveDirty);monthWater.append(label);});
     renderDrapCrops();
   }
 
@@ -135,37 +138,41 @@
   }
 
   function chooseCustomPrior(crop){
-    state.customPrior=crop;state.crop=null;
-    byId('previous-select').value=`drap:${state.data.drapCrops.indexOf(crop)}`;
+    state.customPrior=crop;state.customMode=true;state.crop=null;state.liveResponseActive=false;
+    if(crop)byId('previous-select').value=`drap:${state.data.drapCrops.indexOf(crop)}`;
     byId('parcel-select').value='';
-    if(crop.profileCrop&&getProfile(crop.profileCrop)){
+    if(crop?.profileCrop&&getProfile(crop.profileCrop)){
       byId('profile-select').value=crop.profileCrop;
       byId('soil-crop-select').value=crop.profileCrop;
     }
-    byId('parcel-zone').textContent='Escenario no calculado';
-    byId('parcel-coords').textContent='Selecciona una parcela de ejemplo para ver un ranking';
+    byId('example-picker').hidden=true;
+    byId('live-results').hidden=true;
     renderCustomPrior(crop);renderSoilSelection();renderSoils();updateUrl();
   }
 
   function renderCustomPrior(crop){
     for(const id of ['metrics-section','comparar','filters-section','resources-section','scenarios-section'])byId(id).hidden=true;
     const card=clear(byId('recommendation-card'));
-    const top=elem('div','rec-topline');top.append(elem('span','','EXPLORACIÓN DE CULTIVO · SIN RANKING'),elem('span','pill unknown','No hay escenario calculado'));card.append(top);
-    card.append(elem('h2','custom-crop-title',pretty(crop.name)));
-    card.append(elem('p','rec-message','Este cultivo aparece en registros de cosecha de Piura, pero el motor no tiene una parcela precalculada para evaluarlo como cultivo anterior. No muestro un siguiente cultivo ni copio el ranking de otro escenario.'));
-    const stats=elem('div','custom-crop-stats');
-    for(const [label,value] of [['Área cosechada media',`${num(crop.harvestAreaMeanHa,0)} ha/año`],['Producción media',`${num(crop.productionMeanT,0)} t/año`],['Rendimiento mediano',crop.yieldP50==null?'Sin rendimiento calculable':`${num(crop.yieldP50,1)} t/ha`],['Años con cosecha',`${crop.years} (${crop.fromYear}–${crop.toYear})`]]){
-      const item=elem('div','custom-crop-stat');item.append(elem('span','',label),elem('strong','',value));stats.append(item);
+    const top=elem('div','rec-topline');top.append(elem('span','',crop?'CULTIVO ANTERIOR · CÁLCULO A TU MEDIDA':'ROTACIÓN SIN HISTORIAL PREVIO'),elem('span','pill unknown','Calcula tu escenario'));card.append(top);
+    card.append(elem('h2','custom-crop-title',crop?pretty(crop.name):'Sin cultivo anterior especificado'));
+    card.append(elem('p','rec-message',crop?'Este cultivo anterior se puede evaluar con tus datos de parcela. El ranking aparecerá al pulsar «Calcular y comparar cultivos siguientes»; no se reutiliza el de otra parcela.':'El motor comparará los cultivos anuales con tus condiciones. Al no haber historial, no aplicará una restricción por familia anterior.'));
+    if(crop){
+      const stats=elem('div','custom-crop-stats');
+      for(const [label,value] of [['Área cosechada media',`${num(crop.harvestAreaMeanHa,0)} ha/año`],['Producción media',`${num(crop.productionMeanT,0)} t/año`],['Rendimiento mediano',crop.yieldP50==null?'Sin rendimiento calculable':`${num(crop.yieldP50,1)} t/ha`],['Años con cosecha',`${crop.years} (${crop.fromYear}–${crop.toYear})`]]){
+        const item=elem('div','custom-crop-stat');item.append(elem('span','',label),elem('strong','',value));stats.append(item);
+      }
+      card.append(stats);
     }
-    card.append(stats);
-    const note=elem('p','custom-crop-note','Para ver un ranking calculado, elige una parcela de ejemplo. La unidad de suelo seleccionada permite consultar su ficha, pero no sustituye ECe, pH, drenaje, profundidad, agua y presupuesto medidos.');card.append(note);
-    const profile=crop.profileCrop&&getProfile(crop.profileCrop);
+    const note=elem('p','custom-crop-note','Ingresa zona, disponibilidad de agua, suelo y presupuesto para ordenar las alternativas. Los datos de laboratorio vacíos quedarán señalados como pendientes.');card.append(note);
+    const profile=crop?.profileCrop&&getProfile(crop.profileCrop);
     if(profile){const button=elem('button','outline-button','Abrir ficha agronómica');button.type='button';button.addEventListener('click',()=>{byId('profile-select').value=profile.cultivo;renderProfiles();byId('cultivos').scrollIntoView({behavior:'smooth'});});card.append(button);}
     renderProfiles();
   }
 
   function chooseExample(id, crop) {
-    state.customPrior=null;
+    state.customPrior=null;state.customMode=false;state.liveResponseActive=false;
+    byId('live-results').hidden=true;
+    byId('example-picker').hidden=false;
     for(const section of ['metrics-section','comparar','filters-section','resources-section','scenarios-section'])byId(section).hidden=false;
     state.example = state.data.examples.find(e => e.id === id) || state.data.examples[0];
     state.crop = crop && state.example.candidates.some(c => c.crop === crop) ? crop :
@@ -186,11 +193,120 @@
   function updateUrl() {
     if (location.protocol === 'file:' || location.protocol === 'data:') return;
     const url = new URL(location.href);
-    if(state.customPrior){url.searchParams.delete('parcela');url.searchParams.delete('cultivo');url.searchParams.set('cultivo_anterior',state.customPrior.name);history.replaceState(null,'',url);return;}
+    if(state.customMode){url.searchParams.delete('parcela');url.searchParams.delete('cultivo');if(state.customPrior)url.searchParams.set('cultivo_anterior',state.customPrior.name);else url.searchParams.delete('cultivo_anterior');history.replaceState(null,'',url);return;}
     url.searchParams.delete('cultivo_anterior');
     url.searchParams.set('parcela',state.example.id);
     url.searchParams.set('cultivo',state.crop);
     history.replaceState(null,'',url);
+  }
+
+  function markLiveDirty(){
+    if(!byId('live-results'))return;
+    if(state.liveResponseActive){
+      state.liveResponseActive=false;
+      if(state.customMode)renderCustomPrior(state.customPrior);else render();
+    }
+    if(byId('live-results').hidden)return;
+    byId('live-results').hidden=true;
+    byId('live-model-status').textContent='Cambiaste una entrada. Vuelve a calcular para actualizar el orden y las razones.';
+  }
+
+  function selectedPriorRecord(){
+    if(state.customPrior)return state.customPrior;
+    const value=byId('previous-select').value;
+    return value.startsWith('drap:')?state.data.drapCrops[Number(value.split(':')[1])]:null;
+  }
+
+  async function evaluateLiveRotation(){
+    const button=byId('run-live-model'),status=byId('live-model-status'),crop=selectedPriorRecord();
+    const payload={
+      previous_crop:crop?.name||'',previous_family:crop?.family||'',previous_model_crop:crop?.motorCrop||'',
+      zone:byId('live-zone').value,planting_month:Number(byId('live-month').value),area_ha:byId('live-area').value,
+      irrigation_mode:byId('live-water-mode').value,water_m3_month:byId('live-water').value,budget_pen:byId('live-budget').value,
+      ece:byId('live-ece').value,ph:byId('live-ph').value,depth_cm:byId('live-depth').value,slope_pct:byId('live-slope').value,
+      drainage:byId('live-drainage').value,ecw:byId('live-ecw').value,soil_unit:state.selectedSoil,
+      soil_condition:state.selectedCondition,scenario:byId('live-scenario').value,
+      water_table_m:byId('live-water-table').value,psi_pct:byId('live-psi').value,
+      irrigation_efficiency:byId('live-efficiency').value,irrigation_interval_days:byId('live-irrigation-interval').value,
+      fertilizer_n:byId('live-fertilizer-n').value,fertilizer_p:byId('live-fertilizer-p').value,
+      fertilizer_k:byId('live-fertilizer-k').value,
+      pests:byId('live-pests').value.split(',').map(name=>name.trim()).filter(Boolean)
+    };
+    const monthly={};for(let month=1;month<=12;month++){const value=byId(`live-water-month-${month}`).value;if(value!=='')monthly[month]=Number(value);}
+    if(Object.keys(monthly).length)payload.water_m3_by_month=monthly;
+    button.disabled=true;button.textContent='Calculando…';status.textContent='Ejecutando el motor agronómico con estas entradas…';
+    try{
+      const response=await fetch('/api/evaluate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      const body=await response.json();
+      if(!response.ok)throw new Error(body.error||`El motor respondió ${response.status}`);
+      renderLiveResults(body);
+      status.textContent=body.ranking.length?`Cálculo terminado · ${body.ranking.length} cultivos anuales aceptados, ordenados por el motor.`:'Cálculo terminado · no hay recomendación suficiente; revisa los datos esenciales que faltan.';
+      byId('live-results').scrollIntoView({behavior:'smooth',block:'start'});
+    }catch(error){
+      byId('live-results').hidden=true;
+      status.textContent=`No pude ejecutar el motor: ${error.message}. Abre el tablero con “python dashboard/server.py”, no con un servidor estático.`;
+    }finally{button.disabled=false;button.textContent='Calcular y comparar cultivos siguientes';}
+  }
+
+  function measureText(measure,unit){
+    if(!measure||measure.value==null)return 'Pendiente de dato';
+    const range=measure.min!=null&&measure.max!=null&&Number(measure.min)!==Number(measure.max)?` (${num(measure.min)}–${num(measure.max)})`:'';
+    return `${num(measure.value)}${range}${unit||measure.unit?' '+(unit||measure.unit):''}`;
+  }
+
+  function renderLiveResults(result){
+    state.liveResponseActive=true;
+    const card=clear(byId('recommendation-card')),accepted=result.accepted||[],best=accepted[0];
+    const previous=pretty(result.previousCrop);
+    const topStatus=!best?'Faltan datos esenciales':best.margen_mc?.p50!=null&&best.margen_mc.p50<0?'Primera opción · margen negativo':'Ranking calculado';
+    const topline=elem('div','rec-topline');topline.append(elem('span','','ORDEN CALCULADO POR EL MOTOR · '+(result.climateZone||'clima regional')),
+      elem('span','pill '+(best?'good':'unknown'),topStatus));card.append(topline);
+    card.append(elem('h2','custom-crop-title',best?`${previous} → ${pretty(best.cultivo)}`:`No hay una siguiente opción recomendada todavía`));
+    card.append(elem('p','rec-message',best?`Primera opción calculada con tus entradas. ${result.summary}`:`El motor no encontró un cultivo anual que pueda recomendar con seguridad. ${result.summary}`));
+    if(best){
+      const margin=best.margen_mc?.p50!=null?`S/ ${num(best.margen_mc.p50,0)}/ha (P10 ${num(best.margen_mc.p10,0)})`:'Margen: faltan datos';
+      card.append(elem('p','custom-crop-note',`Puesto 1 de ${result.ranking.length} aceptados · ${best.familia} · ciclo ${measureText(best.duracion,'días')} · agua bruta ${measureText(best.agua?.riego_bruto_m3_ha,'m³/ha')} · ${margin}.`));
+    }
+    const cards=clear(byId('live-ranking'));
+    if(accepted.length){
+      accepted.slice(0,5).forEach(item=>cards.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,result.ranking.indexOf(item.cultivo)===0)));
+    }else cards.append(elem('p','live-empty','No hay una opción anual aceptada para estas entradas. Revisa los datos esenciales pendientes y los motivos de descarte que aparecen abajo.'));
+    const other=clear(byId('live-alternatives'));
+    for(const item of result.accepted.slice(5))other.append(renderLiveCandidate(item,result.ranking.indexOf(item.cultivo)+1,false));
+    for(const item of result.withoutData||[])other.append(renderCompactStatus(item,'Sin datos suficientes'));
+    for(const item of result.rejected||[])other.append(renderCompactStatus(item,'Descartado'));
+    const perennials=clear(byId('live-perennials'));
+    for(const item of result.perennials||[]){const row=elem('article','live-perennial');row.append(elem('strong','',pretty(item.cultivo)),elem('span','',item.decision==='aceptado'?'Evaluado como sistema perenne':'Requiere revisar filtros'));row.append(elem('p','',`Primera cosecha: ${measureText(item.anios_a_primera_produccion,'años')} · agua anual ${measureText(item.agua_anual?.riego_bruto_m3_ha,'m³/ha')}.`));if(item.datos_faltantes?.length)row.append(elem('small','',`Pendiente: ${item.datos_faltantes.slice(0,3).join('; ')}`));perennials.append(row);}
+    const notes=clear(byId('live-notes'));
+    if(result.rankingRule)notes.append(elem('p','live-ranking-rule',`Cómo se ordenó: ${result.rankingRule}`));
+    for(const text of [...(result.notes||[]),...(result.warnings||[]),...(result.globalMissing||[])].slice(0,12))notes.append(elem('p','',text));
+    byId('live-results-title').textContent=best?`Siguiente mejor: ${pretty(best.cultivo)}`:'Qué dato falta para ordenar la rotación';
+    byId('live-results-summary').textContent=`Cultivo anterior: ${previous} · suelo: ${result.soilUnit} · condición: ${result.soilCondition} · zona de cálculo: ${result.zone}.`;
+    byId('live-results').hidden=false;
+    for(const id of ['metrics-section','comparar','filters-section','resources-section','scenarios-section'])byId(id).hidden=true;
+  }
+
+  function renderLiveCandidate(item,rank,featured){
+    const card=elem('article',`live-candidate${featured?' featured':''}`),head=elem('div','live-candidate-head');
+    head.append(elem('span','rank-bubble',String(rank)),elem('div','',null));
+    head.lastChild.append(elem('h4','',pretty(item.cultivo)),elem('small','',`${item.familia} · ${item.decision}`));
+    card.append(head);
+    const metrics=elem('div','live-candidate-metrics');
+    const margin=item.margen_mc?.p50==null?'Pendiente':`S/ ${num(item.margen_mc.p50,0)}/ha · P10 ${num(item.margen_mc.p10,0)}`;
+    for(const [label,value] of [['Margen simulado',margin],['Ciclo',measureText(item.duracion,'días')],['Riego bruto',measureText(item.agua?.riego_bruto_m3_ha,'m³/ha')],['Rendimiento',measureText(item.rendimiento,'t/ha')]]){const m=elem('div','');m.append(elem('span','',label),elem('strong','',value));metrics.append(m);}card.append(metrics);
+    const reasons=(item.veredictos||[]).filter(v=>v.resultado!=='pasa');
+    const explanation=elem('details','live-reasons');explanation.append(elem('summary','',`${reasons.length} alertas o datos pendientes · Ver por qué`));
+    for(const verdict of reasons.slice(0,6))explanation.append(elem('p','',`${filterNames[verdict.filtro]||pretty(verdict.filtro)}: ${verdict.motivo}`));
+    if(item.datos_faltantes?.length)explanation.append(elem('p','',`Datos que podrían cambiar el orden: ${item.datos_faltantes.join('; ')}`));
+    card.append(explanation);return card;
+  }
+
+  function renderCompactStatus(item,status){
+    const row=elem('article','live-status-row');
+    row.append(elem('strong','',pretty(item.cultivo)),elem('span','pill unknown',status));
+    const reasons=item.motivos_descarte||item.datos_faltantes||[];
+    row.append(elem('p','',reasons.slice(0,3).join(' · ')||'Revisar las mediciones y filtros del cultivo.'));
+    return row;
   }
   function recommendationLevel(candidate, top) {
     if (!top) return {label:'Ninguna opción viable', css:'danger'};

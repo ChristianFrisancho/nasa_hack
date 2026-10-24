@@ -20,7 +20,7 @@ class DashboardBrowserTest(unittest.TestCase):
             sock.bind(('127.0.0.1', 0))
             cls.port = sock.getsockname()[1]
         cls.server = subprocess.Popen(
-            [sys.executable, '-m', 'http.server', str(cls.port), '--bind', '127.0.0.1'],
+            [sys.executable, 'dashboard/server.py', '--port', str(cls.port)],
             cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
         )
         for _ in range(50):
@@ -94,11 +94,11 @@ class DashboardBrowserTest(unittest.TestCase):
 
     def test_all_drap_crops_are_selectable_without_reusing_an_unrelated_ranking(self):
         self.assertEqual(self.page.locator('#previous-select option').count(), 81)
-        mango = self.page.locator('#previous-select option').filter(has_text='Mango · ficha, sin escenario calculado')
+        mango = self.page.locator('#previous-select option').filter(has_text='Mango · ficha agronómica')
         self.page.select_option('#previous-select', mango.get_attribute('value'))
         card = self.page.locator('#recommendation-card').inner_text()
         self.assertIn('Mango', card)
-        self.assertIn('No hay escenario calculado', card)
+        self.assertIn('se puede evaluar con tus datos', card)
         self.assertNotIn('Caupí', card)
         self.assertTrue(self.page.locator('#comparar').is_hidden())
 
@@ -109,6 +109,34 @@ class DashboardBrowserTest(unittest.TestCase):
         self.assertEqual(self.page.locator('#soil-cards .soil-card').count(), 1)
         self.page.select_option('#soil-condition-select', 'agrietado')
         self.assertIn('por confirmar', self.page.locator('#soil-selection-summary').inner_text())
+
+    def test_live_motor_ranks_candidates_from_user_inputs(self):
+        mango = self.page.locator('#previous-select option').filter(has_text='Mango · ficha agronómica')
+        self.page.select_option('#previous-select', mango.get_attribute('value'))
+        self.page.select_option('#soil-unit-select', 'Cerezal')
+        self.page.select_option('#soil-condition-select', 'arenoso')
+        self.page.fill('#live-water', '20000')
+        self.page.fill('#live-budget', '50000')
+        self.page.locator('.advanced-inputs > summary').click()
+        self.page.fill('#live-efficiency', '0.75')
+        self.page.fill('#live-fertilizer-n', '80')
+        self.page.locator('#run-live-model').click()
+        self.page.wait_for_function("!document.querySelector('#live-results').hidden")
+        self.assertIn('Siguiente mejor:', self.page.locator('#live-results-title').inner_text())
+        self.assertGreaterEqual(self.page.locator('#live-ranking .live-candidate').count(), 3)
+        self.assertIn('Cómo se ordenó:', self.page.locator('#live-notes').inner_text())
+        self.assertIn('Cerezal', self.page.locator('#live-results-summary').inner_text())
+        self.assertIn('arenoso', self.page.locator('#live-results-summary').inner_text())
+        self.assertEqual(self.page.locator('#live-ranking .rank-bubble').all_text_contents()[:3], ['1', '2', '3'])
+
+    def test_no_history_is_a_calculable_scenario_not_a_sample_parcel(self):
+        self.page.select_option('#previous-select', '__unregistered__')
+        self.assertIn('Sin cultivo anterior especificado', self.page.locator('#recommendation-card').inner_text())
+        self.assertTrue(self.page.locator('#example-picker').is_hidden())
+        self.page.fill('#live-water', '20000')
+        self.page.locator('#run-live-model').click()
+        self.page.wait_for_function("!document.querySelector('#live-results').hidden")
+        self.assertIn('sin historial', self.page.locator('#live-results-summary').inner_text().lower())
 
     def test_evidence_loaded_on_demand(self):
         self.assertTrue(self.page.locator('#evidence-content').is_hidden())
